@@ -6,7 +6,7 @@ seo-title: Implementación con la administración dinámica de etiquetas
 title: Implementación con la administración dinámica de etiquetas
 uuid: c 4 f 752 c 4-392 e -4909-b 178-911706857064
 translation-type: tm+mt
-source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
+source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
 
 ---
 
@@ -94,7 +94,7 @@ mcvid-dtm-implement.xml
    >
    >Esta acción rellena el cuadro ID de organización **[!UICONTROL de Experience Cloud]** con su identificador de organización. Si su cuenta de DTM no está vinculada a [!DNL Experience Cloud], deberá proporcionar este ID. Para vincular su cuenta, consulte [Vinculación de cuentas en Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). Consulte los [requisitos](../mcvid-reference/mcvid-requirements.md#section-a02f537129a64ffbb690d5738d360c26) para ver información sobre cómo localizar el ID de su organización.
 
-1. Escriba el nombre del servidor de seguimiento en el cuadro **[!UICONTROL Servidor]** de seguimiento. Si no está seguro de cómo encontrar su servidor de seguimiento, consulte [las preguntas más frecuentes](../mcvid-faq-intro/mcvid-faq.md) y [Rellenar correctamente las variables trackingserver y trackingserversecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+1. Escriba el nombre del servidor de seguimiento en el cuadro **[!UICONTROL Servidor]** de seguimiento. Si no está seguro de cómo encontrar su servidor de seguimiento, consulte [las preguntas más frecuentes](../mcvid-faq-intro/ecid-faq.md) y [Rellenar correctamente las variables trackingserver y trackingserversecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 1. Haga clic en **[!UICONTROL Crear herramienta]** y **[!UICONTROL guarde los cambios]**.
 
    Tras la operación de guardar, el servicio de ID quedará configurado como una herramienta dentro de DTM. No obstante, aún no estará listo para usarse. Su herramienta de DTM todavía tendrá que pasar por el proceso de publicación/aprobación de DTM, y es posible que le interese configurar otros parámetros adicionales. Para obtener información acerca del proceso de aprobación de DTM, consulte el vídeo de [iniciación rápida en los conceptos básicos de usuario](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html). Para obtener información sobre los otros parámetros adicionales que se pueden agregar a DTM, consulte [Configuración del servicio Experience Cloud ID para DTM](../mcvid-implementation-guides/mcvid-standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
