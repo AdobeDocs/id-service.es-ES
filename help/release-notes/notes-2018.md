@@ -6,7 +6,7 @@ seo-title: Notas de la versión 2018
 title: Notas de la versión 2018
 uuid: 771 b 5 b 11-a 8 e 3-464 c-b 65 e-b 15135584 ace
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
@@ -27,7 +27,7 @@ Versiones de funciones, actualizaciones o cambios en el servicio de identidad de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Se ha mejorado la seguridad de las cookies AMCV </p> </td> 
-   <td colname="col2"> <p>Durante un análisis de seguridad interna se descubrió que, al utilizar la biblioteca DTM, las cookies empleadas para la gestión de la sesión no especificaban atributos apropiados. Como resultado, podía compartirse de forma inadvertida información de las cookies. Para solucionar este problema hemos introducido una configuración que permite al cliente establecer la cookie AMCV como segura. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-securecookie.html" format="https" scope="external">secureCookie</a>. </p> </td> 
+   <td colname="col2"> <p>Durante un análisis de seguridad interna se descubrió que, al utilizar la biblioteca DTM, las cookies empleadas para la gestión de la sesión no especificaban atributos apropiados. Como resultado, podía compartirse de forma inadvertida información de las cookies. Para solucionar este problema hemos introducido una configuración que permite al cliente establecer la cookie AMCV como segura. Consulte <a href="/help/library/function-vars/securecookie.md" format="https" scope="external">secureCookie</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
