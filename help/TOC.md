@@ -3,16 +3,16 @@ cloud: experience-cloud
 product: Servicio de ID
 audience: usuario final
 user-guide-title: Ayuda del servicio de ID
-user-guide-url: /content/help/en/id-service/using/home.html
+user-guide-url: /content/help/en/id-service/using/mcvid-home.html
 translation-type: tm+mt
-source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
+source-git-commit: 4dc668afd37cd1d6f9104adb1b102f1dd4c5746e
 
 ---
 
 
 # Ayuda del servicio de ID {#using}
 
-+ [Servicio Experience Cloud ID](home.md)
++ [Servicio Experience Cloud ID](mcvid-home.md)
 + Información general  {#mcvid-introduction}
    + [Información general  ](mcvid-introduction/mcvid-overview.md)
    + [Acerca del servicio de ID](mcvid-introduction/mcvid-about-id-service.md)
@@ -30,7 +30,7 @@ source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
    + [Implementación del servicio Experience Cloud ID para Analytics, Audience Manager y Target](mcvid-implementation-guides/mcvid-setup-aam-analytics-target.md)
    + [Uso del servicio Experience Cloud ID con A4T y una implementación de Target en el lado del servidor](mcvid-implementation-guides/ecid-a4t-target.md)
    + [Integración directa con el servicio Experience Cloud ID](mcvid-implementation-guides/mcvid-direct-integration.md)
-   + [Casos de uso de integración directa](mcvid-implementation-guides/ecid-direct-integration-examples.md)
+   + [Casos de uso de integración directa](mcvid-implementation-guides/mcvid-direct-integration-examples.md)
    + [Probar y verificar el servicio Experience Cloud ID](mcvid-implementation-guides/mcvid-test-verify.md)
    + Documentación de inclusión {#opt-in-service}
       + [Información general sobre el servicio de inclusión](mcvid-implementation-guides/opt-in-service/mcvid-optin-overview.md)
@@ -99,10 +99,10 @@ source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
    + [Monitoreo de vídeo y servicio Experience Cloud ID](mcvid-reference/mcvid-heartbeat.md)
    + [Data Workbench y el servicio Experience Cloud ID](mcvid-reference/mcvid-dwb.md)
 + Preguntas más frecuentes {#faqs}
-   + [Información general sobre preguntas más frecuentes](mcvid-faq-intro/ecid-faq-intro.md)
-   + [Preguntas más frecuentes sobre el servicio de ID](mcvid-faq-intro/ecid-faq.md)
-   + [Preguntas más frecuentes sobre el servicio de ID y Analytics](mcvid-faq-intro/ecid-analytics-faq.md)
-   + [Preguntas más frecuentes para otras soluciones de Experience Cloud](mcvid-faq-intro/ecid-other-faq.md)
+   + [Información general sobre preguntas más frecuentes](mcvid-faq-intro/mcvid-faq-intro.md)
+   + [Preguntas más frecuentes sobre el servicio de ID](mcvid-faq-intro/mcvid-faq.md)
+   + [Preguntas más frecuentes sobre el servicio de ID y Analytics](mcvid-faq-intro/mcvid-analytics-faq.md)
+   + [Preguntas más frecuentes para otras soluciones de Experience Cloud](mcvid-faq-intro/mcvid-other-faq.md)
 + Notas de la versión del servicio de ID {#release-notes}
    + [Notas de la versión 2019](mcvid-release-notes/mcvid-release-notes.md)
    + [Notas de la versión 2018](mcvid-release-notes/mcvid-notes-2018.md)
