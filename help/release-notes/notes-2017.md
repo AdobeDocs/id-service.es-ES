@@ -6,7 +6,7 @@ seo-title: Notas de la versión 2017
 title: Notas de la versión 2017
 uuid: 79452 df 0-49 db -42 b 8-96 fe -01 aa 7629 fbb 5
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
@@ -177,7 +177,7 @@ Fecha de la versión: Febrero de 2017
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Propiedad de la API del servicio de ID, <span class="codeph"> idSyncContainerID </span></p> </td> 
-   <td colname="col2"> <p>Esta propiedad define el ID de contenedor que utiliza <span class="keyword"> Audience Manager </span> para sincronizar los ID. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsyncontainerid.html" format="https" scope="external"> idSyncContainerID</a>. </p> </td> 
+   <td colname="col2"> <p>Esta propiedad define el ID de contenedor que utiliza <span class="keyword"> Audience Manager </span> para sincronizar los ID. Consulte <a href="/help/library/function-vars/idsyncontainerid.md" format="https" scope="external"> idSyncContainerID</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Método de la API del servicio de ID, <span class="codeph"> appendSupplementalDataIDTo( <span class="varname"> URL </span>, <span class="varname"> SDID</span>)</span></p> </td> 
