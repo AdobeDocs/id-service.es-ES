@@ -5,7 +5,7 @@ seo-title: Servicio de selección
 title: Servicio de selección
 uuid: aebd 72 ad -4118-471 b -9755-d 08 a 72 caa 0 fd
 translation-type: tm+mt
-source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 El servicio de selección le permite configurar protocolos para que el visitante determine si puede configurar una cookie en el dispositivo o navegador del usuario al visitar el sitio.
 
-El servicio de selección es una extensión del [servicio Experience Cloud ID (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) , diseñada para controlar si las soluciones de Experience Cloud pueden crear cookies en páginas web para los visitantes antes de su consentimiento. El servicio de selección también le permite establecer protocolos para integrarlos con su plataforma de administración de consentimiento (CMP) y los sistemas existentes como parte del diseño más grande.
+El servicio de selección es una extensión del ID de Experience Cloud (ECID), diseñada para controlar si las soluciones de Experience Cloud pueden crear cookies en páginas web para visitantes antes de su consentimiento. El servicio de selección también le permite establecer protocolos para integrarlos con su plataforma de administración de consentimiento (CMP) y los sistemas existentes como parte del diseño más grande.
 
 Con el servicio de selección, puede especificar si un visitante puede activar las soluciones de Adobe a la vez o presentar soluciones en secuencia para los permisos. Una vez que el cliente completa y registra el proceso de aprobación, puede recuperar las aprobaciones de visitante de CMP desde las soluciones de Adobe.
 
