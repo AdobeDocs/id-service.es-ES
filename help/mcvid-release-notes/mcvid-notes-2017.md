@@ -6,7 +6,7 @@ seo-title: Notas de la versión 2017
 title: Notas de la versión 2017
 uuid: 79452 df 0-49 db -42 b 8-96 fe -01 aa 7629 fbb 5
 translation-type: tm+mt
-source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
+source-git-commit: 4dc668afd37cd1d6f9104adb1b102f1dd4c5746e
 
 ---
 
@@ -74,7 +74,7 @@ Agosto de 2017
 
 **Documentación revisada**
 
-Se han actualizado y revisado las [Preguntas más frecuentes](/help/mcvid-faq-intro/ecid-faq-intro.md) para incluir preguntas frecuentes independientes para [!DNL Experience Cloud] distintas soluciones.
+Se han actualizado y revisado las [Preguntas más frecuentes](/help/mcvid-faq-intro/mcvid-faq-intro.md) para incluir preguntas frecuentes independientes para [!DNL Experience Cloud] distintas soluciones.
 
 ## Versión 2.3 {#section-ae7b1cb1e52e4ca5a46b453a3ba1f571}
 
@@ -134,7 +134,7 @@ Fecha de la versión: Junio de 2017
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../mcvid-faq-intro/ecid-faq.md" format="dita" scope="local"> Preguntas más frecuentes </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../mcvid-faq-intro/mcvid-faq.md" format="dita" scope="local"> Preguntas más frecuentes </a> </p> </td> 
    <td colname="col2"> <p>Se ha actualizado la sección <span class="keyword">Analytics</span> con información sobre cómo encontrar la información sobre el servidor de seguimiento. </p> </td> 
   </tr> 
  </tbody> 
