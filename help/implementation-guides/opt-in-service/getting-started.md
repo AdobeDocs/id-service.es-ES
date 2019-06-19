@@ -5,7 +5,7 @@ seo-title: Configuración del servicio de selección
 title: Configuración del servicio de selección
 uuid: f 1 c 27139-cef 2-4122-af 12-c 839 cfc 82 e 6 e
 translation-type: tm+mt
-source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
+source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 Implementar el servicio de selección como punto de referencia único utilizado por las soluciones de Experience Cloud (denominado Categorías en la inclusión) para determinar si se crean cookies en el dispositivo de un visitante.
 
-El servicio de selección es una biblioteca JavaScript compilada con [Experience Cloud ID (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) y existe en el JS de visitante del `adobe` objeto global como `adobe.optIn` objeto. El servicio de inclusión instalado le permite especificar si un visitante puede participar en soluciones de Adobe a la vez o presentar soluciones en secuencia para obtener permiso para cada uno. La función de administración de consentimiento del servicio de selección le permite implementar con varias configuraciones para sus requisitos de privacidad específicos.
+El servicio de selección es una biblioteca JavaScript compilada con Experience Cloud ID (ECID) y existe en el JS de visitante del `adobe` objeto global como `adobe.optIn` objeto. El servicio de inclusión instalado le permite especificar si un visitante puede participar en soluciones de Adobe a la vez o presentar soluciones en secuencia para obtener permiso para cada uno. La función de administración de consentimiento del servicio de selección le permite implementar con varias configuraciones para sus requisitos de privacidad específicos.
 
 El servicio de selección permite especificar si un visitante puede activar las soluciones de Adobe a la vez o presentar las soluciones en secuencia para el permiso de cada uno. Una vez que el cliente completa y registra el proceso de aprobación, todas las soluciones de Adobe pueden recuperar las aprobaciones de visitante de CMP para responder con llamadas de consentimiento relacionadas.
 
