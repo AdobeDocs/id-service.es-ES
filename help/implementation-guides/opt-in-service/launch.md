@@ -1,22 +1,22 @@
 ---
-description: Utilice Launch, de Adobe para simplificar la habilitación de la solución de Experience Cloud para Opt-in.
-seo-description: Utilice Launch, de Adobe para simplificar la habilitación de la solución de Experience Cloud para Opt-in.
+description: Simplifique la activación de la solución Experience Cloud para la inclusión mediante el uso de Adobe Experience Platform Launch.
+seo-description: Simplifique la activación de la solución Experience Cloud para la inclusión mediante el uso de Adobe Experience Platform Launch.
 seo-title: Configuración de Opt-in con Launch
 title: Configuración de Opt-in con Launch
 uuid: d 35 ed 917-c 4 bd -4868-9026-1461 f 1 a 8 f 13 e
 translation-type: tm+mt
-source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
 
 # Configuración de Opt-in con Launch {#configuring-opt-in-with-launch}
 
-Utilice Launch, de Adobe para simplificar la habilitación de la solución de Experience Cloud para Opt-in.
+Simplifique la activación de la solución Experience Cloud para la inclusión mediante el uso de Adobe Experience Platform Launch.
 
 ## Configurar un escenario de Opt-in con Launch {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
 
-Con [Launch, de Adobe](https://docs.adobelaunch.com/) es muy sencillo configurar un escenario de inclusión con soluciones de Adobe. Puede simplificar la recopilación de consentimientos de inclusión de los visitantes para las soluciones de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras soluciones de Experience Cloud (o todas ellas) para incluirse en su sistema de administración del consentimiento.
+[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) simplifica la configuración y configura un escenario de activación con las soluciones de Adobe. Puede simplificar la recopilación de consentimientos de inclusión de los visitantes para las soluciones de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras soluciones de Experience Cloud (o todas ellas) para incluirse en su sistema de administración del consentimiento.
 
 **Configurar la extensión Experience Cloud ID**
 
