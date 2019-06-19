@@ -6,7 +6,7 @@ seo-title: Implementación del servicio Experience Cloud ID para Analytics
 title: Implementación del servicio Experience Cloud ID para Analytics
 uuid: 7 fbd 6 fa 0-1713-4232-8680-500 ed 62709 d 5
 translation-type: tm+mt
-source-git-commit: cce8f5559baa0598fedaccf2fece6ec90cb641b7
+source-git-commit: 4dc668afd37cd1d6f9104adb1b102f1dd4c5746e
 
 ---
 
@@ -134,7 +134,7 @@ Para determinar las variables del servidor de seguimiento que se van a emplear:
 
 
 
-Si no está seguro de cómo encontrar su servidor de seguimiento, consulte [las preguntas más frecuentes](../mcvid-faq-intro/ecid-faq.md) y [Rellenar correctamente las variables trackingserver y trackingserversecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+Si no está seguro de cómo encontrar su servidor de seguimiento, consulte [las preguntas más frecuentes](../mcvid-faq-intro/mcvid-faq.md) y [Rellenar correctamente las variables trackingserver y trackingserversecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## Paso 5: Actualizar el archivo appmeasurement. js o s_ code. js {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
