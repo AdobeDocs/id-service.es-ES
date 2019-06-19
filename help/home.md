@@ -1,19 +1,19 @@
 ---
 description: 'El servicio de identidad de Experience Platform proporciona un ID universal y persistente que identifica a los visitantes entre todas las soluciones de Experience Cloud. '
 keywords: Servicio de ID
-seo-description: El servicio de identidad de Adobe Experience Platform proporciona un ID universal y persistente que identifica a los visitantes en todas las soluciones de Experience Cloud. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Target y otras soluciones o funciones de Experience Cloud.
+seo-description: El servicio de identidad de Adobe Experience Platform (ID de Adobe Experience Platform) proporciona un ID universal y persistente que identifica a los visitantes entre todas las soluciones de Experience Cloud. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Target y otras soluciones o funciones de Experience Cloud.
 seo-title: Servicio de identidad de la plataforma de experiencia
 title: Servicio de identidad de la plataforma de experiencia
 uuid: b 68194 b 5-e 549-4 f 6 f-bfaf -7744926 aeaac
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 746f8937c59d318dcf7245c7f8484884974601dc
 
 ---
 
 
-# Servicio de identidad de la plataforma de experiencia {#experience-cloud-id-service}
+# Servicio de identidad de Adobe Experience Platform {#experience-cloud-id-service}
 
-El servicio de identidad de la plataforma de Experience Platform (ID) proporciona un ID universal y persistente que identifica a los visitantes entre todas las soluciones de Experience Cloud. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Target y otras soluciones o funciones de Experience Cloud.
+El servicio de identidad de Adobe Experience Platform (servicio de identidad) proporciona un ID universal y persistente que identifica a los visitantes entre todas las soluciones de Experience Cloud. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Target y otras soluciones o funciones de Experience Cloud.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
