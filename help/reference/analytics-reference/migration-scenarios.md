@@ -2,16 +2,16 @@
 description: Se indican configuraciones del servidor de ejemplo y los pasos de migración necesarios.
 keywords: Servicio de ID
 seo-description: Se indican configuraciones del servidor de ejemplo y los pasos de migración necesarios.
-seo-title: Escenarios de migración de servicios de identidad de la plataforma de experiencia
-title: Escenarios de migración de servicios de identidad de la plataforma de experiencia
+seo-title: Escenarios de migración del servicio Experience Cloud ID
+title: Escenarios de migración del servicio Experience Cloud ID
 uuid: 9 e 229045-6508-48 c 4-ae 39-9537 b 4941853
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Escenarios de migración de servicios de identidad de la plataforma de experiencia {#experience-cloud-id-service-migration-scenarios}
+# Escenarios de migración del servicio Experience Cloud ID {#experience-cloud-id-service-migration-scenarios}
 
 Se indican configuraciones del servidor de ejemplo y los pasos de migración necesarios.
 
@@ -34,7 +34,7 @@ En primer lugar, debe habilitarse Experience Cloud para este cliente (consulte l
 * **Archivo JavaScript de Analytics**: varios archivos JavaScript. Un archivo para el sitio principal y otro archivo para la sección de soporte técnico que se conserva en un CMS independiente.
 * **Otros métodos de recopilación de datos**: etiquetas de imagen predefinidas en el código en una única sección del sitio
 
-En primer lugar, este cliente debe buscar su ID de organización de Adobe Experience Cloud (consulte los [requisitos](../../reference/requirements.md)). A continuación, deberá configurar un período de gracia de migración porque está utilizando varios archivos JavaScript. Este cliente también configurará la migración de visitantes y `*.2o7.net` luego dejará de utilizarla `*.sc.omtrdc.net`.
+En primer lugar, este cliente debe buscar su ID de organización de Adobe Experience Cloud (consulte los [requisitos](../../reference/requirements.md)). A continuación, deberá configurar un período de gracia de migración porque está utilizando varios archivos JavaScript. This customer will also set up visitor migration and then migrate from `*.2o7.net` to `*.sc.omtrdc.net`.
 
 Cuando este cliente actualice el código JavaScript de Analytics a la versión más reciente como preparación para la implementación del servicio de ID de [!DNL Experience Cloud], también actualizará todas las etiquetas de imagen predefinidas en el código para que utilicen JavaScript en su lugar.
 
