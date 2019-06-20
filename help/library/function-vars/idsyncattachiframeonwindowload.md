@@ -1,19 +1,19 @@
 ---
-description: Un indicador booleano opcional que controla cómo carga el servicio de identidad de Experience Platform el iframe de sincronización de ID.
+description: Un indicador booleano opcional que controla cómo carga el servicio de ID de Experience Cloud el iframe de sincronización de ID.
 keywords: Servicio de ID
-seo-description: Un indicador booleano opcional que controla cómo carga el servicio de identidad de Experience Platform el iframe de sincronización de ID.
+seo-description: Un indicador booleano opcional que controla cómo carga el servicio de ID de Experience Cloud el iframe de sincronización de ID.
 seo-title: idSyncAttachIframeOnWindowLoad
 title: idSyncAttachIframeOnWindowLoad
 uuid: aa 2 c 2 fa 4-2 cab -4 e 08-8 d 35-729 a 6 c 3 e 459 a
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
 # idSyncAttachIframeOnWindowLoad{#idsyncattachiframeonwindowload}
 
-Un indicador booleano opcional que controla cómo carga el servicio de identidad de Experience Platform el iframe de sincronización de ID.
+Un indicador booleano opcional que controla cómo carga el servicio de ID de Experience Cloud el iframe de sincronización de ID.
 
 **Sintaxis:**` `Idsyncattachiframeonwindowload = true | false &quot; (predeterminado es `false`&quot;.
 
