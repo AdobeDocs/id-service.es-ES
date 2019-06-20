@@ -6,7 +6,7 @@ seo-title: Preguntas más frecuentes sobre el servicio de ID
 title: Preguntas más frecuentes sobre el servicio de ID
 uuid: e 8 d 8 f 819-3 d 73-4 fa 2-864 c -4867071 c 14 ee
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
@@ -23,27 +23,27 @@ Consulte la [Información general](../introduction/overview.md).
 
 **¿Por qué el servicio de ID no está realizando una llamada para recuperar el Experience Cloud ID?**
 
-Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de política de seguridad de contenido de su sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. Consulte [Políticas de seguridad de contenido y Experience Platform Identity Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
+Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de política de seguridad de contenido de su sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. Consulte [Políticas de seguridad del contenido y el servicio Experience Cloud ID](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
 
 **Almacenamiento del archivo VisitorAPI.js**
 
 Puede experimentar problemas si aloja VisitorAPI.js como archivo local en aplicaciones móviles. Se recomienda alojar el archivo en un servidor web.
 
-## Latencia y tiempos de carga de página {#section-c78e148d8dbe4c77a436ef0f2af5434b}
+## Page load times and latency {#section-c78e148d8dbe4c77a436ef0f2af5434b}
 
 **¿Cómo afecta la ubicación de la biblioteca VisitorAPI.js del servicio de ID a los tiempos de carga de las páginas?**
 
-Coloque la biblioteca visitorapi. js en la parte superior de la página en la `<head>` sección de su código. Esto le ayuda a garantizar que la llamada de un ID se emita antes de que el cuerpo de la página empiece a cargarse y que aumenten las posibilidades de que se devuelva un ID correctamente.
+Place the VisitorAPI.js library at the top of the page in the `<head>` section of your code. Esto le ayuda a garantizar que la llamada de un ID se emita antes de que el cuerpo de la página empiece a cargarse y que aumenten las posibilidades de que se devuelva un ID correctamente.
 
 La llamada de servicio de ID es asíncrona y es la única llamada al [dominio demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
 
-Para [!DNL Target] los clientes, la colocación de código de servicio de ID en la `<body>` página puede aumentar las probabilidades de que pudiera bloquear una [!DNL Target] llamada. Si debe colocar el código de servicio de ID en el cuerpo de la página, debe colocarse después de la `<body>` etiqueta abierta.
+For [!DNL Target] customers, placing ID service code in the `<body>` of the page may increase the odds that it could block a [!DNL Target] call. If you must place ID service code in the body of your page, it should be placed after the open `<body>` tag.
 
 **¿Con cada carga de página, realiza el servicio de ID una llamada al servidor?**
 
 No, esta llamada solo se producirá la primera vez que se procese la página y, posteriormente, una vez cada 7 días. Mientras tanto, no se necesitarán las llamadas al servidor. El servicio de ID funciona en el modo del lado del cliente y no necesita realizar una llamada al servidor para devolver un ID.
 
-Consulte [Información general](../introduction/overview.md).
+See [Overview](../introduction/overview.md).
 
 **Al utilizar el servicio de ID, ¿qué puede ralentizar los tiempos de carga de las páginas o repercutir en la experiencia del usuario?**
 
@@ -67,13 +67,13 @@ Este cambio mejora el rendimiento de los clientes que utilizan Visitor 2.3.0 o 
 
 Las solicitudes de recursos con CORS generalmente son más preferibles que con JSONP. Gracias a JSONP, algunos navegadores ponen en cola y derogan la prioridad de las solicitudes relativas a otras llamadas síncronas y asíncronas en la página. CORS ayuda a garantizar que estas solicitudes sean tratadas con una prioridad mayor en la pila de llamadas del navegador.
 
-Consulte [Compatibilidad con CORS en el servicio de identidad de Experience Platform](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Consulte [Compatibilidad con CORS en el servicio Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 ## Seguridad {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
 **¿El servicio de ID es compatible con CORS?**
 
-Sí. Consulte [Compatibilidad con CORS en el servicio de identidad de Experience Platform](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Sí. See [CORS Support in the Experience Cloud ID Service](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **¿Qué es CORS?**
 
