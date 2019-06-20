@@ -1,19 +1,19 @@
 ---
-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
+description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de ID de Experience Cloud.
 keywords: Servicio de ID
-seo-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
-seo-title: Requisitos del servicio de identidad de Experience Platform
-title: Requisitos del servicio de identidad de Experience Platform
+seo-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio Experience Cloud ID.
+seo-title: Requisitos del servicio Experience Cloud ID
+title: Requisitos del servicio Experience Cloud ID
 uuid: 608 b 1082-6 e 9 e -4101-b 6 cb -60027950109 b
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Requisitos del servicio de identidad de Experience Platform {#requirements-for-the-experience-cloud-id-service}
+# Requisitos del servicio Experience Cloud ID {#requirements-for-the-experience-cloud-id-service}
 
-Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
+Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio Experience Cloud ID.
 
 ## Los requisitos garantizan el éxito y la compatibilidad de la implementación {#section-15e54a9e9ad2443cb9dc950b4a78f1f1}
 
