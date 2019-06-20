@@ -6,24 +6,24 @@ seo-title: Casos de uso de integración directa
 title: Casos de uso de integración directa
 uuid: 6 de 1 eb 8 b -4783-4545-8 a 64-ab 6 b 9 ef 93432
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Casos de uso de integración directa {#direct-integration-use-cases}
+# Direct integration use cases {#direct-integration-use-cases}
 
 Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una integración directa y el Experience Cloud ID (MID). El MID es un ID constante y único para sus visitantes de sitio.
 
 >[!TIP]
 >
->* Revise y comprenda la sintaxis [y las variables de código](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) antes de profundizar en los casos de uso.
->* Para obtener más información acerca del MID, consulte [Cookies y el servicio de identidad de Experience Platform](../introduction/cookies.md).
+>* Review and understand the [code syntax and variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) before diving into the use cases.
+>* For more information about the MID, see [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
 >
 
 
 
-## Caso de uso 1: Tengo un MID pero deseo pasar mis ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
+## Use case 1: I have a MID but want to pass my Visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
@@ -65,7 +65,7 @@ Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una int
  </tbody> 
 </table>
 
-## Caso de uso 2: No tengo un MID y tengo que generar uno {#section-8e81291f8b684de8b88fae4002ae0029}
+## Use case 2: I do not have a MID and need to generate one {#section-8e81291f8b684de8b88fae4002ae0029}
 
 <table id="table_666A92693F8A413096DF6A64770C1141"> 
  <thead> 
