@@ -6,12 +6,12 @@ seo-title: Uso del servicio de ID con A 4 T y una implementación del lado del s
 title: Uso del servicio de ID con A 4 T y una implementación del lado del servidor de Target
 uuid: debbc 5 ca -7 f 8 b -4331-923 e -0 e 6339057 de 2
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Uso del servicio de ID con A 4 T y una implementación del lado del servidor de Target {#using-the-id-service-with-a-t-and-a-server-side-implementation-of-target}
+# Using the ID Service with A4T and a server-side implementation of Target {#using-the-id-service-with-a-t-and-a-server-side-implementation-of-target}
 
 Estas instrucciones van dirigidas a clientes de A4T con implementaciones mixtas de lado de servidor y de cliente de Target, Analytics y el servicio de ID. Los clientes que necesiten ejecutar el servicio de ID en un entorno de NodeJS o Rhino deberían también consultar esta información. Esta instancia del servicio de ID utiliza una versión abreviada de la biblioteca de códigos VisitorAPI.js, la cual se descarga e instala desde el administrador de paquetes de nodos (NPM). Lea esta sección para conocer las instrucciones de instalación y otros requisitos de configuración.
 
@@ -20,11 +20,11 @@ Estas instrucciones van dirigidas a clientes de A4T con implementaciones mixtas 
 A4T (y otros clientes) puede usar esta versión del servicio de ID cuando necesiten hacer lo siguiente:
 
 * Procesar contenido de páginas web en sus servidores y pasárselo a un navegador para que este lo muestre.
-* Realice [!DNL Target] llamadas al lado del servidor.
+* Make server-side [!DNL Target] calls.
 * Realizar llamadas del lado de cliente (dentro del navegador) a [!DNL Analytics].
 * Sincronizar identificadores de [!DNL Target] y de [!DNL Analytics] por separado para determinar si un visitante que haya sido visto por una solución es la misma persona que otra solución puede haber visto.
 
-## Descarga de código e interfaces proporcionadas {#section-32d75561438b4c3dba8861be6557be8a}
+## Code download and provided interfaces {#section-32d75561438b4c3dba8861be6557be8a}
 
 Consulte el [repositorio NPM del servicio de ID](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server) para descargar el paquete de código del lado de servidor y ver las interfaces que se incluyen en la versión actual.
 
@@ -34,20 +34,20 @@ El diagrama y las secciones que siguen describen qué ocurre y qué debe configu
 
 ![](assets/serverside.png)
 
-## Paso 1: Página de solicitud {#section-c12e82633bc94e8b8a65747115d0dda8}
+## Step 1: Request page {#section-c12e82633bc94e8b8a65747115d0dda8}
 
-La actividad del lado de servidor comienza cuando un visitante realiza una solicitud HTTP para cargar una página web. En este paso, el servidor recibe la solicitud y comprueba la cookie de [Cookie AMCV](../introduction/cookies.md). La cookie AMCV contiene [!DNL Experience Cloud] el ID del visitante (MID).
+La actividad del lado de servidor comienza cuando un visitante realiza una solicitud HTTP para cargar una página web. En este paso, el servidor recibe la solicitud y comprueba la cookie de [Cookie AMCV](../introduction/cookies.md). The AMCV cookie contains the visitor&#39;s [!DNL Experience Cloud] ID (MID).
 
-## Paso 2: Generar carga útil del servicio de ID {#section-c86531863db24bd9a5b761c1a2e0d964}
+## Step 2: Generate ID Service payload {#section-c86531863db24bd9a5b761c1a2e0d964}
 
-A continuación, debe realizar un servidor *`payload request`* en el servicio de ID. Las solicitudes de carga útil hacen lo siguiente:
+Next, you need make a server-side *`payload request`* to the ID service. Las solicitudes de carga útil hacen lo siguiente:
 
 * Pasan la cookie de AMCV al servicio de ID.
 * Solicitan datos que Target y Analytics necesitan en los pasos subsiguientes que se describen a continuación.
 
 >[!NOTE]
 >
->Este método solicita un solo mbox desde [!DNL Target]. Si necesita solicitar varios mboxes en una sola llamada, consulte [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload).
+>This method requests a single mbox from [!DNL Target]. Si necesita solicitar varios mboxes en una sola llamada, consulte [generateBatchPayload](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server#generatebatchpayload).
 
 Su solicitud de carga útil deberá ser como el ejemplo de código que sigue: En el ejemplo del código, la función `visitor.setCustomerIDs` es opcional. Consulte [ID de cliente y estados de autenticación](../reference/authenticated-state.md) para obtener más información.
 
@@ -100,7 +100,7 @@ Si su visitante no tiene una cookie de AMCV, la carga útil omite estos pares cl
 * `mboxAAMB`
 * `mboxMCGLH`
 
-## Paso 3: Agregar carga útil a la llamada de Target {#section-62451aa70d2f44ceb9fd0dc2d4f780f7}
+## Step 3: Add payload to the Target call {#section-62451aa70d2f44ceb9fd0dc2d4f780f7}
 
 Una vez que el servidor recibe los datos de carga útil del servicio de ID, deberá crear una instancia de código adicional para fusionarla con los datos transferidos a [!DNL Target]. El objeto JSON final transferido a [!DNL Target] tendría un aspecto similar a este:
 
@@ -122,9 +122,9 @@ Una vez que el servidor recibe los datos de carga útil del servicio de ID, debe
 } 
 ```
 
-## Paso 4: Obtención del estado del servidor para el servicio de ID {#section-8ebfd177d42941c1893bfdde6e514280}
+## Step 4: Get server state for the ID Service {#section-8ebfd177d42941c1893bfdde6e514280}
 
-Los datos del estado del servidor incluyen información acerca del trabajo realizado en el servidor. El código del servicio de ID del lado de cliente requiere esta información. Los clientes que han implementado el servicio de ID mediante [!DNL Dynamic Tag Manager] (DTM) pueden configurar DTM para pasar los datos del estado del servidor a través de esa herramienta. Si ha configurado el servicio de ID por medio de un proceso no estándar, deberá devolver el estado del servidor con su propio código. El servicio de ID del lado de cliente y el código de [!DNL Analytics] transfieren los datos de estado a Adobe al cargarse la página.
+Los datos del estado del servidor incluyen información acerca del trabajo realizado en el servidor. El código del servicio de ID del lado de cliente requiere esta información. Customers who have implemented the ID service through [!DNL Dynamic Tag Manager] (DTM) can configure DTM to pass server state data through that tool. Si ha configurado el servicio de ID por medio de un proceso no estándar, deberá devolver el estado del servidor con su propio código. El servicio de ID del lado de cliente y el código de [!DNL Analytics] transfieren los datos de estado a Adobe al cargarse la página.
 
 **Obtención del estado del servidor a través de la DTM**
 
@@ -132,7 +132,7 @@ Si ha implementado el servicio de ID con DTM, debe agregar código a su página 
 
 **Código de página**
 
-Agregue este código a `<head>` la etiqueta de su página HTML:
+Add this code to the `<head>` tag of your HTML page:
 
 ```js
 //Get server state 
@@ -160,13 +160,13 @@ Agregue estos pares nombre-valor a la sección **[!UICONTROL General &gt; Config
 
    >[!IMPORTANT]
    >
-   >El nombre del valor debe coincidir con el nombre de variable definido en `serverState` el código de página.
+   >The value name must match the variable name you set for `serverState` in your page code.
 
 Una vez configurados, los ajustes deberán verse así:
 
 ![](assets/server_side_dtm.png)
 
-Consulte también [Configuración del servicio de identidad de la plataforma de experiencia para DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
+Consulte también [Configuración del servicio Experience Cloud ID para DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
 
 **Obtener el estado del servidor sin DTM**
 
@@ -189,7 +189,7 @@ Response.send("
 ...
 ```
 
-## Paso 5: Proporcionar una página y devolver datos de Experience Cloud {#section-4b5631a0d75a41febd6f43f8c214c263}
+## Step 5: Serve a page and return Experience Cloud data {#section-4b5631a0d75a41febd6f43f8c214c263}
 
 En este punto, el servidor web envía el contenido de la página al navegador del visitante. A partir de este punto, el navegador (no el servidor) realiza el resto de las llamadas del servicio de ID y de [!DNL Analytics]. Por ejemplo, en el navegador:
 
