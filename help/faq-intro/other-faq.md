@@ -6,12 +6,12 @@ seo-title: Preguntas más frecuentes para otras soluciones de Experience Cloud
 title: Preguntas más frecuentes para otras soluciones de Experience Cloud
 uuid: 7 d 848663-6 cbb -4 d 80-ab 06-7 b 6 d 2 dc 20 e 2 b
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Preguntas más frecuentes para otras soluciones de Experience Cloud{#faqs-for-other-experience-cloud-solutions}
+# FAQs for other Experience Cloud solutions{#faqs-for-other-experience-cloud-solutions}
 
 Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos a otras soluciones de Experience Cloud con el servicio de ID.
 
@@ -25,7 +25,7 @@ Consulte [Implementación estándar con DTM](../implementation-guides/standard.m
 
 ## Analytics y Audience Manager {#section-b3dd206d497041acb04554c6fb1c912a}
 
-**¿Se exportará el historial visitante de un usuario[!DNL Adobe Analytics][!DNL Audience Manager]después de implementar el servicio de identidad de Experience Platform?**
+**¿El historial de visitas de un usuario se exporta de[!DNL Adobe Analytics]a[!DNL Audience Manager]después de implementar el servicio Experience Cloud ID?**
 
 Aquí existen dos opciones:
 
