@@ -1,19 +1,19 @@
 ---
-description: Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID de plataforma de Experience Platform, Analytics o Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+description: Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID de Experience Cloud ID, Analytics o Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 keywords: Servicio de ID
-seo-description: Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID de plataforma de Experience Platform, Analytics o Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+seo-description: Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID de Experience Cloud ID, Analytics o Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 seo-title: Métodos callTimeOut
 title: Métodos callTimeOut
 uuid: e 5047498-11 db -4945-b 356-c 92 b 7 d 447573
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
 # Métodos callTimeOut{#calltimeout-methods}
 
-Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID de plataforma de Experience Platform, Analytics o Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID de Experience Cloud ID, Analytics o Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 
 ## Funciones de tiempo de espera {#section-e08228ef5f9b45c9a84139bbb763164a}
 
@@ -26,7 +26,7 @@ Llame a estas funciones del servicio de ID para determinar el estado de tiempo d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Servicio de identidad de la plataforma de experiencia </p> </td> 
+   <td colname="col1"> <p>Servicio Experience Cloud ID </p> </td> 
    <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variablename</span> = visitor. mcidcalltimedout ()</span> </p> </td> 
   </tr> 
   <tr> 
