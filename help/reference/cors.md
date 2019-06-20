@@ -1,19 +1,19 @@
 ---
-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Platform admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio Experience Cloud ID admite estándares CORS que habilitan estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 keywords: Servicio de ID
-seo-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Platform admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
-seo-title: Compatibilidad con CORS en el servicio de identidad de la plataforma de experiencia
-title: Compatibilidad con CORS en el servicio de identidad de la plataforma de experiencia
+seo-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio Experience Cloud ID admite estándares CORS que habilitan estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+seo-title: Compatibilidad con CORS en el servicio Experience Cloud ID
+title: Compatibilidad con CORS en el servicio Experience Cloud ID
 uuid: e 656 b 573-72 a 8-4312-a 7 d 5-5 cc 3818 f 0 a 9 e
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Compatibilidad con CORS en el servicio de identidad de la plataforma de experiencia {#cors-support-in-the-experience-cloud-id-service}
+# Compatibilidad con CORS en el servicio Experience Cloud ID {#cors-support-in-the-experience-cloud-id-service}
 
-Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Platform admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio Experience Cloud ID admite estándares CORS que habilitan estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 
 ## Problemas con políticas del mismo origen y solicitudes del servicio de ID {#section-6608cf46d27143eeaeabacaa6aa14e8e}
 
@@ -60,7 +60,7 @@ Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que t
  </tbody> 
 </table>
 
-Consulte también [usecorsonly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
+See also [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
 
 ## Otras ventajas al usar CORS {#section-6f44f30694c44f95bf9854b8a2af8449}
 
