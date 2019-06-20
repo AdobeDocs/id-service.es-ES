@@ -1,19 +1,19 @@
 ---
-description: Antes de implementar el servicio de identidad de Experience Platform, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
+description: Antes de implementar el servicio Experience Cloud ID, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
 keywords: Servicio de ID
-seo-description: Antes de implementar el servicio de identidad de Experience Platform, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
-seo-title: Puntos de decisión para la migración del servicio de identidad de la plataforma de experiencia
-title: Puntos de decisión para la migración del servicio de identidad de la plataforma de experiencia
+seo-description: Antes de implementar el servicio Experience Cloud ID, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
+seo-title: Puntos de decisión para la migración del servicio Experience Cloud ID
+title: Puntos de decisión para la migración del servicio Experience Cloud ID
 uuid: ee 56 b 5 de-fcf 3-4 cfb -9 e 53-762 af 7 c 4 d 2 ff
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Puntos de decisión para la migración del servicio de identidad de la plataforma de experiencia
+# Puntos de decisión para la migración del servicio Experience Cloud ID
 
-Antes de implementar el servicio de identidad de Experience Platform, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
+Antes de implementar el servicio Experience Cloud ID, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
 
 Responda a las preguntas de esta sección para poder determinar si debe realizar algún paso adicional para la migración.
 
