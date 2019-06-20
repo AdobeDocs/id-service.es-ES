@@ -1,19 +1,19 @@
 ---
-description: Un indicador booleano opcional que controla cómo solicita el navegador los recursos desde el servicio de identidad de Experience Platform.
+description: Un indicador booleano opcional que controla cómo solicita el navegador los recursos del servicio Experience Cloud ID.
 keywords: Servicio de ID
-seo-description: Un indicador booleano opcional que controla cómo solicita el navegador los recursos desde el servicio de identidad de Experience Platform.
+seo-description: Un indicador booleano opcional que controla cómo solicita el navegador los recursos del servicio Experience Cloud ID.
 seo-title: useCORSOnly
 title: useCORSOnly
 uuid: 607 dc 035-dffc -4 f 4 d-be 51-08 ef 6 c 0 a 8 fad
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
 # useCORSOnly{#usecorsonly}
 
-Un indicador booleano opcional que controla cómo solicita el navegador los recursos desde el servicio de identidad de Experience Platform.
+Un indicador booleano opcional que controla cómo solicita el navegador los recursos del servicio Experience Cloud ID.
 
 **Sintaxis:**`useCORSOnly: true|false` (el valor predeterminado `false`es.)
 
