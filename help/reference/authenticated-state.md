@@ -6,7 +6,7 @@ seo-title: ID de cliente y estados de autenticación
 title: ID de cliente y estados de autenticación
 uuid: 643 df 363-224 a -463 e-a 332-be 59926 b 47 e 7
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
@@ -23,7 +23,7 @@ El método `setCustomerIDs` acepta múltiples ID de cliente para el mismo visita
 >
 >`setCustomerIDs` (Sincronización de ID de cliente) es necesaria para los atributos del cliente y la funcionalidad de los servicios principales. La sincronización de los ID de cliente es un método de identificación opcional para [!DNL Analytics]. [!DNL Target] requiere `Visitor.AuthState.AUTHENTICATED` que funcionen los Atributos del cliente. Consulte [Servicios principales - Cómo activar sus soluciones](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services) para ver ejemplos.
 
-A partir de Experience Platform Identity Service v 1.5 +, `setCustomerIDs` incluye el `AuthState` objeto opcional. `AuthState` identifica a los visitantes en función de su estado de autenticación (por ejemplo, conectado, desconectado). Usted establece el estado de autenticación con un valor de estado que aparece en la tabla. El estado de autenticación se devuelve como un número entero.
+Beginning with Experience Cloud ID Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState` identifica a los visitantes en función de su estado de autenticación (por ejemplo, conectado, desconectado). Usted establece el estado de autenticación con un valor de estado que aparece en la tabla. El estado de autenticación se devuelve como un número entero.
 
 <table id="table_8547671CC97145529981FBF6C302BEC5"> 
  <thead> 
@@ -220,4 +220,4 @@ El servicio de ID de [!DNL Experience Cloud] admite ID de clientes y estados de 
 
 ## Aviso para clientes de Analytics y Audience Manager {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-Si va a pasar ID declarados a [!DNL Audience Manager], el objeto `userid` deberá coincidir con el código de integración asociado a la fuente de datos. Para obtener más información, consulte [!DNL Visitor ID Service] la sección de [la documentación Configurar código](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) de reglas de combinación.
+Si va a pasar ID declarados a [!DNL Audience Manager], el objeto `userid` deberá coincidir con el código de integración asociado a la fuente de datos. For more information, see the [!DNL Visitor ID Service] section in the [Configure Merge Rules Code](https://marketing.adobe.com/resources/help/en_US/aam/?f=merge-rules-configure-code.html) documentation.
