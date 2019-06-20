@@ -6,7 +6,7 @@ seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7 fb 831 b 3-cf 7 e -40 e 2-a 219-07 fy 28 ad 49 c
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
@@ -26,7 +26,7 @@ Contenido:
 
 ## Sintaxis {#section-5aebe3907b2b46e997f45a1d1ed35c09}
 
-Esta función utiliza la siguiente sintaxis (la cursiva representa un marcador de posición para una variable): ` var *`Tipo`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`de ID de`*, visitor.FIELDS. *`valor Tipo de TYPEID`*]);`
+This function uses the following syntax (italics represents a placeholder for a variable): ` var *`values`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`ID type`*, visitor.FIELDS. *`ID type`*]);`
 
 En los parámetros de función:
 
@@ -100,7 +100,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>El ID de región de recopilación de datos. Se trata de un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID concreto. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external"> ID de región DCS, Ubicaciones y Nombres </a> de host y <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getlocationhint </a>. </p> </td> 
+   <td colname="col2"> <p>El ID de región de recopilación de datos. Se trata de un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID concreto. </p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external"> DCS Region IDs, Locations, and Host Names </a> and <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local"> getLocationHint </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
@@ -108,7 +108,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>El Experience Cloud ID del visitante. </p> <p>Consulte <a href="../../introduction/cookies.md" format="dita" scope="local"> Cookies y Experience Platform Identity Service </a>. </p> </td> 
+   <td colname="col2"> <p>El Experience Cloud ID del visitante. </p> <p>Consulte la información relativa a las <a href="../../introduction/cookies.md" format="dita" scope="local">cookies y el servicio Experience Cloud ID </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
