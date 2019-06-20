@@ -2,16 +2,16 @@
 description: Una política de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores control sobre qué tipo de recursos se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictas que utilizan listas de elementos permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe que se enumeran aquí a sus listas de elementos permitidos de CSP.
 keywords: Servicio de ID
 seo-description: Una política de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores control sobre qué tipo de recursos se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictas que utilizan listas de elementos permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe que se enumeran aquí a sus listas de elementos permitidos de CSP.
-seo-title: Políticas de seguridad de contenido y el servicio de identidad de la plataforma de experiencia
-title: Políticas de seguridad de contenido y el servicio de identidad de la plataforma de experiencia
+seo-title: Políticas de seguridad del contenido y el servicio Experience Cloud ID
+title: Políticas de seguridad del contenido y el servicio Experience Cloud ID
 uuid: 7399 fed 3-01 c 1-4730-834 e-e 2 dd 2 c 5791 ff
 translation-type: tm+mt
-source-git-commit: 50a5b4d3a27fd8b21437f02bd9390565f23ac7e6
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Políticas de seguridad de contenido y el servicio de identidad de la plataforma de experiencia {#content-security-policies-and-the-experience-cloud-id-service}
+# Políticas de seguridad del contenido y el servicio Experience Cloud ID {#content-security-policies-and-the-experience-cloud-id-service}
 
 Una política de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores control sobre qué tipo de recursos se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictas que utilizan listas de elementos permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe que se enumeran aquí a sus listas de elementos permitidos de CSP.
 
@@ -53,7 +53,7 @@ Agregue estos nombres de dominio o URL a sus CSP para cada solución o servicio 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Servicio de ID de visitante</b> </p> </td> 
-   <td colname="col2"> <p>Modifique su CSP para incluir <span class="codeph">*.demdex.net</span>. </p> <p>Las llamadas al dominio <span class="codeph"> demdex. net</span> se utilizan para generar <a href="../introduction/cookies.md" format="dita" scope="local"> las cookies y el servicio de identidad de Experience Platform</a> y para sincronizar ID. Consulte también <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> 
+   <td colname="col2"> <p>Modifique su CSP para incluir <span class="codeph">*.demdex.net</span>. </p> <p>Calls to the <span class="codeph"> demdex.net</span> domain are used to generate the <a href="../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud ID Service</a> and for ID syncs. Consulte también <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
