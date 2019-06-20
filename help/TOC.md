@@ -1,25 +1,25 @@
 ---
 cloud: platform-cloud
-product: Servicio de identidad
+product: Servicio de ID
 audience: usuario final
-user-guide-title: Ayuda del servicio de identidad de la plataforma de experiencia
+user-guide-title: Ayuda del servicio Experience Cloud ID
 user-guide-url: /content/help/en/id-service/using/home.html
 translation-type: tm+mt
-source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
+source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 
 ---
 
 
-# Ayuda del servicio de identidad {#using}
+# Experience Cloud ID Service Help {#using}
 
-+ [Ayuda del servicio de identidad](home.md)
++ [Ayuda del servicio de ID](home.md)
 + Información general  {#intro}
    + [Información general  ](introduction/overview.md)
-   + [Acerca del servicio de identidad](introduction/about-id-service.md)
-   + [Cookies y el servicio de identidad](introduction/cookies.md)
-   + [Cómo solicita y establece los ID el servicio de identidad](introduction/id-request.md)
+   + [Acerca del servicio de ID](introduction/about-id-service.md)
+   + [Cookies y el servicio de ID](introduction/cookies.md)
+   + [Cómo solicita y establece los ID el servicio de ID](introduction/id-request.md)
    + [Conceptos básicos de sincronización y tasas de coincidencia](introduction/match-rates.md)
-+ Guías de implementación {#implementation-guides}
++ Implementation guides {#implementation-guides}
    + [Guías de implementación](implementation-guides/implementation-guides.md)
    + [Métodos de implementación](implementation-guides/implementation-methods.md)
    + [Implementación con Launch](implementation-guides/ecid-implement-with-launch.md)
@@ -28,11 +28,11 @@ source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
    + [Implementar para Target](implementation-guides/setup-target.md)
    + [Implementación para Analytics y Audience Manager](implementation-guides/setup-aam-analytics.md)
    + [Implementar para Analytics, Audience Manager y Target](implementation-guides/setup-aam-analytics-target.md)
-   + [Uso del servicio de identidad con A 4 T y una implementación de servidor de Target](implementation-guides/ecid-a4t-target.md)
-   + [Integración directa con el servicio de identidad](implementation-guides/direct-integration.md)
+   + [Uso del servicio ID con A4T y una implementación de Target en el lado del servidor](implementation-guides/ecid-a4t-target.md)
+   + [Integración directa con el servicio de ID](implementation-guides/direct-integration.md)
    + [Casos de uso de integración directa](implementation-guides/direct-integration-examples.md)
-   + [Comprobación y verificación del servicio de identidad](implementation-guides/test-verify.md)
-   + Documentación de inclusión {#opt-in-service}
+   + [Probar y verificar el servicio de ID](implementation-guides/test-verify.md)
+   + Opt-in Documentation {#opt-in-service}
       + [Información general sobre el servicio de inclusión](implementation-guides/opt-in-service/optin-overview.md)
       + [Configuración del servicio de selección](implementation-guides/opt-in-service/getting-started.md)
       + [Validación del servicio de selección](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
@@ -41,8 +41,8 @@ source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
       + [Casos de uso de Opt-in](implementation-guides/opt-in-service/use-cases.md)
       + [Referencia de Opt-in](implementation-guides/opt-in-service/api.md)
       + [(beta) Uso de servicios de inclusión con IAB Framework](implementation-guides/opt-in-service/iab.md)
-+ API de servicio de identidad {#id-service-api}
-   + [Información general de la API de servicio de identidad](library/library.md)
++ API del servicio de ID {#id-service-api}
+   + [Información general de API de servicio de ID](library/library.md)
    + Configuración {#configurations}
       + [Información general sobre configuraciones](library/function-vars/function-vars.md)
       + [audienceManagerServer y audienceManagerServerSecure](library/function-vars/subdomain-config.md)
@@ -83,27 +83,27 @@ source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
       + [Información general de referencia de Analytics](reference/analytics-reference/analytics-reference.md)
       + [Configuración de Analytics y Experience Cloud ID](reference/analytics-reference/analytics-ids.md)
       + [Orden de operaciones para los ID de Analytics](reference/analytics-reference/analytics-order-of-operations.md)
-      + [Puntos de decisión para la migración del servicio de identidad](reference/analytics-reference/migration-decisions.md)
-      + [Escenarios de migración de servicios de identidad](reference/analytics-reference/migration-scenarios.md)
+      + [Puntos de decisión para la migración del servicio de ID](reference/analytics-reference/migration-decisions.md)
+      + [Escenarios de migración del servicio de ID](reference/analytics-reference/migration-scenarios.md)
       + [Análisis y solicitudes de identidad](reference/analytics-reference/legacy-analytics.md)
       + [CNAME de recopilación de datos y seguimiento entre dominios](reference/analytics-reference/cname.md)
       + [Implementación del lado del servidor combinada con JavaScript](reference/analytics-reference/server-side.md)
-      + [Período de gracia del servicio de identidad](reference/analytics-reference/grace-period.md)
-   + [Políticas de seguridad de contenido y el servicio de identidad](reference/csp.md)
-   + [Compatibilidad con COPPA en el servicio de identidad](reference/coppa.md)
-   + [Compatibilidad con CORS en el servicio de identidad](reference/cors.md)
+      + [Período de gracia del servicio de ID](reference/analytics-reference/grace-period.md)
+   + [Políticas de seguridad de contenido y el servicio de ID](reference/csp.md)
+   + [Compatibilidad con COPPA en el servicio de ID](reference/coppa.md)
+   + [Compatibilidad con CORS en el servicio de ID](reference/cors.md)
    + [ID de cliente y estados de autenticación](reference/authenticated-state.md)
    + [Métodos de biblioteca ECID en un mundo Safari ITP](reference/ecid-library-methods.md)
-   + [Obtención de ID de región y de usuario desde la cookie AMCV o el servicio de identidad](reference/regions.md)
-   + [Requisitos del servicio de identidad](reference/requirements.md)
-   + [Video Heartbeat y el servicio de identidad](reference/heartbeat.md)
-   + [Área de trabajo de datos y servicio de identidad](reference/dwb.md)
+   + [Obtención de ID de región y de usuario desde la cookie de AMCV o el servicio de ID](reference/regions.md)
+   + [Requisitos del servicio de ID](reference/requirements.md)
+   + [Video Heartbeat y el servicio de ID](reference/heartbeat.md)
+   + [Área de trabajo de datos y servicio de ID](reference/dwb.md)
 + Preguntas más frecuentes {#faqs}
    + [Información general sobre preguntas más frecuentes](faq-intro/faq-intro.md)
-   + [Preguntas frecuentes sobre el servicio de identidad](faq-intro/faq.md)
-   + [Preguntas frecuentes sobre el servicio de identidad y Analytics](faq-intro/analytics-faq.md)
+   + [Preguntas más frecuentes sobre el servicio de ID](faq-intro/faq.md)
+   + [Preguntas más frecuentes sobre el servicio de ID y Analytics](faq-intro/analytics-faq.md)
    + [Preguntas más frecuentes para otras soluciones de Experience Cloud](faq-intro/other-faq.md)
-+ Notas de la versión del servicio de identidad {#release-notes}
++ Release notes for ID Service {#release-notes}
    + [Notas de la versión 2019](release-notes/release-notes.md)
    + [Notas de la versión 2018](release-notes/notes-2018.md)
    + [Notas de la versión 2017](release-notes/notes-2017.md)
