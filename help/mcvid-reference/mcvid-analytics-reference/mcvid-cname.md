@@ -1,11 +1,11 @@
 ---
 description: 'null'
-keywords: orden de las operaciones; Servicio de ID
+keywords: orden de operaciones; servicio de ID
 seo-description: 'null'
 seo-title: CNAME de recopilación de datos y seguimiento entre dominios
 title: CNAME de recopilación de datos y seguimiento entre dominios
-uuid: ba 42 c 822-b 677-4139-b 1 ed -4 d 98 d 3320 fd 0
-translation-type: tm+mt
+uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
+translation-type: ht
 source-git-commit: 337e7eef2cce8c0bc827ec04833ad0d14ee9c89a
 
 ---
@@ -23,7 +23,7 @@ La cookie demdex.net permite que el servicio de ID de visitante proporcione el m
 
 ## CNAME de recopilación de datos {#section-48fd186d376a48079769d12c4bd9f317}
 
-Si el servidor de recopilación de datos ha establecido la cookie de Analytics, muchos clientes tendrán configurados registros CNAME del servidor de recopilación de datos como parte de una [implementación de cookies de origen](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/) a fin de evitar problemas con los exploradores que no admiten cookies de terceros. Este proceso configura el dominio del servidor de recopilación de datos para que coincida con el dominio de su sitio web, de forma que la cookie del ID de visitante se establezca como cookie de origen.
+Si el servidor de recopilación de datos ha establecido la cookie de Analytics, muchos clientes tendrán configurados registros CNAME del servidor de recopilación de datos como parte de una [implementación de cookies de origen](https://marketing.adobe.com/resources/help/es_ES/whitepapers/first_party_cookies/) a fin de evitar problemas con los exploradores que no admiten cookies de terceros. Este proceso configura el dominio del servidor de recopilación de datos para que coincida con el dominio de su sitio web, de forma que la cookie del ID de visitante se establezca como cookie de origen.
 
 Como el servicio de ID de visitante establece la cookie del visitante directamente en el dominio del sitio web actual mediante JavaScript, ya no es necesario realizar esta configuración para establecer las cookies de origen.
 
@@ -37,14 +37,14 @@ Gracias al modo en que las cookies de origen pueden utilizarse en un contexto de
 
 Por ejemplo, supongamos que tiene un sitio principal en `mymainsite.com` Ha configurado el registro CNAME para que señale a su servidor de recopilación de datos seguro: `smetrics.mymainsite.com`.
 
-Cuando un usuario visite `mymainsite.com`, el servidor de recopilación de datos establecerá la cookie del servicio de ID. Esto se permite porque el dominio del servidor de recopilación de datos coincide con el dominio del sitio web, y es lo que se conoce como usar una cookie en un contexto **de origen o solo una cookie *de origen*.
+Cuando un usuario visite `mymainsite.com`, el servidor de recopilación de datos establecerá la cookie del servicio de ID. Esto se debe a que el dominio de este servidor coincide con el del sitio web. En esta situación se habla de usar una cookie en un *contexto propio*, o simplemente una *cookie de origen*.
 
-Si también utiliza este mismo servidor de recopilación de datos en otros sitios (por ejemplo, `myothersiteA.com`y `myothersiteB.com`) y un visitante visita más tarde estos sitios, la cookie que se configuró durante la visita a `mymainsite.com` se envía en la solicitud HTTPS al servidor de recopilación de datos (recuerde que los exploradores envían todas las cookies de un dominio con todas las solicitudes HTTPS a ese dominio, incluso aunque el dominio no coincide con el dominio del sitio web actual). Esto es lo que se conoce como uso de una cookie en un contexto **de terceros o solo una cookie **de terceros y permite utilizar el mismo ID de visitante en estos otros dominios. Tenga en cuenta que los navegadores administran cookies en contextos de terceros de manera diferente a las cookies de origen.
+Si también usa estos mismos servidores de recopilación de datos en otros sitios (por ejemplo, `myothersiteA.com` y `myothersiteB.com`) y un visitante accede a estos sitios posteriormente, la cookie que se estableció durante la visita a `mymainsite.com` se enviará en la solicitud HTTPS al servidor de recopilación de datos (recuerde que los exploradores envían todas las cookies correspondientes a un dominio con todas las solicitudes HTTPS para dicho dominio, incluso si este no coincide con el dominio del sitio web actual). A este hecho se le denomina usar una cookie en un *contexto de terceros* o *cookie de terceros* y permite usar una misma ID de visitante en estos otros dominios. Tenga en cuenta que los exploradores administran cookies en contextos de terceros de manera diferente a las cookies de origen.
 
 *Nota: Safari bloquea todas las cookies en el contexto de terceros independientemente de su configuración.*
 
-En consecuencia, el dominio de recopilación debe ser un dominio al que los visitantes accedan con frecuencia para posibilitar la identificación de estos en los distintos dominios. Si no hay dominio *común* que utilizar para el dominio de recopilación de datos, no hay ninguna ventaja entre dominios para mantener un CNAME para el dominio de recopilación de datos. Si el sitio de entrada principal no se visita en primer lugar, los visitantes se identifican de forma distinta en el sitio secundario y en el sitio principal.
+En consecuencia, el dominio de recopilación debe ser un dominio al que los visitantes accedan con frecuencia para posibilitar la identificación de estos en los distintos dominios. Si no existe ningún dominio *común* que pueda usarse como dominio de recopilación de datos, no supondrá ninguna ventaja mantener un CNAME para el dominio de recopilación de datos. Si el sitio de entrada principal no se visita en primer lugar, los visitantes se identifican de forma distinta en el sitio secundario y en el sitio principal.
 
 ## Habilitación de la compatibilidad con CNAME con el servicio Experience Cloud ID {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
-La compatibilidad con CNAME de servidor de recopilación de datos se habilita al configurar `visitor.marketingCloudServerSecure` las variables.
+Para habilitar la compatibilidad con el CNAME del servidor de recopilación de datos, se deben establecer las `visitor.marketingCloudServerSecure` variables.
