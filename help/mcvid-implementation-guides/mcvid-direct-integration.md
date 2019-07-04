@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar ni trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos, como las consolas de videojuegos, los televisores inteligentes u otras aplicaciones compatibles con Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
 seo-title: Integración directa con el servicio Experience Cloud ID
 title: Integración directa con el servicio Experience Cloud ID
-uuid: de 502 f 7 e-cffd -4130-b 3 ca -7 d 6 b 9 a 9 caae 9
-translation-type: tm+mt
+uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -21,17 +21,17 @@ Los dispositivos que no pueden utilizar las bibliotecas de códigos VisitorAPI.j
 
 ![](assets/directSyntax.png)
 
-En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel de sistema. Puede pasar varios `d_` parámetros al servicio de ID, pero permanecer centrados en los pares clave-valor como se muestra en el código anterior. Para obtener más información sobre otras variables, consulte [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html) (Atributos admitidos para llamadas de API de DCS).
+En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. Para obtener más información sobre otras variables, consulte [Atributos admitidos para las llamadas API de DCS ](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
 
 El servicio de ID admite las llamadas de HTTP y HTTPS. Utilice HTTPS para pasar datos desde una página segura.
 
-## Solicitud de muestra {#section-26302b8851704888b6f8e6b2071bcdb0}
+## Solicitud de ejemplo {#section-26302b8851704888b6f8e6b2071bcdb0}
 
 Su solicitud puede asemejarse al ejemplo que se muestra a continuación. Se han reducido las variables largas.
 
 ![](assets/directExample.png)
 
-## Respuesta de muestra {#section-89bc103b3e9e4a8b98e74c32897b1200}
+## Respuesta de ejemplo {#section-89bc103b3e9e4a8b98e74c32897b1200}
 
 El servicio de ID devuelve datos en un objeto JSON, tal como se muestra a continuación. Su respuesta puede ser distinta.
 
@@ -70,10 +70,10 @@ El servicio de ID devuelve datos en un objeto JSON, tal como se muestra a contin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
-   <td colname="col2"> <p>Parámetro opcional que pasa el ID de proveedor de datos (DPID), el ID de usuario único (DPUUID) y un ID de estado <a href="../mcvid-reference/mcvid-authenticated-state.md" format="dita" scope="local"> autenticado</a> al servicio de ID. Como se muestra en el ejemplo de código, separe el DPID y el DPUUID con el carácter de control no imprimible, <span class="codeph">%01</span>. </p> <p> <b>DPID y DPUUID</b> </p> <p>En el parámetro <span class="codeph">d_cid</span>, asigne cada combinación relacionada de DPID y DPUUID con el mismo parámetro <span class="codeph">d_cid</span>. De esta forma, puede devolver varios conjuntos de ID en una única solicitud. Asimismo, separe el DPID, el DPUUID y el indicador de autenticación opcional con el carácter no imprimible, <span class="codeph">%01</span>. En los ejemplos siguientes, el proveedor y los ID de usuario aparecen resaltados con el texto en <b>negrita</b>. </p> 
+   <td colname="col2"> <p>Un parámetro opcional que pasa el ID de proveedor de datos (DPID), el ID de usuario único (DPUUID) y un <a href="../mcvid-reference/mcvid-authenticated-state.md" format="dita" scope="local">ID de estado autenticado</a> al servicio de ID. Como se muestra en el ejemplo de código, separe el DPID y el DPUUID con el carácter de control no imprimible, <span class="codeph">%01</span>. </p> <p> <b>DPID y DPUUID</b> </p> <p>En el parámetro <span class="codeph">d_cid</span>, asigne cada combinación relacionada de DPID y DPUUID con el mismo parámetro <span class="codeph">d_cid</span>. De esta forma, puede devolver varios conjuntos de ID en una única solicitud. Asimismo, separe el DPID, el DPUUID y el indicador de autenticación opcional con el carácter no imprimible, <span class="codeph">%01</span>. En los ejemplos siguientes, el proveedor y los ID de usuario aparecen resaltados con el texto en <b>negrita</b>. </p> 
     <ul id="ul_2E19D837296B40E9ACD096495CF711C5"> 
      <li id="li_5B94B057654440B99B989BA60E4ED053">Sintaxis: <span class="codeph">...d_cid=DPID%01DPUUID%01authentication state...</span> </li> 
-     <li id="li_B07833EF51D54F088574B7B7F9FB841A">Ejemplo: <span class="codeph">… d_ cid = 123% 01456% 011…</span> </li> 
+     <li id="li_B07833EF51D54F088574B7B7F9FB841A">Ejemplo: <span class="codeph">...d_cid=123%01456%011...</span> </li> 
     </ul> <p> <b>Estado de autenticación</b> </p> <p>Se trata de un ID opcional en el parámetro <span class="codeph">d_cid</span>. Se expresa como un entero e identifica a los usuarios en función de su estado de autenticación, como se muestra a continuación: </p> 
     <ul id="ul_E2B36922B11C4AA2A9016B6E2DC9EDAA"> 
      <li id="li_31C018E3F9514B938C73EF40C436715F"> <span class="codeph"> 0</span> (Desconocido) </li> 
