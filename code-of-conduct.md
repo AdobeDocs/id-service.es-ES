@@ -1,6 +1,6 @@
 ---
 source-git-commit: 676f6ca9c37f77fe24dbc3ceb9aef2d540b3adbe
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Código de conducta de Adobe
@@ -39,11 +39,10 @@ Este código de conducta se aplica tanto a espacios del proyecto como a espacios
 
 ## Aplicación
 
-Los casos de abuso, acoso u otro tipo de comportamiento inaceptable pueden denunciarse poniéndose en contacto con el equipo del proyecto en Grp-opensourceoffice@adobe.com. Todas las quejas se revisarán e investigarán, y tendrán como resultado la respuesta que se considere necesaria y adecuada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad respecto a la persona que denunció el incidente.
-Pueden publicarse separadamente más detalles sobre políticas de aplicación específicas.
+Los casos de abuso, acoso u otro tipo de comportamiento inaceptable pueden denunciarse poniéndose en contacto con el equipo del proyecto en Grp-opensourceoffice@adobe.com. Todas las quejas se revisarán e investigarán, y tendrán como resultado la respuesta que se considere necesaria y adecuada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad respecto a la persona que denunció el incidente. Pueden publicarse separadamente más detalles sobre políticas de aplicación específicas.
 
 Los administradores del proyecto que no cumplan o hagan cumplir de buena fe el Código de conducta pueden sufrir repercusiones temporales o permanentes, según el criterio de los demás miembros del equipo de administración del proyecto.
 
 ## Atribución
 
-El presente Código de conducta es una adaptación de la versión 1.4 del [Contributor Covenant](https://contributor-covenant.org), disponible en [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+El presente Código de conducta es una adaptación de la versión 1.4 del [Acuerdo del colaborador](https://contributor-covenant.org), disponible en [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/).
