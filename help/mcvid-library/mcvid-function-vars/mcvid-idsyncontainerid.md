@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Esta propiedad establece el ID del contenedor de origen de datos que desea utilizar para las sincronizaciones de ID.
 seo-title: idSyncContainerID
 title: idSyncContainerID
-uuid: e 35 dc 48 b -1 aa 1-41 e 3-91 c 1-ef 1 e 9 d 2 d 8 b 8 b
-translation-type: tm+mt
+uuid: e35dc48b-1aa1-41e3-91c1-ef1e9d2d8b90
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -25,7 +25,7 @@ Contenido:
 
 ## Ejemplo de sintaxis y código {#section-b0c50732b1c84bed8616e82e8e83d58c}
 
-**Sintaxis:**` idSyncContainerID: *`valor de ID de contenedor`*`
+**Sintaxis:** ` idSyncContainerID: *`valor de ID de contenedor`*`
 
 **Ejemplo de código:**
 
@@ -41,12 +41,12 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
 
 **Contenedores**
 
-Los contenedores son objetos creados [!DNL Audience Manager]por. A pesar de que no se puede acceder a ellos desde fuera, estos contenedores enumeran todas las fuentes de datos que:
+Los contenedores son los objetos creados por [!DNL Audience Manager]. A pesar de que no se puede acceder a ellos desde fuera, estos contenedores enumeran todas las fuentes de datos que:
 
 * Están a su disposición, pero no se utilizan, para sincronización de ID.
 * Se están utilizando para sincronización de ID.
 
-Aunque no sea un cliente de [!DNL Audience Manager], su cuenta tendrá estos contenedores si está intercambiando ID con diferentes fuentes de datos en diferentes páginas de su dominio. Esto se debe a que [!DNL Audience Manager] proporciona la tecnología y la funcionalidad del back-end que permite la sincronización de ID.
+Aunque no sea un [!DNL Audience Manager] cliente de, su cuenta tendrá estos contenedores si está intercambiando ID con diferentes fuentes de datos en diferentes páginas de su dominio. Esto se debe a que [!DNL Audience Manager] proporciona la tecnología y la funcionalidad del back-end que permite la sincronización de ID.
 
 **Casos de uso**
 
@@ -85,5 +85,5 @@ En función de su situación, es posible que deba agregar o no esta configuraci�
 Si ha implementado [!DNL DIL]* y* VisitorAPI.js en la misma página:
 
 * El código de servicio de ID de visitante tiene prioridad sobre los DIL en las sincronizaciones de ID.
-* Establezca solo la configuración de `idSyncContainerID` en el código de servicio de ID.
+* Establezca solo la `idSyncContainerID` configuración de en el código de servicio de ID.
 
