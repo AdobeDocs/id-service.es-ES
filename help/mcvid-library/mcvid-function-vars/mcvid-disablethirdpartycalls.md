@@ -1,11 +1,11 @@
 ---
 description: Un indicador booleano opcional que impide que el servicio de ID realice llamadas a otros dominios.
-keywords: cross domain tracking; Servicio de ID
+keywords: seguimiento entre dominios;servicio de ID
 seo-description: Un indicador booleano opcional que impide que el servicio de ID realice llamadas a otros dominios.
 seo-title: disableThirdPartyCalls
 title: disableThirdPartyCalls
-uuid: e 92 ce 1 f 5-67 a 4-476 c -9 d 04-41 d 4 e 96 b 1592
-translation-type: tm+mt
+uuid: e92ce1f5-67a4-476c-9d04-41d4e96b1592
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 Un indicador booleano opcional que impide que el servicio de ID realice llamadas a otros dominios.
 
-**Sintaxis:**` `Disablethirdpartycalls: true | false «(el valor predeterminado `false`es.)
+**Sintaxis:** ` ` disableThirdPartyCalls: true|false`` (el valor predeterminado es `false`).
 
 Si el método `disableThirdPartyCalls: true`, el servicio de ID no llama a otros dominios.
 
