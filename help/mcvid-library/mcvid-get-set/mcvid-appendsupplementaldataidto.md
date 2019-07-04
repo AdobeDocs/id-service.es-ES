@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Este método de ayuda le permite anexar el ID de datos adicionales (SDID) como un parámetro de cadena de consulta a una URL de redireccionamiento. Resulta útil al utilizar A4T y debe conservar el SDID de una página a otra y unir esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo ID de organización en los dominios de origen y destino.
 seo-title: appendSupplementalDataIDTo
 title: appendSupplementalDataIDTo
-uuid: f 3504 d 82-8 da 3-4971-818 b -3 df 57 df 4 ec 2 d
-translation-type: tm+mt
+uuid: f3504d82-8da3-4971-818b-3df57df4ec2d
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -26,7 +26,7 @@ Contenido:
 
 ## Ejemplo de sintaxis y código {#section-cbb0b2f73bcc418386796c24c01b2365}
 
-**Sintaxis:**` appendSupplementalDataIDTo( *`URLSDID`*, *``*)`
+**Sintaxis:** ` appendSupplementalDataIDTo( *`URL`*, *`SDID`*)`
 
 **Ejemplo de código**
 
@@ -50,9 +50,9 @@ Como se muestra a continuación, el redireccionamiento de URL contiene el SDID d
 
 ## Modificación del tiempo de espera del SDID con sdidParamExpiry {#section-99946715cefa4acc95200b093db5297e}
 
-La configuración [sdidparamexpiry](../../mcvid-library/mcvid-function-vars/mcvid-sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) permite cambiar el intervalo de caducidad SDID predeterminado al pasar dicho ID de una página a otra usando la función `appendSupplementalDataIDTo` de ayuda. De forma predeterminada, el código de servicio de ID de la página de recepción tiene 30 segundos para obtener el SDID de la URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicitará un nuevo SDID. Esta funcionalidad sirve principalmente para clientes de A4T que deben pasar el SDID de una página a otra y desean ejercer control sobre este intervalo de tiempo de espera.
+La configuración [sdidParamExpiry](../../mcvid-library/mcvid-function-vars/mcvid-sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) le permite sobrescribir el intervalo de caducidad predeterminado del ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda `appendSupplementalDataIDTo`. De forma predeterminada, el código de servicio de ID de la página de recepción tiene 30 segundos para obtener el SDID de la URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicitará un nuevo SDID. Esta funcionalidad sirve principalmente para clientes de A4T que deben pasar el SDID de una página a otra y desean ejercer control sobre este intervalo de tiempo de espera.
 
-Si debe cambiar el tiempo de espera de SDID predeterminado, agregue `sdidParamExpiry` a la función `Visitor.getInstance` con la sintaxis siguiente:
+Si debe cambiar el tiempo de espera de SDID predeterminado, agregue `sdidParamExpiry` a la `Visitor.getInstance` función con la sintaxis siguiente:
 
 **Sintaxis:**` sdidParamExpiry: *`tiempo en segundos`*`
 
