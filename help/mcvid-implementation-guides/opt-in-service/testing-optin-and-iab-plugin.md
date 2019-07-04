@@ -1,20 +1,20 @@
 ---
-description: Una vez activada la opción de selección en el sitio web, utilice los métodos de validación para comprobar que el servicio funciona según lo esperado mediante las herramientas para desarrolladores del explorador.
-seo-description: Una vez activada la opción de selección en el sitio web, utilice los métodos de validación para comprobar que el servicio funciona según lo esperado mediante las herramientas para desarrolladores del explorador.
-seo-title: Validación del servicio de selección
-title: Validación del servicio de selección
-uuid: 1743360 a-d 757-4 e 50-8697-0 fa 92 b 302 cbc
-translation-type: tm+mt
+description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
+seo-description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
+seo-title: Validación del servicio de inclusión (Opt-in)
+title: Validación del servicio de inclusión (Opt-in)
+uuid: 1743360a-d757-4e50-8697-0fa92b302cbc
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
 
 
-# Validación del servicio de selección{#validating-opt-in-service}
+# Validación del servicio de inclusión (Opt-in){#validating-opt-in-service}
 
-Una vez activada la opción de selección en el sitio web, utilice los métodos de validación para comprobar que el servicio funciona según lo esperado mediante las herramientas para desarrolladores del explorador.
+Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
 
-## Caso de uso 1: Activar inclusión {#section-c8fe1ee3711b420c8186c7057abbecb3}
+## Caso de uso 1: Habilitar el servicio de inclusión (Opt-in) {#section-c8fe1ee3711b420c8186c7057abbecb3}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
@@ -30,7 +30,7 @@ En Chrome, haga clic con el botón derecho en la página web y seleccione Inspec
 
 En el ejemplo tenemos las siguientes etiquetas de Adobe JS instaladas en la página: ECID, AAM, Analytics y Target.
 
-**Cómo probar que la opción de inclusión funciona según lo esperado:**
+**Método para comprobar si el servicio de inclusión (Opt-in) está funcionando correctamente:**
 
 No debería ver ninguna solicitud para los servidores de Adobe:
 
@@ -42,7 +42,7 @@ No debería ver ninguna solicitud para los servidores de Adobe:
 
 >[!NOTE]
 >
->Es posible que vea una llamada a `http://dpm.demdex.net/optOutStatus`, que es un extremo de SOLO LECTURA que se utiliza para recuperar el estado de exclusión del visitante. Este extremo no resultará en la creación de ninguna cookie de terceros y no recopilará ninguna información de la página.
+>Podría ver una llamada a `http://dpm.demdex.net/optOutStatus`, un extremo de SOLO LECTURA que se utiliza para recuperar el estado de exclusión del visitante. Este extremo no resultará en la creación de ninguna cookie de terceros y no recopilará ninguna información de la página.
 
 No debería ver ninguna cookie creada por las etiquetas de Adobe: (AMCV_{{YOUR_ORG_ID}}, mbox, demdex, s_cc, s_sq, everest_g_v2, everest_session_v2)
 
