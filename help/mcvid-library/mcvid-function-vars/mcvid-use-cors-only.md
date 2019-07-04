@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Un indicador booleano opcional que controla el modo en el que el navegador solicita recursos desde el servicio Experience Cloud ID.
 seo-title: useCORSOnly
 title: useCORSOnly
-uuid: 607 dc 035-dffc -4 f 4 d-be 51-08 ef 6 c 0 a 8 fad
-translation-type: tm+mt
+uuid: 607dc035-dffc-4f4d-be51-08ef6c0a8fad
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 Un indicador booleano opcional que controla el modo en el que el navegador solicita recursos desde el servicio Experience Cloud ID.
 
-** Sintaxis: ** `useCORSOnly: true|false` (el valor predeterminado `false`es.)
+** Sintaxis: ** `useCORSOnly: true|false` (el valor predeterminado es `false`).
 
 **Información general**
 
