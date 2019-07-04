@@ -3,8 +3,8 @@ description: Launch, de Adobe es la principal herramienta que se utiliza para co
 seo-description: Launch, de Adobe es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio Experience Cloud ID con el resto de las soluciones de Experience Cloud.
 seo-title: Implementación con Launch
 title: Implementación con Launch
-uuid: b 3282 f 8 e -82 b 8-4635-8 c 80-1 b 365 e 8 a 9693
-translation-type: tm+mt
+uuid: b3282f8e-82b8-4635-8c80-1b365e8a9693
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -16,7 +16,7 @@ Launch, de Adobe es la principal herramienta que se utiliza para configurar, imp
 
 ## Acerca de Launch {#section-611711602854464ea351a4af80a8dafe}
 
-[Launch, de Adobe](https://docs.adobelaunch.com/) es la nueva generación de la capacidad de administración de etiquetas de Adobe integrada en Adobe Experience Cloud. Launch permite a los clientes:
+[Experience Platform Launch](https://docs.adobelaunch.com/) es la nueva generación de la capacidad de administración de etiquetas de Adobe integrada en Adobe Experience Cloud. Launch permite a los clientes:
 
 * Implementar productos web en el lado del cliente mediante integraciones llamadas extensiones
 * Capturar, definir, gestionar y compartir datos de forma consistente entre productos de marketing y publicidad de otros proveedores y de Adobe
