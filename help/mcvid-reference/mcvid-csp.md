@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Una política de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores control sobre qué tipo de recursos se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictas que utilizan listas de elementos permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe que se enumeran aquí a sus listas de elementos permitidos de CSP.
 seo-title: Políticas de seguridad del contenido y el servicio Experience Cloud ID
 title: Políticas de seguridad del contenido y el servicio Experience Cloud ID
-uuid: 7399 fed 3-01 c 1-4730-834 e-e 2 dd 2 c 5791 ff
-translation-type: tm+mt
+uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -53,14 +53,14 @@ Agregue estos nombres de dominio o URL a sus CSP para cada solución o servicio 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Servicio de ID de visitante</b> </p> </td> 
-   <td colname="col2"> <p>Modifique su CSP para incluir <span class="codeph">*.demdex.net</span>. </p> <p>Las llamadas al dominio <span class="codeph"> demdex. net</span> se utilizan para generar <a href="../mcvid-introduction/mcvid-cookies.md" format="dita" scope="local"> las cookies y el servicio Experience Cloud ID</a> y para sincronizar ID. Consulte también <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> 
+   <td colname="col2"> <p>Modifique su CSP para incluir <span class="codeph">*.demdex.net</span>. </p> <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se utilizan para generar las cookies <a href="../mcvid-introduction/mcvid-cookies.md" format="dita" scope="local"> y el servicio Experience Cloud ID</a> y para sincronizar ID. Consulte también <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Content Security Policy Reference ](https://content-security-policy.com/)(Referencia de política de seguridad de contenido)
->* [MDN: Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) (MDN: Política de seguridad de contenido)
->* [Wikipedia: Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (Wikipedia: Política de seguridad de contenido)
+>* [Política de seguridad de contenido](https://content-security-policy.com/)
+>* [MDN: Política de seguridad de contenido](https://developer.mozilla.org/es-ES/docs/Web/HTTP/CSP)
+>* [Wikipedia: Política de seguridad de contenido](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
