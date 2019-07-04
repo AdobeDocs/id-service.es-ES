@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Versiones de características, actualizaciones o cambios en el servicio Experience Cloud ID para 2018.
 seo-title: Notas de la versión 2018
 title: Notas de la versión 2018
-uuid: 771 b 5 b 11-a 8 e 3-464 c-b 65 e-b 15135584 ace
-translation-type: tm+mt
+uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -27,7 +27,7 @@ Versiones de características, actualizaciones o cambios en el servicio Experien
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Se ha mejorado la seguridad de las cookies AMCV </p> </td> 
-   <td colname="col2"> <p>Durante un análisis de seguridad interna se descubrió que, al utilizar la biblioteca DTM, las cookies empleadas para la gestión de la sesión no especificaban atributos apropiados. Como resultado, podía compartirse de forma inadvertida información de las cookies. Para solucionar este problema hemos introducido una configuración que permite al cliente establecer la cookie AMCV como segura. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-securecookie.html" format="https" scope="external">secureCookie</a>. </p> </td> 
+   <td colname="col2"> <p>Durante un análisis de seguridad interna se descubrió que, al utilizar la biblioteca DTM, las cookies empleadas para la gestión de la sesión no especificaban atributos apropiados. Como resultado, podía compartirse de forma inadvertida información de las cookies. Para solucionar este problema hemos introducido una configuración que permite al cliente establecer la cookie AMCV como segura. Consulte <a href="https://marketing.adobe.com/resources/help/es_ES/mcvid/mcvid-securecookie.html" format="https" scope="external">secureCookie</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ Versiones de características, actualizaciones o cambios en el servicio Experien
 
 >[!NOTE]
 >
->Se recomienda actualizar de la versión 3.1.0 a la última versión más conveniente. Consulte la descripción de la versión 3.1.2. El paquete más reciente está disponible en Launch, de Adobe, DTM y AppMeasurement.
+>Se recomienda que actualice lo antes posible de la versión 3.1.0 a la más reciente. Consulte la descripción de la versión 3.1.2. El paquete más reciente está disponible en Launch, de Adobe, DTM y AppMeasurement.
 
 <table id="table_512039AFC4D34038B8F116B71EEEE7F6"> 
  <thead> 
@@ -118,8 +118,8 @@ Versiones de características, actualizaciones o cambios en el servicio Experien
    <td colname="col2"> <p>El servicio de ID ya no es compatible con Internet Explorer 6, 7, 8 y 9. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Actualización de la documentación de  getInstance </p> </td> 
-   <td colname="col2"> <p>Se ha agregado a la función  Visitante  la advertencia de que no debe crearse una instancia de esta con  var visitor = new Visitor. </p> </td> 
+   <td colname="col1"> <p>Actualización de la documentación de getInstance </p> </td> 
+   <td colname="col2"> <p>Se ha agregado a la función Visitante la advertencia de que no debe crearse una instancia de esta con var visitor = new Visitor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
