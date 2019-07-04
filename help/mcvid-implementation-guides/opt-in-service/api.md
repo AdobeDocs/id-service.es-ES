@@ -3,8 +3,8 @@ description: API para la biblioteca de Opt-in y referencia de ajustes de configu
 seo-description: API para la biblioteca de Opt-in y referencia de ajustes de configuración.
 seo-title: Referencia de Opt-in
 title: Referencia de Opt-in
-uuid: d 5023 a 34-2 f 3 e -464 d-b 21 f -579 b 2 f 416 ce 6
-translation-type: tm+mt
+uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
+translation-type: ht
 source-git-commit: 1c6dc1871ee2e7b8d1f510576836519f7383b809
 
 ---
@@ -29,7 +29,7 @@ adobe.OptInCategories = {
 
 Esta sección trata sobre el uso de la API para configurar Opt-in. Buena parte de la configuración y la implementación se pueden realizar utilizando la extensión de Launch.
 
-Las configuraciones de inclusión se proporcionan en la función JavaScript `getInstance()` de visitante, que crea una instancia del `adobe` objeto global. Las siguientes listas enumeran las configuraciones JS de visitante relacionadas con el servicio de inclusión.
+Se proporcionan configuraciones de Opt-in en la función `getInstance()` de Visitor JavaScript, que crea una instancia del objeto global `adobe`. A continuación se enumeran las configuraciones de Visitor JS relacionadas con el servicio Opt-in.
 
 **`doesOptInApply (boolean or function that evaluates to a boolean)`**:
 
@@ -47,11 +47,11 @@ Las preferencias explícitamente establecidas del visitante. Los permisos en est
 
 Habilita Opt-in para almacenar los permisos en una cookie de origen (dentro del dominio actual del cliente)
 
-(Opcional) **`optInCookiesDomain (string)`**
+(Opcional)**`optInCookiesDomain (string)`**
 
 Dominio o subdominio de origen a usar para la cookie de Opt-in (si `isOptInStorageEnabled` es “true”)
 
-(Opcional) **`optInStorageExpiry (integer)`**
+(Opcional)**`optInStorageExpiry (integer)`**
 
 Número de segundos para anular la caducidad predeterminada de 13 meses
 
@@ -69,15 +69,15 @@ Función que rechaza o excluye al visitante de todas las categorías especificad
 
 **`adobe.optIn.approveAll()`**:
 
-Si su solicitud de permiso para su sitio se crea de manera tal que un visitante conceda o deniegue el permiso para que su sitio cree cookies, use `approveAll()` o `denyAll()`, en relación con su respuesta.
+Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de su respuesta.
 
 **`adobe.optIn.denyAll()`**:
 
-Si su solicitud de permiso para su sitio se crea de manera tal que un visitante conceda o deniegue permiso para que el sitio cree cookies, use `approveAll()` o `denyAll()`, en relación con la respuesta.
+Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de la respuesta.
 
 ## Parámetros de los flujos de trabajo de inclusión {#section-2c5adfa5459c4e72b96d2693123a53c2}
 
-Opt-in es compatible con un flujo de trabajo en el que los permisos pueden recabarse a lo largo de más de un ciclo de solicitud, por ejemplo, cuando las preferencias se conceden de una en una. Si utiliza las funciones siguientes y proporciona *true* como valor de `shouldWaitForComplete`, su solución puede recabar el consentimiento para una solución o un subconjunto de las categorías totales y, a continuación, recabarlo para la solución o el subconjunto de categorías siguientes. A partir de la primera llamada, la `adobe.optIn.status` propiedad estará pendiente hasta `adobe.optIn.complete()` que se llame al final del flujo. Una vez realizada la llamada, el estado se establecerá en *Complete*.
+Opt-in es compatible con un flujo de trabajo en el que los permisos pueden recabarse a lo largo de más de un ciclo de solicitud, por ejemplo, cuando las preferencias se conceden de una en una. Si utiliza las funciones siguientes y proporciona *true* como valor de `shouldWaitForComplete`, su solución puede recabar el consentimiento para una solución o un subconjunto de las categorías totales y, a continuación, recabarlo para la solución o el subconjunto de categorías siguientes. Comenzando por la primera llamada, la propiedad `adobe.optIn.status` estará pendiente hasta que se realice una llamada a `adobe.optIn.complete()` al final del flujo. Una vez realizada la llamada, el estado se establecerá en *Complete*.
 
 **`adobe.optIn.approve(categories, shouldWaitForComplete)`**
 
@@ -89,7 +89,7 @@ Función que rechaza o excluye al visitante de todas las categorías especificad
 
 `adobe.optIn.complete()`
 
-Función que activa la agregación de las llamadas precedentes a approve() y deny() en una misma solicitud para establecer las preferencias de un visitante. Al suscribirse a los cambios en Opt-in —consulte `adobe.optIn.fetchPermissions(callback, shouldAutoSubscribe`) a continuación—, su devolución de llamada solo se activa cuando se realiza una llamada a esta función.
+Función que activa la agregación de las llamadas precedentes a approve() y deny() en una misma solicitud para establecer las preferencias de un visitante. Al suscribirse a los cambios en Opt-in —(consulte `adobe.optIn.fetchPermissions(callback, shouldAutoSubscribe`) a continuación—, su devolución de llamada solo se activa cuando se realiza una llamada a esta función.
 
 ## Parámetros de permisos de Opt-in de visitante {#section-7fe57279b5b44b4f8fe47e336df60155}
 
@@ -109,7 +109,7 @@ Recupera la lista de permisos de forma sincrónica. Una vez que el proceso de co
 
 **`permissions`**
 
-Un objeto que enumera todas las soluciones de Experience Cloud, como categorías, que el visitante ha concedido o denegado: `{ aa: true, ecid: false, aam: true... }`
+Un objeto que enumera todas las soluciones de Experience Cloud que, como categorías, el visitante ha concedido o rechazado. Ejemplo: `{ aa: true, ecid: false, aam: true... }`
 
 **`status`**
 
@@ -133,8 +133,8 @@ Un objeto que enumera todas las soluciones de Experience Cloud, como categorías
 
 **`approve(categories, shouldWaitForComplete)`**
 
-**`categories`**: una o más categorías a aprobar. Por ejemplo: `adobe.optIn.approve([adobe.OptInCategories.AAM, adobe.OptInCategories.ECID])`**`shouldWaitForComplete`**
-: (opcional) parámetro booleano, false de forma predeterminada. Si se pasa el valor “true”, Opt-in no completa el proceso de aprobación hasta que se realiza una llamada a `adobe.optIn.complete()`. Este proceso es similar a un flujo de trabajo.
+**`categories`**: una o más categorías a aprobar. Por ejemplo: `adobe.optIn.approve([adobe.OptInCategories.AAM, adobe.OptInCategories.ECID])`
+**`shouldWaitForComplete`**: (opcional) parámetro booleano, “false” de forma predeterminada. Si se pasa el valor “true”, Opt-in no completa el proceso de aprobación hasta que se realiza una llamada a `adobe.optIn.complete()`. Este proceso es similar a un flujo de trabajo.
 
 ```
 <codeblock>
@@ -155,11 +155,11 @@ Comprueba si el cliente ha aprobado una o más categorías.
 
 **`isPreApproved(categories)`**
 
-Comprueba si el cliente ha preaprobado una o más categorías. (Si se pasaron en el ajuste `preOptInApprovals`).
+Comprueba si el cliente ha preaprobado una o más categorías. (Si se pasaron en el `preOptInApprovals` ajuste).
 
 **`fetchPermissions(callback, shouldAutoSubscribe)`**
 
-API asíncrona para recuperar la lista de permisos. Una vez que el proceso de concesión y denegación de permisos se ha completado, se realiza una llamada a la devolución de llamada con la lista de permisos. **`shouldAutoSubscribe`:** Una utilidad de ayuda, automáticamente suscribirá esta llamada de retorno a todos los eventos futuros. lo que significa que la devolución de llamada recibirá una llamada cada vez se active una aprobación o un rechazo en Opt-in. De este modo, siempre estará actualizado sin necesidad de que se suscriba a los eventos.
+API asíncrona para recuperar la lista de permisos. Una vez que el proceso de concesión y denegación de permisos se ha completado, se realiza una llamada a la devolución de llamada con la lista de permisos. **`shouldAutoSubscribe`:** una utilidad de ayuda que suscribe automáticamente esta devolución de llamada a todos los eventos futuros. lo que significa que la devolución de llamada recibirá una llamada cada vez se active una aprobación o un rechazo en Opt-in. De este modo, siempre estará actualizado sin necesidad de que se suscriba a los eventos.
 
 **Ejemplo**
 
@@ -192,7 +192,7 @@ optIn.fetchPermissions(callback, true);
 
 >[!NOTE]
 >
->Utilice solo si pasa el `shouldWaitForComplete` parámetro para aprobar o denegar. Esta API completa el proceso de aprobación. Ejemplo: `adobe.optIn.complete()`.
+>Utilícelo solo si ha pasado el `shouldWaitForComplete` parámetro para aprobar o denegar. Esta API completa el proceso de aprobación. Ejemplo: `adobe.optIn.complete()`.
 
 **`approveAll()`:**
 
@@ -206,7 +206,7 @@ Deniega todas las categorías existentes.
 
 **`complete`:**
 
-Completa activadores de evento una vez terminado el proceso de aprobación. Si llama a aprobar/denegar sin pasar `shouldWaitForComplete`o `approveAll`/ `denyAll`, se activan estos eventos. O bien, si se pasa `shouldWaitForComplete`, este evento se activa cuando se realiza una llamada a `complete`.
+Completa activadores de evento una vez terminado el proceso de aprobación. Si realiza una llamada de aprobación/rechazo sin pasar `shouldWaitForComplete`, o `approveAll`/`denyAll`, este evento se activa. O bien, si se pasa `shouldWaitForComplete`, este evento se activa cuando se realiza una llamada a `complete`.
 
 **Ejemplo**
 
