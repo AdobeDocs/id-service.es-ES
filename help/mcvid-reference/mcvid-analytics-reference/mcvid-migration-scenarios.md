@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Se indican configuraciones del servidor de ejemplo y los pasos de migración necesarios.
 seo-title: Escenarios de migración del servicio Experience Cloud ID
 title: Escenarios de migración del servicio Experience Cloud ID
-uuid: 9 e 229045-6508-48 c 4-ae 39-9537 b 4941853
-translation-type: tm+mt
+uuid: 9e229045-6508-48c4-ae39-9537b4941853
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -34,7 +34,7 @@ En primer lugar, debe habilitarse Experience Cloud para este cliente (consulte l
 * **Archivo JavaScript de Analytics**: varios archivos JavaScript. Un archivo para el sitio principal y otro archivo para la sección de soporte técnico que se conserva en un CMS independiente.
 * **Otros métodos de recopilación de datos**: etiquetas de imagen predefinidas en el código en una única sección del sitio
 
-En primer lugar, este cliente debe buscar su ID de organización de Adobe Experience Cloud (consulte los [requisitos](../../mcvid-reference/mcvid-requirements.md)). A continuación, deberá configurar un período de gracia de migración porque está utilizando varios archivos JavaScript. Este cliente también configurará la migración de visitantes y `*.2o7.net` luego dejará de utilizarla `*.sc.omtrdc.net`.
+En primer lugar, este cliente debe buscar su ID de organización de Adobe Experience Cloud (consulte los [requisitos](../../mcvid-reference/mcvid-requirements.md)). A continuación, deberá configurar un período de gracia de migración porque está utilizando varios archivos JavaScript. Este cliente también configurará la migración de visitantes y cambiará de `*.2o7.net` a `*.sc.omtrdc.net`.
 
 Cuando este cliente actualice el código JavaScript de Analytics a la versión más reciente como preparación para la implementación del servicio de ID de [!DNL Experience Cloud], también actualizará todas las etiquetas de imagen predefinidas en el código para que utilicen JavaScript en su lugar.
 
