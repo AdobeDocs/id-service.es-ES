@@ -1,11 +1,11 @@
 ---
-description: 'Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud. '
+description: Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
 keywords: Servicio de ID
-seo-description: 'Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud. '
+seo-description: Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
 seo-title: isCoopSafe
 title: isCoopSafe
-uuid: 4 dfa 1 f 35-0 a 88-48 d 1-9484-d 88 cb 53 ad 461
-translation-type: tm+mt
+uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 # isCoopSafe{#iscoopsafe}
 
-Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud. 
+Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
 
 Contenido:
 
@@ -27,10 +27,10 @@ Contenido:
 
 ## Requisitos {#section-4883eda6beb8437182bcc82bb58fae41}
 
-Para utilizarlo `isCoopSafe` debe:
+Para utilizar `isCoopSafe`, debe:
 
 * Utilizar el código de servicio de ID versión 2.4 o posterior.
-* Participar en [Device Co-Op de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcdc/). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
+* Participe en [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
 
 * Trabaje con su consultor de [!DNL Adobe] para establecer un indicador de lista de elementos permitidos o de lista de elementos bloqueados en su cuenta de Device Co-Op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
@@ -89,7 +89,7 @@ En función del indicador que establezca (`true` o `false`), el servicio de ID t
 * `d_coop_safe=1`
 * `d_coop_unsafe=1`
 
-Los parámetros POST indican a Device Co-Op de [!DNL Experience Cloud] si puede incluir o no datos en el gráfico de dispositivos. En la siguiente tabla se define la relación entre los indicadores booleanos `isCoopSafe` y los parámetros POST que se han transferido en una llamada de evento. Si no utiliza `isCoopSafe`, no se transferirá ninguno de estos elementos en una llamada de evento.
+Los parámetros POST indican a [!DNL Experience Cloud] Device Co-Op de si puede incluir o no datos en el gráfico de dispositivos. En la siguiente tabla se define la relación entre los indicadores booleanos `isCoopSafe` y los parámetros POST que se han transferido en una llamada de evento. Si no utiliza `isCoopSafe`, no se transferirá ninguno de estos elementos en una llamada de evento.
 
 <table id="table_0A544534CA904F4D9836A34B8C1EACBB"> 
  <thead> 
@@ -137,7 +137,7 @@ Estas API permiten sobrescribir el estado de `isCoopSafe`. Son necesarias porque
 Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 -->
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [DIL isCoopSafe](https://marketing.adobe.com/resources/help/en_US/aam/dil-coopsafe.html)
 
