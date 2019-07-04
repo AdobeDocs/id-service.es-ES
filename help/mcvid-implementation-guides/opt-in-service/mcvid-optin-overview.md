@@ -1,48 +1,48 @@
 ---
-description: El servicio de selección le permite configurar protocolos para que el visitante determine si puede configurar una cookie en el dispositivo o navegador del usuario al visitar el sitio.
-seo-description: El servicio de selección le permite configurar protocolos para que el visitante determine si puede configurar una cookie en el dispositivo o navegador del usuario al visitar el sitio.
-seo-title: Servicio de selección
-title: Servicio de selección
-uuid: aebd 72 ad -4118-471 b -9755-d 08 a 72 caa 0 fd
-translation-type: tm+mt
+description: Con el servicio de inclusión (Opt-in) puede configurar protocolos para que un visitante de su sitio decida si le permite establecer una cookie en su dispositivo o navegador.
+seo-description: Con el servicio de inclusión (Opt-in) puede configurar protocolos para que un visitante de su sitio decida si le permite establecer una cookie en su dispositivo o navegador.
+seo-title: servicio de inclusión (Opt-in)
+title: servicio de inclusión (Opt-in)
+uuid: aebd72ad-4118-471b-9755-d08a72caa0fd
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
 
 
-# Servicio de selección{#opt-in-service}
+# servicio de inclusión (Opt-in){#opt-in-service}
 
-El servicio de selección le permite configurar protocolos para que el visitante determine si puede configurar una cookie en el dispositivo o navegador del usuario al visitar el sitio.
+Con el servicio de inclusión (Opt-in) puede configurar protocolos para que un visitante de su sitio decida si le permite establecer una cookie en su dispositivo o navegador.
 
-El servicio de selección es una extensión del [servicio Experience Cloud ID (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) , diseñada para controlar si las soluciones de Experience Cloud pueden crear cookies en páginas web para los visitantes antes de su consentimiento. El servicio de selección también le permite establecer protocolos para integrarlos con su plataforma de administración de consentimiento (CMP) y los sistemas existentes como parte del diseño más grande.
+El servicio de inclusión (Opt-in) es una extensión del servicio [Experience Cloud ID (ECID)](https://marketing.adobe.com/resources/help/es_ES/mcvid/) diseñado para permitirle controlar si las soluciones de Experience Cloud pueden crear cookies en las páginas web de los visitantes con el consentimiento del usuario, y cuáles pueden hacerlo. Además, le permite configurar una integración con su plataforma de gestión de consentimiento (CMP) y con los sistemas existentes como parte de su diseño general.
 
-Con el servicio de selección, puede especificar si un visitante puede activar las soluciones de Adobe a la vez o presentar soluciones en secuencia para los permisos. Una vez que el cliente completa y registra el proceso de aprobación, puede recuperar las aprobaciones de visitante de CMP desde las soluciones de Adobe.
+El servicio de inclusión (Opt-in) le permite especificar si un visitante puede incluirse en las soluciones de Adobe de una sola vez, o si se le presentan las soluciones una tras otra para que vaya aprobando los permisos. Una vez que el cliente completa y registra el proceso de aprobación, puede recuperar las aprobaciones de visitante de CMP desde las soluciones de Adobe.
 
-El servicio de selección se implementa y se configura fácilmente usando [Adobe Launch](https://docs.adobelaunch.com/) con la extensión [de inclusión](../../mcvid-implementation-guides/opt-in-service/launch.md). También se puede implementar y configurar mediante [la DTM](../../mcvid-implementation-guides/opt-in-service/optin-dtm.md).
+El servicio de inclusión (Opt-in) se implementa y se configura fácilmente con [Adobe Launch](https://docs.adobelaunch.com/) con la [extensión de inclusión](../../mcvid-implementation-guides/opt-in-service/launch.md). También se puede implementar y configurar utilizando [DTM.](../../mcvid-implementation-guides/opt-in-service/optin-dtm.md)
 
-Consulte [el tema Configuración del servicio](../../mcvid-implementation-guides/opt-in-service/getting-started.md) de selección para comenzar.
+Consulte [Configuración del servicio de inclusión (Opt-in)](../../mcvid-implementation-guides/opt-in-service/getting-started.md) para comenzar.
 
 >[!NOTE]
 >
->El servicio de selección le permite configurar un sistema para aprobar o denegar la descarga de cookies de Adobe solamente. Ni permite recopilar las preferencias de consentimiento de los usuarios ni es un repositorio de preferencias.
+>El servicio de inclusión (Opt-in) le permite configurar un sistema para aprobar o rechazar la descarga únicamente de las cookies de Adobe. Ni permite recopilar las preferencias de consentimiento de los usuarios ni es un repositorio de preferencias.
 
 >[!IMPORTANT]
 >
->El contenido de este documento no es legal y no tiene por qué sustituir al asesoramiento legal. Pida asesoramiento al departamento jurídico de su empresa respecto al consentimiento y las prácticas recomendadas para configurar una implementación de inclusión.
+>El contenido de este documento no constituye asesoramiento jurídico y no está pensado para sustituir el asesoramiento jurídico. Pida asesoramiento al departamento jurídico de su empresa respecto al consentimiento y las prácticas recomendadas para configurar una implementación de inclusión.
 
 ## Inclusión entre soluciones de Experience Cloud {#section-053e6224505542cf961896f0ca869e52}
 
-El servicio de selección es una herramienta para generar una opción de consentimiento en el flujo de trabajo según sus propias necesidades, lo que permite diseñar un flujo de trabajo para reaccionar (etiquetas activadas) antes y después de que el usuario o su controlador de consentimiento reciben consentimiento.
+El servicio de inclusión (Opt-in) es una herramienta para la creación de flujos de trabajo de inclusión de consentimiento adaptados a sus necesidades. Puede crear flujos de trabajo con los que reaccionar (activar etiquetas) antes y después de obtener el consentimiento del usuario o del responsable del tratamiento del consentimiento.
 
-El servicio de selección permite configurar las prácticas de administración de consentimiento para las soluciones de Adobe a:
+El servicio de inclusión (Opt-in) le permite establecer prácticas de gestión del consentimiento para soluciones de Adobe con las que podrá hacer lo siguiente:
 
 * Indicar si los requisitos de recopilación de consentimientos se aplican en general a un usuario.
 * Especificar qué soluciones tienen permiso para generar cookies.
 * Aplicar preferencias predeterminadas para cualquier solución cuya categoría el usuario no haya aceptado o rechazado de forma explícita.
 * Activar una respuesta personalizada basada en los cambios en la configuración de consentimiento de un usuario, lo que permite conservar o actualizar la configuración del usuario.
 
-Con los servicios de selección, puede configurar su sitio para permitir que algunas cookies se carguen con previo consentimiento antes de la elección del usuario. Puede configurar los servicios de selección para que los nuevos clientes puedan cargar las cookies después de que el usuario confirme o después de que haya una opción disponible. También puede almacenar y recuperar consentimientos de inclusión desde su plataforma de gestión del consentimiento, o simplemente almacenar los permisos de inclusión en una cookie.
+Mediante el servicio de inclusión (Opt-in) puede configurar su sitio de modo que permita la carga de algunas cookies con preconsentimiento, antes de la elección del usuario. Puede configurar los servicios de inclusión para nuevos clientes de modo que sea posible cargar cookies tras dar el usuario su consentimiento, o tras quedar disponible una elección. También puede almacenar y recuperar consentimientos de inclusión desde su plataforma de gestión del consentimiento, o simplemente almacenar los permisos de inclusión en una cookie.
 
 ![](assets/Opt-in-approval.png)
 
-A continuación, las soluciones de Adobe pueden comprobar si la etiqueta está aprobada, o pueden suscribirse a los cambios y después recuperar a todos los clientes de Opt-in. El servicio de selección permite obtener permisos directamente a través de las bibliotecas de JavaScript de solución o de ECID si se implementa.
+A continuación, las soluciones de Adobe pueden comprobar si la etiqueta está aprobada, o pueden suscribirse a los cambios y después recuperar a todos los clientes de Opt-in. El servicio de inclusión (Opt-in) le permite obtener permisos directamente mediante la solución de bibliotecas de JavaScript o mediante los ECID, de estar implementados.
