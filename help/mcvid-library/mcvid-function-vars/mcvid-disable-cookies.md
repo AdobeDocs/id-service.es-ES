@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Un indicador booleano opcional que evita que el servicio Experience Cloud ID devuelva la cookie de terceros demdex.net.
 seo-title: disableThirdPartyCookies
 title: disableThirdPartyCookies
-uuid: 7 ed 5 aa 16-44 ca -4702-878 a -1 a 208 ca 95270
-translation-type: tm+mt
+uuid: 7ed5aa16-44ca-4702-878a-1a208ca95270
+translation-type: ht
 source-git-commit: bb687c1cd14aae7faef2565dcf9d041a1c06e3bd
 
 ---
@@ -17,11 +17,11 @@ Un indicador booleano opcional que evita que el servicio Experience Cloud ID dev
 
 >[!NOTE]
 >
->Esta configuración se ha cambiado `idSyncDisable3rdPartySyncing` de nombre `disableThirdPartyCookies` en la versión del 18 de enero de 2018 de la versión v 3.0.
+>Esta configuración era `idSyncDisable3rdPartySyncing` y pasó a denominarse `disableThirdPartyCookies` en la versión 3.0 del 18 de enero de 2018.
 
-**Sintaxis:**`disableThirdPartyCookies: true|false` (el valor predeterminado `false`es.) Para `VisitorAPI.js` la versión 1.5.3 o superior.
+**Sintaxis:** `disableThirdPartyCookies: true|false` (el valor predeterminado es `false`) Para `VisitorAPI.js` v1.5.3 o posterior.
 
-Cuando `disableThirdPartyCookies: true`, el servicio de ID no devuelve la cookie demdex. net de terceros (consulte [Cookies y el servicio](../../mcvid-introduction/mcvid-cookies.md) Experience Cloud ID). Si el visitante de un sitio tiene ya esta cookie en su navegador, el servicio de ID no la usará para crear un nuevo Experience Cloud ID (MID) o devolver un ID existente. En lugar de ello, el servicio de ID crea un MID aleatorio nuevo en la cookie de origen. Una vez habilitado, podrá recopilar datos con el servicio de ID y compartirlos entre distintas soluciones de Experience Cloud.
+Cuando `disableThirdPartyCookies: true`, el servicio de ID no devuelve la cookie demdex.net de terceros (consulte [Cookies y el servicio Experience Cloud ID](../../mcvid-introduction/mcvid-cookies.md)). Si el visitante de un sitio tiene ya esta cookie en su navegador, el servicio de ID no la usará para crear un nuevo Experience Cloud ID (MID) o devolver un ID existente. En lugar de ello, el servicio de ID crea un MID aleatorio nuevo en la cookie de origen. Una vez habilitado, podrá recopilar datos con el servicio de ID y compartirlos entre distintas soluciones de Experience Cloud.
 
 **Ejemplo de código**
 
