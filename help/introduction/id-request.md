@@ -2,28 +2,28 @@
 description: Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 keywords: Servicio de ID
 seo-description: Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
-seo-title: Cómo solicita y establece los ID el servicio Experience Cloud ID
-title: Cómo solicita y establece los ID el servicio Experience Cloud ID
-uuid: ff 7 f 5 b 7 e-e 959-4391-b 75 c-b 7 a 36286 e 0 ea
+seo-title: Cómo solicita y establece los ID el servicio de identidad Platform Platform
+title: Cómo solicita y establece los ID el servicio de identidad Platform Platform
+uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# How the Experience Cloud ID Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# How the Experience Platform Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 
 >[!NOTE]
 >
->If you&#39;re not familiar with how the Experience Cloud ID Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
+>If you&#39;re not familiar with how the Experience Platform Identity Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
 
 **Sugerencia:** Vea también nuestro[ vídeo sobre el servicio de ID acerca del seguimiento entre dominios](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html).
 
 ## Solicitud de un Experience Cloud ID {#section-0b5e261fbd0547d9b9a1680e5ce536cc}
 
-Los siguientes ejemplos muestran la manera en la que el servicio de ID solicita y recibe el ID de visitante de Experience Cloud. Estos ejemplos utilizan dos empresas ficticias, Empresa alimentaria y Empresa de deporte, para mostrar flujos de datos para solicitudes de ID y respuestas. Cada empresa posee un ID de organización de Experience Cloud único y tiene implementado el código de servicio de ID en todos sus sitios. Estos casos de uso representan flujos de datos para una implementación de servicio de ID genérica sin Analytics, ID heredados o exploradores que bloquean cookies de terceros.
+Los siguientes ejemplos muestran la manera en la que el servicio de ID solicita y recibe el ID de visitante de Experience Cloud. Estos ejemplos usan dos empresas ficticias, la Empresa alimentaria y la Empresa de deporte, para mostrar los flujos de datos para las solicitudes de ID y las respuestas. Cada empresa posee un ID de organización de Experience Cloud único y tiene implementado el código de servicio de ID en todos sus sitios. Estos casos de uso representan flujos de datos para una implementación de servicio de ID genérica sin Analytics, ID heredados o exploradores que bloquean cookies de terceros.
 
 ![](assets/sample_sites.png)
 
@@ -44,7 +44,7 @@ En la respuesta, el DCS devuelve el ID de [!DNL Experience Cloud] (MID) y la coo
 
 Como verá en el ejemplo siguiente, el ID de demdex y el ID de organización permiten que el servicio de ID cree y devuelva el MID correcto cuando nuestro visitante se desplace a otro sitio perteneciente a la Empresa alimentaria.
 
-## Cross-site request and response {#section-15ea880453af467abd2874b8b4ed6ee9}
+## Solicitud y respuesta entre sitios {#section-15ea880453af467abd2874b8b4ed6ee9}
 
 En este ejemplo, nuestro visitante de la Empresa alimentaria navega al sitio de tacos desde el sitio de pizzas. La Empresa alimentaria tiene un código de servicio de ID en el sitio web de tacos. El visitante nunca había estado en el sitio web de tacos.
 
@@ -56,7 +56,7 @@ Una vez que el DCS recibe el ID de organización y el ID de demdex, crea y devue
 
 ![](assets/response2.png)
 
-## ID requests from other sites {#section-ba9a929e50d64b0aba080630fd83b6f1}
+## Solicitudes de ID de otros sitios {#section-ba9a929e50d64b0aba080630fd83b6f1}
 
 En este ejemplo, nuestro visitante abandona los sitios de la Empresa alimentaria y navega al sitio de fútbol propiedad de la Empresa de deporte. Cuando el visitante llega al sitio de fútbol, el proceso de comprobación y solicitud del ID funciona del mismo modo descrito en los ejemplos anteriores. No obstante, dado que la Empresa de deporte posee su ID de organización propio, el servicio de ID devuelve un MID diferente. El nuevo MID es único para los dominios controlados por la Empresa de deporte y permite que esta empresa siga y comparta los datos del visitante entre soluciones en [!DNL Experience Cloud]. El ID de demdex sigue siendo el mismo para este visitante, ya que está contenido en una cookie de terceros y se mantiene entre dominios distintos.
 
