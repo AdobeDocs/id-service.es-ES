@@ -1,21 +1,21 @@
 ---
-description: Video Heartbeat requiere el servicio Experience Cloud ID. Cuando se mide vídeo en JavaScript o Flash, la implementación del servicio de ID en las páginas del sitio y en la reproducción del vídeo garantiza que los visitantes no se contabilicen por separado cada vez que reproduzcan el vídeo.
+description: Video Heartbeat requiere el servicio de identidad de Experience Platform. Cuando se mide vídeo en JavaScript o Flash, la implementación del servicio de ID en las páginas del sitio y en la reproducción del vídeo garantiza que los visitantes no se contabilicen por separado cada vez que reproduzcan el vídeo.
 keywords: Servicio de ID
-seo-description: Video Heartbeat requiere el servicio Experience Cloud ID. Cuando se mide vídeo en JavaScript o Flash, la implementación del servicio de ID en las páginas del sitio y en la reproducción del vídeo garantiza que los visitantes no se contabilicen por separado cada vez que reproduzcan el vídeo.
-seo-title: Monitoreo de vídeo y servicio Experience Cloud ID
-title: Monitoreo de vídeo y servicio Experience Cloud ID
-uuid: 07986 a 78-23 ac -4 fd 4-ab 8 f-be 9275616 a 29
+seo-description: Video Heartbeat requiere el servicio de identidad de Experience Platform. Cuando se mide vídeo en JavaScript o Flash, la implementación del servicio de ID en las páginas del sitio y en la reproducción del vídeo garantiza que los visitantes no se contabilicen por separado cada vez que reproduzcan el vídeo.
+seo-title: Video Heartbeat y el servicio de identidad de Experience Platform
+title: Video Heartbeat y el servicio de identidad de Experience Platform
+uuid: 07986a78-23ac-4fd4-ab8f-be9275616a29
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# Monitoreo de vídeo y servicio Experience Cloud ID {#video-heartbeat-and-the-experience-cloud-id-service}
+# Video Heartbeat and the Experience Platform Identity Service {#video-heartbeat-and-the-experience-cloud-id-service}
 
-Video Heartbeat requiere el servicio Experience Cloud ID. Cuando se mide vídeo en JavaScript o Flash, la implementación del servicio de ID en las páginas del sitio y en la reproducción del vídeo garantiza que los visitantes no se contabilicen por separado cada vez que reproduzcan el vídeo.
+Video Heartbeat requiere el servicio de identidad de Experience Platform. Cuando se mide vídeo en JavaScript o Flash, la implementación del servicio de ID en las páginas del sitio y en la reproducción del vídeo garantiza que los visitantes no se contabilicen por separado cada vez que reproduzcan el vídeo.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Medir vídeo en Analytics usando Video Heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)
 
