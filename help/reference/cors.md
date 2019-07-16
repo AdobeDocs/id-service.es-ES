@@ -1,19 +1,19 @@
 ---
-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio Experience Cloud ID admite estándares CORS que habilitan estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Platform admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 keywords: Servicio de ID
-seo-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio Experience Cloud ID admite estándares CORS que habilitan estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
-seo-title: Compatibilidad con CORS en el servicio Experience Cloud ID
-title: Compatibilidad con CORS en el servicio Experience Cloud ID
-uuid: e 656 b 573-72 a 8-4312-a 7 d 5-5 cc 3818 f 0 a 9 e
+seo-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Platform admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+seo-title: Compatibilidad con CORS en el servicio de identidad de la plataforma de experiencia
+title: Compatibilidad con CORS en el servicio de identidad de la plataforma de experiencia
+uuid: e656b573-72a8-4312-a7d5-5cc3818f0a9e
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# Compatibilidad con CORS en el servicio Experience Cloud ID {#cors-support-in-the-experience-cloud-id-service}
+# CORS Support in the Experience Platform Identity Service {#cors-support-in-the-experience-cloud-id-service}
 
-Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio Experience Cloud ID admite estándares CORS que habilitan estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Platform admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 
 ## Problemas con políticas del mismo origen y solicitudes del servicio de ID {#section-6608cf46d27143eeaeabacaa6aa14e8e}
 
@@ -32,7 +32,7 @@ CORS supone una manera segura y eficaz de solicitar recursos entre diferentes do
 * `Origin`: un encabezado de solicitud que identifica el origen de una solicitud.
 * `Access-Control-Allow-Origin`: un encabezado de respuesta que indica si se puede compartir un recurso con el solicitante.
 
-Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que tenemos una empresa de servicios financieros que ha implementado el servicio de ID de [!DNL Experience Cloud] en su sitio, www.finance-website.com. La tabla siguiente define la manera en la que los encabezados de solicitud y respuesta CORS comprueban el acceso a un recurso.
+Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que tenemos una empresa de servicios financieros que ha implementado el servicio de [!DNL Experience Cloud] ID de en su sitio, www.finance-website.com. La tabla siguiente define la manera en la que los encabezados de solicitud y respuesta CORS comprueban el acceso a un recurso.
 
 <table id="table_B004ACF52B5A4D33B1DCF7EA77BE4E6D"> 
  <thead> 
@@ -60,7 +60,7 @@ Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que t
  </tbody> 
 </table>
 
-See also [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
+Consulte también [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
 
 ## Otras ventajas al usar CORS {#section-6f44f30694c44f95bf9854b8a2af8449}
 
