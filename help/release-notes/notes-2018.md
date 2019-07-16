@@ -4,9 +4,9 @@ keywords: Servicio de ID
 seo-description: Versiones de funciones, actualizaciones o cambios en el servicio Experience Cloud ID para 2018.
 seo-title: Notas de la versión 2018
 title: Notas de la versión 2018
-uuid: 771 b 5 b 11-a 8 e 3-464 c-b 65 e-b 15135584 ace
+uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
 
 ---
 
@@ -78,7 +78,7 @@ Versiones de funciones, actualizaciones o cambios en el servicio Experience Clou
 
 >[!NOTE]
 >
->Se recomienda actualizar de la versión 3.1.0 a la última versión más conveniente. Consulte la descripción de la versión 3.1.2. El paquete más reciente está disponible en Launch, de Adobe, DTM y AppMeasurement.
+>Se recomienda que actualice lo antes posible de la versión 3.1.0 a la más reciente. Consulte la descripción de la versión 3.1.2. El último paquete está disponible en Adobe Experience Platform Launch, DTM y appmeasurement.
 
 <table id="table_512039AFC4D34038B8F116B71EEEE7F6"> 
  <thead> 
@@ -118,8 +118,8 @@ Versiones de funciones, actualizaciones o cambios en el servicio Experience Clou
    <td colname="col2"> <p>El servicio de ID ya no es compatible con Internet Explorer 6, 7, 8 y 9. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Actualización de la documentación de  getInstance </p> </td> 
-   <td colname="col2"> <p>Se ha agregado a la función  Visitante  la advertencia de que no debe crearse una instancia de esta con  var visitor = new Visitor. </p> </td> 
+   <td colname="col1"> <p>Actualización de la documentación de getInstance </p> </td> 
+   <td colname="col2"> <p>Se ha agregado a la función Visitante la advertencia de que no debe crearse una instancia de esta con var visitor = new Visitor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
