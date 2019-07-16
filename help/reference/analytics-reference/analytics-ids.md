@@ -1,19 +1,19 @@
 ---
-description: El servicio Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics heredados.
+description: El servicio de identidad de Experience Platform sustituye a los métodos de ID de visitante de Analytics heredados.
 keywords: Servicio de ID
-seo-description: El servicio Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics heredados.
+seo-description: El servicio de identidad de Experience Platform sustituye a los métodos de ID de visitante de Analytics heredados.
 seo-title: Configuración de Analytics y Experience Cloud ID
 title: Configuración de Analytics y Experience Cloud ID
-uuid: 421 cf 597-a 3 e 0-4 ca 3-8 ce 8-d 0 c 80 cbb 6 aca
+uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # Configuración de Analytics y Experience Cloud ID{#setting-analytics-and-experience-cloud-ids}
 
-El servicio Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics heredados.
+El servicio de identidad de Experience Platform sustituye a los métodos de ID de visitante de Analytics heredados.
 
 Una vez implementado el servicio de ID, este código se ejecuta antes de AppMeasurement. El servicio de ID recupera los ID de Experience Cloud y Analytics para que los valores estén listos cuando se cargue AppMeasurement.
 
@@ -25,7 +25,7 @@ El cambio principal consiste en que, al migrar al servicio de ID de [!DNL Experi
 
 **Encabezado HTTP**
 
-Una respuesta de HTTP de un servidor web establece las cookies en un explorador. This is how the `s_vi` cookie is set. The `s_vi` cookie identifies Analytics visitors. Cuando se establece una cookie, esta se envía con todas las solicitudes HTTP subsiguientes a este servidor.
+Una respuesta de HTTP de un servidor web establece las cookies en un explorador. Así es como se establece la `s_vi` cookie. La `s_vi` cookie identifica a los visitantes de Analytics. Cuando se establece una cookie, esta se envía con todas las solicitudes HTTP subsiguientes a este servidor.
 
 Cuando se envía una solicitud al servidor de recopilación de datos de Adobe, se comprueba la existencia de la cookie `s_vi` en el encabezado. Si la cookie se encuentra en la solicitud, se usa para identificar al visitante. En caso contrario, el servidor genera un ID de [!DNL Experience Cloud] único, lo establece como una cookie en el encabezado de respuesta HTTP y lo devuelve con la solicitud. La cookie se almacena en el explorador y se envía de vuelta al servidor de recopilación de datos en las visitas subsiguientes al sitio. Este proceso permite la identificación del visitante en cada visita.
 
@@ -66,7 +66,7 @@ Una vez implementado el servicio de ID de visitante, los visitantes de Analytics
   <tr> 
    <td colname="col1"> <p> <img id="image_77A06981672745B6AEA8BB4D55911CCA" src="assets/step2_icon.png" /> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_analytics" format="http" scope="external"> aid (cookie s_vi)</a> </p> </td> 
-   <td colname="col3"> <p>The visitor had an existing s_vi cookie before you deployed the <span class="keyword"> Experience Cloud</span> ID service, or you have a <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local"> grace period</a> configured. </p> </td> 
+   <td colname="col3"> <p>El visitante ya tenía una cookie s_vi antes de implementar el servicio de ID de <span class="keyword">Experience Cloud</span> o bien ya tenía configurado un <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local">período de gracia</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_0A950B1A6B004387AFEE8EED882739CB" src="assets/step3_icon.png" /> </p> </td> 
@@ -76,7 +76,7 @@ Una vez implementado el servicio de ID de visitante, los visitantes de Analytics
   <tr> 
    <td colname="col1"> <p> <img id="image_6F0ED8FE3EF846CA8E6ECCC3C0070D85" src="assets/step4_icon.png" /> </p> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_fallback" format="http" scope="external"> fid (cookie de seguridad en H.25.3 o posterior, o AppMeasurement para JavaScript)</a> </p> </td> 
-   <td colname="col3"> <p>Un navegador no acepta cookies de terceros y el servidor de seguimiento de Analytics está configurado como servidor de seguimiento de terceros. </p> <p> <p>Nota: El valor <span class="codeph">fid</span> es un identificador preexistente y no se utiliza si se ha implementado el servicio de ID en el sitio. In this case, the <span class="codeph"> fid</span> is not needed because the first-party, <a href="../../introduction/cookies.md" format="dita" scope="local"> AMCV cookie</a> makes it obsolete. Se ha mantenido para admitir código heredado y por motivos históricos. </p> </p> </td> 
+   <td colname="col3"> <p>Un navegador no acepta cookies de terceros y el servidor de seguimiento de Analytics está configurado como servidor de seguimiento de terceros. </p> <p> <p>Nota: El valor <span class="codeph">fid</span> es un identificador preexistente y no se utiliza si se ha implementado el servicio de ID en el sitio. En este caso, el <span class="codeph">fid</span> no es necesario porque la cookie <a href="../../introduction/cookies.md" format="dita" scope="local"> AMCV de origen</a> hace que quede obsoleto. Se ha mantenido para admitir código heredado y por motivos históricos. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_23D8C0EB69EC4084BC237B5B98C036F4" src="assets/step5_icon.png" /> </p> </td> 
@@ -88,7 +88,7 @@ Una vez implementado el servicio de ID de visitante, los visitantes de Analytics
 
 En muchos escenarios, es posible que vea dos o tres ID distintos en una llamada, pero Analytics utilizará el primer ID presente en la lista como el ID de [!DNL Experience Cloud] oficial. Por ejemplo, si configura un ID de visitante personalizado (incluido en el parámetro de consulta &quot;vid&quot;), ese ID se utilizará antes que otros ID que puedan existir en la misma visita.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Orden de operaciones para los ID de Analytics](../../reference/analytics-reference/analytics-order-of-operations.md#concept-b92935b4fff545adb4773f3728bc15ef)
 
