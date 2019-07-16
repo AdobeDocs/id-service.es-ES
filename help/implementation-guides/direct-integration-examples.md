@@ -2,28 +2,28 @@
 description: Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una integración directa y el Experience Cloud ID (MID). El MID es un ID constante y único para sus visitantes de sitio.
 keywords: Servicio de ID
 seo-description: Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una integración directa y el Experience Cloud ID (MID). El MID es un ID constante y único para sus visitantes de sitio.
-seo-title: Casos de uso de integración directa
-title: Casos de uso de integración directa
-uuid: 6 de 1 eb 8 b -4783-4545-8 a 64-ab 6 b 9 ef 93432
+seo-title: Casos de uso de integraciones directas
+title: Casos de uso de integraciones directas
+uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# Direct integration use cases {#direct-integration-use-cases}
+# Casos de uso de integraciones directas {#direct-integration-use-cases}
 
 Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una integración directa y el Experience Cloud ID (MID). El MID es un ID constante y único para sus visitantes de sitio.
 
 >[!TIP]
 >
->* Review and understand the [code syntax and variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) before diving into the use cases.
->* For more information about the MID, see [Cookies and the Experience Cloud ID Service](../introduction/cookies.md).
+>* Revise y comprenda la [sintaxis de código y las variables de](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) antes de profundizar en los casos de uso.
+>* For more information about the MID, see [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
 >
 
 
 
-## Use case 1: I have a MID but want to pass my Visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
+## Caso de uso 1: Tengo un MID, pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
@@ -51,7 +51,7 @@ Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una int
      <li id="li_4869572B40E54C54B88A2474DAC475A8">Su ID de proveedor de datos. Este es un ID único asignado a su empresa. Lo llamaremos ID 4444. </li> 
      <li id="li_05C8ED47488C4E289D84093127EC7B19">Su ID para el visitante (9876). </li> 
      <li id="li_3D1556AD18C843828A362CC604A9F76B"> <i>(Opcional)</i> Un ID de estado para definir el estado de autenticación de este visitante. </li> 
-    </ul> <p>Y, si ocurre que tiene cualquiera de los otros parámetros enumerados en la <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> guía de integración directa</a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph">dcs_region</span>, etc.) también es correcto transferirlos.  </p> </td> 
+    </ul> <p>Y, si ocurre que tiene cualquiera de los otros parámetros enumerados en la <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> guía de integración directa</a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph">dcs_region</span>, etc.) también es correcto transferirlos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solución y ejemplo de código</b> </p> </td> 
@@ -65,7 +65,7 @@ Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una int
  </tbody> 
 </table>
 
-## Use case 2: I do not have a MID and need to generate one {#section-8e81291f8b684de8b88fae4002ae0029}
+## Caso de uso 2: No tengo un MID y necesito generarlo {#section-8e81291f8b684de8b88fae4002ae0029}
 
 <table id="table_666A92693F8A413096DF6A64770C1141"> 
  <thead> 
@@ -86,7 +86,7 @@ Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una int
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Acciones</b> </p> </td> 
-   <td colname="col2"> <p>Dadas estas condiciones, realice una llamada al servicio de ID que incluya su ID de organización. </p> <p>Y, si ocurre que tiene cualquiera de los otros parámetros enumerados en la <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> guía de integración directa</a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph">dcs_region</span>, etc.) también es correcto transferirlos.  </p> </td> 
+   <td colname="col2"> <p>Dadas estas condiciones, realice una llamada al servicio de ID que incluya su ID de organización. </p> <p>Y, si ocurre que tiene cualquiera de los otros parámetros enumerados en la <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> guía de integración directa</a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph">dcs_region</span>, etc.) también es correcto transferirlos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solución y ejemplo de código</b> </p> </td> 
