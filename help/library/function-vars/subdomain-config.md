@@ -1,19 +1,19 @@
 ---
-description: Cambie el nombre de dominio predeterminado utilizado por llamadas al servicio Experience Cloud ID a su propio nombre de subdominio con estas configuraciones.
+description: Cambie el nombre de dominio predeterminado utilizado por llamadas al servicio de identidad de Experience Platform a su propio nombre de subdominio con estas configuraciones.
 keywords: Servicio de ID
-seo-description: Cambie el nombre de dominio predeterminado utilizado por llamadas al servicio Experience Cloud ID a su propio nombre de subdominio con estas configuraciones.
+seo-description: Cambie el nombre de dominio predeterminado utilizado por llamadas al servicio de identidad de Experience Platform a su propio nombre de subdominio con estas configuraciones.
 seo-title: audienceManagerServer y audienceManagerServerSecure
 title: audienceManagerServer y audienceManagerServerSecure
-uuid: e 21 cacbf -5151-4 d 34-b 0 f 7-9 e 90275 f 4 c 7 c
+uuid: e21cacbf-5151-4d34-b0f7-9e90275f4c7c
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # audienceManagerServer y audienceManagerServerSecure{#audiencemanagerserver-and-audiencemanagerserversecure}
 
-Cambie el nombre de dominio predeterminado utilizado por llamadas al servicio Experience Cloud ID a su propio nombre de subdominio con estas configuraciones.
+Cambie el nombre de dominio predeterminado utilizado por llamadas al servicio de identidad de Experience Platform a su propio nombre de subdominio con estas configuraciones.
 
 **Sintaxis:**
 
@@ -22,14 +22,14 @@ Cambie el nombre de dominio predeterminado utilizado por llamadas al servicio Ex
 
 **Finalidad**
 
-Normally, the [!DNL Experience Cloud] ID service makes calls to [!DNL Adobe] at `dpm.demdex.net`. A veces, es posible que no desee realizar llamadas a este destino porque parece demasiado genérico o de un &quot;tercero&quot;. Para hacer que el servicio de ID se asemeje más a una llamada de origen, utilice estas configuraciones para agregar su nombre de subdominio de [!DNL Audience Manager] a `demdex.net`, como se indica a continuación. Para obtener más información sobre la llamada de `dpm.demdex.net`, consulte [Explicación de las llamadas al dominio Demdex](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
+Normalmente, el servicio de ID de [!DNL Experience Cloud] realiza llamadas a [!DNL Adobe] en `dpm.demdex.net`. A veces, es posible que no desee realizar llamadas a este destino porque parece demasiado genérico o de un &quot;tercero&quot;. Para hacer que el servicio de ID se asemeje más a una llamada de origen, utilice estas configuraciones para agregar su nombre de [!DNL Audience Manager] subdominio de a `demdex.net`, como se indica a continuación. Para obtener más información sobre la llamada de `dpm.demdex.net`, consulte [Explicación de las llamadas al dominio Demdex](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
 
 **Requisitos**
 
 Para estas configuraciones es necesario que utilice:
 
-* The [!DNL Audience Manager] subdomain name of record for your company. Verifique u obtenga este nombre de su consultor.
-* The subdomain name associated with your [!DNL Organization ID].
+* El nombre de [!DNL Audience Manager] subdominio de registro de para su empresa. Verifique u obtenga este nombre de su consultor.
+* El nombre de subdominio asociado con su [!DNL Organization ID].
 * *Ambos* parámetros de configuración con el nombre de subdominio.
 
 **Ejemplo de código**
