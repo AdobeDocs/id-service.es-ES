@@ -5,7 +5,7 @@ audience: usuario final
 user-guide-title: Ayuda del servicio Experience Cloud ID
 user-guide-url: /content/help/en/id-service/using/home.html
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
 
 ---
 
@@ -13,16 +13,16 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
 # Experience Cloud ID Service Help {#using}
 
 + [Ayuda del servicio de ID](home.md)
-+ Información general  {#intro}
-   + [Información general  ](introduction/overview.md)
++ Información general {#intro}
+   + [Información general ](introduction/overview.md)
    + [Acerca del servicio de ID](introduction/about-id-service.md)
    + [Cookies y el servicio de ID](introduction/cookies.md)
-   + [Cómo solicita y establece los ID el servicio de ID](introduction/id-request.md)
-   + [Conceptos básicos de sincronización y tasas de coincidencia](introduction/match-rates.md)
-+ Implementation guides {#implementation-guides}
+   + [Solicitud y configuración de ID con el servicio de ID](introduction/id-request.md)
+   + [Conceptos básicos de sincronización de y tasas de coincidencia](introduction/match-rates.md)
++ Guías de implementación{#implementation-guides}
    + [Guías de implementación](implementation-guides/implementation-guides.md)
    + [Métodos de implementación](implementation-guides/implementation-methods.md)
-   + [Implementación con Launch](implementation-guides/ecid-implement-with-launch.md)
+   + [Implementación con Launch Platform Launch](implementation-guides/ecid-implement-with-launch.md)
    + [Implementación con DTM](implementation-guides/standard.md)
    + [Implementar para Analytics](implementation-guides/setup-analytics.md)
    + [Implementar para Target](implementation-guides/setup-target.md)
@@ -32,15 +32,15 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
    + [Integración directa con el servicio de ID](implementation-guides/direct-integration.md)
    + [Casos de uso de integración directa](implementation-guides/direct-integration-examples.md)
    + [Probar y verificar el servicio de ID](implementation-guides/test-verify.md)
-   + Opt-in Documentation {#opt-in-service}
-      + [Información general sobre el servicio de inclusión](implementation-guides/opt-in-service/optin-overview.md)
-      + [Configuración del servicio de selección](implementation-guides/opt-in-service/getting-started.md)
-      + [Validación del servicio de selección](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
-      + [Configuración de Opt-in con Launch](implementation-guides/opt-in-service/launch.md)
+   + Documentación de Opt-in{#opt-in-service}
+      + [Información general sobre el servicio Opt-in](implementation-guides/opt-in-service/optin-overview.md)
+      + [Configuración del servicio Opt-in](implementation-guides/opt-in-service/getting-started.md)
+      + [Validación del servicio Opt-in](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
+      + [Configuración del lanzamiento de la plataforma de experiencia](implementation-guides/opt-in-service/launch.md)
       + [Configuración de Opt-in con DTM](implementation-guides/opt-in-service/optin-dtm.md)
       + [Casos de uso de Opt-in](implementation-guides/opt-in-service/use-cases.md)
       + [Referencia de Opt-in](implementation-guides/opt-in-service/api.md)
-      + [(beta) Uso de servicios de inclusión con IAB Framework](implementation-guides/opt-in-service/iab.md)
+      + [(beta) Uso de servicios de inclusión (Opt-in) con IAB Framework](implementation-guides/opt-in-service/iab.md)
 + API del servicio de ID {#id-service-api}
    + [Información general de API de servicio de ID](library/library.md)
    + Configuración {#configurations}
@@ -103,7 +103,7 @@ source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
    + [Preguntas más frecuentes sobre el servicio de ID](faq-intro/faq.md)
    + [Preguntas más frecuentes sobre el servicio de ID y Analytics](faq-intro/analytics-faq.md)
    + [Preguntas más frecuentes para otras soluciones de Experience Cloud](faq-intro/other-faq.md)
-+ Release notes for ID Service {#release-notes}
++ Notas de la versión del servicio de ID {#release-notes}
    + [Notas de la versión 2019](release-notes/release-notes.md)
    + [Notas de la versión 2018](release-notes/notes-2018.md)
    + [Notas de la versión 2017](release-notes/notes-2017.md)
