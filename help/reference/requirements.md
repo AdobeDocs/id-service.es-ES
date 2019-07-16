@@ -1,19 +1,19 @@
 ---
-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de ID de Experience Cloud.
+description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
 keywords: Servicio de ID
-seo-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio Experience Cloud ID.
-seo-title: Requisitos del servicio Experience Cloud ID
-title: Requisitos del servicio Experience Cloud ID
-uuid: 608 b 1082-6 e 9 e -4101-b 6 cb -60027950109 b
+seo-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
+seo-title: Requisitos del servicio de identidad de Experience Platform
+title: Requisitos del servicio de identidad de Experience Platform
+uuid: 608b1082-6e9e-4101-b6cb-60027950109b
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# Requisitos del servicio Experience Cloud ID {#requirements-for-the-experience-cloud-id-service}
+# Requirements for the Experience Platform Identity Service {#requirements-for-the-experience-cloud-id-service}
 
-Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio Experience Cloud ID.
+Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
 
 ## Los requisitos garantizan el éxito y la compatibilidad de la implementación {#section-15e54a9e9ad2443cb9dc950b4a78f1f1}
 
@@ -53,7 +53,7 @@ Para emplear el servicio de ID, su empresa debe poder usar [!DNL Experience Clou
 
 >[!IMPORTANT]
 >
->El identificador de organización distingue entre mayúsculas y minúsculas y debe utilizarse exactamente como se facilita.
+>El ID de organización distingue entre mayúsculas y minúsculas, y debe escribirse exactamente como se facilita.
 
 <table id="table_6C74B676EB094C568D2439FDCC9A7830"> 
  <thead> 
@@ -88,7 +88,7 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
 
 >[!TIP]
 >
->Le recomendamos que utilice las últimas versiones de código en lugar de los mínimos requeridos.
+>Recomendamos utilizar las últimas versiones de código en lugar del mínimo requerido.
 
 **JavaScript**
 
@@ -102,7 +102,7 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="keyword"></span>  Servicio Experience Cloud ID</b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="keyword"> Servicio </span>Experience Cloud ID</b> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> VisitorAPI.js</span> </p> </td> 
    <td colname="col4"> <p>2.0 o posterior </p> </td> 
   </tr> 
@@ -124,7 +124,7 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
    <td colname="col3"> <p> <span class="codeph"> dil.js</span> </p> <p> Consulte <a href="https://marketing.adobe.com/resources/help/en_US/aam/?f=c_dil.html" format="https" scope="external">Biblioteca de integración de datos</a> (DIL). </p> </td> 
    <td colname="col4"> <p>5.0 </p> <p> 
      <draft-comment>
-       actualizado desde 4.9 
+       actualizado desde la versión 4.9 
      </draft-comment> </p> </td> 
   </tr> 
   <tr> 
@@ -148,7 +148,7 @@ El servicio de ID requiere como mínimo las versiones de SDK que se indican a co
 
 >[!TIP]
 >
->Le recomendamos que utilice las últimas versiones de código en lugar de los mínimos requeridos.
+>Recomendamos utilizar las últimas versiones de código en lugar del mínimo requerido.
 
 Su código SDK debe haber sido habilitado para usar el servicio de ID. Habilite y descargue el último código SDK disponible para cada aplicación desde su cuenta de [Adobe Mobile Services](https://mobilemarketing.adobe.com/). Consulte también:
 
@@ -156,7 +156,7 @@ Su código SDK debe haber sido habilitado para usar el servicio de ID. Habilite 
 * [Métodos SDK para Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_marketing_cloud.html)
 * [Métodos SDK para iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/marketing_cloud.html)
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Biblioteca de códigos](../library/library.md#concept-ff27497375644a898d47984aefb21c97)
 
