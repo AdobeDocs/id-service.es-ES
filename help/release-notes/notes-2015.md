@@ -4,9 +4,9 @@ keywords: Servicio de ID
 seo-description: Notas de la versión y actualizaciones para 2015.
 seo-title: Notas de la versión 2015
 title: Notas de la versión 2015
-uuid: 49423699-1 e 0 f -49 e 4-9135-2 ae 84 b 4 f 92 df
+uuid: 49423699-1e0f-49e4-9135-2ae84b4f92df
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
@@ -19,16 +19,16 @@ Notas de la versión y actualizaciones para 2015.
 
 Noviembre de 2015
 
-La Ley de protección de la privacidad infantil en línea (Children&#39;s Online Privacy Protection Act, COPPA) prohíbe la recopilación en línea de información personal de niños menores de 13 años sin previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de ID de [!DNL Experience Cloud] que impida la instalación de cookies en el dominio de terceros de un navegador. See [COPPA Support in the Experience Cloud ID Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). Para la versión 1.5.3 o superior.
+La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de [!DNL Experience Cloud] ID de que impida la instalación de cookies en el dominio de terceros de un navegador. See [COPPA Support in the Experience Platform Identity Service](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). Para la versión 1.5.3 o superior.
 
 ## Versión 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
 Septiembre de 2015
 
 * Se ha corregido un error del explorador Safari que impedía que los servicios de sincronización funcionaran si los usuarios bloqueaban las cookies de terceros. (AAM-20764)
-* Calls to the ID service now include the version ID in the `d_visid_ver=` parameter. El ID devuelto ayuda a los equipos internos en la solución de problemas y los problemas de soporte. (AAM-20824)
+* Las llamadas al servicio de ID ahora incluyen el ID de versión en el parámetro `d_visid_ver=`. El ID devuelto ayuda a los equipos internos en la solución de problemas y los problemas de soporte. (AAM-20824)
 
-## Version 1.5.1 {#section-f4309d7917964a748fee4bdb45bffa44}
+## Versión 1.5.1 {#section-f4309d7917964a748fee4bdb45bffa44}
 
 Agosto de 2015
 
@@ -45,15 +45,15 @@ Agosto de 2015
 Las revisiones de documentación de esta versión incluyen:
 
 * [Métodos de API y Biblioteca de códigos](../library/library.md#concept-ff27497375644a898d47984aefb21c97): Contenido y texto reorganizados. En la mayoría de los casos, cada método obtiene su propia página.
-* [Requisitos para el servicio Experience Cloud ID](../reference/requirements.md): contenido revisado y texto reorganizado.
+* [Requisitos del servicio de identidad de la plataforma de experiencia](../reference/requirements.md): Contenido revisado y texto reorganizado.
 
 ## Versión 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
 Julio de 2015
 
-El servicio de ID de [!DNL Experience Cloud] admite varios ID y estados de autenticación. Este cambio elimina también la compatibilidad obsoleta con las asignaciones de DPID de [!DNL Audience Manager] a los ID de usuario utilizados por la función `setCustomerIDs`. See [Customer IDs and Authentication States](../reference/authenticated-state.md)
+El servicio de [!DNL Experience Cloud] ID de admite varios ID y estados de autenticación. Este cambio elimina también la compatibilidad obsoleta con las asignaciones de [!DNL Audience Manager] DPID de a los ID de usuario utilizados por la `setCustomerIDs`función. Consulte [Estados de autenticación e ID de clientes](../reference/authenticated-state.md)
 
-## Version 1.4 {#section-f5c596f355b14da28f45c798df513572}
+## Versión 1.4 {#section-f5c596f355b14da28f45c798df513572}
 
 Mayo de 2015
 
@@ -69,7 +69,7 @@ var visitor = Visitor.getInstance("016D5C175213CCA80A490D05@AdobeOrg",{
 
 Consulte [Experience Cloud](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd).
 
-## Version 1.3.5 {#section-eed4567f058f446d9a819e4682621aed}
+## Versión 1.3.5 {#section-eed4567f058f446d9a819e4682621aed}
 
 Febrero de 2015
 
@@ -79,4 +79,4 @@ Se ha corregido la administración de tiempos de espera en solicitudes para AAM 
 
 Enero de 2015
 
-Reworked `<head>/<body>` tag finding for JSONP request `<script>` tag container, as well as the creation of the `<script>` tag to account for different DOM implementations (HTML vs XHTML) with possibly different case sensitivity settings. (AN-9355)
+Búsqueda remodelada de etiqueta `<head>/<body>` para el contenedor de etiquetas `<script>` de solicitud JSONP, así como la creación de la etiqueta `<script>` para la cuenta para distintas implementaciones DOM (HTML vs. XHTML) con posibles configuraciones diferentes de distinción de mayúsculas y minúsculas. (AN-9355)
