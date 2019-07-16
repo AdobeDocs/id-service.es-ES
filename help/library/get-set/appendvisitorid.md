@@ -4,9 +4,9 @@ keywords: Servicio de ID
 seo-description: Esta función le permite compartir un Experience Cloud ID de un visitante entre dominios cuando los navegadores bloquean las cookies de terceros. Para utilizar esta función, debe haber implementado el servicio de ID y ser el propietario de los dominios de origen y destino. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 seo-title: appendVisitorIDsTo (seguimiento entre dominios)
 title: appendVisitorIDsTo (seguimiento entre dominios)
-uuid: 06 b 453 ee -73 c 5-4625-82 d 9-877 ad 2 b 4 f 702
+uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
@@ -20,19 +20,19 @@ Contenido:
 <ul class="simplelist"> 
  <li> <a href="../../library/get-set/appendvisitorid.md#section-7251d88befd440b4b79520e33c5aa44a" format="dita" scope="local"> Realizar el seguimiento de los visitantes entre dominios cuando los navegadores bloquean las cookies de terceros </a> </li> 
  <li> <a href="../../library/get-set/appendvisitorid.md#section-62d55f7f986542b0b9238e483d50d7b0" format="dita" scope="local"> Anexar el ejemplo de código de ID de visitante </a> </li> 
- <li>  Compatibilidad con <a href="../../library/get-set/appendvisitorid.md#section-168e313df6054af0a7e27b9fa0d69640" format="dita" scope="local">Dynamic Tag Management (DTM) y SDK </a> </li> 
+ <li> <a href="../../library/get-set/appendvisitorid.md#section-168e313df6054af0a7e27b9fa0d69640" format="dita" scope="local"> Compatibilidad con Dynamic Tag Management (DTM) y SDK </a> </li> 
 </ul>
 
 ## Realizar el seguimiento de los visitantes entre dominios cuando los navegadores bloquean las cookies de terceros {#section-7251d88befd440b4b79520e33c5aa44a}
 
-ID service writes a first- and third-party cookie to the browser when a person visit your site (see [Cookies and the Experience Cloud ID Service](../../introduction/cookies.md) ). La cookie de origen contiene el MID, un ID único para el visitante en cuestión. La cookie de terceros contiene otro ID utilizado por el servicio de ID para generar el MID. Cuando un navegador bloquea esta cookie de terceros, el servicio de ID no puede:
+ID service writes a first- and third-party cookie to the browser when a person visit your site (see [Cookies and the Experience Platform Identity Service](../../introduction/cookies.md) ). La cookie de origen contiene el MID, un ID único para el visitante en cuestión. La cookie de terceros contiene otro ID utilizado por el servicio de ID para generar el MID. Cuando un navegador bloquea esta cookie de terceros, el servicio de ID no puede:
 
 * Regenerar el ID único para el visitante del sitio en cuestión cuando este navegue hasta otro dominio.
 * Realizar el seguimiento de visitantes entre dominios distintos que pertenecen a su organización.
 
-To help solve this problem, implement ` Visitor.appendVisitorIDsTo( *`url`*)`. Esta propiedad permite al servicio de ID hacer un seguimiento de los visitantes entre varios dominios, incluso si sus navegadores bloquean las cookies de terceros. Así funciona:
+Para ayudar a resolver este problema, implemente una ` Visitor.appendVisitorIDsTo( *`URL`*)`. Esta propiedad permite al servicio de ID hacer un seguimiento de los visitantes entre varios dominios, incluso si sus navegadores bloquean las cookies de terceros. Así funciona:
 
-* As a visitor browses to your other domains, the ` Visitor.appendVisitorIDsTo( *`url`*)` appends the MID as a query parameter in the URL redirect from the original domain to the destination domain.
+* A medida que un visitante navega a sus otros dominios, la ` Visitor.appendVisitorIDsTo( *`URL`*)` adjunta el MID como parámetro de consulta en el redireccionamiento de URL desde el dominio original al dominio de destino.
 * Este código de servicio de ID en el dominio de destino extrae el MID de la URL, en lugar de enviar una solicitud a Adobe para obtener el ID del visitante en cuestión. Esta solicitud incluye el ID de la cookie de terceros, que no está disponible en este caso.
 * El código de servicio de ID en la página de destino emplea el MID transferido para hacer un seguimiento del visitante.
 
@@ -40,7 +40,7 @@ Consulte el ejemplo de código para obtener más información.
 
 ## Anexar el ejemplo de código de ID de visitante {#section-62d55f7f986542b0b9238e483d50d7b0}
 
-The following example can help you get started with ` Visitor.appendVisitorIDsTo( *`url`*)`. Cuando se implementa adecuadamente, su código JavaScript podría ser similar al del siguiente ejemplo.
+El ejemplo siguiente puede ayudarle a empezar con las ` Visitor.appendVisitorIDsTo( *`URL`*)`. Cuando se implementa adecuadamente, su código JavaScript podría ser similar al del siguiente ejemplo.
 
 ```js
 //Code on Domain A 
@@ -66,7 +66,7 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Compatibilidad con </th> 
-   <th colname="col2" class="entry"> Consulte  </th> 
+   <th colname="col2" class="entry"> Consulte </th> 
   </tr> 
  </thead>
  <tbody> 
