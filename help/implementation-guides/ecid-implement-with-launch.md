@@ -1,18 +1,18 @@
 ---
-description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio Experience Cloud ID con sus otras soluciones de Experience Cloud.
-seo-description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio Experience Cloud ID con sus otras soluciones de Experience Cloud.
+description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Platform con sus otras soluciones de Experience Cloud.
+seo-description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Platform con sus otras soluciones de Experience Cloud.
 seo-title: Implementación con Launch
 title: Implementación con Launch
-uuid: b 3282 f 8 e -82 b 8-4635-8 c 80-1 b 365 e 8 a 9693
+uuid: b3282f8e-82b8-4635-8c80-1b365e8a9693
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # Implementación con Launch{#implement-with-launch}
 
-Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio Experience Cloud ID con sus otras soluciones de Experience Cloud.
+Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Platform con sus otras soluciones de Experience Cloud.
 
 ## Acerca de Launch {#section-611711602854464ea351a4af80a8dafe}
 
