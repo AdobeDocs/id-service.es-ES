@@ -1,31 +1,31 @@
 ---
-description: Instrucciones y muestras de código para implementaciones estándar y no estándar del servicio Experience Cloud ID.
+description: Instrucciones y muestras de código para implementaciones estándar y no estándar del servicio de identidad de Experience Platform.
 keywords: Servicio de ID
-seo-description: Instrucciones y muestras de código para implementaciones estándar y no estándar del servicio Experience Cloud ID.
+seo-description: Instrucciones y muestras de código para implementaciones estándar y no estándar del servicio de identidad de Experience Platform.
 seo-title: Guías de implementación
 title: Guías de implementación
-uuid: d 41250 e 2-09 f 4-4 a 8 b -8 ade -54 d 43 e 9281 c 9
+uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # Métodos de implementación
 
-Instrucciones y muestras de código para implementaciones estándar y no estándar del servicio Experience Cloud ID.
+Instrucciones y muestras de código para implementaciones estándar y no estándar del servicio de identidad de Experience Platform.
 
 >[!IMPORTANT]
 >
->Be sure to read and understand the [ID service requirements](../reference/requirements.md) before getting started with these procedures.
+>Asegúrese de leer y comprender los [requisitos del servicio de ID](../reference/requirements.md) antes de comenzar con estos procedimientos.
 
-## Standard implementation {#section-ea1e5270f2184f85a2e85214a6ac60cb}
+## Implementación estándar {#section-ea1e5270f2184f85a2e85214a6ac60cb}
 
-A standard implementation uses [!DNL Dyanamic Tag Manager] (DTM) to help you get started with the ID service and integrate it with other [!DNL Experience Cloud] solutions. Le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. Para empezar, consulte [Implementación estándar con DTM](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445).
+La implementación estándar utiliza [!DNL Dyanamic Tag Manager] (DTM) para ayudarle a empezar con el servicio de ID e integrarlo con otras soluciones de [!DNL Experience Cloud]. Le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. Para empezar, consulte [Implementación estándar con DTM](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445).
 
-## Non-standard implementations {#section-2c4f2db1f9704315a7cccab6d2e07113}
+## Implementaciones no estándar{#section-2c4f2db1f9704315a7cccab6d2e07113}
 
-Estos procedimientos y ejemplos de código pueden ayudarle a configurar el servicio de ID de [!DNL Experience Cloud] de forma manual y sin seguir la configuración estándar. Observe que estas implementaciones a menudo son técnicamente complejas y difíciles. Es posible que deba asignar recursos de ingeniería específicos, o que termine usando parte de la cuota del servicio de asistencia técnica contratado con su consultor de Adobe.
+Estos procedimientos y ejemplos de código pueden ayudarle a configurar el servicio de [!DNL Experience Cloud] ID de de forma manual y sin seguir la configuración estándar. Observe que estas implementaciones a menudo son técnicamente complejas y difíciles. Es posible que deba asignar recursos de ingeniería específicos, o que termine usando parte de la cuota del servicio de asistencia técnica contratado con su consultor de Adobe.
 
 >[!TIP]
 >
