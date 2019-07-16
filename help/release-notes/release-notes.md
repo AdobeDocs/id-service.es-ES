@@ -1,19 +1,19 @@
 ---
-description: Versiones de funciones, actualizaciones o cambios en el servicio Experience Cloud ID.
+description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform.
 keywords: Servicio de ID
-seo-description: Versiones de funciones, actualizaciones o cambios en el servicio Experience Cloud ID.
+seo-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform.
 seo-title: Notas de la versión 2019
 title: Notas de la versión 2019
-uuid: a 5 a 59410-7 f 85-48 f 9-a 30 a-fef 1 c 2 e 2 b 558
+uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
 # Notas de la versión 2019 {#release-notes}
 
-Versiones de funciones, actualizaciones o cambios en el servicio Experience Cloud ID.
+Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform.
 
 ## Notas de la versión 2019 {#topic-1b9a1c3ec5044e1c987785950f697e25}
 
@@ -27,6 +27,6 @@ Versiones de características, actualizaciones o cambios en el servicio de ID de
 
 | Elemento | Descripción |
 |---|---|
-| El indicador `disableIdSyncs` no funciona cuando se pasa una cadena | Corregido. Values set on `disableidSyncs` parameter for `getInstance` function are now being honored. |
+| El indicador `disableIdSyncs` no funciona cuando se pasa una cadena | Solucionado. Ahora se aceptan los valores configurados en el `disableidSyncs` parámetro para la `getInstance` función. |
 | Los iFrames de terceros no reciben ECID | Se ha corregido los ECID en la versión móvil de Safari, así como ECID que no funcionaban para distintos iFrames. |
 
