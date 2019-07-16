@@ -2,16 +2,16 @@
 description: Siga estas instrucciones para integrar el campo Experience Cloud ID en el Data Workbench. Este proceso le permite utilizar el Experience Cloud ID persistente en sus fuentes de datos, posibilitando una integración más sólida con otros productos de Adobe Experience Cloud, y proporciona un seguimiento mejorado de visitantes.
 keywords: Servicio de ID
 seo-description: Siga estas instrucciones para integrar el campo Experience Cloud ID en el Data Workbench. Este proceso le permite utilizar el Experience Cloud ID persistente en sus fuentes de datos, posibilitando una integración más sólida con otros productos de Adobe Experience Cloud, y proporciona un seguimiento mejorado de visitantes.
-seo-title: Data Workbench y el servicio Experience Cloud ID
-title: Data Workbench y el servicio Experience Cloud ID
-uuid: 9448 abc 8-04 fb -47 d 2-be 08-1 dfbddb 0764 e
+seo-title: Área de trabajo de datos y servicio de identidad de Experience Platform
+title: Área de trabajo de datos y servicio de identidad de Experience Platform
+uuid: 9448abc8-04fb-47d2-be08-1dfbddb0764e
 translation-type: tm+mt
-source-git-commit: 3e7b49564938527e1b6bca3a5fbaf9eb141d2e06
+source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
 
 ---
 
 
-# Data Workbench y el servicio Experience Cloud ID {#data-workbench-and-the-experience-cloud-id-service}
+# Data Workbench and the Experience Platform Identity Service {#data-workbench-and-the-experience-cloud-id-service}
 
 Siga estas instrucciones para integrar el campo Experience Cloud ID en el Data Workbench. Este proceso le permite utilizar el Experience Cloud ID persistente en sus fuentes de datos, posibilitando una integración más sólida con otros productos de Adobe Experience Cloud, y proporciona un seguimiento mejorado de visitantes.
 
@@ -19,7 +19,7 @@ Si desea actualizar el [Data Workbench](https://marketing.adobe.com/resources/he
 
 1. Localice el archivo de configuración de [grupo de decodificador.](https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_text_file_dec_groups.html)
 
-   Typically, the [!DNL Decoder Group] is located in a [!DNL Profile Manager] on this path: `Dataset\Log Processing\Decoding Instructions.cfg`. 1. Copie el formato del decodificador actual desde el archivo de configuración.
+   Normalmente, [!DNL Decoder Group] se encuentra en un [!DNL Profile Manager] en esta ruta: `Dataset\Log Processing\Decoding Instructions.cfg`. 1. Copie el formato del decodificador actual desde el archivo de configuración.
 1. Pegue el formato del decodificador debajo del original.
 1. Abra el formato del decodificador y añada estas nuevas posiciones de campo al final de la lista:
 
