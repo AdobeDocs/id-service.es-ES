@@ -1,19 +1,19 @@
 ---
-description: Getcustomerids devuelve cualquier ID de cliente establecido por el servicio de identidad de Experience Platform.
+description: Getcustomerids devuelve cualquier ID de cliente establecido por el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
-seo-description: Getcustomerids devuelve cualquier ID de cliente establecido por el servicio de identidad de Experience Platform.
+seo-description: Getcustomerids devuelve cualquier ID de cliente establecido por el servicio de identidad de Experience Cloud.
 seo-title: getCustomerIDs
 title: getCustomerIDs
 uuid: 4eb6ff00-2a92-46b6-b9a6-8e0c6e2e73d1
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # getCustomerIDs{#getcustomerids}
 
-Getcustomerids devuelve cualquier ID de cliente establecido por el servicio de identidad de Experience Platform.
+Getcustomerids devuelve cualquier ID de cliente establecido por el servicio de identidad de Experience Cloud.
 
 <!--
 Is there anything else we can say about this??
