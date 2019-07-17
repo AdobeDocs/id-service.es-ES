@@ -1,19 +1,19 @@
 ---
-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform para 2016.
+description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2016.
 keywords: Servicio de ID
-seo-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform para 2016.
+seo-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2016.
 seo-title: Notas de la versión 2016
 title: Notas de la versión 2016
 uuid: 7a5a314a-3ff8-4561-9c64-6c10d2223887
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # Notas de la versión 2016 {#release-notes}
 
-Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform para 2016.
+Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2016.
 
 Estos cambios están recogidos también en las [notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/). Consulte las [notas de versiones anteriores](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) para ver anuncios más antiguos.[!DNL Experience Cloud]
 
@@ -24,7 +24,7 @@ Noviembre de 2016
 >[!IMPORTANT]
 >
 >* La versión 1.10 requiere [!DNL AppMeasurement] 1.8.0.
->* Con la biblioteca de servicios de identidad de la plataforma de experiencia 2.0.0 +, la sincronización de ID comenzará de forma predeterminada para Adobe Media Optimizer. Consulte [Conceptos básicos de sincronización de ID y tasas de coincidencia](/help/introduction/match-rates.md).
+>* Al utilizar la biblioteca de servicios de identidad de Experience Cloud 2.0.0 +, la sincronización de ID comenzará de forma predeterminada para Adobe Media Optimizer. Consulte [Conceptos básicos de sincronización de ID y tasas de coincidencia](/help/introduction/match-rates.md).
 
 
 **Correcciones y mejoras**
@@ -77,7 +77,7 @@ Agosto de 2016
 
 **Documentación nueva y revisada**
 
-Revised: [Requirements for the Experience Platform Identity Service](../reference/requirements.md)
+Revised: [Requirements for the Experience Cloud Identity Service](../reference/requirements.md)
 
 **Problemas conocidos**
 
@@ -101,9 +101,9 @@ Julio de 2016
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Uso compartido de recursos de origen diverso (CORS) </p> </td> 
-   <td colname="col2"> <p>El mecanismo CORS permite a los navegadores solicitar recursos provenientes de un dominio distinto al actual. El servicio de identidad de Experience Platform admite estándares CORS para habilitar solicitudes de recursos de origen cruzado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores que no admiten el mecanismo CORS. </p> <p>Consulte: </p> 
+   <td colname="col2"> <p>El mecanismo CORS permite a los navegadores solicitar recursos provenientes de un dominio distinto al actual. El servicio de identidad de Experience Cloud admite estándares CORS para habilitar solicitudes de recursos de origen cruzado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores que no admiten el mecanismo CORS. </p> <p>Consulte: </p> 
     <ul id="ul_15386385108F4E07824041DD6F2DC11E"> 
-     <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local"> Compatibilidad con CORS en el servicio de identidad de la plataforma de experiencia </a> </li> 
+     <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local"> Compatibilidad con CORS en el servicio de identidad de Experience Cloud </a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -123,13 +123,13 @@ Julio de 2016
 
 **Nuevas**
 
-* [Implementación del servicio de identidad de Experience Platform para Analytics](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd)
-* [Implemente el servicio de identidad de Experience Platform para Analytics, Audience Manager y Target](../implementation-guides/setup-aam-analytics-target.md#concept-e7e2dc0d0bbe481db93328b5604b4673)
+* [Implementación del servicio de identidad de Experience Cloud para Analytics](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd)
+* [Implementar el servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target](../implementation-guides/setup-aam-analytics-target.md#concept-e7e2dc0d0bbe481db93328b5604b4673)
 
 **Revisado**
 
-* [Requisitos del servicio de identidad de Experience Platform](../reference/requirements.md)
-* [Probar y verificar el servicio de identidad de la plataforma de experiencia](../implementation-guides/test-verify.md)
+* [Requisitos del servicio de identidad de Experience Cloud](../reference/requirements.md)
+* [Probar y verificar el servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md)
 
 ## Versión 1.5.7 {#section-735b4989a5744a42aeb2d97602dbda62}
 
@@ -165,8 +165,8 @@ Mayo de 2016
 **Actualizaciones de documentación**
 
 * [Requisitos de SDK para Android e iOS](../reference/requirements.md#section-73b2446fba8e463888642c7d7dfd94f1)
-* [Área de trabajo de datos y servicio de identidad de Experience Platform](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
-* [Probar y verificar el servicio de identidad de la plataforma de experiencia](../implementation-guides/test-verify.md)
+* [Área de trabajo de datos y servicio de identidad de Experience Cloud](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
+* [Probar y verificar el servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md)
 
 ## Versión 1.5.x {#section-0cfeef085cff4cbc8dff6cbc6fc32920}
 
@@ -174,7 +174,7 @@ Abril de 2016
 
 **Actualizaciones de documentación**
 
-[Implementación del servicio de identidad de Experience Platform para Target](../implementation-guides/setup-target.md#concept-9b5a802132574e1181927ddd00e5c5af)
+[Implementación del servicio de identidad de Experience Cloud para Target](../implementation-guides/setup-target.md#concept-9b5a802132574e1181927ddd00e5c5af)
 
 ## Versión 1.5.4 {#section-1a44ba147fb3440ea7dec551faee3528}
 
@@ -201,9 +201,9 @@ Marzo de 2016
 
 **Actualizaciones de documentación**
 
-* [Implemente el servicio de identidad de Experience Platform para Analytics](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd) : Nuevo procedimiento que describe cómo configurar el servicio de ID.[!DNL Analytics]
+* [Implemente el servicio de identidad de Experience Cloud para Analytics](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd) : Nuevo procedimiento que describe cómo configurar el servicio de ID.[!DNL Analytics]
 
-* [Puntos de decisión para la migración del servicio de identidad de la plataforma de experiencia](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257) : Texto revisado para mayor claridad. Al trabajar con un solo dominio puede migrarse desde un CNAME de recopilación de datos si ya no desea seguir administrándolo. Sin embargo, no es un requisito cambiar si su CNAME funciona correctamente.
+* [Puntos de decisión para la migración del servicio de identidad de Experience Cloud](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257) : Texto revisado para mayor claridad. Al trabajar con un solo dominio puede migrarse desde un CNAME de recopilación de datos si ya no desea seguir administrándolo. Sin embargo, no es un requisito cambiar si su CNAME funciona correctamente.
 
 ## Versión 1.5.3 {#section-7c09ba2832bd4644a1ccc3aa83abe66a}
 
