@@ -1,19 +1,19 @@
 ---
-description: Devuelve el ID de región del servicio de identidad de Experience Platform. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
+description: Devuelve el ID de región del servicio de identidad de Experience Cloud. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
 keywords: Servicio de ID
-seo-description: Devuelve el ID de región del servicio de identidad de Experience Platform. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
+seo-description: Devuelve el ID de región del servicio de identidad de Experience Cloud. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
 seo-title: getLocationHint
 title: getLocationHint
 uuid: cdc312b7-d270-4a5c-a2bb-0fbb37f1e2f4
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # getLocationHint{#getlocationhint}
 
-Devuelve el ID de región del servicio de identidad de Experience Platform. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
+Devuelve el ID de región del servicio de identidad de Experience Cloud. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
 
 **Sintaxis:** ` var *`nombre de variable`* = visitor.getLocationHint()`
 
