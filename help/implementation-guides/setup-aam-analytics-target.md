@@ -1,19 +1,19 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de identidad de Experience Platform y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
+description: Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de identidad de Experience Cloud y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
 keywords: Servicio de ID
-seo-description: Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de identidad de Experience Platform y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
-seo-title: Implemente el servicio de identidad de Experience Platform para Analytics, Audience Manager y Target
-title: Implemente el servicio de identidad de Experience Platform para Analytics, Audience Manager y Target
+seo-description: Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de identidad de Experience Cloud y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
+seo-title: Implementar el servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
+title: Implementar el servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Implement the Experience Platform Identity Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
+# Implement the Experience Cloud Identity Service for Analytics, Audience Manager, and Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
 
-Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de identidad de Experience Platform y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
+Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de identidad de Experience Cloud y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
 
 >[!IMPORTANT]
 >
@@ -178,7 +178,7 @@ Necesita un período de gracia si necesita que nuevos visitantes tengan una cook
 
 Interrumpa el período de gracia cuando su implementación pueda capturar el MID en lugar de leer la cookie s_vi.
 
-See also, [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
+See also, [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md).
 
 **Integración de flujo de navegación**
 
@@ -203,7 +203,7 @@ Compruebe:
 * [La cookie AMCV](../introduction/cookies.md) en el dominio en el que está alojada su página.
 * El ID de [!DNL Experience Cloud] (MID) con la herramienta de depuración de [!DNL Adobe] o su herramienta de depuración favorita.
 
-For additional checks that help you determine if the ID service is working properly, see [Test and Verify the Experience Platform Identity Service](../implementation-guides/test-verify.md).
+For additional checks that help you determine if the ID service is working properly, see [Test and Verify the Experience Cloud Identity Service](../implementation-guides/test-verify.md).
 
 **Analytics**
 
