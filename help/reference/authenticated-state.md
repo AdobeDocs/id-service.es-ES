@@ -6,7 +6,7 @@ seo-title: ID de cliente y estados de autenticación
 title: ID de cliente y estados de autenticación
 uuid: 643df363-224a-463e-a332-be59926b47e7
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -23,7 +23,7 @@ El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visita
 >
 >Los atributos de clientes y la funcionalidad de los servicios principales requieren el uso de `setCustomerIDs` (sincronización de ID de clientes). La sincronización de los ID de cliente es un método de identificación opcional para [!DNL Analytics]. [!DNL Target] exige el uso de `Visitor.AuthState.AUTHENTICATED` para que funcionen los atributos de cliente. Consulte [Servicios principales - Cómo activar sus soluciones](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services) para ver ejemplos.
 
-Beginning with Experience Platform Identity Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState` identifica a los visitantes en función de su estado de autenticación (por ejemplo, conectado, desconectado). Usted establece el estado de autenticación con un valor de estado que aparece en la tabla. El estado de autenticación se devuelve como un número entero.
+Beginning with Experience Cloud Identity Service v1.5+, `setCustomerIDs` includes the optional `AuthState` object. `AuthState` identifica a los visitantes en función de su estado de autenticación (por ejemplo, conectado, desconectado). Usted establece el estado de autenticación con un valor de estado que aparece en la tabla. El estado de autenticación se devuelve como un número entero.
 
 <table id="table_8547671CC97145529981FBF6C302BEC5"> 
  <thead> 
