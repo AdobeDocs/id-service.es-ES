@@ -6,7 +6,7 @@ seo-title: CNAME de recopilación de datos y seguimiento entre dominios
 title: CNAME de recopilación de datos y seguimiento entre dominios
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -45,6 +45,6 @@ Si también usa estos mismos servidores de recopilación de datos en otros sitio
 
 En consecuencia, el dominio de recopilación debe ser un dominio al que los visitantes accedan con frecuencia para posibilitar la identificación de estos en los distintos dominios. Si no existe ningún dominio *común* que pueda usarse como dominio de recopilación de datos, no supondrá ninguna ventaja mantener un CNAME para el dominio de recopilación de datos. Si el sitio de entrada principal no se visita en primer lugar, los visitantes se identifican de forma distinta en el sitio secundario y en el sitio principal.
 
-## Enable CNAME support with the Experience Platform Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
+## Enable CNAME support with the Experience Cloud Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
 Para habilitar la compatibilidad con el CNAME del servidor de recopilación de datos, se deben establecer las `visitor.marketingCloudServerSecure` variables.
