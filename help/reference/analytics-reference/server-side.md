@@ -6,7 +6,7 @@ seo-title: Implementación del lado del servidor combinada con JavaScript
 title: Implementación del lado del servidor combinada con JavaScript
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -21,7 +21,7 @@ Asegúrese de comprobar la existencia del ID de visitante de Experience Cloud y 
 
 >[!IMPORTANT]
 >
->Appmeasurement para Java no admite actualmente el servicio de identidad de Experience Platform.
+>Appmeasurement para Java no admite actualmente el servicio de identidad de Experience Cloud.
 
 ## API de inserción de datos {#section-955ce7664a4646d38b3005cb2df40baf}
 
@@ -33,4 +33,4 @@ Consulte [Etiquetas XML admitidas](https://marketing.adobe.com/developer/en_US/d
 
 ## AppMeasurement para Java {#section-d664b94934924d048300d9c2b6560085}
 
-El servicio de identidad de Experience Platform no se admite actualmente en appmeasurement para Java.
+El servicio de identidad de Experience Cloud no se admite actualmente en appmeasurement para Java.
