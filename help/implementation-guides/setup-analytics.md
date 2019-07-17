@@ -1,19 +1,19 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Platform y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
+description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Cloud y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
 keywords: Servicio de ID
-seo-description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Platform y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
-seo-title: Implementación del servicio de identidad de Experience Platform para Analytics
-title: Implementación del servicio de identidad de Experience Platform para Analytics
+seo-description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Cloud y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
+seo-title: Implementación del servicio de identidad de Experience Cloud para Analytics
+title: Implementación del servicio de identidad de Experience Cloud para Analytics
 uuid: 7fbd6fa0-1713-4232-8680-500ed62709d5
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Implement the Experience Platform Identity Service for Analytics {#implement-the-experience-cloud-id-service-for-analytics}
+# Implement the Experience Cloud Identity Service for Analytics {#implement-the-experience-cloud-id-service-for-analytics}
 
-Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Platform y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
+Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Cloud y no usan la administración dinámica de etiquetas (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
 
 >[!IMPORTANT]
 >
@@ -134,7 +134,7 @@ Para determinar las variables del servidor de seguimiento que se van a emplear:
 
 
 
-If you&#39;re not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 ## Paso 5: Actualización de su archivo AppMeasurement.js o s_code.js {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
@@ -178,7 +178,7 @@ Necesita un período de gracia si necesita que nuevos visitantes tengan una cook
 
 Interrumpa el período de gracia cuando su implementación pueda capturar el MID en lugar de leer la cookie s_vi.
 
-Consulte [Cookies y el servicio de identidad de Experience Platform](../introduction/cookies.md).
+Consulte [Cookies y Experience Cloud Identity Service](../introduction/cookies.md).
 
 Necesita un período de gracia si envía datos a un sistema interno desde una fuente de datos de flujo de navegación y si sus procesos utilizan las columnas `visid_high` y `visid_low`.
 
@@ -199,7 +199,7 @@ Para probar la implementación del servicio de ID, compruebe:
 * la [cookie AMCV](../introduction/cookies.md) en el dominio en el que está alojada su página.
 * El valor MID en la solicitud de imagen de [!DNL Analytics] con la [herramienta de depuración de Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
 
-See, [Test and Verify the Experience Platform Identity Service](../implementation-guides/test-verify.md).
+See, [Test and Verify the Experience Cloud Identity Service](../implementation-guides/test-verify.md).
 
 **Implementación de código**
 
