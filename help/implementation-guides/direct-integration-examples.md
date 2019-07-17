@@ -6,7 +6,7 @@ seo-title: Casos de uso de integraciones directas
 title: Casos de uso de integraciones directas
 uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
@@ -18,7 +18,7 @@ Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una int
 >[!TIP]
 >
 >* Revise y comprenda la [sintaxis de código y las variables de](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) antes de profundizar en los casos de uso.
->* For more information about the MID, see [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
+>* For more information about the MID, see [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md).
 >
 
 
