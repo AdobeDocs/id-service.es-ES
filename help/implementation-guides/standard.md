@@ -1,23 +1,23 @@
 ---
-description: Implementaciones antiguas utilizan la administración dinámica de etiquetas (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Platform con sus otras soluciones de Experience Cloud.
+description: Implementaciones antiguas utilizan la administración dinámica de etiquetas (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Cloud con sus otras soluciones de Experience Cloud.
 keywords: Servicio de ID
-seo-description: Implementaciones antiguas utilizan la administración dinámica de etiquetas (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Platform con sus otras soluciones de Experience Cloud.
+seo-description: Implementaciones antiguas utilizan la administración dinámica de etiquetas (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Cloud con sus otras soluciones de Experience Cloud.
 seo-title: Implementación con Dynamic Tag Management
 title: Implementación con Dynamic Tag Management
 uuid: c4f752c4-392e-4909-b178-911706857064
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # Implementación con Dynamic Tag Management{#implementation-with-dynamic-tag-management}
 
-Implementaciones antiguas utilizan la administración dinámica de etiquetas (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Platform con sus otras soluciones de Experience Cloud.
+Implementaciones antiguas utilizan la administración dinámica de etiquetas (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Cloud con sus otras soluciones de Experience Cloud.
 
 ## Implementación con Dynamic Tag Management {#topic-6f4ed5d96977406ca991e50f3fbd5b01}
 
-Implementaciones antiguas utilizan la administración dinámica de etiquetas (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Platform con sus otras soluciones de Experience Cloud.
+Implementaciones antiguas utilizan la administración dinámica de etiquetas (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Cloud con sus otras soluciones de Experience Cloud.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ DTM es una herramienta sencilla pero potente. Si aún no la usa, le recomendamos
 
 ## Guías de implementación {#concept-54a2ec49af8f4bfca9207b1d404e8e1a}
 
-Revise estos requisitos y procedimientos antes de intentar implementar el servicio de identidad de Experience Platform con la administración dinámica de etiquetas (DTM).
+Revise estos requisitos y procedimientos antes de intentar implementar el servicio de identidad de Experience Cloud con la administración dinámica de etiquetas (DTM).
 
 <!--
 mcvid-dtm-deployment.xml
@@ -70,7 +70,7 @@ Customers must provide a CNAME or use [!DNL *.sc.omtrdc] for [regional data coll
 
 Los clientes nuevos de [!DNL Analytics] deberán [crear un grupo de informes](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html) para recopilar datos.
 
-## Implement the Experience Platform Identity Service with DTM {#task-a659cf19dea84ad48edabe0b72ef9f5c}
+## Implement the Experience Cloud Identity Service with DTM {#task-a659cf19dea84ad48edabe0b72ef9f5c}
 
 Siga estos pasos para implementar el servicio de ID con Dynamic Tag Management (DTM).
 
@@ -88,23 +88,23 @@ mcvid-dtm-implement.xml
 
 1. En el [!DNL Dashboard]de DTM, haga clic en la propiedad web con la que desee trabajar.
 1. En la pestaña **[!UICONTROL Información general]** de la propiedad web que haya seleccionado, haga clic en **[!UICONTROL Agregar una herramienta]**.
-1. In the **[!UICONTROL Tool Type]** list, click **[!UICONTROL Experience Platform Identity Service]**.
+1. In the **[!UICONTROL Tool Type]** list, click **[!UICONTROL Experience Cloud Identity Service]**.
 
    >[!NOTE]
    >
    >Esta acción rellenará el cuadro de **[!UICONTROL ID de organización de Experience Cloud]** con el ID de su organización. Si su cuenta de DTM no está vinculada a [!DNL Experience Cloud], deberá proporcionar este ID. Para vincular su cuenta, consulte [Vinculación de cuentas en Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). Consulte los [requisitos](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26) para ver información sobre cómo localizar el ID de su organización.
 
-1. Escriba el nombre de su servidor de seguimiento en el cuadro **[!UICONTROL Servidor de seguimiento]**. If you&#39;re not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+1. Escriba el nombre de su servidor de seguimiento en el cuadro **[!UICONTROL Servidor de seguimiento]**. If you're not sure how to find your tracking server see the [FAQ](../faq-intro/faq.md) and [Correctly Populate the trackingServer and trackingServerSecure variables](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 1. Haga clic en **[!UICONTROL Crear herramienta]** y en **[!UICONTROL Guardar cambios]**.
 
-   Tras la operación de guardar, el servicio de ID quedará configurado como una herramienta dentro de DTM. No obstante, aún no estará listo para usarse. Su herramienta de DTM todavía tendrá que pasar por el proceso de publicación/aprobación de DTM, y es posible que le interese configurar otros parámetros adicionales. Para obtener información acerca del proceso de aprobación de DTM, consulte el vídeo de [iniciación rápida en los conceptos básicos de usuario](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html). Para obtener información sobre los otros parámetros adicionales que se pueden agregar a DTM, consulte [Configuración del servicio de identidad de la plataforma de experiencia para DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
+   Tras la operación de guardar, el servicio de ID quedará configurado como una herramienta dentro de DTM. No obstante, aún no estará listo para usarse. Su herramienta de DTM todavía tendrá que pasar por el proceso de publicación/aprobación de DTM, y es posible que le interese configurar otros parámetros adicionales. Para obtener información acerca del proceso de aprobación de DTM, consulte el vídeo de [iniciación rápida en los conceptos básicos de usuario](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html). Para obtener información sobre los otros parámetros adicionales que se pueden agregar a DTM, consulte [Configuración del servicio de identidad de Experience Cloud para DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
 
 >[!MORE_LIKE_THIS]
 >
 >* [Propiedades web](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)
 
 
-## Experience Platform Identity Service Settings for DTM {#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
+## Experience Cloud Identity Service Settings for DTM {#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
 Describe los campos [!DNL Organization ID], [!DNL General] y [!DNL Customer Settings] y cómo los utiliza el servicio de ID [!DNL Experience Cloud].
 
@@ -124,7 +124,7 @@ Este es el ID necesario y asociado a la empresa de [!DNL Experience Cloud] aprov
 
 ![](assets/orgID.png)
 
-See also [Cookies and the Experience Platform Identity Service](../introduction/cookies.md).
+See also [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md).
 
 ## Configuración general {#section-071d358e40f84629a8901b893dd61392}
 
@@ -136,7 +136,7 @@ La tabla a continuación enumera y define la configuración [!DNL General].
 
 **Solicitar ID de visitante automáticamente**
 
-When checked, dynamic tag management to automatically calls the `getMarketingCloudVisitorID()` method before loading any of the Adobe solutions that use the Experience Platform Identity Service.
+When checked, dynamic tag management to automatically calls the `getMarketingCloudVisitorID()` method before loading any of the Adobe solutions that use the Experience Cloud Identity Service.
 
 Consulte [getMarketingCloudVisitorID](../library/get-set/getmcvid.md).
 
@@ -196,7 +196,7 @@ El valor debe ser un elemento de datos que contenga el ID de usuario. Los elemen
 
 Opciones que definen o identifican a los visitantes según su estado de autenticación (p. ej., si ha iniciado sesión o si la ha cerrado). Consulte [Estados de autenticación e ID de clientes](../reference/authenticated-state.md)
 
-## Test and verify the Experience Platform Identity Service {#concept-644fdbef433b46ba9c0634ac95eaa680}
+## Test and verify the Experience Cloud Identity Service {#concept-644fdbef433b46ba9c0634ac95eaa680}
 
 Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y [!DNL Experience Cloud].
 
@@ -220,7 +220,7 @@ La [herramienta de depuración de Adobe](https://marketing.adobe.com/resources/h
 
 ## Pruebas con la herramienta de depuración de Adobe {#section-861365abc24b498e925b3837ea81d469}
 
-Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. See [Cookies and the Experience Platform Identity Service](../introduction/cookies.md) for more information about the MID.
+Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. See [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md) for more information about the MID.
 
 To verify the status of the ID service with the [!DNL Adobe] [debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html):
 
