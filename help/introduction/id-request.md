@@ -2,22 +2,22 @@
 description: Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 keywords: Servicio de ID
 seo-description: Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
-seo-title: Cómo solicita y establece los ID el servicio de identidad Platform Platform
-title: Cómo solicita y establece los ID el servicio de identidad Platform Platform
+seo-title: Cómo solicita y establece los ID el servicio de identidad de Experience Cloud
+title: Cómo solicita y establece los ID el servicio de identidad de Experience Cloud
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# How the Experience Platform Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# How the Experience Cloud Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 
 >[!NOTE]
 >
->If you&#39;re not familiar with how the Experience Platform Identity Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
+>If you're not familiar with how the Experience Cloud Identity Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
 
 **Sugerencia:** Vea también nuestro[ vídeo sobre el servicio de ID acerca del seguimiento entre dominios](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html).
 
