@@ -1,19 +1,19 @@
 ---
-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform para 2017.
+description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2017.
 keywords: Servicio de ID
-seo-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform para 2017.
+seo-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2017.
 seo-title: Notas de la versión 2017
 title: Notas de la versión 2017
 uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # Notas de la versión 2017 {#release-notes}
 
-Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform para 2017.
+Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2017.
 
 Estos cambios están recogidos también en las [notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/). En el caso de las notas de versión del servicio de ID, consulte las [notas de la versión anteriores](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) o los vínculos que se muestran en la parte inferior de esta página.
 
@@ -51,7 +51,7 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 * Se ha corregido un error de Chrome que hacía que el servicio de ID generara un error al hacer clic en el botón Atrás en dicho navegador.
 * Ahora, el servicio de ID vuelve a desencadenar la sincronización de ID cuando cambia el ID de región presente en la respuesta de llamada de evento.
-* Se ha agregado nueva documentación, [Políticas de seguridad de contenido y el servicio de identidad de Experience Platform](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), que explica cómo incluir llamadas a dominios de Adobe usados por el servicio de ID.
+* Se ha agregado nueva documentación, [Políticas de seguridad de contenido y Experience Cloud Identity Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), que explica cómo incluir llamadas a dominios de Adobe usados por el servicio de ID.
 
 ## Versión 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
