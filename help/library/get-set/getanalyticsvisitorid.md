@@ -1,19 +1,19 @@
 ---
-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Platform. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
+description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Cloud. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 keywords: Servicio de ID
-seo-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Platform. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
+seo-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Cloud. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
-Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Platform. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
+Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Cloud. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 
 **Sintaxis** `var analyticsID = visitor.getAnalyticsVisitorID()`
 
