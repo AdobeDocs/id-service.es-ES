@@ -1,19 +1,19 @@
 ---
-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform.
+description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
-seo-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform.
+seo-description: Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 seo-title: Notas de la versión 2019
 title: Notas de la versión 2019
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
 # Notas de la versión 2019 {#release-notes}
 
-Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Platform.
+Versiones de funciones, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 
 ## Notas de la versión 2019 {#topic-1b9a1c3ec5044e1c987785950f697e25}
 
