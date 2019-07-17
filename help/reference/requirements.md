@@ -1,19 +1,19 @@
 ---
-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
+description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
-seo-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
-seo-title: Requisitos del servicio de identidad de Experience Platform
-title: Requisitos del servicio de identidad de Experience Platform
+seo-description: Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Cloud.
+seo-title: Requisitos del servicio de identidad de Experience Cloud
+title: Requisitos del servicio de identidad de Experience Cloud
 uuid: 608b1082-6e9e-4101-b6cb-60027950109b
 translation-type: tm+mt
-source-git-commit: 484c52265d8e0b6f0e79cb21d09082fff730a44b
+source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Requirements for the Experience Platform Identity Service {#requirements-for-the-experience-cloud-id-service}
+# Requirements for the Experience Cloud Identity Service {#requirements-for-the-experience-cloud-id-service}
 
-Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Platform.
+Revise esta sección para asegurarse de que está utilizando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de identidad de Experience Cloud.
 
 ## Los requisitos garantizan el éxito y la compatibilidad de la implementación {#section-15e54a9e9ad2443cb9dc950b4a78f1f1}
 
