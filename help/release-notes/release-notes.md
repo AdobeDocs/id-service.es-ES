@@ -6,7 +6,7 @@ seo-title: Notas de la versión 2019
 title: Notas de la versión 2019
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: 4532d09cc9b4d83fa62c13bd1adac7abdae222b1
 
 ---
 
@@ -18,6 +18,26 @@ Versiones de funciones, actualizaciones o cambios en el servicio de identidad de
 ## Notas de la versión 2019 {#topic-1b9a1c3ec5044e1c987785950f697e25}
 
 Versiones de características, actualizaciones o cambios en el servicio de ID de [!DNL Experience Cloud].
+
+## Versión 4.4 {#version-4point4}
+
+**Nueva función**
+
+[SHA 256 Hash Support for setcustomerids](/help/reference/hashing-support.md). El servicio Experience Cloud ID (ECID) admite el algoritmo hash SHA -256 que le permite pasar ID de cliente o direcciones de correo electrónico y transferir ID hash.
+
+**Correcciones, mejoras, mejoras**
+
+* We made a configuration update to `cookieDomain`. The ECID library now filters out the empty string `cookieDomain` in `initConfig` and uses the top level cookie domain, which is returned by the getDomain method. (CORE-29223)
+* We fixed a bug related to `getVisitorValues` in `localVisitor`. (CORE-31287)
+* We fixed a bug where there was an inconsistency for the MCOPTOUT value in the Safari browser, returned by the `getVisitorValue` method. (CORE-29719)
+* We updated the Opt-in library by adding `optIn.off` to unsubscribe from events.
+* We fixed a bug related to the setTimeout function, where `setTimeout` violated the Content Security Policy (CSP) on some customer sites. (CORE-30623)
+
+## Versión 4.3 {#version-4point3}
+
+**Compatibilidad con ITP 2.1**. Si un servidor de seguimiento se configura en un CNAME de origen, se coloca una nueva cookie (s_ ecid) con el valor ECID. La biblioteca ECID hace referencia al valor para mantener el ID más allá de 7 días. See [ECID library methods in a Safari ITP world](/help/reference/ecid-library-methods.md).
+
+**Corrección de errores para la configuración de securecookie.**
 
 ## Versión 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
