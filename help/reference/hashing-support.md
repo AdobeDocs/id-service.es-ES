@@ -5,7 +5,7 @@ seo-description: El servicio Experience Cloud ID (ECID) admite el algoritmo hash
 seo-title: SHA 256 Hash Support for setcustomerids
 title: SHA 256 Hash Support for setcustomerids
 translation-type: tm+mt
-source-git-commit: c670939cbeaebf4530df0e7d12e992ca5f0963bd
+source-git-commit: 0311d57391a0a9d5ac5a0bba255ca71bdffd67c0
 
 ---
 
@@ -31,11 +31,13 @@ Consulte a continuación un ejemplo de código de cómo configurar un único ID 
 visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256");
 ```
 
+<br> 
+
 Junto con el ID de visitante de Experience Cloud, puede asociar ID de cliente adicionales, estado de autenticación y tipo de hash (SHA -256) con cada visitante. Si no proporciona ningún tipo de hash, se considerará como sin hash.
 
 El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. Por ejemplo, puede cargar estos ID como [atributos de cliente](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) a Experience Cloud y acceder a estos datos en las distintas soluciones.
 
-Customer IDs, authenticated states and hash type *are not* stored in a cookie to be used later. Instead, Customer IDs, authenticated states and hash type should be stored in an instance variable, to be retrieved using [`getCustomerIDs](/help/library/get-set/getcustomerids.md), as shown below:
+Customer IDs, authenticated states and hash type *are not* stored in a cookie to be used later. Instead, Customer IDs, authenticated states and hash type should be stored in an instance variable, to be retrieved using [`getCustomerIDs`](/help/library/get-set/getcustomerids.md), as shown below:
 
 ```
 > visitor.getCustomerIDs();
@@ -43,6 +45,8 @@ Customer IDs, authenticated states and hash type *are not* stored in a cookie to
     email: {id: "a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097", authState: 1, hashType: "SHA-256"}
     __proto__: Object
 ```
+
+<br> 
 
 Using the `setCustomerIDs` method results in a call to the Experience Cloud ID Service, to `dpm.demdex.net`, with the addition of the `d_cid_ic` query parameter, which contains the hashed customer ID. Una llamada de ejemplo podría tener el aspecto siguiente. Se agregaron los saltos de línea para mayor claridad.
 
@@ -53,6 +57,8 @@ d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&
 d_cid_ic=email%a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097%011&
 ts=1563299964843
 ```
+
+<br> 
 
 See the table below for a description of the `d_cid_ic` parameter and authentication state.
 
@@ -67,6 +73,8 @@ Launch Platform Launch es la nueva generación de funciones de administración d
 To add an action in Launch, read the [rules documentation](https://docs.adobe.com/help/en/launch/using/reference/manage-resources/rules.html) in Adobe Launch and see the screen capture below:
 
 ![](/help/reference/assets/hashing-support.png)
+
+<br> 
 
 Tras confirmar la configuración, Launch ajusta los datos en un objeto, como se muestra a continuación:
 
