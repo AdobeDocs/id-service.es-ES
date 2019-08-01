@@ -6,7 +6,7 @@ seo-title: Compatibilidad con COPPA en el servicio de identidad de Experience Cl
 title: Compatibilidad con COPPA en el servicio de identidad de Experience Cloud
 uuid: 621b5ebd-92e7-4635-be85-8d7e36589fcb
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: 584b6240c3e0286111689499ca5df5d98aa9fab2
 
 ---
 
@@ -17,7 +17,7 @@ La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online P
 
 >[!NOTE]
 >
->Para la versión 1.5.3 o superior.
+>Para la versión 3.0.0 o superior.
 
 **Cookies y seguimiento**
 
