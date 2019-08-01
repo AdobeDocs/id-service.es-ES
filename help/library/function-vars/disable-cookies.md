@@ -6,7 +6,7 @@ seo-title: disableThirdPartyCookies
 title: disableThirdPartyCookies
 uuid: 7ed5aa16-44ca-4702-878a-1a208ca95270
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: 584b6240c3e0286111689499ca5df5d98aa9fab2
 
 ---
 
@@ -19,7 +19,7 @@ Un indicador booleano opcional que impide que el servicio de identidad de Experi
 >
 >Esta configuración era `idSyncDisable3rdPartySyncing` y pasó a denominarse `disableThirdPartyCookies` en la versión 3.0 del 18 de enero de 2018.
 
-**Sintaxis:** `disableThirdPartyCookies: true|false` (el valor predeterminado es `false`) Para `VisitorAPI.js` v1.5.3 o posterior.
+**Sintaxis:** `disableThirdPartyCookies: true|false` (el valor predeterminado es `false`) For `VisitorAPI.js` v3.0.0 or greater.
 
 When `disableThirdPartyCookies: true`, the ID service does not return the third-party, demdex.net cookie (see [Cookies and the Experience Cloud Identity Service](../../introduction/cookies.md) ). Si el visitante de un sitio tiene ya esta cookie en su navegador, el servicio de ID no la usará para crear un nuevo Experience Cloud ID (MID) o devolver un ID existente. En lugar de ello, el servicio de ID crea un MID aleatorio nuevo en la cookie de origen. Una vez habilitado, podrá recopilar datos con el servicio de ID y compartirlos entre distintas soluciones de Experience Cloud.
 
