@@ -5,7 +5,7 @@ seo-title: (beta) Uso de servicios de inclusión con IAB Framework
 title: (beta) Uso de servicios de inclusión con IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 translation-type: tm+mt
-source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
+source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
 
@@ -46,9 +46,9 @@ Una vez que los ajustes estén correctamente configurados, las bibliotecas ECID 
 
 >[!IMPORTANT]
 >
->Audience Manager necesita consentimiento para las *finalidades 1, 2 y 5, además del consentimiento del proveedor*, para poder implementar cookies e iniciar o cumplir sincronizaciones de ID. Read more about the IAB plugin in Audience Manager documentation ** [here](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html)**.
+>Audience Manager necesita consentimiento para las *finalidades 1, 2 y 5, además del consentimiento del proveedor*, para poder implementar cookies e iniciar o cumplir sincronizaciones de ID. Obtenga más información sobre el complemento IAB en la documentación de Audience Manager [aquí](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html).
 
-Para obtener más información sobre cómo se validan tanto Opt-in como el complemento IAB, consulte el caso n.º 4 de la guía de validación [**aquí** ](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
+Para obtener más información sobre cómo se validan tanto Opt-in como el complemento IAB, consulte el caso n.º 4 de la guía de validación [aquí](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
 
 ## Documentación relacionada {#section-55da1110051a4b39b1037803f4a7b264}
 
