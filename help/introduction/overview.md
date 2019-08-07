@@ -1,18 +1,18 @@
 ---
-description: La función del servicio de identidad de Experience Cloud en Adobe Experience Cloud.
-seo-description: El servicio de identidad de Experience Cloud permite el marco de identificación común para los servicios principales, las soluciones y los atributos del cliente y las audiencias del cliente en el servicio principal Personas.
+description: La función del servicio de identidad de Experience Platform en Adobe Experience Cloud.
+seo-description: El servicio de identidad de Experience Platform permite el marco de identificación común para los servicios principales, las soluciones y los atributos del cliente y las audiencias de Experience Cloud.
 seo-title: Información general del servicio de ID
 title: Información general
 uuid: null
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
 
 
 # Información general
 
-El servicio de identidad de Experience Cloud permite el marco de identificación común para los servicios principales, las soluciones y los atributos del cliente y las audiencias del cliente en el servicio principal Personas. Funciona asignando ID únicos y persistentes a los visitantes del sitio. Cuando la organización implementa el servicio de ID, este ID le permite identificar al mismo visitante del sitio y sus datos en diferentes soluciones de Experience Cloud.
+El servicio de identidad de Experience Platform permite el marco de identificación común de los servicios principales, las soluciones y los atributos del cliente y las audiencias de Experience Cloud en el servicio de identidad de la plataforma. (Puede ver referencias a nombres antiguos o siglas, como Experience Cloud ID Service, ECID, Marketing Cloud ID Service, MID y Visitor ID Service). El servicio de identidad funciona asignando un ID exclusivo y persistente a un visitante del sitio. Cuando la organización implementa el servicio de ID, este ID le permite identificar al mismo visitante del sitio y sus datos en diferentes soluciones de Experience Cloud.
 
 ![](assets/ecid.png)
 
