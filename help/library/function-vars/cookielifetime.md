@@ -4,8 +4,8 @@ keywords: Servicio de ID
 seo-description: Esta variable le permite sobrescribir el intervalo de duración predeterminado para la cookie de AMCV.
 seo-title: cookieLifetime
 title: cookieLifetime
-uuid: cd 945 db 3-429 a -4625-ac 3 f -69 ac 259377 a 3
-translation-type: tm+mt
+uuid: cd945db3-429a-4625-ac3f-69ac259377a3
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 Esta variable le permite sobrescribir el intervalo de duración predeterminado para la cookie de AMCV.
 
-De forma predeterminada, [!DNL Experience Cloud] las cookies del servicio de ID caducan al cabo de 24 meses. Establezca el intervalo de tiempo en segundos.
+De manera predeterminada, las cookies del servicio de [!DNL Experience Cloud] ID de caducan tras 24 meses. Establezca el intervalo de tiempo en segundos.
 
-**Sintaxis:**` cookieLifetime: *`duración en segundos`*`
+**Sintaxis:** ` cookieLifetime: *`duración en segundos`*`
 
 **Ejemplo de código**
 
