@@ -1,10 +1,10 @@
 ---
-description: Ejemplos de uso de muestra y soluciones para administrar el servicio de selección.
-seo-description: Ejemplos de uso de muestra y soluciones para administrar el servicio de selección.
+description: Casos de uso y soluciones de ejemplo para la administración del servicio de inclusión (Opt-in).
+seo-description: Casos de uso y soluciones de ejemplo para la administración del servicio de inclusión (Opt-in).
 seo-title: Casos de uso de Opt-in
 title: Casos de uso de Opt-in
-uuid: d 75 a 44 d 5-b 713-43 d 1-b 5 b 6-95 d 1 d 0 d 213 a 7
-translation-type: tm+mt
+uuid: d75a44d5-b713-43d1-b5b6-95d1d0d213a7
+translation-type: ht
 source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 # Casos de uso de Opt-in {#opt-in-use-cases}
 
-Ejemplos de uso de muestra y soluciones para administrar el servicio de selección.
+Casos de uso y soluciones de ejemplo para la administración del servicio de inclusión (Opt-in).
 
 ## Sugerencias y solución de problemas {#section-5c566366410f4a8f89eca0d3f556d99f}
 
@@ -20,9 +20,9 @@ Ejemplos de uso de muestra y soluciones para administrar el servicio de selecci�
 * Opt-in es una implementación por dominio. No gestiona las implementaciones entre dominios.
 * Si desea deshabilitar las llamadas de terceros para una biblioteca específica, debe configurar esa preferencia separadamente en cada biblioteca.
 
-## Situaciones de inclusión {#section-1178053c065c430bba26f82ef383a71c}
+## Situaciones de inclusión  {#section-1178053c065c430bba26f82ef383a71c}
 
-Estos casos de uso son ideas de ejemplo para utilizar el servicio de selección.
+Estos casos de uso son ejemplos del uso del servicio de inclusión (Opt-in).
 
 <table id="table_83C85343611344D8A8315157C1B4240F"> 
  <thead> 
