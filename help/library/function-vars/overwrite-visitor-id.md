@@ -1,11 +1,11 @@
 ---
-description: Esta propiedad sobrescribe los ID de Experience Cloud y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, deberá haber implementado el servicio de ID en cada dominio, así como ser su propietario. Este código no le permite sobrescribir los ID en dominios que no estén bajo su control.
+description: Esta propiedad sobrescribe los Experience Cloud ID y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, deberá haber implementado el servicio de ID en cada dominio, así como ser su propietario. Este código no le permite sobrescribir los ID en dominios que no estén bajo su control.
 keywords: Servicio de ID
-seo-description: Esta propiedad sobrescribe los ID de Experience Cloud y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, deberá haber implementado el servicio de ID en cada dominio, así como ser su propietario. Este código no le permite sobrescribir los ID en dominios que no estén bajo su control.
+seo-description: Esta propiedad sobrescribe los Experience Cloud ID y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, deberá haber implementado el servicio de ID en cada dominio, así como ser su propietario. Este código no le permite sobrescribir los ID en dominios que no estén bajo su control.
 seo-title: overwriteCrossDomainMCIDAndAID
 title: overwriteCrossDomainMCIDAndAID
-uuid: 8 e 48127 a-ac 62-4 ea 0-9756-2 a 27 b 20 ecbcf
-translation-type: tm+mt
+uuid: 8e48127a-ac62-4ea0-9756-2a27b20ecbcf
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 # overwriteCrossDomainMCIDAndAID{#overwritecrossdomainmcidandaid}
 
-Esta propiedad sobrescribe los ID de Experience Cloud y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, deberá haber implementado el servicio de ID en cada dominio, así como ser su propietario. Este código no le permite sobrescribir los ID en dominios que no estén bajo su control.
+Esta propiedad sobrescribe los Experience Cloud ID y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, deberá haber implementado el servicio de ID en cada dominio, así como ser su propietario. Este código no le permite sobrescribir los ID en dominios que no estén bajo su control.
 
-**Sintaxis:**`Visitor.overwriteCrossDomainMCIDAndAID: true|false` (el valor predeterminado `false`es)
+**Sintaxis:** `Visitor.overwriteCrossDomainMCIDAndAID: true|false` (el valor predeterminado es `false`)
 
 **Ejemplo de código**
 
@@ -33,7 +33,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ID-HERE", {
 
 **Casos de uso**
 
-Para hacer un seguimiento de los visitantes del sitio, el servicio de ID escribe un ID de [!DNL Experience Cloud] (o MID) en una cookie de navegador. En la tabla siguiente se enumeran y describen los casos de uso habituales en los que puede interesarle sobrescribir un MID existente que haya definido el servicio de ID en otro dominio.
+Para hacer un seguimiento de los visitantes del sitio, el servicio de ID escribe un [!DNL Experience Cloud] ID de (o MID) en una cookie de navegador. En la tabla siguiente se enumeran y describen los casos de uso habituales en los que puede interesarle sobrescribir un MID existente que haya definido el servicio de ID en otro dominio.
 
 <table id="table_FC1AF6551D6646E0BF1C4FB7C1316EBB"> 
  <thead> 
