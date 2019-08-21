@@ -1,11 +1,11 @@
 ---
-description: Esta configuración le permite limpiar Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
+description: Esta configuración le permite retirar los Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
 keywords: Servicio de ID
-seo-description: Esta configuración le permite limpiar Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
+seo-description: Esta configuración le permite retirar los Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
 seo-title: resetBeforeVersion
 title: resetBeforeVersion
-uuid: b 00 d 18 b 8-6720-42 f 9-9 c 83-bd 306184 cc 0 c
-translation-type: tm+mt
+uuid: b00d18b8-6720-42f9-9c83-bd306184cc0c
+translation-type: ht
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 # resetBeforeVersion{#resetbeforeversion}
 
-Esta configuración le permite limpiar Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
+Esta configuración le permite retirar los Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
 
 Si se proporciona la versión del servicio de ID como valor de la variable `resetBeforeVersion`, los ECID obsoletos se borran de los ID del lado del cliente.
 
