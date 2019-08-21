@@ -1,20 +1,20 @@
 ---
-description: Una vez activada la opción de selección en el sitio web, utilice los métodos de validación para comprobar que el servicio funciona según lo esperado mediante las herramientas para desarrolladores del explorador.
-seo-description: Una vez activada la opción de selección en el sitio web, utilice los métodos de validación para comprobar que el servicio funciona según lo esperado mediante las herramientas para desarrolladores del explorador.
-seo-title: Validación del servicio de selección
-title: Validación del servicio de selección
-uuid: 1743360 a-d 757-4 e 50-8697-0 fa 92 b 302 cbc
-translation-type: tm+mt
+description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
+seo-description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
+seo-title: Validación del servicio de inclusión (Opt-in)
+title: Validación del servicio de inclusión (Opt-in)
+uuid: 1743360a-d757-4e50-8697-0fa92b302cbc
+translation-type: ht
 source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 ---
 
 
-# Validación del servicio de selección{#validating-opt-in-service}
+# Validación del servicio de inclusión (Opt-in){#validating-opt-in-service}
 
-Una vez activada la opción de selección en el sitio web, utilice los métodos de validación para comprobar que el servicio funciona según lo esperado mediante las herramientas para desarrolladores del explorador.
+Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
 
-## Caso de uso 1: Activar inclusión {#section-c8fe1ee3711b420c8186c7057abbecb3}
+## Caso de uso 1: Habilitar el servicio de inclusión (Opt-in) {#section-c8fe1ee3711b420c8186c7057abbecb3}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
@@ -30,7 +30,7 @@ En Chrome, haga clic con el botón derecho en la página web y seleccione Inspec
 
 En el ejemplo tenemos las siguientes etiquetas de Adobe JS instaladas en la página: ECID, AAM, Analytics y Target.
 
-**Cómo probar que la opción de inclusión funciona según lo esperado:**
+**Método para comprobar si el servicio de inclusión (Opt-in) está funcionando correctamente:**
 
 No debería ver ninguna solicitud para los servidores de Adobe:
 
@@ -42,7 +42,7 @@ No debería ver ninguna solicitud para los servidores de Adobe:
 
 >[!NOTE]
 >
->Es posible que vea una llamada a `http://dpm.demdex.net/optOutStatus`, que es un extremo de SOLO LECTURA que se utiliza para recuperar el estado de exclusión del visitante. Este extremo no resultará en la creación de ninguna cookie de terceros y no recopilará ninguna información de la página.
+>Podría ver una llamada a `http://dpm.demdex.net/optOutStatus`, un extremo de SOLO LECTURA que se utiliza para recuperar el estado de exclusión del visitante. Este extremo no resultará en la creación de ninguna cookie de terceros y no recopilará ninguna información de la página.
 
 No debería ver ninguna cookie creada por las etiquetas de Adobe: (AMCV_{{YOUR_ORG_ID}}, mbox, demdex, s_cc, s_sq, everest_g_v2, everest_session_v2)
 
@@ -50,7 +50,7 @@ En Chrome, vaya a la ficha *Aplicación*, expanda la sección *Cookies* en *Alma
 
 ![](assets/use_case_1_2.png)
 
-## Caso de uso 2: Habilitar Opt-in y almacenamiento {#section-bd28326f52474fa09a2addca23ccdc0f}
+## Caso de uso 2: Habilitar Opt-in y almacenamiento  {#section-bd28326f52474fa09a2addca23ccdc0f}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
@@ -61,7 +61,7 @@ Visitor.getInstance({{YOUR_ORG_ID}}, {
 
 La única diferencia en el caso de uso 2 es que verá *una nueva cookie* que contiene los permisos de Opt-in que el visitante ha proporcionado: **adobeujs-optin**
 
-## Caso de uso 3: Habilitar Opt-in y preaprobar Adobe Analytics {#section-257fe582b425496cbf986d0ec12d3692}
+## Caso de uso 3: Habilitar Opt-in y preaprobar Adobe Analytics  {#section-257fe582b425496cbf986d0ec12d3692}
 
 ```
 var preApproveAnalytics = {}; 
@@ -81,7 +81,7 @@ También verá cookie de Analytics en la ficha Aplicación:
 
 ![](assets/use_case_3_2.png)
 
-## Caso de uso 4: Habilitar Opt-in e IAB {#section-64331998954d4892960dcecd744a6d88}
+## Caso de uso 4: Habilitar Opt-in e IAB  {#section-64331998954d4892960dcecd744a6d88}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
