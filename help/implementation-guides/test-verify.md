@@ -6,7 +6,7 @@ seo-title: Probar y verificar el servicio de identidad de Experience Cloud
 title: Probar y verificar el servicio de identidad de Experience Cloud
 uuid: 442de9c3-c265-4412-89bd-aeaa286ddad6
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: ef3169f8928f337d4f2d17922b44a7421d225e51
 
 ---
 
@@ -29,7 +29,7 @@ También puede probar el servicio de ID en una sesión de navegador anónima o d
 
 La [herramienta de depuración de Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) y el [proxy HTTP Charles](https://www.charlesproxy.com/) pueden ayudarle a determinar si el servicio de ID se ha configurado para funcionar correctamente con Analytics. La información en esta sección se basa en los resultados devueltos por la herramienta de depuración de Adobe y Charles. No obstante, es libre de usar la herramienta o el depurador que más le convenga.
 
-## Pruebas con la herramienta de depuración de Adobe {#section-861365abc24b498e925b3837ea81d469}
+## Pruebas con la herramienta de depuración de Adobe  {#section-861365abc24b498e925b3837ea81d469}
 
 Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. See [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md) for more information about the MID.
 
@@ -79,19 +79,19 @@ Consulte esta sección para ver información sobre dónde y qué buscar al usar 
 
 **Solicitudes del servicio de ID correctas en Charles**
 
-El código del servicio de ID funciona correctamente cuando la función `Visitor.getInstance` realiza una llamada de JavaScript a `dpm.demdex.net`. Las respuestas correctas incluirán su [identificador de organización](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). El identificador de organización se transfiere como par clave-valor con esta sintaxis: `d_orgid= *`ID de organización`*`. Look for the `dpm.demdex.net` and the JavaScript calls under the [!UICONTROLStructure] tab. Look for your Organization ID under the [!UICONTROLRequest] tab.
+El código del servicio de ID funciona correctamente cuando la función `Visitor.getInstance` realiza una llamada de JavaScript a `dpm.demdex.net`. Las respuestas correctas incluirán su [identificador de organización](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). El identificador de organización se transfiere como par clave-valor con esta sintaxis: `d_orgid= *`ID de organización`*`. Busque `dpm.demdex.net` y las llamadas de JavaScript en la ficha [!UICONTROL Estructura]. Busque su identificador de organización en la ficha [!UICONTROL Solicitud].
 
 ![](assets/charles_request.png)
 
 **Respuestas del servicio de ID correctas en Charles**
 
-Su cuenta se ha aprovisionado correctamente para el servicio de ID cuando la respuesta de los [servidores de recopilación de datos](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) devuelve un MID. El MID se devuelve en un par clave-valor que sigue esta sintaxis: `d_mid: *`Experience Cloud ID de visitante`*`. Look for the MID in the [!UICONTROLResponse] tab as shown below.
+Su cuenta se ha aprovisionado correctamente para el servicio de ID cuando la respuesta de los [servidores de recopilación de datos](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) devuelve un MID. El MID se devuelve en un par clave-valor que sigue esta sintaxis: `d_mid: *`Experience Cloud ID de visitante`*`. Busque el MID en la ficha [!UICONTROL Respuesta], tal y como se ve a continuación.
 
 ![](assets/charles_response_success.png)
 
 **Respuestas del servicio de ID incorrectas en Charles**
 
-Su cuenta no se ha aprovisionado correctamente si el MID no aparece en la respuesta de los DCS. An unsuccessful response returns an error code and message in the [!UICONTROLResponse] tab as shown below. Póngase en contacto con el Servicio de atención al cliente si aparece este mensaje de error en la respuesta del DCS.
+Su cuenta no se ha aprovisionado correctamente si el MID no aparece en la respuesta de los DCS. Una respuesta incorrecta devolverá un código y un mensaje de error en la ficha [!UICONTROL Respuesta], tal y como se ve a continuación. Póngase en contacto con el Servicio de atención al cliente si aparece este mensaje de error en la respuesta del DCS.
 
 ![](assets/charles_response_unsuccessful.png)
 
