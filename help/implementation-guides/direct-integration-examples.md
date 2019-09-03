@@ -5,7 +5,7 @@ seo-description: Estos ejemplos tratan sobre dos casos de uso habituales relacio
 seo-title: Casos de uso de integraciones directas
 title: Casos de uso de integraciones directas
 uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -17,13 +17,13 @@ Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una int
 
 >[!TIP]
 >
->* Revise y comprenda la [sintaxis de código y las variables de](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) antes de profundizar en los casos de uso.
->* For more information about the MID, see [Cookies and the Experience Cloud Identity Service](../introduction/cookies.md).
+>* Revise y comprenda la [sintaxis de código y las variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) de antes de profundizar en los casos de uso.
+>* Para obtener más información sobre MID, consulte [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md).
 >
 
 
 
-## Use case 1: I have an Experience Cloud ID (MID) but want to pass my visitor IDs and set an authentication state {#section-a67d89a343754d1286d03cf08d34b806}
+## Caso de uso 1: Tengo un MID del servicio de identidad de Experience Cloud, pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
@@ -90,7 +90,7 @@ Estos ejemplos tratan sobre dos casos de uso habituales relacionados con una int
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solución y ejemplo de código</b> </p> </td> 
-   <td colname="col2"> <p>Dé el siguiente formato a su llamada al servicio de ID: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&amp;d_ver=2</span> </p> <p>Observe cómo la llamada de ejemplo contiene su ID de organización, <span class="codeph">d_orgid=5555</span>. Devolvería un ID de <span class="keyword">Experience Cloud</span> para este visitante. </p> </td> 
+   <td colname="col2"> <p>Dé el siguiente formato a su llamada al servicio de ID: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&amp;d_ver=2</span> </p> <p>Observe cómo la llamada de ejemplo contiene su ID de organización, <span class="codeph">d_orgid=5555</span>. Devolvería un Experience Cloud ID<span class="keyword"></span> para este visitante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
