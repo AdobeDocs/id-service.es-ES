@@ -5,7 +5,7 @@ seo-description: 'null'
 seo-title: CNAME de recopilación de datos y seguimiento entre dominios
 title: CNAME de recopilación de datos y seguimiento entre dominios
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -23,7 +23,7 @@ La cookie demdex.net permite que el servicio de ID de visitante proporcione el m
 
 ## CNAME de recopilación de datos {#section-48fd186d376a48079769d12c4bd9f317}
 
-Si el servidor de recopilación de datos ha establecido la cookie de Analytics, muchos clientes tendrán configurados registros CNAME del servidor de recopilación de datos como parte de una [implementación de cookies de origen](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/) a fin de evitar problemas con los exploradores que no admiten cookies de terceros. Este proceso configura el dominio del servidor de recopilación de datos para que coincida con el dominio de su sitio web, de forma que la cookie del ID de visitante se establezca como cookie de origen.
+Si el servidor de recopilación de datos ha establecido la cookie de Analytics, muchos clientes tendrán configurados registros CNAME del servidor de recopilación de datos como parte de una [implementación de cookies de origen](https://marketing.adobe.com/resources/help/es_ES/whitepapers/first_party_cookies/) a fin de evitar problemas con los exploradores que no admiten cookies de terceros. Este proceso configura el dominio del servidor de recopilación de datos para que coincida con el dominio de su sitio web, de forma que la cookie del ID de visitante se establezca como cookie de origen.
 
 Como el servicio de ID de visitante establece la cookie del visitante directamente en el dominio del sitio web actual mediante JavaScript, ya no es necesario realizar esta configuración para establecer las cookies de origen.
 
@@ -45,6 +45,6 @@ Si también usa estos mismos servidores de recopilación de datos en otros sitio
 
 En consecuencia, el dominio de recopilación debe ser un dominio al que los visitantes accedan con frecuencia para posibilitar la identificación de estos en los distintos dominios. Si no existe ningún dominio *común* que pueda usarse como dominio de recopilación de datos, no supondrá ninguna ventaja mantener un CNAME para el dominio de recopilación de datos. Si el sitio de entrada principal no se visita en primer lugar, los visitantes se identifican de forma distinta en el sitio secundario y en el sitio principal.
 
-## Enable CNAME support with the Experience Cloud Identity Service {#section-25d4feb686d944e3a877d7aad8dbdf9a}
+## Habilitación de la compatibilidad con CNAME con el servicio Experience Cloud ID {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
 Para habilitar la compatibilidad con el CNAME del servidor de recopilación de datos, se deben establecer las `visitor.marketingCloudServerSecure` variables.
