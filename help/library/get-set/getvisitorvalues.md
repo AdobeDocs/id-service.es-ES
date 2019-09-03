@@ -5,7 +5,7 @@ seo-description: Se trata de una API asíncrona que devuelve identificadores par
 seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -84,7 +84,7 @@ La respuesta de ejemplo personalizada devuelve solo los ID especificados en la s
 
 ## Parámetros de respuesta definidos {#section-4c4c300167694c6fbff1d6c612f372b5}
 
-La tabla que se muestra a continuación enumera y define los parámetros de respuesta. Estos son también todos los valores de la `visitor.FIELDS` enumeración Observe que este método devuelve una cadena vacía si no hay valores para una variable en concreto.
+La tabla que se muestra a continuación enumera y define los parámetros de respuesta. Estos son también todos los valores de la `visitor.FIELDS` enumeración. Observe que este método devuelve una cadena vacía si no hay valores para una variable en concreto.
 
 <table id="table_32D0FEEA76CE4F298EED4B8F5C644232"> 
  <thead> 
@@ -108,7 +108,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>El Experience Cloud ID del visitante. </p> <p>See <a href="../../introduction/cookies.md" format="dita" scope="local"> Cookies and the Experience Cloud Identity Service </a>. </p> </td> 
+   <td colname="col2"> <p>El Experience Cloud ID del visitante. </p> <p>Consulte la información relativa a las <a href="../../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de identidad de Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
