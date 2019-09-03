@@ -2,16 +2,16 @@
 description: Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar ni trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos, como las consolas de videojuegos, los televisores inteligentes u otras aplicaciones compatibles con Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
 keywords: Servicio de ID
 seo-description: Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar ni trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos, como las consolas de videojuegos, los televisores inteligentes u otras aplicaciones compatibles con Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
-seo-title: Integración directa con el servicio de identidad de Experience Cloud
-title: Integración directa con el servicio de identidad de Experience Cloud
+seo-title: Integración directa con el servicio de servicio de identidad de Experience Cloud
+title: Integración directa con el servicio de servicio de ID de Experience Cloud
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Direct integration with the Experience Cloud Identity Service {#direct-integration-with-the-experience-cloud-id-service}
+# Integración directa con el servicio de servicio de identidad de Experience Cloud {#direct-integration-with-the-experience-cloud-id-service}
 
 Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar ni trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos, como las consolas de videojuegos, los televisores inteligentes u otras aplicaciones compatibles con Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
 
@@ -21,7 +21,7 @@ Los dispositivos que no pueden utilizar las bibliotecas de códigos VisitorAPI.j
 
 ![](assets/directSyntax.png)
 
-En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. Para obtener más información sobre otras variables, consulte [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html) (Atributos admitidos para llamadas de API de DCS).
+En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. Para obtener más información sobre otras variables, consulte [Atributos admitidos para las llamadas API de DCS ](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
 
 El servicio de ID admite las llamadas de HTTP y HTTPS. Utilice HTTPS para pasar datos desde una página segura.
 
@@ -62,11 +62,11 @@ El servicio de ID devuelve datos en un objeto JSON, tal como se muestra a contin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
-   <td colname="col2"> <p>El ID de visitante de Experience Cloud. Consulte <a href="../introduction/cookies.md" format="dita" scope="local"> Cookies y Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>El ID de visitante de Experience Cloud. Consulte la información relativa a las <a href="../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de servicio de identidad de Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Su ID de organización de Experience Cloud. Para obtener ayuda sobre cómo encontrar este ID, consulte <a href="../reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de identidad de Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Su ID de organización de Experience Cloud. Para obtener ayuda sobre cómo encontrar este ID, consulte <a href="../reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de servicio de identidad de Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
