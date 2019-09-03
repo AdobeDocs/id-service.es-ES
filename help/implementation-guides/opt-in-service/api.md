@@ -4,7 +4,7 @@ seo-description: API para la biblioteca de Opt-in y referencia de ajustes de con
 seo-title: Referencia de Opt-in
 title: Referencia de Opt-in
 uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
 
 ---
@@ -27,7 +27,7 @@ adobe.OptInCategories = {
 
 ## Parámetros de configuración de Opt-in {#section-d66018342baf401389f248bb381becbf}
 
-Esta sección trata sobre el uso de la API para configurar Opt-in. Gran parte de la configuración y la implementación se pueden realizar mediante la extensión Launch Platform Launch.
+Esta sección trata sobre el uso de la API para configurar Opt-in. Buena parte de la configuración y la implementación se pueden realizar utilizando la extensión de Experience Platform Launch.
 
 Se proporcionan configuraciones de Opt-in en la función `getInstance()` de Visitor JavaScript, que crea una instancia del objeto global `adobe`. A continuación se enumeran las configuraciones de Visitor JS relacionadas con el servicio Opt-in.
 
