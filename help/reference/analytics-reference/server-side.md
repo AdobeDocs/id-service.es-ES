@@ -5,7 +5,7 @@ seo-description: En algunas implementaciones, los ID de visitante se pasan de Ja
 seo-title: Implementación del lado del servidor combinada con JavaScript
 title: Implementación del lado del servidor combinada con JavaScript
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -21,7 +21,7 @@ Asegúrese de comprobar la existencia del ID de visitante de Experience Cloud y 
 
 >[!IMPORTANT]
 >
->Appmeasurement para Java no admite actualmente el servicio de identidad de Experience Cloud.
+>AppMeasurement para Java todavía no es compatible con el servicio de identidad de Experience Cloud.
 
 ## API de inserción de datos {#section-955ce7664a4646d38b3005cb2df40baf}
 
@@ -29,8 +29,8 @@ Incluya el ID de visitante de Analytics (si está configurado) en el elemento `<
 
 Incluya el ID de visitante de Experience Cloud en el elemento `<marketingCloudVisitorID>`.
 
-Consulte [Etiquetas XML admitidas](https://marketing.adobe.com/developer/en_US/documentation/data-insertion/r-supported-tags).
+Consulte [Etiquetas XML admitidas](https://marketing.adobe.com/developer/es_ES/documentation/data-insertion/r-supported-tags).
 
 ## AppMeasurement para Java {#section-d664b94934924d048300d9c2b6560085}
 
-El servicio de identidad de Experience Cloud no se admite actualmente en appmeasurement para Java.
+El servicio de identidad de Experience Cloud todavía no es compatible con AppMeasurement para Java.
