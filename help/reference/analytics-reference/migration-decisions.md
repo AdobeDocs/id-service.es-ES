@@ -1,19 +1,19 @@
 ---
-description: Antes de implementar el servicio de identidad de Experience Cloud, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
+description: Antes de implementar el servicio de identidad de Experience Cloud, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
 keywords: Servicio de ID
-seo-description: Antes de implementar el servicio de identidad de Experience Cloud, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
+seo-description: Antes de implementar el servicio de Experience Cloud ID, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
 seo-title: Puntos de decisión para la migración del servicio de identidad de Experience Cloud
-title: Puntos de decisión para la migración del servicio de identidad de Experience Cloud
+title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# Puntos de decisión para la migración del servicio de identidad de Experience Cloud
+# Puntos de decisión para la migración del servicio de Experience Cloud ID
 
-Antes de implementar el servicio de identidad de Experience Cloud, debe comprender cómo afecta este servicio el seguimiento de visitantes en varios dominios y los posibles problemas si recopila datos con distintos métodos o mediante archivos JavaScript.
+Antes de implementar el servicio de Experience Cloud ID, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
 
 Responda a las preguntas de esta sección para poder determinar si debe realizar algún paso adicional para la migración.
 
@@ -60,10 +60,10 @@ Si cuenta con varios dominios que envían datos al *mismo grupo de informes*, le
    <td colname="col1"> <p>Un solo dominio </p> </td> 
    <td colname="col2"> <p>Al trabajar con un solo dominio puede migrarse desde un CNAME de recopilación de datos si ya no desea seguir administrándolo. Sin embargo, no es un requisito cambiar si su CNAME funciona correctamente. </p> <p>Si no elimina el CNAME: </p> 
     <ul id="ul_12CDECEFC7BB41A18895B507CAA42315"> 
-     <li id="li_32E2CD3E58454E20A642BADE507AE86E">Asegúrese de que su nuevo servidor de seguimiento sea <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/" format="https" scope="external">compatible con RDC</a>. </li> 
-     <li id="li_865BB6DAA3594EBBAB688E73C8343762">Pásese del CNAME a un servidor de seguimiento de RDC con unos meses de adelanto a la migración al servicio de ID de <span class="keyword">Experience Cloud</span>. </li> 
+     <li id="li_32E2CD3E58454E20A642BADE507AE86E">Asegúrese de que su nuevo servidor de seguimiento sea <a href="https://marketing.adobe.com/resources/help/es_ES/whitepapers/rdc/" format="https" scope="external">compatible con RDC</a>. </li> 
+     <li id="li_865BB6DAA3594EBBAB688E73C8343762">Pásese del CNAME a un servidor de seguimiento de RDC con unos meses de adelanto a la migración al servicio de <span class="keyword">Experience Cloud ID</span>. </li> 
      <li id="li_284A015177554C848C8648DC5BBAA365"> <i>No</i> utilice un servidor de seguimiento <span class="codeph">*.2o7.net</span>. </li> 
-     <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1">Contacte con el <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="https" scope="external">Servicio de atención al cliente</a> para configurar una migración de visitante. De este modo, obtendrá recuentos de visitantes fiables. </li> 
+     <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1">Contacte con el <a href="https://helpx.adobe.com/es/marketing-cloud/contact-support.html" format="https" scope="external">Servicio de atención al cliente</a> para configurar una migración de visitante. De este modo, obtendrá recuentos de visitantes fiables. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -110,11 +110,11 @@ Es posible que deba cambiar la manera en que realiza un seguimiento de los vínc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>JavaScript y/o Flash </p> </td> 
-   <td colname="col2"> <p>Ninguno. El servicio de ID de <span class="keyword">Experience Cloud</span> es compatible con estos métodos de recopilación de datos. </p> </td> 
+   <td colname="col2"> <p>Ninguno. El servicio de <span class="keyword">Experience Cloud ID</span> es compatible con estos métodos de recopilación de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Silverlight </p> </td> 
-   <td colname="col2"> <p>Es necesario que migre de Silverlight si los visitantes pueden acceder a contenido de Silverlight y otras secciones de su sitio que utilizan el servicio de ID de <span class="keyword">Experience Cloud</span>. Silverlight no es compatible con el servicio de ID. </p> <p> Si realiza un seguimiento de un reproductor de vídeos basado en Silverlight, es probable que su proveedor pueda proporcionarle las API de JavaScript que puede usar en su lugar. </p> </td> 
+   <td colname="col2"> <p>Es necesario que migre de Silverlight si los visitantes pueden acceder a contenido de Silverlight y otras secciones de su sitio que utilizan el servicio de <span class="keyword">Experience Cloud ID</span>. Silverlight no es compatible con el servicio de ID. </p> <p> Si realiza un seguimiento de un reproductor de vídeos basado en Silverlight, es probable que su proveedor pueda proporcionarle las API de JavaScript que puede usar en su lugar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etiquetas de imágenes cifradas </p> </td> 
