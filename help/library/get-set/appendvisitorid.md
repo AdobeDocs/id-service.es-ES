@@ -5,7 +5,7 @@ seo-description: Esta función le permite compartir un Experience Cloud ID de un
 seo-title: appendVisitorIDsTo (seguimiento entre dominios)
 title: appendVisitorIDsTo (seguimiento entre dominios)
 uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -25,7 +25,7 @@ Contenido:
 
 ## Realizar el seguimiento de los visitantes entre dominios cuando los navegadores bloquean las cookies de terceros {#section-7251d88befd440b4b79520e33c5aa44a}
 
-ID service writes a first- and third-party cookie to the browser when a person visit your site (see [Cookies and the Experience Cloud Identity Service](../../introduction/cookies.md) ). La cookie de origen contiene el MID, un ID único para el visitante en cuestión. La cookie de terceros contiene otro ID utilizado por el servicio de ID para generar el MID. Cuando un navegador bloquea esta cookie de terceros, el servicio de ID no puede:
+El servicio de identidad escribe una cookie propia y de terceros en el explorador cuando una persona visita su sitio (consulte [Cookies y el servicio de identidad de Experience Cloud](../../introduction/cookies.md)). La cookie de origen contiene el MID, un ID único para el visitante en cuestión. La cookie de terceros contiene otro ID utilizado por el servicio de ID para generar el MID. Cuando un navegador bloquea esta cookie de terceros, el servicio de ID no puede:
 
 * Regenerar el ID único para el visitante del sitio en cuestión cuando este navegue hasta otro dominio.
 * Realizar el seguimiento de visitantes entre dominios distintos que pertenecen a su organización.
@@ -72,14 +72,14 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>DTM</b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://helpx.adobe.com/dtm/kb/how-to-set-marketing-cloud-id-service-helper-function-in-adobe-d.html" format="https" scope="external"> Configuración de la función appendVisitorIDTo en DTM </a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://helpx.adobe.com/es/dtm/kb/how-to-set-marketing-cloud-id-service-helper-function-in-adobe-d.html" format="https" scope="external"> Configuración de la función appendVisitorIDTo en DTM </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>SDK</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_9D7933FF68EE4C71BAE999B3747F8398"> 
-     <li id="li_9036C76AAECC4E639C23020C0C9F2AF8"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/mc_methods.html" format="https" scope="external"> Métodos del servicio de ID de Android </a> </li> 
-     <li id="li_E49D357905584674BFDFE348345B3849"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/mc_methods.html" format="https" scope="external"> Métodos del servicio de ID de iOS </a> </li> 
+     <li id="li_9036C76AAECC4E639C23020C0C9F2AF8"> <a href="https://marketing.adobe.com/resources/help/es_ES/mobile/android/mc_methods.html" format="https" scope="external"> Métodos del servicio de ID de Android </a> </li> 
+     <li id="li_E49D357905584674BFDFE348345B3849"> <a href="https://marketing.adobe.com/resources/help/es_ES/mobile/ios/mc_methods.html" format="https" scope="external"> Métodos del servicio de ID de iOS </a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
