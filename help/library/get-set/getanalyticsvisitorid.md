@@ -1,11 +1,11 @@
 ---
-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Cloud. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
+description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de identidad de Experience Cloud se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 keywords: Servicio de ID
-seo-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Cloud. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
+seo-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de Experience Cloud ID se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
-Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_ vi antes de que se implementara el servicio de identidad de Experience Cloud. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
+Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de Experience Cloud ID se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 
 **Sintaxis** `var analyticsID = visitor.getAnalyticsVisitorID()`
 
@@ -44,7 +44,7 @@ El `aid` parámetro aparece en una cadena de consulta bajo dos conjuntos diferen
 Verá el parámetro `aid` en una cadena de consulta cuando:
 
 * El servicio de ID de [!DNL Experience Cloud] se implementa correctamente.
-* El usuario que visite un sitio tiene un ID de [!DNL Analytics] preexistente almacenado en su [cookie s_vi](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html).
+* El usuario que visita un sitio tiene un ID preexistente de [!DNL Analytics] almacenado en la [cookie s_ vi](https://marketing.adobe.com/resources/help/es_ES/whitepapers/cookies/?f=cookies_analytics.html).
 
 **Caso 2**
 
@@ -52,5 +52,5 @@ Verá el `aid` parámetro en una cadena de consulta cuando su organización util
 
 >[!MORE_LIKE_THIS]
 >
->* [Cookies de Analytics](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html)
+>* [Cookies de Analytics](https://marketing.adobe.com/resources/help/es_ES/whitepapers/cookies/cookies_analytics.html)
 
