@@ -1,19 +1,19 @@
 ---
-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 keywords: Servicio de ID
-seo-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+seo-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de Experience Cloud ID admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 seo-title: Compatibilidad con CORS en el servicio de identidad de Experience Cloud
-title: Compatibilidad con CORS en el servicio de identidad de Experience Cloud
+title: Compatibilidad con CORS en el servicio de Experience Cloud ID
 uuid: e656b573-72a8-4312-a7d5-5cc3818f0a9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# CORS Support in the Experience Cloud Identity Service {#cors-support-in-the-experience-cloud-id-service}
+# Compatibilidad con CORS en el servicio de identidad de Experience Cloud {#cors-support-in-the-experience-cloud-id-service}
 
-Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite estándares CORS que permiten estas solicitudes de recursos de origen cruzado del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de Experience Cloud ID admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 
 ## Problemas con políticas del mismo origen y solicitudes del servicio de ID {#section-6608cf46d27143eeaeabacaa6aa14e8e}
 
@@ -46,7 +46,7 @@ Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que t
    <td colname="col1"> <p> <b>Solicitud</b> </p> </td> 
    <td colname="col2"> <p>Cuando se carga la página de la empresa de finanzas, el navegador realiza una solicitud a <span class="codeph">dpm.demdex.net</span>. Esta es una llamada al dominio de los servidores de recopilación de datos (DCS) que utiliza el servicio de ID. Esta solicitud entre dominios diferentes incluye el encabezado: </p> <p> 
      <ul class="simplelist"> 
-      <li> <span class="codeph"> Origin:https://www.finance-website.com</span> </li> 
+      <li> <span class="codeph"> Origin: https://www.finance-website.com</span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ La tabla a continuación describe algunas de las ventajas de usar CORS para los 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Mayor seguridad</b> </p> </td> 
-   <td colname="col2"> <p>CORS utiliza <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest" format="https" scope="external">XMLHttpRequest</a> para solicitar y transferir datos. Este método es más seguro que una solicitud JSONP. Garantiza que no sea posible ejecutar código JavaScript arbitrario que pueda incluirse en la respuesta del DCS. El código JavaScript del servicio de ID analiza la carga útil de la respuesta CORS XMLHttpRequest, en lugar de simplemente ejecutarse en una función de rellamada. </p> <p> <p>Nota: Para aceptar cookies, el objeto <span class="codeph">XMLHttpRequest</span> tiene que tener su propiedad <span class="codeph">withCredentials</span> establecida en <span class="codeph">true</span>. Esta propiedad es compatible con Chrome, Firefox, Internet Explorer (v10+), Opera y Safari. </p> </p> </td> 
+   <td colname="col2"> <p>CORS utiliza <a href="https://developer.mozilla.org/es-ES/docs/Web/API/XMLHttpRequest" format="https" scope="external">XMLHttpRequest</a> para solicitar y transferir datos. Este método es más seguro que una solicitud JSONP. Garantiza que no sea posible ejecutar código JavaScript arbitrario que pueda incluirse en la respuesta del DCS. El código JavaScript del servicio de ID analiza la carga útil de la respuesta CORS XMLHttpRequest, en lugar de simplemente ejecutarse en una función de rellamada. </p> <p> <p>Nota: Para aceptar cookies, el objeto <span class="codeph">XMLHttpRequest</span> tiene que tener su propiedad <span class="codeph">withCredentials</span> establecida en <span class="codeph">true</span>. Esta propiedad es compatible con Chrome, Firefox, Internet Explorer (v10+), Opera y Safari. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Mejoras en el rendimiento</b> </p> </td> 
