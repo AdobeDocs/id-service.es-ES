@@ -1,10 +1,10 @@
 ---
-description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Cloud con sus otras soluciones de Experience Cloud.
-seo-description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Cloud con sus otras soluciones de Experience Cloud.
+description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Cloud con el resto de las soluciones de Experience Cloud.
+seo-description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Cloud con el resto de las soluciones de Experience Cloud.
 seo-title: Implementación con Launch
 title: Implementación con Launch
 uuid: b3282f8e-82b8-4635-8c80-1b365e8a9693
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 # Implementación con Launch{#implement-with-launch}
 
-Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Cloud con sus otras soluciones de Experience Cloud.
+Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Cloud con el resto de las soluciones de Experience Cloud.
 
 ## Acerca de Launch {#section-611711602854464ea351a4af80a8dafe}
 
-[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) es la nueva generación de la función de administración de etiquetas de Adobe integrada en Adobe Experience Cloud. Launch permite a los clientes:
+[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) es la última generación de la capacidad de administración de etiquetas de Adobe integrada en Adobe Experience Cloud. Launch permite a los clientes:
 
 * Implementar productos web en el lado del cliente mediante integraciones llamadas extensiones
 * Capturar, definir, gestionar y compartir datos de forma consistente entre productos de marketing y publicidad de otros proveedores y de Adobe
