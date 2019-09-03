@@ -1,11 +1,11 @@
 ---
 description: Devuelve el ID de región del servicio de identidad de Experience Cloud. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
 keywords: Servicio de ID
-seo-description: Devuelve el ID de región del servicio de identidad de Experience Cloud. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
+seo-description: Devuelve el ID de región del servicio de Experience Cloud ID. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
 seo-title: getLocationHint
 title: getLocationHint
 uuid: cdc312b7-d270-4a5c-a2bb-0fbb37f1e2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 # getLocationHint{#getlocationhint}
 
-Devuelve el ID de región del servicio de identidad de Experience Cloud. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
+Devuelve el ID de región del servicio de Experience Cloud ID. Un ID de región (o indicio de ubicación) es un identificador numérico asociado a la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
 
 **Sintaxis:** ` var *`nombre de variable`* = visitor.getLocationHint()`
 
-Para obtener una lista de ID de región y las ubicaciones correspondientes, consulte [DCS Region IDs, Locations, and Host Names](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html) (ID de región de DCS, ubicaciones y nombres de host).
+Para obtener una lista de ID de región y sus ubicaciones correspondientes, consulte [ID de región de DCS, ubicaciones y nombres de host](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html).
 
 **Ejemplo de código**
 
