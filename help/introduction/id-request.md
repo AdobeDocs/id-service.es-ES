@@ -2,24 +2,24 @@
 description: Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 keywords: Servicio de ID
 seo-description: Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
-seo-title: Cómo solicita y establece los ID el servicio de identidad de Experience Cloud
-title: Cómo solicita y establece los ID el servicio de identidad de Experience Cloud
+seo-title: Solicitud y configuración de ID con el servicio de identidad de Experience Cloud
+title: Solicitud y configuración de ID con el servicio de Experience Cloud ID
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
 
 
-# How the Experience Cloud Identity Service requests and sets IDs{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# Solicitud y configuración de ID con el servicio de identidad de Experience Cloud{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 Una visión general del proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 
 >[!NOTE]
 >
->If you're not familiar with how the Experience Cloud Identity Service creates the visitor ID, take a moment to review [Experience Cloud](../introduction/cookies.md).
+>Si no conoce cómo el servicio de identidad de Experience Cloud crea el ID de visitante, dedique unos minutos a conocer mejor [Experience Cloud](../introduction/cookies.md).
 
-**Sugerencia:** Vea también nuestro[ vídeo sobre el servicio de ID acerca del seguimiento entre dominios](https://helpx.adobe.com/marketing-cloud-core/kb/MCID/CrossDomain.html).
+**Sugerencia:** Consulte también nuestro [vídeo de servicio de ID en seguimiento a través de varios dominios](https://helpx.adobe.com/es/marketing-cloud-core/kb/MCID/CrossDomain.html).
 
 ## Solicitud de un Experience Cloud ID {#section-0b5e261fbd0547d9b9a1680e5ce536cc}
 
@@ -32,7 +32,7 @@ Los siguientes ejemplos muestran la manera en la que el servicio de ID solicita 
 En este ejemplo, un nuevo visitante llega al sitio de pizzas administrado por la Empresa alimentaria. La Empresa alimentaria tiene un código de servicio de ID en el sitio web de pizzas. Cuando se carga el sitio de pizzas, el código de servicio de ID comprueba la cookie AMCV en el dominio de pizzas.
 
 * Si se establece la cookie AMCV, el visitante del sitio tiene un Experience Cloud ID. En este caso, la cookie rastrea al visitante y comparte datos con otras soluciones de Experience Cloud.
-* Si la cookie AMCV no se establece, el código de servicio de ID llama a un [servidor de recopilación de datos](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_compcollect.html) (DCS) regional en `dpm.demdex.net/id` (consulte también [Explicación de las llamadas al dominio Demdex](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)). La llamada incluye el ID de organización de la Empresa Alimentaria. El ID de organización se establece en la función `Visitor.getInstance` del código de servicio de ID.
+* Si no se establece la cookie AMCV, el código de servicio de ID llama a un [Servidor de recopilación datos regionales](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_compcollect.html) (DCS) en `dpm.demdex.net/id` (consulte también [Explicación de las llamadas al dominio Demdex](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)). La llamada incluye el ID de organización de la Empresa Alimentaria. El ID de organización se establece en la función `Visitor.getInstance` del código de servicio de ID.
 
 ![](assets/request1.png)
 
