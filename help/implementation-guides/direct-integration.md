@@ -5,7 +5,7 @@ seo-description: Esta implementación permite a los clientes utilizar el servici
 seo-title: Integración directa con el servicio de servicio de identidad de Experience Cloud
 title: Integración directa con el servicio de servicio de ID de Experience Cloud
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -21,7 +21,7 @@ Los dispositivos que no pueden utilizar las bibliotecas de códigos VisitorAPI.j
 
 ![](assets/directSyntax.png)
 
-En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. Para obtener más información sobre otras variables, consulte [Atributos admitidos para las llamadas API de DCS ](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. Para obtener más información sobre otras variables, consulte [Supported Attributes for DCS API calls](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html) (Atributos admitidos para llamadas de API de DCS).
 
 El servicio de ID admite las llamadas de HTTP y HTTPS. Utilice HTTPS para pasar datos desde una página segura.
 
