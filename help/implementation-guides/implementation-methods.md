@@ -5,7 +5,7 @@ seo-description: Instrucciones y ejemplos de código para implementaciones está
 seo-title: Guías de implementación
 title: Guías de implementación
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
