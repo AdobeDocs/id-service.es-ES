@@ -5,7 +5,7 @@ seo-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya al
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -44,7 +44,7 @@ El `aid` parámetro aparece en una cadena de consulta bajo dos conjuntos diferen
 Verá el parámetro `aid` en una cadena de consulta cuando:
 
 * El servicio de ID de [!DNL Experience Cloud] se implementa correctamente.
-* El usuario que visita un sitio tiene un ID preexistente de [!DNL Analytics] almacenado en la [cookie s_ vi](https://marketing.adobe.com/resources/help/es_ES/whitepapers/cookies/?f=cookies_analytics.html).
+* El usuario que visite un sitio tiene un ID de [!DNL Analytics] preexistente almacenado en su [cookie s_vi](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html).
 
 **Caso 2**
 
@@ -52,5 +52,5 @@ Verá el `aid` parámetro en una cadena de consulta cuando su organización util
 
 >[!MORE_LIKE_THIS]
 >
->* [Cookies de Analytics](https://marketing.adobe.com/resources/help/es_ES/whitepapers/cookies/cookies_analytics.html)
+>* [Cookies de Analytics](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html)
 
