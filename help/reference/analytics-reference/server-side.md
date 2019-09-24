@@ -5,7 +5,7 @@ seo-description: En algunas implementaciones, los ID de visitante se pasan de Ja
 seo-title: Implementación del lado del servidor combinada con JavaScript
 title: Implementación del lado del servidor combinada con JavaScript
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -29,7 +29,7 @@ Incluya el ID de visitante de Analytics (si está configurado) en el elemento `<
 
 Incluya el ID de visitante de Experience Cloud en el elemento `<marketingCloudVisitorID>`.
 
-Consulte [Etiquetas XML admitidas](https://marketing.adobe.com/developer/es_ES/documentation/data-insertion/r-supported-tags).
+Consulte [Etiquetas XML admitidas](https://marketing.adobe.com/developer/en_US/documentation/data-insertion/r-supported-tags).
 
 ## AppMeasurement para Java {#section-d664b94934924d048300d9c2b6560085}
 
