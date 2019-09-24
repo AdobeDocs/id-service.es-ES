@@ -5,7 +5,7 @@ seo-description: Estas instrucciones van dirigidas a clientes de A4T con impleme
 seo-title: Uso del servicio ID con A4T y una implementación de Target en el lado del servidor
 title: Uso del servicio ID con A4T y una implementación de Target en el lado del servidor
 uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -199,5 +199,5 @@ En este punto, el servidor web envía el contenido de la página al navegador de
 
 >[!MORE_LIKE_THIS]
 >
->* [Paquete de servicio de ID del lado del servidor desde el gestor de paquetes de nodos](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)
+>* [Paquete de servicio de ID del lado de servidor desde el administrador de paquetes de nodos](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)
 
