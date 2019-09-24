@@ -5,7 +5,7 @@ seo-description: Las preguntas más frecuentes sobre el servicio de Experience C
 seo-title: Preguntas frecuentes
 title: Preguntas frecuentes
 uuid: b075957b-165f-4087-99ad-bf608b4d4967
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
