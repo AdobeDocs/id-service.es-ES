@@ -5,7 +5,7 @@ seo-description: Devuelve el ID de región del servicio de Experience Cloud ID. 
 seo-title: getLocationHint
 title: getLocationHint
 uuid: cdc312b7-d270-4a5c-a2bb-0fbb37f1e2f4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -17,7 +17,7 @@ Devuelve el ID de región del servicio de Experience Cloud ID. Un ID de región 
 
 **Sintaxis:** ` var *`nombre de variable`* = visitor.getLocationHint()`
 
-Para obtener una lista de ID de región y sus ubicaciones correspondientes, consulte [ID de región de DCS, ubicaciones y nombres de host](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html).
+Para obtener una lista de ID de región y las ubicaciones correspondientes, consulte [DCS Region IDs, Locations, and Host Names](https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html) (ID de región de DCS, ubicaciones y nombres de host).
 
 **Ejemplo de código**
 
