@@ -5,7 +5,7 @@ seo-description: Estas instrucciones están destinadas a los clientes de Target 
 seo-title: Implementación del servicio de identidad de Experience Cloud para Destinatario
 title: Implementación del servicio de Experience Cloud ID para Destinatario
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -25,7 +25,7 @@ Estas instrucciones están destinadas a los clientes de Target que desean utiliz
 
 ## Paso 1: Obtención del código de servicio de ID {#section-b32ba0548aa546a79dd38be59832a53e}
 
-El [!UICONTROL servicio de ID] requiere la biblioteca de códigos `VisitorAPI.js`. Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) para obtener este código.
+El [!UICONTROL servicio de ID] requiere la biblioteca de códigos `VisitorAPI.js`. Contacte con el [Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html) para obtener este código.
 
 ## Paso 2: Añadir la función Visitor.getInstance al código del servicio de ID {#section-287ef2958e9f43858fe9d630ae519e22}
 
@@ -54,7 +54,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE")
 
 ## Paso 3: Añadir su ID de organización de Experience Cloud a Visitor.getInstance {#section-522b1877be9243c39b222859b821f0ce}
 
-En la `Visitor.getInstance` función, sustituya `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` por su [!DNL Experience Cloud] ID de organización de. Si no conoce su ID de organización, puede encontrarlo en la página de administración de[!DNL Experience Cloud]. Consulte también [Administración - Servicios principales](https://marketing.adobe.com/resources/help/es_ES/mcloud/admin_getting_started.html). Su función editada podría tener un aspecto similar al ejemplo siguiente.
+En la `Visitor.getInstance` función, sustituya `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` por su [!DNL Experience Cloud] ID de organización de. Si no conoce su ID de organización, puede encontrarlo en la página de administración de[!DNL Experience Cloud]. Consulte también [Administración - Servicios principales](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html). Su función editada podría tener un aspecto similar al ejemplo siguiente.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg");`
 
