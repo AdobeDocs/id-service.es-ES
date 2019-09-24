@@ -5,7 +5,7 @@ seo-description: Una configuración booleana opcional que determina si el servic
 seo-title: isCoopSafe
 title: isCoopSafe
 uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -30,7 +30,7 @@ Contenido:
 Para utilizar `isCoopSafe`, debe:
 
 * Utilizar el código de servicio de ID versión 2.4 o posterior.
-* Participe en [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
+* Participar en [Device Co-Op de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcdc/). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
 
 * Trabaje con su consultor de [!DNL Adobe] para establecer un indicador de lista de elementos permitidos o de lista de elementos bloqueados en su cuenta de Device Co-Op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
