@@ -5,7 +5,7 @@ seo-description: Esta propiedad establece el ID del contenedor de origen de dato
 seo-title: idSyncContainerID
 title: idSyncContainerID
 uuid: e35dc48b-1aa1-41e3-91c1-ef1e9d2d8b90
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
