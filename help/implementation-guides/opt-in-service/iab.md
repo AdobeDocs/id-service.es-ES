@@ -4,7 +4,7 @@ seo-description: Conecte su plataforma de administración de consentimiento (CMP
 seo-title: (beta) Uso de servicios de inclusión con IAB Framework
 title: (beta) Uso de servicios de inclusión con IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 Conecte su plataforma de administración de consentimiento (CMP) con el complemento IAB de inclusión.
 
-Los clientes de Audience Manager que utilizan el [marco de transparencia y consentimiento IAB (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) pueden conectar su plataforma de administración de consentimiento (CMP) con el complemento de inclusión IAB. El servicio de inclusión (Opt-in) es una función integrada en la biblioteca JavaScript de ECID que puede deshabilitar bibliotecas determinadas de soluciones de Adobe, en función de las preferencias del visitante, que se establecen dentro de una plataforma CMP. Cuando se implementa el complemento IAB con la biblioteca ECID, las preferencias de visitante de su CMP compatible con IAB se asignan automáticamente al servicio de inclusión (Opt-in). Estas preferencias activarán bibliotecas basadas en Audience Manager (DIL y ECID) y llamadas asociadas cuando se reciba el consentimiento.
+Audience Manager customers using [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) can connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin. El servicio de inclusión (Opt-in) es una función integrada en la biblioteca JavaScript de ECID que puede deshabilitar bibliotecas determinadas de soluciones de Adobe, en función de las preferencias del visitante, que se establecen dentro de una plataforma CMP. Cuando se implementa el complemento IAB con la biblioteca ECID, las preferencias de visitante de su CMP compatible con IAB se asignan automáticamente al servicio de inclusión (Opt-in). Estas preferencias activarán bibliotecas basadas en Audience Manager (DIL y ECID) y llamadas asociadas cuando se reciba el consentimiento.
 
 ## Implementar una CMP compatible con IAB {#section-9fd2403b548947dbb1921ac6ff9d0c82}
 
@@ -23,7 +23,7 @@ Para que Opt-In se integre con el consentimiento IAB necesita completar las sigu
 1. Implemente una CMP que sea compatible con IAB y esté [registrada como proveedor IAB](https://vendorlist.consensu.org/vendorlist.json), o desarrolle una CMP interna que implemente la especificación IAB y, a continuación, regístrela como CMP en IAB Europe.
 1. Defina/Cargue `__cmp` antes de cargar Adobe JS.
 
-Para obtener más información, lea la [Documentación informativa de publicidad interactiva](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/v1.1%20Implementation%20Guidelines.md).
+Para obtener más información, consulte los [documentos del Interactive Advertising Bureau](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/v1.1%20Implementation%20Guidelines.md).
 
 ## Habilitar el complemento IAB dentro de su biblioteca JavaScript de ECID {#section-77bf1b9ed67241a59e56c21ab752e82f}
 
@@ -31,7 +31,7 @@ Para obtener más información, lea la [Documentación informativa de publicid
 >
 >El servicio de inclusión (Opt-in) solo está disponible en la versión de ECID 4.0 y posteriores
 
-Utilice Adobe Experience Plaform Launch para implementar tanto Opt-in como el complemento IAB para su sitio. Lea la [documentación de la extensión de inclusión de ECID](https://marketing-beta.adobe.com/resources/help/launch/ecid-optin/) para saber cómo configurar la extensión Launch.
+Utilice Adobe Experience Plaform Launch para implementar tanto Opt-in como el complemento IAB para su sitio. Read the [documentation for the ECID Opt-in extension](https://marketing-beta.adobe.com/resources/help/launch/ecid-optin/) to learn how to set up the Experience Platform Launch extension.
 
 Cuando habilite IAB para Opt-in de forma manual, asegúrese de que los siguientes ajustes estén establecidos en “true” dentro del objeto Visitor:
 
@@ -52,8 +52,8 @@ Para obtener más información sobre cómo se validan tanto Opt-in como el compl
 
 ## Documentación relacionada {#section-55da1110051a4b39b1037803f4a7b264}
 
-* [Marco de transparencia y consentimiento (TCF) de IAB](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/): para obtener más información sobre el estándar IAB
+* [Marco de transparencia y consentimiento (TCF) de IAB](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/): para obtener más información sobre el IAB estándar
 * [Adobe Opt-In](../../implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360): para obtener más información acerca de Opt-In, un componente necesario para la gestión del consentimiento en las soluciones de plataforma
-* Compatibilidad con el marco de transparencia y consentimiento IAB (TCF) [en Audience Manager](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html)
-* [Sus decisiones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse): otra opción de privacidad a disposición de los usuarios es la capacidad de excluirse de toda recopilación de datos mediante otras herramientas globales de exclusión. La Exclusión global tiene preferencia sobre la verificación mediante Opt-in e IAB
+* Soporte para el marco de transparencia y consentimiento (TCF) de IAB [en Audience Manager](https://marketing-beta.adobe.com/resources/help/aam/iab-support/aam-iab-support.html)
+* [Sus decisiones de privacidad](https://www.adobe.com/privacy/opt-out.html#customeruse): otra opción de privacidad a disposición de los usuarios es la capacidad de excluirse de toda recopilación de datos mediante otras herramientas globales de exclusión. La Exclusión global tiene preferencia sobre la verificación mediante Opt-in e IAB
 
