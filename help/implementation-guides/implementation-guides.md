@@ -6,7 +6,7 @@ seo-title: Guías de implementación para el servicio de ID
 solution: Experience Cloud
 title: Guías de implementación
 uuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -20,7 +20,7 @@ Importante: Asegúrese de leer y comprender los requisitos del servicio de ID an
 
 ## Implementación estándar
 
-La implementación estándar utiliza [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) para ayudarle a empezar con el servicio de ID e integrarlo con otras soluciones de Experience Cloud. Le recomendamos encarecidamente que utilice Experience Platform Launch al implementar el servicio de ID.
+A standard implementation uses [Adobe Exprience Platform Launch](https://docs.adobelaunch.com/) to help you get started with the ID service and integrate it with other Experience Cloud solutions. Le recomendamos encarecidamente que utilice Experience Platform Launch al implementar el servicio de ID.
 
 ## Recursos de implementación
 
