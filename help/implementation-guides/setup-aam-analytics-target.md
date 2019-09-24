@@ -5,7 +5,7 @@ seo-description: Estas instrucciones están destinadas a los clientes de Analyti
 seo-title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -26,13 +26,13 @@ Estas instrucciones están destinadas a los clientes de Analytics, Audience Mana
 
 ## Paso 1: Planificación del reenvío del lado de servidor {#section-880797cc992d4755b29cada7b831f1fc}
 
-Además de los pasos descritos aquí, los clientes que usan [!DNL Analytics] y [!DNL Audience Manager] deben migrar al reenvío del lado de servidor. El reenvío del lado del servidor permite eliminar DIL (código de recopilación de datos de Audience Manager) y sustituirlo por el [Módulo de gestión de audiencias](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html). Consulte la [Documentación del reenvío del lado del servidor](https://marketing.adobe.com/resources/help/es_ES/reference/ssf.html) para obtener más información.
+Además de los pasos descritos aquí, los clientes que usan [!DNL Analytics] y [!DNL Audience Manager] deben migrar al reenvío del lado de servidor. El reenvío del lado de servidor permite eliminar el código DIL (el código de recopilación de datos de Audience Manager) y sustituirlo por el [módulo Gestión de público](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html). Consulte la [documentación de reenvío del lado de servidor](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) para obtener más información.
 
 Migrar al reenvío del lado de servidor requiere planificación y coordinación. Este proceso conlleva realizar cambios externos en el código del sitio, así como determinados pasos internos que Adobe debe implementar para aprovisionar su cuenta. De hecho, muchos de estos procedimientos de migración han de suceder en paralelo e implementarse al mismo tiempo. Su ruta de implementación deberá seguir esta secuencia de eventos:
 
 1. Trabaje con sus contactos de [!DNL Analytics] y [!DNL Audience Manager] para planificar el servicio de ID y la migración de reenvío del lado de servidor. Haga que la selección de un servidor de seguimiento conforme una parte importante de este plan.
 
-1. Complete el formulario en el [Sitio de integraciones y aprovisionamiento](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) para empezar.
+1. Complete el formulario en el [sitio de aprovisionamiento e integraciones](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) para ponerse en marcha.
 
 1. Implementar el servicio de ID y el [!DNL Audience Management Module] simultáneamente. Para que funcione correctamente, el [!DNL Audience Management Module] módulo Gestión de audiencias (reenvío del lado de servidor) y el servicio de ID deben iniciarse para el mismo conjunto de páginas y de forma simultánea.
 
@@ -132,7 +132,7 @@ Para determinar las variables del servidor de seguimiento que se van a emplear:
 * URL del servidor de Experience Cloud = URL del servidor de seguimiento
 * URL segura del servidor de Experience Cloud = URL segura del servidor de seguimiento
 
-Si no está seguro de cómo encontrar su servidor de seguimiento, consulte [las preguntas frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
+Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [Preguntas más frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#). 
 
 ## Paso 6: Actualización del archivo AppMeasurement.js {#section-5517e94a09bc44dfb492ebca14b43048}
 
@@ -144,7 +144,7 @@ Añada la `Visitor.getInstance` función que se muestra a continuación a su `Ap
 
 >[!IMPORTANT]
 >
->En este punto deberá eliminar el código [!DNL Audience Manager] DIL de y sustituirlo por el módulo Gestión de audiencias. Consulte [Implementar el reenvío de lado del servidor](https://marketing.adobe.com/resources/help/es_ES/reference/ssf.html) para obtener instrucciones.
+>En este punto deberá eliminar el código [!DNL Audience Manager] DIL de y sustituirlo por el módulo Gestión de audiencias. Consulte las instrucciones en [Implementar el reenvío del lado de servidor](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html).
 
 ***(Opcional, pero recomendada)*Crear una variable prop personalizada****
 
@@ -164,7 +164,7 @@ Coloque el ` [!UICONTROL VisitorAPI.js]` archivo dentro de las etiquetas `<head>
 
 ## Paso 8: (Opcional) Configuración de un período de gracia {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un [periodo de gracia temporal](../reference/analytics-reference/grace-period.md). Los períodos de gracia pueden prolongarse hasta 180 días. Si es necesario, puede renovar un período de gracia.
+If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). Los períodos de gracia pueden prolongarse hasta 180 días. Si es necesario, puede renovar un período de gracia.
 
 **Implementación parcial**
 
@@ -186,7 +186,7 @@ Necesita un período de gracia si envía datos a un sistema interno desde una fu
 
 Interrumpa el periodo de gracia una vez que su proceso de consumo de datos pueda utilizar las columnas `post_visid_high` y `post_visid_low`.
 
-Consulte también la información sobre la [Columna de datos de flujo de navegación](https://marketing.adobe.com/resources/help/es_ES/sc/clickstream/datafeeds_reference.html).
+Consulte también [Referencia de columnas de datos del flujo de navegación](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html).
 
 ## Paso 9: Prueba y verificación {#section-f857542bfc70496dbb9f318d6b3ae110}
 
@@ -194,7 +194,7 @@ Las soluciones de [!DNL Experience Cloud] de esta implementación devuelven ID e
 
 >[!TIP]
 >
->Puede utilizar [Adobe Debugger](https://marketing.adobe.com/resources/help/es_ES/sc/implement/?f=debugger.html) o [el proxy HTTP Charles](https://www.charlesproxy.com/) para comprobar los ID específicos de estas soluciones. No obstante, es libre de usar la herramienta o el depurador que más le convenga.
+>You can use the [Adobe Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=debugger.html) or the [Charles HTTP proxy](https://www.charlesproxy.com/) to check for these solution-specific IDs. No obstante, es libre de usar la herramienta o el depurador que más le convenga.
 
 **Todas las soluciones**
 
@@ -221,7 +221,7 @@ Si ve un AID, compare su valor con el [!DNL Target] mboxMCAVID de. Estos valores
 Para probar el reenvío del lado de servidor, consulte:
 
 * [Cómo determinar si su cuenta está lista para recibir datos reenviados](https://marketing.adobe.com/resources/help/en_US/aam/ssf-success.html)
-* [Determinar si su cuenta no está lista para recibir datos reenviados](https://marketing.adobe.com/resources/help/en_US/aam/ssf-fail.html)
+* [Cómo determinar si su cuenta no está lista para recibir datos reenviados](https://marketing.adobe.com/resources/help/en_US/aam/ssf-fail.html)
 
 **Target**
 
