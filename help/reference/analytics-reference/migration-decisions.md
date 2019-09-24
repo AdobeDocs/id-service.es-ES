@@ -5,7 +5,7 @@ seo-description: Antes de implementar el servicio de Experience Cloud ID, es nec
 seo-title: Puntos de decisión para la migración del servicio de identidad de Experience Cloud
 title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
@@ -60,10 +60,10 @@ Si cuenta con varios dominios que envían datos al *mismo grupo de informes*, le
    <td colname="col1"> <p>Un solo dominio </p> </td> 
    <td colname="col2"> <p>Al trabajar con un solo dominio puede migrarse desde un CNAME de recopilación de datos si ya no desea seguir administrándolo. Sin embargo, no es un requisito cambiar si su CNAME funciona correctamente. </p> <p>Si no elimina el CNAME: </p> 
     <ul id="ul_12CDECEFC7BB41A18895B507CAA42315"> 
-     <li id="li_32E2CD3E58454E20A642BADE507AE86E">Asegúrese de que su nuevo servidor de seguimiento sea <a href="https://marketing.adobe.com/resources/help/es_ES/whitepapers/rdc/" format="https" scope="external">compatible con RDC</a>. </li> 
+     <li id="li_32E2CD3E58454E20A642BADE507AE86E">Asegúrese de que su nuevo servidor de seguimiento sea <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/" format="https" scope="external">compatible con RDC</a>. </li> 
      <li id="li_865BB6DAA3594EBBAB688E73C8343762">Pásese del CNAME a un servidor de seguimiento de RDC con unos meses de adelanto a la migración al servicio de <span class="keyword">Experience Cloud ID</span>. </li> 
      <li id="li_284A015177554C848C8648DC5BBAA365"> <i>No</i> utilice un servidor de seguimiento <span class="codeph">*.2o7.net</span>. </li> 
-     <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1">Contacte con el <a href="https://helpx.adobe.com/es/marketing-cloud/contact-support.html" format="https" scope="external">Servicio de atención al cliente</a> para configurar una migración de visitante. De este modo, obtendrá recuentos de visitantes fiables. </li> 
+     <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1">Contacte con el <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="https" scope="external">Servicio de atención al cliente</a> para configurar una migración de visitante. De este modo, obtendrá recuentos de visitantes fiables. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -110,7 +110,7 @@ Es posible que deba cambiar la manera en que realiza un seguimiento de los vínc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>JavaScript y/o Flash </p> </td> 
-   <td colname="col2"> <p>Ninguno. El servicio de <span class="keyword">Experience Cloud ID</span> es compatible con estos métodos de recopilación de datos. </p> </td> 
+   <td colname="col2"> <p>None. El servicio de <span class="keyword">Experience Cloud ID</span> es compatible con estos métodos de recopilación de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Silverlight </p> </td> 
