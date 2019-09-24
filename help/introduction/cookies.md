@@ -5,7 +5,7 @@ seo-description: El servicio de ID utiliza su ID de organización, la cookie AMC
 seo-title: Cookies y el servicio de identidad de Experience Cloud
 title: Cookies y el servicio de Experience Cloud ID
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
 
 ---
@@ -114,7 +114,7 @@ En la siguiente tabla se enumeran y definen varios atributos importantes de la c
  </tbody> 
 </table>
 
-Para obtener información relacionada, consulte [Explicación de las llamadas al dominio Demdex](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
+For related information, see [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
 
 ## Generación del Experience Cloud ID {#section-15f69c0bac394b4b9966a23fbc586d17}
 
