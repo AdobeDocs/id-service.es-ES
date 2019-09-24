@@ -4,7 +4,7 @@ keywords: Servicio de ID
 seo-description: El servicio de Experience Cloud ID (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a Experience Cloud. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.
 seo-title: Soporte hash SHA 256 para setCustomerIDs
 title: Soporte hash SHA 256 para setCustomerIDs
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ac1131be75fd04b51cd1d646086e1802a43afb18
 
 ---
@@ -35,7 +35,7 @@ visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256")
 
 Junto con el ID de visitante de Experience Cloud, se pueden asociar ID de cliente adicionales y un estado de autenticación a cada visitante. Si no proporciona ningún tipo de hash, se considerará como sin hash.
 
-El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. Por ejemplo, puede cargar estos ID como [atributos de cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.translate.html) en Experience Cloud y acceder a estos datos en las distintas soluciones.
+El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. Por ejemplo, puede cargar estos ID como [atributos de cliente](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) a Experience Cloud y acceder a estos datos en las distintas soluciones.
 
 Los ID de cliente, los estados autenticados y el tipo de hash *no se* almacenan en una cookie que se utilizará después. En su lugar, los ID de cliente, los estados autenticados y el tipo de hash deben almacenarse en una variable de instancia para recuperarse usando [`getCustomerIDs`](/help/library/get-set/getcustomerids.md)como se muestra a continuación:
 
@@ -46,7 +46,7 @@ Los ID de cliente, los estados autenticados y el tipo de hash *no se* almacenan 
     __proto__: Object
 ```
 
-<br>
+<br> 
 
 Los resultados del método `setCustomerIDs` dan como resultado una llamada al servicio Experience Cloud ID, un `dpm.demdex.net`, con la adición del parámetro de consulta `d_cid_ic`, que contiene el ID de cliente con hash. Una llamada de ejemplo podría parecerse a la de abajo. Se agregaron los saltos de línea para una mayor claridad.
 
@@ -58,7 +58,7 @@ d_cid_ic=email%a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097%
 ts=1563299964843
 ```
 
-<br>
+<br> 
 
 Consulte la tabla siguiente para ver una descripción del parámetro`d_cid_ic` y del estado de autenticación.
 
@@ -68,13 +68,13 @@ Consulte la tabla siguiente para ver una descripción del parámetro`d_cid_ic` y
 
 ## Añadir una acción en Adobe Experience Platform Launch {#add-action-launch}
 
-Experience Platform Launch es la función de administración de etiquetas de próxima generación de Adobe. Obtenga más información sobre [Launch en la documentación de producto ](https://docs.adobe.com/content/help/es-ES/launch/using/overview.translate.html).
+Experience Platform Launch es la función de administración de etiquetas de próxima generación de Adobe. Obtenga más información sobre Launch en la documentación [del producto](https://docs.adobe.com/content/help/en/launch/using/overview.html)Launch.
 
-Para añadir una acción en Launch, lea [la documentación de reglas](https://docs.adobe.com/content/help/es-ES/launch/using/reference/manage-resources/rules.translate.html) en Adobe Launch y vea la siguiente captura de pantalla:
+Para agregar una acción en Launch, lea la documentación [de](https://docs.adobe.com/help/en/launch/using/reference/manage-resources/rules.html) reglas de Adobe Launch y consulte la captura de pantalla siguiente:
 
 ![](/help/reference/assets/hashing-support.png)
 
-<br>
+<br> 
 
 Tras confirmar la configuración, Launch ajusta los datos en un objeto, como se muestra a continuación:
 
