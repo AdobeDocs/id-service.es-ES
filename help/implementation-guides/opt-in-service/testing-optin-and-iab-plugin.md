@@ -4,7 +4,7 @@ seo-description: Una vez que haya habilitado el servicio de inclusión (Opt-in) 
 seo-title: Validación del servicio de inclusión (Opt-in)
 title: Validación del servicio de inclusión (Opt-in)
 uuid: 1743360a-d757-4e50-8697-0fa92b302cbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 ---
