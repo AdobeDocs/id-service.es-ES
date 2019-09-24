@@ -5,7 +5,7 @@ seo-description: Si tiene varios archivos JavaScript que envían datos al mismo 
 seo-title: Período de gracia del servicio de ID
 title: Período de gracia del servicio de ID
 uuid: 10a7db7d-de32-4379-914f-edaf929efa32
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
@@ -33,4 +33,4 @@ Si tiene varios archivos JavaScript que envían datos al *mismo grupo de informe
 
 ## ¿Cómo puedo habilitar un período de gracia?  {#section-512d5cd8570e483cbdd8b04457a16ced}
 
-Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html.)
+Contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
