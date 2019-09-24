@@ -4,7 +4,7 @@ seo-description: Casos de uso y soluciones de ejemplo para la administración de
 seo-title: Casos de uso de Opt-in
 title: Casos de uso de Opt-in
 uuid: d75a44d5-b713-43d1-b5b6-95d1d0d213a7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
 
 ---
