@@ -4,7 +4,7 @@ seo-description: Implemente el servicio de inclusión (Opt-in) como el único pu
 seo-title: Configuración del servicio de inclusión (Opt-in)
 title: Configuración del servicio de inclusión (Opt-in)
 uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
 
 ---
@@ -22,7 +22,7 @@ El servicio Opt-in le permite especificar si un visitante puede incluirse en las
 
 1. ECID versión 4.0.
 
-   [Descargar](https://github.com/Adobe-Marketing-Cloud/id-service/releases) la versión de ECID más reciente.
+   [Descargue](https://github.com/Adobe-Marketing-Cloud/id-service/releases) la versión más reciente de ECID.
 
 1. Bibliotecas de soporte:
 
@@ -42,7 +42,7 @@ El servicio Opt-in le permite especificar si un visitante puede incluirse en las
 
 1. Los requisitos de privacidad de su empresa dependerán de cómo elija satisfacer el cumplimiento del RGPD. Debe saber qué bibliotecas pueden utilizar los equipos de privacidad de su empresa previamente al consentimiento.
 
-Si utiliza [Adobe Launch](https://docs.adobelaunch.com/), aproveche la [extensión de inclusión Opt-in](../../implementation-guides/opt-in-service/launch.md) para configurar el servicio de inclusión (Opt-in).
+Si utiliza [Launch, de Adobe](https://docs.adobelaunch.com/), aproveche la [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
 
 ## Categorías de Opt-in {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
@@ -134,7 +134,7 @@ function callback() {
 optIn.fetchPermissions(callback, true);
 ```
 
-Consulte  [la documentación de la API](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) para obtener más información sobre estas funciones, propiedades y configuraciones mencionadas en este documento.
+Consulte [la documentación de la API](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) para obtener más información sobre estas funciones, propiedades y configuraciones mencionadas en este documento.
 
 ## Conservar las preferencias de los visitantes{#section-ef2884ae67e34879bf7c7c3372706c9f}
 
