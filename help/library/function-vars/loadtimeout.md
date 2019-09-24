@@ -5,7 +5,7 @@ seo-description: Establece un intervalo de tiempo de espera en milisegundos. Se 
 seo-title: loadTimeout
 title: loadTimeout
 uuid: f627e044-bd73-49a4-8a90-6d19aa566751
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
