@@ -5,7 +5,7 @@ seo-description: Se indican configuraciones del servidor de ejemplo y los pasos 
 seo-title: Escenarios de migración del servicio de identidad de Experience Cloud
 title: Escenarios de migración del servicio de Experience Cloud ID
 uuid: 9e229045-6508-48c4-ae39-9537b4941853
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 ---
