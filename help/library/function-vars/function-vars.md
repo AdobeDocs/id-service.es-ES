@@ -5,7 +5,7 @@ seo-description: Configure el servicio de ID pasando estas propiedades al métod
 seo-title: Configuraciones
 title: Configuraciones
 uuid: 2dfe1ed6-f3a6-4f5c-976b-eeb43738c20c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
 
 ---
