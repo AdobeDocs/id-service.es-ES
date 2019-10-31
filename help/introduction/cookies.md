@@ -5,13 +5,13 @@ seo-description: El servicio de ID utiliza su ID de organización, la cookie AMC
 seo-title: Cookies y el servicio de identidad de Experience Cloud
 title: Cookies y el servicio de Experience Cloud ID
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7d7ecdf65cca67539b1b63c8811a0bad04c694c3
 
 ---
 
 
-# Cookies y el servicio de identidad de Experience Cloud{#cookies-and-the-experience-cloud-id-service}
+# Cookies y el servicio de identidad de Experience Cloud {#cookies-and-the-experience-cloud-id-service}
 
 El servicio de ID utiliza su ID de organización, la cookie AMCV de Experience Cloud y una cookie demdex a fin de crear y almacenar identificadores únicos y persistentes para los visitantes de su sitio. Estas cookies permiten que el servicio de ID realice un seguimiento de los visitantes entre los distintos dominios del usuario y permiten compartir datos entre las distintas soluciones de Experience Cloud.
 
@@ -114,7 +114,7 @@ En la siguiente tabla se enumeran y definen varios atributos importantes de la c
  </tbody> 
 </table>
 
-For related information, see [Understanding Calls to the Demdex Domain](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
+Para obtener información relacionada, consulte [Explicación de las llamadas al dominio Demdex](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html).
 
 ## Generación del Experience Cloud ID {#section-15f69c0bac394b4b9966a23fbc586d17}
 
@@ -126,13 +126,13 @@ El servicio de ID empieza a crear un MID mientras se carga su página. Durante e
 
 En la tabla siguiente se describen los indicadores de las cookies de Experience Cloud:
 
-| Cookie (establecida por) | httpOnly | Proteger | SameSite |
+| Cookie (establecida por) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
 | demdex (respuesta http) | No | Sí | "None" |
-| AMCV (Javascript) | No | Configurable | Desdefinido (el valor predeterminado es Lax) |
-| AMCVS (Javascript) | No | Configurable | Desdefinido (el valor predeterminado es Lax) |
+| AMCV (JavaScript) | No | Configurable | Unset (predeterminado en Lax) |
+| AMCVS (JavaScript) | No | Configurable | Unset (predeterminado en Lax) |
 
-*Nota: Para obtener información sobre la configuración de las cookies AMCV y AMCVS con atributos seguros, consulte el tema sobre[secureCookie](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/securecookie.html).*
+*Nota: Para obtener información sobre la configuración de las cookies AMCV y AMCVS con atributos seguros, consulte [secureCookie](https://docs.adobe.com/content/help/es-ES/id-service/using/id-service-api/configurations/securecookie.html).*
 
 ## Pasos siguientes {#section-8db1727a63bc4ff68b495f270315d453}
 
