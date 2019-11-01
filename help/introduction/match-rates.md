@@ -6,7 +6,7 @@ seo-title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -72,7 +72,7 @@ El término *`Sync Services`* hace referencia a las tecnologías internas de [!D
 
 [!DNL Adobe Media Optimizer] supone una excepción en el proceso de sincronización de ID basado en iFrames. Puesto que [!DNL Media Optimizer] es un dominio de confianza, las sincronizaciones de ID se realizan en la página principal en lugar de en el [!UICONTROL iFrame de publicación de destino]. Durante la sincronización, el servicio de ID llama a [!DNL Media Optimizer] en `cm.eversttech.net`, que es un nombre de dominio heredado que utilizaba [!DNL Media Optimizer] antes de su adquisición por parte de Adobe. El envío de datos a [!DNL Media Optimizer] ayuda a mejorar las tasas de coincidencia y se realiza automáticamente para los clientes de servicio de ID que utilizan la versión 2.0 (o posterior). Consulte también [Cookies de Media Optimizer](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_media_optimizer.html).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Explicación de las llamadas al dominio Demdex](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)
 
