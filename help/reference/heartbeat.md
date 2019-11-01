@@ -6,7 +6,7 @@ seo-title: Video Heartbeat y el servicio de identidad de Experience Cloud
 title: Video Heartbeat y el servicio de Experience Cloud ID
 uuid: 07986a78-23ac-4fd4-ab8f-be9275616a29
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 Video Heartbeat requiere el servicio de Experience Cloud ID. Cuando se mide vídeo en JavaScript o Flash, la implementación del servicio de ID en las páginas del sitio y en la reproducción del vídeo garantiza que los visitantes no se contabilicen por separado cada vez que reproduzcan el vídeo.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Medir vídeo en Analytics usando Video Heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)
 
