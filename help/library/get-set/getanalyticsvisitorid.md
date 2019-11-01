@@ -6,7 +6,7 @@ seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -50,7 +50,7 @@ Verá el parámetro `aid` en una cadena de consulta cuando:
 
 Verá el `aid` parámetro en una cadena de consulta cuando su organización utilice un [periodo de gracia](../../reference/analytics-reference/grace-period.md) antes de implementar completamente el servicio de ID. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ID de [!DNL Experience Cloud]).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Cookies de Analytics](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html)
 
