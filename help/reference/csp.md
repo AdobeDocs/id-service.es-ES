@@ -6,7 +6,7 @@ seo-title: Políticas de seguridad del contenido y el servicio de identidad de E
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -58,7 +58,7 @@ Agregue estos nombres de dominio o URL a sus CSP para cada solución o servicio 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Content Security Policy Reference ](https://content-security-policy.com/)(Referencia de política de seguridad de contenido)
 >* [MDN: Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) (MDN: Política de seguridad de contenido)
