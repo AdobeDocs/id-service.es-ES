@@ -6,7 +6,7 @@ seo-title: Implementación con Dynamic Tag Management
 title: Implementación con Dynamic Tag Management
 uuid: c4f752c4-392e-4909-b178-911706857064
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
@@ -25,7 +25,7 @@ Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para
 
 ## Dynamic Tag Management y el servicio de ID {#section-4a4c4fac5d0a4cbbaff8e1833f73657c}
 
-[Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/) lets you configure, deploy, and manage your ID service instance and related [!DNL Experience Cloud] solution integrations. DTM ayuda a simplificar el proceso de implementación, ya que está profundamente integrado con el servicio de ID y con otras soluciones de Experience Cloud. Simplemente agregue y configure la herramienta de Experience Cloud ID, y especifique la información oportuna, como:
+[La administración](https://marketing.adobe.com/resources/help/en_US/dtm/) dinámica de etiquetas le permite configurar, implementar y administrar su instancia de servicio de ID y las integraciones de [!DNL Experience Cloud] soluciones relacionadas. DTM ayuda a simplificar el proceso de implementación, ya que está profundamente integrado con el servicio de ID y con otras soluciones de Experience Cloud. Simplemente agregue y configure la herramienta de Experience Cloud ID, y especifique la información oportuna, como:
 
 * ID de organización de Experience Cloud (se rellena automáticamente si se vincula con Experience Cloud)
 * Servidor de seguimiento de Analytics (seguro y no seguro)
@@ -49,7 +49,7 @@ mcvid-dtm-deployment.xml
 
 Antes de empezar, asegúrese de que su organización y sus soluciones se han aprovisionado para [!DNL Experience Cloud] y de que esté familiarizado con la [!DNL Dyanamic Tag Management]. Esta documentación puede ayudarle a empezar:
 
-* [Enable your solutions for core services](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html): Implement the Experience Cloud and become an administrator. Este proceso moderniza las soluciones para servicios principales como los atributos del cliente y las audiencias de Experience Cloud.
+* [Habilite sus soluciones para servicios](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)principales: Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza las soluciones para servicios principales como los atributos del cliente y las audiencias de Experience Cloud.
 * [Introducción a Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)
 * [Vídeos](https://marketing.adobe.com/resources/help/en_US/dtm/jump-start-videos.html)de iniciación rápida: Una serie de vídeos breves que muestran cómo realizar tareas básicas de la DTM.
 
@@ -98,11 +98,6 @@ mcvid-dtm-implement.xml
 1. Haga clic en **[!UICONTROL Crear herramienta]** y en **[!UICONTROL Guardar cambios]**.
 
    Tras la operación de guardar, el servicio de ID quedará configurado como una herramienta dentro de DTM. No obstante, aún no estará listo para usarse. Su herramienta de DTM todavía tendrá que pasar por el proceso de publicación/aprobación de DTM, y es posible que le interese configurar otros parámetros adicionales. Para obtener información acerca del proceso de aprobación de DTM, consulte el vídeo de [iniciación rápida en los conceptos básicos de usuario](https://marketing.adobe.com/resources/help/en_US/dtm/user-basics-jump-start.html). Para obtener más información sobre los parámetros adicionales que puede agregar a DTM, consulte [Configuración del servicio de identidad de Experience Cloud para DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
-
->[!MORE_LIKE_THIS]
->
->* [Propiedades web](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)
-
 
 ## Configuración del servicio de identidad de Experience Cloud para DTM{#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
@@ -285,3 +280,8 @@ Su cuenta no se ha aprovisionado correctamente si el MID no aparece en la respue
 ![](assets/charles_response_unsuccessful.png)
 
 Para obtener más información sobre los códigos de error, consulte [Códigos, mensajes y ejemplos de error de DCS](https://marketing.adobe.com/resources/help/en_US/aam/dcs_error_codes.html).
+
+>[!MORELIKETHIS]
+>
+>* [Propiedades web](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)
+
