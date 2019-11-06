@@ -1,17 +1,17 @@
 ---
 description: Las preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de identidad de Experience Cloud.
 keywords: Servicio de Experience Cloud ID
-seo-description: Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de identidad.
-seo-title: Preguntas frecuentes sobre el servicio de identidad y Analytics
+seo-description: Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
+seo-title: Preguntas frecuentes sobre el servicio de ID y Analytics
 title: Preguntas frecuentes sobre el servicio de ID y Analytics
 uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
 
-# Preguntas frecuentes sobre el servicio de identidad y Analytics{#analytics-and-id-service-faqs}
+# Preguntas frecuentes sobre el servicio de ID y Analytics{#analytics-and-id-service-faqs}
 
 Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
 
@@ -23,7 +23,7 @@ Cada fragmento de código de AppMeasurement configurado adecuadamente contiene l
 
 Sin embargo, a veces, los clientes pueden dividir su archivo de Analytics AppMeasurement en archivos independientes. Por ejemplo, algunos clientes pueden colocar las variables de configuración en un archivo, utilizar un segundo archivo para complementos y luego colocar el código AppMeasurement en un tercer archivo. Esto no se recomienda.
 
-Si no puede encontrar la información sobre su servidor de seguimiento, puede que la instancia de Analytics no esté configurada adecuadamente. Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html) si no puede encontrar la información sobre su servidor de seguimiento.
+Si no puede encontrar la información sobre su servidor de seguimiento, puede que la instancia de Analytics no esté configurada adecuadamente. Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) si no puede encontrar la información sobre su servidor de seguimiento.
 
 **¿Qué ocurre si utilizo el servicio de identidad y cambio mi servidor de seguimiento?**
 
@@ -35,7 +35,7 @@ Cuando el servicio de identidad haya identificado a los usuarios, no cambiará n
 
 Si tiene un sitio de entrada principal en el que se puede identificar a los clientes antes de que visiten otros dominios, un registro CNAME puede habilitar el seguimiento entre dominios en aquellos navegadores que no acepten cookies de terceros (como Safari).
 
-En los navegadores que aceptan cookies de terceros, se establece una cookie en el [dominio demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) durante la solicitud de recuperación de un ID de visitante. Esta cookie permite que el servicio de identidad de visitante devuelva el mismo ID de visitante de Experience Cloud en todos los dominios que se hayan configurado con el mismo ID de organización. En los navegadores que no aceptan cookies de terceros, se asigna un nuevo ID de visitante de Experience Cloud en cada dominio.
+En los navegadores que aceptan cookies de terceros, se establece una cookie en el [dominio demdex.net](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.translate.html) durante la solicitud de recuperación de un ID de visitante. Esta cookie permite que el servicio de identidad de visitante devuelva el mismo ID de visitante de Experience Cloud en todos los dominios que se hayan configurado con el mismo ID de organización. En los navegadores que no aceptan cookies de terceros, se asigna un nuevo ID de visitante de Experience Cloud en cada dominio.
 
 Incluso aunque se configure un CNAME, si el sitio de entrada principal no se visita en primer lugar, los visitantes se identifican de forma distinta en el sitio secundario y en el principal si se usa un navegador que no acepta cookies de terceros.
 
@@ -51,7 +51,7 @@ No obstante, el código H no es compatible con el código visitorAPI.js versión
 
 **¿Qué es un período de gracia y cómo lo configuro?**
 
-See [The Identity Service Grace Period](../reference/analytics-reference/grace-period.md) and contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+Consulte [Período de gracia de servicio de identidad](../reference/analytics-reference/grace-period.md) y póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
 
 **¿Por qué necesito migrar a la recopilación de datos en tiempo real (RDC) para utilizar el servicio de identidad?**
 
@@ -90,5 +90,5 @@ Hay tres posibles escenarios en los que esto repercute en los datos de Analytics
 
 >[!MORELIKETHIS]
 >
->* [Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+>* [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 
