@@ -1,17 +1,17 @@
 ---
-description: La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de identidad de Experience Cloud que impide que establezca cookies en el dominio de terceros de un navegador.
+description: La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de Experience Cloud ID que impide que establezca cookies en el dominio de terceros de un navegador.
 keywords: Servicio de ID
 seo-description: La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de Experience Cloud ID que impide que establezca cookies en el dominio de terceros de un navegador.
-seo-title: Compatibilidad con COPPA en el servicio de identidad de Experience Cloud
+seo-title: Compatibilidad con COPPA en el servicio de Experience Cloud ID
 title: Compatibilidad con COPPA en el servicio de Experience Cloud ID
 uuid: 621b5ebd-92e7-4635-be85-8d7e36589fcb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
 
 
-# Compatibilidad con COPPA en el servicio de identidad de Experience Cloud {#coppa-support-in-the-experience-cloud-id-service}
+# Compatibilidad con COPPA en el servicio de Experience Cloud ID {#coppa-support-in-the-experience-cloud-id-service}
 
 La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de Experience Cloud ID que impide que establezca cookies en el dominio de terceros de un navegador.
 
@@ -45,6 +45,6 @@ Cuando se establece en `true`, el `disableThirdPartyCookies` objeto evita que el
 
 >[!MORELIKETHIS]
 >
->* [Centro de privacidad de Adobe](http://www.adobe.com/privacy.html)
+>* [Centro de privacidad de Adobe](http://www.adobe.com/es/privacy.html)
 >* [¿Qué es COPPA?](http://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online#whatis)
 
