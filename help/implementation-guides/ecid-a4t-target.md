@@ -5,7 +5,7 @@ seo-description: Estas instrucciones van dirigidas a clientes de A4T con impleme
 seo-title: Uso del servicio ID con A4T y una implementación de Target en el lado del servidor
 title: Uso del servicio ID con A4T y una implementación de Target en el lado del servidor
 uuid: debbc5ca-7f8b-4331-923e-0e6339057de2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
