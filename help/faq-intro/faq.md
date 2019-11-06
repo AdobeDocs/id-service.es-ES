@@ -5,7 +5,7 @@ seo-description: Preguntas más frecuentes sobre las características, la funcio
 seo-title: Preguntas más frecuentes sobre el servicio de ID
 title: Preguntas más frecuentes sobre el servicio de ID
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
 
 ---
@@ -23,7 +23,7 @@ Consulte la [Información general](../introduction/overview.md).
 
 **¿Por qué el servicio de ID no está realizando una llamada para recuperar el Experience Cloud ID?**
 
-Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de política de seguridad de contenido de su sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. Consulte [Políticas de seguridad del contenido y el servicio de identidad de Experience Cloud](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3)
+Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de política de seguridad de contenido de su sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. Consulte [Políticas de seguridad del contenido y el servicio de Experience Cloud ID](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
 
 **Almacenamiento del archivo VisitorAPI.js**
 
@@ -35,7 +35,7 @@ Puede experimentar problemas si aloja VisitorAPI.js como archivo local en aplica
 
 Coloque la biblioteca VisitorAPI.js en la parte superior de la página en la `<head>` sección de su código. Esto le ayuda a garantizar que la llamada de un ID se emita antes de que el cuerpo de la página empiece a cargarse y que aumenten las posibilidades de que se devuelva un ID correctamente.
 
-La llamada de servicio de ID es asíncrona y es la única llamada al [dominio demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
+La llamada de servicio de ID es asíncrona y es la única llamada al [dominio demdex.net](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
 
 En el caso de los [!DNL Target] clientes de, al colocar el código de servicio de ID en la etiqueta `<body>` de la página, pueden incrementar las probabilidades de que se bloquee una llamada de [!DNL Target]. Si debe colocar el código de servicio de ID en el cuerpo de la página, se debe colocar después de la etiqueta `<body>` de apertura.
 
@@ -67,13 +67,13 @@ Este cambio mejora el rendimiento de los clientes que utilizan Visitor 2.3.0 o 
 
 Las solicitudes de recursos con CORS generalmente son más preferibles que con JSONP. Gracias a JSONP, algunos navegadores ponen en cola y derogan la prioridad de las solicitudes relativas a otras llamadas síncronas y asíncronas en la página. CORS ayuda a garantizar que estas solicitudes sean tratadas con una prioridad mayor en la pila de llamadas del navegador.
 
-Consulte [Compatibilidad con COPPA en el servicio de identidad de Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 ## Seguridad {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
 **¿El servicio de ID es compatible con CORS?**
 
-Sí. Consulte [Compatibilidad con COPPA en el servicio de identidad de Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Sí. Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **¿Qué es CORS?**
 
@@ -87,5 +87,5 @@ Consulte [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da1
 
 >[!MORELIKETHIS]
 >
->* [Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+>* [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 
