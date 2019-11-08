@@ -6,14 +6,14 @@ seo-title: Métodos de implementación
 title: Métodos de implementación
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
 translation-type: tm+mt
-source-git-commit: e75a448a2fa1c384c88f00648a6f868a886c6569
+source-git-commit: 6c1ff82104bc021d047bb066829328d5fd9eedbf
 
 ---
 
 
 # Métodos de implementación
 
-Puede elegir un método de implementación estándar [!DNL Experience Cloud ID Service] usando [!DNL Experience Platform Launch], [!DNL Dynamic Tag Manager] (DTM) o un método no estándar.
+Puede elegir un método de implementación estándar [!DNL Experience Cloud ID Service] mediante [!DNL Experience Platform Launch] o un método no estándar.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,3 @@ Adobe recomienda encarecidamente usar [!DNL Experience Platform Launch](https://
 ## Implementaciones no estándar{#section-2c4f2db1f9704315a7cccab6d2e07113}
 
 The procedures and code samples in this guide can help you set up the [!DNL Experience Cloud] ID service in a manual, or non-standard manner. Observe que estas implementaciones a menudo son técnicamente complejas y difíciles. Es posible que deba asignar recursos de ingeniería específicos, o que termine usando parte de la cuota del servicio de asistencia técnica contratado con su consultor de Adobe.
-
->[!TIP]
->
->Como alternativa, puede implementar el servicio de ID mediante [!DNL Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html). Sin embargo, los nuevos clientes deben usar [!DNL Experience Platform Launch]. Para actualizar a [!DNL Experience Platform Launch] desde [!DNL Dynamic Tag Manager], consulte [Actualización de DTM a Launch](https://docs.adobe.com/content/help/en/launch/using/reference/upgrade/overview.html)).
