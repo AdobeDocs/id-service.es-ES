@@ -4,7 +4,7 @@ product: Servicio de ID
 audience: usuario final
 user-guide-title: Asistencia del servicio de identidad de Experience Cloud
 user-guide-url: /content/help/es-ES/id-service/using/home.translate.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9de8fc07d30b5b641bc1445420973052605d25b6
 
 ---
