@@ -1,20 +1,20 @@
 ---
-description: Conecte su plataforma de administración de consentimiento (CMP) con el complemento IAB de inclusión.
-seo-description: Conecte su plataforma de administración de consentimiento (CMP) con el complemento IAB de inclusión.
+description: Conecte su plataforma de gestión de consentimiento (CMP) con el complemento Audience Manager de inclusión para el marco de transparencia y consentimiento de IAB (TCF).
+seo-description: Conecte su plataforma de gestión de consentimiento (CMP) con el complemento de Audience Manager para el marco de transparencia y consentimiento de IAB (TCF).
 seo-title: (beta) Uso de servicios de inclusión con IAB Framework
 title: (beta) Uso de servicios de inclusión con IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
 
 ---
 
 
 # (beta) Uso de servicios de inclusión con IAB Framework{#beta-using-opt-in-services-with-iab-framework}
 
-Conecte su plataforma de administración de consentimiento (CMP) con el complemento IAB de inclusión.
+Conecte su plataforma de gestión de consentimiento (CMP) con el complemento IAB de inclusión para Audience Manager.
 
-Audience Manager customers using [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) can connect their Consent Management Platform (CMP) with Opt-in’s IAB plugin. El servicio de inclusión (Opt-in) es una función integrada en la biblioteca JavaScript de ECID que puede deshabilitar bibliotecas determinadas de soluciones de Adobe, en función de las preferencias del visitante, que se establecen dentro de una plataforma CMP. Cuando se implementa el complemento IAB con la biblioteca ECID, las preferencias de visitante de su CMP compatible con IAB se asignan automáticamente al servicio de inclusión (Opt-in). Estas preferencias activarán bibliotecas basadas en Audience Manager (DIL y ECID) y llamadas asociadas cuando se reciba el consentimiento.
+Los clientes de Audience Manager que utilizan [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) pueden conectar su plataforma de gestión de consentimiento (CMP) con el complemento Audience Manager de Opt-in para IAB TCF. El servicio de inclusión (Opt-in) es una función integrada en la biblioteca JavaScript de ECID que puede deshabilitar bibliotecas determinadas de soluciones de Adobe, en función de las preferencias del visitante, que se establecen dentro de una plataforma CMP. Cuando se implementa el complemento IAB con la biblioteca ECID, las preferencias de visitante de su CMP compatible con IAB se asignan automáticamente al servicio de inclusión (Opt-in). Estas preferencias activarán bibliotecas basadas en Audience Manager (DIL y ECID) y llamadas asociadas cuando se reciba el consentimiento.
 
 ## Implementar una CMP compatible con IAB {#section-9fd2403b548947dbb1921ac6ff9d0c82}
 
