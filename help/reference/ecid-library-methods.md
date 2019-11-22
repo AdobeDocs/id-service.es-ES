@@ -4,7 +4,7 @@ seo-title: Métodos de biblioteca ECID en un entorno de Safari ITP
 description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 seo-description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 translation-type: tm+mt
-source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+source-git-commit: 51abd7b0f38da4c3375c0d2fe48d8bf96bdfb387
 
 ---
 
@@ -28,10 +28,6 @@ Las reglas de ITP se centran en devolver el control a los desarrolladores. Las i
 **¿Por qué Adobe se centra en la biblioteca ECID cuando hoy en día se utilizan otros métodos de seguimiento de visitantes de Analytics con CNAME?**
 
 La biblioteca ECID, la cookie AMCV y ECID (también llamado MID) comenzaron como un método para integrar todas las soluciones de Adobe en un único ID. Este ID seguirá siendo el ID de nivel de cookie prioritario en la hoja de ruta de productos de Adobe, y es el ID de cookie predeterminado para Adobe Experience Platform.
-
-**¿CNAME ayuda a los clientes a habilitar el seguimiento de dominios múltiples?**
-
-Las mismas reglas y advertencias que existían anteriormente con CNAME todavía existen. En algunos casos, los CNAME pueden ayudar en un escenario de dominios múltiples. Si tiene un sitio de entrada principal en el que se puede identificar a los usuarios antes de que visiten otros dominios, un registro CNAME puede habilitar el seguimiento de dominios múltiples en los navegadores que no acepten cookies de terceros. Sin embargo, aunque los CNAME pueden ayudar con los dominios múltiples en algunos casos, la razón de la transferencia de ECID a las implementaciones CNAME es la identificación persistente de visitantes, no el seguimiento de dominios múltiples. Para obtener más información sobre CNAME y los dominios múltiples, consulte [CNAME de recopilación de datos y seguimiento entre dominios](/help/reference/analytics-reference/cname.md).
 
 Se agregarán más preguntas frecuentes aquí a medida que se realicen cambios de ITP adicionales. Para obtener más información, visite [Adobe Experience League](https://experienceleague.adobe.com/#recommended/solutions/analytics).
 
