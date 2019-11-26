@@ -4,7 +4,7 @@ product: ID Service
 audience: end-user
 user-guide-title: Experience Cloud Identity Service Help
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
    + [Integración directa con el servicio ID](implementation-guides/direct-integration.md)
    + [Casos de uso de integración directa](implementation-guides/direct-integration-examples.md)
    + [Comprobación y verificación del servicio ID](implementation-guides/test-verify.md)
-   + Servicio de inclusión (Opt-in){#opt-in-service}
+   + Servicio de inclusión (Opt-in) {#opt-in-service}
       + [Información general sobre el servicio Opt-in](implementation-guides/opt-in-service/optin-overview.md)
       + [Configuración del servicio Opt-in](implementation-guides/opt-in-service/getting-started.md)
       + [Validación del servicio Opt-in](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
