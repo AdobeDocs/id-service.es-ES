@@ -4,8 +4,8 @@ product: ID Service
 audience: end-user
 user-guide-title: Experience Cloud Identity Service Help
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: ht
-source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
+translation-type: tm+mt
+source-git-commit: 453a14a4b725dd14f445b089d083a83a5d2ffaa4
 
 ---
 
@@ -94,6 +94,7 @@ source-git-commit: cb75ac6a9d7a5a001fcb0a1d9d978d3845a4e829
    + [Compatibilidad con CORS en el servicio ID](reference/cors.md)
    + [ID de cliente y estados de autenticación](reference/authenticated-state.md)
    + [Métodos de biblioteca ECID en un entorno de Safari ITP](reference/ecid-library-methods.md)
+   + [Identificación de visitantes únicos](reference/unique-vis-method.md)
    + [Obtención de ID de región y de usuario desde la cookie de AMCV o el servicio de ID](reference/regions.md)
    + [Requisitos del servicio ID](reference/requirements.md)
    + [Monitoreo de vídeo y servicio ID](reference/heartbeat.md)
