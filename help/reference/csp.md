@@ -5,8 +5,8 @@ seo-description: Una política de seguridad de contenido (CSP) es una función d
 seo-title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: ht
-source-git-commit: fbfea06bc2a4493b6d9b84a8f367749e1d803650
+translation-type: tm+mt
+source-git-commit: e3d63e2ad5f1f58f5444f2aa353b4144b0454fc4
 
 ---
 
@@ -22,7 +22,7 @@ Las CSP utilizan el encabezado HTTP `Content-Security-Policy` para controlar el 
 * Cargar archivos de JavaScript cuando estos son de origen desconocido o no están incluidos en una lista de elementos permitidos.
 * Ataques de scripts en sitios cruzados (XXS).
 * Ataques de inyección de datos.
-* Ataques de "defacement" (desfiguración).
+* Ataques de &quot;defacement&quot; (desfiguración).
 * Propagación de malware.
 
 El uso de CSP es habitual y se entiende perfectamente. La finalidad de esta documentación no es explicar detalladamente las CSP (consulte los vínculos de información relacionada que se muestran más abajo para obtener más información). Lo que es importante es que entienda qué nombres de dominio de Adobe debe agregar a una CSP, si los emplea, y tiene estrictas políticas de seguridad. Agregar estos dominios permite que los navegadores visitantes que acceden a su sitio realicen esas importantes llamadas a los recursos de Experience Cloud que usted utiliza.
@@ -53,10 +53,10 @@ Agregue estos nombres de dominio o URL a sus CSP para cada solución o servicio 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Servicio de ID de visitante</b> </p> </td> 
-   <td colname="col2"> <p>Modifique su CSP para incluir <span class="codeph">*.demdex.net</span>. </p> <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se utilizan para generar las cookies <a href="../introduction/cookies.md" format="dita" scope="local"> y el servicio de identidad de Experience Cloud</a> y para sincronizar ID. Consulte también <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.translate.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> </tr> 
+   <td colname="col2"> <p>Modifique su CSP para incluir <span class="codeph">*.demdex.net</span>. </p> <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se utilizan para generar las cookies <a href="../introduction/cookies.md" format="dita" scope="local"> y el servicio de identidad de Experience Cloud</a> y para sincronizar ID. Consulte también <a href="https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> </tr> 
  <tr>
  <td colname="col1"> <p> <b>Complemento Activity Map</b> </p> </td> 
- <td colname="col2"> <p>Modifique su CSP para incluir *omniture.com </p></td> 
+ <td colname="col2"> <p>Modifique el CSP para incluir *.adobe.com. **Nota**: Si ya tenía Mapa de actividades instalado antes de enero de 2020, el explorador seguirá viendo una solicitud inicial a *.omniture.com, pero se redirigirá a *.adobe.com. </p></td> 
  </tr>
  </tbody> 
 </table>
@@ -64,6 +64,6 @@ Agregue estos nombres de dominio o URL a sus CSP para cada solución o servicio 
 >[!MORELIKETHIS]
 >
 >* [Content Security Policy Reference ](https://content-security-policy.com/)(Referencia de política de seguridad de contenido)
->* [MDN: Content Security Policy](https://developer.mozilla.org/es/docs/Web/HTTP/CSP) (MDN: Política de seguridad de contenido)
->* [Wikipedia: Content Security Policy](https://es.wikipedia.org/wiki/Content_Security_Policy) (Wikipedia: Política de seguridad de contenido)
+>* [MDN: Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) (MDN: Política de seguridad de contenido)
+>* [Wikipedia: Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (Wikipedia: Política de seguridad de contenido)
 
