@@ -5,13 +5,13 @@ seo-description: La función que desempeña el servicio de identidad de Experien
 seo-title: Acerca del servicio de ID
 title: Información general
 uuid: c52d6155-00a0-4fc5-9d8e-5ce00b8d01e6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c314656c134a697540c289560c67ca3ab88bc63
 
 ---
 
 
-# Acerca del servicio de ID{#aboutidservice}
+# Acerca del servicio de ID {#aboutidservice}
 
 La función que desempeña el servicio de identidad de Experience Cloud en Adobe Experience Cloud.
 
@@ -27,7 +27,7 @@ El servicio de identidad de Experience Cloud admite el marco de identificación 
 
 Igualmente, el servicio de ID puede sustituir a los distintos ID específicos de las diferentes soluciones (p. ej., Analytics AID). Y, a través de la funcionalidad [ID de cliente y estados de autenticación](../reference/authenticated-state.md), el servicio de ID le permite transferir sus propios ID de cliente a [!DNL Experience Cloud]. No obstante, tenga en cuenta que el servicio de ID solo funciona con las soluciones a las que esté ya suscrito. No proporciona acceso a otros productos si no los tiene registrados.
 
-De ahora en adelante, el servicio de ID será un componente integral de muchas funciones, mejoras, y servicios actuales y [!DNL Experience Cloud] futuros de. En la actualidad, el servicio de ID es compatible con [Analytics](http://www.adobe.com/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/marketing-cloud/data-management-platform.html) y [Target](http://www.adobe.com/marketing-cloud/testing-targeting.html). Además, es imprescindible para poder participar en [!DNL Adobe Experience Cloud] Device Co-Op de. Si no ha implementado el servicio de ID, ahora es el momento de empezar a pensar en una estrategia de migración. Para obtener más información acerca de la importancia y la función que desempeña el servicio de ID, consulte [Por qué debería plantearse el servicio de Experience Cloud ID](http://blogs.adobe.com/digitalmarketing/analytics/why-new-adobe-marketing-cloud-id-service-should-be-on-your-radar/).
+De ahora en adelante, el servicio de ID será un componente integral de muchas funciones, mejoras, y servicios actuales y [!DNL Experience Cloud] futuros de. En la actualidad, el servicio de ID es compatible con [Analytics](http://www.adobe.com/es/marketing-cloud/web-analytics.html), [Audience Manager](http://www.adobe.com/es/marketing-cloud/data-management-platform.html) y [Target](http://www.adobe.com/es/marketing-cloud/testing-targeting.html). Además, es imprescindible para poder participar en [!DNL Adobe Experience Cloud] Device Co-Op de. Si no ha implementado el servicio de ID, ahora es el momento de empezar a pensar en una estrategia de migración. Para obtener más información acerca de la importancia y la función que desempeña el servicio de ID, consulte [Por qué debería plantearse el servicio de Experience Cloud ID](http://blogs.adobe.com/digitalmarketing/analytics/why-new-adobe-marketing-cloud-id-service-should-be-on-your-radar/).
 
 ## Resumen de características {#section-96555473455c4bf8924c2d56ff4f3255}
 
