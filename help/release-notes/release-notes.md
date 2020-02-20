@@ -1,12 +1,12 @@
 ---
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 seo-title: Notas de la versión 2019
 title: Notas de la versión 2019
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
 translation-type: tm+mt
-source-git-commit: 4532d09cc9b4d83fa62c13bd1adac7abdae222b1
+source-git-commit: ba84c4dac9023ab13f5176c5665adbbdaeb00d33
 
 ---
 
@@ -38,6 +38,20 @@ Versiones de características, actualizaciones o cambios en el servicio de ID de
 **Compatibilidad con ITP 2.1**. Si un servidor de seguimiento se configura en un CNAME de origen, se coloca una nueva cookie (s_ecid) con el valor ECID. La biblioteca ECID hace referencia al valor para mantener el ID más allá de 7 días. [Consulte métodos de biblioteca ECID en un entorno de Safari ITP](/help/reference/ecid-library-methods.md).
 
 **Corrección de errores para la configuración de secureCookie.**
+
+## Versión 4.1
+
+Actualización `publishDestinations` por cambio de API nuevo. Con esta actualización, la información del referente de la página se puede exponer durante la sincronización de ID si lo desea. (CORE-23693)
+
+## Versión 4.2
+
+Compatibilidad con el complemento Audience Manager para IAB TCF, disponible mediante el objeto de inclusión ECID.
+
+**Correcciones**
+
+* IAB + OptIn no obtiene el MID para los clientes que vuelven a visitarlos (CORE-26022)
+* Se ha corregido un error en la configuración de opt-in doOptInApply en la DTM (DTM-12958)
+* La opción de exclusión ECID desactiva la sincronización de ID (CORE-23814)
 
 ## Versión 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
