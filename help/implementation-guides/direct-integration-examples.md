@@ -5,7 +5,7 @@ seo-description: Estos ejemplos tratan sobre dos casos de uso habituales relacio
 seo-title: Casos de uso de integraciones directas
 title: Casos de uso de integraciones directas
 uuid: 6de1eb8b-4783-4545-8a64-ab6b9ef93432
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ec67177fc6491e4c8cea835d198574c9fdb4b01f
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: ec67177fc6491e4c8cea835d198574c9fdb4b01f
 
 # Casos de uso de integraciones directas {#direct-integration-use-cases}
 
-Estos ejemplos cubren dos casos de uso común relacionados con una integración directa y el ID de Experience Cloud (ECID o MID). Esta ID es una ID única y persistente para los visitantes del sitio.
+Estos ejemplos tratan 2 casos de uso comunes relacionados con una integración directa y el Experience Cloud ID (ECID o MID). Esta ID es una ID única y persistente para los visitantes del sitio.
 
 >[!TIP]
 >
@@ -23,7 +23,7 @@ Estos ejemplos cubren dos casos de uso común relacionados con una integración 
 
 
 
-## Caso de uso 1: Tengo un MID del servicio de identidad de Experience Cloud, pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
+## Caso de uso 1: Tengo un MID del servicio de Experience Cloud ID, pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
@@ -51,7 +51,7 @@ Estos ejemplos cubren dos casos de uso común relacionados con una integración 
      <li id="li_4869572B40E54C54B88A2474DAC475A8">Su ID de proveedor de datos. Este es un ID único asignado a su empresa. Lo llamaremos ID 4444. </li> 
      <li id="li_05C8ED47488C4E289D84093127EC7B19">Su ID para el visitante (9876). </li> 
      <li id="li_3D1556AD18C843828A362CC604A9F76B"> <i>(Opcional)</i> Un ID de estado para definir el estado de autenticación de este visitante. </li> 
-    </ul> <p>Y, si ocurre que tiene cualquiera de los otros parámetros enumerados en la <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> guía de integración directa</a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph">dcs_region</span>, etc.) también es correcto transferirlos. </p> </td> 
+    </ul> <p>Y, si ocurre que tiene cualquiera de los otros parámetros enumerados en la <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local">guía de integración directa</a> (por ejemplo, <span class="codeph">d_blob</span> o <span class="codeph">dcs_region</span>, etc.) también es correcto transferirlos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solución y ejemplo de código</b> </p> </td> 
@@ -86,11 +86,11 @@ Estos ejemplos cubren dos casos de uso común relacionados con una integración 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Acciones</b> </p> </td> 
-   <td colname="col2"> <p>Dadas estas condiciones, realice una llamada al servicio de ID que incluya su ID de organización. </p> <p>Y, si ocurre que tiene cualquiera de los otros parámetros enumerados en la <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"> guía de integración directa</a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph">dcs_region</span>, etc.) también es correcto transferirlos. </p> </td> 
+   <td colname="col2"> <p>Dadas estas condiciones, realice una llamada al servicio de ID que incluya su ID de organización. </p> <p>Y, si ocurre que tiene cualquiera de los otros parámetros enumerados en la <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local">guía de integración directa</a> (por ejemplo, <span class="codeph">d_blob</span> o <span class="codeph">dcs_region</span>, etc.) también es correcto transferirlos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solución y ejemplo de código</b> </p> </td> 
-   <td colname="col2"> <p>Dé el siguiente formato a su llamada al servicio de ID: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&amp;d_ver=2</span> </p> <p>Observe cómo la llamada de ejemplo contiene su ID de organización, <span class="codeph">d_orgid=5555</span>. Devolvería un Experience Cloud ID<span class="keyword"></span> para este visitante. </p> </td> 
+   <td colname="col2"> <p>Dé el siguiente formato a su llamada al servicio de ID: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&amp;d_ver=2</span> </p> <p>Observe cómo la llamada de ejemplo contiene su ID de organización, <span class="codeph">d_orgid=5555</span>. Devolvería un <span class="keyword">Experience Cloud</span> ID para este visitante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
