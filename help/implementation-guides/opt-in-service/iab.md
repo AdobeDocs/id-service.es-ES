@@ -4,13 +4,13 @@ seo-description: Conecte su plataforma de administración de consentimiento (CMP
 seo-title: Uso de servicios de inclusión con IAB Framework
 title: Uso de servicios de inclusión con IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5c20510d9b2174b14599eab04fb694389ff87589
 
 ---
 
 
-# Uso de servicios de inclusión con IAB Framework{#using-opt-in-services-with-iab-framework}
+# Uso de servicios de inclusión con IAB Framework {#using-opt-in-services-with-iab-framework}
 
 Conecte la plataforma de administración de consentimiento (CMP) con el complemento Audience Manager de inclusión para TCF de IAB.
 
@@ -44,7 +44,7 @@ Una vez que los ajustes estén correctamente configurados, las bibliotecas ECID 
 
 >[!IMPORTANT]
 >
->Audience Manager necesita consentimiento para las *finalidades 1, 2 y 5, además del consentimiento del proveedor*, para poder implementar cookies e iniciar o cumplir sincronizaciones de ID. [Acceda](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/gdpr/aam-iab-plugin.html) a la documentación de Audience Manager para obtener más información sobre el complemento Audience Manager para TCF de IAB.
+>Audience Manager necesita consentimiento para las *finalidades 1, 2 y 5, además del consentimiento del proveedor*, para poder implementar cookies e iniciar o cumplir sincronizaciones de ID. [Acceda](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html) a la documentación de Audience Manager para obtener más información sobre el complemento Audience Manager para TCF de IAB.
 
 Para obtener más información sobre cómo se validan los complementos de inclusión y de Audience Manager para TCF de IAB, consulte el caso n.º 4 de la guía de validación [aquí](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
 
@@ -52,6 +52,6 @@ Para obtener más información sobre cómo se validan los complementos de inclus
 
 * [Marco de transparencia y consentimiento (TCF) de IAB](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/): para obtener más información sobre el IAB estándar
 * [Adobe Opt-In](../../implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360): para obtener más información acerca de Opt-In, un componente necesario para la gestión del consentimiento en las soluciones de plataforma
-* Soporte para el marco de transparencia y consentimiento (TCF) de IAB [en Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html)
-* [Sus decisiones de privacidad](https://www.adobe.com/privacy/opt-out.html#customeruse): otra opción de privacidad a disposición de los usuarios es la capacidad de excluirse de toda recopilación de datos mediante otras herramientas globales de exclusión. La Exclusión global tiene preferencia sobre la verificación mediante Opt-in e IAB
+* Soporte para el marco de transparencia y consentimiento (TCF) de IAB [en Audience Manager](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.translate.html)
+* [Sus decisiones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse): otra opción de privacidad a disposición de los usuarios es la capacidad de excluirse de toda recopilación de datos mediante otras herramientas globales de exclusión. La Exclusión global tiene preferencia sobre la verificación mediante Opt-in e IAB
 
