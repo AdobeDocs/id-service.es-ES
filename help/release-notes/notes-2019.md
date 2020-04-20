@@ -5,8 +5,8 @@ seo-description: Versiones de funcionalidades, actualizaciones o cambios en el s
 seo-title: Notas de la versión 2019
 title: Notas de la versión 2019
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: ht
-source-git-commit: 25a9af7a28462bc0bd26cf4a5a58203e76a83366
+translation-type: tm+mt
+source-git-commit: 8ece066545f4ca4a7bd1eca67c8f02dcd2a88369
 
 ---
 
@@ -17,12 +17,12 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de identi
 
 ## Versión 4.4.1
 
-Agregar casilla de verificación de aprobación previa a la inclusión para el análisis de medios en la extensión de Launch  de ECID (CORE-33185)
+Agregar casilla de verificación de aprobación previa a la inclusión para el análisis de medios en la extensión de Launch  de ECID.
 
 **Correcciones**
 
-* Problema con el análisis de la cadena de entrada preOptInApprovals de la extensión de lanzamiento de ECID (CORE-34041)
-* Disminución de rendimiento cuando se utiliza trackingServer (CORE-32387)
+* Problema con el análisis de la cadena de entrada de la extensión de inicio ECID preOptInApprovals.
+* Descarga de rendimiento cuando se utiliza trackingServer.
 
 ## Versión 4.4 {#version-4point4}
 
@@ -32,11 +32,11 @@ Agregar casilla de verificación de aprobación previa a la inclusión para el a
 
 **Correcciones, mejoras**
 
-* Hemos realizado una actualización de configuracióna `cookieDomain`. La biblioteca ECID ahora filtra la cadena vacía `cookieDomain` en `initConfig` y utiliza el dominio de cookie de primer nivel, que el método getDomain devuelve. (CORE-29223)
-* Hemos corregido un error relacionado con `getVisitorValues` `localVisitor`. (CORE-31287)
-* Hemos corregido un error en el que había una incoherencia para el valor MCOPTOUT en el explorador Safari, devuelto por el método `getVisitorValue`. (CORE-29719)
+* Hemos realizado una actualización de configuracióna `cookieDomain`. La biblioteca ECID ahora filtra la cadena vacía `cookieDomain` en `initConfig` y utiliza el dominio de cookie de primer nivel, que el método getDomain devuelve.
+* Hemos corregido un error relacionado con `getVisitorValues` `localVisitor`. 
+* Hemos corregido un error en el que había una incoherencia para el valor MCOPTOUT en el explorador Safari, devuelto por el método `getVisitorValue`. 
 * Hemos actualizado la biblioteca de inclusión añadiendo `optIn.off` para cancelar la suscripción a eventos.
-* Se ha corregido un error relacionado con la función setTimeout, donde `setTimeout` se infringía la Política de seguridad de contenido (PSC) en algunos sitios de clientes. (CORE-30623)
+* Se ha corregido un error relacionado con la función setTimeout, donde `setTimeout` se infringía la Política de seguridad de contenido (PSC) en algunos sitios de clientes.
 
 ## Versión 4.3 {#version-4point3}
 
@@ -46,7 +46,7 @@ Agregar casilla de verificación de aprobación previa a la inclusión para el a
 
 ## Versión 4.1
 
-Actualizar `publishDestinations` por cada cambio de API nuevo. Con esta actualización, la información del referente de la página se puede exponer durante la sincronización de ID si lo desea. (CORE-23693)
+Actualizar `publishDestinations` por cada cambio de API nuevo. Con esta actualización, la información del referente de la página se puede exponer durante la sincronización de ID si lo desea.
 
 ## Versión 4.2
 
@@ -54,9 +54,9 @@ Compatibilidad con el complemento de Audience Manager para IAB TCF, disponible a
 
 **Correcciones**
 
-* Error de IAB + OptIn al obtener el MID para los clientes que vuelven a visitar (CORE-26022)
-* Se ha corregido un error en la configuración de inclusión doesOptInApply en la DTM (DTM-12958)
-* La opción de exclusión de ECID desactiva la sincronización de ID (CORE-23814)
+* Error de IAB + OptIn al obtener el MID para los clientes que vuelven a visitar.
+* Se ha corregido un error en la configuración de opt-in doOptInApply en la DTM.
+* La opción de exclusión de ECID desactiva la sincronización de ID.
 
 ## Versión 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
@@ -67,4 +67,4 @@ Compatibilidad con el complemento de Audience Manager para IAB TCF, disponible a
 | Elemento | Descripción |
 |---|---|
 | El indicador `disableIdSyncs` no funciona cuando se pasa una cadena. | Solucionado. Ahora se aceptan los valores configurados en el `disableidSyncs` parámetro para la `getInstance` función. |
-| Los iFrames de terceros no reciben ECID | Se ha corregido los ECID en la versión móvil de Safari, así como ECID que no funcionaban para distintos iFrames. |
+| Los iFrames de terceros no obtienen ECID | Se ha corregido el ECID en Safari Mobile y los ECID en varios iFrames que no funcionaban. |
