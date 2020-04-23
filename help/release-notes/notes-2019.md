@@ -5,7 +5,7 @@ seo-description: Versiones de funcionalidades, actualizaciones o cambios en el s
 seo-title: Notas de la versión 2019
 title: Notas de la versión 2019
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ece066545f4ca4a7bd1eca67c8f02dcd2a88369
 
 ---
@@ -17,12 +17,12 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de identi
 
 ## Versión 4.4.1
 
-Agregar casilla de verificación de aprobación previa a la inclusión para el análisis de medios en la extensión de Launch  de ECID.
+Agregar casilla de verificación de aprobación previa a la inclusión para el análisis de medios en la extensión de Launch de ECID.
 
 **Correcciones**
 
-* Problema con el análisis de la cadena de entrada de la extensión de inicio ECID preOptInApprovals.
-* Descarga de rendimiento cuando se utiliza trackingServer.
+* Problema con el análisis de la cadena de entrada preOptInApprovals de la extensión de lanzamiento de ECID.
+* Disminución de rendimiento cuando se utiliza trackingServer.
 
 ## Versión 4.4 {#version-4point4}
 
@@ -33,7 +33,7 @@ Agregar casilla de verificación de aprobación previa a la inclusión para el a
 **Correcciones, mejoras**
 
 * Hemos realizado una actualización de configuracióna `cookieDomain`. La biblioteca ECID ahora filtra la cadena vacía `cookieDomain` en `initConfig` y utiliza el dominio de cookie de primer nivel, que el método getDomain devuelve.
-* Hemos corregido un error relacionado con `getVisitorValues` `localVisitor`. 
+* Hemos corregido un error relacionado con `getVisitorValues` en `localVisitor`. 
 * Hemos corregido un error en el que había una incoherencia para el valor MCOPTOUT en el explorador Safari, devuelto por el método `getVisitorValue`. 
 * Hemos actualizado la biblioteca de inclusión añadiendo `optIn.off` para cancelar la suscripción a eventos.
 * Se ha corregido un error relacionado con la función setTimeout, donde `setTimeout` se infringía la Política de seguridad de contenido (PSC) en algunos sitios de clientes.
@@ -55,7 +55,7 @@ Compatibilidad con el complemento de Audience Manager para IAB TCF, disponible a
 **Correcciones**
 
 * Error de IAB + OptIn al obtener el MID para los clientes que vuelven a visitar.
-* Se ha corregido un error en la configuración de opt-in doOptInApply en la DTM.
+* Se ha corregido un error en la configuración de inclusión doesOptInApply en la DTM.
 * La opción de exclusión de ECID desactiva la sincronización de ID.
 
 ## Versión 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
@@ -67,4 +67,4 @@ Compatibilidad con el complemento de Audience Manager para IAB TCF, disponible a
 | Elemento | Descripción |
 |---|---|
 | El indicador `disableIdSyncs` no funciona cuando se pasa una cadena. | Solucionado. Ahora se aceptan los valores configurados en el `disableidSyncs` parámetro para la `getInstance` función. |
-| Los iFrames de terceros no obtienen ECID | Se ha corregido el ECID en Safari Mobile y los ECID en varios iFrames que no funcionaban. |
+| Los iFrames de terceros no reciben ECID | Se ha corregido el ECID en Safari Mobile y los ECID en varios iFrames que no funcionaban. |
