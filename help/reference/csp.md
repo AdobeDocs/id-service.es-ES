@@ -1,35 +1,35 @@
 ---
-description: Una política de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores control sobre qué tipo de recursos se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictas que utilizan listas de elementos permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe que se enumeran aquí a sus listas de elementos permitidos de CSP.
+description: Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
 keywords: ID Service
-seo-description: Una política de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores control sobre qué tipo de recursos se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictas que utilizan listas de elementos permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe que se enumeran aquí a sus listas de elementos permitidos de CSP.
+seo-description: Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
 seo-title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: ht
-source-git-commit: 7255228470a59a537251c3a3eec686f52a2b76ec
+translation-type: tm+mt
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
 
 # Políticas de seguridad del contenido y el servicio de Experience Cloud ID {#content-security-policies-and-the-experience-cloud-id-service}
 
-Una política de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores control sobre qué tipo de recursos se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictas que utilizan listas de elementos permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe que se enumeran aquí a sus listas de elementos permitidos de CSP.
+Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
 
 ## Revisión de la CSP {#section-5fde5c00a678455c914b8307a8caab82}
 
-Las CSP utilizan el encabezado HTTP `Content-Security-Policy` para controlar el tipo de recursos que acepta o carga un navegador en una página. La aplicación de una CSP puede ayudarle a impedir lo siguiente:
+Las CSP utilizan el encabezado HTTP `Content-Security-Policy` para controlar el tipo de recursos que acepta o carga un navegador en una página. La aplicación de un CSP puede ayudarle a evitar:
 
-* Cargar archivos de JavaScript cuando estos son de origen desconocido o no están incluidos en una lista de elementos permitidos.
-* Ataques de scripts en sitios cruzados (XXS).
+* Los archivos JavaScript no se cargan si el origen es desconocido o no se incluye en una lista blanca.
+* Ataques de secuencias de comandos entre sitios (XXS).
 * Ataques de inyección de datos.
-* Ataques de &quot;defacement&quot; (desfiguración).
-* Propagación de malware.
+* Ataques de desfacción del sitio.
+* Distribución de malware.
 
-El uso de CSP es habitual y se entiende perfectamente. La finalidad de esta documentación no es explicar detalladamente las CSP (consulte los vínculos de información relacionada que se muestran más abajo para obtener más información). Lo que es importante es que entienda qué nombres de dominio de Adobe debe agregar a una CSP, si los emplea, y tiene estrictas políticas de seguridad. Agregar estos dominios permite que los navegadores visitantes que acceden a su sitio realicen esas importantes llamadas a los recursos de Experience Cloud que usted utiliza.
+El uso de los CSP es común y bien entendido. Esta documentación no tiene por objeto explicar en detalle los CSP (para obtener más información, consulte los vínculos de información relacionados más adelante). Lo importante es que entienda qué nombres de dominio de Adobe debe agregar a un CSP si los utiliza y tiene políticas de seguridad estrictas. Añadir estos dominios permite a los navegadores de visitante que acceden a su sitio realizar las llamadas importantes a los recursos de Experience Cloud que utilice.
 
 ## Dominios de Experience Cloud para listas de elementos permitidos {#section-30693e9a96834edfbf04de9e698cf2aa}
 
-Agregue estos nombres de dominio o URL a sus CSP para cada solución o servicio de Experience Cloud de lista que utilice.
+Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o servicio de lista de Experience Cloud que utilice.
 
 <table id="table_EC9FC999A62D4B7A830CE73B0AB9EF3C"> 
  <thead> 
@@ -41,7 +41,7 @@ Agregue estos nombres de dominio o URL a sus CSP para cada solución o servicio 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>AppMeasurement</b> </p> </td> 
-   <td colname="col2"> <p>Modifique su CSP para incluir lo siguiente: </p> <p> 
+   <td colname="col2"> <p>Modifique el CSP para incluir lo siguiente: </p> <p> 
      <ul id="ul_7522AE83A03A4115A84DF5B32D6DD79B"> 
       <li id="li_AB1EC161FB154BEDA1BEFE76C8A38A90"> <span class="codeph"> *.2o7.net</span> </li> 
       <li id="li_4B12A283716746949201528CD6AF529E"> <span class="codeph"> *.omtrdc.net</span> </li> 
@@ -59,7 +59,7 @@ Agregue estos nombres de dominio o URL a sus CSP para cada solución o servicio 
    <li>img-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
    <li>script-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
    <li>frame-src 'self' <code>https://*.demdex.net;</code></li>
-   <li>Si utiliza Adobe Launch para implementar etiquetas, también deberá agregar <code>https://assets.adobedtm.com</code> a la lista de dominios.</li></ul></p> <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se utilizan para generar las <a href="../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de identidad de Experience Cloud</a> y para sincronizar ID. Consulte también <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.translate.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> </tr> 
+   <li>Si utiliza Adobe Launch para implementar etiquetas, también deberá agregar <code>https://assets.adobedtm.com</code> a la lista de dominios.</li></ul></p> <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se utilizan para generar las <a href="../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de identidad de Experience Cloud</a> y para sincronizar ID. Consulte también <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> </tr> 
  <tr>
  <td colname="col1"> <p> <b>Complemento Activity Map</b> </p> </td> 
  <td colname="col2"> <p>Modifique su CSP para incluir *.adobe.com. **Nota**: Si ya tenía Activity Map instalado antes de enero de 2020, el explorador seguirá viendo una solicitud inicial a *.omniture.com, pero se redirigirá a *.adobe.com. </p></td> 
