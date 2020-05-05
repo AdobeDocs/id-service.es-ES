@@ -1,12 +1,12 @@
 ---
 description: Una visión general de cómo funciona el servicio de identidad de Experience Cloud con los ID de Analytics heredados.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Una visión general de cómo funciona el servicio de Experience Cloud ID con los ID de Analytics heredados.
 seo-title: Solicitudes de ID de Analytics e Experience Cloud ID
 title: Solicitudes de ID de Analytics e Experience Cloud ID
 uuid: 28beed16-7ef9-4824-8e82-853930756eca
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -21,7 +21,7 @@ En el pasado, el servicio de identidad de Experience Cloud se ha integrado de ma
 
 ## La cookie AMCV no se establece en el navegador {#section-cccf10cd775e4a95a7e98d3c3c0ff9a9}
 
-Si la cookie [!DNL Experience Cloud] (AMCV) no está presente, una llamada al servicio de ID a [!DNL Adobe] genera una respuesta que varía según la presencia o ausencia de un ID de Analytics heredado. El ID de [!DNL Analytics] heredado se almacena en la [cookie s_vi](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html). La tabla siguiente describe cómo se escriben los ID en la cookie AMCV en función del estado de la cookie s_vi.
+Si la cookie [!DNL Experience Cloud] (AMCV) no está presente, una llamada al servicio de ID a [!DNL Adobe] genera una respuesta que varía según la presencia o ausencia de un ID de Analytics heredado. El ID heredado [!DNL Analytics] se almacena en la [cookie s_vi](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html). La tabla siguiente describe cómo se escriben los ID en la cookie AMCV en función del estado de la cookie s_vi.
 
 <table id="table_DC85FECE26DD424E841BA1059AF1E57F"> 
  <thead> 
@@ -40,7 +40,7 @@ Si la cookie [!DNL Experience Cloud] (AMCV) no está presente, una llamada al se
    <td colname="col2"> <p>Cuando el visitante de un sitio con una cookie s_vi encuentra por primera vez el servicio de identidad de Experience Cloud, este servicio: </p> 
     <ul id="ul_BE584810280D4874AF802A9247011787"> 
      <li id="li_AA395B09A3174AF78F3EC10053E2E4F5">Escribe el ID de <span class="keyword">Analytics</span> guardado en la cookie s_vi en la cookie AMCV. Este se escribe como el ID de <span class="keyword">Analytics</span> (AID). Esta acción <i>no</i> afecta a sus recuentos de visitantes. <span class="keyword"> Analytics</span> continuará identificando a los usuarios con sus ID heredados. </li> 
-     <li id="li_8735DE21FEA542BA8024109B8FE1E2ED">Escribe el MID en la cookie AMCV. El MID identifica a los usuarios entre las distintas soluciones. </li> 
+     <li id="li_8735DE21FEA542BA8024109B8FE1E2ED">Escribe el MID en la cookie AMCV. El MID identifica a los usuarios en diferentes soluciones. </li> 
     </ul> <p> <p>Nota: Con un <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local">período de gracia</a>, la respuesta del centro de datos incluye siempre un ID heredado que se almacena en la cookie s_vi. Durante el período de gracia, el ID heredado se escribe en la cookie AMCV como el valor AID. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -48,7 +48,7 @@ Si la cookie [!DNL Experience Cloud] (AMCV) no está presente, una llamada al se
 
 >[!NOTE]
 >
->El valor FID heredado de los usuarios identificados por la cookie s_fid no se migrará a la cookie AMCV. Con una cookie s_fid, los usuarios se migrarán como si no hubiera una cookie s_vi presente (véase más arriba) y aparecen como visitantes nuevos para su sitio. Consulte [Cookies de Analytics](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=cookies_analytics.html) para obtener más información.
+>El valor FID heredado de los usuarios identificados por la cookie s_fid no se migrará a la cookie AMCV. Con una cookie s_fid, los usuarios se migrarán como si no hubiera una cookie s_vi presente (véase más arriba) y aparecen como visitantes nuevos para su sitio. Consulte Cookies [de Analytics](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) para obtener más información.
 
 ## La cookie AMCV se establece en el explorador {#section-01c088fc565c4b24ba1722c7cc240310}
 
