@@ -1,12 +1,12 @@
 ---
 description: Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
 seo-title: isCoopSafe
 title: isCoopSafe
 uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
-translation-type: ht
-source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
+translation-type: tm+mt
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -30,7 +30,7 @@ Contenido:
 Para utilizar `isCoopSafe`, debe:
 
 * Utilizar el código de servicio de ID versión 2.4 o posterior.
-* Participar en [Device Co-Op de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcdc/). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
+* Participe en la cooperación entre dispositivos de [Experience Cloud](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
 
 * Trabaje con su consultor de [!DNL Adobe] para establecer un indicador de lista de elementos permitidos o de lista de elementos bloqueados en su cuenta de Device Co-Op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
@@ -54,8 +54,8 @@ Para utilizar `isCoopSafe`, debe:
    <td colname="col1"> <p> <b>DIL en sitios de terceros</b> </p> </td> 
    <td colname="col2"> <p>Agregue <span class="codeph">isCoopSafe</span> a su código de servicio de ID para usarlo en sitios de terceros en los que: </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
-      <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">No puede garantizar que los visitantes autenticados han aceptado o no los acuerdos de condiciones de uso. </li> 
-      <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Debe controlar cómo Device Co-Op utiliza los datos para crear el gráfico de dispositivos. </li> 
+      <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">No se puede garantizar que los visitantes autenticados hayan aceptado o no acuerdos de plazo de uso. </li> 
+      <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Es necesario controlar cómo Device Co-op utiliza esos datos para crear el gráfico del dispositivo. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -73,7 +73,7 @@ Las opciones booleanas determinan cómo Device Co-Op utiliza o no los datos de c
 
 **Ejemplo de código**
 
-Establezca esto cuando el código de servicio de ID crea instancias de:
+Establezca esta opción cuando el código del servicio de ID cree una instancia:
 
 ```js
 var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here",{ 
@@ -112,7 +112,7 @@ Los parámetros POST indican a [!DNL Experience Cloud] Device Co-Op de si puede 
 
 ## API posteriores a la creación de instancias {#section-9281c39c8b6249d7864100b5cbca7dc6}
 
-Estas API permiten sobrescribir el estado de `isCoopSafe`. Son necesarias porque le permiten cambiar el estado posterior a la creación de instancias/inicio de sesión de un visitante en un sitio o en una aplicación de una página en la que la página no se actualiza. Por ejemplo, debería llamar a estas API si un usuario se autenticara en su sitio o aplicación y, posteriormente, aceptara una política de condiciones de uso que permitiera a Device Co-Op utilizar sus datos.
+Estas API permiten sobrescribir el estado de `isCoopSafe`. Esto es necesario porque le permiten cambiar el estado posterior a la creación de la instancia o al inicio de sesión de un visitante en un sitio o en una aplicación de una sola página en la que la página no se actualiza. Por ejemplo, debe llamar a estas API si un usuario se autentica en su sitio o aplicación y luego acepta una política de términos de uso que permita a Device Co-op utilizar sus datos.
 
 <table id="table_BAA96B1F82BE48C3A61A1AF1367BA45C"> 
  <thead> 
@@ -139,5 +139,5 @@ Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
 >[!MORELIKETHIS]
 >
->* [DIL isCoopSafe](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.translate.html)
+>* [DIL isCoopSafe](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.html)
 
