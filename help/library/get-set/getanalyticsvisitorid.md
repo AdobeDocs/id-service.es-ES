@@ -1,12 +1,12 @@
 ---
 description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de Experience Cloud ID se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de Experience Cloud ID se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
-translation-type: ht
-source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
+translation-type: tm+mt
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -17,7 +17,7 @@ Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la co
 
 **Sintaxis** `var analyticsID = visitor.getAnalyticsVisitorID()`
 
-Normalmente, esta función se utiliza con soluciones personalizadas que requieren la lectura del ID de visitante. No se utiliza en las implementaciones estándares. `getAnalyticsVisitorID` funciona también con funciones de llamada de retorno para leer [!DNL Analytics] ID de e incluirlos en su sistema o aplicación.
+Normalmente, esta función se utiliza con soluciones personalizadas que requieren leer el ID de visitante. No se utiliza en una implementación estándar. `getAnalyticsVisitorID` funciona también con funciones de llamada de retorno para leer [!DNL Analytics] ID de e incluirlos en su sistema o aplicación.
 
 **Código de ejemplo**
 
@@ -44,7 +44,7 @@ El `aid` parámetro aparece en una cadena de consulta bajo dos conjuntos diferen
 Verá el parámetro `aid` en una cadena de consulta cuando:
 
 * El servicio de ID de [!DNL Experience Cloud] se implementa correctamente.
-* El usuario que visite un sitio tiene un ID de [!DNL Analytics] preexistente almacenado en su [cookie s_vi](https://marketing.adobe.com/resources/help/es_ES/whitepapers/cookies/cookies_analytics.html).
+* El usuario que visite un sitio tiene un ID de [!DNL Analytics] preexistente almacenado en su [cookie s_vi](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679).
 
 **Caso 2**
 
@@ -52,5 +52,5 @@ Verá el `aid` parámetro en una cadena de consulta cuando su organización util
 
 >[!MORELIKETHIS]
 >
->* [Cookies de Analytics](https://marketing.adobe.com/resources/help/es_ES/whitepapers/cookies/cookies_analytics.html)
+>* [Cookies de Analytics](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html)
 
