@@ -1,12 +1,12 @@
 ---
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2017.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2017.
 seo-title: Notas de la versión 2017
 title: Notas de la versión 2017
 uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
 
 Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2017.
 
-Estos cambios están recogidos también en las [notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/). En el caso de las notas de versión del servicio de ID, consulte las [notas de la versión anteriores](https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html) o los vínculos que se muestran en la parte inferior de esta página.
+Estos cambios también se capturan en las notas [de la versión de](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html)Experience Cloud.
 
 >[!NOTE]
 >
@@ -49,9 +49,9 @@ ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be d
 
 **Correcciones de errores y otros cambios**
 
-* Se ha corregido un error de Chrome que hacía que el servicio de ID generara un error al hacer clic en el botón Atrás en dicho navegador.
-* Ahora, el servicio de ID vuelve a desencadenar la sincronización de ID cuando cambia el ID de región presente en la respuesta de llamada de evento.
-* Se ha agregado nueva documentación, [Políticas de seguridad de contenido y el servicio de identidad de Experience Cloud](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), que explica cómo incluir en la lista de elementos permitidos las llamadas a dominios de Adobe usados por el servicio de identidad.
+* Se ha corregido un error relacionado con Chrome que hacía que el servicio de ID generara un error al hacer clic en el botón Atrás de ese explorador.
+* El servicio de ID ahora vuelve a activar la sincronización de ID cuando cambia el ID de región en la respuesta de llamada de evento.
+* Added new documentation, [Content Security Policies and the Experience Cloud Identity Service](/help/reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3), that explains how to whitelist calls to Adobe domains used by the ID service.
 
 ## Versión 2.4 {#section-f4d1608dd8894f558a92b82e83321200}
 
@@ -101,10 +101,10 @@ Julio de 2017
 
 **Correcciones de errores y otros cambios**
 
-* Se ha solucionado un error en VisitorAPI.js v2.2 que impedía que el servicio de ID y Target pudieran funcionar juntos en Internet Explorer.
-* Se ha revisado el código para mejorar el modo en que el servicio de ID envía datos al iFrame de Destination Publishing. Esto ayuda a reducir el uso de CPU.
+* Se ha corregido un error en VisitorAPI.js v2.2 que impedía que el servicio de ID y el Destinatario trabajaran juntos en Internet Explorer.
+* Se ha revisado el código para ayudar a mejorar la forma en que el servicio de ID envía datos al iframe de publicación de destino. Esto ayuda a reducir el uso de CPU.
 
-## Versión 2.2 {#section-b7dee2495c29470e9b3a3132ec1fd951}
+## Version 2.2 {#section-b7dee2495c29470e9b3a3132ec1fd951}
 
 Fecha de lanzamiento: Junio de 2017
 
@@ -118,7 +118,7 @@ Fecha de lanzamiento: Junio de 2017
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../library/function-vars/whitelistdomain.md#reference-999899ff7b5b429a8824c9db7a379808" format="dita" scope="local"> whitelistParentDomain y whitelistIframeDomains </a> </p> </td> 
-   <td colname="col2"> <p>Estas configuraciones permiten a diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal comunicarse las unas con las otras. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. </p> </td> 
+   <td colname="col2"> <p>Estas configuraciones permiten que diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal se comuniquen entre sí. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -188,11 +188,11 @@ Fecha de lanzamiento: Febrero de 2017
 
 **Correcciones**
 
-Se ha corregido un error que hacía que el servicio de ID realizara llamadas redundantes al servidor para un ID en lugar de utilizar el ID almacenado en la cookie AMCV. (MCID-296)
+Se ha corregido un error que hacía que el servicio de ID realizara llamadas redundantes al servidor para un ID en lugar de usar el ID almacenado en la cookie AMCV. (MCID-296)
 
 **Nueva documentación**
 
-[Uso de la precarga de DNS con diferentes soluciones y servicios de Experience Cloud `Learn how to use DNS prefetch to help reduce page load times.`](https://marketing.adobe.com/resources/help/en_US/mcloud/dns-prefetch.html)
+[Uso de la precarga de DNS con diferentes soluciones y servicios de Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/more-resources/dns-prefetch.html)
 
 ## Versión 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
@@ -204,9 +204,9 @@ Enero de 2017
 
 **Correcciones y mejoras**
 
-* Se ha corregido un error que impedía que AppMeasurement realice llamadas de seguimiento a Analytics. (MCID-254, MCID-256, MCID-286)
-* Se ha corregido un error que impedía que el servicio de ID falle de inmediato si una visitante había habilitado un bloqueador de anuncios y ese bloqueador estaba configurado para excluir el dominio demdex.net. Este es un error atípico y poco frecuente porque la mayoría de las herramientas de bloqueo de anuncios no bloquean el dominio demdex.net. (MCID-233)
-* Se ha corregido un error ocasionado por interacciones entre el código de servicio de ID y un script personalizado en el sitio web de un cliente. Este problema impedía que Internet Explorer 9 cargue páginas web. (MCID-206)
+* Se ha corregido un error que impedía que AppMeasurement realizara llamadas de seguimiento a Analytics. (MCID-254, MCID-256, MCID-286)
+* Se ha corregido un error que impedía que el servicio de ID fallara de inmediato si un visitante había habilitado un bloqueador de anuncios y ese bloqueador estaba configurado para excluir el dominio demdex.net. Se trata de un error poco frecuente e inusual porque la mayoría de las herramientas de bloqueo de publicidad no bloquean el dominio demdex.net. (MCID-233)
+* Se ha corregido un error debido a las interacciones entre el código de servicio de ID y un script personalizado en el sitio web de un cliente. Este problema impedía que Internet Explorer 9 cargara páginas web. (MCID-206)
 
 ## Años anteriores {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
