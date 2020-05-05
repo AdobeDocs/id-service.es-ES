@@ -1,12 +1,12 @@
 ---
 description: Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
 seo-title: Preguntas más frecuentes sobre el servicio de ID
 title: Preguntas más frecuentes sobre el servicio de ID
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
-translation-type: ht
-source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
+translation-type: tm+mt
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -23,11 +23,11 @@ Consulte la [Información general](../introduction/overview.md).
 
 **¿Por qué el servicio de ID no está realizando una llamada para recuperar el Experience Cloud ID?**
 
-Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de política de seguridad de contenido de su sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. Consulte [Políticas de seguridad del contenido y el servicio de Experience Cloud ID](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
+Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de las directivas de seguridad de contenido del sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. See [Content Security Policies and the Experience Cloud Identity Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
 
-**Almacenamiento del archivo VisitorAPI.js**
+**almacenamiento del archivo VisitorAPI.js**
 
-Puede experimentar problemas si aloja VisitorAPI.js como archivo local en aplicaciones móviles. Se recomienda alojar el archivo en un servidor web.
+Es posible que tenga problemas si aloja VisitorAPI.js como archivo local en aplicaciones móviles. Le recomendamos que aloje el archivo en un servidor web.
 
 ## Tiempos de carga de las páginas y latencia {#section-c78e148d8dbe4c77a436ef0f2af5434b}
 
@@ -35,55 +35,55 @@ Puede experimentar problemas si aloja VisitorAPI.js como archivo local en aplica
 
 Coloque la biblioteca VisitorAPI.js en la parte superior de la página en la `<head>` sección de su código. Esto le ayuda a garantizar que la llamada de un ID se emita antes de que el cuerpo de la página empiece a cargarse y que aumenten las posibilidades de que se devuelva un ID correctamente.
 
-La llamada de servicio de ID es asíncrona y es la única llamada al [dominio demdex.net](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
+The ID service call is asynchronous and is the only call to the [demdex.net domain](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
 
 En el caso de los [!DNL Target] clientes de, al colocar el código de servicio de ID en la etiqueta `<body>` de la página, pueden incrementar las probabilidades de que se bloquee una llamada de [!DNL Target]. Si debe colocar el código de servicio de ID en el cuerpo de la página, se debe colocar después de la etiqueta `<body>` de apertura.
 
-**¿Con cada carga de página, realiza el servicio de ID una llamada al servidor?**
+**¿Hace el servicio de ID una llamada al servidor con cada carga de página?**
 
-No, esta llamada solo se producirá la primera vez que se procese la página y, posteriormente, una vez cada 7 días. Mientras tanto, no se necesitarán las llamadas al servidor. El servicio de ID funciona en el modo del lado del cliente y no necesita realizar una llamada al servidor para devolver un ID.
+No, esta llamada solo se realizará la primera vez que la página se procese y una vez cada 7 días a partir de entonces. Mientras tanto, no se requieren llamadas al servidor. El servicio de ID funciona en modo de cliente y no necesita realizar una llamada al servidor para devolver un ID.
 
 Consulte [Información general](../introduction/overview.md).
 
-**Al utilizar el servicio de ID, ¿qué puede ralentizar los tiempos de carga de las páginas o repercutir en la experiencia del usuario?**
+**Al utilizar el servicio de ID, ¿qué puede causar tiempos de carga de página lentos o afectar a la experiencia del usuario?**
 
-Es difícil catalogar todas las condiciones posibles. Miles de millones de clientes consumidores se conectan a nuestros servicios, y la gran variedad de lugares y maneras que utilizan para conectarse repercuten en el rendimiento. Por ejemplo:
+Es difícil catalogar todas las condiciones posibles. Miles de millones de clientes de consumo se conectan a nuestros servicios y la gran variedad en dónde y cómo se conectan afectan el rendimiento. Por ejemplo:
 
-* Las velocidades varían enormemente en las redes móviles. Estas redes también se ven afectadas por la pérdida de señales y datos o paquetes de voz.
-* La conectividad también se ve afectada en los dispositivos que se conectan a través de WiFi en diferentes condiciones. Por ejemplo, la pérdida de paquetes y los problemas de velocidad son habituales en los lugares públicos, como las cafeterías o en otros entornos, como un avión, en el que los paquetes deben rebotar a través de un satélite antes de alcanzar las redes terrestres.
-* Las redes locales mal configuradas pueden influir negativamente en la conectividad y la velocidad.
-* Los dispositivos del cliente pueden tener sus propios problemas, como, por ejemplo, la poca memoria, los excesivos cambios de disco o la potencia limitada de la CPU con relación a las cargas de trabajo actuales.
-* Los navegadores ponen en cola y ejecutan las llamadas de los servidores remotos e incluso procesan las respuestas con reglas distintas, en función del fabricante y la versión del navegador. Este comportamiento influir en la velocidad y el rendimiento.
+* Las velocidades varían considerablemente en las redes móviles. Estas redes también sufren la pérdida de señales y datos o de paquetes de voz.
+* La conectividad sufre en los dispositivos que se conectan a través de WiFi en diversas condiciones. Por ejemplo, la pérdida de paquetes y los problemas de velocidad son comunes en lugares públicos como cafeterías o en otros entornos como aeronaves, donde los paquetes deben rebotar a través de un satélite antes de llegar a las redes terrestres.
+* Las redes locales mal configuradas pueden afectar negativamente a la conectividad y la velocidad.
+* Los dispositivos cliente pueden tener sus propios problemas, como memoria baja, exceso de intercambio de discos o potencia de CPU limitada en relación con las cargas de trabajo actuales.
+* Los navegadores ponen en cola y ejecutan llamadas al servidor remoto e incluso procesan las respuestas con reglas diferentes, según el fabricante y la versión del explorador. Este comportamiento afecta a la velocidad y al rendimiento.
 
-**¿Puede indicar algunas mejoras que haya realizado para acortar los tiempos de carga de las páginas?**
+**¿Puede nombrar algunas mejoras que ha realizado para reducir los tiempos de carga de las páginas?**
 
-Por ejemplo, la separación de procesos. En el caso de que se produzcan varias solicitudes de sincronización de ID, hemos introducido la separación de procesos. En los informes de laboratorio hemos observado que a los clientes que realizan varias sincronizaciones de ID se les bloquea la IU debido a que se produce una gran cantidad de computaciones continuas de CPU. En consecuencia, hemos introducido la separación de procesos para dividir las solicitudes de sincronización de ID en cada 100 ms cada una.
+Por ejemplo, la producción de subprocesos. Hemos introducido el rendimiento de subprocesos en caso de varias solicitudes de sincronización de ID. En los informes de laboratorio observamos que para los clientes que realizan varias sincronizaciones de ID, la interfaz de usuario se bloquearía debido a que suceden muchos cálculos de CPU continuos. Como resultado, hemos introducido el rendimiento de subprocesos para separar las solicitudes de sincronización de ID en 100 ms cada una.
 
-Este cambio mejora el rendimiento de los clientes que utilizan Visitor 2.3.0 o posterior y DIL 6.10 o posterior. Las mejoras de los tiempos de carga de las páginas se muestran en la imagen siguiente:
+Este cambio mejora el rendimiento de los clientes que utilizan Visitante 2.3.0 o posterior y DIL 6.10 o posterior. Las mejoras en los tiempos de carga de la página se muestran en la siguiente figura:
 
 ![](assets/id_sync_improvements_copy.png)
 
-**¿Las solicitudes de los navegadores que utilizan CORS en lugar de JSONP afectan al rendimiento de la página?**
+**¿Afectan las solicitudes de explorador que utilizan CORS y JSON-P al rendimiento de la página?**
 
-Las solicitudes de recursos con CORS generalmente son más preferibles que con JSONP. Gracias a JSONP, algunos navegadores ponen en cola y derogan la prioridad de las solicitudes relativas a otras llamadas síncronas y asíncronas en la página. CORS ayuda a garantizar que estas solicitudes sean tratadas con una prioridad mayor en la pila de llamadas del navegador.
+Las solicitudes de recursos con CORS son generalmente más preferibles que con JSONP. Con JSONP, algunos exploradores ponen en cola y desasignan prioridad las solicitudes en relación con otras llamadas sincrónicas y asincrónicas de la página. CORS ayuda a garantizar que estas solicitudes se traten con mayor prioridad en la pila de llamadas del explorador.
 
 Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 ## Seguridad {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
-**¿El servicio de ID es compatible con CORS?**
+**¿Admite el servicio de ID CORS?**
 
 Sí. Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **¿Qué es CORS?**
 
-*`Cross-Origin Resource Sharing`* o CORS, es un método que los navegadores utilizan para solicitar recursos. El servicio de ID siempre solicita recursos mediante CORS en los navegadores que lo admiten. El servicio de ID solicita recursos con JSONP en navegadores más antiguos que no admiten CORS. Consulte [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+*`Cross-Origin Resource Sharing`* o CORS, es un método que los navegadores utilizan para solicitar recursos. El servicio de ID siempre solicita recursos mediante CORS en navegadores que lo admiten. El servicio de ID solicita recursos con JSON-P en exploradores más antiguos que no admiten CORS. Consulte [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **¿Qué sucede si mis requisitos de seguridad son tan estrictos que nunca deseo usar JSONP?**
 
 Si tiene requisitos de seguridad estrictos, establezca la configuración de la API del servicio de ID `useCORSOnly: true`. Solo debe habilitar este modo si está seguro de que los visitantes del sitio utilizan navegadores compatibles con CORS.
 
-Consulte [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) y [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
+See [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) and [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
 
 >[!MORELIKETHIS]
 >
