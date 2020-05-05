@@ -1,24 +1,24 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
-keywords: Servicio de ID
-seo-description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
+description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, recomendamos encarecidamente que utilice la DTM para implementar el servicio de ID. La DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
+keywords: ID Service
+seo-description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, recomendamos encarecidamente que utilice la DTM para implementar el servicio de ID. La DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 seo-title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 uuid: d46050ae-87de-46cc-911b-d6346c7fd511
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
 
 # Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
-Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). No obstante, le recomendamos encarecidamente que utilice DTM para implementar el servicio de ID. DTM racionaliza el flujo de trabajo de implementación y garantiza la colocación y secuencia correcta del código automáticamente.
+Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, recomendamos encarecidamente que utilice la DTM para implementar el servicio de ID. La DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 
 >[!IMPORTANT]
 >
 >* [Lea los requisitos](../reference/requirements.md) antes de comenzar.
->* Este procedimiento requiere AppMeasurement. Los clientes que usen s_code no podrán completar este procedimiento.
+>* Este procedimiento requiere AppMeasurement. Los clientes que utilizan s_code no pueden completar este procedimiento.
 >* Configure y pruebe este código en un entorno de desarrollo antes de implementarlo en producción.
 >
 
@@ -26,13 +26,13 @@ Estas instrucciones están destinadas a los clientes de Analytics y Audience Man
 
 ## Paso 1: Planificación del reenvío del lado de servidor {#section-880797cc992d4755b29cada7b831f1fc}
 
-Además de los pasos descritos aquí, los clientes que usan [!DNL Analytics] y [!DNL Audience Manager] deben migrar al reenvío del lado de servidor. El reenvío del lado de servidor permite eliminar el código DIL (el código de recopilación de datos de Audience Manager) y sustituirlo por el [módulo Gestión de público](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html). Consulte la [documentación de reenvío del lado de servidor](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/ssf.html) para obtener más información.
+Además de los pasos descritos aquí, los clientes que usan [!DNL Analytics] y [!DNL Audience Manager] deben migrar al reenvío del lado de servidor. Server-side forwarding lets you remove DIL (Audience Manager&#39;s data collection code) and replace it with the [Audience Management Module](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html). See the [server-side forwarding documentation](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/server-side-forwarding/ssf.html) for more information.
 
-Migrar al reenvío del lado de servidor requiere planificación y coordinación. Este proceso conlleva realizar cambios externos en el código del sitio, así como determinados pasos internos que Adobe debe implementar para aprovisionar su cuenta. De hecho, muchos de estos procedimientos de migración han de suceder en paralelo e implementarse al mismo tiempo. Su ruta de implementación deberá seguir esta secuencia de eventos:
+La migración al reenvío de servidor requiere planificación y coordinación. Este proceso incluye cambios externos en el código del sitio y pasos internos que Adobe debe realizar para aprovisionar la cuenta. De hecho, muchos de estos procedimientos de migración deben realizarse en paralelo y ponerse en libertad juntos. La ruta de implementación debe seguir esta secuencia de eventos:
 
 1. Trabaje con sus contactos de [!DNL Analytics] y [!DNL Audience Manager] para planificar el servicio de ID y la migración de reenvío del lado de servidor. Haga que la selección de un servidor de seguimiento conforme una parte importante de este plan.
 
-1. Complete el formulario en el [sitio de aprovisionamiento e integraciones](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) para ponerse en marcha.
+1. Complete the form on the [integrations and provisioning site](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) to get started.
 
 1. Implementar el servicio de ID y el [!DNL Audience Management Module] simultáneamente. Para que funcione correctamente, el [!DNL Audience Management Module] módulo Gestión de audiencias (reenvío del lado de servidor) y el servicio de ID deben iniciarse para el mismo conjunto de páginas y de forma simultánea.
 
@@ -40,7 +40,7 @@ Migrar al reenvío del lado de servidor requiere planificación y coordinación.
 
 El servicio de ID requiere la `VisitorAPI.js` biblioteca de códigos. Para descargar esta biblioteca de códigos:
 
-1. Vaya a **[!UICONTROL Administración]** &gt; **[!UICONTROL Administrador de códigos]**.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
 1. En Administrador de códigos, haga clic en **[!UICONTROL JavaScript (nuevo)]** o **[!UICONTROL JavaScript (heredado)]**. Se descargarán las bibliotecas de códigos comprimidas.
 
@@ -50,13 +50,13 @@ El servicio de ID requiere la `VisitorAPI.js` biblioteca de códigos. Para desca
 
 >[!IMPORTANT]
 >
->* Las versiones anteriores de la API del servicio de ID ubicaban esta función en un lugar distinto y requerían una sintaxis diferente. Si va a migrar desde una versión anterior a la [versión 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), anote la nueva ubicación y la sintaxis documentadas aquí.
->* El código que aparece TODO EN MAYÚSCULAS funciona como marcador de posición para valores reales. Sustituya este texto por el ID de su organización, la URL del servidor de seguimiento u otro valor con nombre.
+>* Las versiones anteriores de la API de servicio de ID ubicaban esta función en una ubicación diferente y requerían una sintaxis diferente. Si va a realizar la migración desde una versión anterior a la [versión 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), tenga en cuenta la nueva ubicación y sintaxis documentadas aquí.
+>* El código en TODAS LAS MAYÚSCULAS es un marcador de posición para los valores reales. Reemplace este texto con el identificador de organización, la URL del servidor de seguimiento u otro valor con nombre.
 >
 
 
 
-**Parte 1: Copia de la función Visitor.getInstance a continuación**
+**Parte 1: Copie la función Visitante.getInstance a continuación**
 
 ```js
 var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE", { 
@@ -70,7 +70,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE",
 }); 
 ```
 
-**Parte 2: Adición del código de función al archivo VisitorAPI.js**
+**Parte 2: Añadir código de función al archivo API.js de Visitante**
 
 Coloque la `Visitor.getInstance` función al final del archivo, después del bloque de códigos. El archivo editado debería tener un aspecto similar a este:
 
@@ -116,13 +116,13 @@ Consulte sus archivos `s_code.js` o `AppMeasurement.js` para buscar las URL del 
 * `s.trackingServer`
 * `s.trackingServerSecure`
 
-**Parte 2: Establecimiento de variables del servidor de seguimiento**
+**Parte 2: Configuración de las variables del servidor de seguimiento**
 
-Para determinar las variables del servidor de seguimiento que se van a emplear:
+Para determinar qué variables de servidor de seguimiento utilizar:
 
-1. Responda las preguntas de la matriz de decisión siguiente. Use las variables que se correspondan con las respuestas.
-1. Sustituya los marcadores del servidor de seguimiento por las URL de su servidor de seguimiento.
-1. Elimine las variables del servidor de seguimiento y del servidor de Experience Cloud no utilizadas del código.
+1. Responda las preguntas de la matriz de decisión siguiente. Utilice las variables que correspondan a sus respuestas.
+1. Reemplace los marcadores de posición del servidor de seguimiento con las direcciones URL del servidor de seguimiento.
+1. Elimine del código las variables de servidor de seguimiento y de servidor de Experience Cloud que no se utilicen.
 
 ![](assets/tracking-server-matrix.png)
 
@@ -133,11 +133,11 @@ Para determinar las variables del servidor de seguimiento que se van a emplear:
 * URL del servidor de Experience Cloud = URL del servidor de seguimiento
 * URL segura del servidor de Experience Cloud = URL segura del servidor de seguimiento
 
-Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [Preguntas más frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#). 
+Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [preguntas frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
 
 ## Paso 6: Actualización del archivo AppMeasurement.js {#section-5517e94a09bc44dfb492ebca14b43048}
 
-Este paso requiere [!UICONTROL AppMeasurement]. No podrá continuar si aún utiliza s_code.
+This step requires [!UICONTROL AppMeasurement]. No podrá continuar si aún utiliza s_code.
 
 Añada la `Visitor.getInstance` función que se muestra a continuación a su `AppMeasurement.js`archivo. Colóquela en la misma sección que contenga configuraciones como `linkInternalFilters`, `charSet`, `trackDownloads`, etc.:
 
@@ -145,9 +145,9 @@ Añada la `Visitor.getInstance` función que se muestra a continuación a su `Ap
 
 >[!IMPORTANT]
 >
->En este punto deberá eliminar el código [!DNL Audience Manager] DIL de y sustituirlo por el módulo Gestión de audiencias. Consulte las instrucciones en [Implementar el reenvío del lado de servidor](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html).
+>En este punto deberá eliminar el código [!DNL Audience Manager] DIL de y sustituirlo por el módulo Gestión de audiencias. Consulte [Implementar reenvío](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/server-side-forwarding/ssf.html) del lado del servidor para obtener instrucciones.
 
-***(Opcional, pero recomendada)*Crear una variable prop personalizada****
+***(Opcional, pero recomendada)*Crear una variable prop personalizada ****
 
 Establezca una prop personalizada en `AppMeasurement.js` para medir la cobertura. Agregue esta variable prop personalizada a la `doPlugins` función de su `AppMeasurement.js` archivo:
 
@@ -165,19 +165,19 @@ Coloque el ` [!UICONTROL VisitorAPI.js]` archivo dentro de las etiquetas `<head>
 
 ## Paso 8: (Opcional) Configuración de un período de gracia {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). Los períodos de gracia pueden prolongarse hasta 180 días. Si es necesario, puede renovar un período de gracia.
+If any of these use cases apply to your situation, ask [Customer Care](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) to set up a temporary [grace period](../reference/analytics-reference/grace-period.md). Los períodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un período de gracia.
 
 **Implementación parcial**
 
-Necesita un período de gracia si hay páginas que usan el servicio de ID y otras no, y si todas envían su informe al mismo grupo de informes de Analytics. Esta suele ser la situación habitual cuando se tiene un grupo de informes global que reporta entre dominios.
+Necesita un período de gracia si tiene algunas páginas que utilizan el servicio de ID y otras que no lo hacen, y todas ellas informan en el mismo grupo de informes de Analytics. Esto es común si tiene un grupo de informes globales que informa entre dominios.
 
-Interrumpa el período de gracia una vez que se haya implementado el servicio de ID en todas las páginas web que reportan al mismo grupo de informes.
+Interrumpa el período de gracia después de implementar el servicio de ID en todas las páginas Web que informan en el mismo grupo de informes.
 
 **Requisitos de la cookie s_vi**
 
-Necesita un período de gracia si necesita que nuevos visitantes tengan una cookie s_vi después de migrar al servicio de ID. Esto es lo habitual si su implementación lee la cookie s_vi y la almacena en una variable.
+Necesita un período de gracia si necesita nuevos visitantes para tener una cookie s_vi después de migrar al servicio de ID. Esto es común si su implementación lee la cookie s_vi y la almacena en una variable.
 
-Interrumpa el período de gracia cuando su implementación pueda capturar el MID en lugar de leer la cookie s_vi.
+Interrumpa el período de gracia después de que la implementación pueda capturar el MID en lugar de leer la cookie s_vi.
 
 Consulte también la información relativa a las [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md).
 
@@ -187,7 +187,7 @@ Necesita un período de gracia si envía datos a un sistema interno desde una fu
 
 Interrumpa el periodo de gracia una vez que su proceso de consumo de datos pueda utilizar las columnas `post_visid_high` y `post_visid_low`.
 
-Consulte también [Referencia de columnas de datos del flujo de navegación](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_reference.html).
+Consulte también Referencia [](https://docs.adobe.com/content/help/es-ES/analytics/export/analytics-data-feed/data-feed-overview.html)de columnas de datos del flujo de navegación.
 
 ## Paso 9: Prueba e implementación del código de servicio de ID {#section-f857542bfc70496dbb9f318d6b3ae110}
 
@@ -198,17 +198,17 @@ Puede realizar pruebas e implementaciones de la siguiente manera.
 Para probar la implementación del servicio de ID, compruebe:
 
 * [La cookie de AMCV](../introduction/cookies.md) en el dominio en el que está alojada su página.
-* El valor MID en la solicitud de imagen de Analytics con la [herramienta de depuración de Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
+* Valor MID en la solicitud de imagen de Analytics con el depurador [de](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html)Adobe.
 * Consulte también [Comprobación y verificación del servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md).
 
-Para verificar el reenvío del lado del servidor, vea [Cómo verificar la implementación del reenvío del lado del servidor](https://marketing.adobe.com/resources/help/en_US/reference/ssf-verify.html)
+Para verificar el reenvío del lado del servidor, consulte [Cómo comprobar la implementación](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html)del reenvío del lado del servidor.
 
-**Implementación**
+**Implementar**
 
-Implementación del código una vez pasada la prueba.
+Implemente el código después de pasar la prueba.
 
-Si ha habilitado un período de gracia:
+Si habilitó un período de gracia:
 
-* Asegúrese de que el ID de Analytics (AID) y el MID estén en la solicitud de imagen.
+* Asegúrese de que el ID de Analytics (AID) y el MID están en la solicitud de imagen.
 * Recuerde deshabilitar el período de gracia cuando se cumplan los criterios para ello.
 
