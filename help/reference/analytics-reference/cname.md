@@ -6,7 +6,7 @@ seo-title: CNAME de recopilación de datos y seguimiento entre dominios
 title: CNAME de recopilación de datos y seguimiento entre dominios
 uuid: ba42c822-b677-4139-b1ed-4d98d3320fd0
 translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+source-git-commit: 9fe63cf3983a2ed6642837b02a3c3441ef745d70
 
 ---
 
@@ -31,19 +31,17 @@ Los clientes que tengan una sola propiedad web (un único dominio) pueden dejar 
 
 Sin embargo, el uso de un CNAME para la recopilación de datos ofrece una ventaja adicional, ya que permite rastrear visitantes entre un dominio de aterrizaje principal y otros dominios en exploradores que no aceptan cookies de terceros. Los clientes que tienen varias propiedades web (varios dominios) pueden beneficiarse de mantener un CNAME de recopilación de datos. En la siguiente sección se explica cómo funciona el seguimiento de visitantes entre dominios.
 
-## Cómo habilitan los registros CNAME el seguimiento entre dominios {#section-78925af798e24917b9abed79de290ad9}
+## Seguimiento cruzado de dominios {#section-78925af798e24917b9abed79de290ad9}
 
-Gracias al modo en que las cookies de origen pueden utilizarse en un contexto de terceros en Apple Safari y otros exploradores, un registro CNAME le permite hacer un seguimiento de los visitantes entre un dominio principal y otros dominios adicionales que hayan utilizado el mismo servidor de seguimiento.
+El servicio de ID de visitante utiliza demdex.net como su dominio para rastrear visitantes entre dominios (pero dentro de la misma compañía propietaria) si la configuración de privacidad y explorador del usuario lo permite.
 
-Por ejemplo, supongamos que tiene un sitio principal en `mymainsite.com`. Ha configurado el registro CNAME para que señale a su servidor de recopilación de datos seguro: `smetrics.mymainsite.com`.
+Un CNAME no proporciona beneficios adicionales entre dominios. Por ejemplo, supongamos que tiene un sitio principal en `mymainsite.com`. Ha configurado el registro CNAME para que señale a su servidor de recopilación de datos seguro: `smetrics.mymainsite.com`.
 
 Cuando un usuario visite `mymainsite.com`, el servidor de recopilación de datos establecerá la cookie del servicio de ID. Esto se debe a que el dominio de este servidor coincide con el del sitio web. En esta situación se habla de usar una cookie en un *contexto propio*, o simplemente una *cookie de origen*.
 
-Si también usa estos mismos servidores de recopilación de datos en otros sitios (por ejemplo, `myothersiteA.com` y `myothersiteB.com`) y un visitante accede a estos sitios posteriormente, la cookie que se estableció durante la visita a `mymainsite.com` se enviará en la solicitud HTTPS al servidor de recopilación de datos (recuerde que los exploradores envían todas las cookies correspondientes a un dominio con todas las solicitudes HTTPS para dicho dominio, incluso si este no coincide con el dominio del sitio web actual). A este hecho se le denomina usar una cookie en un *contexto de terceros* o *cookie de terceros* y permite usar una misma ID de visitante en estos otros dominios. Tenga en cuenta que los exploradores administran cookies en contextos de terceros de manera diferente a las cookies de origen.
+Si también usa estos mismos servidores de recopilación de datos en otros sitios (por ejemplo, `myothersiteA.com` y `myothersiteB.com`) y un visitante accede a estos sitios posteriormente, la cookie que se estableció durante la visita a `mymainsite.com` se enviará en la solicitud HTTPS al servidor de recopilación de datos (recuerde que los exploradores envían todas las cookies correspondientes a un dominio con todas las solicitudes HTTPS para dicho dominio, incluso si este no coincide con el dominio del sitio web actual). Esto es lo que se conoce como el uso de una cookie en un contexto *de* terceros, o simplemente una cookie *de* terceros, aunque esté utilizando un CNAME. Adobe recomienda un CNAME para cada dominio único.
 
 *Nota: Safari bloquea todas las cookies en el contexto de terceros independientemente de su configuración.*
-
-En consecuencia, el dominio de recopilación debe ser un dominio al que los visitantes accedan con frecuencia para posibilitar la identificación de estos en los distintos dominios. Si no existe ningún dominio *común* que pueda usarse como dominio de recopilación de datos, no supondrá ninguna ventaja mantener un CNAME para el dominio de recopilación de datos. Si el sitio de entrada principal no se visita en primer lugar, los visitantes se identifican de forma distinta en el sitio secundario y en el sitio principal.
 
 ## Habilitación de la compatibilidad con CNAME con el servicio Experience Cloud ID {#section-25d4feb686d944e3a877d7aad8dbdf9a}
 
