@@ -1,12 +1,12 @@
 ---
 description: Se trata de una API asíncrona que devuelve identificadores para Analytics, el servicio de ID, la exclusión de la recopilación de datos, la ubicación geográfica y el contenido “blob” de metadatos de forma predeterminada. Además, se puede controlar cuáles son los ID que desea que se devuelvan con la enumeración opcional visitor.FIELDS.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Se trata de una API asíncrona que devuelve identificadores para Analytics, el servicio de ID, la exclusión de la recopilación de datos, la ubicación geográfica y el contenido “blob” de metadatos de forma predeterminada. Además, se puede controlar cuáles son los ID que desea que se devuelvan con la enumeración opcional visitor.FIELDS.
 seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
 translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -37,7 +37,7 @@ Consulte los casos de uso y definiciones siguientes para obtener más informaci�
 
 ## Caso de uso 1: Solicitar el conjunto de datos predeterminado {#section-36a31683558742a5915db3a391e09f7b}
 
-Este código devuelve el conjunto de datos estándar. Su solicitud y respuesta pueden tener un aspecto similar al de los ejemplos siguientes.
+Este código devuelve el conjunto de datos estándar. La solicitud y la respuesta podrían ser similares a los ejemplos siguientes.
 
 ```js
 //Call the ID service 
@@ -47,7 +47,7 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
 visitor.getVisitorValues(visitorIdsCallback);
 ```
 
-En la respuesta de ejemplo predeterminada, se han acortado algunos valores para realizar la demostración.
+En la respuesta de muestra predeterminada, algunos valores se han abreviado con fines de demostración.
 
 ```js
 //Formatted IDs in JSON response 
@@ -62,7 +62,7 @@ En la respuesta de ejemplo predeterminada, se han acortado algunos valores para 
 
 ## Caso de uso 2: Solicitar un conjunto de datos personalizado {#section-467b2f4e513344c89b7332b05f6f59f3}
 
-Este código utiliza una matriz opcional para devolver un conjunto de ID específico mediante la `visitor.FIELDS` enumeración. En este caso, solo queremos el Experience Cloud ID (MCID) y el ID de Analytics (MCAID). Su solicitud y respuesta pueden tener un aspecto similar al de los ejemplos siguientes.
+Este código utiliza una matriz opcional para devolver un conjunto de ID específico mediante la `visitor.FIELDS` enumeración. En este caso, solo queremos el Experience Cloud ID (MCID) y el ID de Analytics (MCAID). La solicitud y la respuesta podrían ser similares a los ejemplos siguientes.
 
 ```js
 //Call the ID service 
@@ -84,7 +84,7 @@ La respuesta de ejemplo personalizada devuelve solo los ID especificados en la s
 
 ## Parámetros de respuesta definidos {#section-4c4c300167694c6fbff1d6c612f372b5}
 
-La tabla que se muestra a continuación enumera y define los parámetros de respuesta. Estos son también todos los valores de la `visitor.FIELDS` enumeración. Observe que este método devuelve una cadena vacía si no hay valores para una variable en concreto.
+La tabla que se muestra a continuación enumera y define los parámetros de respuesta. Estos son también todos los valores de la `visitor.FIELDS` enumeración. Tenga en cuenta que este método devuelve una cadena vacía si no hay valores para una variable en particular.
 
 <table id="table_32D0FEEA76CE4F298EED4B8F5C644232"> 
  <thead> 
@@ -100,7 +100,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>El ID de región de recopilación de datos. Se trata de un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID concreto. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/aam/dcs-regions.html" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host) y <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local">getLocationHint.</a> </p> </td> 
+   <td colname="col2"> <p>ID de región de recopilación de datos. Es un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID en particular. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host) y <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local">getLocationHint.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
@@ -112,7 +112,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
-   <td colname="col2"> <p>Un indicador que indica si un visitante se ha excluido de la recopilación de datos. </p> <p>Los valores incluyen: </p> <p> 
+   <td colname="col2"> <p>Un indicador que indica si un visitante ha exclusión de la recopilación de datos. </p> <p>Los valores incluyen: </p> <p> 
      <ul id="ul_E82431DE12B449F8822499364B363798"> 
       <li id="li_2BAB7C15A38A408E8FC4B85E70B66E46"> <span class="codeph"> 'isoptedout-true'</span>: un visitante ha excluido la recopilación de datos. </li> 
       <li id="li_BB80AE4CEBC44166BC04428B212FEF51"> <span class="codeph"> 'isoptedout-false'</span>: un visitante no ha excluido la recopilación de datos. </li> 
