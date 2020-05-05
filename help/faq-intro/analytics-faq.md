@@ -1,12 +1,12 @@
 ---
 description: Las preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de identidad de Experience Cloud.
-keywords: Servicio de Experience Cloud ID
+keywords: Experience Cloud Identity Service
 seo-description: Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
 seo-title: Preguntas frecuentes sobre el servicio de ID y Analytics
 title: Preguntas frecuentes sobre el servicio de ID y Analytics
 uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
-translation-type: ht
-source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
+translation-type: tm+mt
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
@@ -17,13 +17,13 @@ Preguntas frecuentes sobre las características, la funcionalidad y los problema
 
 ## Servidores de seguimiento {#section-9a2ad7842e364c869e1650480d17f8ef}
 
-**¿Cómo encuentro la información sobre mi servidor de seguimiento?**
+**¿Cómo encuentro la información del servidor de seguimiento?**
 
-Cada fragmento de código de AppMeasurement configurado adecuadamente contiene la información sobre su servidor de seguimiento.
+Cada parte del código de AppMeasurement configurada correctamente contiene la información del servidor de seguimiento.
 
-Sin embargo, a veces, los clientes pueden dividir su archivo de Analytics AppMeasurement en archivos independientes. Por ejemplo, algunos clientes pueden colocar las variables de configuración en un archivo, utilizar un segundo archivo para complementos y luego colocar el código AppMeasurement en un tercer archivo. Esto no se recomienda.
+Sin embargo, a veces los clientes pueden dividir su archivo de AppMeasurement de Analytics en archivos independientes. Por ejemplo, algunos clientes pueden colocar variables de configuración en un archivo, utilizar un segundo archivo para complementos y luego colocar el código de AppMeasurement en un tercer archivo. No se recomienda.
 
-Si no puede encontrar la información sobre su servidor de seguimiento, puede que la instancia de Analytics no esté configurada adecuadamente. Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) si no puede encontrar la información sobre su servidor de seguimiento.
+Si no encuentra la información del servidor de seguimiento, es posible que la instancia de Analytics no esté configurada correctamente. Póngase en contacto con [el Servicio de atención](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) al cliente si no encuentra la información del servidor de seguimiento.
 
 **¿Qué ocurre si utilizo el servicio de identidad y cambio mi servidor de seguimiento?**
 
@@ -31,13 +31,13 @@ Cuando el servicio de identidad haya identificado a los usuarios, no cambiará n
 
 ## Implementación y configuración {#section-6028f55d5b514ae6a631c6a79f42fb89}
 
-**¿Es necesario configurar un CNAME para hacer un seguimiento de los visitantes en los distintos dominios?**
+**¿Tengo que configurar un CNAME para rastrear visitantes entre dominios?**
 
-Si tiene un sitio de entrada principal en el que se puede identificar a los clientes antes de que visiten otros dominios, un registro CNAME puede habilitar el seguimiento entre dominios en aquellos navegadores que no acepten cookies de terceros (como Safari).
+Si tiene un sitio de entrada principal en el que se puede identificar a los clientes antes de que visiten otros dominios, un CNAME puede habilitar el seguimiento entre dominios en exploradores que no aceptan cookies de terceros (como Safari).
 
-En los navegadores que aceptan cookies de terceros, se establece una cookie en el [dominio demdex.net](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.translate.html) durante la solicitud de recuperación de un ID de visitante. Esta cookie permite que el servicio de identidad de visitante devuelva el mismo ID de visitante de Experience Cloud en todos los dominios que se hayan configurado con el mismo ID de organización. En los navegadores que no aceptan cookies de terceros, se asigna un nuevo ID de visitante de Experience Cloud en cada dominio.
+In browsers that accept third-party cookies, a cookie is set in the [demdex.net domain](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html) during the request to retrieve a visitor ID. Esta cookie permite que el servicio de identidad de visitante devuelva el mismo ID de visitante de Experience Cloud en todos los dominios que se hayan configurado con el mismo ID de organización. En los exploradores que rechazan cookies de terceros, se asigna un nuevo ID de visitante de Experience Cloud para cada dominio.
 
-Incluso aunque se configure un CNAME, si el sitio de entrada principal no se visita en primer lugar, los visitantes se identifican de forma distinta en el sitio secundario y en el principal si se usa un navegador que no acepta cookies de terceros.
+Incluso cuando se configura un CNAME, si el sitio de entrada principal no se visita primero, los visitantes se identifican de forma diferente en el sitio secundario y en el principal en los exploradores que no aceptan cookies de terceros.
 
 **¿Por qué el parámetro de Experience Cloud ID (MID) no está presente en la solicitud de Analytics?**
 
@@ -45,17 +45,17 @@ Si el servicio de identidad devuelve la información correctamente pero no encue
 
 **¿Puede mi sitio usar un código H y AppMeasurement para JavaScript con el servicio de identidad?**
 
-Sí. Siempre y cuando ambos archivos hagan referencia al mismo archivo VisitorAPI.js, se puede usar la combinación de código H y AppMeasurement para JavaScript en el sitio.
+Sí. Siempre que ambos archivos hagan referencia al mismo archivo VisitorAPI.js, puede utilizar una combinación de código H y AppMeasurement para JavaScript en el sitio.
 
-No obstante, el código H no es compatible con el código visitorAPI.js versión 1.6 o posterior. Si desea actualizar a visitorAPI.js v 1.6 (o posterior), no podrá seguir utilizando el código H.
+Sin embargo, el código H no es compatible con el código visitorAPI.js versión 1.6 o posterior. Si desea actualizar a visitorAPI.js v 1.6 (o posterior), no podrá seguir utilizando el código H.
 
-**¿Qué es un período de gracia y cómo lo configuro?**
+**¿Qué es un período de gracia y cómo puedo configurarlo?**
 
 Consulte [Período de gracia de servicio de identidad](../reference/analytics-reference/grace-period.md) y póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
 
 **¿Por qué necesito migrar a la recopilación de datos en tiempo real (RDC) para utilizar el servicio de identidad?**
 
-RDC suma ventajas de rendimiento globales y es indispensable para garantizar que la implementación esté preparada para admitir funciones futuras que mejorarán la red global de características avanzadas de Adobe. Consulte [Requisitos de Analytics: recopilación de datos regionales (RDC)](../reference/requirements.md#section-7d04bb013bc84a25bae3b148bc0ca25f).
+RDC añade ventajas de rendimiento globales y es necesario para asegurarse de que la implementación está lista para las próximas funciones que aprovechan la red global de notas avanzadas de Adobe. See [Analytics Requirements: Regional Data Collection (RDC)](../reference/requirements.md#section-7d04bb013bc84a25bae3b148bc0ca25f).
 
 ## Informes {#section-123cd55a32e54a45a23beb140becfa8f}
 
@@ -63,22 +63,22 @@ RDC suma ventajas de rendimiento globales y es indispensable para garantizar que
 
 Entre las causas comunes de discrepancias a la hora de usar el servicio de identidad encontramos:
 
-* Uso continuado de la cookie s_vi heredada. Esto contribuye a producir discrepancias en la recopilación de datos.
-* Recuento doble de los visitantes cuando estos se desplazan de una encuesta a una ventana emergente.
+* Uso continuo de la cookie s_vi heredada. Esto contribuye a producir discrepancias en la recopilación de datos.
+* visitantes de recuento de Dobles cuando navegan de una encuesta a una ventana emergente.
 
 ## Cookies {#section-b7d5384fbedd47b09e1030211c39a3d1}
 
 **¿Qué sucede en Analytics cuando el servicio de identidad no puede establecer la cookie AMCV?**
 
-Hay tres posibles escenarios en los que esto repercute en los datos de Analytics para los visitantes nuevos:
+Existen tres escenarios posibles en los que esto afecta a los datos de Analytics para nuevos visitantes:
 
-1. Un usuario final abandona una página antes de que la cookie AMCV se establezca correctamente (antes de que se agote el intervalo de tiempo de espera de 30 segundos).
+1. Un usuario final abandona una página antes de que las cookies AMCV se configuren correctamente (dentro de la ventana de tiempo de espera de 30 segundos).
 
-   Si un visitante abandona una página antes de que se acabe de cargar, no se enviará la visita de Analytics. Analytics no recibirá los datos de este escenario y consideraría que estos se han perdido debido a un cierre anticipado de la página. Según las pruebas que realizamos, en las que se incluían geografías alejadas, descubrimos que este escenario representaba menos de un 1 % de la cantidad promedio de tráfico. Es importante indicar que este escenario se produce, a veces, incluso sin la presencia del servicio MCID; se trata de un efecto visual por la inclusión del código de recopilación de datos de Analytics que aparece en la parte inferior de la página.
+   Si un visitante abandona una página antes de que termine de cargarse, la visita de Analytics no se envía. Analytics no recibirá datos de este escenario y considerará que los datos se han perdido debido al cierre anticipado de la página. Basándonos en nuestras pruebas, que incluían geografías alejadas, descubrimos que este escenario representaba menos del 1% del tráfico en promedio. Es importante indicar que este escenario se produce, a veces, incluso sin la presencia del servicio MCID; se trata de un efecto visual por la inclusión del código de recopilación de datos de Analytics que aparece en la parte inferior de la página.
 
 1. No se ha asignado un servicio de identidad ni un ID de Analytics al usuario final durante el segundo intervalo de tiempo espera de 30 segundos debido a la lentitud de las conexiones o a que el navegador no termina de cargarse.
 
-   No se establecería ni el servicio de identidad ni el ID de Analytics y se asignaría un ID del lado del cliente al visitante. Si bien esto permite capturar los datos de Analytics, se interrumpirá el perfil del visitante cuando se establezca un ID de Analytics en una página posterior. El ID del lado del cliente tampoco coincidirá con ningún perfil de visitante existente almacenado en Audience Manager o Analytics. Este ID del lado del cliente también se mostrará como dos visitantes diferentes en Analytics en el caso de que se envíen dos dominios separados en el mismo grupo de informes.
+   No se establecería ni el servicio de identidad ni el ID de Analytics y se asignaría un ID del lado del cliente al visitante. Aunque esto permite capturar datos de Analytics, el perfil del visitante se interrumpirá cuando se establezca un ID de Analytics en una página posterior. El ID del lado del cliente tampoco coincidirá con ningún perfil de visitante existente almacenado en el Administrador de Audiencias o Analytics. Este ID de cliente también aparecerá como dos visitantes diferentes en Analytics si se envían dos dominios independientes al mismo grupo de informes.
 
 1. No se asigna un ID de servicio de identidad a un usuario final durante el intervalo de tiempo de espera de 30 segundos, pero se le asigna un ID de seguimiento de Analytics y no se habilita el período de gracia.
 
