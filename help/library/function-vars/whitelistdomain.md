@@ -1,19 +1,19 @@
 ---
-description: Estas configuraciones permiten a diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal comunicarse las unas con las otras. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Estas están disponibles en la versión 2.2 del código de VisitorAPI.js y en las posteriores.
-keywords: Servicio de ID
-seo-description: Estas configuraciones permiten a diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal comunicarse las unas con las otras. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Estas están disponibles en la versión 2.2 del código de VisitorAPI.js y en las posteriores.
+description: Estas configuraciones permiten que diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal se comuniquen entre sí. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Están disponibles en la versión 2.2 o posterior del código de VisitorAPI.js.
+keywords: ID Service
+seo-description: Estas configuraciones permiten que diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal se comuniquen entre sí. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Están disponibles en la versión 2.2 o posterior del código de VisitorAPI.js.
 seo-title: whitelistParentDomain y whitelistIframeDomains
 title: whitelistParentDomain y whitelistIframeDomains
 uuid: 6b66a4d0-fea2-4d98-963e-0c4f4ab1efb6
 translation-type: tm+mt
-source-git-commit: f7f23d89649a888f5e9d8c94526b550fbda7045b
+source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 ---
 
 
 # whitelistParentDomain y whitelistIframeDomains{#whitelistparentdomain-and-whitelistiframedomains}
 
-Estas configuraciones permiten a diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal comunicarse las unas con las otras. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Estas están disponibles en la versión 2.2 del código de VisitorAPI.js y en las posteriores.
+Estas configuraciones permiten que diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal se comuniquen entre sí. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Están disponibles en la versión 2.2 o posterior del código de VisitorAPI.js.
 
 Contenido:
 
@@ -27,7 +27,7 @@ Contenido:
 
 ## Sintaxis {#section-f645198bbaba4fba8961acb6e88d1470}
 
-Se utilizan los dos elementos de configuración cuando utiliza este código.
+Ambos elementos de configuración son obligatorios cuando se utiliza este código.
 
 <table id="table_237108A4D40F4AAC981D0060BA68F881"> 
  <thead> 
@@ -66,80 +66,80 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
 
 ## Casos de uso {#section-fc2eeb93546b406fae3b102dbcd11de7}
 
-Estas configuraciones ayudan a resolver el problema de establecer una cookie de servicio de ID y asignar un ID de visitante cuando los navegadores bloquean cookies de terceros, y si se aplican una de estas condiciones:
+Estas configuraciones ayudan a resolver el problema de configurar una cookie de servicio de ID y asignar un ID de visitante cuando los exploradores bloquean cookies de terceros y si se aplican cualquiera de estas condiciones:
 
-* Controla o no controla la página/dominio principal.
-* El código de servicio de ID no está instalado en la página principal, sino que está implementado en un iFrame.
+* Usted controla o no la página/dominio principal.
+* El código de servicio de ID no está instalado en la página principal, pero se implementa en un iFrame.
 
 >[!TIP]
 >
->You may also want to implement these configurations when you're serving video in an iFrame with [Video Heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/). Video Heartbeat necesita un servicio de ID (el MID) para funcionar correctamente.
+>You may also want to implement these configurations when you&#39;re serving video in an iFrame with [Video Heartbeat](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html). Video Heartbeat necesita un ID de servicio de ID (el MID) para funcionar correctamente.
 
-**Caso de uso 1: El navegador bloquea cookies de terceros y el servicio de ID se implementa en el iFrame y la página principal**
+**Caso de uso 1: El explorador bloquea las cookies de terceros y el servicio de ID se implementa en la página principal y en el iFrame**
 
 <table id="table_B479AA96DBE64685A253A6DF98D81B31"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Elemento de caso de uso </th> 
+   <th colname="col1" class="entry"> Elemento Caso de uso </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Condiciones</b> </p> </td> 
-   <td colname="col2"> <p>Este caso de uso incluye las condiciones siguientes: </p> <p> 
+   <td colname="col2"> <p>Este caso de uso incluye las siguientes condiciones: </p> <p> 
      <ul id="ul_DC748846585745B0AB74398D82BDA53A"> 
-      <li id="li_6E04CF0B6A204B4D8856656B0C9EF2A5">La empresa A implementa el servicio de ID en su página de inicio. </li> 
-      <li id="li_B53AE0F0C69844E7B6C4D3464C57883B">La empresa A implementa el servicio de ID en iFrame en su página de inicio. </li> 
-      <li id="li_07E0A6D7BEB140E4B9FB6C7B9629B860">La empresa A es propietaria de la página principal y el iFrame ha implementado el servicio de ID en ambos lados. </li> 
-      <li id="li_76967BD69DDB40A8A9C915DADC58AC62">Un cliente carga la página principal en un navegador que bloquea cookies de terceros. </li> 
+      <li id="li_6E04CF0B6A204B4D8856656B0C9EF2A5">Compañía A implementa el servicio de ID en su página de inicio. </li> 
+      <li id="li_B53AE0F0C69844E7B6C4D3464C57883B">Compañía A implementa el servicio de ID en iFrame en su página de inicio. </li> 
+      <li id="li_07E0A6D7BEB140E4B9FB6C7B9629B860">La Compañía A posee la página principal y el iFrame y ha implementado el servicio de ID en ambos lugares. </li> 
+      <li id="li_76967BD69DDB40A8A9C915DADC58AC62">Un cliente carga la página principal en un explorador que bloquea las cookies de terceros. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
    <td colname="col2"> <p>Dadas estas condiciones, el servicio de ID: </p> <p> 
      <ul id="ul_12356701501E40DFA57903494FFE58F7"> 
-      <li id="li_B57EDF1B0762486F95FA6526C047390C">Funciona correctamente en la página principal. Solicita y establece la cookie AMCV y asigna un ID único al visitante del sitio. </li> 
-      <li id="li_BA9F42C759E747EAAE14DD3FBB6130A5">No funciona en el iFrame. Esto se debe a que el navegador ve el iFrame como un dominio de terceros e impide que el servicio de ID establezca la cookie AMCV. </li> 
+      <li id="li_B57EDF1B0762486F95FA6526C047390C">Funciona correctamente en la página principal. Solicita y establece la cookie AMCV y asigna una ID única al visitante del sitio. </li> 
+      <li id="li_BA9F42C759E747EAAE14DD3FBB6130A5">No funciona en el iFrame. Esto se debe a que el explorador ve el iFrame como un dominio de terceros y evita que el servicio de ID configure la cookie AMCV. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solución</b> </p> </td> 
-   <td colname="col2"> <p>Modifique la función <span class="codeph">Visitor.getInstance</span> del servicio de ID en el iFrame con estas configuraciones de listas de elementos permitidos. Especifique los dominios principal y secundario en el código. Estas configuraciones permiten al código de servicio de ID del iFrame comprobar el código de servicio de ID en la página principal para un ID de visitante. </p> <p>Si el código de servicio de ID en el iFrame no recibe una página principal de respuesta, estas configuraciones generan un ID de visitante local. </p> </td> 
+   <td colname="col2"> <p>Modifique la función <span class="codeph">Visitor.getInstance</span> del servicio de ID en el iFrame con estas configuraciones de listas de elementos permitidos. Especifique los dominios principal y secundario en el código. Estas configuraciones permiten que el código de servicio de ID en el iFrame compruebe el código de servicio de ID en la página principal para obtener un ID de visitante. </p> <p>Si el código de servicio de ID del iFrame no recibe una página principal de respuesta, estas configuraciones generan un ID de visitante local. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Caso de uso 2: Solicitar un ID de un iFrame integrado en una página principal que usted no controla o que no utiliza el servicio de ID**
+**Caso de uso 2: Solicitud de un ID desde un iFrame incrustado en una página principal que no controla o que no utiliza el servicio de ID**
 
 <table id="table_1F21710F9D5F493BA6BA5974F2966DF4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Elemento de caso de uso </th> 
+   <th colname="col1" class="entry"> Elemento Caso de uso </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Condiciones</b> </p> </td> 
-   <td colname="col2"> <p>Este caso de uso incluye las condiciones siguientes: </p> <p> 
+   <td colname="col2"> <p>Este caso de uso incluye las siguientes condiciones: </p> <p> 
      <ul id="ul_356E8FB0B1D14F46A844FE5281967E28"> 
-      <li id="li_1285D945361842268B46FB492A3B5AA5">La empresa A no utiliza el servicio de ID. </li> 
-      <li id="li_880D6D473F8342FF9BB49FCE111FD61A">La empresa A carga un iFrame en la página. Este iFrame pertenece a la empresa B y se carga en un dominio aparte que no pertenece a la empresa A. </li> 
-      <li id="li_7988F0272B094FE0B398006AD4E6F81B">El navegador bloquea las cookies de terceros. </li> 
+      <li id="li_1285D945361842268B46FB492A3B5AA5">La Compañía A no utiliza el servicio de ID. </li> 
+      <li id="li_880D6D473F8342FF9BB49FCE111FD61A">La Compañía A carga un iFrame en la página. Este iFrame es propiedad de la Compañía B y se carga en un dominio independiente al de la Compañía A. </li> 
+      <li id="li_7988F0272B094FE0B398006AD4E6F81B">El explorador bloquea las cookies de terceros. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
    <td colname="col2"> <p>Dadas estas condiciones, el servicio de ID: </p> <p> 
      <ul id="ul_A92D90896E5A42C5804AC5CE83E8EB25"> 
-      <li id="li_9734EA9C5D9D4F908DE783188C9E5530">No funciona en el iFrame. Esto se debe a que el navegador ve el iFrame como un dominio de terceros e impide que el servicio de ID establezca la cookie AMCV. </li> 
-      <li id="li_3F4BE9048E774902A867D67E5A80674D">No puede obtener un ID de visitante de la página principal porque la empresa A no utiliza este servicio. </li> 
+      <li id="li_9734EA9C5D9D4F908DE783188C9E5530">No funciona en el iFrame. Esto se debe a que el explorador ve el iFrame como un dominio de terceros y evita que el servicio de ID configure la cookie AMCV. </li> 
+      <li id="li_3F4BE9048E774902A867D67E5A80674D">No se puede obtener un ID de visitante de la página principal porque la Compañía A no utiliza este servicio. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Solución</b> </p> </td> 
-   <td colname="col2"> <p>Modifique la función <span class="codeph">Visitor.getInstance</span> del servicio de ID en el iFrame con estas configuraciones de listas de elementos permitidos. Especifique los dominios principal y secundario en el código. Estas configuraciones permiten al código de servicio de ID del iFrame comprobar el código de servicio de ID en la página principal para un ID de visitante. </p> <p>Si el código de servicio de ID en el iFrame no recibe una página principal de respuesta, estas configuraciones generan un ID de visitante local. </p> </td> 
+   <td colname="col2"> <p>Modifique la función <span class="codeph">Visitor.getInstance</span> del servicio de ID en el iFrame con estas configuraciones de listas de elementos permitidos. Especifique los dominios principal y secundario en el código. Estas configuraciones permiten que el código de servicio de ID en el iFrame compruebe el código de servicio de ID en la página principal para obtener un ID de visitante. </p> <p>Si el código de servicio de ID del iFrame no recibe una página principal de respuesta, estas configuraciones generan un ID de visitante local. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,19 +148,19 @@ Estas configuraciones ayudan a resolver el problema de establecer una cookie de 
 
 Puede implementar estas configuraciones de forma segura porque:
 
-* El servicio de ID implementado en el dominio principal y el dominio de iFrame deben utilizar el mismo ID de organización. Estas configuraciones de lista de elementos permitidos no funcionarán cuando los ID de organización de la página principal o del iFrame son diferentes.
+* El servicio de ID implementado en el dominio principal y el dominio iFrame deben utilizar el mismo ID de organización. Estas configuraciones de lista blanca no funcionarán cuando los ID de organización del elemento principal o del iFrame sean diferentes.
 * Estas configuraciones solo se comunican con el dominio y los iFrames especificados en el código.
-* La comunicación entre el iFrame y la página principal sigue un formato específico. Si el servicio de ID de la página principal no recibe una solicitud en el formato previsto, no se podrá realizar este proceso de uso compartido.
+* La comunicación entre el iFrame y la página principal sigue un formato específico. Si el servicio de ID de la página principal no recibe una solicitud en el formato esperado, este proceso de uso compartido fallará.
 
 ## Métodos de API de visitante compatibles {#section-30c6a9f4dcdc4265a1149260b97cc057}
 
-El servicio de ID admite un conjunto limitado de métodos API públicos cuando implementa estas configuraciones de listas de elementos permitidos. Los métodos admitidos varían en función de los escenarios de casos de uso descritos anteriormente.
+El servicio de ID admite un conjunto limitado de métodos API públicos al implementar estas configuraciones de lista blanca. Los métodos admitidos varían según los casos de uso descritos anteriormente.
 
 <table id="table_0FF9E529FD1C43A8A3B2B0D789C8E83C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Caso de uso </th> 
-   <th colname="col2" class="entry"> Métodos compatibles </th> 
+   <th colname="col2" class="entry"> Métodos admitidos </th> 
   </tr> 
  </thead>
  <tbody> 
