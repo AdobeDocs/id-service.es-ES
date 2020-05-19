@@ -5,13 +5,16 @@ seo-description: Tras implementar el servicio de ID de visitante, hay cinco mane
 seo-title: Orden de operaciones para los ID de Analytics
 title: Orden de operaciones para los ID de Analytics
 uuid: cb1d136e-093f-43b0-a7e1-96f1e61fdad0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '329'
+ht-degree: 100%
 
 ---
 
 
-# Orden de operaciones para los ID de Analytics{#order-of-operations-for-analytics-ids}
+# Orden de operaciones para los ID de Analytics {#order-of-operations-for-analytics-ids}
 
 Tras implementar el servicio de ID de visitante, hay cinco maneras de identificar a los visitantes en Analytics.
 
@@ -21,19 +24,19 @@ En muchos escenarios, es posible que vea dos o tres ID distintos en una llamada,
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Pedido utilizado </th> 
-   <th colname="col2" class="entry"> Parámetro de Consulta (método de recopilación) </th> 
+   <th colname="col2" class="entry"> Parámetro de consulta (método de recopilación) </th> 
    <th colname="col3" class="entry"> Presente cuando </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>1<sup>st</sup></b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/visitorid.html" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
+   <td colname="col1"> <p> <b>1<sup>º</sup></b> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/visitorid.html" format="http" scope="external"> vid (s.visitorID)</a> </p> </td> 
    <td colname="col3"> <p><span class="codeph">s.visitorID</span> se ha establecido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2.<sup>o</sup></b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html" format="http" scope="external"> aid (cookie s_vi)</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html" format="http" scope="external"> aid (cookie s_vi)</a> </p> </td> 
    <td colname="col3"> <p>El visitante ya tenía una cookie s_vi antes de implementar el servicio de <span class="keyword">Experience Cloud ID</span> o bien ya tenía configurado un <a href="../../reference/analytics-reference/grace-period.md" format="dita" scope="local">período de gracia</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -42,12 +45,12 @@ En muchos escenarios, es posible que vea dos o tres ID distintos en una llamada,
    <td colname="col3"> <p>El explorador del visitante acepta cookies de origen. Esto lo establece la cookie AMCV. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>4<sup>to</sup></b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/analytics-ids.html" format="http" scope="external"> fid (cookie de seguridad en H.25.3 o posterior, o AppMeasurement para JavaScript)</a> </p> </td> 
+   <td colname="col1"> <p> <b>4<sup>º</sup></b> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/es-ES/id-service/using/reference/analytics-reference/analytics-ids.html" format="http" scope="external"> fid (cookie de seguridad en H.25.3 o posterior, o AppMeasurement para JavaScript)</a> </p> </td> 
    <td colname="col3"> <p>Un navegador no acepta cookies de terceros y el servidor de seguimiento de Analytics está configurado como servidor de seguimiento de terceros. </p> <p> <p>Nota: El valor <span class="codeph">fid</span> es un identificador preexistente y no se utiliza si se ha implementado el servicio de ID en el sitio. En este caso, el <span class="codeph">fid</span> no es necesario porque la cookie <a href="../../introduction/cookies.md" format="dita" scope="local"> AMCV de origen</a> hace que quede obsoleto. Se ha mantenido para admitir código heredado y por motivos históricos. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>5<sup>to</sup></b> </p> </td> 
+   <td colname="col1"> <p> <b>5<sup>º</sup></b> </p> </td> 
    <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html" format="http" scope="external"> Dirección IP, agente de usuario y dirección IP de puerta de enlace</a> </p> </td> 
    <td colname="col3"> <p>El explorador del visitante no acepta cookies. </p> </td> 
   </tr> 
