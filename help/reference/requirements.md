@@ -5,8 +5,11 @@ seo-description: Lea esta sección para asegurarse de que está empleando las so
 seo-title: Requisitos del servicio de Experience Cloud ID
 title: Requisitos del servicio de Experience Cloud ID
 uuid: 608b1082-6e9e-4101-b6cb-60027950109b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '783'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,7 @@ Una implementación correcta y compatible cumplirá (o sobrepasará) los requisi
      <li id="li_13962F2CB1764091A84863BE499675A2">Colocar el código de pie de página incrustado antes de la etiqueta de cierre <span class="codeph">&lt;/body&gt;</span>. </li> 
     </ul> <p>No se admite una implementación estándar cuando: </p> 
     <ul id="ul_3B62559317ED4C7AA548C3B8DBA281F7"> 
-     <li id="li_1F16C6D412944197BEA56BC24730782C"> Coloque cualquiera de estos códigos incrustados de la DTM en cualquier parte del código de página o marcado. </li> 
+     <li id="li_1F16C6D412944197BEA56BC24730782C"> Coloque cualquiera de estos códigos incrustados de DTM en cualquier parte del código de página o marcado. </li> 
      <li id="li_05615C01F3A947BBBD41046E68377224"> Anexe, agregue o cargue código DTM con métodos asincrónicos, métodos de llamada/llamada de retorno o contenedores. </li> 
      <li id="li_B2137DFF627B473FA876580449026D2B">Incluya varias instancias de código incrustado en la misma página. </li> 
     </ul> <p>Consulte también <a href="https://docs.adobe.com/content/help/es-ES/dtm/using/client-side/deployment.html" format="https" scope="external">Incrustar código y opciones de alojamiento</a>. </p> </td> 
@@ -80,7 +83,7 @@ Para emplear el servicio de ID, su empresa debe poder usar [!DNL Experience Clou
 
 ## Requisitos de Analytics: Recopilación de datos regionales (RDC) {#section-7d04bb013bc84a25bae3b148bc0ca25f}
 
-Todos los servidores de seguimiento se han convertido a RDC, por lo que no es necesario cambiar el servidor de seguimiento de Analytics. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/admin/data-collection/regional-data-collection/regional-data-collection.html)
+Todos los servidores de seguimiento se han convertido a RDC, por lo que no es necesario cambiar el servidor de seguimiento de Analytics. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/technotes/rdc/regional-data-collection.translate.html)
 
 ## Bibliotecas de códigos y requisitos de la versión {#section-ad7542a4317d430fa79fc6b095beb84d}
 
@@ -121,7 +124,7 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> <span class="keyword"> Audience Manager </span> </b> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> dil.js</span> </p> <p> Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-overview.html" format="https" scope="external">Biblioteca de integración de datos</a> (DIL). </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> dil.js</span> </p> <p> Consulte <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/dil-api/dil-overview.html" format="https" scope="external">Biblioteca de integración de datos</a> (DIL). </p> </td> 
    <td colname="col4"> <p>5.0 </p> <p> 
      <draft-comment>
        actualizado desde la versión 4.9 
@@ -129,11 +132,11 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <b> <span class="keyword"> Target </span> </b> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> mbox.js</span> </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-technical.html" format="https" scope="external">Código mbox</a>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> mbox.js</span> </p> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/mbox-implement/mbox-technical.html" format="https" scope="external">Código mbox</a>. </p> </td> 
    <td colname="col4"> <p>61 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/at-js/how-atjs-works.html" format="https" scope="external">Implementación de at.js</a>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/at-js/how-atjs-works.html" format="https" scope="external">Implementación de at.js</a>. </p> </td> 
    <td colname="col4"> <p>0.9.1 </p> </td> 
   </tr> 
  </tbody> 
@@ -150,11 +153,11 @@ Como mínimo, el servicio de ID requiere las versiones del SDK que se indican a 
 >
 >Recomendamos utilizar las últimas versiones de código en lugar del mínimo requerido.
 
-Su código SDK debe haber sido habilitado para usar el servicio de ID. Enable and download the latest SDK code for each app from your [Adobe Mobile Services](https://mobilemarketing.adobe.com/) account. Consulte también:
+Su código SDK debe haber sido habilitado para usar el servicio de ID. Habilite y descargue el último código SDK disponible para cada aplicación desde su cuenta de [Adobe Mobile Services](https://mobilemarketing.adobe.com/). Consulte también:
 
-* [Configuración de las opciones del SDK de servicio de ID de visitante](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html)
-* [Métodos del SDK para Android](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/c-marketing-cloud.html)
-* [Métodos SKD de iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/marketing-cloud.html)
+* [Configuración de las opciones del SDK de servicio de ID de visitante](https://docs.adobe.com/content/help/es-ES/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html)
+* [Métodos del SDK para Android](https://docs.adobe.com/content/help/es-ES/mobile-services/android/experience-cloud-android/c-marketing-cloud.html)
+* [Métodos SDK para iOS](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/exp-cloud-ios/marketing-cloud.html)
 
 >[!MORELIKETHIS]
 >
