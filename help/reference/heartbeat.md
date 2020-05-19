@@ -5,8 +5,11 @@ seo-description: Video Heartbeat requiere el servicio de Experience Cloud ID. Cu
 seo-title: Video Heartbeat y el servicio de Experience Cloud ID
 title: Video Heartbeat y el servicio de Experience Cloud ID
 uuid: 07986a78-23ac-4fd4-ab8f-be9275616a29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
