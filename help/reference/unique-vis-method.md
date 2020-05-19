@@ -1,8 +1,11 @@
 ---
 title: Identificación de visitantes únicos
 description: Documentación de Adobe ECID (servicio de ID)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 El método para identificar visitantes únicos entre varios contextos incluye una secuencia priorizada para garantizar la exactitud en esta determinación. La tabla siguiente muestra esta secuencia priorizada:
  
-| Pedido utilizado | Parámetro de consulta (método de colección) | valor de columna post_visid_type| Presente cuando se establece |
+| Pedido utilizado | Parámetro de consulta (método de colección) | valor de columna post_visid_type | Presente cuando se establece |
 |--- |--- |--- |--- |
 | 1 | [vid (s.visitorID)](https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html) | 0 |s.visitorID.|
 | 2 | [aid (s_vi cookie)](https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html) | 3 |El visitante tenía una cookie s_vi existente antes de que se implementara el servicio de ID del visitante o de configurar un [periodo de gracia](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/analytics-reference/grace-period.html) del ID del visitante. |
