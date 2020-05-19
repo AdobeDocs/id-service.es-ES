@@ -5,8 +5,11 @@ seo-description: Versiones de funcionalidades, actualizaciones o cambios en el s
 seo-title: Notas de la versión 2016
 title: Notas de la versión 2016
 uuid: 7a5a314a-3ff8-4561-9c64-6c10d2223887
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '1162'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2016.
 
-Estos cambios también se capturan en las notas [de la versión de](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html)Experience Cloud.
+Estos cambios también se recopilan en las [notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
 
 ## Versión 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
@@ -32,7 +35,7 @@ Noviembre de 2016
 * Instrucciones adicionales sobre cómo implementar el servicio de ID en entornos de lado de servidor.
 * Se ha agregado `Visitor.overwriteCrossDomainMCIDAndAID`, una función booleana que permite sobrescribir los ID de Experience Cloud e ID de Analytics en otros de sus dominios. Consulte [Sobrescribir ID del visitante](../library/function-vars/overwrite-visitor-id.md#reference-9db13d637ce44fb6a8d519de5743ccde).
 
-* Se ha añadido la `TS = UTC`Marca de fecha y hora como propiedad de la función `visitor.appendVisitorIDsTo`. El servicio de ID utiliza la marca de fecha y hora para determinar si debe utilizar los ID en la dirección URL de redireccionamiento en función de un intervalo de antigüedad de 5 minutos. See [Append Visitor ID Function](../library/get-set/appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce).
+* Se ha añadido la `TS = UTC`Marca de fecha y hora como propiedad de la función `visitor.appendVisitorIDsTo`. El servicio de ID utiliza la marca de fecha y hora para determinar si debe utilizar los ID en la dirección URL de redireccionamiento en función de un intervalo de antigüedad de 5 minutos. Consulte [Función para asignar un ID de visitante](../library/get-set/appendvisitorid.md#reference-ff167ef19e37433fb08ac2b5a86229ce).
 
 * Se ha añadido `Visitor.getLocationHint,` una función nueva que devuelve un ID de región. Consulte [Obtener ID de región (ubicación)](../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c)
 
@@ -81,7 +84,7 @@ Revisado: [Requisitos del servicio de identidad de Experience Cloud](../referenc
 
 **Problemas conocidos**
 
-Los clientes que utilizan código DIL de [!DNL Audience Manager] y código visitorAPI.js en la misma página, deben establecer la variable DIL `secureDataCollection= false`. Consulte [secureDataCollection](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-overview.html).
+Los clientes que utilizan código DIL de [!DNL Audience Manager] y código visitorAPI.js en la misma página, deben establecer la variable DIL `secureDataCollection= false`. Consulte [secureDataCollection](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/dil-api/dil-overview.html).
 
 ## Versión 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 
@@ -100,7 +103,7 @@ Julio de 2016
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Uso compartido de recursos entre Orígenes (CORS) </p> </td> 
+   <td colname="col1"> <p>Intercambio de recursos de origen cruzado (CORS) </p> </td> 
    <td colname="col2"> <p>El mecanismo CORS permite a los navegadores solicitar recursos provenientes de un dominio distinto al actual. El servicio de identidad de Experience Cloud admite los estándares CORS para habilitar solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores que no admiten el mecanismo CORS. </p> <p>Consulte: </p> 
     <ul id="ul_15386385108F4E07824041DD6F2DC11E"> 
      <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local"> Compatibilidad con CORS en el servicio de identidad de Experience Cloud </a> </li> 
@@ -156,7 +159,7 @@ Junio de 2016
 
 **Correcciones**
 
-La API de visitante ya no fuerza una llamada de resincronización adicional con el Administrador de Audiencias cuando no hay ningún ID de visitante de Analytics heredado.
+El API de visitante ya no fuerza una llamada de resincronización extra con Audience Manager cuando no hay un ID de visitante de Analytics anterior.
 
 ## Versión 1.5.x {#section-a62ae48275324058b57edf66ee5a579f}
 
@@ -190,7 +193,7 @@ Marzo de 2016
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Compatibilidad con la exclusión </p> </td> 
-   <td colname="col2"> <p>El servicio de Experience Cloud ID<span class="keyword"></span> admite las solicitudes de anulación de la suscripción de visitantes. </p> </td> 
+   <td colname="col2"> <p>El servicio de <span class="keyword">Experience Cloud</span> ID admite las solicitudes de anulación de la suscripción de visitantes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Cambio del intervalo de sincronización de ID </p> </td> 
@@ -203,7 +206,7 @@ Marzo de 2016
 
 * [Implementación del servicio de identidadde Experience Cloud para](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd): nuevo procedimiento que describe cómo configurar el servicio de identidad con [!DNL Analytics].
 
-* [Puntos de decisión para la migración del servicio de identidad de Experience Cloud ](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257): texto revisado para una mayor claridad. Trabajar con un solo dominio significa que puede dejar de utilizar un CNAME de recopilación de datos si ya no desea administrarlo. Sin embargo, no es necesario cambiar si su CNAME funciona.
+* [Puntos de decisión para la migración del servicio de identidad de Experience Cloud](../reference/analytics-reference/migration-decisions.md#concept-ba44803eea3c4cc185232a510cec0257): texto revisado para una mayor claridad. Trabajar con un solo dominio significa que puede dejar de utilizar un CNAME de recopilación de datos si ya no desea administrarlo. Sin embargo, no es necesario cambiar si su CNAME funciona.
 
 ## Versión 1.5.3 {#section-7c09ba2832bd4644a1ccc3aa83abe66a}
 
@@ -221,7 +224,7 @@ Enero de 2016
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../reference/authenticated-state.md" format="dita" scope="local"> ID de cliente y estados de autenticación </a> </p> </td> 
-   <td colname="col2"> <p>Texto revisado. Los ID de cliente solo deben pasarse como valores no codificados. Los ID de codificación crearán identificadores con codificación de doble. </p> </td> 
+   <td colname="col2"> <p>Texto revisado. Los ID de cliente solo deben pasarse como valores no codificados. Los ID de codificación crearán identificadores con codificación doble. </p> </td> 
   </tr> 
  </tbody> 
 </table>
