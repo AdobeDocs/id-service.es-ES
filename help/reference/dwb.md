@@ -2,11 +2,14 @@
 description: Siga estas instrucciones para integrar el campo Experience Cloud ID en Data Workbench. Este proceso le permite utilizar el Experience Cloud ID persistente en sus fuentes de datos, lo que permite una integración más sólida con otros productos de Adobe Experience Cloud, y proporciona un seguimiento mejorado de visitantes.
 keywords: ID Service
 seo-description: Siga estas instrucciones para integrar el campo Experience Cloud ID en Data Workbench. Este proceso le permite utilizar el Experience Cloud ID persistente en sus fuentes de datos, lo que permite una integración más sólida con otros productos de Adobe Experience Cloud, y proporciona un seguimiento mejorado de visitantes.
-seo-title: Data Workbench y el servicio de identidad de Experience Cloud
+seo-title: Data Workbench y el servicio de Experience Cloud ID
 title: Data Workbench y el servicio de Experience Cloud ID
 uuid: 9448abc8-04fb-47d2-be08-1dfbddb0764e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 Siga estas instrucciones para integrar el campo Experience Cloud ID en Data Workbench. Este proceso le permite utilizar el Experience Cloud ID persistente en sus fuentes de datos, lo que permite una integración más sólida con otros productos de Adobe Experience Cloud, y proporciona un seguimiento mejorado de visitantes.
 
-To update [Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html) to use the ID service:
+Actualizar [Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html) para utilizar el servicio de ID:
 
-1. Localice el archivo de configuración actual del grupo [de](https://docs.adobe.com/content/help/en/data-workbench/using/dataset/dataset-include-files/types-dataset-inc-files/c-text-file-dec-groups.html) descodificadores.
+1. Localice el archivo de configuración actual del [grupo de descodificadores](https://docs.adobe.com/content/help/es-ES/data-workbench/using/dataset/dataset-include-files/types-dataset-inc-files/c-text-file-dec-groups.html).
 
    Normalmente,[!DNL Decoder Group] se encuentra en un [!UICONTROL Administrador de perfiles] en esta ruta: `Dataset\Log Processing\Decoding Instructions.cfg`. 1. Copie el formato del decodificador actual desde el archivo de configuración.
 1. Pegue el formato del decodificador debajo del original.
@@ -27,7 +30,7 @@ To update [Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbe
    * `x-tnt-action`
    Deje los campos vacíos si no está preparado para usarlos o definirlos.  **Instrucciones de descodificación**
 
-Consulte el contenido completo del decodificador a continuación, incluidos los nuevos campos mencionados anteriormente.
+Consulte el contenido completo del descodificador a continuación, incluidos los nuevos campos mencionados anteriormente.
 
 ```js
 Log Processing Include = LogProcessingInclude:   
