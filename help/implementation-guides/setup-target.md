@@ -1,19 +1,22 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, recomendamos encarecidamente que utilice la DTM para implementar el servicio de ID. La DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
+description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 keywords: ID Service
-seo-description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, recomendamos encarecidamente que utilice la DTM para implementar el servicio de ID. La DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
-seo-title: Implementación del servicio de identidad de Experience Cloud para Destinatario
-title: Implementación del servicio de Experience Cloud ID para Destinatario
+seo-description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
+seo-title: Implementación del servicio de Experience Cloud ID para Target
+title: Implementación del servicio de Experience Cloud ID para Target
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
 
-# Implementación del servicio de identidad de Experience Cloud para Destinatario{#implement-the-experience-cloud-id-service-for-target}
+# Implementación del servicio de identidad de Experience Cloud para Destinatario {#implement-the-experience-cloud-id-service-for-target}
 
-Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, recomendamos encarecidamente que utilice la DTM para implementar el servicio de ID. La DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
+Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 
 >[!IMPORTANT]
 >
@@ -25,11 +28,11 @@ Estas instrucciones están destinadas a los clientes de Target que desean utiliz
 
 ## Paso 1: Obtención del código de servicio de ID {#section-b32ba0548aa546a79dd38be59832a53e}
 
-El [!UICONTROL servicio de ID] requiere la biblioteca de códigos `VisitorAPI.js`. Póngase en contacto con [el Servicio de atención](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) al cliente para obtener este código.
+El [!UICONTROL servicio de ID] requiere la biblioteca de códigos `VisitorAPI.js`. Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) para obtener este código.
 
 ## Paso 2: Añadir la función Visitor.getInstance al código del servicio de ID {#section-287ef2958e9f43858fe9d630ae519e22}
 
-**Parte 1: Copie la función Visitante.getInstance a continuación**
+**Parte 1: Copie la función Visitor.getInstance a continuación**
 
 ```js
 var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE"); 
@@ -54,7 +57,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE")
 
 ## Paso 3: Añadir su ID de organización de Experience Cloud a Visitor.getInstance {#section-522b1877be9243c39b222859b821f0ce}
 
-En la `Visitor.getInstance` función, sustituya `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` por su [!DNL Experience Cloud] ID de organización de. Si no conoce su ID de organización, puede encontrarlo en la página de administración de[!DNL Experience Cloud]. Consulte también [Administración - Servicios](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html)principales. Su función editada podría tener un aspecto similar al ejemplo siguiente.
+En la `Visitor.getInstance` función, sustituya `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` por su [!DNL Experience Cloud] ID de organización de. Si no conoce su ID de organización, puede encontrarlo en la página de administración de[!DNL Experience Cloud]. Consulte también [Administración - Servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html). Su función editada podría tener un aspecto similar al ejemplo siguiente.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg");`
 
@@ -74,7 +77,7 @@ Puede realizar pruebas e implementaciones de la siguiente manera.
 
 Para probar la implementación del servicio de ID:
 
-* Compruebe la cookie AMCV en el dominio donde se aloja la página.
+* Compruebe que cuenta con la cookie AMCV en el dominio en el que está alojada su página.
 * Verifique que aparezca `mboxMCGVID` en su solicitud de [!DNL Target] y que contenga el ID de [!DNL Experience Cloud] (MID).
 
 Consulte la información relativa a [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md) para obtener información sobre la cookie AMCV y el MID.
