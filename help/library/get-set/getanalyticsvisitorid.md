@@ -5,13 +5,16 @@ seo-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya al
 seo-title: getAnalyticsVisitorID
 title: getAnalyticsVisitorID
 uuid: 6bb8ddfc-9fc1-4105-b377-d9b4d247a0f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '338'
+ht-degree: 100%
 
 ---
 
 
-# getAnalyticsVisitorID{#getanalyticsvisitorid}
+# getAnalyticsVisitorID {#getanalyticsvisitorid}
 
 Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de Experience Cloud ID se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 
@@ -44,7 +47,7 @@ El `aid` parámetro aparece en una cadena de consulta bajo dos conjuntos diferen
 Verá el parámetro `aid` en una cadena de consulta cuando:
 
 * El servicio de ID de [!DNL Experience Cloud] se implementa correctamente.
-* El usuario que visite un sitio tiene un ID de [!DNL Analytics] preexistente almacenado en su [cookie s_vi](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679).
+* El usuario que visite un sitio tiene un ID de [!DNL Analytics] preexistente almacenado en su [cookie s_vi](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679).
 
 **Caso 2**
 
@@ -52,5 +55,5 @@ Verá el `aid` parámetro en una cadena de consulta cuando su organización util
 
 >[!MORELIKETHIS]
 >
->* [Cookies de Analytics](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html)
+>* [Cookies de Analytics](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-privacy.html)
 
