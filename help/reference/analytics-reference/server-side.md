@@ -5,8 +5,11 @@ seo-description: En algunas implementaciones, los ID de visitante se pasan de Ja
 seo-title: Implementación del lado del servidor combinada con JavaScript
 title: Implementación del lado del servidor combinada con JavaScript
 uuid: 256ea0e7-1eb4-4c92-9a7e-f61cb1ed13c7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '211'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
 
 En algunas implementaciones, los ID de visitante se pasan de JavaScript a un servidor para que este pueda enviar los eventos de Analytics adicionales (como las compras).
 
-La API del servicio de ID proporciona los métodos [getMarketingCloudVisitorID](../../library/get-set/getmcvid.md) y [getAnalyticsVisitorID](../../library/get-set/getanalyticsvisitorid.md)para recuperar los valores de ID que se pueden pasar al servidor.
+La API del servicio de ID proporciona los métodos [getMarketingCloudVisitorID](../../library/get-set/getmcvid.md) y [getAnalyticsVisitorID](../../library/get-set/getanalyticsvisitorid.md) para recuperar los valores de ID que se pueden pasar al servidor.
 
 Asegúrese de comprobar la existencia del ID de visitante de Experience Cloud y el ID de visitante de Analytics y de enviarlos (si están presentes) para garantizar que los datos que se envíen se asocien al perfil del visitante de Analytics existente.
 
@@ -29,7 +32,7 @@ Incluya el ID de visitante de Analytics (si está configurado) en el elemento `<
 
 Incluya el ID de visitante de Experience Cloud en el elemento `<marketingCloudVisitorID>`.
 
-Consulte Etiquetas [XML](https://www.adobe.io)admitidas.
+Consulte [Etiquetas XML admitidas](https://www.adobe.io).
 
 ## AppMeasurement para Java {#section-d664b94934924d048300d9c2b6560085}
 
