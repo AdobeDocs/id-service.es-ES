@@ -5,8 +5,11 @@ seo-description: El servicio de Adobe Experience Cloud ID (Servicio de ID) ofrec
 seo-title: Servicio de Experience Cloud ID
 title: Servicio de Experience Cloud ID
 uuid: b68194b5-e549-4f6f-bfaf-7744926aeaac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,7 @@ El servicio de Adobe Experience Cloud ID (Servicio de ID) ofrece un identificado
    <td colname="col2"> <p> <b>Notas de la versión</b> </p> <p><b>La versión 4.4</b> del 17 de julio de 2019 incluye compatibilidad con el <a href="reference/hashing-support.md" format="dita" scope="local"> algoritmo hash SHA -256</a> que permite pasar ID de clientes o direcciones de correo electrónico y transferir ID hash.</p><p><b>La versión 4.0</b> del 12 de febrero de 2019 incluye el servicio <a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local">Opt-in</a> utilizado para identificar si puede colocar una cookie en el dispositivo o el navegador de un usuario al visitar el sitio. </p> <p> 
      <ul id="ul_4F06F170F214492780C7D25A069F799F"> 
       <li id="li_45A7CD556FE44F4DAB035C736A058F36"> Consulte las últimas <a href="https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones. </li> 
-      <li id="li_10CC4FBFEFC947CA9AD15F52D9715257">See the <a href="https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html" format="html" scope="external"> Previous Release Notes</a> section for older releases. </li> 
+      <li id="li_10CC4FBFEFC947CA9AD15F52D9715257">Consulte las <a href="https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html" format="html" scope="external">notas de la versión anteriores</a> para ver versiones más antiguas. </li> 
      </ul> </p> <p> <b>Recursos de Experience Cloud</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"> <a href="http://www.adobe.com/es/privacy.html" format="http" scope="external"> Centro de privacidad de Adobe</a> </li> 
