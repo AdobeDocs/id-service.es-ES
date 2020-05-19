@@ -5,13 +5,16 @@ seo-description: Se trata de una API asíncrona que devuelve identificadores par
 seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '447'
+ht-degree: 100%
 
 ---
 
 
-# getVisitorValues{#getvisitorvalues}
+# getVisitorValues {#getvisitorvalues}
 
 Se trata de una API asíncrona que devuelve identificadores para Analytics, el servicio de ID, la exclusión de la recopilación de datos, la ubicación geográfica y el contenido “blob” de metadatos de forma predeterminada. Además, se puede controlar cuáles son los ID que desea que se devuelvan con la enumeración opcional visitor.FIELDS.
 
@@ -47,7 +50,7 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
 visitor.getVisitorValues(visitorIdsCallback);
 ```
 
-En la respuesta de muestra predeterminada, algunos valores se han abreviado con fines de demostración.
+En la respuesta de muestra predeterminada, algunos valores se han abreviado con fines demostrativos.
 
 ```js
 //Formatted IDs in JSON response 
@@ -100,7 +103,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>ID de región de recopilación de datos. Es un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID en particular. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host) y <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local">getLocationHint.</a> </p> </td> 
+   <td colname="col2"> <p>ID de región de recopilación de datos. Es un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID en particular. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host) y <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local">getLocationHint.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
@@ -112,7 +115,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
-   <td colname="col2"> <p>Un indicador que indica si un visitante ha exclusión de la recopilación de datos. </p> <p>Los valores incluyen: </p> <p> 
+   <td colname="col2"> <p>Un indicador que especifica si un visitante se ha excluido de la recopilación de datos. </p> <p>Los valores incluyen: </p> <p> 
      <ul id="ul_E82431DE12B449F8822499364B363798"> 
       <li id="li_2BAB7C15A38A408E8FC4B85E70B66E46"> <span class="codeph"> 'isoptedout-true'</span>: un visitante ha excluido la recopilación de datos. </li> 
       <li id="li_BB80AE4CEBC44166BC04428B212FEF51"> <span class="codeph"> 'isoptedout-false'</span>: un visitante no ha excluido la recopilación de datos. </li> 
