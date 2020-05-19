@@ -5,13 +5,16 @@ seo-description: Una configuración booleana opcional que determina si el servic
 seo-title: isCoopSafe
 title: isCoopSafe
 uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '604'
+ht-degree: 100%
 
 ---
 
 
-# isCoopSafe{#iscoopsafe}
+# isCoopSafe {#iscoopsafe}
 
 Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
 
@@ -30,7 +33,7 @@ Contenido:
 Para utilizar `isCoopSafe`, debe:
 
 * Utilizar el código de servicio de ID versión 2.4 o posterior.
-* Participe en la cooperación entre dispositivos de [Experience Cloud](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
+* Participe en [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/es-ES/device-co-op/using/about/overview.html). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
 
 * Trabaje con su consultor de [!DNL Adobe] para establecer un indicador de lista de elementos permitidos o de lista de elementos bloqueados en su cuenta de Device Co-Op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
@@ -54,7 +57,7 @@ Para utilizar `isCoopSafe`, debe:
    <td colname="col1"> <p> <b>DIL en sitios de terceros</b> </p> </td> 
    <td colname="col2"> <p>Agregue <span class="codeph">isCoopSafe</span> a su código de servicio de ID para usarlo en sitios de terceros en los que: </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
-      <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">No se puede garantizar que los visitantes autenticados hayan aceptado o no acuerdos de plazo de uso. </li> 
+      <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">No se puede garantizar que los visitantes autenticados hayan aceptado o no acuerdos de términos de uso. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Es necesario controlar cómo Device Co-op utiliza esos datos para crear el gráfico del dispositivo. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -139,5 +142,5 @@ Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
 >[!MORELIKETHIS]
 >
->* [DIL isCoopSafe](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.html)
+>* [DIL isCoopSafe](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.html)
 
