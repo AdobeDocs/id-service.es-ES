@@ -2,11 +2,14 @@
 description: Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar o trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos como consolas de juegos, televisores inteligentes u otros dispositivos habilitados para Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
 keywords: ID Service
 seo-description: Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar o trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos como consolas de juegos, televisores inteligentes u otros dispositivos habilitados para Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
-seo-title: Integración directa con el servicio de servicio de identidad de Experience Cloud
-title: Integración directa con el servicio de servicio de ID de Experience Cloud
+seo-title: Integración directa con el servicio de servicio de Experience Cloud ID
+title: Integración directa con el servicio de servicio de Experience Cloud ID
 uuid: de502f7e-cffd-4130-b3ca-7d6b9a9caae9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '712'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ Los dispositivos que no pueden utilizar las bibliotecas de códigos VisitorAPI.j
 
 ![](assets/directSyntax.png)
 
-En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. For more information about other variables, see [Supported Attributes for DCS API calls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. Para obtener más información sobre otras variables, consulte [Atributos admitidos para las llamadas API de DCS](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 El servicio de ID admite llamadas HTTP y HTTPS. Utilice HTTPS para pasar datos de una página segura.
 
@@ -88,7 +91,7 @@ El servicio de ID devuelve datos en un objeto JSON como se muestra a continuaci�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dcs_region</span> </p> </td> 
-   <td colname="col2"> <p>El servicio de ID es un sistema distribuido geográficamente y con equilibrio de carga. El ID identifica la región del centro de datos que gestiona la llamada. Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </p> </td> 
+   <td colname="col2"> <p>El servicio de ID es un sistema distribuido geográficamente y con equilibrio de carga. El ID identifica la región del centro de datos que gestiona la llamada. Consulte <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cb</span> </p> </td> 
@@ -119,7 +122,7 @@ Algunos parámetros de respuesta forman parte de la solicitud y se han definido 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> id_sync_ttl</span> </p> </td> 
-   <td colname="col2"> <p>Intervalo de resincronización, especificado en segundos. El intervalo predeterminado es de 604.800 segundos (7 días). </p> </td> 
+   <td colname="col2"> <p>Intervalo de resincronización, especificado en segundos. El intervalo predeterminado es de 604 800 segundos (7 días). </p> </td> 
   </tr> 
  </tbody> 
 </table>
