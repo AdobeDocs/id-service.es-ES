@@ -5,13 +5,16 @@ seo-description: Preguntas más frecuentes sobre las características, la funcio
 seo-title: Preguntas más frecuentes sobre el servicio de ID
 title: Preguntas más frecuentes sobre el servicio de ID
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+workflow-type: ht
+source-wordcount: '804'
+ht-degree: 100%
 
 ---
 
 
-# Preguntas más frecuentes sobre el servicio de ID{#id-service-faqs}
+# Preguntas más frecuentes sobre el servicio de ID {#id-service-faqs}
 
 Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
 
@@ -23,9 +26,9 @@ Consulte la [Información general](../introduction/overview.md).
 
 **¿Por qué el servicio de ID no está realizando una llamada para recuperar el Experience Cloud ID?**
 
-Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de las directivas de seguridad de contenido del sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. See [Content Security Policies and the Experience Cloud Identity Service](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
+Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de las directivas de seguridad de contenido del sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. Consulte [Políticas de seguridad de contenido y el servicio de Experience Cloud ID](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
 
-**almacenamiento del archivo VisitorAPI.js**
+**Almacenamiento del archivo VisitorAPI.js**
 
 Es posible que tenga problemas si aloja VisitorAPI.js como archivo local en aplicaciones móviles. Le recomendamos que aloje el archivo en un servidor web.
 
@@ -35,7 +38,7 @@ Es posible que tenga problemas si aloja VisitorAPI.js como archivo local en apli
 
 Coloque la biblioteca VisitorAPI.js en la parte superior de la página en la `<head>` sección de su código. Esto le ayuda a garantizar que la llamada de un ID se emita antes de que el cuerpo de la página empiece a cargarse y que aumenten las posibilidades de que se devuelva un ID correctamente.
 
-The ID service call is asynchronous and is the only call to the [demdex.net domain](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
+La llamada del servicio de ID es asincrónica y es la única llamada al [dominio demdex.net](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
 
 En el caso de los [!DNL Target] clientes de, al colocar el código de servicio de ID en la etiqueta `<body>` de la página, pueden incrementar las probabilidades de que se bloquee una llamada de [!DNL Target]. Si debe colocar el código de servicio de ID en el cuerpo de la página, se debe colocar después de la etiqueta `<body>` de apertura.
 
@@ -47,31 +50,31 @@ Consulte [Información general](../introduction/overview.md).
 
 **Al utilizar el servicio de ID, ¿qué puede causar tiempos de carga de página lentos o afectar a la experiencia del usuario?**
 
-Es difícil catalogar todas las condiciones posibles. Miles de millones de clientes de consumo se conectan a nuestros servicios y la gran variedad en dónde y cómo se conectan afectan el rendimiento. Por ejemplo:
+Es difícil catalogar todas las condiciones posibles. Miles de millones de clientes se conectan a nuestros servicios y la gran variedad de ubicaciones y métodos de conexión afectan al rendimiento. Por ejemplo:
 
 * Las velocidades varían considerablemente en las redes móviles. Estas redes también sufren la pérdida de señales y datos o de paquetes de voz.
-* La conectividad sufre en los dispositivos que se conectan a través de WiFi en diversas condiciones. Por ejemplo, la pérdida de paquetes y los problemas de velocidad son comunes en lugares públicos como cafeterías o en otros entornos como aeronaves, donde los paquetes deben rebotar a través de un satélite antes de llegar a las redes terrestres.
+* La conectividad sufre en los dispositivos que se conectan a través de WiFi en diversas condiciones. Por ejemplo, la pérdida de paquetes y los problemas de velocidad son comunes en lugares públicos como cafeterías o en otros entornos como aviones, donde los paquetes deben rebotar a través de un satélite antes de llegar a las redes terrestres.
 * Las redes locales mal configuradas pueden afectar negativamente a la conectividad y la velocidad.
 * Los dispositivos cliente pueden tener sus propios problemas, como memoria baja, exceso de intercambio de discos o potencia de CPU limitada en relación con las cargas de trabajo actuales.
 * Los navegadores ponen en cola y ejecutan llamadas al servidor remoto e incluso procesan las respuestas con reglas diferentes, según el fabricante y la versión del explorador. Este comportamiento afecta a la velocidad y al rendimiento.
 
 **¿Puede nombrar algunas mejoras que ha realizado para reducir los tiempos de carga de las páginas?**
 
-Por ejemplo, la producción de subprocesos. Hemos introducido el rendimiento de subprocesos en caso de varias solicitudes de sincronización de ID. En los informes de laboratorio observamos que para los clientes que realizan varias sincronizaciones de ID, la interfaz de usuario se bloquearía debido a que suceden muchos cálculos de CPU continuos. Como resultado, hemos introducido el rendimiento de subprocesos para separar las solicitudes de sincronización de ID en 100 ms cada una.
+Por ejemplo, la producción de subprocesos. Hemos introducido el rendimiento de subprocesos en caso de varias solicitudes de sincronización de ID. En los informes de laboratorio observamos que, para los clientes que realizan varias sincronizaciones de ID, la interfaz de usuario se bloquea debido a que se producen muchos cálculos de CPU continuos. Como resultado, hemos introducido el rendimiento de subprocesos para separar las solicitudes de sincronización de ID en 100 ms cada una.
 
-Este cambio mejora el rendimiento de los clientes que utilizan Visitante 2.3.0 o posterior y DIL 6.10 o posterior. Las mejoras en los tiempos de carga de la página se muestran en la siguiente figura:
+Este cambio mejora el rendimiento de los clientes que utilizan Visitor 2.3.0 o posterior y DIL 6.10 o posterior. Las mejoras en los tiempos de carga de la página se muestran en la siguiente imagen:
 
 ![](assets/id_sync_improvements_copy.png)
 
 **¿Afectan las solicitudes de explorador que utilizan CORS y JSON-P al rendimiento de la página?**
 
-Las solicitudes de recursos con CORS son generalmente más preferibles que con JSONP. Con JSONP, algunos exploradores ponen en cola y desasignan prioridad las solicitudes en relación con otras llamadas sincrónicas y asincrónicas de la página. CORS ayuda a garantizar que estas solicitudes se traten con mayor prioridad en la pila de llamadas del explorador.
+Las solicitudes de recursos con CORS son generalmente más preferibles que con JSONP. Con JSONP, algunos exploradores ponen en cola y restan prioridad a las solicitudes en relación con otras llamadas sincrónicas y asincrónicas de la página. CORS ayuda a garantizar que estas solicitudes se traten con mayor prioridad en las llamadas del explorador.
 
 Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 ## Seguridad {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
-**¿Admite el servicio de ID CORS?**
+**¿Admite CORS el servicio de ID?**
 
 Sí. Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
@@ -83,7 +86,7 @@ Sí. Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](.
 
 Si tiene requisitos de seguridad estrictos, establezca la configuración de la API del servicio de ID `useCORSOnly: true`. Solo debe habilitar este modo si está seguro de que los visitantes del sitio utilizan navegadores compatibles con CORS.
 
-See [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) and [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
+Consulte [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) y [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
 
 >[!MORELIKETHIS]
 >
