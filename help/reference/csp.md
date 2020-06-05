@@ -5,11 +5,11 @@ seo-description: Una directiva de seguridad de contenido (CSP) es una función d
 seo-title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: ht
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
-source-wordcount: '539'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: acf10dd734132662698791e473c1f3f4dda85d67
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 87%
 
 ---
 
@@ -66,6 +66,10 @@ Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o
  <tr>
  <td colname="col1"> <p> <b>Complemento Activity Map</b> </p> </td> 
  <td colname="col2"> <p>Modifique su CSP para incluir *.adobe.com. **Nota**: Si ya tenía Activity Map instalado antes de enero de 2020, el explorador seguirá viendo una solicitud inicial a *.omniture.com, pero se redirigirá a *.adobe.com. </p></td> 
+ </tr>
+ <tr>
+ <td colname="col1"> <p> <b>Advertising Analytics</b> </p> </td> 
+ <td colname="col2"> <p>Si tiene controles en los parámetros de cadena de consulta, asegúrese de incluir en la lista blanca los parámetros `s_kwcid' y `ef_id'. Técnicamente, Advertising Analytics solo utiliza "s_kwcid", pero si elige Ad Cloud Search o DSP, también utiliza "ef_id". Estos parámetros de cadena de consulta son alfanuméricos. El parámetro `s_kwcid' utiliza el parámetro "!" y el parámetro "ef_id" utiliza el carácter ":". Si está bloqueando el "!" en la dirección URL, también debe incluirla en la lista blanca.</p></td> 
  </tr>
  </tbody> 
 </table>
