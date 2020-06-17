@@ -5,11 +5,11 @@ seo-description: Una directiva de seguridad de contenido (CSP) es una función d
 seo-title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: acf10dd734132662698791e473c1f3f4dda85d67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -69,13 +69,13 @@ Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o
  </tr>
  <tr>
  <td colname="col1"> <p> <b>Advertising Analytics</b> </p> </td> 
- <td colname="col2"> <p>Si tiene controles en los parámetros de cadena de consulta, asegúrese de incluir en la lista blanca los parámetros `s_kwcid' y `ef_id'. Técnicamente, Advertising Analytics solo utiliza "s_kwcid", pero si elige Ad Cloud Search o DSP, también utiliza "ef_id". Estos parámetros de cadena de consulta son alfanuméricos. El parámetro `s_kwcid' utiliza el parámetro "!" y el parámetro "ef_id" utiliza el carácter ":". Si está bloqueando el "!" en la dirección URL, también debe incluirla en la lista blanca.</p></td> 
+ <td colname="col2"> <p>Si tiene controles en los parámetros de cadena de consulta, asegúrese de incluir en la lista blanca los parámetros “s_kwcid” y “ef_id”. Técnicamente, Advertising Analytics solo utiliza “s_kwcid”, pero si elige Ad Cloud Search o DSP, también utilizará “ef_id”. Estos parámetros de cadena de consulta son alfanuméricos. El parámetro “s_kwcid” utiliza el parámetro “!” y el parámetro “ef_id” utiliza el carácter “:”. Si está bloqueando el “!” en la dirección URL, también debe incluirlo en la lista de admitidos.</p></td> 
  </tr>
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
->* [Content Security Policy Reference ](https://content-security-policy.com/)(Referencia de política de seguridad de contenido)
->* [MDN: Content Security Policy](https://developer.mozilla.org/es/docs/Web/HTTP/CSP) (MDN: Política de seguridad de contenido)
->* [Wikipedia: Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (Wikipedia: Política de seguridad de contenido)
+>* [Referencia de política de seguridad de contenido](https://content-security-policy.com/)
+>* [MDN: Política de seguridad de contenido](https://developer.mozilla.org/es/docs/Web/HTTP/CSP)
+>* [Wikipedia: Política de seguridad de contenido](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
