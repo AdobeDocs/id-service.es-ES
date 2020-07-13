@@ -5,9 +5,9 @@ seo-description: Una directiva de seguridad de contenido (CSP) es una función d
 seo-title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: ht
-source-git-commit: acf10dd734132662698791e473c1f3f4dda85d67
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
+workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
 
@@ -75,6 +75,7 @@ Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o
 </table>
 
 >[!MORELIKETHIS]
+>
 >* [Referencia de política de seguridad de contenido](https://content-security-policy.com/)
 >* [MDN: Política de seguridad de contenido](https://developer.mozilla.org/es/docs/Web/HTTP/CSP)
 >* [Wikipedia: Política de seguridad de contenido](https://en.wikipedia.org/wiki/Content_Security_Policy)
