@@ -4,9 +4,9 @@ seo-description: Conecte su plataforma de administración de consentimiento (CMP
 seo-title: Uso de servicios de inclusión con IAB Framework
 title: Uso de servicios de inclusión con IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: ht
-source-git-commit: 4c37c8dd3b76dbf17b955864f0562363350eaecd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Uso de servicios de inclusión con IAB Framework {#using-opt-in-services-with-iab-framework}
 
->[!IMPORTANT] El siguiente documento solo se aplica a IAB 2.0. Los usuarios deben utilizar Visitor.js versión 5.0 para trabajar con IAB 2.0.
+>[!IMPORTANT]
+>
+>El siguiente documento solo se aplica a IAB 2.0. Los usuarios deben utilizar Visitor.js versión 5.0 para trabajar con IAB 2.0.
 
 Conecte la plataforma de administración de consentimiento (CMP) con el plugin del marco de transparencia y consentimiento (TCF) de IAB de inclusión.
 
