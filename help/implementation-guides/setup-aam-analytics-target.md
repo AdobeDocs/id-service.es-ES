@@ -5,9 +5,9 @@ seo-description: Estas instrucciones están destinadas a los clientes de Analyti
 seo-title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-translation-type: ht
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 
@@ -20,11 +20,10 @@ Estas instrucciones están destinadas a los clientes de Analytics, Audience Mana
 
 >[!IMPORTANT]
 >
->Lea los [requisitos](../reference/requirements.md) del servicio de ID antes de empezar y tenga en cuenta los requisitos a continuación que son específicos de esta implementación: >
+>Lea los [requisitos](../reference/requirements.md) del servicio de ID antes de empezar y tenga en cuenta los requisitos a continuación que son específicos de esta implementación:
+>
 >* Los clientes que utilizan s_code no pueden completar este procedimiento. Actualice al código de mbox 61 para completar este procedimiento.
 >* Configure y pruebe este código en un entorno de desarrollo *antes* de implementarlo en producción.
->
-
 
 
 ## Paso 1: Planificación del reenvío del lado de servidor {#section-880797cc992d4755b29cada7b831f1fc}
@@ -54,8 +53,6 @@ El servicio de ID requiere la `VisitorAPI.js` biblioteca de códigos. Para desca
 >
 >* Las versiones anteriores de la API de servicio de ID ubicaban esta función en una ubicación diferente y requerían una sintaxis diferente. Si va a realizar la migración desde una versión anterior a la [versión 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), tenga en cuenta la nueva ubicación y sintaxis documentadas aquí.
 >* El código en MAYÚSCULAS es un marcador de posición para los valores reales. Reemplace este texto con el identificador de organización, la URL del servidor de seguimiento u otro valor con nombre.
->
-
 
 
 **Parte 1: Copie la función Visitor.getInstance a continuación**
