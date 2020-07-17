@@ -5,9 +5,9 @@ seo-description: Estas instrucciones están destinadas a los clientes de Analyti
 seo-title: Implementación del servicio de Experience Cloud ID para Analytics
 title: Implementación del servicio de Experience Cloud ID para Analytics
 uuid: 7fbd6fa0-1713-4232-8680-500ed62709d5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 ## Paso 3: Añadir su ID de organización de Experience Cloud a Visitor.getInstance {#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e}
 
-En la `Visitor.getInstance` función, sustituya `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` por su [!DNL Experience Cloud] ID de organización de. Si no conoce su ID de organización, puede encontrarlo en la página de administración de[!DNL Experience Cloud]. Consulte también [Administración - Servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html). Su función editada podría tener un aspecto similar al ejemplo siguiente.
+En la `Visitor.getInstance` función, sustituya `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` por su [!DNL Experience Cloud] ID de organización de. Si no conoce su ID de organización, puede encontrarlo en la página de administración de [!DNL Experience Cloud]. Consulte también [Administración - Servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html). Su función editada podría tener un aspecto similar al ejemplo siguiente.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg", { ...`
 
@@ -128,8 +128,8 @@ Para determinar qué variables de servidor de seguimiento utilizar:
 >
 >Cuando se usen, combine las [!DNL Experience Cloud] URL del servidor de con las URL de su servidor de seguimiento correspondiente de esta manera:
 >
->* [!DNL Experience Cloud]URL del servidor de = URL del servidor de seguimiento
->* [!DNL Experience Cloud]URL segura del servidor de = URL segura del servidor de seguimiento
+>* [!DNL Experience Cloud] URL del servidor de = URL del servidor de seguimiento
+>* [!DNL Experience Cloud] URL segura del servidor de = URL segura del servidor de seguimiento
 
 
 Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [preguntas frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
