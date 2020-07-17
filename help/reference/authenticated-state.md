@@ -5,11 +5,11 @@ seo-description: Junto con el ID de visitante de Experience Cloud, se pueden aso
 seo-title: ID de cliente y estados de autenticación
 title: ID de cliente y estados de autenticación
 uuid: 643df363-224a-463e-a332-be59926b47e7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visita
 >
 >Los atributos de clientes y la funcionalidad de los servicios principales requieren el uso de `setCustomerIDs` (sincronización de ID de clientes). La sincronización de los ID de cliente es un método de identificación opcional para [!DNL Analytics]. [!DNL Target] exige el uso de `Visitor.AuthState.AUTHENTICATED` para que funcionen los atributos de cliente. Consulte [Servicios principales - Cómo activar sus soluciones](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/core-services.html) para ver ejemplos.
 
-A partir del servicio de identidad de Experience Cloud de la versión 1.5 (o posterior), `setCustomerIDs` incluye el objeto opcional `AuthState`. `AuthState` identifica a los visitantes en función de su estado de autenticación (por ejemplo, conectado, desconectado). El estado de autenticación se establece con un valor de estado enumerado en la tabla. El estado de autenticación se devuelve como un entero.
+A partir del servicio de identidad de Experience Cloud de la versión 1.5 (o posterior), `setCustomerIDs` incluye el objeto opcional `AuthState`. `AuthState` identifica a los visitantes en función de su estado de autenticación (por ejemplo, conectado, desconectado). El estado de autenticación se establece con un valor de estado indicado en la tabla. El estado de autenticación se arroja como un número entero.
 
 <table id="table_8547671CC97145529981FBF6C302BEC5"> 
  <thead> 
@@ -57,7 +57,7 @@ A partir del servicio de identidad de Experience Cloud de la versión 1.5 (o pos
 
 ## Casos de uso para estados de autenticación {#section-fe9560cc490943b29dac2c4fb6efd72c}
 
-Puede asignar estados de autenticación a los usuarios, según las acciones que estén realizando en las propiedades web y si están autenticados. Vea algunos ejemplos en la tabla siguiente:
+Puede asignar estados de autenticación a los usuarios, según las acciones que estén realizando en las propiedades web y si están autenticados. Consulte algunos ejemplos en la tabla siguiente:
 
 <table id="table_3769E79304014C4F87094B87A8ACE4E0"> 
  <thead> 
@@ -72,7 +72,7 @@ Puede asignar estados de autenticación a los usuarios, según las acciones que 
    <td colname="col2"> <p>Este estado se puede usar para escenarios como: </p> <p> 
      <ul id="ul_086C7446D258443DA7AF5BB96A6AAEC7"> 
       <li id="li_7845BBD62D7B4362AD3FE33DEDA8FBA1">Leer un correo electrónico (esta acción probablemente significa que el lector es el destinatario deseado, pero también se podría haber reenviado el correo electrónico). </li> 
-      <li id="li_FAB7ACFC69624631BD01FC0ED84B23C5">Pulsando desde un correo electrónico a una página de aterrizaje. </li> 
+      <li id="li_FAB7ACFC69624631BD01FC0ED84B23C5">Navegando de un correo electrónico a una página de aterrizaje haciendo clic. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Puede asignar estados de autenticación a los usuarios, según las acciones que 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.LOGGED_OUT </span> </p> </td> 
-   <td colname="col2"> <p>Se autenticó al usuario pero se cerró la sesión de forma activa. El usuario pretendía desconectarse del estado autenticado. El usuario ya no desea que se le trate como autenticado. </p> </td> 
+   <td colname="col2"> <p>Se autenticó al usuario, pero se cerró la sesión de forma activa. El usuario quería desconectarse del estado autenticado. El usuario ya no quiere que se le considere autenticado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ Los ID de cliente pueden incluir combinaciones de ID y estados autenticados, com
 >
 >* En los ID se distingue entre mayúsculas y minúsculas.
 >* Emplee únicamente valores descodificados para sus ID.
->* Los ID de cliente y los estados de autenticación no se almacenan en la cookie de ID de visitante. Deben configurarse para cada página o contexto de aplicación.
+>* Los ID de cliente y los estados de autenticación no se almacenan en la cookie de ID del visitante. Deben configurarse para cada página o contexto de aplicación.
 >* No debe incluir información de identificación personal (PII) en los ID de cliente. Si actualmente utiliza información de este tipo para identificar a algún visitante (como una dirección de correo electrónico), le recomendamos que almacene una versión con hash o cifrada de la información. La biblioteca ECID proporciona compatibilidad con identificadores de usuario hash. Consulte [Soporte hash SHA 256 para setCustomerIDs](/help/reference/hashing-support.md).
 
 
@@ -147,7 +147,7 @@ visitor.setCustomerIDs({
 
 ## Devolución de ID de cliente y estados autenticados {#section-71a610546188478fa9a3185a01d6e83b}
 
-Utilice `getCustomerIDs` para devolver ID de cliente y estados autenticados relacionados. Este método devuelve el estado autenticado de un visitante como un entero.
+Utilice `getCustomerIDs` para devolver ID de cliente y estados autenticados relacionados. Este método arroja el estado autenticado de un visitante como un número entero.
 
 **Sintaxis**
 
@@ -169,7 +169,7 @@ Utilice `getCustomerIDs` para devolver ID de cliente y estados autenticados rela
 
 **Ejemplos**
 
-Los ID de cliente y los datos de estado de autenticación devueltos deben tener un aspecto similar a los siguientes ejemplos.
+Los ID de cliente y los datos de estado de autenticación arrojados deben tener un aspecto similar a los siguientes ejemplos.
 
 ```js
 Object customerIDs = visitor.getCustomerIDs(); 
