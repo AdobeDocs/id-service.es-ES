@@ -5,9 +5,9 @@ seo-description: Estas instrucciones están destinadas a los clientes de Analyti
 seo-title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1572'
 ht-degree: 100%
 
@@ -194,7 +194,7 @@ Las soluciones de [!DNL Experience Cloud] de esta implementación devuelven ID e
 
 >[!TIP]
 >
->Puede utilizar [Adobe Debugger](https://docs.adobe.com/content/help/es-ES/analytics/implementation/validate/debugger.html) o el proxy [HTTP](https://www.charlesproxy.com/) Charles para buscar estos ID específicos de soluciones. No obstante, es libre de usar la herramienta o el depurador que más le convenga.
+>Puede utilizar [Adobe Debugger](https://docs.adobe.com/content/help/es-ES/analytics/implementation/validate/debugger.html) o el [proxy HTTP Charles](https://www.charlesproxy.com/) para buscar estos ID específicos de soluciones. No obstante, es libre de usar la herramienta o el depurador que más le convenga.
 
 **Todas las soluciones**
 
