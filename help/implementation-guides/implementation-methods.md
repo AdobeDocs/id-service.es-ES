@@ -5,11 +5,11 @@ seo-description: Métodos de implementación estándar y no estándar del servic
 seo-title: Métodos de implementación
 title: Métodos de implementación
 uuid: d41250e2-09f4-4a8b-8ade-54d43e9281c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63de22a29ebd8a504800d1045a69ea7eec05077a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ Adobe recomienda encarecidamente utilizar [[!DNL Experience Platform Launch]](ht
 
 ## Implementaciones no estándar {#section-2c4f2db1f9704315a7cccab6d2e07113}
 
-Los procedimientos y ejemplos de código de esta guía pueden ayudarle a configurar el servicio de ID de [!DNL Experience Cloud] de forma manual y sin seguir la configuración estándar. Tenga en cuenta que estas implementaciones suelen ser complejas y difíciles desde el punto de vista técnico. Pueden necesitar recursos de ingeniería escasos por su parte o consumir tiempo de soporte contratado con su consultor de Adobe.
+Los procedimientos y ejemplos de código de esta guía pueden ayudarle a configurar el servicio de [!DNL Experience Cloud] ID de forma manual y sin seguir la configuración estándar. Tenga en cuenta que estas implementaciones suelen ser complejas y difíciles desde el punto de vista técnico. Es posible que necesite recursos de ingeniería, que son escasos, o que deba pedirle horas extra a su consultor del equipo de soporte de Adobe.
