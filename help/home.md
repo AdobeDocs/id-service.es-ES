@@ -5,10 +5,10 @@ seo-description: El servicio de Adobe Experience Cloud ID (Servicio de ID) ofrec
 seo-title: Servicio de Experience Cloud ID
 title: Servicio de Experience Cloud ID
 uuid: b68194b5-e549-4f6f-bfaf-7744926aeaac
-translation-type: ht
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
-source-wordcount: '322'
+translation-type: tm+mt
+source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
+workflow-type: tm+mt
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -34,10 +34,10 @@ El servicio de Adobe Experience Cloud ID (Servicio de ID) ofrece un identificado
       <li id="li_B28082F3D075413D89E5AFB718657E17"> <a href="library/function-vars/coopsafe.md#reference-7fbed36f38a048d1a5883c53d430ddf4" format="dita" scope="local"> isCoopSafe </a> </li> 
       <li id="li_7744A4898EA542B9BF009D2066810050"> <a href="library/function-vars/idsyncontainerid.md#reference-5cfbed2240fa4def90f535f017a36015" format="dita" scope="local"> idSyncContainerID </a> </li> 
      </ul> </p> 
-    <draft-comment> 
-     <p> <b>Anuncios:</b> </p> 
-     <p> <p>Importante: El servicio de asistencia de ID para Internet Explorer 6, 7 y 8 está obsoleto y dejará de ofrecerse en futuras versiones. </p> </p> 
-    </draft-comment> </td> 
+     <!-- 
+     <p> <b>Announcements:</b> </p> 
+     <p> <p>Important:  ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be discontinued in a future release. </p> </p> 
+     --> </td> 
    <td colname="col2"> <p> <b>Notas de la versión</b> </p> <p><b>La versión 4.4</b> del 17 de julio de 2019 incluye compatibilidad con el <a href="reference/hashing-support.md" format="dita" scope="local"> algoritmo hash SHA -256</a> que permite pasar ID de clientes o direcciones de correo electrónico y transferir ID hash.</p><p><b>La versión 4.0</b> del 12 de febrero de 2019 incluye el servicio <a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local">Opt-in</a> utilizado para identificar si puede colocar una cookie en el dispositivo o el navegador de un usuario al visitar el sitio. </p> <p> 
      <ul id="ul_4F06F170F214492780C7D25A069F799F"> 
       <li id="li_45A7CD556FE44F4DAB035C736A058F36"> Consulte las últimas <a href="https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones. </li> 
