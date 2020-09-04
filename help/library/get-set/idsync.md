@@ -1,19 +1,22 @@
 ---
-description: Las funciones del servicio de ID idSyncByURL y idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Estas funciones están disponibles en VisitorAPI.js versión 1.10 o posteriores.
-keywords: Servicio de ID
-seo-description: Las funciones del servicio de ID idSyncByURL y idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Estas funciones están disponibles en VisitorAPI.js versión 1.10 o posteriores.
+description: Las funciones del servicio de ID idSyncByURL e idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Están disponibles en VisitorAPI.js versión 1.10 o posterior.
+keywords: ID Service
+seo-description: Las funciones del servicio de ID idSyncByURL e idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Están disponibles en VisitorAPI.js versión 1.10 o posterior.
 seo-title: Sincronización de ID por dirección URL o fuente de datos
 title: Sincronización de ID por dirección URL o fuente de datos
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
-translation-type: ht
-source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
+translation-type: tm+mt
+source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 51%
 
 ---
 
 
 # Sincronización de ID por dirección URL o fuente de datos{#id-synchronization-by-url-or-data-source}
 
-Las funciones del servicio de ID idSyncByURL y idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Estas funciones están disponibles en VisitorAPI.js versión 1.10 o posteriores.
+Las funciones del servicio de ID idSyncByURL e idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Están disponibles en VisitorAPI.js versión 1.10 o posterior.
 
 ## Sintaxis, propiedades y macros {#section-90ac61617482463aaf4c57009b830332}
 
@@ -23,7 +26,7 @@ Las funciones del servicio de ID idSyncByURL y idSyncByDataSource le permiten im
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Código </th> 
-   <th colname="col2" class="entry"> Sincroniza los ID de los usuarios </th> 
+   <th colname="col2" class="entry"> Sincroniza los ID de usuario </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -33,17 +36,14 @@ Las funciones del servicio de ID idSyncByURL y idSyncByDataSource le permiten im
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> visitor.idSyncByDataSource(); </span> </p> </td> 
-   <td colname="col2"> <p>Cuando se conoce el DPID y el DPUUID, y se desea enviar a <span class="keyword">Audience Manager</span> en el formato estándar de URL de sincronización de ID. </p> <p> 
-     <draft-comment>
-       Cuando ya conoce el ID de usuario y desea enviarlo a Audience Manager. 
-     </draft-comment> </p> </td> 
+   <td colname="col2"> <p>Cuando se conoce el DPID y el DPUUID, y se desea enviar a <span class="keyword">Audience Manager</span> en el formato estándar de URL de sincronización de ID. </p> <p></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Propiedades**
 
-En la tabla siguiente se enumeran y definen las propiedades disponibles para ambas funciones.
+La tabla siguiente lista y define las propiedades disponibles para ambas funciones.
 
 <table id="table_5343BE784E694C67B09A0A8878CF8001"> 
  <thead> 
@@ -57,22 +57,22 @@ En la tabla siguiente se enumeran y definen las propiedades disponibles para amb
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> dpid </span> </td> 
    <td colname="col2"> Cadena </td> 
-   <td colname="col3"> <p>ID de proveedor de datos asignado por Audience Manager. </p> </td> 
+   <td colname="col3"> <p>ID del proveedor de datos asignado por el Audience Manager. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> dpuuid </span> </td> 
    <td colname="col2"> Cadena </td> 
-   <td colname="col3"> <p>El ID exclusivo de proveedor de datos para el usuario. </p> </td> 
+   <td colname="col3"> <p>ID única del proveedor de datos para el usuario. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> minutesToLive </span> </td> 
    <td colname="col2"> Número </td> 
-   <td colname="col3"> <p> <i>(Opcional)</i> Establece el tiempo de caducidad de la cookie. Debe ser un número entero. El valor predeterminado es de 20160 minutos (14 días). </p> </td> 
+   <td colname="col3"> <p> <i>(Opcional)</i> Establece el tiempo de caducidad de la cookie. Debe ser un número entero. El valor predeterminado es 20160 minutos (14 días). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> url </span> </td> 
    <td colname="col2"> Cadena </td> 
-   <td colname="col3"> <p>Dirección URL de destino. </p> </td> 
+   <td colname="col3"> <p>URL de destino </p> </td> 
   </tr> 
  </tbody> 
 </table>
