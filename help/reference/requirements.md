@@ -5,9 +5,9 @@ seo-description: Lea esta sección para asegurarse de que está empleando las so
 seo-title: Requisitos del servicio de Experience Cloud ID
 title: Requisitos del servicio de Experience Cloud ID
 uuid: 608b1082-6e9e-4101-b6cb-60027950109b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -105,12 +105,12 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b> <span class="keyword"> servicio de Experience Cloud ID</span></b> </p> </td> 
+   <td colname="col1"> <p> <b> <span class="keyword"> servicio de</span> Experience Cloud ID</b> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> VisitorAPI.js</span> </p> </td> 
    <td colname="col4"> <p>2.0 o posterior </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="2"> <p> <b><span class="keyword">Analytics </span></b> </p> </td> 
+   <td colname="col1" morerows="2"> <p> <b> <span class="keyword">Analytics </span> </b> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> AppMeasurement.js</span> </p> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/js/overview.html" format="https" scope="external">AppMeasurement para JavaScript</a>. </p> </td> 
    <td colname="col4"> <p>1.6.4 o posterior </p> </td> 
   </tr> 
