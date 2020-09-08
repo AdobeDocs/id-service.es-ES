@@ -5,16 +5,16 @@ seo-description: Las funciones del servicio de ID idSyncByURL e idSyncByDataSour
 seo-title: Sincronización de ID por dirección URL o fuente de datos
 title: Sincronización de ID por dirección URL o fuente de datos
 uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 
-# Sincronización de ID por dirección URL o fuente de datos{#id-synchronization-by-url-or-data-source}
+# Sincronización de ID por dirección URL o fuente de datos {#id-synchronization-by-url-or-data-source}
 
 Las funciones del servicio de ID idSyncByURL e idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Están disponibles en VisitorAPI.js versión 1.10 o posterior.
 
@@ -43,7 +43,7 @@ Las funciones del servicio de ID idSyncByURL e idSyncByDataSource le permiten im
 
 **Propiedades**
 
-La tabla siguiente lista y define las propiedades disponibles para ambas funciones.
+La tabla siguiente detalla y define las propiedades disponibles para ambas funciones.
 
 <table id="table_5343BE784E694C67B09A0A8878CF8001"> 
  <thead> 
@@ -62,17 +62,17 @@ La tabla siguiente lista y define las propiedades disponibles para ambas funcion
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> dpuuid </span> </td> 
    <td colname="col2"> Cadena </td> 
-   <td colname="col3"> <p>ID única del proveedor de datos para el usuario. </p> </td> 
+   <td colname="col3"> <p>ID único del proveedor de datos del usuario. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> minutesToLive </span> </td> 
    <td colname="col2"> Número </td> 
-   <td colname="col3"> <p> <i>(Opcional)</i> Establece el tiempo de caducidad de la cookie. Debe ser un número entero. El valor predeterminado es 20160 minutos (14 días). </p> </td> 
+   <td colname="col3"> <p> <i>(Opcional)</i> Establece el tiempo de caducidad de la cookie. Debe ser un número entero. El valor predeterminado es 20160 minutos (14 días). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <span class="codeph"> url </span> </td> 
    <td colname="col2"> Cadena </td> 
-   <td colname="col3"> <p>URL de destino </p> </td> 
+   <td colname="col3"> <p>URL de destino. </p> </td> 
   </tr> 
  </tbody> 
 </table>
