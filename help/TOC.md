@@ -6,9 +6,9 @@ user-guide-title: Asistencia del servicio de identidad de Experience Cloud
 breadcrumb-title: Identity Service Guide
 user-guide-description: The ID service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for services such as Analytics, Audience Manager, Target, and other Experience Cloud solutions or features.
 user-guide-url: /content/help/en/id-service/using/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c84d217219e76e0635bbfe9d73d11612643e8e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ ht-degree: 100%
       + [Orden de operaciones para los ID de Analytics](reference/analytics-reference/analytics-order-of-operations.md)
       + [Puntos de decisión para la migración del servicio de ID](reference/analytics-reference/migration-decisions.md)
       + [Escenarios de migración del servicio de ID](reference/analytics-reference/migration-scenarios.md)
-      + [Solicitudes de análisis e identidad](reference/analytics-reference/legacy-analytics.md)
+      + [Solicitudes de Analytics e identidad](reference/analytics-reference/legacy-analytics.md)
       + [CNAME de recopilación de datos y seguimiento entre dominios](reference/analytics-reference/cname.md)
       + [Implementación del lado del servidor combinada con JavaScript](reference/analytics-reference/server-side.md)
       + [Período de gracia del servicio de ID](reference/analytics-reference/grace-period.md)
