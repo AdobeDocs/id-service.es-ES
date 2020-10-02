@@ -4,7 +4,7 @@ seo-title: Cambios en el etiquetado del mismo sitio de Google Chrome
 description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 seo-description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 translation-type: tm+mt
-source-git-commit: f74a028532e95ab17f5d2e64697d69eb64e03391
+source-git-commit: 592ca6ca6a72e57b728e286d0b730c5bd93c0c7b
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 4%
@@ -64,7 +64,9 @@ Al `lax` convertirse en la nueva configuración predeterminada SameSite en Chrom
 
 Para dar cabida al cambio, Analytics ahora establece explícitamente el valor SameSite de la `s_vi` cookie en `lax`. Para utilizar esta cookie en un contexto de terceros más sencillo, establezca el valor SameSite en `none`, lo que también significa que siempre debe utilizar HTTPS. Póngase en contacto con el Servicio de atención al cliente para que se cambie el valor de SameSite para sus CNAME seguros.
 
-> [!IMPORTANT] Esta acción no es necesaria para los clientes de Analytics que usan ECID, los clientes que usan un CNAME independiente para cada uno de sus dominios o los clientes que solo usan recopilación de datos de Analytics de terceros.
+>[!IMPORTANT]
+>
+>Esta acción no es necesaria para los clientes de Analytics que usan ECID, los clientes que usan un CNAME independiente para cada uno de sus dominios o los clientes que solo usan recopilación de datos de Analytics de terceros.
 
 ## Cookies de Visitante estándar de Adobe
 
