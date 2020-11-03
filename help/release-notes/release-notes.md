@@ -4,8 +4,11 @@ keywords: ID Service
 seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 seo-title: Notas de la versión 2020
 title: Notas de la versión 2020
-translation-type: ht
-source-git-commit: c4da0f3da99a96d2be7421f49e0e88286d0505e0
+translation-type: tm+mt
+source-git-commit: d0057a8242dafca63101b1a2f569766bde11bea7
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 91%
 
 ---
 
@@ -24,3 +27,5 @@ Se corrigió un problema de rendimiento en `Internet-Explorer (IE) 11` cuando EC
 
 * A partir de la versión 4.5, ECID rechazará cualquier ID vacío enviado al método de `setCustomerIDs`. 
 * Se ha corregido un problema que se producía cuando la opción de activación no se configuraba como `doesOptInApply=false` y `isIabContext=true`.
+
+Consulte las notas de revisión [del Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html) para ver las notas de revisión mensuales de todos los productos.
