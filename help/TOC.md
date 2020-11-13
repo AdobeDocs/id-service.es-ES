@@ -7,10 +7,10 @@ breadcrumb-title: Guía del servicio de identidad
 user-guide-description: El servicio de ID ofrece un identificador universal y persistente que identifica a los visitantes en todas las soluciones de Experience Cloud. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Target y otras soluciones o funciones de Experience Cloud.
 user-guide-url: /content/help/en/id-service/using/home.html
 translation-type: tm+mt
-source-git-commit: 47a32f41de23391cf24529c32a5d1098aa010c07
+source-git-commit: 3aba8820ef40d068c732a637be5ab67652a8d35d
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [Validación del servicio Opt-in](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
       + [Configuración del servicio de Opt-in con Experience Platform Launch](implementation-guides/opt-in-service/launch.md)
       + [Configuración de Opt-in con DTM](implementation-guides/opt-in-service/optin-dtm.md)
+      + [Actividades del Experience Cloud de control basadas en el consentimiento del usuario](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent)
       + [Casos de uso de Opt-in](implementation-guides/opt-in-service/use-cases.md)
       + [Referencia de Opt-in](implementation-guides/opt-in-service/api.md)
       + [Uso de servicios de inclusión con IAB Framework](implementation-guides/opt-in-service/iab.md)
