@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0bf1464a7caf3f2a8a06178ed5c2d2525e79cfd6
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 97%
       + [Validación del servicio Opt-in](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
       + [Configuración del servicio de Opt-in con Experience Platform Launch](implementation-guides/opt-in-service/launch.md)
       + [Configuración de Opt-in con DTM](implementation-guides/opt-in-service/optin-dtm.md)
-      + [Actividades del Experience Cloud de control basadas en el consentimiento del usuario](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.md)
+      + [Actividades de control de Experience Cloud basadas en el consentimiento del usuario](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.md)
       + [Casos de uso de Opt-in](implementation-guides/opt-in-service/use-cases.md)
       + [Referencia de Opt-in](implementation-guides/opt-in-service/api.md)
       + [Uso de servicios de inclusión con IAB Framework](implementation-guides/opt-in-service/iab.md)
