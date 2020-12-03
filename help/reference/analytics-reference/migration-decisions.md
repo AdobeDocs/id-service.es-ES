@@ -5,9 +5,9 @@ seo-description: Antes de implementar el servicio de Experience Cloud ID, es nec
 seo-title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%
 
