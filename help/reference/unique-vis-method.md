@@ -1,9 +1,9 @@
 ---
 title: Identificación de visitantes únicos
 description: Documentación de Adobe ECID (servicio de ID)
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ad5ae179540596913fccc59070aecc57b09f586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
 
