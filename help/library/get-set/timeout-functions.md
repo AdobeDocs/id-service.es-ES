@@ -1,12 +1,15 @@
 ---
 description: Llame a estas funciones del servicio de identidad para determinar el estado de tiempo de espera de una solicitud de ID del servicio de identidad de Experience Cloud, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
-keywords: Servicio de ID
-seo-description: Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID del servicio de Experience Cloud ID, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+keywords: ID Service
+seo-description: Llame a estas funciones del servicio de identidad para determinar el estado de tiempo de espera de una solicitud de ID del servicio de identidad de Experience Cloud, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 seo-title: Métodos callTimeOut
 title: Métodos callTimeOut
 uuid: e5047498-11db-4945-b356-c92b7d447573
 translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 96%
 
 ---
 
