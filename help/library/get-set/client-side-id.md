@@ -1,25 +1,28 @@
 ---
-description: Llame a esta función del servicio de ID para determinar si el servicio de ID generó un ID de visitante de Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
-keywords: Servicio de ID
-seo-description: Llame a esta función del servicio de ID para determinar si el servicio de ID generó un ID de visitante de Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+description: Llame a esta función de servicio de ID para determinar si el servicio de ID generó un ID de visitante de Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+keywords: ID Service
+seo-description: Llame a esta función de servicio de ID para determinar si el servicio de ID generó un ID de visitante de Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 seo-title: isClientSideMarketingCloudVisitorID
 title: isClientSideMarketingCloudVisitorID
 uuid: 1c39ac60-1d2b-4ed4-a2ea-30d680e61e10
 translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 52%
 
 ---
 
 
 # isClientSideMarketingCloudVisitorID{#isclientsidemarketingcloudvisitorid}
 
-Llame a esta función del servicio de ID para determinar si el servicio de ID generó un ID de visitante de Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+Llame a esta función de servicio de ID para determinar si el servicio de ID generó un ID de visitante de Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 
 **Sintaxis**
 
 `var *`variableName`* = visitor.isClientSideMarketingCloudVisitorID()`
 
-La tabla siguiente enumera y describe las respuestas que devuelve esta función.
+La siguiente tabla lista y describe las respuestas devueltas por esta función.
 
 <table id="table_5D08A5DD6FD04F94818B0E8B790D3136"> 
  <thead> 
