@@ -1,12 +1,15 @@
 ---
 description: Un indicador booleano opcional que impide que el servicio de ID realice llamadas a otros dominios.
-keywords: seguimiento entre dominios;servicio de ID
+keywords: cross domain tracking;ID Service
 seo-description: Un indicador booleano opcional que impide que el servicio de ID realice llamadas a otros dominios.
 seo-title: disableThirdPartyCalls
 title: disableThirdPartyCalls
 uuid: e92ce1f5-67a4-476c-9d04-41d4e96b1592
 translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 63%
 
 ---
 
@@ -21,15 +24,15 @@ Si el método `disableThirdPartyCalls: true`, el servicio de ID no llama a otros
 
 **Finalidad**
 
-Esta variable se ha pensado para clientes en estos casos:
+Esta variable está diseñada para clientes que necesitan:
 
-* Que necesiten impedir que el servicio de ID realice llamadas desde sus páginas seguras y autenticadas.
+* Para evitar que el servicio de ID realice llamadas desde sus páginas seguras y autenticadas.
 * Que necesiten que los visitantes del sitio dispongan de un Experience Cloud ID (MID).
-* Que necesiten que las otras soluciones de Experience Cloud funcionen correctamente.
+* Sus otras soluciones Experience Cloud para funcionar correctamente.
 
 **Estrategia de implementación**
 
-Dado que otras soluciones de Experience Cloud se basan en el MID, el servicio de ID llama a Adobe para devolver y establecer este ID. Si necesita hacer que el servicio de ID deje de realizar llamadas desde secciones autenticadas del sitio web, permita que realice las llamadas oportunas desde páginas que no requieran primero autenticación. Una vez que el visitante del sitio dispone de un MID, podrá establecer `disableThirdPartyCalls= true` en el código del servicio de ID dentro de las secciones autenticadas del sitio. En este caso, se entiende que la mayoría de los clientes, si no todos, navegará a una página de autenticación antes de obtener acceso a las partes seguras del sitio.
+Dado que otras soluciones Experience Cloud dependen del MID, el servicio de ID llama al Adobe para devolver y establecer este ID. Si necesita hacer que el servicio de ID deje de realizar llamadas desde secciones autenticadas del sitio web, permita que realice las llamadas oportunas desde páginas que no requieran primero autenticación. Una vez que el visitante del sitio dispone de un MID, podrá establecer `disableThirdPartyCalls= true` en el código del servicio de ID dentro de las secciones autenticadas del sitio. La suposición aquí es que la mayoría de los clientes, si no todos, navegarán a una página de autenticación antes de obtener acceso a las partes seguras del sitio.
 
 **Ejemplo de código**
 
