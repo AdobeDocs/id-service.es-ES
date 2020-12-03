@@ -1,21 +1,24 @@
 ---
-description: Esta configuración le permite sobrescribir el intervalo de caducidad predeterminado del ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda appendSupplementalDataIDTo. De forma predeterminada, el código de servicio de ID de la página de recepción tiene 30 segundos para obtener el SDID de la URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicitará un nuevo SDID. Esta funcionalidad sirve principalmente para clientes de A4T que deben pasar el SDID de una página a otra y desean ejercer control sobre este intervalo de tiempo de espera.
-keywords: Servicio de ID
-seo-description: Esta configuración le permite sobrescribir el intervalo de caducidad predeterminado del ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda appendSupplementalDataIDTo. De forma predeterminada, el código de servicio de ID de la página de recepción tiene 30 segundos para obtener el SDID de la URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicitará un nuevo SDID. Esta funcionalidad sirve principalmente para clientes de A4T que deben pasar el SDID de una página a otra y desean ejercer control sobre este intervalo de tiempo de espera.
+description: Esta configuración permite anular el intervalo de caducidad predeterminado de ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda appendSupplementalDataIDTo. De forma predeterminada, el código de servicio de ID de la página de recepción dispone de 30 segundos para obtener el SDID de la dirección URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicita un nuevo SDID. Esta funcionalidad es principalmente para clientes de A4T que necesitan pasar el SDID de una página a otra y desean controlar este intervalo de tiempo de espera.
+keywords: ID Service
+seo-description: Esta configuración permite anular el intervalo de caducidad predeterminado de ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda appendSupplementalDataIDTo. De forma predeterminada, el código de servicio de ID de la página de recepción dispone de 30 segundos para obtener el SDID de la dirección URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicita un nuevo SDID. Esta funcionalidad es principalmente para clientes de A4T que necesitan pasar el SDID de una página a otra y desean controlar este intervalo de tiempo de espera.
 seo-title: sdidParamExpiry
 title: sdidParamExpiry
 uuid: cdaf7e2d-b196-4c70-936d-8a98191cbb85
 translation-type: tm+mt
 source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 9%
 
 ---
 
 
 # sdidParamExpiry{#sdidparamexpiry}
 
-Esta configuración le permite sobrescribir el intervalo de caducidad predeterminado del ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda appendSupplementalDataIDTo. De forma predeterminada, el código de servicio de ID de la página de recepción tiene 30 segundos para obtener el SDID de la URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicitará un nuevo SDID. Esta funcionalidad sirve principalmente para clientes de A4T que deben pasar el SDID de una página a otra y desean ejercer control sobre este intervalo de tiempo de espera.
+Esta configuración permite anular el intervalo de caducidad predeterminado de ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda appendSupplementalDataIDTo. De forma predeterminada, el código de servicio de ID de la página de recepción dispone de 30 segundos para obtener el SDID de la dirección URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicita un nuevo SDID. Esta funcionalidad es principalmente para clientes de A4T que necesitan pasar el SDID de una página a otra y desean controlar este intervalo de tiempo de espera.
 
-**Sobrescribir el tiempo de espera de SDID**
+**Anular el tiempo de espera SDID**
 
 Si debe cambiar el tiempo de espera de SDID predeterminado, agregue `sdidParamExpiry` a la `Visitor.getInstance` función con la sintaxis siguiente:
 
@@ -23,7 +26,7 @@ Si debe cambiar el tiempo de espera de SDID predeterminado, agregue `sdidParamEx
 
 **Ejemplo de código**
 
-Una vez configurado su código de servicio de ID, puede tener un aspecto similar al ejemplo siguiente. Este ejemplo establece el tiempo de espera de SDID en 15 segundos. Esta configuración funciona con el  método de ayuda [appendSupplementalDataIDTo](../../library/get-set/appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d).
+Cuando está configurado, el código de servicio de ID podría ser similar a este ejemplo. Este ejemplo establece el tiempo de espera SDID en 15 segundos. Esta configuración funciona con el  método de ayuda [appendSupplementalDataIDTo](../../library/get-set/appendsupplementaldataidto.md#reference-65d09de6fde0418f8c62fa79304a755d).
 
 ```js
 var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
