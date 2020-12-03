@@ -1,12 +1,15 @@
 ---
 description: Un indicador booleano opcional que controla el modo en el que el navegador solicita recursos desde el servicio de identidad de Experience Cloud.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Un indicador booleano opcional que controla el modo en el que el navegador solicita recursos desde el servicio de Experience Cloud ID.
 seo-title: useCORSOnly
 title: useCORSOnly
 uuid: 607dc035-dffc-4f4d-be51-08ef6c0a8fad
 translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 66%
 
 ---
 
@@ -19,11 +22,11 @@ Un indicador booleano opcional que controla el modo en el que el navegador solic
 
 **Información general**
 
-Cuando se establece en `false`, el navegador comprueba los recursos con CORS o JSONP. No obstante, el servicio de ID siempre intenta solicitar recursos con CORS primero. Vuelve a JSONP en navegadores anteriores que no son compatibles con CORS. Si necesita forzar al navegador para que use solo CORS, establezca `useCORSOnly:true` en la llamada de la función `Visitor.getInstance`.
+Cuando se establece en `false`, el navegador comprueba los recursos con CORS o JSONP. Sin embargo, el servicio de ID siempre intenta solicitar recursos primero con CORS. Vuelve a JSONP en navegadores más antiguos que no admiten CORS. Si necesita forzar al navegador para que use solo CORS, establezca `useCORSOnly:true` en la llamada de la función `Visitor.getInstance`.
 
 >[!IMPORTANT]
 >
->`Set useCORSOnly: true` si tiene requisitos de seguridad estrictos. Solo debe habilitar este modo si está seguro de que todos los visitantes utilizan navegadores compatibles con CORS. La experiencia del usuario no se ve afectada cuando se usan navegadores no compatibles con CORS. No obstante, los navegadores que no son compatibles con CORS no podrán solicitar recursos o intercambiar datos con [!DNL Adobe Experience Cloud].
+>`Set useCORSOnly: true` si tiene requisitos de seguridad estrictos. Solo debe activar este modo si está seguro de que todos los visitantes utilizan navegadores compatibles con CORS. La experiencia del usuario no se ve afectada por los exploradores que no admiten CORS. No obstante, los navegadores que no son compatibles con CORS no podrán solicitar recursos o intercambiar datos con [!DNL Adobe Experience Cloud].
 
 **Ejemplo de código**
 
