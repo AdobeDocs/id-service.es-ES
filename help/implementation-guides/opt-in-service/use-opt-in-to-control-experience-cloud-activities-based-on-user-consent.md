@@ -1,9 +1,9 @@
 ---
 title: Use la opción de inclusión para controlar Actividades de Experience Cloud basadas en el consentimiento del usuario
 description: El objeto de selección de Adobe es una extensión del servicio de identidad de Adobe Experience Platform, diseñado para ayudarle a controlar si las soluciones de Experience Cloud pueden crear cookies en páginas web o iniciar señalizaciones en función del consentimiento del usuario final.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3aba8820ef40d068c732a637be5ab67652a8d35d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Esto se reduce a esto:
 
 [!UICONTROL La inclusión] también es más fácil de configurar con Adobe Experience Platform Launch. Vea el siguiente vídeo para ver cómo.
 
->[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
 
 Si no utiliza Experience Platform Launch, puede definir la configuración de [!UICONTROL inclusión] en la inicialización del objeto de Visitante global, como se muestra en la [documentación](https://marketing.adobe.com/resources/help/es_ES/mcvid/getting-started.html).
 
@@ -46,7 +46,7 @@ Al configurar una interfaz de usuario para utilizar la opción de [!UICONTROL in
 
 En el siguiente vídeo, vea una demostración rápida de la [!UICONTROL inclusión] en la página y cómo puede afectar si las soluciones Experience Cloud pueden configurar cookies, iniciar señalizaciones, etc.
 
->[!VIDEO](https://video.tv.adobe.com/v/26432/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26432/?quality=12)
 
 **NOTA:** Es importante señalar que, en el momento de escribir este artículo, la [!UICONTROL inclusión] no se ha incorporado en las bibliotecas de todas las soluciones de Experience Cloud. Las bibliotecas admitidas actualmente para la [!UICONTROL inclusión] son:
 
