@@ -1,12 +1,15 @@
 ---
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2018.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2018.
 seo-title: Notas de la versión 2018
 title: Notas de la versión 2018
 uuid: 771b5b11-a8e3-464c-b65e-b15135584ace
 translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 40%
 
 ---
 
@@ -26,8 +29,8 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Se ha mejorado la seguridad de las cookies AMCV </p> </td> 
-   <td colname="col2"> <p>Durante un análisis de seguridad interna se descubrió que, al utilizar la biblioteca DTM, las cookies empleadas para la gestión de la sesión no especificaban atributos apropiados. Como resultado, podía compartirse de forma inadvertida información de las cookies. Para solucionar este problema hemos introducido una configuración que permite al cliente establecer la cookie AMCV como segura. Consulte <a href="/help/library/function-vars/securecookie.md" format="https" scope="external">secureCookie</a>. </p> </td> 
+   <td colname="col1"> <p>Mayor seguridad para las cookies AMCV </p> </td> 
+   <td colname="col2"> <p>Durante un análisis de seguridad interna, se descubrió que al utilizar la biblioteca de la DTM, las cookies utilizadas para la administración de sesiones no especificaban los atributos adecuados. Esto podría hacer que la información de las cookies se compartiera de forma involuntaria. Para solucionarlo, hemos introducido una configuración que permite al cliente configurar la cookie AMCV como segura. Consulte <a href="/help/library/function-vars/securecookie.md" format="https" scope="external">secureCookie</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,16 +46,16 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Se ha mejorado la seguridad de las cookies AMCV </p> </td> 
-   <td colname="col2"> <p>Durante un análisis de seguridad interna se descubrió que, al utilizar la biblioteca DTM, las cookies empleadas para la gestión de la sesión no especificaban atributos apropiados. Como resultado, podía compartirse de forma inadvertida información de las cookies. Para solucionar este problema hemos introducido una configuración que permite al cliente establecer la cookie AMCV como segura. Consulte secureCookie. </p> </td> 
+   <td colname="col1"> <p>Mayor seguridad para las cookies AMCV </p> </td> 
+   <td colname="col2"> <p>Durante un análisis de seguridad interna, se descubrió que al utilizar la biblioteca de la DTM, las cookies utilizadas para la administración de sesiones no especificaban los atributos adecuados. Esto podría hacer que la información de las cookies se compartiera de forma involuntaria. Para solucionarlo, hemos introducido una configuración que permite al cliente configurar la cookie AMCV como segura. Consulte secureCookie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>El código de integración y el id deben ser números o cadenas no vacías </p> </td> 
-   <td colname="col2"> <p>Se ha corregido un problema relativo a la validación de “setCustomerIDs” en los casos en los que los datos contienen un valor “code” o “id” de integración que no es un número ni una cadena que no esté vacía. </p> </td> 
+   <td colname="col1"> <p>El código de integración y la identificación deben ser números o cadenas que no estén vacías </p> </td> 
+   <td colname="col2"> <p>Se ha corregido un problema con la validación de "setCustomerIDs" cuando los datos contienen un "código" de integración o "id" que no es un número ni una cadena que no está vacía. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> ECID JS está disponible en el repositorio Git público </td> 
-   <td colname="col2"> ECID JS ahora está disponible en el repositorio Git público para todos los clientes de Experience Cloud: https://github.com/Adobe-Marketing-Cloud/id-service/releases. </td> 
+   <td colname="col1"> ECID JS está disponible en Public Git repo </td> 
+   <td colname="col2"> ECID JS ya está disponible en Public Git repo para todos los clientes Experience Cloud en https://github.com/Adobe-Marketing-Cloud/id-service/releases. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Repunte poco realista en el recuento de visitantes únicos </p> </td> 
-   <td colname="col2"> <p>Con el lanzamiento del servicio de identidad de Experience Cloud 3.1.0 se encontró un problema que creaba un repunte poco realista en el recuento de visitantes únicos tras la implementación de esta versión. Este comportamiento solo se produce con la última versión de ECID, v3.1.0, y si el usuario selecciona la opción “Permitir solo del sitio web actual” en los ajustes de privacidad del navegador Safari. La versión 3.1.2 corrige este problema. </p> </td> 
+   <td colname="col2"> <p>Con el lanzamiento del servicio de identidad de Experience Cloud 3.1.0 se encontró un problema que creaba un repunte poco realista en el recuento de visitantes únicos tras la implementación de esta versión. Este comportamiento solo se muestra con la versión más reciente de ECID, v3.1.0, y si un usuario ha seleccionado la opción "Permitir solo desde el sitio web actual" en la configuración de privacidad de un navegador Safari. La versión 3.1.2 corrige este problema. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +93,7 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie establecida en un dominio incorrecto </p> </td> 
-   <td colname="col2"> <p>Se ha corregido un error por el que la cookie de visitante temporal establecía una cookie en el dominio de cookie “predeterminado” en vez de hacerlo en el dominio indicado en la configuración (initConfig). </p> </td> 
+   <td colname="col2"> <p>Se corrigió un error en el cual la cookie de Visitante temp configuraba una cookie en el dominio de cookie ‘predeterminado’ en lugar de hacerlo en el dominio proporcionado en la configuración (initConfig). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +110,7 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Separación de procesos cuando hay varias solicitudes de sincronización de ID </p> </td> 
-   <td colname="col2"> <p><b>Iframe</b> </p> <p>A veces, a los clientes que realizan varias sincronizaciones de ID se les bloquea la IU debido a que ocurren continuas computaciones de CPU. Presentamos la separación de procesos para dividir las solicitudes de sincronización de ID en 100 ms cada una. </p> <p>Con este cambio, mejorará el rendimiento de los clientes que utilizan Visitor 2.3.0 o superior y DIL 6.10 o superior. </p> </td> 
+   <td colname="col2"> <p><b>Iframe</b> </p> <p>A veces, a los clientes que realizan varias sincronizaciones de ID se les bloquea la IU debido a que ocurren continuas computaciones de CPU. Estamos introduciendo el rendimiento de subprocesos para separar las solicitudes de sincronización de ID en 100 ms cada una. </p> <p>Este cambio mejorará el rendimiento de los clientes que utilicen Visitante 2.3.0 o posterior y DIL 6.10 o posterior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Se ha añadido la capacidad de desactivar las llamadas de terceros. </td> 
