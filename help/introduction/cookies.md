@@ -5,9 +5,9 @@ seo-description: El servicio de ID utiliza su ID de organización, la cookie AMC
 seo-title: Cookies y el servicio de Experience Cloud ID
 title: Cookies y el servicio de Experience Cloud ID
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 100%
 
