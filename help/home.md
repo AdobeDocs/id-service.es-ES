@@ -5,9 +5,9 @@ seo-description: El servicio de Adobe Experience Cloud ID (Servicio de ID) ofrec
 seo-title: Servicio de Experience Cloud ID
 title: Servicio de Experience Cloud ID
 uuid: b68194b5-e549-4f6f-bfaf-7744926aeaac
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 
