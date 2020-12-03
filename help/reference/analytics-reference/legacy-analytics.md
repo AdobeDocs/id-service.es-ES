@@ -5,9 +5,9 @@ seo-description: Una visión general de cómo funciona el servicio de Experience
 seo-title: Solicitudes de ID de Analytics e Experience Cloud ID
 title: Solicitudes de ID de Analytics e Experience Cloud ID
 uuid: 28beed16-7ef9-4824-8e82-853930756eca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
