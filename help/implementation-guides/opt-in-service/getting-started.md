@@ -6,6 +6,9 @@ title: Configuración del servicio de inclusión (Opt-in)
 uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
 translation-type: tm+mt
 source-git-commit: 7d0df419c4af7f8a58ffa56b1176bf638bc0045b
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 78%
 
 ---
 
@@ -22,27 +25,27 @@ El servicio Opt-in le permite especificar si un visitante puede incluirse en las
 
 1. ECID versión 4.0.
 
-   [Descargue](https://github.com/Adobe-Marketing-Cloud/id-service/releases) la versión más reciente de ECID.
+   [Descargue](https://github.com/Adobe-Marketing-Cloud/id-service/releases) la última versión de ECID.
 
 1. Bibliotecas de soporte:
 
    * ECID 4.0 o posterior
    * AppMeasurement 2.11 o posterior
    * DIL 9.0
-   * AT.js versión 1.7.0
-   * Extensión AT.js para Launch versión 9.0
-   * Para Analytics, AppMeasurement 2.11 con la extensión 1.6
-   * Para Target, la extensión 0.9.1
+   * Versión 1.7.0 de AT.js
+   * Versión 9.0 de la extensión de lanzamiento de AT.js
+   * Para Analytics, AppMeasurement 2.11 con extensión 1.6
+   * Para el Destinatario, extensión 0.9.1
 
-1. Conozca en profundidad el marco de gestión del consentimiento que va a utilizar con Opt-in y entienda cualquier requisito previo adicional.
+1. Conozca bien el marco de administración de consentimiento que utilizará con la inclusión y comprenda cualquier requisito previo adicional.
 
    <!--
    For IAB, see here for additional pre-reqs.
    -->
 
-1. Los requisitos de privacidad de su empresa dependerán de cómo elija satisfacer el cumplimiento del RGPD. Debe saber qué bibliotecas pueden utilizar los equipos de privacidad de su empresa previamente al consentimiento.
+1. Los requisitos de privacidad de su compañía serán específicos de la manera en que elija seguir cumpliendo con el RGPD. Tenga en cuenta qué bibliotecas utilizan los equipos de privacidad de su compañía en un estado de preconsentimiento.
 
-Si utiliza [Launch, de Adobe](https://docs.adobelaunch.com/), aproveche la [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
+If using [Adobe Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html), take advantage of the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md) to configure Opt-in service.
 
 ## Categorías de Opt-in {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
@@ -65,7 +68,7 @@ Las bibliotecas del lado del cliente de todas las soluciones de Adobe dependen d
 
 Se proporcionan configuraciones del servicio Opt-in en la `getInstance()` función de Visitor JS, que crea una instancia del `adobe` objeto global. A continuación se enumeran los [ajustes de configuración](../../implementation-guides/opt-in-service/api.md#section-d66018342baf401389f248bb381becbf) de Visitor JS para el servicio Opt-in.
 
-**Ejemplo de configuración de Opt-in en la inicialización del`Visitor`objeto global**
+**Ejemplo de configuración de Opt-in en la inicialización del `Visitor` objeto global**
 
 ```
 // FORMAT: Object<adobe.OptInCategories enum: boolean> 
@@ -90,7 +93,7 @@ Visitor.getInstance("YOUR_ORG_ID", {
 
 **Gestión de cambios en el consentimiento**
 
-En cualquier momento durante su experiencia en el sitio, un visitante puede establecer preferencias por primera vez o puede cambiar sus preferencias mediante CMP. Una vez que Visitor JS se ha inicializado con su configuración inicial, es posible cambiar los permisos del visitante. Consulte [Cambios en el consentimiento](../../implementation-guides/opt-in-service/api.md#section-c3d85403ff0d4394bd775c39f3d001fc) para ver una lista de funciones de gestión del consentimiento.
+En cualquier momento durante la experiencia de un visitante en su sitio, pueden establecer preferencias por primera vez o pueden cambiar sus preferencias usando su CMP. Una vez inicializada la Visitante JS con la configuración inicial, los permisos del visitante se pueden cambiar. Consulte [Cambios en el consentimiento](../../implementation-guides/opt-in-service/api.md#section-c3d85403ff0d4394bd775c39f3d001fc) para ver una lista de funciones de gestión del consentimiento.
 
 <!--
 <p> *** <b>sample code block </b>*** </p>
@@ -110,9 +113,9 @@ Consulte [Establecer una configuración del flujo de trabajo](../../implementati
 
 ## Inspeccione los permisos de Opt-in del visitante {#section-f136a9024e054d84881e6667fb7c94eb}
 
-A medida que los visitantes realicen cambios en sus permisos, necesitará conocer los permisos resultantes para sincronizar el almacén de consentimiento con los cambios realizados en el servicio Opt-in. Inspeccione las preferencias del visitante mediante las [funciones de permisos](../../implementation-guides/opt-in-service/api.md#section-7fe57279b5b44b4f8fe47e336df60155), como por ejemplo:
+A medida que los visitantes realicen cambios en sus permisos, necesitará conocer los permisos resultantes para sincronizar el almacén de consentimiento con los cambios realizados en el servicio Opt-in. Inspect las preferencias del visitante mediante las funciones [de](../../implementation-guides/opt-in-service/api.md#section-7fe57279b5b44b4f8fe47e336df60155)permisos, por ejemplo:
 
-**fetchPermissions sample**
+**fetchPermissions, ejemplo**
 
 ```
 optIn.fetchPermissions(function (permissions) { 
@@ -134,13 +137,13 @@ function callback() {
 optIn.fetchPermissions(callback, true);
 ```
 
-Consulte [la documentación de la API](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) para obtener más información sobre estas funciones, propiedades y configuraciones mencionadas en este documento.
+See [API documentation](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) for more details on these and any functions, properties, or configurations mentioned in this document.
 
 ## Conservar las preferencias de los visitantes{#section-ef2884ae67e34879bf7c7c3372706c9f}
 
 El servicio Opt-in incluye una opción de almacenamiento de las preferencias de consentimiento adecuada para un entorno de desarrollo, o uno en el que no sea factible el uso de un CRM. Si la propiedad de configuración `isOptInStorageEnabled` se establece en *true*, el servicio Opt-in se activa para crear una cookie en el sistema del visitante dentro de su dominio.
 
-El `adobe.optIn`objeto carece de estado y no proporciona ningún mecanismo de almacenamiento. Está pensado para permitirle gestionar la configuración de consentimiento de Adobe en su plataforma de gestión del consentimiento (CMP) existente, si es que esta permite el almacenamiento de datos personalizados. También puede almacenar las preferencias de visitante en una cookie en el navegador del visitante. Tiene dos opciones para proporcionar las preferencias del usuario al servicio Opt-in:
+El `adobe.optIn`objeto carece de estado y no proporciona ningún mecanismo de almacenamiento. En su lugar, se pretende administrar la configuración de consentimiento de Adobe en la Plataforma de administración de consentimiento (CMP) existente si permite almacenar datos personalizados. O bien, puede almacenar las preferencias de visitante en una cookie en el explorador del visitante. Tiene dos opciones para proporcionar las preferencias del usuario al servicio Opt-in:
 
 * Si su solución de persistencia del consentimiento, ya sea una CMP o una cookie en el navegador del visitante, permite la oportuna recuperación de las preferencias de visitante, puede proporcionárselas al servicio Opt-in durante la inicialización del visitante.
 * Sin embargo, si la recuperación puede ser un proceso prolongado o por cualquier otro motivo conviene realizarla como proceso asincrónico, puede utilizar la `approve()` función del servicio para proporcionar estos ajustes una vez cargados correctamente.
