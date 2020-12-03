@@ -6,6 +6,9 @@ title: Casos de uso de Opt-in
 uuid: d75a44d5-b713-43d1-b5b6-95d1d0d213a7
 translation-type: tm+mt
 source-git-commit: 0c300aa92991c0dec2ccdeeb34f9d886dcac7671
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 16%
 
 ---
 
@@ -16,9 +19,9 @@ Casos de uso y soluciones de ejemplo para la administración del servicio de inc
 
 ## Sugerencias y solución de problemas {#section-5c566366410f4a8f89eca0d3f556d99f}
 
-* La inicialización de Visitor JS es sincrónica y se ejecuta durante la carga de la página. Si se está relacionando con una CMP o con la persistencia de permisos con una gran latencia, podría ser preferible utilizar las funciones asíncronas descritas en [Configuración de Opt-in](../../implementation-guides/opt-in-service/getting-started.md#section-cf9ab638780141c9b62dc57cf00b7047).
-* Opt-in es una implementación por dominio. No gestiona las implementaciones entre dominios.
-* Si desea deshabilitar las llamadas de terceros para una biblioteca específica, debe configurar esa preferencia separadamente en cada biblioteca.
+* La inicialización de JS de visitante es sincrónica y se ejecuta durante la carga de página. Si está interactuando con un CMP o una persistencia de permisos con una latencia alta, puede que sea preferible utilizar las funciones asincrónicas descritas en Configuración [de](../../implementation-guides/opt-in-service/getting-started.md#section-cf9ab638780141c9b62dc57cf00b7047)selección.
+* La inclusión es una implementación por dominio. No gestionará implementaciones entre dominios.
+* Para deshabilitar las llamadas de terceros para una biblioteca específica, deberá configurar esa preferencia en cada biblioteca por separado.
 
 ## Situaciones de inclusión  {#section-1178053c065c430bba26f82ef383a71c}
 
@@ -34,24 +37,24 @@ Estos casos de uso son ejemplos del uso del servicio de inclusión (Opt-in).
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analytics puede recopilar datos previamente al consentimiento, pero las demás bibliotecas no se pueden cargar hasta haber recibido consentimiento </p> </td> 
-   <td colname="col2"> <p>Utilice Opt-in para habilitar la categoría Analytics previamente al consentimiento </p> </td> 
-   <td colname="col3"> <p>Analytics utiliza el identificador Analytics en vez de ECID en la recopilación previa al consentimiento. Una vez aprobado el ECID, se utilizará un nuevo identificador y el visitante recibirá un ECID que puede utilizarse para activación y para integraciones. </p> <p>Cabe esperar la fragmentación de los visitantes en los estados anterior y posterior al consentimiento. </p> </td> 
+   <td colname="col1"> <p>Analytics está bien para recopilar en estado de preconsentimiento, pero todas las demás bibliotecas no se pueden cargar hasta que se reciba el consentimiento </p> </td> 
+   <td colname="col2"> <p>Utilice la opción de inclusión para habilitar la categoría de Analytics en el estado de preconsentimiento </p> </td> 
+   <td colname="col3"> <p>Analytics utiliza el identificador de Analytics en lugar de ECID en la colección de preconsentimiento. Una vez aprobado el ECID, se utilizará un nuevo identificador y el visitante recibirá un ECID que puede utilizarse para la activación y las integraciones. </p> <p>Se espera la fragmentación del visitante en el estado previo y posterior al consentimiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Se pueden recopilar mediciones de origen previamente al consentimiento. Se impedirá cualquier otro uso de los datos hasta que se cuente con consentimiento. </p> </td> 
-   <td colname="col2"> <p>Utilice Opt-in para habilitar bibliotecas de Analytics + ECID previamente al consentimiento. </p> <p>Agregue la configuración “disablethirdpartycookies” a la biblioteca ECID para bloquear las cookies de terceros y las sincronizaciones de ID previamente al consentimiento </p> </td> 
-   <td colname="col3"> <p>La llamada a Adobe Demdex se activará para la recuperación de ECID, pero no habrá presente ninguna cookie demdex, ninguna otra cookie de terceros ni ninguna sincronización de ID. </p> <p>Mantiene al visitante consecuente en estado previo o anterior al consentimiento para Analytics. La recopilación previa al consentimiento quedará vinculada a la recopilación de datos posterior al consentimiento. </p> </td> 
+   <td colname="col1"> <p>La medición de origen está bien para recopilarla en estado previo al consentimiento. Se impidió el uso de todos los demás tipos de datos hasta que se recibiera el consentimiento. </p> </td> 
+   <td colname="col2"> <p>Utilice la opción de inclusión para habilitar las bibliotecas de Analytics + ECID en estado de preconsentimiento. </p> <p>Añada la configuración ‘disablethirdpartycookies’ a la biblioteca ECID para bloquear las sincronizaciones de cookies de terceros + ID en estado previo al consentimiento </p> </td> 
+   <td colname="col3"> <p>La llamada de Demdex de Adobe se activará para la recuperación de ECID, pero no habrá ninguna cookie de Demdex, ni otras cookies de terceros ni sincronizaciones de ID presentes. </p> <p>Mantiene un visitante constante en el estado previo o posterior al consentimiento para Analytics. La recopilación en estado previo al consentimiento estará vinculada a la recopilación de datos posterior al consentimiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>La medición de origen y la segmentación son aceptables previamente al consentimiento. Se impedirá cualquier otro uso de los datos hasta que se cuente con consentimiento. </p> </td> 
-   <td colname="col2"> <p>Utilice Opt-in para habilitar bibliotecas de Analytics + ECID + Target previamente al consentimiento. </p> <p>Agregue la configuración <span class="codeph">isablethirdpartycookies</span> a la biblioteca ECID para bloquear las cookies de terceros y las sincronizaciones de ID previamente al consentimiento. Elimine el indicador en el estado posterior al consentimiento. </p> </td> 
-   <td colname="col3"> <p>La llamada a Adobe Demdex se activará para la recuperación de ECID, pero no habrá presente ninguna cookie demdex, ninguna otra cookie de terceros ni ninguna sincronización de ID. </p> <p>Mantiene al visitante consecuente en estado previo o anterior al consentimiento para soluciones de origen. La recopilación previa al consentimiento quedará vinculada a la recopilación de datos posterior al consentimiento. </p> </td> 
+   <td colname="col1"> <p>La medición de origen más la segmentación es aceptable en un estado previo al consentimiento. Se impidió el uso de todos los demás tipos de datos hasta que se recibiera el consentimiento. </p> </td> 
+   <td colname="col2"> <p>Utilice la opción de inclusión para habilitar las bibliotecas de Analytics + ECID + Destinatario en estado de preconsentimiento. </p> <p>Agregue la configuración <span class="codeph">isablethirdpartycookies</span> a la biblioteca ECID para bloquear las cookies de terceros y las sincronizaciones de ID previamente al consentimiento. Eliminar indicador en estado posterior al consentimiento. </p> </td> 
+   <td colname="col3"> <p>La llamada de Demdex de Adobe se activará para la recuperación de ECID, pero no habrá ninguna cookie de Demdex, ni otras cookies de terceros ni sincronizaciones de ID presentes. </p> <p>Mantiene un visitante constante en el estado previo y posterior al consentimiento para las soluciones de origen. La recopilación en estado previo al consentimiento estará vinculada a la recopilación de datos posterior al consentimiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>No se permite el establecimiento de cookies previamente al consentimiento </p> </td> 
-   <td colname="col2"> <p>Utilice Opt-in para impedir la carga de todas las bibliotecas hasta que se haya recibido el consentimiento </p> </td> 
-   <td colname="col3"> <p>La implementación es la esperada y todas las bibliotecas, incluida ECID, se cargarán en la secuencia correcta en el estado posterior al consentimiento. </p> <p>Pérdida de datos para los clientes que no dan el consentimiento para su seguimiento. </p> </td> 
+   <td colname="col1"> <p>No se permite configurar cookies en un estado previo al consentimiento </p> </td> 
+   <td colname="col2"> <p>Utilice la opción de inclusión para bloquear la carga de todas las bibliotecas hasta que se reciba el consentimiento </p> </td> 
+   <td colname="col3"> <p>La implementación es la esperada y todas las bibliotecas, incluido ECID, se cargarán en la secuencia correcta en el estado posterior al consentimiento. </p> <p>Pérdida de datos para clientes que nunca dan su consentimiento para ser rastreados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
