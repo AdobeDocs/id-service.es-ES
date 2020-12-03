@@ -5,9 +5,9 @@ seo-description: Estas instrucciones están destinadas a los clientes de Analyti
 seo-title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 uuid: 9d446b77-ca62-4325-8bb0-ff43a52313c0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 
