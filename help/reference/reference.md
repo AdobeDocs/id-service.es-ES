@@ -1,12 +1,15 @@
 ---
 description: Información acerca de otras características y funcionalidades del servicio de identidad de Experience Cloud.
-keywords: Servicio de ID
+keywords: ID Service
 seo-description: Información acerca de otras características y funcionalidades del servicio de Experience Cloud ID.
 seo-title: Referencia
 title: Referencia
 uuid: 9e8f50db-1fdf-4fbc-89e5-4431bb6402d5
 translation-type: tm+mt
 source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
