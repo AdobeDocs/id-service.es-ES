@@ -3,11 +3,11 @@ title: Métodos de biblioteca ECID en un entorno de Safari ITP
 seo-title: Métodos de biblioteca ECID en un entorno de Safari ITP
 description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 seo-description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012bf5db473b37b17e7af957c08da71b253c718f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->Se han realizado actualizaciones para reflejar los últimos cambios en ITP que se lanzaron el 12 de noviembre de 2020 como parte de la versión Big Sur OS.
+>Se han realizado actualizaciones para reflejar los últimos cambios en ITP que se lanzaron el 12 de noviembre de 2020 como parte del lanzamiento del sistema operativo Big Sur.
 
 A medida que Safari aumenta el seguimiento entre dominios a través de ITP, Adobe debe mantener las prácticas recomendadas para bibliotecas que sean compatibles con los clientes, así como con la privacidad y con la opción del consumidor.
 
-A partir del 10 de noviembre de 2020, todas las cookies persistentes de origen configuradas mediante la API de documento.cookie, a menudo conocidas como cookies de &quot;cliente&quot;, y las cookies configuradas mediante implementaciones de CNAME de origen en exploradores Safari e iOS móviles tienen un límite de caducidad de siete días. Las cookies de terceros seguirán bloqueadas, como se indica en versiones anteriores de ITP. Para obtener más información sobre ITP 2.1 y el impacto de las soluciones de Adobe, lea sobre [el impacto de Safari ITP 2.1 en Adobe Experience Cloud y en la plataforma de Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+A partir del 10 de noviembre de 2020, todas las cookies propias persistentes configuradas mediante la API document.cookie, generalmente denominadas cookies del lado del cliente, y las cookies configuradas mediante implementaciones de CNAME propias en exploradores Safari e iOS móviles caducarán tras siete días. Las cookies de terceros se seguirán bloqueando, como se indica en versiones anteriores de ITP. Para obtener más información sobre ITP 2.1 y el impacto de las soluciones de Adobe, lea sobre [el impacto de Safari ITP 2.1 en Adobe Experience Cloud y en la plataforma de Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
 ## Cambios, métodos y configuraciones relacionados con ITP
 
@@ -34,13 +34,13 @@ Consulte más abajo las iniciativas relacionadas con el uso de bibliotecas de IT
 
 ## Comportamiento actual de la biblioteca ECID con ITP y el WebKit de Apple
 
-ITP 2.1 impide escribir cookies del lado del cliente, lo cual reduce la capacidad de proporcionar información exacta del seguimiento de visitantes a los clientes. Como tal, se está introduciendo un cambio en los servidores de seguimiento CNAME de Adobe para almacenar el ID de Experience Cloud (ECID) del visitante en una cookie de origen.
+ITP 2.1 impide escribir cookies del lado del cliente, lo cual reduce la capacidad de proporcionar información exacta del seguimiento de visitantes a los clientes. Por eso, se introduce un cambio en los servidores de seguimiento CNAME de Adobe para almacenar el Experience Cloud ID (ECID) del visitante en una cookie propia.
 
 Este cambio solo es útil para clientes ECID que utilizan un CNAME de Analytics en un contexto propio. Si es cliente de Analytics que actualmente no utiliza un CNAME, o incluso un cliente que no sea de Analytics, podrá optar por un registro CNAME. Póngase en contacto con el Servicio de atención al cliente o con su representante de cuentas para iniciar el proceso de registro para un [CNAME](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.html).
 
 Actualice a la biblioteca ECID versión 4.3.0 (o posterior) para aprovechar este cambio.
 
-A continuación se describe cómo se comporta la biblioteca ECID con ITP 2.1 y los últimos cambios realizados por Apple como parte de la versión Big Sur
+A continuación, se describe cómo se comporta la biblioteca ECID con ITP 2.1 y los últimos cambios realizados por Apple como parte de la versión Big Sur.
 
 **Diseño**
 
@@ -48,15 +48,15 @@ Cuando se realiza una solicitud de ID a demdex.net y se recupera un ECID, si se 
 
 >[!IMPORTANT]
 >
->Como parte de las actualizaciones de Big Sur, una `s_ecid` cookie configurada a través de CNAME también se conserva en un plazo de siete días.
+>Como parte de las actualizaciones de Big Sur, también se conservará una `s_ecid` cookie configurada a través de CNAME.
 
 Esta nueva cookie `s_ecid` sigue el mismo estado de exclusión que la cookie AMCV. Si se lee el ecid de la cookie `s_ecid`, siempre se llama inmediatamente a demdex para recuperar el estado de exclusión más reciente de ese ID y se almacena en la cookie AMCV.
 
 Además, si el consumidor se ha excluido del seguimiento de Analytics mediante este [método](https://docs.adobe.com/content/help/es-ES/analytics/implementation/js/opt-out.html), se eliminará esta cookie `s_ecid`.
 
-The tracking server name should be supplied to the VisitorJS library when initializing the library using `trackingServer` or `trackingServerSecure`. This should match the `trackingServer` config in the Analytics configs.
+El nombre del servidor de seguimiento debe proporcionarse a la biblioteca VisitorJS al inicializar la biblioteca mediante `trackingServer` o `trackingServerSecure`. Debe coincidir con la configuración `trackingServer` en las configuraciones de Analytics.
 
-Si decide no aprovechar este método, agregue la siguiente configuración a su implementación de biblioteca ECID: `discardtrackingServerECID`. Cuando esta configuración se establece en true, la biblioteca de Visitante no lee el MID establecido por el servidor de seguimiento de origen.
+Si decide no aprovechar este método, agregue la siguiente configuración a su implementación de biblioteca ECID: `discardtrackingServerECID`. Cuando esta configuración se establece en “true”, la biblioteca del visitante no lee el MID configurado por el servidor de seguimiento propio.
 
 ![](assets/itp-proposal-v1.png)
 
