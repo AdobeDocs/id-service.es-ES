@@ -1,14 +1,14 @@
 ---
-description: Antes de implementar el servicio de Experience Cloud ID, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
-keywords: ID Service
+description: Antes de implementar el servicio de identidad de Experience Cloud, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
+keywords: Servicio de ID
 seo-description: Antes de implementar el servicio de Experience Cloud ID, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
 seo-title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
 translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
+source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ Si tiene varios dominios que envían datos al *mismo grupo de informes*, le reco
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Varios dominios </p> </td> 
-   <td colname="col2"> <p>Si está realizando un seguimiento de visitantes en varios dominios y también tiene un sitio de entrada principal en el que se puede identificar a los clientes antes de que visiten otros dominios, debe seguir utilizando el CNAME de recopilación de datos. Consulte <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local">CNAME de recopilación de datos y seguimiento entre dominios</a> para obtener una descripción detallada. </p> <p>Tenga en cuenta que necesitará especificar dos parámetros de servidor de seguimiento adicionales, <span class="codeph">visitor.marketingCloudServer</span> y <span class="codeph">visitor.marketingCloudServerSecure</span>, para poder configurar un CNAME con el servicio de ID. </p> </td> 
+   <td colname="col2"> <p>Si está realizando un seguimiento de visitantes en varios dominios y también tiene un sitio de entrada principal en el que se puede identificar a los clientes antes de que visiten otros dominios, debe seguir utilizando el CNAME de recopilación de datos. <!--See <a href="../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d" format="dita" scope="local"> Data Collection CNAMES and Cross Domain Tracking</a> for a detailed explanation.--> </p> <p>Tenga en cuenta que necesitará especificar dos parámetros de servidor de seguimiento adicionales, <span class="codeph">visitor.marketingCloudServer</span> y <span class="codeph">visitor.marketingCloudServerSecure</span>, para poder configurar un CNAME con el servicio de ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Un solo dominio </p> </td> 
