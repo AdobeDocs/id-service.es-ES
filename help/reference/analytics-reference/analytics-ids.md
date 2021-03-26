@@ -5,9 +5,9 @@ seo-description: El servicio de Experience Cloud ID sustituye a los métodos de 
 seo-title: Configuración de ID de Analytics y de Experience Cloud
 title: Configuración de ID de Analytics y de Experience Cloud
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '945'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ JavaScript puede leer y escribir cookies configuradas en el dominio de origen (e
 
 <!---However, there are a few situations where setting the cookie in the HTTP header is beneficial for cross-domain tracking, which is described in [Data Collection CNAMEs and Cross-Domain Tracking](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).-->
 
-## ID de Analytics personalizados  {#section-b6a7bd19e9ff432390010062450808f6}
+## ID de Analytics personalizados {#section-b6a7bd19e9ff432390010062450808f6}
 
 El establecimiento de un ID de cliente mediante `s.visitorID` es un método para identificar a los usuarios en Analytics. Sin embargo, las integraciones en las que se exportan o importan datos de Analytics mediante el servicio de ID no funcionarán cuando se identifique a un visitante mediante `s.visitorID`.
 
