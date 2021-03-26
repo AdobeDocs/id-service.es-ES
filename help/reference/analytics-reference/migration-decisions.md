@@ -1,13 +1,13 @@
 ---
 description: Antes de implementar el servicio de identidad de Experience Cloud, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
 keywords: Servicio de ID
-seo-description: Antes de implementar el servicio de Experience Cloud ID, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
+seo-description: Antes de implementar el servicio de identidad de Experience Cloud, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
 seo-title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Puntos de decisión para la migración del servicio de Experience Cloud ID
 
-Antes de implementar el servicio de Experience Cloud ID, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
+Antes de implementar el servicio de identidad de Experience Cloud, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
 
 Responda a las preguntas de esta sección para poder determinar si debe realizar algún paso adicional para la migración.
 
@@ -113,7 +113,7 @@ Es posible que deba actualizar la forma en que realiza el seguimiento de víncul
  <tbody> 
   <tr> 
    <td colname="col1"> <p>JavaScript o Flash </p> </td> 
-   <td colname="col2"> <p>None. El servicio de <span class="keyword">Experience Cloud ID</span> es compatible con estos métodos de recopilación de datos. </p> </td> 
+   <td colname="col2"> <p>Ninguno. El servicio de <span class="keyword">Experience Cloud ID</span> es compatible con estos métodos de recopilación de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Silverlight </p> </td> 
