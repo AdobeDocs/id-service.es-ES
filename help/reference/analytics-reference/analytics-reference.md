@@ -1,20 +1,20 @@
 ---
-description: Funciones o funcionalidad del servicio de ID exclusivas de Adobe Analytics.
+description: Funciones o funcionalidad del servicio de ID únicas de Adobe Analytics.
 keywords: Servicio de ID
-seo-description: Funciones o funcionalidad del servicio de ID exclusivas de Adobe Analytics.
+seo-description: Funciones o funcionalidad del servicio de ID únicas de Adobe Analytics.
 seo-title: Referencia de Analytics
 title: Referencia de Analytics
 uuid: 215f0394-a436-4f0c-9a52-3b387048e40e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73465dcdab8b8316e0e9d41c5780ff0231270058
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '76'
 ht-degree: 100%
 
 ---
 
 
-# Referencia de Analytics{#analytics-reference}
+# Referencia de Analytics {#analytics-reference}
 
 Funciones o funcionalidad del servicio de ID únicas de Adobe Analytics.
 
@@ -22,7 +22,7 @@ Funciones o funcionalidad del servicio de ID únicas de Adobe Analytics.
 + [Orden de operaciones para los ID de Analytics](analytics-order-of-operations.md)
 + [Puntos de decisión para la migración del servicio de identidad de Experience Cloud](migration-decisions.md)
 + [Escenarios de migración del servicio de identidad de Experience Cloud](migration-scenarios.md)
-+ [Solicitudes de ID de Analytics y de Experience Cloud](legacy-analytics.md)
++ [Solicitudes de Experience Cloud ID y Analytics](legacy-analytics.md)
 + [Implementación del lado del servidor combinada con JavaScript](server-side.md)
 + [Período de gracia del servicio de ID](grace-period.md)
 <!--+ [Data Collection CNAMEs and Cross-Domain Tracking](cname.md)-->
