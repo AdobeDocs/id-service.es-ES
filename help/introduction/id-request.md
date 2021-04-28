@@ -1,18 +1,18 @@
 ---
 description: Información general sobre el proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Información general sobre el proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 seo-title: Solicitud y configuración de ID con el servicio de Experience Cloud ID
 title: Solicitud y configuración de ID con el servicio de Experience Cloud ID
 uuid: ff7f5b7e-e959-4391-b75c-b7a36286e0ea
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '804'
+exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '806'
 ht-degree: 100%
 
 ---
-
 
 # Solicitud y configuración de ID con el servicio de identidad de Experience Cloud {#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
@@ -64,4 +64,3 @@ Una vez que el DCS recibe el ID de organización y el ID de demdex, crea y devue
 En este ejemplo, nuestro visitante deja los sitios de Food Company y navega al sitio de fútbol propiedad de Sports Company. Cuando el visitante llega al sitio de fútbol, el proceso de verificación y solicitud de ID funciona del mismo modo que en los ejemplos anteriores. Sin embargo, como Sports Company tiene su propio ID de organización, el servicio de ID devuelve un MID diferente. El nuevo MID es único para los dominios controlados por la Empresa de deporte y permite que esta empresa siga y comparta los datos del visitante entre soluciones en [!DNL Experience Cloud]. El ID de demdex sigue siendo el mismo para este visitante, ya que está contenido en una cookie de terceros y se mantiene entre dominios distintos.
 
 ![](assets/req_resp.png)
-
