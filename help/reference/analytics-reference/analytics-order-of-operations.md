@@ -1,24 +1,24 @@
 ---
 description: Tras implementar el servicio de ID de visitante, hay cinco maneras de identificar a los visitantes en Analytics.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Tras implementar el servicio de ID de visitante, hay cinco maneras de identificar a los visitantes en Analytics.
 seo-title: Orden de operaciones para los ID de Analytics
 title: Orden de operaciones para los ID de Analytics
 uuid: cb1d136e-093f-43b0-a7e1-96f1e61fdad0
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '329'
+exl-id: 8ee340fe-ef3b-40e6-9441-7ee0c9e20357
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '331'
 ht-degree: 100%
 
 ---
-
 
 # Orden de operaciones para los ID de Analytics {#order-of-operations-for-analytics-ids}
 
 Tras implementar el servicio de ID de visitante, hay cinco maneras de identificar a los visitantes en Analytics.
 
-En muchos escenarios, es posible que vea dos o tres ID distintos en una llamada, pero Analytics utilizará el primer ID presente en la lista como el ID de [!DNL Experience Cloud] oficial. Por ejemplo, si está configurando un ID de visitante personalizado (incluido en el `vid` parámetro de consulta), ese ID se utilizará antes de otros ID que pudiera haber en esa misma visita. Consulte [Configuración de ID de Analytics y de Experience Cloud](../../reference/analytics-reference/analytics-ids.md#concept-f381dd18ee184c6c8e48286937a161d6) para obtener más información.
+En muchos escenarios, es posible que vea dos o tres ID distintos en una llamada, pero Analytics utilizará el primer ID presente en la lista como el ID de [!DNL Experience Cloud] oficial. Por ejemplo, si está configurando un ID de visitante personalizado (incluido en el `vid` parámetro de consulta), ese ID se utilizará antes de otros ID que pudiera haber en esa misma visita. Consulte [Configuración de Analytics y Experience Cloud ID](../../reference/analytics-reference/analytics-ids.md#concept-f381dd18ee184c6c8e48286937a161d6) para obtener más información.
 
 <table id="table_D267D36451F643D1BB68AF6FEAA6AD1A"> 
  <thead> 
@@ -51,9 +51,8 @@ En muchos escenarios, es posible que vea dos o tres ID distintos en una llamada,
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>5<sup>º</sup></b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html" format="http" scope="external"> Dirección IP, agente de usuario y dirección IP de puerta de enlace</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/metrics/unique-visitors.html" format="http" scope="external"> Dirección IP, agente de usuario y dirección IP de puerta de enlace</a> </p> </td> 
    <td colname="col3"> <p>El explorador del visitante no acepta cookies. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
