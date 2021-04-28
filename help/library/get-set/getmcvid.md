@@ -1,26 +1,26 @@
 ---
 description: getMarketingCloudVisitorID devuelve el ID de visitante de Experience Cloud.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: getMarketingCloudVisitorID devuelve el ID de visitante de Experience Cloud.
 seo-title: getMarketingCloudVisitorID
 title: getMarketingCloudVisitorID
 uuid: 93e16220-b5b3-4d81-9189-30031bc15129
-translation-type: tm+mt
-source-git-commit: 4a5fbc971dc950c65e5c8f92dffdfe5dde528b54
-workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 89%
+exl-id: bd81cc0b-0511-492d-beb8-8ba2fe5d4323
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '125'
+ht-degree: 100%
 
 ---
 
-
-# getMarketingCloudVisitorID{#getmarketingcloudvisitorid}
+# getMarketingCloudVisitorID {#getmarketingcloudvisitorid}
 
 getMarketingCloudVisitorID devuelve el ID de visitante de Experience Cloud.
 
 **Sintaxis:** ` var *`nombre de variable`* = visitor.getMarketingCloudVisitorID()`
 
-Este método se utiliza generalmente con soluciones personalizadas que requieren leer el ID de visitante. No se utiliza en una implementación estándar. `getMarketingCloudVisitorID` funciona también con funciones de llamada de retorno para leer [!DNL Analytics] ID de e incluirlos en su sistema o aplicación.
+Normalmente, esta función se utiliza con soluciones personalizadas que requieren leer el ID de visitante. No se utiliza en una implementación estándar. `getMarketingCloudVisitorID` funciona también con funciones de llamada de retorno para leer [!DNL Analytics] ID de e incluirlos en su sistema o aplicación.
 
 ```js
 //callback function 
@@ -35,4 +35,3 @@ var mcID = visitor.getMarketingCloudVisitorID(useMarketingCloudID)
 >[!TIP]
 >
 >Si usted es [!DNL Analytics] cliente de, compruebe y envíe también el [!DNL Analytics] ID de a su función. Por ejemplo, es recomendable contar con ambos identificadores a la hora de pasar el ID de visitante en un elemento de forma oculta a una aplicación del lado del servidor que utiliza la API de inserción de datos. En este caso, deberá recopilar y devolver los ID de visitante de [!DNL Experience Cloud] y [!DNL Analytics]. Consulte [Obtención de ID de visitante de Analytics](../../library/get-set/getanalyticsvisitorid.md).
-
