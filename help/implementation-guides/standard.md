@@ -1,18 +1,18 @@
 ---
 description: Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para configurar, implementar e integrar el servicio de Experience Cloud ID con el resto de las soluciones de Experience Cloud.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para configurar, implementar e integrar el servicio de Experience Cloud ID con el resto de las soluciones de Experience Cloud.
 seo-title: Implementación con Dynamic Tag Management
 title: Implementación con Dynamic Tag Management
 uuid: c4f752c4-392e-4909-b178-911706857064
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '2056'
+exl-id: 37ccc919-3015-42fa-a88f-639cdf726f48
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '2058'
 ht-degree: 100%
 
 ---
-
 
 # Implementación con Dynamic Tag Management {#implementation-with-dynamic-tag-management}
 
