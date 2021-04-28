@@ -3,14 +3,14 @@ title: Cambios en el etiquetado de SameSite de Google Chrome
 seo-title: Cambios en el etiquetado de SameSite de Google Chrome
 description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 seo-description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
-translation-type: tm+mt
-source-git-commit: 592ca6ca6a72e57b728e286d0b730c5bd93c0c7b
-workflow-type: tm+mt
+exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '1079'
 ht-degree: 100%
 
 ---
-
 
 # Cambios en el etiquetado de SameSite de Google Chrome {#google-chrome-samesite-labelling-changes}
 
@@ -76,8 +76,8 @@ En la tabla siguiente solo se enumeran las cookies estándar comunes de visitant
 
 | Cookie | Tipo | Atributo SameSite | Atributo seguro |
 | ------ | ---- | ------------------ | ---------------- |
-| AMCV_###@AdobeOrg | Origen del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Configurable |
-| AMCVS_###@AdobeOrg | Origen del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Configurable |
+| AMCV_###@AdobeOrg | Origen del lado del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Configurable |
+| AMCVS_###@AdobeOrg | Origen del lado del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Configurable |
 | s_ecid | Origen del lado del servidor | SameSite==`lax` | Sin configurar |
 
 ### Audience Manager
@@ -92,7 +92,7 @@ En la tabla siguiente solo se enumeran las cookies estándar comunes de visitant
 | Cookie | Tipo | Atributo SameSite | Atributo seguro |
 | ------ | ---- | ------------------ | ---------------- |
 | s_vi | <ul><li> Origen del lado del servidor si se utiliza un `CNAME` </li> <li>Terceros si se utiliza 2o7.net u omtrdc.net</li></ul> | <ul><li>`lax` si es de origen</li> <li>`none` si es de terceros</li></ul> *Los clientes pueden editar la configuración mediante el ticket del Servicio de atención al cliente para dominios de origen* | Se debe configurar, si se utiliza `none` y una solicitud HTTPS |
-| s_fid | Origen del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Sin configurar |
+| s_fid | Origen del lado del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Sin configurar |
 
 ### Target
 
@@ -118,7 +118,7 @@ En la tabla siguiente solo se enumeran las cookies estándar comunes de visitant
 
 | Cookie | Tipo | Atributo SameSite | Atributo seguro |
 | ------ | ---- | ------------------ | ---------------- |
-| _mkto_trk | Origen del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Configurable para páginas externas |
+| _mkto_trk | Origen del lado del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Configurable para páginas externas |
 
 > !![IMPORTANT] Las cookies de terceros de Adobe se configuran del lado del servidor
 
