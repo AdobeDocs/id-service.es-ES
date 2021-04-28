@@ -1,18 +1,18 @@
 ---
 description: La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de Experience Cloud ID que impide que establezca cookies en el dominio de terceros de un navegador.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de Experience Cloud ID que impide que establezca cookies en el dominio de terceros de un navegador.
 seo-title: Compatibilidad con COPPA en el servicio de Experience Cloud ID
 title: Compatibilidad con COPPA en el servicio de Experience Cloud ID
 uuid: 621b5ebd-92e7-4635-be85-8d7e36589fcb
-translation-type: tm+mt
-source-git-commit: c4c0b791230422f17292b72fd45ba5689a60adae
-workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 77%
+exl-id: c7579f90-3011-4e26-b908-08907bf12ba2
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
-
 
 # Compatibilidad con COPPA en el servicio de Experience Cloud ID {#coppa-support-in-the-experience-cloud-id-service}
 
@@ -24,14 +24,14 @@ La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online P
 
 **Cookies y seguimiento**
 
-Cuando se carga una página web, el servicio de ID de [!DNL Experience Cloud] llama a un servidor de recopilación de datos (DCS) de [!DNL Adobe]. La respuesta de DCS incluye una cookie de Experience Cloud y una cookie demdex.net.
+Cuando se carga una página web, el servicio de ID de [!DNL Experience Cloud] llama a un servidor de recopilación de datos (DCS) de [!DNL Adobe]. La respuesta del DCS incluye una cookie de Experience Cloud y una cookie demdex.net.
 
-* La cookie de Experience Cloud se establece en el dominio de origen. No se puede usar para rastrear visitantes en distintos dominios, a menos que esos dominios trabajen juntos para permitir el acceso.
-* La cookie demdex.net se establece en el dominio de terceros. Contiene un identificador único que puede utilizarse para rastrear visitantes en distintos dominios.
+* La cookie de Experience Cloud se establece en el dominio de origen. No se puede usar para rastrear visitantes entre dominios diferentes, a menos que dichos dominios trabajen juntos para permitir el acceso.
+* La cookie demdex.net se establece en el dominio de terceros. Contiene un identificador único que puede utilizarse para rastrear visitantes entre dominios diferentes.
 
-**Cumplimiento de Cookies y COPPA**
+**Cookies y cumplimiento de requisitos de la ley COPPA**
 
-Las cookies de terceros que rastrean visitantes en diferentes dominios en sitios web dirigidos a (o principalmente a) niños, activan los requisitos de consentimiento paterno de COPPA. Con el fin de facilitar el cumplimiento de la ley COPPA para el análisis interno de sitios web, añada la variable `disableThirdPartyCookies:true` a la `Visitor.getInstance` función, como se muestra a continuación.
+Las cookies de terceros que rastrean visitantes entre dominios distintos en sitios web dirigidos a niños (o principalmente para niños), desencadenan requisitos de consentimiento paterno en virtud de la ley COPPA. Con el fin de facilitar el cumplimiento de la ley COPPA para el análisis interno de sitios web, añada la variable `disableThirdPartyCookies:true` a la `Visitor.getInstance` función, como se muestra a continuación.
 
 ```js
 //Call the ID service 
