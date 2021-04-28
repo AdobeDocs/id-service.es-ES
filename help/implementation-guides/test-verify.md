@@ -1,18 +1,18 @@
 ---
 description: Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y Experience Cloud.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y Experience Cloud.
 seo-title: Comprobación y verificación del servicio de Experience Cloud ID
 title: Comprobación y verificación del servicio de Experience Cloud ID
 uuid: 442de9c3-c265-4412-89bd-aeaa286ddad6
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '721'
+exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # Comprobación y verificación del servicio de identidad de Experience Cloud {#test-and-verify-the-experience-cloud-id-service}
 
