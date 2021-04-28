@@ -1,18 +1,18 @@
 ---
 description: Notas de la versión y actualizaciones para 2015.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Notas de la versión y actualizaciones para 2015.
 seo-title: Notas de la versión 2015
 title: Notas de la versión 2015
 uuid: 49423699-1e0f-49e4-9135-2ae84b4f92df
-translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
-workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 70%
+exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '415'
+ht-degree: 100%
 
 ---
-
 
 # Notas de la versión 2015 {#release-notes}
 
@@ -29,16 +29,16 @@ La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online P
 Septiembre de 2015
 
 * Se ha corregido un error del explorador Safari que impedía que los servicios de sincronización funcionaran si los usuarios bloqueaban las cookies de terceros. (AAM-20764)
-* Las llamadas al servicio de ID ahora incluyen el ID de versión en el parámetro `d_visid_ver=`. El ID devuelto ayuda a los equipos internos a solucionar problemas y a resolver problemas de asistencia. (AAM-20824)
+* Las llamadas al servicio de ID ahora incluyen el ID de versión en el parámetro `d_visid_ver=`. El ID devuelto ayuda a los equipos de soporte internos en la solución de problemas y los problemas de soporte. (AAM-20824)
 
 ## Versión 1.5.1 {#section-f4309d7917964a748fee4bdb45bffa44}
 
 Agosto de 2015
 
-* Se ha corregido un error para evitar que el servicio de ID solicite un iframe si no hay datos para sincronizar o activar. (AAM-20164)
-* Se ha corregido un error que impedía que el servicio de ID configurara correctamente una cookie de dominio de nivel superior y de varias partes. Por ejemplo, si tiene un dominio como `my_company.co.uk`, en determinadas circunstancias, el servicio de ID establecería una cookie solo en `co.uk`. (AN-104683)
+* Se ha corregido un error para evitar que el servicio de ID solicitara un iframe en caso de que no hubiera datos para sincronizar o entregar. (AAM-20164)
+* Se ha corregido un problema que impedía que el servicio de ID estableciera correctamente una cookie de dominio superior de varias partes. Por ejemplo, si tiene un dominio como `my_company.co.uk`, en determinadas circunstancias, el servicio de ID establecería una cookie solo en `co.uk`. (AN-104683)
 
-   Esto solo afectó a algunos clientes que cumplieron *todos* los siguientes criterios:
+   Esto solo afectaba a algunos clientes que cumplían *todos* los criterios siguientes:
 
    * Uso del servicio de ID.
    * Se había habilitado un [periodo de gracia ](../reference/analytics-reference/grace-period.md)*o* se usaban cookies propias y los clientes habían bloqueado las cookies de terceros.
@@ -76,7 +76,7 @@ Consulte [Experience Cloud](../implementation-guides/setup-analytics.md#concept-
 
 Febrero de 2015
 
-Se corrigió el manejo del tiempo de espera en las solicitudes para AAM Blob y la sugerencia de ubicación. Ahora, al agotarse el tiempo de espera, el sistema dejará correctamente esos campos en blanco para la página actual y realizará todas las rellamadas. El tiempo de espera se trata como una condición de error, por lo que se volverá a intentar en la página siguiente. (AN-94473, AN-94474)
+Se ha corregido la administración del tiempo de espera en las solicitudes para AAM Blob y la sugerencia de ubicación. Ahora, en un tiempo de espera, el sistema dejará correctamente en blanco esos campos en la página actual y realizará todas las devoluciones de llamadas. El tiempo de espera se trata como una condición de error, por lo que se volverá a intentar realizar la operación en la página siguiente. (AN-94473, AN-94474)
 
 ## Versión 1.3.4 {#section-bca4a3e7c05546b7af1c9ec47fdb3331}
 
