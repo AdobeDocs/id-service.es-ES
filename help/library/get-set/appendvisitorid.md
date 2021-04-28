@@ -1,18 +1,18 @@
 ---
 description: Esta función le permite compartir un Experience Cloud ID de un visitante entre dominios cuando los navegadores bloquean las cookies de terceros. Para utilizar esta función, debe haber implementado el servicio de ID y ser el propietario de los dominios de origen y destino. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Esta función le permite compartir un Experience Cloud ID de un visitante entre dominios cuando los navegadores bloquean las cookies de terceros. Para utilizar esta función, debe haber implementado el servicio de ID y ser el propietario de los dominios de origen y destino. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 seo-title: appendVisitorIDsTo (seguimiento entre dominios)
 title: appendVisitorIDsTo (seguimiento entre dominios)
 uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
-translation-type: tm+mt
-source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
-workflow-type: tm+mt
-source-wordcount: '446'
+exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
-
 
 # appendVisitorIDsTo (seguimiento entre dominios) {#appendvisitoridsto-cross-domain-tracking}
 
@@ -83,4 +83,3 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
   </tr> 
  </tbody> 
 </table>
-
