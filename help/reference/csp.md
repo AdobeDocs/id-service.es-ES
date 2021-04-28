@@ -1,18 +1,18 @@
 ---
 description: Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
 seo-title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
-translation-type: tm+mt
-source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
-source-wordcount: '619'
+exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
-
 
 # Políticas de seguridad del contenido y el servicio de Experience Cloud ID {#content-security-policies-and-the-experience-cloud-id-service}
 
@@ -77,6 +77,6 @@ Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o
 >[!MORELIKETHIS]
 >
 >* [Referencia de política de seguridad de contenido](https://content-security-policy.com/)
->* [MDN: Política de seguridad de contenido](https://developer.mozilla.org/es/docs/Web/HTTP/CSP)
+>* [MDN: Política de seguridad de contenido](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 >* [Wikipedia: Política de seguridad de contenido](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
