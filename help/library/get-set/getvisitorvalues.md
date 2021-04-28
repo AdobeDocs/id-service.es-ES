@@ -1,18 +1,18 @@
 ---
 description: Se trata de una API asíncrona que devuelve identificadores para Analytics, el servicio de ID, la exclusión de la recopilación de datos, la ubicación geográfica y el contenido “blob” de metadatos de forma predeterminada. Además, se puede controlar cuáles son los ID que desea que se devuelvan con la enumeración opcional visitor.FIELDS.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Se trata de una API asíncrona que devuelve identificadores para Analytics, el servicio de ID, la exclusión de la recopilación de datos, la ubicación geográfica y el contenido “blob” de metadatos de forma predeterminada. Además, se puede controlar cuáles son los ID que desea que se devuelvan con la enumeración opcional visitor.FIELDS.
 seo-title: getVisitorValues
 title: getVisitorValues
 uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '447'
+exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '449'
 ht-degree: 100%
 
 ---
-
 
 # getVisitorValues {#getvisitorvalues}
 
@@ -123,4 +123,3 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
  </tbody> 
 </table>
-
