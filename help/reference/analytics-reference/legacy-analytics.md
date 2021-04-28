@@ -1,18 +1,18 @@
 ---
 description: Una visión general de cómo funciona el servicio de Experience Cloud ID con los ID de Analytics heredados.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Una visión general de cómo funciona el servicio de Experience Cloud ID con los ID de Analytics heredados.
 seo-title: Solicitudes de ID de Analytics e Experience Cloud ID
 title: Solicitudes de ID de Analytics e Experience Cloud ID
 uuid: 28beed16-7ef9-4824-8e82-853930756eca
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '467'
+exl-id: 8c682159-e23a-4641-9ffd-e0028dc2f305
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '469'
 ht-degree: 100%
 
 ---
-
 
 # Solicitudes de ID de Analytics e Experience Cloud ID {#analytics-and-experience-cloud-id-requests}
 
@@ -36,7 +36,7 @@ Si la cookie [!DNL Experience Cloud] (AMCV) no está presente, una llamada al se
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>La cookie s_vi no está establecida</b> </p> </td> 
-   <td colname="col2"> <p>El servicio de ID asigna a los visitantes un <span class="keyword">Experience Cloud</span> (MID). El MID identifica a sus visitantes en <span class="keyword">Analytics</span> y otras soluciones de <span class="keyword">Experience Cloud</span>. </p> </td> 
+   <td colname="col2"> <p>El servicio de ID asigna a los visitantes un <span class="keyword">Experience Cloud</span> ID (MID). El MID identifica a sus visitantes en <span class="keyword">Analytics</span> y otras soluciones de <span class="keyword">Experience Cloud</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>La cookie s_vi está establecida</b> </p> </td> 
