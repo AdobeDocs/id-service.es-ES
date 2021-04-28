@@ -1,22 +1,22 @@
 ---
-description: Este método de ayuda permite anexar el ID de datos suplementarios (SDID) como parámetro de cadena de consulta a una dirección URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario que persista el SDID de una página a otra y que se unan esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo identificador de organización en los dominios de origen y destino.
-keywords: ID Service
-seo-description: Este método de ayuda permite anexar el ID de datos suplementarios (SDID) como parámetro de cadena de consulta a una dirección URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario que persista el SDID de una página a otra y que se unan esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo identificador de organización en los dominios de origen y destino.
+description: Este método auxiliar permite agregar el ID de datos adicionales (SDID) como parámetro de cadena de consulta a una URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario mantener el SDID de una página a otra y unir esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo ID de organización en los dominios de origen y destino.
+keywords: Servicio de ID
+seo-description: Este método auxiliar permite agregar el ID de datos adicionales (SDID) como parámetro de cadena de consulta a una URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario mantener el SDID de una página a otra y unir esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo ID de organización en los dominios de origen y destino.
 seo-title: appendSupplementalDataIDTo
 title: appendSupplementalDataIDTo
 uuid: f3504d82-8da3-4971-818b-3df57df4ec2d
-translation-type: tm+mt
-source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
-workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 28%
+exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '412'
+ht-degree: 100%
 
 ---
 
+# appendSupplementalDataIDTo {#appendsupplementaldataidto}
 
-# appendSupplementalDataIDTo{#appendsupplementaldataidto}
-
-Este método de ayuda permite anexar el ID de datos suplementarios (SDID) como parámetro de cadena de consulta a una dirección URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario que persista el SDID de una página a otra y que se unan esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo identificador de organización en los dominios de origen y destino.
+Este método auxiliar permite agregar el ID de datos adicionales (SDID) como parámetro de cadena de consulta a una URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario mantener el SDID de una página a otra y unir esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo ID de organización en los dominios de origen y destino.
 
 Contenido:
 
@@ -53,15 +53,15 @@ Como se muestra a continuación, el redireccionamiento de URL contiene el SDID d
 
 ## Modificación del tiempo de espera del SDID con sdidParamExpiry {#section-99946715cefa4acc95200b093db5297e}
 
-La configuración [sdidParamExpiry](../../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) le permite sobrescribir el intervalo de caducidad predeterminado del ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda `appendSupplementalDataIDTo`. De forma predeterminada, el código de servicio de ID de la página de recepción dispone de 30 segundos para obtener el SDID de la dirección URL que envía la página de referencia. Si el código de servicio de ID de la página de recepción no puede recuperar el SDID en menos de 30 segundos, solicita un nuevo SDID. Esta funcionalidad es principalmente para clientes de A4T que necesitan pasar el SDID de una página a otra y desean controlar este intervalo de tiempo de espera.
+La configuración [sdidParamExpiry](../../library/function-vars/sdidparamexpiry.md#reference-cef3fd03c43b4772b2422e220b40a458) le permite sobrescribir el intervalo de caducidad predeterminado del ID de datos suplementarios (SDID) al pasar ese ID de una página a otra mediante la función de ayuda `appendSupplementalDataIDTo`. De forma predeterminada, el código de servicio de ID de la página de recepción tiene 30 segundos para obtener el SDID de la URL que envía la página de referencia. Si el código de servicio de ID de la página receptora no puede recuperar el SDID en menos de 30 segundos, solicitará un nuevo SDID. Esta funcionalidad está destinada principalmente a los clientes de A4T que necesitan pasar el SDID de una página a otra y desean controlar este intervalo de tiempo de espera.
 
 Si debe cambiar el tiempo de espera de SDID predeterminado, agregue `sdidParamExpiry` a la `Visitor.getInstance` función con la sintaxis siguiente:
 
-**Sintaxis:**` sdidParamExpiry: *`tiempo en segundos`*`
+**Sintaxis:** ` sdidParamExpiry: *`tiempo en segundos`*`
 
 **Ejemplo de código**
 
-Cuando se configura, el código de servicio de ID puede ser similar a este ejemplo. Este ejemplo establece el tiempo de espera SDID en 15 segundos.
+Cuando se configura, el código de servicio de ID puede ser similar al de este ejemplo. Este ejemplo establece el tiempo de espera del SDID en 15 segundos.
 
 ```js
 var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here",{ 
@@ -74,4 +74,3 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
 var pageB = "www.domain.com/pageB"; 
 var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219"); 
 ```
-
