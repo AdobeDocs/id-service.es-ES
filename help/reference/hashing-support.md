@@ -1,17 +1,17 @@
 ---
-description: El servicio de identidad de Experience Cloud (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a Experience Cloud. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.
-keywords: ID Service
-seo-description: El servicio de identidad de Experience Cloud (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a Experience Cloud. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.
+description: El servicio de Experience Cloud ID (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a Experience Cloud. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.
+keywords: Servicio de ID
+seo-description: El servicio de Experience Cloud ID (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a Experience Cloud. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.
 seo-title: Soporte hash SHA 256 para setCustomerIDs
 title: Soporte hash SHA 256 para setCustomerIDs
-translation-type: tm+mt
-source-git-commit: ac1131be75fd04b51cd1d646086e1802a43afb18
-workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 91%
+exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '666'
+ht-degree: 100%
 
 ---
-
 
 # Soporte hash SHA 256 para `setCustomerIDs` {#hashing-support}
 
@@ -23,7 +23,7 @@ Existen dos maneras de implementar la compatibilidad hash con setCustomerIDs, ta
 
 ## Uso del método `setCustomerIDs` en ECID {#use-setcustomerids-method}
 
-The first method leverages using the [`setCustomerIDs`](/help/library/get-set/setcustomerids.md) (`customerIDs<object>`, `hashType<string>`) method.
+El primer método aprovecha el uso del método [`setCustomerIDs`](/help/library/get-set/setcustomerids.md) (`customerIDs<object>`, `hashType<string>`).
 
 Antes del hashing, la biblioteca ECID realiza la normalización de datos en customerIDs. Este proceso recorta los espacios en blanco de los customerIDs en ambos extremos y convierte todos los caracteres en minúsculas. Por ejemplo, en las direcciones de correo electrónico: &quot; ecid@adobe.com &quot;se convierte en&quot; ecid@adobe.com &quot;
 
@@ -38,7 +38,7 @@ visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256")
 
 Junto con el ID de visitante de Experience Cloud, se pueden asociar ID de cliente adicionales y un estado de autenticación a cada visitante. Si no proporciona ningún tipo de hash, se considerará como sin hash.
 
-El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. For example, you can upload these IDs as [customer attributes](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) to the Experience Cloud and access this data across the different solutions.
+El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. Por ejemplo, puede cargar estos ID como [atributos de cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) en Experience Cloud y acceder a estos datos en las distintas soluciones.
 
 Los ID de cliente, los estados autenticados y el tipo de hash *no se* almacenan en una cookie que se utilizará después. En su lugar, los ID de cliente, los estados autenticados y el tipo de hash deben almacenarse en una variable de instancia para recuperarse usando [`getCustomerIDs`](/help/library/get-set/getcustomerids.md)como se muestra a continuación:
 
@@ -49,7 +49,7 @@ Los ID de cliente, los estados autenticados y el tipo de hash *no se* almacenan 
     __proto__: Object
 ```
 
-<br> 
+<br>
 
 Los resultados del método `setCustomerIDs` dan como resultado una llamada al servicio Experience Cloud ID, un `dpm.demdex.net`, con la adición del parámetro de consulta `d_cid_ic`, que contiene el ID de cliente con hash. Una llamada de ejemplo podría parecerse a la de abajo. Se agregaron los saltos de línea para una mayor claridad.
 
@@ -61,23 +61,23 @@ d_cid_ic=email%a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097%
 ts=1563299964843
 ```
 
-<br> 
+<br>
 
 Consulte la tabla siguiente para ver una descripción del parámetro`d_cid_ic` y del estado de autenticación.
 
 | Parámetro | Descripción |
 |------------|----------|
-| `d_cid_ic` | Pasa el código de integración, el ID de usuario único (DPUUID) y un ID de estado autenticado al servicio de identidad. Separe el código de integración y el DPUUID con el carácter de control sin impresión, %01</code>: <br> Ejemplo: d_cid_ic = Integration_ code% 01DPUUID%01Authentication_state</code> <br> <b>Estado de autenticación</b> <br> Se trata de un ID opcional en el parámetro d_cid_ic. Se expresa como un entero e identifica a los usuarios en función de su estado de autenticación, como se muestra a continuación: <br> <ul><li>0 (Desconocido o nunca autenticado)</li><li>1 (Actualmente autenticado para esta instancia/página/contexto de aplicación)</li><li>2 (Desconectado)</li></ul> <br> Ejemplos: <br> <ul><li>Desconocido: ...d_cid=123%01456%01<b>0</b></li><li>Autenticado: ...d_cid=123%01456%01<b>1</b></li><li>Desconectado: ...d_cid=123%01456%01<b>2</b></li></ul> |
+| `d_cid_ic` | Pasa el código de integración, el ID único de usuario (DPUUID) y un ID de estado autenticado al servicio de identidad. Separe el código de integración y el DPUUID con el carácter de control sin impresión, %01</code>: <br> Ejemplo: d_cid_ic = Integration_ code% 01DPUUID%01Authentication_state</code> <br> <b>Estado de autenticación</b> <br> Se trata de un ID opcional en el parámetro d_cid_ic. Se expresa como un entero e identifica a los usuarios en función de su estado de autenticación, como se muestra a continuación: <br> <ul><li>0 (Desconocido o nunca autenticado)</li><li>1 (Actualmente autenticado para esta instancia/página/contexto de aplicación)</li><li>2 (Desconectado)</li></ul> <br> Ejemplos: <br> <ul><li>Desconocido: ...d_cid=123%01456%01<b>0</b></li><li>Autenticado: ...d_cid=123%01456%01<b>1</b></li><li>Desconectado: ...d_cid=123%01456%01<b>2</b></li></ul> |
 
 ## Añadir una acción en Adobe Experience Platform Launch {#add-action-launch}
 
-Experience Platform Launch es la función de administración de etiquetas de próxima generación de Adobe. Obtenga más información sobre Launch en la documentación [del producto](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)Launch.
+Experience Platform Launch es la función de administración de etiquetas de próxima generación de Adobe. Obtenga más información sobre Launch en la [Documentación del producto de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html).
 
-Para agregar una acción en Launch, lea la documentación [de](https://docs.adobe.com/help/es-ES/launch/using/reference/manage-resources/rules.html) reglas en Inicio de Adobe y vea la captura de pantalla siguiente:
+Para añadir una acción en Launch, lea la [documentación de reglas](https://docs.adobe.com/help/es-ES/launch/using/reference/manage-resources/rules.html) en Adobe Launch y vea la captura de pantalla a continuación:
 
 ![](/help/reference/assets/hashing-support.png)
 
-<br> 
+<br>
 
 Tras confirmar la configuración, Launch ajusta los datos en un objeto, como se muestra a continuación:
 
