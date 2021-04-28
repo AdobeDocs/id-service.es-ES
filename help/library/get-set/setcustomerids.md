@@ -1,20 +1,20 @@
 ---
 description: setCustomerIDs establece una o más parejas de valor clave que definen los ID de cliente y su estado de autenticación.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: setCustomerIDs establece una o más parejas de valor clave que definen los ID de cliente y su estado de autenticación.
 seo-title: setCustomerIDs
 title: setCustomerIDs
 uuid: 4f960f98-cec2-4db6-84ea-0259e2128ea2
-translation-type: tm+mt
-source-git-commit: 21fb12b817b7c8cd34e6022ca6c188229228d1df
-workflow-type: tm+mt
-source-wordcount: '71'
+exl-id: 8fc549d3-2a6f-4214-bb0d-3e0bc1501ce2
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '73'
 ht-degree: 100%
 
 ---
 
-
-# setCustomerIDs{#setcustomerids}
+# setCustomerIDs {#setcustomerids}
 
 setCustomerIDs establece una o más parejas de valor clave que definen los ID de cliente y su estado de autenticación.
 
@@ -40,4 +40,3 @@ visitor.setCustomerIDs({
     "dpuuid":"550e8400-e29b-41d4-a716-446655440000" 
 });
 ```
-
