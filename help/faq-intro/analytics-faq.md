@@ -1,18 +1,18 @@
 ---
 description: Las preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de identidad de Experience Cloud.
-keywords: Experience Cloud Identity Service
+keywords: Servicio de Experience Cloud ID
 seo-description: Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
 seo-title: Preguntas frecuentes sobre el servicio de ID y Analytics
 title: Preguntas frecuentes sobre el servicio de ID y Analytics
 uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '989'
+exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '993'
 ht-degree: 100%
 
 ---
-
 
 # Preguntas frecuentes sobre el servicio de ID y Analytics {#analytics-and-id-service-faqs}
 
@@ -81,7 +81,7 @@ Hay tres escenarios posibles en los que esto afecta a los datos de Analytics par
 
 1. No se ha asignado un servicio de identidad ni un ID de Analytics al usuario final durante el segundo intervalo de tiempo espera de 30 segundos debido a la lentitud de las conexiones o a que el navegador no termina de cargarse.
 
-   No se establecería ni el servicio de identidad ni el ID de Analytics y se asignaría un ID del lado del cliente al visitante. Aunque esto permite recopilar datos de Analytics, el perfil del visitante se interrumpirá cuando se establezca un ID de Analytics en una página posterior. El ID del lado del cliente tampoco coincidirá con ningún perfil de visitante existente almacenado en Audience Manager o Analytics. Este ID de cliente también aparecerá como dos visitantes diferentes en Analytics si se envían dos dominios independientes al mismo grupo de informes.
+   No se establecería ni el servicio de identidad ni el ID de Analytics y se asignaría un ID del lado del cliente al visitante. Aunque esto permite recopilar datos de Analytics, el perfil del visitante se interrumpirá cuando se establezca un ID de Analytics en una página posterior. El ID del lado del cliente tampoco coincidirá con ningún perfil de visitante existente almacenado en Audience Manager o Analytics. Este ID del lado del cliente también aparecerá como dos visitantes diferentes en Analytics si se envían dos dominios independientes al mismo grupo de informes.
 
 1. No se asigna un ID de servicio de identidad a un usuario final durante el intervalo de tiempo de espera de 30 segundos, pero se le asigna un ID de seguimiento de Analytics y no se habilita el período de gracia.
 
