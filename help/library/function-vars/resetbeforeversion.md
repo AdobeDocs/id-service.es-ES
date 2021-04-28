@@ -1,28 +1,28 @@
 ---
 description: Esta configuración le permite retirar los Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Esta configuración le permite retirar los Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
 seo-title: resetBeforeVersion
 title: resetBeforeVersion
 uuid: b00d18b8-6720-42f9-9c83-bd306184cc0c
-translation-type: tm+mt
-source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
-workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 60%
+exl-id: 9fa40baa-433d-4f16-824b-521948a92a4b
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
-
-# resetBeforeVersion{#resetbeforeversion}
+# resetBeforeVersion {#resetbeforeversion}
 
 Esta configuración le permite retirar los Experience Cloud ID (ECID) huérfanos o inactivos, en función de la versión del servicio de ID que se está actualizando.
 
 Si se proporciona la versión del servicio de ID como valor de la variable `resetBeforeVersion`, los ECID obsoletos se borran de los ID del lado del cliente.
 
-Algunas condiciones, como los tiempos de espera de sesión, pueden ocasionar que se genere un ID del lado del cliente sin que el servicio de ID obtenga correctamente un ID del lado del servidor. Cuando esto sucede, el servicio de ID rastrea un ID del lado del cliente huérfano sin la capacidad de realizar un seguimiento entre dominios o de sincronizarse correctamente con otras soluciones. El comportamiento compara la versión de la cookie AMCV actual con el valor de `resetBeforeVersion`. Si la cookie no existe o su versión es menor (más antigua) que la versión más reciente de `resetBeforeVersion`, la cookie AMCV se elimina y el servicio de ID solicita un nuevo ECID.
+Algunas condiciones, como los tiempos de espera de sesión, a veces podían provocar que se generara un ID del lado del cliente sin que el servicio de ID obtuviera correctamente un ID del lado del servidor. Cuando esto sucede, el servicio de ID rastrea el ID del lado del cliente huérfano sin la capacidad de realizar un seguimiento entre dominios o de sincronizarse correctamente con otras soluciones. El comportamiento compara la versión de la cookie AMCV actual con el valor de `resetBeforeVersion`. Si la cookie no existe o su versión es menor (más antigua) que la versión más reciente de `resetBeforeVersion`, la cookie AMCV se elimina y el servicio de ID solicita un nuevo ECID.
 
-Para los visitantes que tienen cookies demdex de terceros en el navegador, se comprueba el ECID para ver si se generó correctamente empleando el UUID de la cookie. Si esa comprobación resulta verdadera, el nuevo ECID será el mismo y el visitante se considerará nuevo. Si por alguna razón el ECID que se está eliminando no se generó usando la cookie Demdex, o si no hay ninguna cookie Demdex, el visitante recibirá un nuevo ECID y se considerará nuevo.
+Para los visitantes que tienen cookies demdex de terceros en el navegador, se comprueba el ECID para ver si se generó correctamente empleando el UUID de la cookie. Si esa comprobación resulta verdadera, el nuevo ECID será el mismo y el visitante se considerará nuevo. Si, por alguna razón, el ECID que se está borrando no se generó mediante la cookie Demdex, o si no hay ninguna cookie Demdex, el visitante recibirá un nuevo ECID y se considerará como nuevo.
 
 **Sintaxis:** `resetBeforeVersion = "3.3"`
 
@@ -46,4 +46,3 @@ var visitor = Visitor.getInstance ("Insert Marketing Cloud organization ID here"
     resetBeforeVersion: "3.3" 
 });
 ```
-
