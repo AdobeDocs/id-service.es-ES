@@ -1,18 +1,18 @@
 ---
 description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 seo-title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 uuid: d46050ae-87de-46cc-911b-d6346c7fd511
-translation-type: tm+mt
-source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
-source-wordcount: '1303'
+exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '1305'
 ht-degree: 100%
 
 ---
-
 
 # Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager {#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
@@ -210,4 +210,3 @@ Si habilitó un periodo de gracia:
 
 * Asegúrese de que el ID de Analytics (AID) y el MID estén en la solicitud de imagen.
 * Recuerde deshabilitar el período de gracia cuando se cumplan los criterios para ello.
-
