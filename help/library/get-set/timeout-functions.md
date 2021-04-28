@@ -1,20 +1,20 @@
 ---
-description: Llame a estas funciones del servicio de identidad para determinar el estado de tiempo de espera de una solicitud de ID del servicio de identidad de Experience Cloud, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
-keywords: ID Service
-seo-description: Llame a estas funciones del servicio de identidad para determinar el estado de tiempo de espera de una solicitud de ID del servicio de identidad de Experience Cloud, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+description: Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID del servicio de Experience Cloud ID, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+keywords: Servicio de ID
+seo-description: Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID del servicio de Experience Cloud ID, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 seo-title: Métodos callTimeOut
 title: Métodos callTimeOut
 uuid: e5047498-11db-4945-b356-c92b7d447573
-translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
-workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 96%
+exl-id: ff3a2c5e-a0a8-4257-b538-0e4ce454b4e8
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
-
-# Métodos callTimeOut{#calltimeout-methods}
+# Métodos callTimeOut {#calltimeout-methods}
 
 Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID del servicio de Experience Cloud ID, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 
@@ -24,7 +24,7 @@ Llame a estas funciones del servicio de ID para determinar el estado de tiempo d
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Solución o servicio </th> 
-   <th colname="col2" class="entry"> Sintaxis de función </th> 
+   <th colname="col2" class="entry"> Sintaxis de funciones </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -67,4 +67,3 @@ Llame a estas funciones del servicio de ID para determinar el estado de tiempo d
   </tr> 
  </tbody> 
 </table>
-
