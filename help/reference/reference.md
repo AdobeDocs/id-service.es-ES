@@ -1,18 +1,18 @@
 ---
-description: Información acerca de otras características y funcionalidades del servicio de identidad de Experience Cloud.
-keywords: ID Service
+description: Información acerca de otras características y funcionalidades del servicio de Experience Cloud ID.
+keywords: Servicio de ID
 seo-description: Información acerca de otras características y funcionalidades del servicio de Experience Cloud ID.
 seo-title: Referencia
 title: Referencia
 uuid: 9e8f50db-1fdf-4fbc-89e5-4431bb6402d5
-translation-type: tm+mt
-source-git-commit: e6d65f1bfed187d7440512e8f3c2de0550506c95
-workflow-type: tm+mt
-source-wordcount: '102'
+exl-id: 9a14300c-206c-4960-b594-517809f7e979
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '104'
 ht-degree: 100%
 
 ---
-
 
 # Referencia {#reference}
 
@@ -27,4 +27,3 @@ Información acerca de otras características y funcionalidades del servicio de 
 * [ Requisitos del servicio de Experience Cloud ID](requirements.md)
 * [Video Heartbeat y el servicio de identidad de Experience Cloud](heartbeat.md)
 * [Data Workbench y el servicio de Experience Cloud ID](dwb.md)
-
