@@ -4,16 +4,16 @@ seo-description: Con el servicio de inclusión (Opt-in) puede configurar protoco
 seo-title: servicio de inclusión (Opt-in)
 title: servicio de inclusión (Opt-in)
 uuid: aebd72ad-4118-471b-9755-d08a72caa0fd
-translation-type: tm+mt
-source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
-workflow-type: tm+mt
+exl-id: 351da861-4faa-409b-b0ff-f4d2ce66700b
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-
-# Servicio de inclusión (Opt-in){#opt-in-service}
+# Servicio de inclusión (Opt-in) {#opt-in-service}
 
 Con el servicio de inclusión (Opt-in) puede configurar protocolos para que un visitante de su sitio decida si le permite establecer una cookie en su dispositivo o navegador.
 
@@ -21,7 +21,7 @@ El servicio de inclusión (Opt-in) es una extensión del servicio de Experience 
 
 El servicio de inclusión (Opt-in) le permite especificar si un visitante puede incluirse en las soluciones de Adobe de una sola vez, o si se le presentan las soluciones una tras otra para que vaya aprobando los permisos. Una vez que el cliente completa y registra el proceso de aprobación, puede recuperar las aprobaciones de visitante de CMP desde las soluciones de Adobe.
 
-The Opt-in service is implemented and configured easily using [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html) with the [Opt-in extension](../../implementation-guides/opt-in-service/launch.md). También se puede implementar y configurar utilizando [DTM.](../../implementation-guides/opt-in-service/optin-dtm.md)
+El servicio de inclusión se implementa y se configura fácilmente con [Adobe Experience Platform Launch ](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)con la [extensión de inclusión](../../implementation-guides/opt-in-service/launch.md). También se puede implementar y configurar utilizando [DTM.](../../implementation-guides/opt-in-service/optin-dtm.md)
 
 Consulte [Configuración del servicio de inclusión (Opt-in)](../../implementation-guides/opt-in-service/getting-started.md) para comenzar.
 
@@ -39,13 +39,13 @@ El servicio de inclusión (Opt-in) es una herramienta para la creación de flujo
 
 El servicio de inclusión (Opt-in) le permite establecer prácticas de gestión del consentimiento para soluciones de Adobe con las que podrá hacer lo siguiente:
 
-* Indicar si los requisitos de obtención de consentimiento se aplican en general a un usuario.
-* Especifique qué soluciones están autorizadas para generar cookies.
+* Indique si los requisitos de recopilación de consentimiento se aplican en general a un usuario.
+* Especifique qué soluciones pueden generar cookies.
 * Aplique las preferencias predeterminadas para cualquier solución cuya categoría no haya sido aceptada o rechazada explícitamente por el usuario.
-* Active una respuesta personalizada en función de los cambios en la configuración de consentimiento de un usuario, lo que le permite mantener o actualizar la configuración del usuario.
+* Active la respuesta personalizada en función de los cambios en la configuración de consentimiento de un usuario, lo que le permite mantener o actualizar la configuración del usuario.
 
-Mediante el servicio de inclusión (Opt-in) puede configurar su sitio de modo que permita la carga de algunas cookies con preconsentimiento, antes de la elección del usuario. Puede configurar los servicios de inclusión para nuevos clientes de modo que sea posible cargar cookies tras dar el usuario su consentimiento, o tras quedar disponible una elección. También puede almacenar y recuperar el consentimiento adhesión de su plataforma de administración de consentimiento existente o simplemente almacenar permisos de adhesión en una cookie.
+Mediante el servicio de inclusión (Opt-in) puede configurar su sitio de modo que permita la carga de algunas cookies con preconsentimiento, antes de la elección del usuario. Puede configurar los servicios de inclusión para nuevos clientes de modo que sea posible cargar cookies tras dar el usuario su consentimiento, o tras quedar disponible una elección. También puede almacenar y recuperar el consentimiento de inclusión de su plataforma de administración de consentimiento existente o simplemente almacenar los permisos de inclusión en una cookie.
 
 ![](assets/Opt-in-approval.png)
 
-Las soluciones de Adobe pueden entonces comprobar si la etiqueta está aprobada, suscribirse a los cambios y recuperar todos los clientes de inclusión. El servicio de inclusión (Opt-in) le permite obtener permisos directamente mediante la solución de bibliotecas de JavaScript o mediante los ECID, de estar implementados.
+Las soluciones de Adobe pueden comprobar si la etiqueta está aprobada, suscribirse a los cambios y recuperar a todos los clientes de inclusión. El servicio de inclusión (Opt-in) le permite obtener permisos directamente mediante la solución de bibliotecas de JavaScript o mediante los ECID, de estar implementados.
