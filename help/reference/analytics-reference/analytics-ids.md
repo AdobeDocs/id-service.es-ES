@@ -2,19 +2,19 @@
 description: El servicio de Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics anteriores.
 keywords: Servicio de ID
 seo-description: El servicio de Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics anteriores.
-seo-title: Configuración de ID de Analytics y de Experience Cloud
-title: Configuración de ID de Analytics y de Experience Cloud
+seo-title: Configuración de Analytics y Experience Cloud ID
+title: Configuración de Analytics y Experience Cloud ID
 uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
+exl-id: 7399ea16-d13e-452c-b8d9-8d0699566aa2
 translation-type: ht
-source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
 workflow-type: ht
 source-wordcount: '945'
 ht-degree: 100%
 
 ---
 
-
-# Configuración de ID de Analytics y de Experience Cloud {#setting-analytics-and-experience-cloud-ids}
+# Configuración de Analytics y Experience Cloud ID {#setting-analytics-and-experience-cloud-ids}
 
 El servicio de Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics anteriores.
 
@@ -83,7 +83,7 @@ Después de implementar el servicio de ID de visitante, hay cinco formas de iden
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img id="image_23D8C0EB69EC4084BC237B5B98C036F4" src="assets/step5_icon.png" /> </p> </td> 
-   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html" format="http" scope="external"> Dirección IP, agente de usuario y dirección IP de puerta de enlace</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/metrics/unique-visitors.html" format="http" scope="external"> Dirección IP, agente de usuario y dirección IP de puerta de enlace</a> </p> </td> 
    <td colname="col3"> <p>El explorador del visitante no acepta cookies. </p> </td> 
   </tr> 
  </tbody> 
