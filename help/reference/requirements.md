@@ -1,18 +1,18 @@
 ---
 description: Lea esta sección para asegurarse de que está empleando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de Experience Cloud ID.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Lea esta sección para asegurarse de que está empleando las soluciones, los servicios y las versiones de código adecuados que requiere el servicio de Experience Cloud ID.
 seo-title: Requisitos del servicio de Experience Cloud ID
 title: Requisitos del servicio de Experience Cloud ID
 uuid: 608b1082-6e9e-4101-b6cb-60027950109b
-translation-type: tm+mt
-source-git-commit: 6e77622817d9881efd9039d9073ba4ae14e8e14e
-workflow-type: tm+mt
-source-wordcount: '781'
+exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
-
 
 # Requisitos del servicio de Experience Cloud ID {#requirements-for-the-experience-cloud-id-service}
 
@@ -83,7 +83,7 @@ Para emplear el servicio de ID, su empresa debe poder usar [!DNL Experience Clou
 
 ## Requisitos de Analytics: Recopilación de datos regionales (RDC) {#section-7d04bb013bc84a25bae3b148bc0ca25f}
 
-Todos los servidores de seguimiento se han convertido a RDC, por lo que no es necesario cambiar el servidor de seguimiento de Analytics. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/technotes/rdc/regional-data-collection.translate.html)
+Todos los servidores de seguimiento se han convertido a RDC, por lo que no es necesario cambiar el servidor de seguimiento de Analytics. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/technotes/rdc/regional-data-collection.html)
 
 ## Bibliotecas de códigos y requisitos de la versión {#section-ad7542a4317d430fa79fc6b095beb84d}
 
