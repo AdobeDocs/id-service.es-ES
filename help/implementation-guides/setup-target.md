@@ -1,18 +1,18 @@
 ---
 description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 seo-title: Implementación del servicio de Experience Cloud ID para Target
 title: Implementación del servicio de Experience Cloud ID para Target
 uuid: cb3581fa-4c4b-43aa-bb8e-8db85a6a1ef2
-translation-type: tm+mt
-source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
-source-wordcount: '459'
+exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
-
 
 # Implementación del servicio de identidad de Experience Cloud para Destinatario {#implement-the-experience-cloud-id-service-for-target}
 
