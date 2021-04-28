@@ -1,14 +1,14 @@
 ---
 title: Use la opción de inclusión para controlar Actividades de Experience Cloud basadas en el consentimiento del usuario
 description: El objeto de selección de Adobe es una extensión del servicio de identidad de Adobe Experience Platform, diseñado para ayudarle a controlar si las soluciones de Experience Cloud pueden crear cookies en páginas web o iniciar señalizaciones en función del consentimiento del usuario final.
-translation-type: tm+mt
-source-git-commit: 3aba8820ef40d068c732a637be5ab67652a8d35d
-workflow-type: tm+mt
+exl-id: ac44e628-01ca-401c-864b-30fed0450e5f
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
 ---
-
 
 # Actividades de control de Experience Cloud basadas en el consentimiento del usuario
 
@@ -18,7 +18,7 @@ El [!UICONTROL objeto de inclusión] de Adobe es una extensión del [!UICONTROL 
 
 Un aspecto importante de las normas de privacidad es la adquisición y transmisión del consentimiento del usuario sobre cómo se pueden utilizar sus datos personales y quién los puede usar. La última versión de [!UICONTROL Identity Service] incluye funcionalidad, que se encuentra entre el usuario (la interfaz de usuario) y las soluciones de Adobe y proporciona activación condicional (por ejemplo, consentimiento previo y posterior) de las etiquetas de la solución de Adobe Experience Cloud en función de si el usuario final ha dado su consentimiento. Esto se muestra en la siguiente imagen:
 
-![Diagrama del funcionamiento de la [!UICONTROL inclusión]](assets/opt-in.png)
+![ Diagrama del funcionamiento de la [!UICONTROL  inclusión] ](assets/opt-in.png)
 
 [!UICONTROL La inclusión] es básicamente el portero... ¿O es el amo de llaves? Tú decides.
 
