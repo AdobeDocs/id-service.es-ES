@@ -4,14 +4,14 @@ seo-description: Conecte su plataforma de administración de consentimiento (CMP
 seo-title: Uso de servicios de inclusión con IAB Framework
 title: Uso de servicios de inclusión con IAB Framework
 uuid: 8df39d9c-c016-490e-b4db-d02e4044b480
-translation-type: tm+mt
-source-git-commit: ddff95876722b981f22c7e3196ff2ce9b696010e
-workflow-type: tm+mt
+exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '493'
 ht-degree: 100%
 
 ---
-
 
 # Uso de servicios de inclusión con IAB Framework {#using-opt-in-services-with-iab-framework}
 
@@ -59,5 +59,5 @@ Para obtener más información sobre cómo se valida el complemento de IAB TCF d
 
 * [Marco de transparencia y consentimiento (TCF) de IAB](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/): para obtener más información sobre el IAB estándar
 * [Adobe Opt-In](../../implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360): para obtener más información acerca de Opt-In, un componente necesario para la gestión del consentimiento en las soluciones de plataforma
-* Compatibilidad con el marco de transparencia y consentimiento IAB (TCF) [en Audience Manager](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.translate.html)
+* Compatibilidad con el marco de transparencia y consentimiento IAB (TCF) [en Audience Manager](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html)
 * [Sus decisiones de privacidad](https://www.adobe.com/es/privacy/opt-out.html#customeruse): otra opción de privacidad a disposición de los usuarios es la capacidad de excluirse de toda recopilación de datos mediante otras herramientas globales de exclusión. La exclusión global tiene preferencia sobre la verificación mediante inclusión e IAB TCF
