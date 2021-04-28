@@ -5,14 +5,14 @@ seo-description: Antes de implementar el servicio de identidad de Experience Clo
 seo-title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
+exl-id: f2802db2-c95f-476f-8c60-f45e8312253c
 translation-type: ht
-source-git-commit: a76eb7cc579ca859769e6caa256a3a0a3f66ca33
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
 workflow-type: ht
 source-wordcount: '679'
 ht-degree: 100%
 
 ---
-
 
 # Puntos de decisión para la migración del servicio de Experience Cloud ID
 
@@ -125,4 +125,3 @@ Es posible que deba actualizar la forma en que realiza el seguimiento de víncul
   </tr> 
  </tbody> 
 </table>
-
