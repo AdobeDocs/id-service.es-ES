@@ -1,18 +1,18 @@
 ---
 description: Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
 seo-title: Preguntas más frecuentes sobre el servicio de ID
 title: Preguntas más frecuentes sobre el servicio de ID
 uuid: e8d8f819-3d73-4fa2-864c-4867071c14ee
-translation-type: tm+mt
-source-git-commit: d2bc0e7fedc4e48d51f5dad158f9f8bfcb0cb4f3
-workflow-type: tm+mt
-source-wordcount: '804'
+exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '806'
 ht-degree: 100%
 
 ---
-
 
 # Preguntas más frecuentes sobre el servicio de ID {#id-service-faqs}
 
@@ -44,7 +44,7 @@ En el caso de los [!DNL Target] clientes de, al colocar el código de servicio d
 
 **¿Hace el servicio de ID una llamada al servidor con cada carga de página?**
 
-No, esta llamada solo se realizará la primera vez que la página se procese y una vez cada 7 días a partir de entonces. Mientras tanto, no se requieren llamadas al servidor. El servicio de ID funciona en modo de cliente y no necesita realizar una llamada al servidor para devolver un ID.
+No, esta llamada solo se realizará la primera vez que la página se procese y una vez cada 7 días a partir de entonces. Mientras tanto, no se requieren llamadas al servidor. El servicio de ID funciona del lado del cliente y no necesita realizar una llamada al servidor para devolver un ID.
 
 Consulte [Información general](../introduction/overview.md).
 
