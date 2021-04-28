@@ -4,16 +4,16 @@ seo-description: API para la biblioteca de Opt-in y referencia de ajustes de con
 seo-title: Referencia de Opt-in
 title: Referencia de Opt-in
 uuid: d5023a34-2f3e-464d-b21f-579b2f416ce6
-translation-type: tm+mt
-source-git-commit: 4fbfefddcf36855f32f2a4047e19ef0b22fc508c
-workflow-type: tm+mt
+exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-
-# Referencia de Opt-in{#opt-in-reference}
+# Referencia de Opt-in {#opt-in-reference}
 
 API para la biblioteca de Opt-in y referencia de ajustes de configuración.
 
@@ -34,9 +34,9 @@ Esta sección trata sobre el uso de la API para configurar Opt-in. Buena parte d
 
 Se proporcionan configuraciones de Opt-in en la función `getInstance()` de Visitor JavaScript, que crea una instancia del objeto global `adobe`. A continuación se enumeran las configuraciones de Visitor JS relacionadas con el servicio Opt-in.
 
-**`doesOptInApply (boolean or function that evaluates to a boolean)`**::
+**`doesOptInApply (boolean or function that evaluates to a boolean)`**
 
-Si es false, indica que los visitantes no necesitan adhesión. Da como resultado que el Experience Cloud cree cookies independientemente de las categorías adhesión o no. Esta configuración habilita o deshabilita holísticamente la inclusión.
+Si es falso, indica que los visitantes no tienen que incluirse. Hace que Experience Cloud cree cookies independientemente de las categorías que se hayan incluido. Esta configuración habilita o deshabilita la inclusión de forma integral.
 
 **`preOptInApprovals (Object <adobe.OptInCategories enum: boolean>)`**
 
@@ -60,21 +60,21 @@ Número de segundos para anular la caducidad predeterminada de 13 meses
 
 ## Cambios en los parámetros de consentimiento {#section-c3d85403ff0d4394bd775c39f3d001fc}
 
-En cualquier momento durante su experiencia en el sitio, un visitante puede establecer las preferencias por primera vez o puede cambiar sus preferencias usando su CMP. Una vez inicializada la Visitante JS con la configuración inicial, los permisos del visitante se pueden cambiar con las siguientes funciones:
+En cualquier momento durante la experiencia en el sitio, un visitante puede establecer preferencias por primera vez o puede cambiar sus preferencias mediante CMP. Una vez que Visitor JS se ha inicializado con la configuración inicial, los permisos del visitante se pueden cambiar con las funciones siguientes:
 
 **`adobe.optIn.approve(categories, shouldWaitForComplete)`**
 
-Función que aprueba o incluye al visitante en todas las categorías de una lista. Para obtener más información sobre el parámetro mustWaitForComplete, consulte Flujo de trabajo [de inclusión](../../implementation-guides/opt-in-service/getting-started.md#section-70cd243dec834c8ea096488640ae20a5).
+Función que aprueba o incluye al visitante en todas las categorías de una lista. Para obtener más información sobre el parámetro shouldWaitForComplete, consulte [Flujo de trabajo de inclusión](../../implementation-guides/opt-in-service/getting-started.md#section-70cd243dec834c8ea096488640ae20a5).
 
 **`adobe.optIn.deny(categories, shouldWaitForComplete)`**
 
 Función que rechaza o excluye al visitante de todas las categorías especificadas.
 
-**`adobe.optIn.approveAll()`**::
+**`adobe.optIn.approveAll()`**
 
 Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de su respuesta.
 
-**`adobe.optIn.denyAll()`**::
+**`adobe.optIn.denyAll()`**
 
 Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de la respuesta.
 
@@ -108,7 +108,7 @@ Si todas las categorías están aprobadas, esta función devuelve el valor “tr
 
 `adobe.optIn.fetchPermissions(callback, shouldAutoSubscribe)`
 
-Recupere la lista de permisos de forma asíncrona. La llamada de retorno se realiza con la lista de permisos, una vez que se completa el proceso de concesión y denegación de permisos. Si se proporciona el valor *true* para `shouldAutoSubscribe`, la devolución de llamada se registra para cualquier cambio que se produzca en adelante en Opt-in. Las siguientes son propiedades de `adobe.OptIn`:
+Recupere la lista de permisos de forma asíncrona. La llamada de retorno se llama con la lista de permisos, una vez que se ha completado el proceso de concesión/denegación de permisos. Si se proporciona el valor *true* para `shouldAutoSubscribe`, la devolución de llamada se registra para cualquier cambio que se produzca en adelante en Opt-in. Las siguientes son propiedades de `adobe.OptIn`:
 
 **`permissions`**
 
@@ -126,11 +126,11 @@ Un objeto que enumera todas las soluciones de Experience Cloud que, como categor
 
 **`isPending`**
 
-True o false, según el valor de estado. Los informes de inclusión verdaderos para esta propiedad para un visitante que aún no ha aceptado o denegado explícitamente el permiso
+True o False, dependiendo del valor de estado. La inclusión devuelve True para esta propiedad en relación con un visitante que aún no haya aceptado o rechazado de manera explícita ningún permiso.
 
 **`isComplete`**
 
-True o false según el valor de estado. La inclusión podría informar de un valor falso para esta propiedad cuando se ha iniciado un consentimiento de estilo de flujo de trabajo pero no se ha completado.
+True o False, dependiendo del valor de estado. La inclusión podría devolver False para esta propiedad cuando se haya iniciado un consentimiento de estilo de flujo de trabajo, pero no se haya completado.
 
 ## Métodos del objeto Opt-in {#section-e0417801a82548d199d833010033e433}
 
@@ -149,8 +149,8 @@ True o false según el valor de estado. La inclusión podría informar de un val
 
 **`deny(categories, shouldWaitForComplete)`**
 
-* Pase 1 o más categorías para comprobar si están aprobadas.
-* Si no se pasa ninguna categoría, se marcan TODAS las categorías disponibles.
+* Pasa una o más categorías para comprobar si están aprobadas. 
+* Si no se pasa ninguna categoría, se comprueban TODAS las categorías disponibles.
 
 **`isApproved(categories)`**
 
@@ -162,7 +162,7 @@ Comprueba si el cliente ha preaprobado una o más categorías. (Si se pasaron en
 
 **`fetchPermissions(callback, shouldAutoSubscribe)`**
 
-Async API para recuperar la lista de permisos. La llamada de retorno se realiza con la lista de permisos, una vez que se completa el proceso de concesión y denegación de permisos. **:**`shouldAutoSubscribe` una utilidad de ayuda que suscribe automáticamente esta devolución de llamada a todos los eventos futuros. Es decir, la llamada de retorno se llamará cada vez que se Adhesión un activador de aprobación o denegación. De esta manera siempre se actualiza, sin suscribirse a los eventos.
+API asíncrona para recuperar la lista de permisos. La llamada de retorno se llama con la lista de permisos, una vez que se ha completado el proceso de concesión/denegación de permisos. **:**`shouldAutoSubscribe` una utilidad de ayuda que suscribe automáticamente esta devolución de llamada a todos los eventos futuros. Esto significa que se llamará a la devolución de llamada cada vez que se active un desencadenador de aprobación o denegación en la inclusión. De este modo siempre se mantiene actualizado sin suscribirse a los eventos.
 
 **Ejemplo**
 
