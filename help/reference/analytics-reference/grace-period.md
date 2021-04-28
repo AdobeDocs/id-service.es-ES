@@ -1,18 +1,18 @@
 ---
 description: Si tiene varios archivos JavaScript que envían datos al mismo grupo de informes o si utiliza otras tecnologías en el sitio, como la medición de vídeo Flash, le recomendamos que configure un período de gracia.
-keywords: ID Service
+keywords: Servicio de ID
 seo-description: Si tiene varios archivos JavaScript que envían datos al mismo grupo de informes o si utiliza otras tecnologías en el sitio, como la medición de vídeo Flash, le recomendamos que configure un período de gracia.
 seo-title: Período de gracia del servicio de ID
 title: Período de gracia del servicio de ID
 uuid: 10a7db7d-de32-4379-914f-edaf929efa32
-translation-type: tm+mt
-source-git-commit: bc5c81455023e22e64877bb861dfe141e158599c
-workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 73%
+exl-id: 83b4898c-8358-458b-a798-1e3c9633afe9
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '458'
+ht-degree: 100%
 
 ---
-
 
 # Período de gracia del servicio de ID {#the-id-service-grace-period}
 
@@ -28,12 +28,12 @@ La implementación del servicio de [!DNL Experience Cloud] ID de en sitios que u
 >
 >Para utilizar el período de gracia se necesita la versión 1.3 o posterior del servicio de ID de [!DNL Experience Cloud].
 
-## ¿Necesito un período de gracia?{#section-fd34c7ff697348a39f49258b7d39eb42}
+## ¿Necesito un período de gracia? {#section-fd34c7ff697348a39f49258b7d39eb42}
 
-Si tiene un solo archivo JavaScript de Analytics y no utiliza otras bibliotecas de AppMeasurement, no necesita un período de gracia. Puede realizar la actualización en el archivo JavaScript y se podrá identificar a los nuevos visitantes de forma constante durante la visita mediante el Experience Cloud ID.
+Si tiene un solo archivo JavaScript de Analytics y no utiliza otras bibliotecas de AppMeasurement, no necesita ningún periodo de gracia. Puede realizar la actualización en el archivo JavaScript y se podrá identificar a los nuevos visitantes de forma constante durante la visita mediante el Experience Cloud ID.
 
-If you have multiple JavaScript files that are sending data to the *same report suite*, or if you are using other technologies on your site such as Flash video measurement, we recommend configuring a grace period.
+Si tiene varios archivos JavaScript que envían datos al *mismo grupo de informes* o si utiliza otras tecnologías en el sitio, como la medición de vídeo Flash, le recomendamos que configure un periodo de gracia.
 
 ## ¿Cómo puedo habilitar un período de gracia?  {#section-512d5cd8570e483cbdd8b04457a16ced}
 
-Contact [Customer Care](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
+Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
