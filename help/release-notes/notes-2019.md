@@ -1,22 +1,22 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
-keywords: ID Service
-seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
+keywords: Servicio de ID
+seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 seo-title: Notas de la versión 2019
 title: Notas de la versión 2019
 uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
-translation-type: tm+mt
-source-git-commit: 8ece066545f4ca4a7bd1eca67c8f02dcd2a88369
-workflow-type: tm+mt
-source-wordcount: '422'
+exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
+translation-type: ht
+source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
+workflow-type: ht
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
 
-
 # Notas de la versión de Experience Cloud: 2019 {#release-notes}
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 
 ## Versión 4.4.1
 
