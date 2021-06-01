@@ -7,9 +7,9 @@ title: Cookies y el servicio de Experience Cloud ID
 uuid: c5cbd235-37ee-4605-8792-b1a991e190ad
 exl-id: 727c6381-56b9-44b8-8e59-355d072769be
 source-git-commit: d2bc28329c68c54a85dcf714083b3fcb5afc5a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ En la tabla siguiente se describen los indicadores de las cookies de Experience 
 
 | Cookie (establecida por) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
-| demdex (respuesta http) | No | Sí | &quot;None&quot; |
+| demdex (respuesta http) | No | Sí | &quot;Ninguno&quot; |
 | AMCV (JavaScript) | No | Configurable | Unset (predeterminado en Lax) |
 | AMCVS (JavaScript) | No | Configurable | Unset (predeterminado en Lax) |
 
