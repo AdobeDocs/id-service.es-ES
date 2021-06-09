@@ -5,11 +5,10 @@ seo-description: El servicio de Experience Cloud ID (ECID) es compatible con el 
 seo-title: Soporte hash SHA 256 para setCustomerIDs
 title: Soporte hash SHA 256 para setCustomerIDs
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '666'
-ht-degree: 100%
+source-git-commit: cca52e1ece7a31199cb86a286dd772a41f01eeaa
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +48,7 @@ Los ID de cliente, los estados autenticados y el tipo de hash *no se* almacenan 
     __proto__: Object
 ```
 
-<br>
+<br> 
 
 Los resultados del método `setCustomerIDs` dan como resultado una llamada al servicio Experience Cloud ID, un `dpm.demdex.net`, con la adición del parámetro de consulta `d_cid_ic`, que contiene el ID de cliente con hash. Una llamada de ejemplo podría parecerse a la de abajo. Se agregaron los saltos de línea para una mayor claridad.
 
@@ -61,7 +60,7 @@ d_cid_ic=email%a6ea4cde5da5ae7cc68baae894d1d6544fca26254433b0fff7c2cb4843b4a097%
 ts=1563299964843
 ```
 
-<br>
+<br> 
 
 Consulte la tabla siguiente para ver una descripción del parámetro`d_cid_ic` y del estado de autenticación.
 
@@ -71,13 +70,13 @@ Consulte la tabla siguiente para ver una descripción del parámetro`d_cid_ic` y
 
 ## Añadir una acción en Adobe Experience Platform Launch {#add-action-launch}
 
-Experience Platform Launch es la función de administración de etiquetas de próxima generación de Adobe. Obtenga más información sobre Launch en la [Documentación del producto de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html).
+Experience Platform Launch es la función de administración de etiquetas de próxima generación de Adobe. Obtenga más información sobre el Platform launch en la [documentación del producto de Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en).
 
 Para añadir una acción en Launch, lea la [documentación de reglas](https://docs.adobe.com/help/es-ES/launch/using/reference/manage-resources/rules.html) en Adobe Launch y vea la captura de pantalla a continuación:
 
 ![](/help/reference/assets/hashing-support.png)
 
-<br>
+<br> 
 
 Tras confirmar la configuración, Launch ajusta los datos en un objeto, como se muestra a continuación:
 
