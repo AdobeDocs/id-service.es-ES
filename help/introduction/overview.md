@@ -4,10 +4,9 @@ seo-description: El servicio de identidad de Experience Cloud (anteriormente ser
 seo-title: Introducción al servicio de Experience Cloud ID
 title: Introducción al servicio de Experience Cloud ID
 exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '615'
+source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+workflow-type: tm+mt
+source-wordcount: '606'
 ht-degree: 100%
 
 ---
@@ -37,7 +36,7 @@ En resumen, el servicio de ID hace lo siguiente:
 
 * Crea una clave común o ID que se puede utilizar para vincular perfiles e identidades.
 * Identifica de forma exclusiva un dispositivo en varias soluciones.
-* Establece una cookie de origen en el dominio del cliente para garantizar el seguimiento en el mismo dominio. Consulte el documento sobre [cookies y el servicio de identidad de Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/intro/cookies.html) para obtener más información.
+* Establece una cookie de origen en el dominio del cliente para garantizar el seguimiento en el mismo dominio. Consulte el documento sobre [cookies y el servicio de identidad de Experience Cloud](./cookies.md) para obtener más información.
 * Recibe alias y asignaciones de ID de clientes y socios de Experience Cloud.
 * Gestiona la sincronización de ID en Experience Cloud.
 * Admite la sincronización de ID con terceros distintos en el ecosistema tecnológico de publicidad.
