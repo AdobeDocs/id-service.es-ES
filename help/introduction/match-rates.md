@@ -6,11 +6,10 @@ seo-title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 95%
 
 ---
 
@@ -54,11 +53,11 @@ La sincronización de ID se produce mediante una URL que activa el iFrame de pub
 
 `http://abc.com?partner_id=abc&sync_id=123&redir=http://dpm.demdex.net/ibs:dpid=<ADOBE_PARTNER_ID>&dpuuid=<PARTNER_UUID>`
 
-Consulte también [Sincronización de ID para transferencias de datos entrantes](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/implementation-integration-guides/sending-audience-data/batch-data-transfer-process/id-sync-http.html).
+Consulte también [Sincronización de ID para transferencias de datos entrantes](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/sending-audience-data/batch-data-transfer-process/id-sync-http.html?lang=en).
 
 **Paso 4: Almacenamiento de los ID**
 
-Los ID sincronizados se almacenan en [los servidores edge y de datos principales](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/system-components/components-edge.html).
+Los ID sincronizados se almacenan en [los servidores edge y de datos principales](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-edge.html?lang=en).
 
 ## Administración de la sincronización de ID mediante los servicios de sincronización {#section-cd5784d7ad404a24aa28ad4816a0119a}
 
@@ -73,9 +72,9 @@ El término *`Sync Services`* hace referencia a las tecnologías internas de [!D
 
 ## Sincronización de ID con Adobe Advertising Cloud {#section-642c885ea65d45ffb761f78838735016}
 
-[!DNL Adobe Advertising Cloud] (antes [!DNL Adobe Media Optimizer]) es una excepción del proceso de sincronización de ID basado en iFrame. Puesto que [!DNL Advertising Cloud] es un dominio de confianza, las sincronizaciones de ID se realizan en la página principal en lugar de en el [!UICONTROL iFrame de publicación de destino]. Durante la sincronización, el servicio de ID llama a [!DNL Advertising Cloud] en `cm.eversttech.net`, que es un nombre de dominio heredado que utilizaba [!DNL Advertising Cloud] antes de su adquisición por parte de Adobe. El envío de datos a [!DNL Advertising Cloud] ayuda a mejorar las tasas de coincidencia y se realiza automáticamente para los clientes de servicio de ID que utilizan la versión 2.0 (o posterior). Consulte [Cookies de Advertising Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-advertising-cloud.html).
+[!DNL Adobe Advertising Cloud] (antes [!DNL Adobe Media Optimizer]) es una excepción del proceso de sincronización de ID basado en iFrame. Puesto que [!DNL Advertising Cloud] es un dominio de confianza, las sincronizaciones de ID se realizan en la página principal en lugar de en el [!UICONTROL iFrame de publicación de destino]. Durante la sincronización, el servicio de ID llama a [!DNL Advertising Cloud] en `cm.eversttech.net`, que es un nombre de dominio heredado que utilizaba [!DNL Advertising Cloud] antes de su adquisición por parte de Adobe. El envío de datos a [!DNL Advertising Cloud] ayuda a mejorar las tasas de coincidencia y se realiza automáticamente para los clientes de servicio de ID que utilizan la versión 2.0 (o posterior). Consulte [Cookies de Advertising Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-advertising-cloud.html?lang=en).
 
 >[!MORELIKETHIS]
 >
->* [Explicación de las llamadas al dominio Demdex](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html)
+>* [Explicación de las llamadas al dominio Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)
 
