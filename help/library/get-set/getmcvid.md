@@ -1,20 +1,16 @@
 ---
 description: getMarketingCloudVisitorID devuelve el ID de visitante de Experience Cloud.
 keywords: Servicio de ID
-seo-description: getMarketingCloudVisitorID devuelve el ID de visitante de Experience Cloud.
-seo-title: getMarketingCloudVisitorID
 title: getMarketingCloudVisitorID
-uuid: 93e16220-b5b3-4d81-9189-30031bc15129
 exl-id: bd81cc0b-0511-492d-beb8-8ba2fe5d4323
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '125'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# getMarketingCloudVisitorID {#getmarketingcloudvisitorid}
+# getMarketingCloudVisitorID{#getmarketingcloudvisitorid}
 
 getMarketingCloudVisitorID devuelve el ID de visitante de Experience Cloud.
 
