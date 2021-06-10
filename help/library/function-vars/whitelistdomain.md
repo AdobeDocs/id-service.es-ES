@@ -1,16 +1,12 @@
 ---
 description: Estas configuraciones permiten que diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal se comuniquen entre sí. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Están disponibles en la versión 2.2 o posterior del código de VisitorAPI.js.
 keywords: Servicio de ID
-seo-description: Estas configuraciones permiten que diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal se comuniquen entre sí. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Están disponibles en la versión 2.2 o posterior del código de VisitorAPI.js.
-seo-title: whitelistParentDomain y whitelistIframeDomains
 title: whitelistParentDomain y whitelistIframeDomains
-uuid: 6b66a4d0-fea2-4d98-963e-0c4f4ab1efb6
 exl-id: 0ed1da79-7129-4f5f-b7ad-901348a13866
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '934'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +47,7 @@ Ambos elementos de configuración son obligatorios cuando se utiliza este códig
  </tbody> 
 </table>
 
-## Ejemplo de código {#section-09d0049fe88a473baa69d404c50bf8ae}
+## Ejemplo de código  {#section-09d0049fe88a473baa69d404c50bf8ae}
 
 Su código de [!UICONTROL servicio de ID] configurado puede tener un aspecto similar al de este ejemplo.
 
@@ -147,7 +143,7 @@ Estas configuraciones ayudan a resolver el problema de configurar una cookie de 
  </tbody> 
 </table>
 
-## Protección y seguridad de configuración {#section-2b1ce31fab034e1ca0f6b1c3cc57a6e2}
+## Protección y seguridad de configuración  {#section-2b1ce31fab034e1ca0f6b1c3cc57a6e2}
 
 Puede implementar estas configuraciones de forma segura porque:
 
@@ -155,7 +151,7 @@ Puede implementar estas configuraciones de forma segura porque:
 * Estas configuraciones solo se comunican con el dominio y los iFrames especificados en el código.
 * La comunicación entre el iFrame y la página principal sigue un formato específico. Si el servicio de ID de la página principal no recibe una solicitud en el formato esperado, este proceso de uso compartido fallará.
 
-## Métodos de API de visitante compatibles {#section-30c6a9f4dcdc4265a1149260b97cc057}
+## Métodos de API de visitante compatibles  {#section-30c6a9f4dcdc4265a1149260b97cc057}
 
 El servicio de ID admite un conjunto limitado de métodos API públicos al implementar estas configuraciones de lista blanca. Los métodos admitidos varían según los casos de uso descritos anteriormente.
 
@@ -182,7 +178,7 @@ El servicio de ID admite un conjunto limitado de métodos API públicos al imple
    <td colname="col1"> <p> <b>Caso 2</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_CCAD7E362E7F4DAB9D5C3E166EEE6BDD"> 
-      <li id="li_1F0B006BAD044ECBA5604625DE411E84"> <span class="codeph"> getSupplementalDataID </span> </li> 
+      <li id="li_1F0B006BAD044ECBA5604625DE411E84"> <span class="codeph"> getSupplementalDataID  </span> </li> 
       <li id="li_C6022223C8314B9C923202207C7472EA"> <span class="codeph"> getMarketingCloudVisitorID </span> </li> 
      </ul> </p> </td> 
   </tr> 
