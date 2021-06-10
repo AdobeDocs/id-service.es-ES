@@ -3,10 +3,10 @@ description: Preguntas más frecuentes sobre las características, la funcionali
 keywords: 'Servicio de ID '
 title: Preguntas más frecuentes sobre el servicio de ID
 exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '787'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Es posible que tenga problemas si aloja VisitorAPI.js como archivo local en apli
 
 Coloque la biblioteca VisitorAPI.js en la parte superior de la página en la `<head>` sección de su código. Esto le ayuda a garantizar que la llamada de un ID se emita antes de que el cuerpo de la página empiece a cargarse y que aumenten las posibilidades de que se devuelva un ID correctamente.
 
-La llamada del servicio de ID es asincrónica y es la única llamada al [dominio demdex.net](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
+La llamada del servicio de ID es asincrónica y es la única llamada al [dominio demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
 
 En el caso de los [!DNL Target] clientes de, al colocar el código de servicio de ID en la etiqueta `<body>` de la página, pueden incrementar las probabilidades de que se bloquee una llamada de [!DNL Target]. Si debe colocar el código de servicio de ID en el cuerpo de la página, se debe colocar después de la etiqueta `<body>` de apertura.
 
