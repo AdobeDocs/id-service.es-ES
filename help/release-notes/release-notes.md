@@ -1,14 +1,11 @@
 ---
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 keywords: Servicio de ID
-seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
-seo-title: Notas de la versión 2020
-title: Notas de la versión 2020
+title: Notas de la versión de 2020
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '147'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
