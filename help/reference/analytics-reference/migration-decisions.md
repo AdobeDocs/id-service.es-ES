@@ -3,10 +3,10 @@ description: Antes de implementar el servicio de identidad de Experience Cloud, 
 keywords: Servicio de ID
 title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 exl-id: f2802db2-c95f-476f-8c60-f45e8312253c
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Si tiene varios dominios que envían datos al *mismo grupo de informes*, le reco
    <td colname="col1"> <p>Un solo dominio </p> </td> 
    <td colname="col2"> <p>Trabajar con un solo dominio significa que puede dejar de utilizar un CNAME de recopilación de datos si ya no desea administrarlo. Sin embargo, no es necesario cambiar si su CNAME funciona. </p> <p>Si elimina el CNAME: </p> 
     <ul id="ul_12CDECEFC7BB41A18895B507CAA42315"> 
-     <li id="li_32E2CD3E58454E20A642BADE507AE86E">Asegúrese de que su nuevo servidor de seguimiento sea <a href="https://docs.adobe.com/content/help/es-ES/analytics/technotes/rdc/regional-data-collection.html" format="https" scope="external">compatible con RDC</a>. </li> 
+     <li id="li_32E2CD3E58454E20A642BADE507AE86E">Asegúrese de que su nuevo servidor de seguimiento sea <a href="https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html" format="https" scope="external">compatible con RDC</a>. </li> 
      <li id="li_865BB6DAA3594EBBAB688E73C8343762">Pásese del CNAME a un servidor de seguimiento de RDC con unos meses de adelanto a la migración al servicio de <span class="keyword">Experience Cloud ID</span>. </li> 
      <li id="li_284A015177554C848C8648DC5BBAA365"> <i>No</i> utilice un servidor de seguimiento <span class="codeph">*.2o7.net</span>. </li> 
      <li id="li_B1ABF03DC46C42059F61542CDE0FE5A1">Contacte con el <a href="https://helpx.adobe.com/es/marketing-cloud/contact-support.html" format="https" scope="external">Servicio de atención al cliente</a> para configurar una migración de visitante. De este modo, obtendrá recuentos de visitantes fiables. </li> 
