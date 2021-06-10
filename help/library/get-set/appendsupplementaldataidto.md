@@ -1,20 +1,16 @@
 ---
 description: Este método auxiliar permite agregar el ID de datos adicionales (SDID) como parámetro de cadena de consulta a una URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario mantener el SDID de una página a otra y unir esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo ID de organización en los dominios de origen y destino.
 keywords: Servicio de ID
-seo-description: Este método auxiliar permite agregar el ID de datos adicionales (SDID) como parámetro de cadena de consulta a una URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario mantener el SDID de una página a otra y unir esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo ID de organización en los dominios de origen y destino.
-seo-title: appendSupplementalDataIDTo
 title: appendSupplementalDataIDTo
-uuid: f3504d82-8da3-4971-818b-3df57df4ec2d
 exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '412'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
 
-# appendSupplementalDataIDTo {#appendsupplementaldataidto}
+# appendSupplementalDataIDTo{#appendsupplementaldataidto}
 
 Este método auxiliar permite agregar el ID de datos adicionales (SDID) como parámetro de cadena de consulta a una URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario mantener el SDID de una página a otra y unir esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo ID de organización en los dominios de origen y destino.
 
@@ -43,7 +39,7 @@ var pageB = "www.domain.com/pageB";
 var pageBWithSdid = visitor.appendSupplementalDataIDTo(pageB, "67987653465787219");
 ```
 
-## Salida de ejemplo  {#section-dbe02d7ff6bd4ad1a2a26bf9cff54fa4}
+## Salida de ejemplo   {#section-dbe02d7ff6bd4ad1a2a26bf9cff54fa4}
 
 Como se muestra a continuación, el redireccionamiento de URL contiene el SDID del visitante, su ID de organización y una marca de fecha y hora de UNIX en la llamada a la página de recepción.
 
