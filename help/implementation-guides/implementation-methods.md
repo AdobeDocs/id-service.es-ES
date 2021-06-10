@@ -3,10 +3,10 @@ description: Métodos de implementación estándar y no estándar del servicio d
 keywords: Servicio de ID
 title: Métodos de implementación
 exl-id: 0fe40a3c-bdcd-4290-bcd7-25344ff108d6
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '136'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Puede elegir un [!DNL Experience Cloud ID Service] método de implementación es
 
 ## Implementación estándar {#section-ea1e5270f2184f85a2e85214a6ac60cb}
 
-Adobe recomienda encarecidamente usar [[!DNL Experience Platform Launch] para implementar el servicio de ID. ](https://docs.adobe.com/content/help/es-ES/launch/using/implement/solutions/idservice-save.html) Este método garantiza la integración con otras soluciones de [!DNL Experience Cloud], optimiza los flujos de trabajo de implementación y garantiza automáticamente la colocación y secuenciación del código correcta.
+Adobe recomienda encarecidamente usar [[!DNL Experience Platform Launch] para implementar el servicio de ID. ](https://experienceleague.adobe.com/docs/launch/using/implement/solutions/idservice-save.html) Este método garantiza la integración con otras soluciones de [!DNL Experience Cloud], optimiza los flujos de trabajo de implementación y garantiza automáticamente la colocación y secuenciación del código correcta.
 
 ## Implementaciones no estándar {#section-2c4f2db1f9704315a7cccab6d2e07113}
 
