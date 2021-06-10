@@ -1,20 +1,16 @@
 ---
 description: Se trata de una API asíncrona que devuelve identificadores para Analytics, el servicio de ID, la exclusión de la recopilación de datos, la ubicación geográfica y el contenido “blob” de metadatos de forma predeterminada. Además, se puede controlar cuáles son los ID que desea que se devuelvan con la enumeración opcional visitor.FIELDS.
 keywords: Servicio de ID
-seo-description: Se trata de una API asíncrona que devuelve identificadores para Analytics, el servicio de ID, la exclusión de la recopilación de datos, la ubicación geográfica y el contenido “blob” de metadatos de forma predeterminada. Además, se puede controlar cuáles son los ID que desea que se devuelvan con la enumeración opcional visitor.FIELDS.
-seo-title: getVisitorValues
 title: getVisitorValues
-uuid: 7fb831b3-cf7e-40e2-a219-07fec28ad49c
 exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '449'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
 
-# getVisitorValues {#getvisitorvalues}
+# getVisitorValues{#getvisitorvalues}
 
 Se trata de una API asíncrona que devuelve identificadores para Analytics, el servicio de ID, la exclusión de la recopilación de datos, la ubicación geográfica y el contenido “blob” de metadatos de forma predeterminada. Además, se puede controlar cuáles son los ID que desea que se devuelvan con la enumeración opcional visitor.FIELDS.
 
@@ -38,7 +34,7 @@ En los parámetros de función:
 
 Consulte los casos de uso y definiciones siguientes para obtener más información.
 
-## Caso de uso 1: Solicitar el conjunto de datos predeterminado {#section-36a31683558742a5915db3a391e09f7b}
+## Caso de uso 1: Solicitar el conjunto de datos predeterminado  {#section-36a31683558742a5915db3a391e09f7b}
 
 Este código devuelve el conjunto de datos estándar. La solicitud y la respuesta podrían ser similares a los ejemplos siguientes.
 
@@ -63,7 +59,7 @@ En la respuesta de muestra predeterminada, algunos valores se han abreviado con 
 }
 ```
 
-## Caso de uso 2: Solicitar un conjunto de datos personalizado {#section-467b2f4e513344c89b7332b05f6f59f3}
+## Caso de uso 2: Solicitar un conjunto de datos personalizado  {#section-467b2f4e513344c89b7332b05f6f59f3}
 
 Este código utiliza una matriz opcional para devolver un conjunto de ID específico mediante la `visitor.FIELDS` enumeración. En este caso, solo queremos el Experience Cloud ID (MCID) y el ID de Analytics (MCAID). La solicitud y la respuesta podrían ser similares a los ejemplos siguientes.
 
@@ -85,7 +81,7 @@ La respuesta de ejemplo personalizada devuelve solo los ID especificados en la s
 }
 ```
 
-## Parámetros de respuesta definidos {#section-4c4c300167694c6fbff1d6c612f372b5}
+## Parámetros de respuesta definidos  {#section-4c4c300167694c6fbff1d6c612f372b5}
 
 La tabla que se muestra a continuación enumera y define los parámetros de respuesta. Estos son también todos los valores de la `visitor.FIELDS` enumeración. Tenga en cuenta que este método devuelve una cadena vacía si no hay valores para una variable en particular.
 
