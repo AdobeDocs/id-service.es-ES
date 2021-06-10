@@ -1,15 +1,11 @@
 ---
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2017.
 keywords: Servicio de ID
-seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2017.
-seo-title: Notas de la versión 2017
 title: Notas de la versión 2017
-uuid: 79452df0-49db-42b8-96fe-01aa7629fbb5
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '762'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -126,7 +122,7 @@ Fecha de lanzamiento: Junio de 2017
  </tbody> 
 </table>
 
-## Actualizaciones de documentación para mayo {#section-1d36b91bb7a140ce8a145251ffac9f2f}
+## Actualizaciones de documentación para mayo  {#section-1d36b91bb7a140ce8a145251ffac9f2f}
 
 <table id="table_CD031A716A694E8FA89695C9B614BC91"> 
  <thead> 
@@ -211,6 +207,6 @@ Enero de 2017
 * Se ha corregido un error que impedía que el servicio de ID falle de inmediato si una visitante había habilitado un bloqueador de anuncios y ese bloqueador estaba configurado para excluir el dominio demdex.net. Este es un error atípico y poco frecuente porque la mayoría de las herramientas de bloqueo de anuncios no bloquean el dominio demdex.net. (MCID-233)
 * Se ha corregido un error debido a las interacciones entre el código de servicio de ID y un script personalizado en el sitio web de un cliente. Este problema impedía que Internet Explorer 9 cargara páginas web. (MCID-206)
 
-## Años anteriores {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
+## Años anteriores  {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
 Notas de la versión del servicio de ID anteriores.
