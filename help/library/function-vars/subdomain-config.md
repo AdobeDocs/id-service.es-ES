@@ -1,12 +1,12 @@
 ---
-description: Cambiar el nombre de dominio predeterminado utilizado por las llamadas al servicio de Experience Cloud ID por el de su propio nombre de subdominio con estas configuraciones.
+description: Cambiar el nombre de dominio predeterminado utilizado por las llamadas al servicio de identidad de Experience Cloud por el de su propio nombre de subdominio con estas configuraciones.
 keywords: Servicio de ID
 title: audienceManagerServer y audienceManagerServerSecure
 exl-id: b740eb5c-ac4e-46f4-ba7c-1080d8d9292d
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Cambiar el nombre de dominio predeterminado utilizado por las llamadas al servic
 
 **Finalidad**
 
-Normalmente, el servicio de ID de [!DNL Experience Cloud] realiza llamadas a [!DNL Adobe] en `dpm.demdex.net`. A veces, es posible que no desee realizar llamadas a este destino porque parece demasiado genérico o de un &quot;tercero&quot;. Para hacer que el servicio de ID se asemeje más a una llamada de origen, utilice estas configuraciones para agregar su nombre de [!DNL Audience Manager] subdominio de a `demdex.net`, como se indica a continuación. Para obtener más información sobre la llamada a `dpm.demdex.net`, consulte [Explicación de las llamadas a Demdex Domain](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html).
+Normalmente, el servicio de ID de [!DNL Experience Cloud] realiza llamadas a [!DNL Adobe] en `dpm.demdex.net`. A veces, es posible que no desee realizar llamadas a este destino porque parece demasiado genérico o de un &quot;tercero&quot;. Para hacer que el servicio de ID se asemeje más a una llamada de origen, utilice estas configuraciones para agregar su nombre de [!DNL Audience Manager] subdominio de a `demdex.net`, como se indica a continuación. Para obtener más información sobre la llamada a `dpm.demdex.net`, consulte [Explicación de las llamadas a Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html).
 
 **Requisitos**
 
