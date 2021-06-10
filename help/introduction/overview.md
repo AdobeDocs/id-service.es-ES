@@ -1,12 +1,10 @@
 ---
 description: La función que desempeña el servicio de identidad de Experience Cloud en Adobe Experience Cloud.
-seo-description: El servicio de identidad de Experience Cloud (anteriormente servicio de ID de visitante o servicio de Experience Cloud ID) habilita el marco de identificación común para los servicios de Experience Cloud, como los atributos y las audiencias del cliente.
-seo-title: Introducción al servicio de Experience Cloud ID
 title: Introducción al servicio de Experience Cloud ID
 exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
-source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '572'
 ht-degree: 100%
 
 ---
