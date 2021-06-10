@@ -3,9 +3,9 @@ description: El servicio de Experience Cloud ID (ECID) es compatible con el algo
 keywords: Servicio de ID
 title: Soporte hash SHA 256 para setCustomerIDs
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '606'
 ht-degree: 97%
 
 ---
@@ -35,7 +35,7 @@ visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256")
 
 Junto con el ID de visitante de Experience Cloud, se pueden asociar ID de cliente adicionales y un estado de autenticación a cada visitante. Si no proporciona ningún tipo de hash, se considerará como sin hash.
 
-El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. Por ejemplo, puede cargar estos ID como [atributos de cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) en Experience Cloud y acceder a estos datos en las distintas soluciones.
+El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. Por ejemplo, puede cargar estos ID como [atributos de cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en Experience Cloud y acceder a estos datos en las distintas soluciones.
 
 Los ID de cliente, los estados autenticados y el tipo de hash *no se* almacenan en una cookie que se utilizará después. En su lugar, los ID de cliente, los estados autenticados y el tipo de hash deben almacenarse en una variable de instancia para recuperarse usando [`getCustomerIDs`](/help/library/get-set/getcustomerids.md)como se muestra a continuación:
 
