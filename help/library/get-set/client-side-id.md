@@ -1,20 +1,16 @@
 ---
 description: Llame a esta función del servicio de ID para determinar si el servicio de ID ha generado un ID de visitante Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 keywords: Servicio de ID
-seo-description: Llame a esta función del servicio de ID para determinar si el servicio de ID ha generado un ID de visitante Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
-seo-title: isClientSideMarketingCloudVisitorID
 title: isClientSideMarketingCloudVisitorID
-uuid: 1c39ac60-1d2b-4ed4-a2ea-30d680e61e10
 exl-id: ed2672e7-da1a-4c02-9f4e-c14419ec9ec7
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '148'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '122'
 ht-degree: 100%
 
 ---
 
-# isClientSideMarketingCloudVisitorID {#isclientsidemarketingcloudvisitorid}
+# isClientSideMarketingCloudVisitorID{#isclientsidemarketingcloudvisitorid}
 
 Llame a esta función del servicio de ID para determinar si el servicio de ID ha generado un ID de visitante Experience Cloud (MID) del lado del cliente. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 
