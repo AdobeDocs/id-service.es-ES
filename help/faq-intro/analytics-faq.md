@@ -1,16 +1,12 @@
 ---
 description: Las preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de identidad de Experience Cloud.
 keywords: Servicio de Experience Cloud ID
-seo-description: Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
-seo-title: Preguntas frecuentes sobre el servicio de ID y Analytics
 title: Preguntas frecuentes sobre el servicio de ID y Analytics
-uuid: 35ed79a9-eccc-4b54-8451-606f091c73b7
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '993'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +50,7 @@ Sin embargo, el código H no es compatible con el código visitorAPI.js 1.6 o po
 
 **¿Qué es un periodo de gracia y cómo puedo configurarlo?**
 
-Consulte [Período de gracia de servicio de identidad](../reference/analytics-reference/grace-period.md) y póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
+Consulte [Período de gracia de servicio de identidad](../reference/analytics-reference/grace-period.md) y póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
 **¿Por qué necesito migrar a la recopilación de datos en tiempo real (RDC) para utilizar el servicio de identidad?**
 
@@ -69,7 +65,7 @@ Entre las causas comunes de discrepancias a la hora de usar el servicio de ident
 * Uso continuo de la cookie s_vi heredada. Esto contribuye a producir discrepancias en la recopilación de datos.
 * Recuento doble de los visitantes cuando navegan desde una encuesta a una ventana emergente.
 
-## Cookies {#section-b7d5384fbedd47b09e1030211c39a3d1}
+## Cookies  {#section-b7d5384fbedd47b09e1030211c39a3d1}
 
 **¿Qué sucede en Analytics cuando el servicio de identidad no puede establecer la cookie AMCV?**
 
@@ -93,5 +89,5 @@ Hay tres escenarios posibles en los que esto afecta a los datos de Analytics par
 
 >[!MORELIKETHIS]
 >
->* [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
+>* [Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 
