@@ -1,15 +1,11 @@
 ---
 description: Con el servicio de inclusión (Opt-in) puede configurar protocolos para que un visitante de su sitio decida si le permite establecer una cookie en su dispositivo o navegador.
-seo-description: Con el servicio de inclusión (Opt-in) puede configurar protocolos para que un visitante de su sitio decida si le permite establecer una cookie en su dispositivo o navegador.
-seo-title: servicio de inclusión (Opt-in)
 title: servicio de inclusión (Opt-in)
-uuid: aebd72ad-4118-471b-9755-d08a72caa0fd
 exl-id: 351da861-4faa-409b-b0ff-f4d2ce66700b
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '534'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '507'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +17,7 @@ El servicio de inclusión (Opt-in) es una extensión del servicio de Experience 
 
 El servicio de inclusión (Opt-in) le permite especificar si un visitante puede incluirse en las soluciones de Adobe de una sola vez, o si se le presentan las soluciones una tras otra para que vaya aprobando los permisos. Una vez que el cliente completa y registra el proceso de aprobación, puede recuperar las aprobaciones de visitante de CMP desde las soluciones de Adobe.
 
-El servicio de inclusión se implementa y se configura fácilmente con [Adobe Experience Platform Launch ](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html)con la [extensión de inclusión](../../implementation-guides/opt-in-service/launch.md). También se puede implementar y configurar utilizando [DTM.](../../implementation-guides/opt-in-service/optin-dtm.md)
+El servicio de inclusión se implementa y se configura fácilmente con [Adobe Experience Platform Launch ](https://experienceleague.adobe.com/docs/launch/using/home.html)con la [extensión de inclusión](../../implementation-guides/opt-in-service/launch.md). También se puede implementar y configurar utilizando [DTM.](../../implementation-guides/opt-in-service/optin-dtm.md)
 
 Consulte [Configuración del servicio de inclusión (Opt-in)](../../implementation-guides/opt-in-service/getting-started.md) para comenzar.
 
@@ -33,7 +29,7 @@ Consulte [Configuración del servicio de inclusión (Opt-in)](../../implementati
 >
 >El contenido de este documento no constituye asesoramiento jurídico y no está pensado para sustituir el asesoramiento jurídico. Pida asesoramiento al departamento jurídico de su empresa respecto al consentimiento y las prácticas recomendadas para configurar una implementación de inclusión.
 
-## Inclusión entre soluciones de Experience Cloud {#section-053e6224505542cf961896f0ca869e52}
+## Inclusión entre soluciones de Experience Cloud  {#section-053e6224505542cf961896f0ca869e52}
 
 El servicio de inclusión (Opt-in) es una herramienta para la creación de flujos de trabajo de inclusión de consentimiento adaptados a sus necesidades. Puede crear flujos de trabajo con los que reaccionar (activar etiquetas) antes y después de obtener el consentimiento del usuario o del responsable del tratamiento del consentimiento.
 
