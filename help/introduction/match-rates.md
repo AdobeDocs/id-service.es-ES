@@ -1,14 +1,11 @@
 ---
 description: Resumen de los procesos de sincronización de ID y las tasas de coincidencia en el servicio de Experience Cloud ID, incluidos Adobe Media Optimizer y el servicio de ID.
 keywords: Servicio de ID
-seo-description: Resumen de los procesos de sincronización de ID y las tasas de coincidencia en el servicio de Experience Cloud ID, incluidos Adobe Media Optimizer y el servicio de ID.
-seo-title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 title: Conceptos básicos de sincronización de ID y tasas de coincidencia
-uuid: 31bd655f-2b9e-4f8d-9a1f-e81a6110eda8
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
-source-git-commit: b907ffcbfbb8851ce6279b614dc58c22f2ce9907
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '805'
 ht-degree: 95%
 
 ---
