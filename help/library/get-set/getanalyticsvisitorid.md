@@ -3,10 +3,10 @@ description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almace
 keywords: Servicio de ID
 title: getAnalyticsVisitorID
 exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '298'
+ht-degree: 91%
 
 ---
 
@@ -43,7 +43,7 @@ El `aid` parámetro aparece en una cadena de consulta bajo dos conjuntos diferen
 Verá el parámetro `aid` en una cadena de consulta cuando:
 
 * El servicio de ID de [!DNL Experience Cloud] se implementa correctamente.
-* El usuario que visite un sitio tiene un ID de [!DNL Analytics] preexistente almacenado en su [cookie s_vi](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679).
+* El usuario que visite un sitio tiene un ID de [!DNL Analytics] preexistente almacenado en su [cookie s_vi](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html#section-5d50a078de444d12b7d927d68ff3b679).
 
 **Caso 2**
 
@@ -51,5 +51,5 @@ Verá el `aid` parámetro en una cadena de consulta cuando su organización util
 
 >[!MORELIKETHIS]
 >
->* [Cookies de Analytics](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-privacy.html)
+>* [Cookies de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html)
 
