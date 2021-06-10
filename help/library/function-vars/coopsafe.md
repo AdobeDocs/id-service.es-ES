@@ -1,20 +1,16 @@
 ---
 description: Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
 keywords: Servicio de ID
-seo-description: Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
-seo-title: isCoopSafe
 title: isCoopSafe
-uuid: 4dfa1f35-0a88-48d1-9484-d88cb53ad461
 exl-id: 827f7819-9f95-4e8d-90c3-dcf86b67715b
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# isCoopSafe {#iscoopsafe}
+# isCoopSafe{#iscoopsafe}
 
 Una configuración booleana opcional que determina si el servicio de ID envía datos (o no) a Device Co-Op de Adobe Experience Cloud.
 
@@ -85,7 +81,7 @@ var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here"
 });
 ```
 
-## Parámetros POST de llamada de evento {#section-fcd441933506493faefaa6b51f194a17}
+## Parámetros POST de llamada de evento  {#section-fcd441933506493faefaa6b51f194a17}
 
 En función del indicador que establezca (`true` o `false`), el servicio de ID traduce `isCoopSafe` a estos parámetros POST y los envía a [!DNL Adobe] en una llamada de evento:
 
@@ -113,7 +109,7 @@ Los parámetros POST indican a [!DNL Experience Cloud] Device Co-Op de si puede 
  </tbody> 
 </table>
 
-## API posteriores a la creación de instancias {#section-9281c39c8b6249d7864100b5cbca7dc6}
+## API posteriores a la creación de instancias  {#section-9281c39c8b6249d7864100b5cbca7dc6}
 
 Estas API permiten sobrescribir el estado de `isCoopSafe`. Esto es necesario porque le permiten cambiar el estado posterior a la creación de la instancia o al inicio de sesión de un visitante en un sitio o en una aplicación de una sola página en la que la página no se actualiza. Por ejemplo, debe llamar a estas API si un usuario se autentica en su sitio o aplicación y luego acepta una política de términos de uso que permita a Device Co-op utilizar sus datos.
 
