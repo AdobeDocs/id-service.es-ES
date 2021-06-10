@@ -1,20 +1,16 @@
 ---
 description: Un indicador booleano opcional que impide que el servicio de ID realice llamadas a otros dominios.
 keywords: seguimiento entre dominios;servicio de ID
-seo-description: Un indicador booleano opcional que impide que el servicio de ID realice llamadas a otros dominios.
-seo-title: disableThirdPartyCalls
 title: disableThirdPartyCalls
-uuid: e92ce1f5-67a4-476c-9d04-41d4e96b1592
 exl-id: 1d5b4e80-1b2d-4401-9057-449a6abf5db5
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# disableThirdPartyCalls {#disablethirdpartycalls}
+# disableThirdPartyCalls{#disablethirdpartycalls}
 
 Un indicador booleano opcional que impide que el servicio de ID realice llamadas a otros dominios.
 
