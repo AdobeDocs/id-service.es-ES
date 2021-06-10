@@ -1,20 +1,16 @@
 ---
 description: Especifica si la plantilla de publicación de destino debería utilizar Akamai para conexiones HTTPS.
 keywords: Servicio de ID
-seo-description: Especifica si la plantilla de publicación de destino debería utilizar Akamai para conexiones HTTPS.
-seo-title: idSyncSSLUseAkamai
 title: idSyncSSLUseAkamai
-uuid: 501ccc37-c3ab-4454-bfcf-3e3c3e8b5ca3
 exl-id: 74c24eb5-bf3d-4e6b-ac7d-1a37d940d77f
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '52'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '39'
 ht-degree: 100%
 
 ---
 
-# idSyncSSLUseAkamai {#idsyncssluseakamai}
+# idSyncSSLUseAkamai{#idsyncssluseakamai}
 
 Especifica si la plantilla de publicación de destino debería utilizar Akamai para conexiones HTTPS.
 
