@@ -1,15 +1,11 @@
 ---
 description: Implemente el servicio de inclusión (Opt-in) como el único punto de referencia que utilizan las soluciones de Experience Cloud (denominadas “categorías” en Opt-in) para determinar si se crean o no cookies en el dispositivo de un visitante.
-seo-description: Implemente el servicio de inclusión (Opt-in) como el único punto de referencia que utilizan las soluciones de Experience Cloud (denominadas “categorías” en Opt-in) para determinar si se crean o no cookies en el dispositivo de un visitante.
-seo-title: Configuración del servicio de inclusión (Opt-in)
 title: Configuración del servicio de inclusión (Opt-in)
-uuid: f1c27139-cef2-4122-af12-c839cfc82e6e
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '941'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +17,7 @@ El servicio de inclusión (Opt-in) es una biblioteca JavaScript incluida con Exp
 
 El servicio Opt-in le permite especificar si un visitante puede incluirse en las soluciones de Adobe de una sola vez, o si se le van presentando las soluciones una tras otra para que vaya aprobando los permisos. Una vez que el cliente completa y registra el proceso de aprobación, todas las soluciones de Adobe pueden recuperar las aprobaciones de visitante de CMP para responder con llamadas de consentimiento relacionadas.
 
-## Requisitos previos  {#section-c39246f45e514c8ea9fdbe6f7ffa3ad0}
+## Requisitos previos   {#section-c39246f45e514c8ea9fdbe6f7ffa3ad0}
 
 1. ECID versión 4.0.
 
@@ -45,7 +41,7 @@ El servicio Opt-in le permite especificar si un visitante puede incluirse en las
 
 1. Los requisitos de privacidad de su empresa dependerán de cómo decida cumplir con el RGPD. Tenga en cuenta qué bibliotecas pueden utilizar los equipos de privacidad de su compañía previamente al consentimiento.
 
-Si utiliza [Adobe Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html), aproveche la [extensión de inclusión](../../implementation-guides/opt-in-service/launch.md) para configurar el servicio de inclusión.
+Si utiliza [Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/home.html), aproveche la [extensión de inclusión](../../implementation-guides/opt-in-service/launch.md) para configurar el servicio de inclusión.
 
 ## Categorías de Opt-in {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
