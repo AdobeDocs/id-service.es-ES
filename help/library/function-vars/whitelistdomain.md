@@ -3,10 +3,10 @@ description: Estas configuraciones permiten que diferentes instancias del códig
 keywords: Servicio de ID
 title: whitelistParentDomain y whitelistIframeDomains
 exl-id: 0ed1da79-7129-4f5f-b7ad-901348a13866
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Estas configuraciones ayudan a resolver el problema de configurar una cookie de 
 
 >[!TIP]
 >
->También es posible que desee implementar estas configuraciones cuando vaya a ofrecer vídeo en un iFrame con [Video Heartbeat](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html). Video Heartbeat necesita un ID de servicio de ID (el MID) para funcionar correctamente.
+>También es posible que desee implementar estas configuraciones cuando vaya a ofrecer vídeo en un iFrame con [Video Heartbeat](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html). Video Heartbeat necesita un ID de servicio de ID (el MID) para funcionar correctamente.
 
 **Caso de uso 1: El explorador bloquea las cookies de terceros y el servicio de ID se implementa en la página principal y en el iFrame**
 
