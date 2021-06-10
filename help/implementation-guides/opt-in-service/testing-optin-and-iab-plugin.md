@@ -1,14 +1,10 @@
 ---
 description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
-seo-description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
-seo-title: Validación del servicio de inclusión (Opt-in)
 title: Validación del servicio de inclusión (Opt-in)
-uuid: 1743360a-d757-4e50-8697-0fa92b302cbc
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '471'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -53,7 +49,7 @@ En Chrome, vaya a la pestaña *Aplicación*, expanda la sección *Cookies* en *A
 
 ![](assets/use_case_1_2.png)
 
-## Caso de uso 2: Habilitar Opt-in y almacenamiento  {#section-bd28326f52474fa09a2addca23ccdc0f}
+## Caso de uso 2: Habilitar Opt-in y almacenamiento   {#section-bd28326f52474fa09a2addca23ccdc0f}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
@@ -64,7 +60,7 @@ Visitor.getInstance({{YOUR_ORG_ID}}, {
 
 La única diferencia en el caso de uso 2 es que verá *una nueva cookie* que contiene los permisos de Opt-in que el visitante ha proporcionado: **adobeujs-optin**
 
-## Caso de uso 3: Habilitar Opt-in y preaprobar Adobe Analytics  {#section-257fe582b425496cbf986d0ec12d3692}
+## Caso de uso 3: Habilitar Opt-in y preaprobar Adobe Analytics   {#section-257fe582b425496cbf986d0ec12d3692}
 
 ```
 var preApproveAnalytics = {}; 
@@ -84,7 +80,7 @@ También verá cookies de Analytics en la pestaña Aplicación:
 
 ![](assets/use_case_3_2.png)
 
-## Caso de uso 4: Habilitar Opt-in e IAB  {#section-64331998954d4892960dcecd744a6d88}
+## Caso de uso 4: Habilitar Opt-in e IAB   {#section-64331998954d4892960dcecd744a6d88}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
