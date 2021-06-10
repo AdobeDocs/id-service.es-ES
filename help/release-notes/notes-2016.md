@@ -3,10 +3,10 @@ description: Versiones de funcionalidades, actualizaciones o cambios en el servi
 keywords: Servicio de ID
 title: Notas de la versión 2016
 exl-id: f96b9869-6282-4090-b392-797608e25a51
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1146'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2016.
 
-Estos cambios también se recopilan en las [notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+Estos cambios también se recopilan en las [notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
 ## Versión 1.10 {#section-7d719b3213344a46858835042e0214ed}
 
@@ -80,7 +80,7 @@ Revisado: [Requisitos del servicio de identidad de Experience Cloud](../referenc
 
 **Problemas conocidos**
 
-Los clientes que utilizan código DIL de [!DNL Audience Manager] y código visitorAPI.js en la misma página, deben establecer la variable DIL `secureDataCollection= false`. Consulte [secureDataCollection](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/dil-api/dil-overview.html).
+Los clientes que utilizan código DIL de [!DNL Audience Manager] y código visitorAPI.js en la misma página, deben establecer la variable DIL `secureDataCollection= false`. Consulte [secureDataCollection](https://experienceleague.adobe.com/docs/audience-manager/user-guide/dil-api/dil-overview.html).
 
 ## Versión 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 
