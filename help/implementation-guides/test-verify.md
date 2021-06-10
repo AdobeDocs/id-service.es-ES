@@ -1,15 +1,11 @@
 ---
 description: Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y Experience Cloud.
 keywords: Servicio de ID
-seo-description: Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y Experience Cloud.
-seo-title: Comprobación y verificación del servicio de Experience Cloud ID
 title: Comprobación y verificación del servicio de Experience Cloud ID
-uuid: 442de9c3-c265-4412-89bd-aeaa286ddad6
 exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '723'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '681'
 ht-degree: 100%
 
 ---
@@ -32,11 +28,11 @@ También puede probar el servicio de ID en una sesión anónima o de incógnito 
 
 La [herramienta de depuración de Adobe](https://docs.adobe.com/content/help/es-ES/analytics/implementation/validate/debugger.html) y el [proxy HTTP Charles](https://www.charlesproxy.com/) pueden ayudarle a determinar si el servicio de ID se ha configurado para funcionar correctamente con Analytics. La información de esta sección se basa en los resultados devueltos por Adobe Debugger y Charles. No obstante, es libre de usar la herramienta o el depurador que más le convenga.
 
-## Pruebas con la herramienta de depuración de Adobe {#section-861365abc24b498e925b3837ea81d469}
+## Pruebas con la herramienta de depuración de Adobe  {#section-861365abc24b498e925b3837ea81d469}
 
 Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md) para obtener más información sobre el MID.
 
-Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://docs.adobe.com/content/help/es-ES/analytics/implementation/validate/debugger.html):
+Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html):
 
 1. Borre las cookies del explorador o abra una sesión de navegación anónima.
 1. Cargue la página de prueba que contiene el código del servicio de ID.
