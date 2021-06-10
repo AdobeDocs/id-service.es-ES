@@ -3,10 +3,10 @@ description: Una directiva de seguridad de contenido (CSP) es una función de se
 keywords: Servicio de ID
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o
    <li>img-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
    <li>script-src 'self' <code>https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com;</code></li>
    <li>frame-src 'self' <code>https://*.demdex.net;</code></li>
-   <li>Si utiliza Adobe Launch para implementar etiquetas, también deberá agregar <code>https://assets.adobedtm.com</code> a la lista de dominios.</li></ul></p> <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se utilizan para generar las <a href="../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de identidad de Experience Cloud</a> y para sincronizar ID. Consulte también <a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> </tr> 
+   <li>Si utiliza Adobe Launch para implementar etiquetas, también deberá agregar <code>https://assets.adobedtm.com</code> a la lista de dominios.</li></ul></p> <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se utilizan para generar las <a href="../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de identidad de Experience Cloud</a> y para sincronizar ID. Consulte también <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> </tr> 
  <tr>
  <td colname="col1"> <p> <b>Complemento Activity Map</b> </p> </td> 
  <td colname="col2"> <p>Modifique su CSP para incluir *.adobe.com. **Nota**: Si ya tenía Activity Map instalado antes de enero de 2020, el explorador seguirá viendo una solicitud inicial a *.omniture.com, pero se redirigirá a *.adobe.com. </p></td> 
