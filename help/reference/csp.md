@@ -1,15 +1,11 @@
 ---
 description: Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
 keywords: Servicio de ID
-seo-description: Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
-seo-title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
 title: Políticas de seguridad del contenido y el servicio de Experience Cloud ID
-uuid: 7399edf3-01c1-4730-834e-e2dd2c5791ff
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '621'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '549'
 ht-degree: 100%
 
 ---
@@ -18,7 +14,7 @@ ht-degree: 100%
 
 Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
 
-## Revisión de la CSP {#section-5fde5c00a678455c914b8307a8caab82}
+## Revisión de la CSP  {#section-5fde5c00a678455c914b8307a8caab82}
 
 Las CSP utilizan el encabezado HTTP `Content-Security-Policy` para controlar el tipo de recursos que acepta o carga un navegador en una página. La aplicación de un CSP puede ayudarle a evitar:
 
