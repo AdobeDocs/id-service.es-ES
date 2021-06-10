@@ -1,16 +1,12 @@
 ---
 description: Las funciones del servicio de ID idSyncByURL e idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Están disponibles en VisitorAPI.js versión 1.10 o posterior.
 keywords: Servicio de ID
-seo-description: Las funciones del servicio de ID idSyncByURL e idSyncByDataSource le permiten implementar manualmente una sincronización de ID en el iFrame de publicación de destino. Están disponibles en VisitorAPI.js versión 1.10 o posterior.
-seo-title: Sincronización de ID por dirección URL o fuente de datos
 title: Sincronización de ID por dirección URL o fuente de datos
-uuid: ff83d910-8375-4295-9f2a-e14c15eee09a
 exl-id: a22e6b47-00ff-4b51-9958-ddeccc1e507e
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -122,8 +118,7 @@ http://su.addthis.com/red/usync?pid=16&puid=287778064591810036707992191851784938
   // Fires 'http:/https:' + '//dpm.demdex.net/ibs:dpid=&dpuuid='
    visitor.idSyncByDataSource({ 
      dpid: '24', // must be a string
-     dpuuid: '98765', // must be a string 
-     minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days) });
+     dp     minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days) });
 ```
 
 **Salida de ejemplo**
