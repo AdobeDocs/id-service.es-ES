@@ -1,16 +1,12 @@
 ---
 description: El servicio de Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics anteriores.
 keywords: Servicio de ID
-seo-description: El servicio de Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics anteriores.
-seo-title: Configuración de Analytics y Experience Cloud ID
 title: Configuración de Analytics y Experience Cloud ID
-uuid: 421cf597-a3e0-4ca3-8ce8-d0c80cbb6aca
 exl-id: 7399ea16-d13e-452c-b8d9-8d0699566aa2
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '945'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +18,7 @@ Una vez implementado el servicio de ID, este código se ejecuta antes que AppMea
 
 Cuando AppMeasurement se carga, los valores de los Experience Cloud ID y de Analytics se solicitan al servicio de ID y se envían a la recopilación de datos con cada llamada del servidor. El servicio de ID determina el ID de visitante y lo pasa a AppMeasurement directamente, por lo que este servicio debe incluirse e implementarse en todas las páginas antes que el archivo JavaScript de AppMeasurement.
 
-## Cambios en el proceso de ID de Analytics {#section-79bb86ae63f546419bb1a7ef5e710462}
+## Cambios en el proceso de ID de Analytics  {#section-79bb86ae63f546419bb1a7ef5e710462}
 
 El cambio principal consiste en que, al migrar al servicio de ID de [!DNL Experience Cloud], la cookie de ID se establece mediante JavaScript y no en el encabezado HTTP que devuelve el servidor web de recopilación de datos. Para comprender este cambio, las siguientes secciones describen cómo se configuran las cookies mediante estos dos métodos.
 
@@ -42,7 +38,7 @@ JavaScript puede leer y escribir cookies configuradas en el dominio de origen (e
 
 <!---However, there are a few situations where setting the cookie in the HTTP header is beneficial for cross-domain tracking, which is described in [Data Collection CNAMEs and Cross-Domain Tracking](../../reference/analytics-reference/cname.md#concept-4df91f8a30ad4ec7a01eb943d579cc9d).-->
 
-## ID de Analytics personalizados {#section-b6a7bd19e9ff432390010062450808f6}
+## ID de Analytics personalizados  {#section-b6a7bd19e9ff432390010062450808f6}
 
 El establecimiento de un ID de cliente mediante `s.visitorID` es un método para identificar a los usuarios en Analytics. Sin embargo, las integraciones en las que se exportan o importan datos de Analytics mediante el servicio de ID no funcionarán cuando se identifique a un visitante mediante `s.visitorID`.
 
