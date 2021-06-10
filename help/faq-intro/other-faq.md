@@ -1,15 +1,11 @@
 ---
 description: Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos a otras soluciones de Experience Cloud con el servicio de ID.
 keywords: Servicio de ID
-seo-description: Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos a otras soluciones de Experience Cloud con el servicio de ID.
-seo-title: Preguntas frecuentes para otras soluciones de Experience Cloud
 title: Preguntas frecuentes para otras soluciones de Experience Cloud
-uuid: 7d848663-6cbb-4d80-ab06-7b6d2dc20e2b
 exl-id: d1164951-01c9-4375-981a-f87d8a280e4b
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '211'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '186'
 ht-degree: 100%
 
 ---
