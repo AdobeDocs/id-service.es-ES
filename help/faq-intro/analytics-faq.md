@@ -3,10 +3,10 @@ description: Las preguntas más frecuentes sobre las características, la funcio
 keywords: Servicio de Experience Cloud ID
 title: Preguntas frecuentes sobre el servicio de ID y Analytics
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '970'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Cuando el servicio de identidad haya identificado a los usuarios, no cambiará n
 
 Si tiene un sitio de entrada principal en el que se puede identificar a los clientes antes de que visiten otros dominios, un registro CNAME puede habilitar el seguimiento entre dominios en los exploradores que no acepten cookies de terceros (como Safari).
 
-En los exploradores que aceptan cookies de terceros, se establece una cookie en el [dominio demdex.net](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html) durante la solicitud para recuperar un ID de visitante. Esta cookie permite que el servicio de identidad de visitante devuelva el mismo ID de visitante de Experience Cloud en todos los dominios que se hayan configurado con el mismo ID de organización. En los exploradores que rechazan cookies de terceros, se asigna un nuevo ID de visitante de Experience Cloud para cada dominio.
+En los exploradores que aceptan cookies de terceros, se establece una cookie en el [dominio demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) durante la solicitud para recuperar un ID de visitante. Esta cookie permite que el servicio de identidad de visitante devuelva el mismo ID de visitante de Experience Cloud en todos los dominios que se hayan configurado con el mismo ID de organización. En los exploradores que rechazan cookies de terceros, se asigna un nuevo ID de visitante de Experience Cloud para cada dominio.
 
 Incluso cuando se configura un CNAME, si el sitio de entrada principal no se visita primero, los visitantes se identifican de forma diferente en el sitio secundario y en el principal en los exploradores que no aceptan cookies de terceros.
 
