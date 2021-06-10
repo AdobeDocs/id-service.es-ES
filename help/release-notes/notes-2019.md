@@ -1,16 +1,12 @@
 ---
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 keywords: Servicio de ID
-seo-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
-seo-title: Notas de la versión 2019
 title: Notas de la versión 2019
-uuid: a5a59410-7f85-48f9-a30a-fef1c2e2b558
 exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +59,7 @@ Compatibilidad con el complemento de Audience Manager para IAB TCF, disponible a
 
 ## Versión 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**Servicio Opt-in**. Opt-in es una extensión de Experience Cloud ID (ECID) que le permite controlar si las bibliotecas de Experience Cloud pueden crear cookies en las páginas web de los visitantes, y cuáles pueden hacerlo. Con [Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html), puede simplificar la recopilación de consentimientos de inclusión de los visitantes para la solución de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras soluciones de Experience Cloud (o todas) para permitir su inclusión en un sistema de administración de consentimientos.
+**Servicio Opt-in**. Opt-in es una extensión de Experience Cloud ID (ECID) que le permite controlar si las bibliotecas de Experience Cloud pueden crear cookies en las páginas web de los visitantes, y cuáles pueden hacerlo. Con [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html), puede simplificar la recopilación de consentimientos de inclusión de los visitantes para la solución de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras soluciones de Experience Cloud (o todas) para permitir su inclusión en un sistema de administración de consentimientos.
 
 ## Versión 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
