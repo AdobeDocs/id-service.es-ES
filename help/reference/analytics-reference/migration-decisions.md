@@ -1,15 +1,11 @@
 ---
 description: Antes de implementar el servicio de identidad de Experience Cloud, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
 keywords: Servicio de ID
-seo-description: Antes de implementar el servicio de identidad de Experience Cloud, es necesario que conozca cómo afecta este servicio al seguimiento de visitantes en dominios múltiples y los problemas potenciales si recopila datos con distintos métodos o a través de archivos JavaScript.
-seo-title: Puntos de decisión para la migración del servicio de Experience Cloud ID
 title: Puntos de decisión para la migración del servicio de Experience Cloud ID
-uuid: ee56b5de-fcf3-4cfb-9e53-762af7c4d2ff
 exl-id: f2802db2-c95f-476f-8c60-f45e8312253c
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '679'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '638'
 ht-degree: 100%
 
 ---
