@@ -1,16 +1,12 @@
 ---
 description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 keywords: Servicio de ID
-seo-description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
-seo-title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
-uuid: d46050ae-87de-46cc-911b-d6346c7fd511
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '1305'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -144,7 +140,7 @@ Añada la `Visitor.getInstance` función que se muestra a continuación a su `Ap
 
 >[!IMPORTANT]
 >
->En este punto deberá eliminar el código [!DNL Audience Manager] DIL de y sustituirlo por el módulo Gestión de audiencias. Consulte [Implementar reenvío del lado del servidor](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para obtener instrucciones.
+>En este punto deberá eliminar el código [!DNL Audience Manager] DIL de y sustituirlo por el módulo Gestión de audiencias. Consulte [Implementar reenvío del lado del servidor](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para obtener instrucciones.
 
 ***(Opcional, pero recomendada)* Crear una variable prop personalizada.**
 
