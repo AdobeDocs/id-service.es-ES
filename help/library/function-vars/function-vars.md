@@ -1,20 +1,16 @@
 ---
 description: Configure el servicio de ID pasando estas propiedades al método estático Visitor.getInstance.
 keywords: ID de organización;servicio de ID
-seo-description: Configure el servicio de ID pasando estas propiedades al método estático Visitor.getInstance.
-seo-title: Configuraciones
 title: Configuraciones
-uuid: 2dfe1ed6-f3a6-4f5c-976b-eeb43738c20c
 exl-id: a369f624-d263-4287-bb7e-b89d584fa245
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '100'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
 
-# Configuraciones {#configurations}
+# Configuraciones{#configurations}
 
 Configure el servicio de ID pasando estas propiedades al método estático Visitor.getInstance.
 
