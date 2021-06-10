@@ -1,13 +1,10 @@
 ---
 title: Métodos de biblioteca ECID en un entorno de Safari ITP
-seo-title: Métodos de biblioteca ECID en un entorno de Safari ITP
 description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
-seo-description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 exl-id: ac1d1ee1-2b5f-457a-a694-60bb4c960ae7
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '810'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '795'
 ht-degree: 100%
 
 ---
