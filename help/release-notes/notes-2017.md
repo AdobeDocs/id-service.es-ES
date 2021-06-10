@@ -3,10 +3,10 @@ description: Versiones de funcionalidades, actualizaciones o cambios en el servi
 keywords: Servicio de ID
 title: Notas de la versión 2017
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '744'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2017.
 
-Estos cambios también se recopilan en las [notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+Estos cambios también se recopilan en las [notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ Se ha corregido un error que hacía que el servicio de ID realizara llamadas red
 
 **Nueva documentación**
 
-[Uso de la precarga de DNS con diferentes soluciones y servicios de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/more-resources/dns-prefetch.html)
+[Uso de la precarga de DNS con diferentes soluciones y servicios de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html)
 
 ## Versión 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
