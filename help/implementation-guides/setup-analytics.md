@@ -3,10 +3,10 @@ description: Estas instrucciones están destinadas a los clientes de Analytics q
 keywords: Servicio de ID
 title: Implementación del servicio de Experience Cloud ID para Analytics
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 100%
+source-wordcount: '1025'
+ht-degree: 98%
 
 ---
 
@@ -91,7 +91,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 
 ## Paso 3: Añadir su ID de organización de Experience Cloud a Visitor.getInstance {#section-7b8a6e76dc124d0e9ab1ce96ab2ffb0e}
 
-En la `Visitor.getInstance` función, sustituya `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` por su [!DNL Experience Cloud] ID de organización de. Si no conoce su ID de organización, puede encontrarlo en la página de administración de [!DNL Experience Cloud]. Consulte también [Administración - Servicios principales](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html). Su función editada podría tener un aspecto similar al ejemplo siguiente.
+En la `Visitor.getInstance` función, sustituya `INSERT-MARKETING-CLOUD-ORGANIZATION ID-HERE` por su [!DNL Experience Cloud] ID de organización de. Si no conoce su ID de organización, puede encontrarlo en la página de administración de [!DNL Experience Cloud]. Consulte también [Administración - Servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es). Su función editada podría tener un aspecto similar al ejemplo siguiente.
 
 `var visitor = Visitor.getInstance("1234567ABC@AdobeOrg", { ...`
 
@@ -178,7 +178,7 @@ Necesita un período de gracia si envía datos a un sistema interno desde una fu
 
 Interrumpa el periodo de gracia una vez que su proceso de consumo de datos pueda utilizar las columnas `post_visid_high` y `post_visid_low`.
 
-Consulte [Referencia de columnas de datos del flujo de navegación](https://docs.adobe.com/content/help/es-ES/analytics/export/analytics-data-feed/data-feed-overview.html).
+Consulte [Referencia de columnas de datos del flujo de navegación](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html).
 
 **Consumo de datos de flujo de navegación**
 
@@ -191,7 +191,7 @@ Puede realizar pruebas e implementaciones de la siguiente manera.
 Para probar la implementación del servicio de ID, compruebe:
 
 * La [cookie AMCV](../introduction/cookies.md) en el dominio en el que está alojada su página.
-* Valor MID en la solicitud de imagen de [!DNL Analytics] con la [herramienta Adobe Debugger](https://docs.adobe.com/content/help/es-ES/analytics/implementation/validate/debugger.html).
+* Valor MID en la solicitud de imagen de [!DNL Analytics] con la [herramienta Adobe Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html).
 
 Consulte [Comprobación y verificación del servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md).
 
