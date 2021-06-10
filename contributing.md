@@ -1,13 +1,15 @@
 ---
-source-git-commit: 676f6ca9c37f77fe24dbc3ceb9aef2d540b3adbe
-translation-type: ht
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 # Contribución
 
 ¡Gracias por contribuir!
 
-A continuación se proporciona un conjunto de directrices a seguir al contribuir en este proyecto.
+A continuación se proporciona un conjunto de directrices que se deben seguir al contribuir en este proyecto.
 
 ## Código de conducta
 
@@ -15,7 +17,7 @@ Este proyecto se adhiere al [código de conducta](code-of-conduct.md) de Adobe. 
 
 ## Documentación de la Guía del colaborador
 
-Consulte la [Guía del colaborador](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consulte la [Guía de colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es).
 
 ## ¿Tiene alguna pregunta?
 
@@ -23,11 +25,12 @@ Comience por enviar un problema. Los supervisores de este proyecto trabajan para
 
 ## Acuerdo de licencia de colaborador
 
-Todas las contribuciones de terceros a este proyecto deben estar acompañadas por un contrato de licencia para colaboradores firmado, que da permiso a Adobe para redistribuir las contribuciones como parte del proyecto. [Firme nuestro Acuerdo de licencia para colaboradores](http://opensource.adobe.com/cla.html). Un usuario necesita enviar un único acuerdo de colaboración de Adobe, por lo que, si lo ha enviado anteriormente, ¡ya puede empezar!
+Todas las contribuciones de terceros a este proyecto deben estar acompañadas por un contrato de licencia
+para colaboradores firmado, que da permiso a Adobe para redistribuir las contribuciones como parte del proyecto. [Firme nuestro Acuerdo de colaboración](http://opensource.adobe.com/cla.html). Un usuario necesita enviar un único acuerdo de colaboración de Adobe, por lo que, si lo ha enviado anteriormente, ¡ya puede empezar!
 
 ## Revisiones de código
 
-Todos los envíos deben ser solicitudes de extracción y deben revisarlos los supervisores del proyecto. Lea la [documentación sobre las solicitudes de extracción de GitHub](https://help.github.com/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes de extracción.
+Todos los envíos deben ser solicitudes de extracción y deben revisarlos los supervisores del proyecto. Lea la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests) para obtener más información sobre el envío de solicitudes de extracción.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -40,4 +43,4 @@ submitting a pull request!
 
 ## Problemas de seguridad
 
-Los problemas de seguridad no deben enviarse a este rastreador de problemas. [Envíe el problema a nuestros expertos en seguridad](https://helpx.adobe.com/es/security/alertus.html)
+Los problemas de seguridad no deben enviarse a este rastreador de problemas. Envíe [el problema a nuestros expertos en seguridad](https://helpx.adobe.com/es/security/alertus.html)
