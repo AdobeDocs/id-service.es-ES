@@ -3,10 +3,10 @@ description: getInstance devuelve un objeto de ID de visitante para el ID de org
 keywords: Servicio de ID
 title: getInstance
 exl-id: 4941cf51-a8d0-4796-a102-4cd13cd5574d
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '226'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ORGANIZATION-ID-HERE",
 });
 ```
 
-Si `getInstance` no encuentra una instancia existente, se crea y se devuelve una instancia nueva. Esto es similar a la función [`s_gi()`](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/functions/s-gi.html) en [!DNL AppMeasurement].
+Si `getInstance` no encuentra una instancia existente, se crea y se devuelve una instancia nueva. Esto es similar a la función [`s_gi()`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/s-gi.html) en [!DNL AppMeasurement].
 
 **Uso común**
 
