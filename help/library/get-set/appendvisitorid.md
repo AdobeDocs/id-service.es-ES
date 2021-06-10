@@ -1,15 +1,11 @@
 ---
 description: Esta función le permite compartir un Experience Cloud ID de un visitante entre dominios cuando los navegadores bloquean las cookies de terceros. Para utilizar esta función, debe haber implementado el servicio de ID y ser el propietario de los dominios de origen y destino. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 keywords: Servicio de ID
-seo-description: Esta función le permite compartir un Experience Cloud ID de un visitante entre dominios cuando los navegadores bloquean las cookies de terceros. Para utilizar esta función, debe haber implementado el servicio de ID y ser el propietario de los dominios de origen y destino. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
-seo-title: appendVisitorIDsTo (seguimiento entre dominios)
 title: appendVisitorIDsTo (seguimiento entre dominios)
-uuid: 06b453ee-73c5-4625-82d9-877ad2b4f702
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '448'
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
@@ -41,7 +37,7 @@ Para ayudar a resolver este problema, implemente una ` Visitor.appendVisitorIDsT
 
 Consulte el ejemplo de código para obtener más información.
 
-## Anexar el ejemplo de código de ID de visitante {#section-62d55f7f986542b0b9238e483d50d7b0}
+## Anexar el ejemplo de código de ID de visitante  {#section-62d55f7f986542b0b9238e483d50d7b0}
 
 El ejemplo siguiente puede ayudarle a empezar con las ` Visitor.appendVisitorIDsTo( *`URL`*)`. Cuando se implementa adecuadamente, su código JavaScript podría ser similar al del siguiente ejemplo.
 
@@ -59,7 +55,7 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
 //Redirect to the destination
 ```
 
-## Compatibilidad con Dynamic Tag Management (DTM) y SDK {#section-168e313df6054af0a7e27b9fa0d69640}
+## Compatibilidad con Dynamic Tag Management (DTM) y SDK  {#section-168e313df6054af0a7e27b9fa0d69640}
 
 <table id="table_6E7152B4FD2B4C4D8C9477C68204C4FF"> 
  <thead> 
