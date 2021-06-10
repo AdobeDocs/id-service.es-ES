@@ -1,20 +1,16 @@
 ---
 description: Métodos públicos que le permiten interactuar con el servicio de ID.
 keywords: Servicio de ID
-seo-description: Métodos públicos que le permiten interactuar con el servicio de ID.
-seo-title: Métodos
 title: Métodos
-uuid: 184d0a62-0c8d-481b-9afe-b7a67bdafdce
 exl-id: 59a930f0-c0a8-477e-abad-f019d7d02d3b
-translation-type: ht
-source-git-commit: 4453ebf701ea2dc06e6093dd77be6eb0f3b2936e
-workflow-type: ht
-source-wordcount: '90'
-ht-degree: 100%
+source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Métodos {#methods}
+# Métodos{#methods}
 
 Métodos públicos que le permiten interactuar con el servicio de ID.
 
