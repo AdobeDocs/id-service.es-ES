@@ -6,7 +6,7 @@ exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Los siguientes ejemplos muestran la manera en la que el servicio de ID solicita 
 En este ejemplo, un nuevo visitante llega al sitio de pizzas administrado por Food Company. Food Company tiene un código de servicio de ID en el sitio web de pizzas. Cuando se carga el sitio de pizzas, el código del servicio de ID comprueba la cookie AMCV en el dominio de pizzas.
 
 * Si se establece la cookie AMCV, el visitante del sitio tiene un Experience Cloud ID. En este caso, la cookie rastrea al visitante y comparte datos con otras soluciones de Experience Cloud.
-* Si no se establece la cookie AMCV, el código de servicio de ID llama a un [Servidor de recopilación datos regionales](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en) (DCS) en `dpm.demdex.net/id` (consulte también [Explicación de las llamadas al dominio Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). La llamada incluye el ID de organización de la Empresa Alimentaria. El ID de organización se establece en la función `Visitor.getInstance` del código de servicio de ID.
+* Si no se establece la cookie AMCV, el código de servicio de ID llama a un [Servidor de recopilación datos regionales](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=es) (DCS) en `dpm.demdex.net/id` (consulte también [Explicación de las llamadas al dominio Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es). La llamada incluye el ID de organización de la Empresa Alimentaria. El ID de organización se establece en la función `Visitor.getInstance` del código de servicio de ID.
 
 ![](assets/request1.png)
 
