@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ El servicio de ID sincroniza los ID en tiempo real. Este proceso funciona en el 
 
 **Paso 1: Carga de la página**
 
-Cuando un visitante llega a su sitio y carga una página, la `Visitor.getInstance` función realiza una llamada [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) o JSON-P al servicio de ID. El servicio de ID responde con una cookie que incluye el [!DNL Experience Cloud] ID de (MID) del visitante. El MID es un ID único que se asigna a cada visitante del sitio. Consulte también la información relativa a las [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md).
+Cuando un visitante llega a su sitio y carga una página, la `Visitor.getInstance` función realiza una llamada [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) o JSON-P al servicio de ID. El servicio de ID responde con una cookie que incluye el [!DNL Experience Cloud] ID de (MID) del visitante. El MID es un ID único que se asigna a cada visitante del sitio. Consulte también la información relativa a las [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md).
 
 **Paso 2: Carga del iFrame**
 
