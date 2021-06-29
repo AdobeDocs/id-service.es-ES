@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Implementación del servicio de Experience Cloud ID para Analytics
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -172,13 +172,13 @@ Necesita un periodo de gracia si necesita nuevos visitantes para tener una cooki
 
 Interrumpa el periodo de gracia después de que la implementación pueda capturar el MID en lugar de leer la cookie s_vi.
 
-Consulte [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md).
+Consulte [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md).
 
 Necesita un período de gracia si envía datos a un sistema interno desde una fuente de datos de flujo de navegación y si sus procesos utilizan las columnas `visid_high` y `visid_low`.
 
 Interrumpa el periodo de gracia una vez que su proceso de consumo de datos pueda utilizar las columnas `post_visid_high` y `post_visid_low`.
 
-Consulte [Referencia de columnas de datos del flujo de navegación](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html).
+Consulte [Referencia de columnas de datos del flujo de navegación](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=es).
 
 **Consumo de datos de flujo de navegación**
 
@@ -191,7 +191,7 @@ Puede realizar pruebas e implementaciones de la siguiente manera.
 Para probar la implementación del servicio de ID, compruebe:
 
 * La [cookie AMCV](../introduction/cookies.md) en el dominio en el que está alojada su página.
-* Valor MID en la solicitud de imagen de [!DNL Analytics] con la [herramienta Adobe Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html).
+* Valor MID en la solicitud de imagen de [!DNL Analytics] con la [herramienta Adobe Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=es).
 
 Consulte [Comprobación y verificación del servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md).
 
