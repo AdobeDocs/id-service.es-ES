@@ -1,6 +1,6 @@
 ---
 source-git-commit: cadd9fab972936106a48a117022ed473b3614e09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ La manera en que contribuye depende de quién es usted y del tipo de cambios con
 
 Si desea enviar una solicitud, haga clic en el vínculo **Registrar un problema** de un artículo para crear un caso en GitHub. Especifique un título y una descripción y, a continuación, haga clic en **Enviar nuevo problema**.
 
-Si desea solicitar actualizaciones menores, haga clic en el vínculo **Editar esta página** de un artículo para abrir el original en GitHub. Utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la guía [general del colaborador de Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obtener más información.
+Si desea solicitar actualizaciones menores, haga clic en el vínculo **Editar esta página** de un artículo para abrir el original en GitHub. Utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Consulte la guía [general del colaborador de Adobe Docs](https://docs.adobe.com/help/es-ES/contributor/contributor-guide/introduction.html) para obtener más información.
 
 Las correcciones o aclaraciones menores que envía para la documentación y los ejemplos de código de este repositorio están incluidos en las condiciones de uso de Adobe.
 
@@ -45,7 +45,7 @@ Si es redactor técnico, administrador de programa o desarrollador del equipo de
 
 Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub para editar o ramificar el repositorio con el fin de realizar contribuciones importantes.
 
-Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obtener más detalles.
+Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/help/es-ES/contributor/contributor-guide/introduction.html) para obtener más detalles.
 
 ## Cómo utilizar Markdown para dar formato al tema
 
