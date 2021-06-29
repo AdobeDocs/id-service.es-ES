@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: ID de cliente y estados de autenticación
 exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ A partir del servicio de identidad de Experience Cloud de la versión 1.5 (o pos
  </tbody> 
 </table>
 
-## Casos de uso para estados de autenticación  {#section-fe9560cc490943b29dac2c4fb6efd72c}
+## Casos de uso para estados de autenticación {#section-fe9560cc490943b29dac2c4fb6efd72c}
 
 Puede asignar estados de autenticación a los usuarios, según las acciones que estén realizando en las propiedades web y si están autenticados. Consulte algunos ejemplos en la tabla siguiente:
 
@@ -64,7 +64,7 @@ Puede asignar estados de autenticación a los usuarios, según las acciones que 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.UNKNOWN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.UNKNOWN </span> </p> </td> 
    <td colname="col2"> <p>Este estado se puede usar para escenarios como: </p> <p> 
      <ul id="ul_086C7446D258443DA7AF5BB96A6AAEC7"> 
       <li id="li_7845BBD62D7B4362AD3FE33DEDA8FBA1">Leer un correo electrónico (esta acción probablemente significa que el lector es el destinatario deseado, pero también se podría haber reenviado el correo electrónico). </li> 
@@ -72,11 +72,11 @@ Puede asignar estados de autenticación a los usuarios, según las acciones que 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.AUTHENTICATED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.AUTHENTICATED </span> </p> </td> 
    <td colname="col2"> <p>El usuario está autenticado con una sesión activa en su sitio web o aplicación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.LOGGED_OUT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Visitor.AuthState.LOGGED_OUT </span> </p> </td> 
    <td colname="col2"> <p>Se autenticó al usuario, pero se cerró la sesión de forma activa. El usuario quería desconectarse del estado autenticado. El usuario ya no quiere que se le considere autenticado. </p> </td> 
   </tr> 
  </tbody> 
@@ -208,12 +208,12 @@ Object customerIDs = visitor.getCustomerIDs();
  }
 ```
 
-## Compatibilidad con SDK  {#section-861c6b3b1ba645dda133dccb22ec7bb0}
+## Compatibilidad con SDK {#section-861c6b3b1ba645dda133dccb22ec7bb0}
 
 El servicio de ID de [!DNL Experience Cloud] admite ID de clientes y estados de autenticación en nuestro código SDK para Android y para iOS. Consulte las bibliotecas de código siguientes:
 
-* [Métodos del SDK para Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
-* [Métodos del SDK para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
+* [Métodos del SDK para Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=es)
+* [Métodos del SDK para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=es)
 
 ## Aviso para clientes de Analytics y Audience Manager {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
