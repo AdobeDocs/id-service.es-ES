@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: Período de gracia del servicio de ID
 exl-id: 83b4898c-8358-458b-a798-1e3c9633afe9
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
 ht-degree: 100%
 
@@ -30,6 +30,6 @@ Si tiene un solo archivo JavaScript de Analytics y no utiliza otras bibliotecas 
 
 Si tiene varios archivos JavaScript que envían datos al *mismo grupo de informes* o si utiliza otras tecnologías en el sitio, como la medición de vídeo Flash, le recomendamos que configure un periodo de gracia.
 
-## ¿Cómo puedo habilitar un período de gracia?   {#section-512d5cd8570e483cbdd8b04457a16ced}
+## ¿Cómo puedo habilitar un período de gracia? {#section-512d5cd8570e483cbdd8b04457a16ced}
 
 Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
