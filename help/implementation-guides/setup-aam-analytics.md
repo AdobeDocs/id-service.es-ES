@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1231'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Estas instrucciones están destinadas a los clientes de Analytics y Audience Man
 
 ## Paso 1: Planificación del reenvío del lado de servidor {#section-880797cc992d4755b29cada7b831f1fc}
 
-Además de los pasos descritos aquí, los clientes que usan [!DNL Analytics] y [!DNL Audience Manager] deben migrar al reenvío del lado de servidor. El reenvío del lado del servidor permite eliminar DIL (código de recopilación de datos de Audience Manager) y sustituirlo por el [Módulo de gestión de audiencias](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html). Consulte la [documentación del reenvío del lado del servidor](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para obtener más información.
+Además de los pasos descritos aquí, los clientes que usan [!DNL Analytics] y [!DNL Audience Manager] deben migrar al reenvío del lado de servidor. El reenvío del lado del servidor permite eliminar DIL (código de recopilación de datos de Audience Manager) y sustituirlo por el [Módulo de Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es). Consulte la [documentación del reenvío del lado del servidor](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para obtener más información.
 
 La migración al reenvío del lado del servidor requiere planificación y coordinación. Este proceso incluye cambios externos en el código del sitio y pasos internos que Adobe debe realizar para aprovisionar la cuenta. De hecho, muchos de estos procedimientos de migración deben realizarse en paralelo y ponerse en libertad juntos. La ruta de implementación debe seguir esta secuencia de eventos:
 
@@ -140,7 +140,7 @@ Añada la `Visitor.getInstance` función que se muestra a continuación a su `Ap
 
 >[!IMPORTANT]
 >
->En este punto deberá eliminar el código [!DNL Audience Manager] DIL de y sustituirlo por el módulo Gestión de audiencias. Consulte [Implementar reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para obtener instrucciones.
+>En este punto deberá eliminar el código [!DNL Audience Manager] DIL de y sustituirlo por el módulo Gestión de público. Consulte [Implementar reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=es) para obtener instrucciones.
 
 ***(Opcional, pero recomendada)* Crear una variable prop personalizada.**
 
@@ -182,7 +182,7 @@ Necesita un período de gracia si envía datos a un sistema interno desde una fu
 
 Interrumpa el periodo de gracia una vez que su proceso de consumo de datos pueda utilizar las columnas `post_visid_high` y `post_visid_low`.
 
-Consulte [Referencia de columnas de datos del flujo de navegación](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html).
+Consulte [Referencia de columnas de datos del flujo de navegación](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=es).
 
 ## Paso 9: Prueba e implementación del código de servicio de ID {#section-f857542bfc70496dbb9f318d6b3ae110}
 
@@ -193,10 +193,10 @@ Puede realizar pruebas e implementaciones de la siguiente manera.
 Para probar la implementación del servicio de ID, compruebe:
 
 * [La cookie de AMCV](../introduction/cookies.md) en el dominio en el que está alojada su página.
-* Valor MID en la solicitud de imagen de Analytics con [Adobe Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html).
+* Valor MID en la solicitud de imagen de Analytics con [Adobe Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=es).
 * Consulte también [Comprobación y verificación del servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md).
 
-Para verificar el reenvío del lado del servidor, consulte [Comprobar la implementación del reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html).
+Para verificar el reenvío del lado del servidor, consulte [Comprobar la implementación del reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf-verify.html?lang=es).
 
 **Implementar**
 
