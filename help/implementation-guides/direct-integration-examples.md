@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Casos de uso de integraciones directas
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Estos ejemplos tratan 2 casos de uso comunes relacionados con una integración d
 >[!TIP]
 >
 >* Revise y comprenda la [sintaxis de código y las variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) de antes de profundizar en los casos de uso.
->* Para obtener más información sobre MID, consulte [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md).
+>* Para obtener más información sobre MID, consulte [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md).
 
 >
 
