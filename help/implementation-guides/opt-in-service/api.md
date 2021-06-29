@@ -3,7 +3,7 @@ description: API para la biblioteca de Opt-in y referencia de ajustes de configu
 title: Referencia de Opt-in
 exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '886'
 ht-degree: 100%
 
@@ -24,13 +24,13 @@ adobe.OptInCategories = {
 }
 ```
 
-## Parámetros de configuración de Opt-in  {#section-d66018342baf401389f248bb381becbf}
+## Parámetros de configuración de Opt-in {#section-d66018342baf401389f248bb381becbf}
 
 Esta sección trata sobre el uso de la API para configurar Opt-in. Buena parte de la configuración y la implementación se pueden realizar utilizando la extensión de Experience Platform Launch.
 
 Se proporcionan configuraciones de Opt-in en la función `getInstance()` de Visitor JavaScript, que crea una instancia del objeto global `adobe`. A continuación se enumeran las configuraciones de Visitor JS relacionadas con el servicio Opt-in.
 
-**`doesOptInApply (boolean or function that evaluates to a boolean)`**:
+**`doesOptInApply (boolean or function that evaluates to a boolean)`**
 
 Si es falso, indica que los visitantes no tienen que incluirse. Hace que Experience Cloud cree cookies independientemente de las categorías que se hayan incluido. Esta configuración habilita o deshabilita la inclusión de forma integral.
 
@@ -54,7 +54,7 @@ Dominio o subdominio de origen a usar para la cookie de Opt-in (si `isOptInStora
 
 Número de segundos para anular la caducidad predeterminada de 13 meses
 
-## Cambios en los parámetros de consentimiento  {#section-c3d85403ff0d4394bd775c39f3d001fc}
+## Cambios en los parámetros de consentimiento {#section-c3d85403ff0d4394bd775c39f3d001fc}
 
 En cualquier momento durante la experiencia en el sitio, un visitante puede establecer preferencias por primera vez o puede cambiar sus preferencias mediante CMP. Una vez que Visitor JS se ha inicializado con la configuración inicial, los permisos del visitante se pueden cambiar con las funciones siguientes:
 
@@ -66,11 +66,11 @@ Función que aprueba o incluye al visitante en todas las categorías de una list
 
 Función que rechaza o excluye al visitante de todas las categorías especificadas.
 
-**`adobe.optIn.approveAll()`**:
+**`adobe.optIn.approveAll()`**
 
 Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de su respuesta.
 
-**`adobe.optIn.denyAll()`**:
+**`adobe.optIn.denyAll()`**
 
 Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de la respuesta.
 
@@ -128,7 +128,7 @@ True o False, dependiendo del valor de estado. La inclusión devuelve True para 
 
 True o False, dependiendo del valor de estado. La inclusión podría devolver False para esta propiedad cuando se haya iniciado un consentimiento de estilo de flujo de trabajo, pero no se haya completado.
 
-## Métodos del objeto Opt-in  {#section-e0417801a82548d199d833010033e433}
+## Métodos del objeto Opt-in {#section-e0417801a82548d199d833010033e433}
 
 **`approve(categories, shouldWaitForComplete)`**
 
@@ -145,7 +145,7 @@ True o False, dependiendo del valor de estado. La inclusión podría devolver Fa
 
 **`deny(categories, shouldWaitForComplete)`**
 
-* Pasa una o más categorías para comprobar si están aprobadas. 
+* Pasa una o más categorías para comprobar si están aprobadas.
 * Si no se pasa ninguna categoría, se comprueban TODAS las categorías disponibles.
 
 **`isApproved(categories)`**
@@ -201,7 +201,7 @@ Aprueba todas las categorías existentes.
 
 Deniega todas las categorías existentes.
 
-## Eventos del objeto Opt-in  {#section-06f25b33cab54bafb053183e937fb710}
+## Eventos del objeto Opt-in {#section-06f25b33cab54bafb053183e937fb710}
 
 **`complete`:**
 
