@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: isCoopSafe
 exl-id: 827f7819-9f95-4e8d-90c3-dcf86b67715b
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Contenido:
 Para utilizar `isCoopSafe`, debe:
 
 * Utilizar el código de servicio de ID versión 2.4 o posterior.
-* Participe en [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
+* Participe en [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=es). Los potenciales miembros de la cooperación también deben revisar esta documentación para determinar si `isCoopSafe` soluciona los posibles problemas sobre cómo se utilizan los datos para crear el gráfico de dispositivos.
 
 * Trabaje con su consultor de [!DNL Adobe] para establecer un indicador de lista de elementos permitidos o de lista de elementos bloqueados en su cuenta de Device Co-Op. No existe una ruta de autoservicio que permita habilitar estos indicadores.
 
@@ -81,7 +81,7 @@ var visitor = Visitor.getInstance("Insert Experience Cloud organization ID here"
 });
 ```
 
-## Parámetros POST de llamada de evento  {#section-fcd441933506493faefaa6b51f194a17}
+## Parámetros POST de llamada de evento {#section-fcd441933506493faefaa6b51f194a17}
 
 En función del indicador que establezca (`true` o `false`), el servicio de ID traduce `isCoopSafe` a estos parámetros POST y los envía a [!DNL Adobe] en una llamada de evento:
 
@@ -109,7 +109,7 @@ Los parámetros POST indican a [!DNL Experience Cloud] Device Co-Op de si puede 
  </tbody> 
 </table>
 
-## API posteriores a la creación de instancias  {#section-9281c39c8b6249d7864100b5cbca7dc6}
+## API posteriores a la creación de instancias {#section-9281c39c8b6249d7864100b5cbca7dc6}
 
 Estas API permiten sobrescribir el estado de `isCoopSafe`. Esto es necesario porque le permiten cambiar el estado posterior a la creación de la instancia o al inicio de sesión de un visitante en un sitio o en una aplicación de una sola página en la que la página no se actualiza. Por ejemplo, debe llamar a estas API si un usuario se autentica en su sitio o aplicación y luego acepta una política de términos de uso que permita a Device Co-op utilizar sus datos.
 
@@ -138,5 +138,5 @@ Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
 >[!MORELIKETHIS]
 >
->* [DIL isCoopSafe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.html)
+>* [DIL isCoopSafe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-coopsafe.html?lang=es)
 
