@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Integración directa con el servicio de servicio de Experience Cloud ID
 exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Los dispositivos que no pueden utilizar las bibliotecas de códigos VisitorAPI.j
 
 ![](assets/directSyntax.png)
 
-En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. Para obtener más información sobre otras variables, consulte [Atributos admitidos para las llamadas API de DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+En este ejemplo de sintaxis, el `d_` prefijo identifica los pares clave-valor de la llamada como una variable de nivel del sistema. Puede pasar bastantes `d_` parámetros al servicio de ID, pero céntrese en los pares clave-valor, tal como se muestra en el código de más arriba. Para obtener más información sobre otras variables, consulte [Atributos admitidos para las llamadas API de DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=es).
 
 El servicio de ID admite llamadas HTTP y HTTPS. Utilice HTTPS para pasar datos de una página segura.
 
@@ -57,7 +57,7 @@ El servicio de ID devuelve datos en un objeto JSON como se muestra a continuaci�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dpm.demdex.net</span> </p> </td> 
-   <td colname="col2"> <p>Un dominio heredado controlado por <span class="keyword">Adobe</span>. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> 
+   <td colname="col2"> <p>Un dominio heredado controlado por <span class="keyword">Adobe</span>. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_mid</span> </p> </td> 
@@ -65,7 +65,7 @@ El servicio de ID devuelve datos en un objeto JSON como se muestra a continuaci�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Su ID de organización de Experience Cloud. Para obtener ayuda sobre cómo encontrar este ID, consulte <a href="../reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de servicio de identidad de Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Su ID de organización de Experience Cloud. Para obtener ayuda sobre cómo encontrar este ID, consulte <a href="../reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de Experience Cloud ID</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
@@ -87,7 +87,7 @@ El servicio de ID devuelve datos en un objeto JSON como se muestra a continuaci�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> dcs_region</span> </p> </td> 
-   <td colname="col2"> <p>El servicio de ID es un sistema distribuido geográficamente y con equilibrio de carga. El ID identifica la región del centro de datos que gestiona la llamada. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </p> </td> 
+   <td colname="col2"> <p>El servicio de ID es un sistema distribuido geográficamente y con equilibrio de carga. El ID identifica la región del centro de datos que gestiona la llamada. Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=es" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cb</span> </p> </td> 
