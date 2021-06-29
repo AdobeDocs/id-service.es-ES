@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: getVisitorValues
 exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ En los parámetros de función:
 
 Consulte los casos de uso y definiciones siguientes para obtener más información.
 
-## Caso de uso 1: Solicitar el conjunto de datos predeterminado  {#section-36a31683558742a5915db3a391e09f7b}
+## Caso de uso 1: Solicitar el conjunto de datos predeterminado {#section-36a31683558742a5915db3a391e09f7b}
 
 Este código devuelve el conjunto de datos estándar. La solicitud y la respuesta podrían ser similares a los ejemplos siguientes.
 
@@ -59,7 +59,7 @@ En la respuesta de muestra predeterminada, algunos valores se han abreviado con 
 }
 ```
 
-## Caso de uso 2: Solicitar un conjunto de datos personalizado  {#section-467b2f4e513344c89b7332b05f6f59f3}
+## Caso de uso 2: Solicitar un conjunto de datos personalizado {#section-467b2f4e513344c89b7332b05f6f59f3}
 
 Este código utiliza una matriz opcional para devolver un conjunto de ID específico mediante la `visitor.FIELDS` enumeración. En este caso, solo queremos el Experience Cloud ID (MCID) y el ID de Analytics (MCAID). La solicitud y la respuesta podrían ser similares a los ejemplos siguientes.
 
@@ -81,7 +81,7 @@ La respuesta de ejemplo personalizada devuelve solo los ID especificados en la s
 }
 ```
 
-## Parámetros de respuesta definidos  {#section-4c4c300167694c6fbff1d6c612f372b5}
+## Parámetros de respuesta definidos {#section-4c4c300167694c6fbff1d6c612f372b5}
 
 La tabla que se muestra a continuación enumera y define los parámetros de respuesta. Estos son también todos los valores de la `visitor.FIELDS` enumeración. Tenga en cuenta que este método devuelve una cadena vacía si no hay valores para una variable en particular.
 
@@ -99,7 +99,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAAMLH </span> </p> </td> 
-   <td colname="col2"> <p>ID de región de recopilación de datos. Es un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID en particular. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host) y <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local">getLocationHint.</a> </p> </td> 
+   <td colname="col2"> <p>ID de región de recopilación de datos. Es un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID en particular. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=es" format="https" scope="external">DCS Region IDs, Locations, and Host Names</a> (ID de región de DCS, ubicaciones y nombres de host) y <a href="../../library/get-set/getlocationhint.md#reference-a761030ff06c4439946bb56febf42d4c" format="dita" scope="local">getLocationHint.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCAID </span> </p> </td> 
@@ -107,7 +107,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>El Experience Cloud ID del visitante. </p> <p>Consulte la información relativa a las <a href="../../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de identidad de Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>El Experience Cloud ID del visitante. </p> <p>Consulte la información relativa a las <a href="../../introduction/cookies.md" format="dita" scope="local"> cookies y el servicio de Experience Cloud ID</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 
