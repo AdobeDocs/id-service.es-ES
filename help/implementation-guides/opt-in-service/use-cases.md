@@ -3,7 +3,7 @@ description: Casos de uso y soluciones de ejemplo para la administración del se
 title: Casos de uso de Opt-in
 exl-id: 4c57685f-40b7-4af4-8527-3c2795586f0f
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Casos de uso y soluciones de ejemplo para la administración del servicio de inc
 * La inclusión es una implementación por dominio. No gestiona implementaciones entre dominios.
 * Para deshabilitar las llamadas de terceros para una biblioteca específica, deberá configurar esa preferencia en cada biblioteca por separado.
 
-## Situaciones de inclusión   {#section-1178053c065c430bba26f82ef383a71c}
+## Situaciones de inclusión {#section-1178053c065c430bba26f82ef383a71c}
 
 Estos casos de uso son ejemplos del uso del servicio de inclusión (Opt-in).
 
