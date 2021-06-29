@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Compatibilidad con CORS en el servicio de Experience Cloud ID
 exl-id: 0e8ffe85-8d1f-42a0-aae3-a2b3b28c7bce
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
-# Compatibilidad con CORS en el servicio de identidad de Experience Cloud {#cors-support-in-the-experience-cloud-id-service}
+# Compatibilidad con CORS en el servicio de Experience Cloud ID {#cors-support-in-the-experience-cloud-id-service}
 
 Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 
@@ -24,7 +24,7 @@ Las políticas del mismo origen son controles de seguridad o restricciones que a
 
 El explorador permite que una solicitud se realice correctamente si ambas páginas comparten estas características y bloquea las solicitudes de recursos si no lo hacen.
 
-## CORS resuelve problemas con políticas del mismo origen  {#section-76c87ec3295d447bab220c84f138c235}
+## CORS resuelve problemas con políticas del mismo origen {#section-76c87ec3295d447bab220c84f138c235}
 
 CORS es una forma segura y eficaz de solicitar recursos en distintos dominios. La especificación CORS incluye un conjunto de encabezados HTTP que los exploradores utilizan para enviar, recibir y evaluar solicitudes de recursos. Evaluar una solicitud de recurso es lo que se conoce como *`preflight check`*. Esta comprobación permite a los exploradores y servidores determinar qué solicitudes están permitidas o bloqueadas. La comprobación preliminar es transparente para la aplicación, la API o el script que solicita un recurso. Dos encabezados importantes en el proceso de solicitud de recursos son:
 
