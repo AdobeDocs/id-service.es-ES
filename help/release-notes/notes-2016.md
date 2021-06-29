@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Notas de la versión 2016
 exl-id: f96b9869-6282-4090-b392-797608e25a51
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,11 +76,11 @@ Agosto de 2016
 
 **Documentación nueva y revisada**
 
-Revisado: [Requisitos del servicio de identidad de Experience Cloud](../reference/requirements.md)
+Revisado: [Requisitos del servicio de Experience Cloud ID](../reference/requirements.md)
 
 **Problemas conocidos**
 
-Los clientes que utilizan código DIL de [!DNL Audience Manager] y código visitorAPI.js en la misma página, deben establecer la variable DIL `secureDataCollection= false`. Consulte [secureDataCollection](https://experienceleague.adobe.com/docs/audience-manager/user-guide/dil-api/dil-overview.html).
+Los clientes que utilizan código DIL de [!DNL Audience Manager] y código visitorAPI.js en la misma página, deben establecer la variable DIL `secureDataCollection= false`. Consulte [secureDataCollection](https://experienceleague.adobe.com/docs/audience-manager/user-guide/dil-api/dil-overview.html?lang=es).
 
 ## Versión 1.6.0 {#section-3faaa14bf3934c6a99b8f79ee06fc0d2}
 
@@ -102,7 +102,7 @@ Julio de 2016
    <td colname="col1"> <p>Intercambio de recursos de origen cruzado (CORS) </p> </td> 
    <td colname="col2"> <p>El mecanismo CORS permite a los navegadores solicitar recursos provenientes de un dominio distinto al actual. El servicio de identidad de Experience Cloud admite los estándares CORS para habilitar solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores que no admiten el mecanismo CORS. </p> <p>Consulte: </p> 
     <ul id="ul_15386385108F4E07824041DD6F2DC11E"> 
-     <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local"> Compatibilidad con CORS en el servicio de identidad de Experience Cloud </a> </li> 
+     <li id="li_DB8D5AA4A7004DE4AE9CBC31A389F5BD"> <a href="../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758" format="dita" scope="local"> Compatibilidad con CORS en el servicio de identidad de Experience Cloud ID</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -127,8 +127,8 @@ Julio de 2016
 
 **Revisado**
 
-* [ Requisitos del servicio de identidad de Experience Cloud](../reference/requirements.md)
-* [Comprobación y verificación del servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md)
+* [ Requisitos del servicio de Experience Cloud ID](../reference/requirements.md)
+* [Comprobación y verificación del servicio de Experience Cloud ID](../implementation-guides/test-verify.md)
 
 ## Versión 1.5.7 {#section-735b4989a5744a42aeb2d97602dbda62}
 
@@ -165,7 +165,7 @@ Mayo de 2016
 
 * [Requisitos de SDK para Android e iOS](../reference/requirements.md#section-73b2446fba8e463888642c7d7dfd94f1)
 * [Data Workbench y el servicio de identidad de Experience Cloud](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
-* [Comprobación y verificación del servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md)
+* [Comprobación y verificación del servicio de Experience Cloud ID](../implementation-guides/test-verify.md)
 
 ## Versión 1.5.x {#section-0cfeef085cff4cbc8dff6cbc6fc32920}
 
