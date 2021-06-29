@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Implementación del servicio de Experience Cloud ID para Target
 exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
 ht-degree: 100%
 
 ---
 
-# Implementación del servicio de identidad de Experience Cloud para Destinatario {#implement-the-experience-cloud-id-service-for-target}
+# Implementación del servicio de Experience Cloud ID para Target{#implement-the-experience-cloud-id-service-for-target}
 
 Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 
@@ -74,7 +74,7 @@ Para probar la implementación del servicio de ID:
 * Compruebe que cuenta con la cookie AMCV en el dominio en el que está alojada su página.
 * Verifique que aparezca `mboxMCGVID` en su solicitud de [!DNL Target] y que contenga el ID de [!DNL Experience Cloud] (MID).
 
-Consulte la información relativa a [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md) para obtener información sobre la cookie AMCV y el MID.
+Consulte la información relativa a [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md) para obtener información sobre la cookie AMCV y el MID.
 
 **Implementar**
 
