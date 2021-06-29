@@ -6,9 +6,9 @@ title: Guías de implementación
 uuid: null
 exl-id: af6da32b-72d9-463d-a933-fd1fe960d4d8
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Instrucciones y ejemplos de código para implementaciones estándar y no estánd
 
 ## Implementación estándar
 
-La implementación estándar utiliza [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) para ayudarle a empezar con el servicio de ID e integrarlo con otras soluciones de Experience Cloud. Le recomendamos encarecidamente que utilice Experience Platform Launch al implementar el servicio de ID.
+La implementación estándar utiliza [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=es) para ayudarle a empezar con el servicio de ID e integrarlo con otras soluciones de Experience Cloud. Le recomendamos encarecidamente que utilice Experience Platform Launch al implementar el servicio de ID.
 
 ## Recursos de implementación
 
@@ -35,6 +35,6 @@ La implementación estándar utiliza [Adobe Experience Platform Launch](https://
 * [Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target](setup-aam-analytics-target.md)
 * [Uso del servicio de identidad de Experience Cloud con A4T y una implementación de Target en el lado del servidor](ecid-a4t-target.md)
 * [Integración directa con el servicio de identidad de Experience Cloud](direct-integration.md)
-* [Casos de uso de integración directa](direct-integration-examples.md)
+* [Casos de uso de integraciones directas](direct-integration-examples.md)
 * [Comprobación y verificación del servicio de Experience Cloud ID](test-verify.md)
 * [Información general sobre el servicio Opt-in](opt-in-service/optin-overview.md)
