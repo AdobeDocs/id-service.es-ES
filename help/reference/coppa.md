@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Compatibilidad con COPPA en el servicio de Experience Cloud ID
 exl-id: c7579f90-3011-4e26-b908-08907bf12ba2
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
