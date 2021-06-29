@@ -1,12 +1,12 @@
 ---
 description: Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
-keywords: 'Servicio de ID '
+keywords: Servicio de ID
 title: Preguntas más frecuentes sobre el servicio de ID
 exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '787'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Es posible que tenga problemas si aloja VisitorAPI.js como archivo local en apli
 
 Coloque la biblioteca VisitorAPI.js en la parte superior de la página en la `<head>` sección de su código. Esto le ayuda a garantizar que la llamada de un ID se emita antes de que el cuerpo de la página empiece a cargarse y que aumenten las posibilidades de que se devuelva un ID correctamente.
 
-La llamada del servicio de ID es asincrónica y es la única llamada al [dominio demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
+La llamada del servicio de ID es asincrónica y es la única llamada al [dominio demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es). La llamada al servicio de ID no impide que otros elementos se carguen en la página.
 
 En el caso de los [!DNL Target] clientes de, al colocar el código de servicio de ID en la etiqueta `<body>` de la página, pueden incrementar las probabilidades de que se bloquee una llamada de [!DNL Target]. Si debe colocar el código de servicio de ID en el cuerpo de la página, se debe colocar después de la etiqueta `<body>` de apertura.
 
@@ -66,13 +66,13 @@ Este cambio mejora el rendimiento de los clientes que utilizan Visitor 2.3.0 o p
 
 Las solicitudes de recursos con CORS son generalmente más preferibles que con JSONP. Con JSONP, algunos exploradores ponen en cola y restan prioridad a las solicitudes en relación con otras llamadas sincrónicas y asincrónicas de la página. CORS ayuda a garantizar que estas solicitudes se traten con mayor prioridad en las llamadas del explorador.
 
-Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Consulte [Compatibilidad con CORS en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 ## Seguridad {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
 **¿Admite CORS el servicio de ID?**
 
-Sí. Consulte [Compatibilidad con COPPA en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Sí. Consulte [Compatibilidad con CORS en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
 
 **¿Qué es CORS?**
 
