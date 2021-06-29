@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Notas de la versión 2017
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '744'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Julio de 2017
 
 **Correcciones de errores y otros cambios**
 
-* Se ha corregido un error en VisitorAPI.js 2.2 que impedía que el servicio de ID y el Destinatario trabajaran juntos en Internet Explorer.
+* Se ha corregido un error en VisitorAPI.js 2.2 que impedía que el servicio de ID y Target trabajaran juntos en Internet Explorer.
 * Se ha revisado el código para ayudar a mejorar la forma en que el servicio de ID envía datos al iFrame de publicación de destino. Esto ayuda a reducir el uso de CPU.
 
 ## Versión 2.2 {#section-b7dee2495c29470e9b3a3132ec1fd951}
@@ -122,7 +122,7 @@ Fecha de lanzamiento: Junio de 2017
  </tbody> 
 </table>
 
-## Actualizaciones de documentación para mayo  {#section-1d36b91bb7a140ce8a145251ffac9f2f}
+## Actualizaciones de documentación para mayo {#section-1d36b91bb7a140ce8a145251ffac9f2f}
 
 <table id="table_CD031A716A694E8FA89695C9B614BC91"> 
  <thead> 
@@ -191,7 +191,7 @@ Se ha corregido un error que hacía que el servicio de ID realizara llamadas red
 
 **Nueva documentación**
 
-[Uso de la precarga de DNS con diferentes soluciones y servicios de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html)
+[Uso de la precarga de DNS con diferentes soluciones y servicios de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/more-resources/dns-prefetch.html?lang=es)
 
 ## Versión 2.0 {#section-0ceac6007c1241b58ad607e2b76b2b7e}
 
@@ -207,6 +207,6 @@ Enero de 2017
 * Se ha corregido un error que impedía que el servicio de ID falle de inmediato si una visitante había habilitado un bloqueador de anuncios y ese bloqueador estaba configurado para excluir el dominio demdex.net. Este es un error atípico y poco frecuente porque la mayoría de las herramientas de bloqueo de anuncios no bloquean el dominio demdex.net. (MCID-233)
 * Se ha corregido un error debido a las interacciones entre el código de servicio de ID y un script personalizado en el sitio web de un cliente. Este problema impedía que Internet Explorer 9 cargara páginas web. (MCID-206)
 
-## Años anteriores  {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
+## Años anteriores {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
 Notas de la versión del servicio de ID anteriores.
