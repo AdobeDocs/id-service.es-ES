@@ -3,9 +3,9 @@ title: Cambios en el etiquetado de SameSite de Google Chrome
 description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1065'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,4 +119,4 @@ En la tabla siguiente solo se enumeran las cookies estándar comunes de visitant
 
 > !![IMPORTANT] Las cookies de terceros de Adobe se configuran del lado del servidor
 
-Para obtener más información, consulte el documento sobre [directivas de Target sobre SameSite de Google Chrome](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/privacy/google-chrome-samesite-cookie-policies.html).
+Para obtener más información, consulte el documento sobre [directivas de Target sobre SameSite de Google Chrome](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/privacy/google-chrome-samesite-cookie-policies.html?lang=es).
