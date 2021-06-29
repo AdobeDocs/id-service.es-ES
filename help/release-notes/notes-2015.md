@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Notas de la versión 2015
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '408'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Agosto de 2015
 Las revisiones de documentación de esta versión incluyen:
 
 * [Métodos de API y Biblioteca de códigos](../library/library.md#concept-ff27497375644a898d47984aefb21c97): contenido y texto reorganizados. En la mayoría de los casos, cada método obtiene su propia página.
-* [Requisitos para el servicio de identidad de Experience Cloud](../reference/requirements.md): contenido revisado y texto reorganizado.
+* [Requisitos del servicio de Experience Cloud ID](../reference/requirements.md): contenido revisado y texto reorganizado.
 
 ## Versión 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
