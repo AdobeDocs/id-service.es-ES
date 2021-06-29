@@ -4,9 +4,9 @@ keywords: Servicio de Experience Cloud ID
 title: Preguntas frecuentes sobre el servicio de ID y Analytics
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Cuando el servicio de identidad haya identificado a los usuarios, no cambiará n
 
 Si tiene un sitio de entrada principal en el que se puede identificar a los clientes antes de que visiten otros dominios, un registro CNAME puede habilitar el seguimiento entre dominios en los exploradores que no acepten cookies de terceros (como Safari).
 
-En los exploradores que aceptan cookies de terceros, se establece una cookie en el [dominio demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) durante la solicitud para recuperar un ID de visitante. Esta cookie permite que el servicio de identidad de visitante devuelva el mismo ID de visitante de Experience Cloud en todos los dominios que se hayan configurado con el mismo ID de organización. En los exploradores que rechazan cookies de terceros, se asigna un nuevo ID de visitante de Experience Cloud para cada dominio.
+En los exploradores que aceptan cookies de terceros, se establece una cookie en el [dominio demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) durante la solicitud para recuperar un ID de visitante. Esta cookie permite que el servicio de identidad de visitante devuelva el mismo ID de visitante de Experience Cloud en todos los dominios que se hayan configurado con el mismo ID de organización. En los exploradores que rechazan cookies de terceros, se asigna un nuevo ID de visitante de Experience Cloud para cada dominio.
 
 Incluso cuando se configura un CNAME, si el sitio de entrada principal no se visita primero, los visitantes se identifican de forma diferente en el sitio secundario y en el principal en los exploradores que no aceptan cookies de terceros.
 
@@ -50,7 +50,7 @@ Sin embargo, el código H no es compatible con el código visitorAPI.js 1.6 o po
 
 **¿Qué es un periodo de gracia y cómo puedo configurarlo?**
 
-Consulte [Período de gracia de servicio de identidad](../reference/analytics-reference/grace-period.md) y póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+Consulte [Período de gracia de servicio de identidad](../reference/analytics-reference/grace-period.md) y póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
 
 **¿Por qué necesito migrar a la recopilación de datos en tiempo real (RDC) para utilizar el servicio de identidad?**
 
@@ -65,7 +65,7 @@ Entre las causas comunes de discrepancias a la hora de usar el servicio de ident
 * Uso continuo de la cookie s_vi heredada. Esto contribuye a producir discrepancias en la recopilación de datos.
 * Recuento doble de los visitantes cuando navegan desde una encuesta a una ventana emergente.
 
-## Cookies  {#section-b7d5384fbedd47b09e1030211c39a3d1}
+## Cookies {#section-b7d5384fbedd47b09e1030211c39a3d1}
 
 **¿Qué sucede en Analytics cuando el servicio de identidad no puede establecer la cookie AMCV?**
 
@@ -89,5 +89,5 @@ Hay tres escenarios posibles en los que esto afecta a los datos de Analytics par
 
 >[!MORELIKETHIS]
 >
->* [Servicio de atención al cliente](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+>* [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 
