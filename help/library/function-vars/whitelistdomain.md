@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: whitelistParentDomain y whitelistIframeDomains
 exl-id: 0ed1da79-7129-4f5f-b7ad-901348a13866
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Ambos elementos de configuración son obligatorios cuando se utiliza este códig
  </tbody> 
 </table>
 
-## Ejemplo de código  {#section-09d0049fe88a473baa69d404c50bf8ae}
+## Ejemplo de código {#section-09d0049fe88a473baa69d404c50bf8ae}
 
 Su código de [!UICONTROL servicio de ID] configurado puede tener un aspecto similar al de este ejemplo.
 
@@ -72,7 +72,7 @@ Estas configuraciones ayudan a resolver el problema de configurar una cookie de 
 
 >[!TIP]
 >
->También es posible que desee implementar estas configuraciones cuando vaya a ofrecer vídeo en un iFrame con [Video Heartbeat](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html). Video Heartbeat necesita un ID de servicio de ID (el MID) para funcionar correctamente.
+>También es posible que desee implementar estas configuraciones cuando vaya a ofrecer vídeo en un iFrame con [Video Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es). Video Heartbeat necesita un ID de servicio de ID (el MID) para funcionar correctamente.
 
 **Caso de uso 1: El explorador bloquea las cookies de terceros y el servicio de ID se implementa en la página principal y en el iFrame**
 
@@ -143,7 +143,7 @@ Estas configuraciones ayudan a resolver el problema de configurar una cookie de 
  </tbody> 
 </table>
 
-## Protección y seguridad de configuración  {#section-2b1ce31fab034e1ca0f6b1c3cc57a6e2}
+## Protección y seguridad de configuración {#section-2b1ce31fab034e1ca0f6b1c3cc57a6e2}
 
 Puede implementar estas configuraciones de forma segura porque:
 
@@ -151,7 +151,7 @@ Puede implementar estas configuraciones de forma segura porque:
 * Estas configuraciones solo se comunican con el dominio y los iFrames especificados en el código.
 * La comunicación entre el iFrame y la página principal sigue un formato específico. Si el servicio de ID de la página principal no recibe una solicitud en el formato esperado, este proceso de uso compartido fallará.
 
-## Métodos de API de visitante compatibles  {#section-30c6a9f4dcdc4265a1149260b97cc057}
+## Métodos de API de visitante compatibles {#section-30c6a9f4dcdc4265a1149260b97cc057}
 
 El servicio de ID admite un conjunto limitado de métodos API públicos al implementar estas configuraciones de lista blanca. Los métodos admitidos varían según los casos de uso descritos anteriormente.
 
@@ -178,7 +178,7 @@ El servicio de ID admite un conjunto limitado de métodos API públicos al imple
    <td colname="col1"> <p> <b>Caso 2</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_CCAD7E362E7F4DAB9D5C3E166EEE6BDD"> 
-      <li id="li_1F0B006BAD044ECBA5604625DE411E84"> <span class="codeph"> getSupplementalDataID  </span> </li> 
+      <li id="li_1F0B006BAD044ECBA5604625DE411E84"> <span class="codeph"> getSupplementalDataID </span> </li> 
       <li id="li_C6022223C8314B9C923202207C7472EA"> <span class="codeph"> getMarketingCloudVisitorID </span> </li> 
      </ul> </p> </td> 
   </tr> 
