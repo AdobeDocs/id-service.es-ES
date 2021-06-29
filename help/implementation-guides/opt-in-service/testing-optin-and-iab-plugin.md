@@ -3,7 +3,7 @@ description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en s
 title: Validación del servicio de inclusión (Opt-in)
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ En Chrome, vaya a la pestaña *Aplicación*, expanda la sección *Cookies* en *A
 
 ![](assets/use_case_1_2.png)
 
-## Caso de uso 2: Habilitar Opt-in y almacenamiento   {#section-bd28326f52474fa09a2addca23ccdc0f}
+## Caso de uso 2: Habilitar Opt-in y almacenamiento {#section-bd28326f52474fa09a2addca23ccdc0f}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
@@ -60,7 +60,7 @@ Visitor.getInstance({{YOUR_ORG_ID}}, {
 
 La única diferencia en el caso de uso 2 es que verá *una nueva cookie* que contiene los permisos de Opt-in que el visitante ha proporcionado: **adobeujs-optin**
 
-## Caso de uso 3: Habilitar Opt-in y preaprobar Adobe Analytics   {#section-257fe582b425496cbf986d0ec12d3692}
+## Caso de uso 3: Habilitar Opt-in y preaprobar Adobe Analytics {#section-257fe582b425496cbf986d0ec12d3692}
 
 ```
 var preApproveAnalytics = {}; 
@@ -80,7 +80,7 @@ También verá cookies de Analytics en la pestaña Aplicación:
 
 ![](assets/use_case_3_2.png)
 
-## Caso de uso 4: Habilitar Opt-in e IAB   {#section-64331998954d4892960dcecd744a6d88}
+## Caso de uso 4: Habilitar Opt-in e IAB {#section-64331998954d4892960dcecd744a6d88}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
