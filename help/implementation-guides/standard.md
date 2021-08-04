@@ -3,10 +3,10 @@ description: Las implementaciones más antiguas utilizan la Dynamic Tag Manageme
 keywords: Servicio de ID
 title: Implementación con Dynamic Tag Management
 exl-id: 37ccc919-3015-42fa-a88f-639cdf726f48
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
-source-wordcount: '1999'
-ht-degree: 100%
+source-git-commit: 0dde49ca194e4a86ea7957629eec79d0b75a1e81
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,7 @@ Siga estos pasos para implementar el servicio de ID con Dynamic Tag Management (
 
 **Requisitos previos**
 
-* Habilite sus soluciones para [!DNL Experience Cloud] y verifique que dispone de permisos de administrador. Consulte [Activación de las soluciones en los servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es).
+* Habilite sus soluciones para [!DNL Experience Cloud] y verifique que dispone de permisos de administrador. Consulte [Activación de las soluciones en los servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
 
 * Cree una propiedad web en DTM. Consulte la documentación de DTM [Creación de una propiedad web](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html?lang=es).
 
@@ -105,7 +105,7 @@ Describe los campos [!UICONTROL ID de organización], [!UICONTROL General] y [!U
 mcvid-dtm-settings.xml
 -->
 
-## ¿Cómo encuentro estos ajustes de configuración? {#section-c5b2d1c928944ae2b8565c1b182fe575}
+## ¿Cómo encuentro estos ajustes de configuración?  {#section-c5b2d1c928944ae2b8565c1b182fe575}
 
 Los ajustes de configuración estarán disponibles después de agregar y guardar el servicio de ID como herramienta dentro de Dynamic Tag Management (DTM). También puede acceder a estos ajustes haciendo clic en el icono de la rueda de engranaje de la sección [!UICONTROL Herramientas instaladas] de la propiedad web de DTM.
 
@@ -139,7 +139,7 @@ Nombre del servidor de seguimiento utilizado para la recopilación de datos de A
 
 Si no sabe cuáles son las direcciones URL del servidor de seguimiento, consulte sus archivos `s_code.js` o `AppMeasurement.js`. La que le interesa es la URL que establece la `s.trackingServer` variable.
 
-Consulte [trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) y [Rellenar correctamente la variable trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
+Consulte [trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) y [Rellenar correctamente la variable trackingServer y trackingServerSecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 **Servidor de seguimiento de seguro**
 
@@ -147,7 +147,7 @@ El nombre del servidor de seguimiento seguro que se utiliza para la recopilació
 
 Si no sabe cuáles son las direcciones URL del servidor de seguimiento, consulte sus archivos `s_code.js` o `AppMeasurement.js`. La que le interesa es la URL que establece la `s.trackingServerSecure` variable.
 
-Consulte [trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) y [Rellenar correctamente la variable trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
+Consulte [trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) y [Rellenar correctamente la variable trackingServer y trackingServerSecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
 
 **Servidor de Experience Cloud**
 
@@ -179,7 +179,7 @@ Campos adicionales que le permiten agregar un código de integración o un estad
 
 **Código de integración**
 
-Un código de integración es un ID único proporcionado por el cliente. El código de integración debe contener el valor que se utilizó para [crear una fuente de datos](hhttps://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html#create-data-source) en [!DNL Audience Manager].
+Un código de integración es un ID único proporcionado por el cliente. El código de integración debe contener el valor que se utilizó para [crear una fuente de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html#create-data-source) en [!DNL Audience Manager].
 
 **Valor**
 
@@ -189,7 +189,7 @@ El valor debe ser un elemento de datos que contenga el ID del usuario. Los eleme
 
 Opciones que definen o identifican visitantes según su estado de autenticación (por ejemplo, si ha iniciado sesión o ha cerrado la sesión). Consulte [Estados de autenticación e ID de clientes](../reference/authenticated-state.md).
 
-## Comprobación y verificación del servicio de identidad de Experience Cloud {#concept-644fdbef433b46ba9c0634ac95eaa680}
+## Comprobación y verificación del servicio de Experience Cloud ID {#concept-644fdbef433b46ba9c0634ac95eaa680}
 
 Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y [!DNL Experience Cloud].
 
@@ -215,7 +215,7 @@ La [herramienta de depuración de Adobe](https://experienceleague.adobe.com/docs
 
 Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md) para obtener más información sobre el MID.
 
-Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=es):
+Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html):
 
 1. Borre las cookies del explorador o abra una sesión de navegación anónima.
 1. Cargue la página de prueba que contiene el código del servicio de ID.
@@ -281,5 +281,5 @@ Para obtener más información sobre los códigos de error, consulte [Códigos d
 
 >[!MORELIKETHIS]
 >
->* [Propiedades web](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html?lang=es)
+>* [Propiedades web](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html)
 
