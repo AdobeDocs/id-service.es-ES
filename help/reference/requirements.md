@@ -3,9 +3,9 @@ description: Lea esta sección para asegurarse de que está empleando las soluci
 keywords: Servicio de ID
 title: Requisitos del servicio de Experience Cloud ID
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
-source-wordcount: '730'
+source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
+workflow-type: tm+mt
+source-wordcount: '731'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ Para emplear el servicio de ID, su empresa debe poder usar [!DNL Experience Clou
 
 ## Requisitos de Analytics: Recopilación de datos regionales (RDC) {#section-7d04bb013bc84a25bae3b148bc0ca25f}
 
-Todos los servidores de seguimiento se han convertido a RDC, por lo que no es necesario cambiar el servidor de seguimiento de Analytics. [Más información...](https://experienceleague.adobe.com/docs/analytics/admin/data-collection/regional-data-collection/regional-data-collection.html?lang=es)
+Todos los servidores de seguimiento se han convertido a RDC, por lo que no es necesario cambiar el servidor de seguimiento de Analytics. [Más información...](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=es)
 
 ## Bibliotecas de códigos y requisitos de la versión {#section-ad7542a4317d430fa79fc6b095beb84d}
 
