@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: Requisitos del servicio de Experience Cloud ID
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
 source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
    <td colname="col4"> <p>61 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es" format="https" scope="external">Implementación de at.js</a>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js/how-atjs-works.html?lang=es" format="https" scope="external">Implementación de at.js</a>. </p> </td> 
    <td colname="col4"> <p>0.9.1 </p> </td> 
   </tr> 
  </tbody> 
