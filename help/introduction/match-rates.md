@@ -3,14 +3,14 @@ description: Resumen de los procesos de sincronización de ID y las tasas de coi
 keywords: Servicio de ID
 title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '805'
+source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
+workflow-type: tm+mt
+source-wordcount: '785'
 ht-degree: 100%
 
 ---
 
-# Conceptos básicos de sincronización de ID y tasas de coincidencia {#understanding-id-synchronization-and-match-rates}
+# Conceptos básicos de sincronización de ID y tasas de coincidencia{#understanding-id-synchronization-and-match-rates}
 
 Resumen de los procesos de sincronización de ID y las tasas de coincidencia en el servicio de Experience Cloud ID, incluidos Adobe Media Optimizer y el servicio de ID.
 
@@ -24,7 +24,7 @@ Las tasas de coincidencia miden y validan la eficacia del proceso de sincronizac
 
 **Garantizar tasas de coincidencia elevadas**
 
-Para generar tasas de coincidencia elevadas, es importante configurar correctamente el servicio de ID (consulte la [Guía de implementación estándar](../implementation-guides/standard.md#concept-89cd0199a9634fc48644f2d61e3d2445)). Una implementación adecuada ayuda a garantizar tasas de coincidencia elevadas, ya que permite al servicio de ID establecer las cookies que necesita para funcionar y sincronizar los ID con socios de datos habilitados. Sin embargo, factores como la lentitud de las conexiones a Internet, la recopilación de datos de dispositivos móviles o las redes inalámbricas pueden afectar a la forma en que el servicio de ID recopila, sincroniza y hace coincidir los ID. Estas variables del lado de cliente escapan al control del servicio de ID o de [!DNL Adobe].
+Una implementación adecuada ayuda a garantizar tasas de coincidencia elevadas, ya que permite al servicio de ID establecer las cookies que necesita para funcionar y sincronizar los ID con socios de datos habilitados. Sin embargo, factores como la lentitud de las conexiones a Internet, la recopilación de datos de dispositivos móviles o las redes inalámbricas pueden afectar a la forma en que el servicio de ID recopila, sincroniza y hace coincidir los ID. Estas variables del lado de cliente escapan al control del servicio de ID o de [!DNL Adobe].
 
 ## Descripción del proceso de sincronización de ID {#section-a541a85cbbc74f5682824b1a2ee2a657}
 
