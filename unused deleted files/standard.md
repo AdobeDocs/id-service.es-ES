@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: Implementación con Dynamic Tag Management
 exl-id: 37ccc919-3015-42fa-a88f-639cdf726f48
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2008'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Siga estos pasos para implementar el servicio de ID con Dynamic Tag Management (
 
 **Requisitos previos**
 
-* Habilite sus soluciones para [!DNL Experience Cloud] y verifique que dispone de permisos de administrador. Consulte [Activación de las soluciones en los servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
+* Habilite sus soluciones para [!DNL Experience Cloud] y verifique que dispone de permisos de administrador. Consulte [Activación de las soluciones en los servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es).
 
 * Cree una propiedad web en DTM. Consulte la documentación de DTM [Creación de una propiedad web](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html?lang=es).
 
@@ -105,7 +105,7 @@ Describe los campos [!UICONTROL ID de organización], [!UICONTROL General] y [!U
 mcvid-dtm-settings.xml
 -->
 
-## ¿Cómo encuentro estos ajustes de configuración?  {#section-c5b2d1c928944ae2b8565c1b182fe575}
+## ¿Cómo encuentro estos ajustes de configuración? {#section-c5b2d1c928944ae2b8565c1b182fe575}
 
 Los ajustes de configuración estarán disponibles después de agregar y guardar el servicio de ID como herramienta dentro de Dynamic Tag Management (DTM). También puede acceder a estos ajustes haciendo clic en el icono de la rueda de engranaje de la sección [!UICONTROL Herramientas instaladas] de la propiedad web de DTM.
 
@@ -139,7 +139,7 @@ Nombre del servidor de seguimiento utilizado para la recopilación de datos de A
 
 Si no sabe cuáles son las direcciones URL del servidor de seguimiento, consulte sus archivos `s_code.js` o `AppMeasurement.js`. La que le interesa es la URL que establece la `s.trackingServer` variable.
 
-Consulte [trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) y [Rellenar correctamente la variable trackingServer y trackingServerSecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+Consulte [trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) y [Rellenar correctamente la variable trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
 
 **Servidor de seguimiento de seguro**
 
@@ -147,7 +147,7 @@ El nombre del servidor de seguimiento seguro que se utiliza para la recopilació
 
 Si no sabe cuáles son las direcciones URL del servidor de seguimiento, consulte sus archivos `s_code.js` o `AppMeasurement.js`. La que le interesa es la URL que establece la `s.trackingServerSecure` variable.
 
-Consulte [trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) y [Rellenar correctamente la variable trackingServer y trackingServerSecure](https://helpx.adobe.com/analytics/kb/determining-data-center.html#).
+Consulte [trackingServer](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) y [Rellenar correctamente la variable trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
 
 **Servidor de Experience Cloud**
 
@@ -215,7 +215,7 @@ La [herramienta de depuración de Adobe](https://experienceleague.adobe.com/docs
 
 Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md) para obtener más información sobre el MID.
 
-Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html):
+Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=es):
 
 1. Borre las cookies del explorador o abra una sesión de navegación anónima.
 1. Cargue la página de prueba que contiene el código del servicio de ID.
@@ -281,5 +281,5 @@ Para obtener más información sobre los códigos de error, consulte [Códigos d
 
 >[!MORELIKETHIS]
 >
->* [Propiedades web](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html)
+>* [Propiedades web](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html?lang=es)
 
