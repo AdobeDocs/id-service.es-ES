@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Preguntas frecuentes para otras soluciones de Experience Cloud
 exl-id: d1164951-01c9-4375-981a-f87d8a280e4b
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
-# Preguntas frecuentes para otras soluciones de Experience Cloud{#faqs-for-other-experience-cloud-solutions}
+# Preguntas frecuentes para otras soluciones de Experience Cloud {#faqs-for-other-experience-cloud-solutions}
 
 Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos a otras soluciones de Experience Cloud con el servicio de ID.
 
