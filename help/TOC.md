@@ -6,9 +6,9 @@ breadcrumb-title: Guía del servicio de identidad
 user-guide-description: El servicio de ID ofrece un identificador universal y persistente que identifica a los visitantes en todas las soluciones de Experience Cloud. Puede reemplazar el código de generación de ID en servicios como Analytics, Audience Manager, Target y otras soluciones o funciones de Experience Cloud.
 user-guide-url: /content/help/en/id-service/using/home.html
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [Acerca del servicio de ID](introduction/about-id-service.md)
    + [Cookies y el servicio de ID](introduction/cookies.md)
    + [Solicitud y configuración de ID con el servicio de ID](introduction/id-request.md)
-   + [Conceptos básicos de sincronización de y tasas de coincidencia](introduction/match-rates.md)
+   + [Conceptos básicos de sincronización y tasas de coincidencia](introduction/match-rates.md)
 + Implementación {#implementation}
    + [Métodos de implementación](implementation-guides/implementation-methods.md)
    + [Guías de implementación](implementation-guides/implementation-guides.md)
@@ -34,15 +34,15 @@ ht-degree: 98%
    + [Integración directa con el servicio ID](implementation-guides/direct-integration.md)
    + [Casos de uso de integraciones directas](implementation-guides/direct-integration-examples.md)
    + [Comprobación y verificación del servicio ID](implementation-guides/test-verify.md)
-   + Servicio de inclusión (Opt-in) {#opt-in-service}
+   + Servicio de inclusión {#opt-in-service}
       + [Información general sobre el servicio Opt-in](implementation-guides/opt-in-service/optin-overview.md)
-      + [Configuración del servicio de inclusión (Opt-in)](implementation-guides/opt-in-service/getting-started.md)
-      + [Validación del servicio de inclusión (Opt-in)](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
-      + [Configuración de Opt-in con Experience Platform Launch](implementation-guides/opt-in-service/launch.md)
-      + [Configuración de Opt-in con DTM](implementation-guides/opt-in-service/optin-dtm.md)
+      + [Configuración del servicio de inclusión](implementation-guides/opt-in-service/getting-started.md)
+      + [Validación del servicio de inclusión](implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md)
+      + [Configuración de inclusión con Experience Platform Launch](implementation-guides/opt-in-service/launch.md)
+      + [Configuración de inclusión con DTM](implementation-guides/opt-in-service/optin-dtm.md)
       + [Actividades de control de Experience Cloud basadas en el consentimiento del usuario](implementation-guides/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.md)
-      + [Casos de uso de Opt-in](implementation-guides/opt-in-service/use-cases.md)
-      + [Referencia de Opt-in](implementation-guides/opt-in-service/api.md)
+      + [Casos de uso de inclusión](implementation-guides/opt-in-service/use-cases.md)
+      + [Referencia de inclusión](implementation-guides/opt-in-service/api.md)
       + [Uso de servicios de inclusión con IAB Framework](implementation-guides/opt-in-service/iab.md)
 + API del servicio de ID {#id-service-api}
    + [Información general de API del servicio de ID](library/library.md)
@@ -104,7 +104,7 @@ ht-degree: 98%
    + [Requisitos del servicio ID](reference/requirements.md)
    + [Monitoreo de vídeo y servicio ID](reference/heartbeat.md)
    + [Data Workbench y el servicio ID](reference/dwb.md)
-   + [Soporte hash SHA 256 para setCustomerIDs](reference/hashing-support.md)
+   + [Soporte hash SHA256 para setCustomerIDs](reference/hashing-support.md)
 + Preguntas más frecuentes {#faqs}
    + [Información general sobre preguntas más frecuentes](faq-intro/faq-intro.md)
    + [Preguntas más frecuentes sobre el servicio de ID](faq-intro/faq.md)
