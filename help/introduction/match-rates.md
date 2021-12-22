@@ -4,17 +4,17 @@ keywords: Servicio de ID
 title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
 ht-degree: 100%
 
 ---
 
-# Conceptos básicos de sincronización de ID y tasas de coincidencia{#understanding-id-synchronization-and-match-rates}
+# Conceptos básicos de sincronización de ID y tasas de coincidencia {#understanding-id-synchronization-and-match-rates}
 
 Resumen de los procesos de sincronización de ID y las tasas de coincidencia en el servicio de Experience Cloud ID, incluidos Adobe Media Optimizer y el servicio de ID.
 
-## Conceptos básicos de sincronización de ID y tasas de coincidencia {#section-f652aae7234945e89d26dd833c5215fb}
+## Sincronización de ID y tasas de coincidencia {#section-f652aae7234945e89d26dd833c5215fb}
 
 La sincronización de ID coincide con los ID asignados por el servicio de ID a los ID asignados por nuestros clientes a los visitantes del sitio. Por ejemplo, supongamos que el servicio de ID ha asignado un ID de visitante 1234. Otra plataforma conoce este visitante por el ID 4321. El servicio de ID asigna estos ID juntos durante el proceso de sincronización. Los resultados agregan nuevos puntos de datos a lo que nuestros clientes conocen sobre los visitantes del sitio. Y, si el servicio de ID no puede coincidir con un ID, crea uno nuevo y utiliza ese ID para una sincronización futura.
 
