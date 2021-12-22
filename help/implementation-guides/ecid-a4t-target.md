@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: Uso del servicio ID con A4T y una implementación de Target en el lado del servidor
 exl-id: 6f201378-29a1-44b7-b074-6004246fc999
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ A4T (y otros clientes) pueden utilizar esta versión del servicio de ID cuando n
 
 ## Descarga de código e interfaces proporcionadas {#section-32d75561438b4c3dba8861be6557be8a}
 
-Consulte el [repositorio NPM del servicio de ID](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server) para descargar el paquete de código del lado de servidor y ver las interfaces que se incluyen en la versión actual.
+Consulte el [repositorio NPM del servicio de ID](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server) para descargar el paquete de código del lado del servidor y ver las interfaces que se incluyen en la versión actual.
 
 ## Flujo de trabajo {#section-56b01017922046ed96536404239a272b}
 
-El diagrama y las secciones que siguen describen qué ocurre y qué debe configurar en cada paso del proceso de implementación del lado de servidor.
+El diagrama y las secciones que siguen describen qué ocurre y qué debe configurar en cada paso del proceso de implementación del lado del servidor.
 
 ![](assets/serverside.png)
 
