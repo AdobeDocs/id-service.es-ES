@@ -3,8 +3,8 @@ description: En algunas implementaciones, los ID de visitante se pasan de JavaSc
 keywords: Servicio de ID
 title: Implementación del lado del servidor combinada con JavaScript
 exl-id: 1986ee11-2021-4f34-bb56-6eaa87b6dd6d
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
+workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Incluya el ID de visitante de Analytics (si está configurado) en el elemento `<
 
 Incluya el ID de visitante de Experience Cloud en el elemento `<marketingCloudVisitorID>`.
 
-Consulte [Etiquetas XML admitidas](https://www.adobe.io).
+Consulte [Etiquetas XML admitidas](https://developer.adobe.com/).
 
 ## AppMeasurement para Java {#section-d664b94934924d048300d9c2b6560085}
 

@@ -3,22 +3,20 @@ description: Información general sobre el proceso de solicitud y respuesta de I
 keywords: Servicio de ID
 title: Solicitud y configuración de ID con el servicio de Experience Cloud ID
 exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '762'
+source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
+workflow-type: tm+mt
+source-wordcount: '746'
 ht-degree: 100%
 
 ---
 
-# Solicitud y configuración de ID con el servicio de identidad de Experience Cloud {#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# Solicitud y configuración de ID con el servicio de Experience Cloud ID{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 Información general sobre el proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 
 >[!NOTE]
 >
 >Si no conoce cómo el servicio de identidad de Experience Cloud crea el ID de visitante, dedique unos minutos a conocer mejor [Experience Cloud](../introduction/cookies.md).
-
-**Sugerencia:** Consulte también nuestro vídeo del [servicio de ID sobre el seguimiento entre dominios](https://helpx.adobe.com/es/marketing-cloud-core/kb/MCID/CrossDomain.html).
 
 ## Solicitud de un Experience Cloud ID {#section-0b5e261fbd0547d9b9a1680e5ce536cc}
 
