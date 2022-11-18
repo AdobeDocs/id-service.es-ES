@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: appendVisitorIDsTo (seguimiento entre dominios)
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
 source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Contenido:
  <li> <a href="../../library/get-set/appendvisitorid.md#section-168e313df6054af0a7e27b9fa0d69640" format="dita" scope="local"> Compatibilidad con Dynamic Tag Management (DTM) y SDK </a> </li> 
 </ul>
 
-## Realizar el seguimiento de los visitantes entre dominios cuando los navegadores bloquean las cookies de terceros {#section-7251d88befd440b4b79520e33c5aa44a}
+## Realizar el seguimiento de los visitantes entre dominios cuando los exploradores bloquean las cookies de terceros {#section-7251d88befd440b4b79520e33c5aa44a}
 
 El servicio de identidad escribe una cookie propia y de terceros en el explorador cuando una persona visita su sitio (consulte [Cookies y el servicio de Experience Cloud ID](../../introduction/cookies.md)). La cookie de origen contiene el MID, un ID único para ese visitante. La cookie de terceros contiene otro ID utilizado por el servicio de ID para generar el MID. Cuando un explorador bloquea esta cookie de terceros, el servicio de ID no puede:
 
