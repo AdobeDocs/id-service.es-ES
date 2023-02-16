@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: appendSupplementalDataIDTo
 exl-id: 7f0e7fca-4551-4165-a12b-c7e5514d6818
 source-git-commit: 5710539b45a81394061cd4af2ef3edc27b49092e
-workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
-# appendSupplementalDataIDTo{#appendsupplementaldataidto}
+# appendSupplementalDataIDTo {#appendsupplementaldataidto}
 
 Este método auxiliar permite agregar el ID de datos adicionales (SDID) como parámetro de cadena de consulta a una URL de redirección. Esto resulta útil cuando se utiliza A4T y es necesario mantener el SDID de una página a otra y unir esas visitas independientes. Para utilizar esta función, debe haber implementado el servicio de ID con el mismo ID de organización en los dominios de origen y destino.
 
