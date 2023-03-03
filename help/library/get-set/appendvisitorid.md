@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: appendVisitorIDsTo (seguimiento entre dominios)
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
 source-git-commit: 7d37d9ca44db9d7a8d3b32d9a5d5a47d3fa137ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Consulte el ejemplo de código para obtener más información.
 
 >[!IMPORTANT]
 >
->Para que se recojan los valores que se pasan en la dirección URL mediante appendVisitorsIDsTo, la variable [overwriteCrossDomainMCIDAndAID](../function-vars/overwrite-visitor-id.md) debe establecerse en true.
+>Para que se recojan los valores que se pasan en la dirección URL mediante appendVisitorsIDsTo, la variable [overwriteCrossDomainMDCIDAndAID](../function-vars/overwrite-visitor-id.md) debe establecerse en true.
 
 El ejemplo siguiente puede ayudarle a empezar con las ` Visitor.appendVisitorIDsTo( *`URL`*)`. Cuando se implementa adecuadamente, su código JavaScript podría ser similar al del siguiente ejemplo.
 
