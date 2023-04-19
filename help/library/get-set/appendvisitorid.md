@@ -3,10 +3,10 @@ description: Esta función le permite compartir un Experience Cloud ID de un vis
 keywords: Servicio de ID
 title: appendVisitorIDsTo (seguimiento entre dominios)
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
-source-git-commit: 7d37d9ca44db9d7a8d3b32d9a5d5a47d3fa137ce
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+source-git-commit: 70e0ff00be9037b475084a906405180107f2514c
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 96%
 
 ---
 
@@ -19,8 +19,10 @@ Contenido:
 <ul class="simplelist"> 
  <li> <a href="../../library/get-set/appendvisitorid.md#section-7251d88befd440b4b79520e33c5aa44a" format="dita" scope="local"> Realizar el seguimiento de los visitantes entre dominios cuando los navegadores bloquean las cookies de terceros </a> </li> 
  <li> <a href="../../library/get-set/appendvisitorid.md#section-62d55f7f986542b0b9238e483d50d7b0" format="dita" scope="local"> Anexar el ejemplo de código de ID de visitante </a> </li> 
- <li> <a href="../../library/get-set/appendvisitorid.md#section-168e313df6054af0a7e27b9fa0d69640" format="dita" scope="local"> Compatibilidad con Dynamic Tag Management (DTM) y SDK </a> </li> 
+ </a> </li> 
 </ul>
+
+<!-- <li> <a href="../../library/get-set/appendvisitorid.md#section-168e313df6054af0a7e27b9fa0d69640" format="dita" scope="local"> Dynamic Tag Management (DTM) and SDK Support -->
 
 ## Realizar el seguimiento de los visitantes entre dominios cuando los exploradores bloquean las cookies de terceros {#section-7251d88befd440b4b79520e33c5aa44a}
 
@@ -39,11 +41,35 @@ Consulte el ejemplo de código para obtener más información.
 
 ## Anexar el ejemplo de código de ID de visitante {#section-62d55f7f986542b0b9238e483d50d7b0}
 
->[!IMPORTANT]
->
->Para que se recojan los valores que se pasan en la dirección URL mediante appendVisitorsIDsTo, la variable [overwriteCrossDomainMDCIDAndAID](../function-vars/overwrite-visitor-id.md) debe establecerse en true.
+El siguiente código de ejemplo puede ayudarle a empezar con el `appendVisitorIDsTo` función:
 
-El ejemplo siguiente puede ayudarle a empezar con las ` Visitor.appendVisitorIDsTo( *`URL`*)`. Cuando se implementa adecuadamente, su código JavaScript podría ser similar al del siguiente ejemplo.
+```js
+var adbeDomains = ["marketo.com", "figma.com", "workfront.com"];
+var visitor = Visitor.getInstance("9E1005A551ED61CA0A490D45@AdobeOrg", {
+  trackingServer: "sstats.adobe.com",
+  trackingServerSecure: "sstats.adobe.com",
+  marketingCloudServer: "sstats.adobe.com",
+  marketingCloudServerSecure: "sstats.adobe.com"
+});
+adbeDomains.forEach(function(domain) {
+  var domainRegex = RegExp(domain);
+  if (!domainRegex.test(location.hostname)) {
+    hrefSelector = '[href*="' + domain + '"]';
+    document.querySelectorAll(hrefSelector).forEach(function(href) {
+      href.addEventListener('mousedown', function(event) {
+        var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(event.currentTarget.href)
+        event.currentTarget.href = destinationURLWithVisitorIDs.replace(/MCAID%3D.*%7CMCORGID/, 'MCAID%3D%7CMCORGID');
+      });
+    });
+  }
+});
+```
+
+<!-- >[!IMPORTANT]
+>
+>In order for the values passed in the URL via appendVisitorsIDsTo to be picked up, the [ovewriteCrossDomainMCIDAndAID](../function-vars/overwrite-visitor-id.md) variable must be set to true.
+
+The following example can help you get started with ` Visitor.appendVisitorIDsTo( *`url`*)`. When implemented properly, your JavaScript code could look similar to the following example.
 
 ```js
 //Code on Domain A 
@@ -57,7 +83,7 @@ var destinationURLWithVisitorIDs = visitor.appendVisitorIDsTo(destinationURL);
      //Result of appendVisitorIDsTo includes destination URL, Experience Cloud ID (MCMID), and Analytics ID (MCAID) 
      "www.destination.com?adobe_mc=MCMID=1234|MCAID=5678"
 //Redirect to the destination
-```
+``` -->
 
 <!-- ## Dynamic Tag Management (DTM) and SDK Support {#section-168e313df6054af0a7e27b9fa0d69640}
 
