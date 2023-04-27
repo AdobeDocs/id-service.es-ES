@@ -2,8 +2,8 @@
 description: Conecte su plataforma de administración de consentimiento (CMP) con el complemento de Audience Manager de inclusión para el marco de transparencia y consentimiento de IAB (TCF).
 title: Uso de servicios de inclusión con IAB Framework
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
-source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
-workflow-type: ht
+source-git-commit: 159b37e360b586bbada13e34793009e3067de668
+workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Una vez que la configuración sea correcta, las bibliotecas ECID y DIL se habili
 
 >[!IMPORTANT]
 >
->Audience Manager necesita consentimiento para las *Finalidades 1 y 10, además del consentimiento del proveedor*, para poder implementar cookies e iniciar o cumplir sincronizaciones de ID. Obtenga más información sobre el complemento IAB TCF de inclusión en la documentación de Audience Manager [aquí](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html).
+>Audience Manager necesita consentimiento para las *Finalidades 1 y 10, además del consentimiento del proveedor*, para poder implementar cookies e iniciar o cumplir sincronizaciones de ID. Obtenga más información sobre el complemento IAB TCF de inclusión en la documentación de Audience Manager [aquí](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/consent-management/aam-iab-plugin.html?lang=es).
 
 Para obtener más información sobre cómo se valida el complemento de IAB TCF de inclusión, consulte el caso n.º 4 de la guía de validación [aquí](../../implementation-guides/opt-in-service/testing-optin-and-iab-plugin.md#section-ca5c6f92fbdf4fd29b4acb6b644efbd0).
 

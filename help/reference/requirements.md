@@ -3,9 +3,9 @@ description: Lea esta sección para asegurarse de que está empleando las soluci
 keywords: Servicio de ID
 title: Requisitos del servicio de Experience Cloud ID
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
-source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: ht
-source-wordcount: '649'
+source-git-commit: 159b37e360b586bbada13e34793009e3067de668
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Para emplear el servicio de ID, su empresa debe poder usar [!DNL Experience Clou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>No estoy seguro</b> </p> </td> 
-   <td colname="col2"> <p> Si no sabe si su empresa puede usar o no <span class="keyword">Experience Cloud</span>, pregunte a la persona que administre su cuenta de Adobe si sus empleados pueden iniciar sesión en <a href="https://experiencecloud.adobe.com" format="https" scope="external">marketing.adobe.com</a> con un Adobe ID. Si es así, su empresa está habilitada y un administrador puede ver su ID de organización. Para buscar el ID de organización, consulte la sección "Página de administración" en <a href="https://docs.adobe.com/help/es-ES/core-services/interface/experience-cloud.html" format="https" scope="external">Administración de Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p> Si no sabe si su empresa puede usar o no <span class="keyword">Experience Cloud</span>, pregunte a la persona que administre su cuenta de Adobe si sus empleados pueden iniciar sesión en <a href="https://experiencecloud.adobe.com" format="https" scope="external">marketing.adobe.com</a> con un Adobe ID. Si es así, su empresa está habilitada y un administrador puede ver su ID de organización. Para buscar el ID de organización, consulte la sección "Página de administración" en <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es" format="https" scope="external">Administración de Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>No habilitada</b> </p> </td> 

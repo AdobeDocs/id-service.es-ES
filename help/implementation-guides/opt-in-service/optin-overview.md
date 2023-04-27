@@ -2,14 +2,14 @@
 description: Con el servicio de inclusión (Opt-in) puede configurar protocolos para que un visitante de su sitio decida si le permite establecer una cookie en su dispositivo o navegador.
 title: servicio de inclusión (Opt-in)
 exl-id: 351da861-4faa-409b-b0ff-f4d2ce66700b
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+source-git-commit: 070390ec0534c9066d717fe52ff572f34c110137
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 96%
 
 ---
 
-# Servicio de inclusión (Opt-in) {#opt-in-service}
+# servicio de inclusión (Opt-in){#opt-in-service}
 
 Con el servicio de inclusión (Opt-in) puede configurar protocolos para que un visitante de su sitio decida si le permite establecer una cookie en su dispositivo o navegador.
 
@@ -17,7 +17,7 @@ El servicio de inclusión (Opt-in) es una extensión del servicio de Experience 
 
 El servicio de inclusión (Opt-in) le permite especificar si un visitante puede incluirse en las soluciones de Adobe de una sola vez, o si se le presentan las soluciones una tras otra para que vaya aprobando los permisos. Una vez que el cliente completa y registra el proceso de aprobación, puede recuperar las aprobaciones de visitante de CMP desde las soluciones de Adobe.
 
-El servicio de inclusión se implementa y se configura fácilmente con [Adobe Experience Platform Launch ](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=es)con la [extensión de inclusión](../../implementation-guides/opt-in-service/launch.md). También se puede implementar y configurar utilizando [DTM.](../../implementation-guides/opt-in-service/optin-dtm.md)
+El servicio de inclusión (Opt-in) se implementa y se configura fácilmente con [Etiquetas en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) con la variable [Extensión Opt-in](../../implementation-guides/opt-in-service/launch.md). También se puede implementar y configurar utilizando [DTM.](../../implementation-guides/opt-in-service/optin-dtm.md)
 
 Consulte [Configuración del servicio de inclusión (Opt-in)](../../implementation-guides/opt-in-service/getting-started.md) para comenzar.
 

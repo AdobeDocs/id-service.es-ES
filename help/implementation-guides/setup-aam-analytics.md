@@ -3,14 +3,14 @@ description: Estas instrucciones están destinadas a los clientes de Analytics y
 keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
-source-wordcount: '1231'
-ht-degree: 100%
+source-git-commit: 070390ec0534c9066d717fe52ff572f34c110137
+workflow-type: tm+mt
+source-wordcount: '1232'
+ht-degree: 99%
 
 ---
 
-# Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager {#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
+# Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
 Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 
@@ -23,7 +23,7 @@ Estas instrucciones están destinadas a los clientes de Analytics y Audience Man
 
 ## Paso 1: Planificación del reenvío del lado de servidor {#section-880797cc992d4755b29cada7b831f1fc}
 
-Además de los pasos descritos aquí, los clientes que usan [!DNL Analytics] y [!DNL Audience Manager] deben migrar al reenvío del lado de servidor. El reenvío del lado del servidor permite eliminar DIL (código de recopilación de datos de Audience Manager) y sustituirlo por el [Módulo de Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es). Consulte la [documentación del reenvío del lado del servidor](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para obtener más información.
+Además de los pasos descritos aquí, los clientes que usan [!DNL Analytics] y [!DNL Audience Manager] deben migrar al reenvío del lado de servidor. El reenvío del lado del servidor permite eliminar DIL (código de recopilación de datos de Audience Manager) y sustituirlo por el [Módulo de Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es). Consulte la [documentación del reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf.html) para obtener más información.
 
 La migración al reenvío del lado del servidor requiere planificación y coordinación. Este proceso incluye cambios externos en el código del sitio y pasos internos que Adobe debe realizar para aprovisionar la cuenta. De hecho, muchos de estos procedimientos de migración deben realizarse en paralelo y ponerse en libertad juntos. La ruta de implementación debe seguir esta secuencia de eventos:
 
