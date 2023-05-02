@@ -1,15 +1,16 @@
 ---
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
-title: Notas de la versión 2021
-source-git-commit: dce2c0036f697507381d0763c2f6a9538155681c
-workflow-type: tm+mt
+title: Notas de la versión de 2021
+exl-id: f0bbb100-49a9-4bba-8cee-5f40bec87984
+source-git-commit: fcd3e8b65bb84e94eabac7ffec6a34f4cf75ec3d
+workflow-type: ht
 source-wordcount: '103'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
-# Notas de la versión del servicio de identidad de Experience Cloud - 2021
+# Notas de la versión de Experience Cloud ID Service - 2021
 
 Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 
