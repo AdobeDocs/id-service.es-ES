@@ -1,15 +1,16 @@
 ---
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
-title: Notas de la versión 2022
-source-git-commit: dce2c0036f697507381d0763c2f6a9538155681c
-workflow-type: tm+mt
+title: Notas de la versión de 2022
+exl-id: 1550f43f-81be-447e-904c-b408785965fe
+source-git-commit: fcd3e8b65bb84e94eabac7ffec6a34f4cf75ec3d
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
-# Notas de la versión del servicio de identidad de Experience Cloud - 2022
+# Notas de la versión de Experience Cloud ID Service - 2022
 
 Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 
@@ -24,5 +25,5 @@ En la versión de Visitor 5.5.0 se incluyeron las siguientes actualizaciones:
 
 En la versión de Visitor 5.4.0 se incluyeron las siguientes actualizaciones:
 
-* Compatibilidad con la capacidad de configurar la duración de `s_ecid` cookie mediante `cookieLifetime` configuración.
+* Compatibilidad con la capacidad de configurar la duración acumulada de `s_ecid` cookie mediante `cookieLifetime` configuración.
 * Corrección de parches para el problema del explorador Firefox cuando una página se carga en un iFrame secundario.
