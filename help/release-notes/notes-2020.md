@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Notas de la versión de 2020
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
 source-git-commit: dce2c0036f697507381d0763c2f6a9538155681c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Notas de la versión del Experience Cloud - 2020 {#release-notes}
+# Notas de la versión de Experience Cloud - 2020 {#release-notes}
 
 Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 
@@ -20,7 +20,7 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experi
 
 ## Versión 5.1.0
 
-* Adición `sameSiteCookie` configuración para especificar la variable `SameSite` para la cookie AMCV. Esta configuración admite los siguientes valores para la variable `SameSite` atributo:
+* Añadir la configuración de `sameSiteCookie` para especificar el `SameSite`atributo de la cookie AMCV. Esta configuración admite los siguientes valores para el atributo `SameSite`:
    * `Strict`
    * `Lax`
    * `None`
@@ -33,7 +33,7 @@ Para obtener más información sobre estos valores de atributo, visite [web.dev]
 
 ## Versión 5.0.0
 
-* Versión de Visitante 5.0.0 compatible con `IAB 2.0`.
+* Versión de visitante 5.0.0 compatible con `IAB 2.0`.
 
 ## Versión 4.6
 
