@@ -7,7 +7,7 @@ user-guide-url: /content/help/en/id-service/using/home.html
 source-git-commit: 6ef86bdb7bc10e24dbd3efe2481cb2e6e6c270fb
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -109,8 +109,8 @@ ht-degree: 98%
    + [Preguntas más frecuentes sobre el servicio de ID y Analytics](faq-intro/analytics-faq.md)
    + [Preguntas frecuentes para otras soluciones de Experience Cloud](faq-intro/other-faq.md)
 + Notas de la versión del servicio de ID {#release-notes}
-   + [Notas de la versión 2022](release-notes/notes-2022.md)
-   + [Notas de la versión 2021](release-notes/notes-2021.md)
+   + [Notas de la versión de 2022](release-notes/notes-2022.md)
+   + [Notas de la versión de 2021](release-notes/notes-2021.md)
    + [Notas de la versión de 2020](release-notes/notes-2020.md)
    + [Notas de la versión de 2019](release-notes/notes-2019.md)
    + [Notas de la versión de 2018](release-notes/notes-2018.md)
