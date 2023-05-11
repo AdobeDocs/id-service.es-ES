@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Notas de la versión 2019
 exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
 source-git-commit: 503683b66b6022b7c1fecbfb197fe17e05ae9c64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Notas de la versión del Experience Cloud - 2019 {#release-notes}
+# Notas de la versión de Experience Cloud - 2019 {#release-notes}
 
 Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
 
@@ -59,7 +59,7 @@ Compatibilidad con el complemento de Audience Manager para IAB TCF, disponible a
 
 ## Versión 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**Servicio Opt-in**. Opt-in es una extensión de Experience Cloud ID (ECID) que le permite controlar si las bibliotecas de Experience Cloud pueden crear cookies en las páginas web de los visitantes, y cuáles pueden hacerlo. Con [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es), puede simplificar la recopilación de consentimientos de inclusión de los visitantes para la solución de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras soluciones de Experience Cloud (o todas) para permitir su inclusión en un sistema de administración de consentimientos.
+**Servicio de inclusión (Opt-in)**. Opt-in es una extensión de Experience Cloud ID (ECID) que le permite controlar si las bibliotecas de Experience Cloud pueden crear cookies en las páginas web de los visitantes, y cuáles pueden hacerlo. Con [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es), puede simplificar la recopilación de consentimientos de inclusión de los visitantes para la solución de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras soluciones de Experience Cloud (o todas) para permitir su inclusión en un sistema de administración de consentimientos.
 
 ## Versión 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 
