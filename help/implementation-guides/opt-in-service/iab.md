@@ -3,7 +3,7 @@ description: Conecte su plataforma de administración de consentimiento (CMP) co
 title: Uso de servicios de inclusión con IAB Framework
 exl-id: 9ac9b232-0797-4e77-a611-9cf5d17a5cb7
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 
