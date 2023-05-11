@@ -3,9 +3,9 @@ description: Adobe Experience Platform Launch es la principal herramienta que se
 title: Implementación con Launch
 exl-id: cf197fde-3b93-4578-b24e-2db5633f043c
 source-git-commit: 39eaffe8b166babb186ec9cd4c0da26b53b999ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Las etiquetas en Adobe Experience Platform son la principal herramienta que se u
 
 ## Acerca de las etiquetas de Experience Platform {#section-611711602854464ea351a4af80a8dafe}
 
-[Etiquetas en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) es la nueva generación de la capacidad de administración de etiquetas de Adobe integrada en Adobe Experience Cloud. Las etiquetas de Platform permiten a los clientes:
+[Las etiquetas en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) son la próxima generación de la capacidad de administración de etiquetas de Adobe integrada en Adobe Experience Cloud. Las etiquetas de Platform permiten a los clientes:
 
 * Implementar productos web del lado del cliente mediante integraciones llamadas _extensiones_.
 * Capturar, definir, administrar y compartir datos de forma consistente entre productos de marketing y publicidad de otros proveedores y de Adobe.
