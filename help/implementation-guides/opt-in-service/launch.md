@@ -3,9 +3,9 @@ description: Simplifique la activación de la solución Experience Cloud para la
 title: Configuración de Opt-in con Launch
 exl-id: 9e9d1e2b-196f-474c-b872-de4329dcb017
 source-git-commit: 5858933e9d51ec97b1ba7a8fbe483f1919954543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 Simplifique la activación de la solución Experience Cloud para la inclusión con Adobe Experience Platform Launch.
 
-## Configurar un caso de Opt-in con Experience Platform Launch {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
+## Configurar un caso de inclusión con Experience Platform Launch {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
 
 Con [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) es muy sencillo configurar un escenario de inclusión con soluciones de Adobe. Puede simplificar la recopilación de consentimientos de inclusión de los visitantes para la solución de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras o todas las soluciones de Experience Cloud seleccionadas para permitir su inclusión en un sistema de administración de consentimientos.
 
