@@ -2,9 +2,11 @@
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2016.
 keywords: Servicio de ID
 title: Notas de la versión 2016
+feature-set: Experience Cloud Services
+feature: TK421
 exl-id: f96b9869-6282-4090-b392-797608e25a51
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+source-git-commit: d027f7fca8cf62d6b5d80ec3c37049ddd1afdd70
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -144,7 +146,7 @@ Junio de 2016
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cambios en el atributo <span class="codeph">iframe.sandbox</span> </p> </td> 
-   <td colname="col2"> <p>Se ha configurado el iFrame para que <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin'; </span>. </p> <p>El hecho del permitir solo estos dos testigos ayuda a mejorar la seguridad y proporciona al servicio de ID la funcionalidad básica necesaria para la sincronización de ID. </p> <p>El atributo sandbox no es compatible con Internet Explorer versión 9 o anteriores. Para obtener más información, consulte la sección Atributos de esta <a href="https://developer.mozilla.org/es-ES/docs/Web/HTML/Element/iframe" format="https" scope="external">documentación de iFrame</a>. </p> </td> 
+   <td colname="col2"> <p>Se ha configurado el iFrame para que <span class="codeph">iframe.sandbox='allow-scripts allow-same-origin'; </span>. </p> <p>El hecho del permitir solo estos dos testigos ayuda a mejorar la seguridad y proporciona al servicio de ID la funcionalidad básica necesaria para la sincronización de ID. </p> <p>El atributo de zona protegida no es compatible con Internet Explorer versión 9 o anteriores. Para obtener más información, consulte la sección Atributos de esta <a href="https://developer.mozilla.org/es-ES/docs/Web/HTML/Element/iframe" format="https" scope="external">documentación de iFrame</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codificación del Experience Cloud ID (MID) </p> </td> 
