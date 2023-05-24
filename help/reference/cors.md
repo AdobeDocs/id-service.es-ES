@@ -4,9 +4,9 @@ keywords: Servicio de ID
 title: Compatibilidad con CORS en el servicio de Experience Cloud ID
 exl-id: 0e8ffe85-8d1f-42a0-aae3-a2b3b28c7bce
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que t
    <td colname="col1"> <p> <b>Solicitud</b> </p> </td> 
    <td colname="col2"> <p>Cuando se carga la página de la empresa de finanzas, el navegador realiza una solicitud a <span class="codeph">dpm.demdex.net</span>. Se trata de una llamada al dominio de los servidores de recopilación de datos (DCS) que utiliza el servicio de ID. Esta solicitud entre dominios incluye el encabezado: </p> <p> 
      <ul class="simplelist"> 
-      <li> <span class="codeph"> Origin: https://www.finance-website.com</span> </li> 
+      <li> <span class="codeph"> Origen:https://www.finance-website.com</span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

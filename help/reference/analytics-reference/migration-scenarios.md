@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Escenarios de migración del servicio de Experience Cloud ID
 exl-id: 419532bf-399f-4646-a95f-31c35535d6fc
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
 
 ---
 
-# Escenarios de migración del servicio de identidad de Experience Cloud {#experience-cloud-id-service-migration-scenarios}
+# Escenarios de migración del servicio de Experience Cloud ID {#experience-cloud-id-service-migration-scenarios}
 
 Se indican configuraciones del servidor de ejemplo y los pasos de migración necesarios.
 

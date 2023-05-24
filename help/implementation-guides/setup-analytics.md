@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Implementación del servicio de Experience Cloud ID para Analytics
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Implementación del servicio de identidad de Experience Cloud para Analytics {#implement-the-experience-cloud-id-service-for-analytics}
+# Implementación del servicio de Experience Cloud ID para Analytics {#implement-the-experience-cloud-id-service-for-analytics}
 
 Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
 
@@ -42,7 +42,7 @@ El [!UICONTROL servicio de ID] requiere la biblioteca de códigos `VisitorAPI.js
 
 1. Descomprima el archivo de códigos y abra el `VisitorAPI.js` archivo.
 
-## Paso 2: Añadir la función Visitor.getInstance al código de servicio de ID {#section-6053a6b7c16c466a9f9fdbf9cb9db3df}
+## Paso 2. Añadir la función Visitor.getInstance al código de servicio de ID {#section-6053a6b7c16c466a9f9fdbf9cb9db3df}
 
 >[!IMPORTANT]
 >

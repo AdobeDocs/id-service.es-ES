@@ -3,13 +3,13 @@ description: Habilite el servicio de inclusión (Opt-in) con Dynamic Tag Managem
 title: Configuración de Opt-in con DTM
 exl-id: 0e21e73c-aefe-41a5-87e6-499d2164f301
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
 
 ---
 
-# Configuración de Opt-in con DTM {#configuring-opt-in-with-dtm}
+# Configuración de Opt-in con DTM{#configuring-opt-in-with-dtm}
 
 Habilite el servicio de inclusión (Opt-in) con Dynamic Tag Management (DTM).
 

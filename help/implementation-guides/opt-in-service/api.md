@@ -3,13 +3,13 @@ description: API para la biblioteca de Opt-in y referencia de ajustes de configu
 title: Referencia de Opt-in
 exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 
 ---
 
-# Referencia de Opt-in {#opt-in-reference}
+# Referencia de Opt-in{#opt-in-reference}
 
 API para la biblioteca de Opt-in y referencia de ajustes de configuración.
 

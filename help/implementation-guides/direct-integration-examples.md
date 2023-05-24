@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: Casos de uso de integraciones directas
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -19,7 +19,6 @@ Estos ejemplos tratan 2 casos de uso comunes relacionados con una integración d
 >* Revise y comprenda la [sintaxis de código y las variables](../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9) de antes de profundizar en los casos de uso.
 >* Para obtener más información sobre MID, consulte [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md).
 >
-
 
 
 ## Caso de uso 1: Tengo un MID del servicio de Experience Cloud ID, pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}

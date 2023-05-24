@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Comprobación y verificación del servicio de Experience Cloud ID
 exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
 ---
 
-# Comprobación y verificación del servicio de identidad de Experience Cloud {#test-and-verify-the-experience-cloud-id-service}
+# Comprobación y verificación del servicio de Experience Cloud ID{#test-and-verify-the-experience-cloud-id-service}
 
 Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y Experience Cloud.
 

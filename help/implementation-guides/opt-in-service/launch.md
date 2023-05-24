@@ -3,7 +3,7 @@ description: Simplifique la activación de la solución Experience Cloud para la
 title: Configuración de Opt-in con Launch
 exl-id: 9e9d1e2b-196f-474c-b872-de4329dcb017
 source-git-commit: 5858933e9d51ec97b1ba7a8fbe483f1919954543
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 

@@ -4,13 +4,13 @@ keywords: Servicio de Experience Cloud ID
 title: Preguntas frecuentes sobre el servicio de ID y Analytics
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 100%
 
 ---
 
-# Preguntas frecuentes sobre el servicio de ID y Analytics {#analytics-and-id-service-faqs}
+# Preguntas frecuentes sobre el servicio de ID y Analytics{#analytics-and-id-service-faqs}
 
 Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
 

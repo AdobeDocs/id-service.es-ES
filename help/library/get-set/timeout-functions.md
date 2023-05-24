@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Métodos callTimeOut
 exl-id: ff3a2c5e-a0a8-4257-b538-0e4ce454b4e8
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
 
 ---
 
-# Métodos callTimeOut {#calltimeout-methods}
+# Métodos callTimeOut{#calltimeout-methods}
 
 Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID del servicio de Experience Cloud ID, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 

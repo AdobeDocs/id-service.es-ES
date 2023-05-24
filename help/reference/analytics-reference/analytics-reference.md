@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Referencia de Analytics
 exl-id: bfa13677-77e4-4201-94e4-31328523c421
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 
 ---
 
-# Referencia de Analytics {#analytics-reference}
+# Referencia de Analytics{#analytics-reference}
 
 Funciones o funcionalidad del servicio de ID únicas de Adobe Analytics.
 
@@ -21,4 +21,4 @@ Funciones o funcionalidad del servicio de ID únicas de Adobe Analytics.
 + [Solicitudes de ID de Analytics e Experience Cloud ID](legacy-analytics.md)
 + [Implementación del lado del servidor combinada con JavaScript](server-side.md)
 + [Período de gracia del servicio de ID](grace-period.md)
-<!--+ [Data Collection CNAMEs and Cross-Domain Tracking](cname.md)-->
+   <!--+ [Data Collection CNAMEs and Cross-Domain Tracking](cname.md)-->

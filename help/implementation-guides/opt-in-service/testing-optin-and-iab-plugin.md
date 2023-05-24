@@ -3,17 +3,17 @@ description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en s
 title: Validación del servicio de inclusión (Opt-in)
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 94%
 
 ---
 
-# Validación del servicio de inclusión (Opt-in) {#validating-opt-in-service}
+# Validación del servicio de inclusión (Opt-in){#validating-opt-in-service}
 
 Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
 
-## Caso de uso 1: Habilitar el servicio de inclusión (Opt-in) {#section-c8fe1ee3711b420c8186c7057abbecb3}
+## Caso de uso 1: Habilitar el servicio de inclusión (Opt-in)  {#section-c8fe1ee3711b420c8186c7057abbecb3}
 
 ```
 Visitor.getInstance({{YOUR_ORG_ID}}, { 
@@ -43,7 +43,7 @@ No debería ver ninguna solicitud a los servidores de Adobe:
 >
 >Podría ver una llamada a `http://dpm.demdex.net/optOutStatus`, un extremo de SOLO LECTURA que se utiliza para recuperar el estado de exclusión del visitante. Este extremo no dará como resultado la creación de cookies de terceros y no se recopilará ninguna información de la página.
 
-No debería ver ninguna cookie que hayan creado las etiquetas de Adobe: (AMCV_{{YOUR_ORG_ID}}, mbox, demdex, s_cc, s_sq, everest_g_v2, everest_session_v2)
+No debería ver ninguna cookie creada por las etiquetas de Adobe: (AMCV_{{YOUR_ORG_ID}}, mbox, demdex, s_cc, s_sq, everest_g_v2, everest_session_v2)
 
 En Chrome, vaya a la pestaña *Aplicación*, expanda la sección *Cookies* en *Almacenamiento* y seleccione el nombre de dominio de su sitio web:
 

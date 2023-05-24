@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: whitelistParentDomain y whitelistIframeDomains
 exl-id: 0ed1da79-7129-4f5f-b7ad-901348a13866
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
 
 ---
 
-# whitelistParentDomain y whitelistIframeDomains {#whitelistparentdomain-and-whitelistiframedomains}
+# whitelistParentDomain y whitelistIframeDomains{#whitelistparentdomain-and-whitelistiframedomains}
 
 Estas configuraciones permiten que diferentes instancias del código de servicio de ID implementadas en un iFrame y en la página principal se comuniquen entre sí. Están diseñadas para ayudar a resolver problemas con 2 casos de uso específicos en los que puede que sea posible, o no, controlar la página o el dominio principal y en los que tenga el código de servicio de ID cargando en el iFrame de un dominio que controla. Están disponibles en la versión 2.2 o posterior del código de VisitorAPI.js.
 

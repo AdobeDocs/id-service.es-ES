@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Integración directa con el servicio de servicio de Experience Cloud ID
 exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
 ---
 
-# Integración directa con el servicio de servicio de identidad de Experience Cloud {#direct-integration-with-the-experience-cloud-id-service}
+# Integración directa con el servicio de servicio de Experience Cloud ID {#direct-integration-with-the-experience-cloud-id-service}
 
 Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar o trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos como consolas de juegos, televisores inteligentes u otros dispositivos habilitados para Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
 

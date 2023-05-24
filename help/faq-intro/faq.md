@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Preguntas más frecuentes sobre el servicio de ID
 exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
 
 ---
 
-# Preguntas más frecuentes sobre el servicio de ID {#id-service-faqs}
+# Preguntas más frecuentes sobre el servicio de ID{#id-service-faqs}
 
 Preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
 

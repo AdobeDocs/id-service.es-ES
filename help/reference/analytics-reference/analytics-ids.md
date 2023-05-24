@@ -4,13 +4,13 @@ keywords: Servicio de ID
 title: Configuración de Analytics y Experience Cloud ID
 exl-id: 7399ea16-d13e-452c-b8d9-8d0699566aa2
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
 
 ---
 
-# Configuración de Analytics y Experience Cloud ID {#setting-analytics-and-experience-cloud-ids}
+# Configuración de Analytics y Experience Cloud ID{#setting-analytics-and-experience-cloud-ids}
 
 El servicio de Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics anteriores.
 

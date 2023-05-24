@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: Implementación con Dynamic Tag Management
 exl-id: 37ccc919-3015-42fa-a88f-639cdf726f48
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 100%
 

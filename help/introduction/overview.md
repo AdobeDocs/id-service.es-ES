@@ -3,7 +3,7 @@ description: La función que desempeña el servicio de identidad de Experience C
 title: Información general del servicio de identidad de Experience Cloud
 exl-id: dc7d6220-d42b-4a3e-bf37-1e4e87280ae1
 source-git-commit: f7c25f5ebd0690c56c081422949eb34f1f277ae1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 100%
 
