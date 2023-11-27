@@ -2,9 +2,9 @@
 description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
 title: Notas de la versión de 2021
-exl-id: f0bbb100-49a9-4bba-8cee-5f40bec87984
-source-git-commit: fcd3e8b65bb84e94eabac7ffec6a34f4cf75ec3d
-workflow-type: tm+mt
+exl-id: 56bffb6f-a4fc-40df-8bb2-17e43772fe60
+source-git-commit: 52956b38c59f60507aaf236b152ce41fc1229d14
+workflow-type: ht
 source-wordcount: '103'
 ht-degree: 100%
 
@@ -26,10 +26,10 @@ En la versión de Visitor 5.3.0 se incluyeron las siguientes actualizaciones:
 
 En la versión de Visitor 5.2.0 se incluyeron las siguientes actualizaciones:
 
-* Esta versión introduce un evento `onRecieveEcid`, que se llama cuando se recibe un ECID desde el servicio de identidad. Por ejemplo:
+* Esta versión introduce un evento `onReceiveEcid`, que se llama cuando se recibe un ECID desde el servicio de identidad. Por ejemplo:
 
 ```js
-visitorInstance.onRecieveEcid(callback(ecid){
+visitorInstance.onReceiveEcid(callback(ecid){
  console.log(ecid)
 })
 ```
