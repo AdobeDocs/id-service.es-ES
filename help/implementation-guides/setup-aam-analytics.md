@@ -1,25 +1,24 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
+description: Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de ID de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
-source-git-commit: 070390ec0534c9066d717fe52ff572f34c110137
+source-git-commit: 26152f559150f5bd67d4802b8464446482f2e9a1
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 91%
 
 ---
 
 # Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager{#implement-the-experience-cloud-id-service-for-analytics-and-audience-manager}
 
-Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de identidad de Experience Cloud y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
+Estas instrucciones están destinadas a los clientes de Analytics y Audience Manager que desean utilizar el servicio de ID de Experience Cloud y no utilizan [Etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 
 >[!IMPORTANT]
 >
 >* [Lea los requisitos](../reference/requirements.md) antes de comenzar.
 >* Este procedimiento requiere AppMeasurement. Los clientes que utilizan s_code no pueden completar este procedimiento.
 >* Configure y pruebe este código en un entorno de desarrollo antes de implementarlo en producción.
-
 
 ## Paso 1: Planificación del reenvío del lado de servidor {#section-880797cc992d4755b29cada7b831f1fc}
 
@@ -49,7 +48,6 @@ El servicio de ID requiere la `VisitorAPI.js` biblioteca de códigos. Para desca
 >
 >* Las versiones anteriores de la API de servicio de ID ubicaban esta función en una ubicación diferente y requerían una sintaxis diferente. Si va a realizar la migración desde una versión anterior a la [versión 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), tenga en cuenta la nueva ubicación y sintaxis documentadas aquí.
 >* El código en MAYÚSCULAS es un marcador de posición para los valores reales. Reemplace este texto con el identificador de organización, la URL del servidor de seguimiento u otro valor con nombre.
-
 
 **Parte 1: Copie la función Visitor.getInstance a continuación**
 
