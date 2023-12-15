@@ -1,24 +1,23 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
+description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de ID de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 keywords: Servicio de ID
 title: Implementación del servicio de Experience Cloud ID para Analytics
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 99%
+source-wordcount: '1007'
+ht-degree: 88%
 
 ---
 
 # Implementación del servicio de Experience Cloud ID para Analytics {#implement-the-experience-cloud-id-service-for-analytics}
 
-Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de Experience Cloud ID y no utilizan Dynamic Tag Management (DTM). Sin embargo, le recomendamos encarecidamente que utilice DTM al implementar el servicio de ID. DTM optimiza el flujo de trabajo de implementación y garantiza automáticamente la correcta ubicación y secuenciación del código.
+Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de ID de Experience Cloud y no utilizan [Etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 
 >[!IMPORTANT]
 >
 >* [Lea los requisitos](../reference/requirements.md) antes de comenzar.
 >* Configure y pruebe este código en un entorno de desarrollo antes de implementarlo en producción.
-
 
 Siga estos pasos para implementar el servicio de ID para Adobe Analytics:
 
@@ -42,13 +41,12 @@ El [!UICONTROL servicio de ID] requiere la biblioteca de códigos `VisitorAPI.js
 
 1. Descomprima el archivo de códigos y abra el `VisitorAPI.js` archivo.
 
-## Paso 2. Añadir la función Visitor.getInstance al código de servicio de ID {#section-6053a6b7c16c466a9f9fdbf9cb9db3df}
+## Paso 2: Añadir la función Visitor.getInstance al código de servicio de ID {#section-6053a6b7c16c466a9f9fdbf9cb9db3df}
 
 >[!IMPORTANT]
 >
 >* Las versiones anteriores de la API de servicio de ID ubicaban esta función en una ubicación diferente y requerían una sintaxis diferente. Si va a realizar la migración desde una versión anterior a la [versión 1.4](../release-notes/notes-2015.md#section-f5c596f355b14da28f45c798df513572), tenga en cuenta la nueva ubicación y sintaxis documentadas aquí.
 >* El código en MAYÚSCULAS es un marcador de posición para los valores reales. Reemplace este texto con el identificador de organización, la URL del servidor de seguimiento u otro valor con nombre.
-
 
 **Parte 1: Copie la función Visitor.getInstance a continuación**
 
@@ -126,7 +124,6 @@ Para determinar qué variables de servidor de seguimiento utilizar:
 >
 >* [!DNL Experience Cloud] URL del servidor de = URL del servidor de seguimiento
 >* [!DNL Experience Cloud] URL segura del servidor de = URL segura del servidor de seguimiento
-
 
 Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [preguntas frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
 
