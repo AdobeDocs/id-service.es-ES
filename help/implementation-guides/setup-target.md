@@ -1,25 +1,25 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de ID de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
+description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de identidad de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 keywords: Servicio de ID
 title: Implementación del servicio de Experience Cloud ID para Target
 exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # Implementación del servicio de Experience Cloud ID para Target{#implement-the-experience-cloud-id-service-for-target}
 
-Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de ID de Experience Cloud y no utilizan [Etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
+Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de identidad de Experience Cloud y no utilizan [etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 
 >[!IMPORTANT]
 >
 >* [Lea los requisitos](../reference/requirements.md) antes de comenzar.
 >* Configure y pruebe este código en un entorno de desarrollo antes de implementarlo en producción.
 
-## Paso 1: Obtención del código del servicio de ID {#section-b32ba0548aa546a79dd38be59832a53e}
+## Paso 1: Obtención del código de servicio de ID {#section-b32ba0548aa546a79dd38be59832a53e}
 
 El [!UICONTROL servicio de ID] requiere la biblioteca de códigos `VisitorAPI.js`. Póngase en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) para obtener este código.
 
