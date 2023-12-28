@@ -1,18 +1,18 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de ID de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
+description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 keywords: Servicio de ID
 title: Implementación del servicio de Experience Cloud ID para Analytics
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Implementación del servicio de Experience Cloud ID para Analytics {#implement-the-experience-cloud-id-service-for-analytics}
 
-Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de ID de Experience Cloud y no utilizan [Etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
+Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Cloud y no utilizan [etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 
 >[!IMPORTANT]
 >
@@ -127,7 +127,7 @@ Para determinar qué variables de servidor de seguimiento utilizar:
 
 Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [preguntas frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
 
-## Paso 5: Actualización de su archivo AppMeasurement.js o s_code.js {#section-b53113aea1bd4de896e0e4e9a7edee19}
+## Paso 5: Actualización de su archivo AppMeasurement.js o s_code.js {#section-b53113aea1bd4de896e0e4e9a7edee19}
 
 Añada esta función a su archivo `AppMeasurement.js` o `s_code.js`:
 
