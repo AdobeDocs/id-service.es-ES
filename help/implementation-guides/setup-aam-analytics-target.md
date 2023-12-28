@@ -1,18 +1,18 @@
 ---
-description: Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de ID de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
+description: Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de identidad de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 exl-id: d55baa11-e8ec-4c30-b6bc-caccf4c284ba
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1450'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target {#implement-the-experience-cloud-id-service-for-analytics-audience-manager-and-target}
 
-Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de ID de Experience Cloud y no utilizan [Etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, recomendamos encarecidamente que utilice etiquetas para implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
+Estas instrucciones están destinadas a los clientes de Analytics, Audience Manager y Target que desean utilizar el servicio de identidad de Experience Cloud y no utilizan [etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 
 >[!IMPORTANT]
 >
