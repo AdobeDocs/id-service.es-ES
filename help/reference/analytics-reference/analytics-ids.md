@@ -1,18 +1,18 @@
 ---
-description: El servicio de Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics anteriores.
+description: El servicio de identidad de Experience Cloud sustituye a los métodos de ID de visitante de Analytics anteriores.
 keywords: Servicio de ID
 title: Configuración de Analytics y Experience Cloud ID
 exl-id: 7399ea16-d13e-452c-b8d9-8d0699566aa2
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 99%
 
 ---
 
 # Configuración de Analytics y Experience Cloud ID{#setting-analytics-and-experience-cloud-ids}
 
-El servicio de Experience Cloud ID sustituye a los métodos de ID de visitante de Analytics anteriores.
+El servicio de identidad de Experience Cloud sustituye a los métodos de ID de visitante de Analytics anteriores.
 
 Una vez implementado el servicio de ID, este código se ejecuta antes que AppMeasurement. El servicio de ID recupera los Experience Cloud ID y Analytics para que los valores estén listos cuando se cargue AppMeasurement.
 
@@ -42,7 +42,7 @@ JavaScript puede leer y escribir cookies configuradas en el dominio de origen (e
 
 El establecimiento de un ID de cliente mediante `s.visitorID` es un método para identificar a los usuarios en Analytics. Sin embargo, las integraciones en las que se exportan o importan datos de Analytics mediante el servicio de ID no funcionarán cuando se identifique a un visitante mediante `s.visitorID`.
 
-Entre ellas se cuentan las audiencias compartidas, Analytics for Target (A4T) y atributos del cliente. Estas integraciones no admiten la configuración de un ID de Analytics personalizado.
+Entre ellas se cuentan los públicos compartidos, Analytics for Target (A4T) y atributos del cliente. Estas integraciones no admiten la configuración de un ID de Analytics personalizado.
 
 ## Pedido de ID de visitante de Analytics {#section-de1dc9fc9b6d4388995b70e35b8bcddf}
 
@@ -90,4 +90,3 @@ En muchos escenarios, es posible que vea dos o tres ID distintos en una llamada,
 >[!MORELIKETHIS]
 >
 >* [Orden de operaciones para los ID de Analytics](../../reference/analytics-reference/analytics-order-of-operations.md#concept-b92935b4fff545adb4773f3728bc15ef)
-

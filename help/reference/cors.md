@@ -1,16 +1,16 @@
 ---
 description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 keywords: Servicio de ID
-title: Compatibilidad con CORS en el servicio de Experience Cloud ID
+title: Compatibilidad con CORS en el servicio de identidad de Experience Cloud
 exl-id: 0e8ffe85-8d1f-42a0-aae3-a2b3b28c7bce
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 99%
+source-wordcount: '609'
+ht-degree: 96%
 
 ---
 
-# Compatibilidad con CORS en el servicio de Experience Cloud ID {#cors-support-in-the-experience-cloud-id-service}
+# Compatibilidad con CORS en el servicio de identidad de Experience Cloud {#cors-support-in-the-experience-cloud-id-service}
 
 Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 
@@ -26,7 +26,7 @@ El explorador permite que una solicitud se realice correctamente si ambas págin
 
 ## CORS resuelve problemas con políticas del mismo origen {#section-76c87ec3295d447bab220c84f138c235}
 
-CORS es una forma segura y eficaz de solicitar recursos en distintos dominios. La especificación CORS incluye un conjunto de encabezados HTTP que los exploradores utilizan para enviar, recibir y evaluar solicitudes de recursos. Evaluar una solicitud de recurso es lo que se conoce como *`preflight check`*. Esta comprobación permite a los exploradores y servidores determinar qué solicitudes están permitidas o bloqueadas. La comprobación preliminar es transparente para la aplicación, la API o el script que solicita un recurso. Dos encabezados importantes en el proceso de solicitud de recursos son:
+CORS es una forma segura y eficaz de solicitar recursos en distintos dominios. La especificación CORS incluye un conjunto de encabezados HTTP que los exploradores utilizan para enviar, recibir y evaluar solicitudes de recursos. La evaluación de una solicitud de recurso se denomina *`preflight check`*. Esta comprobación permite a los exploradores y servidores determinar qué solicitudes están permitidas o bloqueadas. La comprobación preliminar es transparente para la aplicación, la API o el script que solicita un recurso. Dos encabezados importantes en el proceso de solicitud de recursos son:
 
 * `Origin`: un encabezado de solicitud que identifica el origen de una solicitud.
 * `Access-Control-Allow-Origin`: un encabezado de respuesta que indica si se puede compartir un recurso con el solicitante.
@@ -45,7 +45,7 @@ Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que t
    <td colname="col1"> <p> <b>Solicitud</b> </p> </td> 
    <td colname="col2"> <p>Cuando se carga la página de la empresa de finanzas, el navegador realiza una solicitud a <span class="codeph">dpm.demdex.net</span>. Se trata de una llamada al dominio de los servidores de recopilación de datos (DCS) que utiliza el servicio de ID. Esta solicitud entre dominios incluye el encabezado: </p> <p> 
      <ul class="simplelist"> 
-      <li> <span class="codeph"> Origen:https://www.finance-website.com</span> </li> 
+      <li> <span class="codeph"> Origin:https://www.finance-website.com</span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que t
 
 Consulte también [useCORSOnly](../library/function-vars/use-cors-only.md#reference-8a9a143d838b48d6b23329b84b13e1fa).
 
-## Otras ventajas al usar CORS {#section-6f44f30694c44f95bf9854b8a2af8449}
+## Otras ventajas del uso de CORS {#section-6f44f30694c44f95bf9854b8a2af8449}
 
 La tabla siguiente describe algunas de las ventajas que CORS ofrece a los clientes que utilizan el servicio de ID.
 

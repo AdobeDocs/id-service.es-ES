@@ -1,18 +1,18 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
 title: Notas de la versión de 2020
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
 source-git-commit: dce2c0036f697507381d0763c2f6a9538155681c
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 99%
 
 ---
 
 # Notas de la versión de Experience Cloud - 2020 {#release-notes}
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 
 ## Versión 5.1.1
 

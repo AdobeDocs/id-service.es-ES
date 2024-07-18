@@ -5,8 +5,8 @@ title: Preguntas más frecuentes sobre el servicio de ID
 exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '783'
+ht-degree: 98%
 
 ---
 
@@ -18,17 +18,17 @@ Preguntas más frecuentes sobre las características, la funcionalidad y los pro
 
 **¿Qué tipo de funcionalidad o capacidades proporciona el servicio de ID?**
 
-Consulte la [Información general](../introduction/overview.md).
+Ver la [descripción general](../introduction/overview.md).
 
 **¿Por qué el servicio de ID no está realizando una llamada para recuperar el Experience Cloud ID?**
 
-Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de las directivas de seguridad de contenido del sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. Consulte [Políticas de seguridad de contenido y el servicio de Experience Cloud ID](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
+Esto puede ser difícil de diagnosticar. Una cosa que puede comprobar son los encabezados de las directivas de seguridad de contenido del sitio. Si tiene una política de seguridad estricta, esa configuración puede bloquear las llamadas de terceros realizadas por el servicio de ID. Consulte [Políticas de seguridad de contenido y el servicio de identidad de Experience Cloud](../reference/csp.md#concept-968c423a7392479db0a0d821ae9783e3).
 
 **Almacenamiento del archivo VisitorAPI.js**
 
 Es posible que tenga problemas si aloja VisitorAPI.js como archivo local en aplicaciones móviles. Le recomendamos que aloje el archivo en un servidor web.
 
-## Tiempos de carga de las páginas y latencia {#section-c78e148d8dbe4c77a436ef0f2af5434b}
+## Tiempos de carga de la página y latencia {#section-c78e148d8dbe4c77a436ef0f2af5434b}
 
 **¿Cómo afecta la ubicación de la biblioteca VisitorAPI.js del servicio de ID a los tiempos de carga de las páginas?**
 
@@ -66,13 +66,13 @@ Este cambio mejora el rendimiento de los clientes que utilizan Visitor 2.3.0 o p
 
 Las solicitudes de recursos con CORS son generalmente más preferibles que con JSONP. Con JSONP, algunos exploradores ponen en cola y restan prioridad a las solicitudes en relación con otras llamadas sincrónicas y asincrónicas de la página. CORS ayuda a garantizar que estas solicitudes se traten con mayor prioridad en las llamadas del explorador.
 
-Consulte [Compatibilidad con CORS en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Consulte [Compatibilidad con CORS en el servicio de identidad de Experience Cloud.](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)
 
 ## Seguridad {#section-b176b8492fbe4acfb79ebb30ec902f98}
 
 **¿Admite CORS el servicio de ID?**
 
-Sí. Consulte [Compatibilidad con CORS en el servicio de Experience Cloud ID](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758).
+Sí. Consulte [Compatibilidad con CORS en el servicio de identidad de Experience Cloud.](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758)
 
 **¿Qué es CORS?**
 
@@ -87,4 +87,3 @@ Consulte [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da1
 >[!MORELIKETHIS]
 >
 >* [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
-

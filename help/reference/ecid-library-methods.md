@@ -4,7 +4,7 @@ description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 exl-id: ac1d1ee1-2b5f-457a-a694-60bb4c960ae7
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '785'
 ht-degree: 100%
 
 ---
@@ -65,15 +65,15 @@ Esta función le permite compartir un ECID de un visitante entre dominios cuando
 
 * Cuando un visitante navega a sus otros dominios, Visitor.appendVisitorIDsTo(url) devuelve una URL con ECID adjunta como parámetro de consulta.
 
-   Utilice esta URL para redireccionar desde el dominio original al dominio de destino.
+  Utilice esta URL para redireccionar desde el dominio original al dominio de destino.
 
 * Este código de servicio de ID en el dominio de destino extrae el ECID de la URL, en lugar de enviar una solicitud a Adobe para obtener el ID del visitante en cuestión.
 
-   Esta solicitud incluye el ID de la cookie de terceros, que no está disponible en este caso.
+  Esta solicitud incluye el ID de la cookie de terceros, que no está disponible en este caso.
 
 * El código de servicio de ID en la página de destino emplea el ECID transferido para hacer un seguimiento del visitante.
 
-   >[!NOTE]
-   >Si la página de destino ya tiene un ECID de visitas anteriores, la decisión de sobrescribir la cookie existente está controlada por esta configuración overwriteCrossDomainMCIDAndAID. Para obtener más información sobre esta configuración, consulte [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/overwrite-visitor-id.md).
-   >
-   >Para obtener más detalles sobre este método, consulte la página de referencia [appendVisitorIDsTo (Seguimiento entre dominios)](/help/library/get-set/appendvisitorid.md).
+  >[!NOTE]
+  >Si la página de destino ya tiene un ECID de visitas anteriores, la decisión de sobrescribir la cookie existente está controlada por esta configuración overwriteCrossDomainMCIDAndAID. Para obtener más información sobre esta configuración, consulte [overwriteCrossDomainMCIDAndAID](/help/library/function-vars/overwrite-visitor-id.md).
+  >
+  >Para obtener más detalles sobre este método, consulte la página de referencia [appendVisitorIDsTo (Seguimiento entre dominios)](/help/library/get-set/appendvisitorid.md).

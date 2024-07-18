@@ -16,9 +16,9 @@ Funciones o funcionalidad del servicio de ID únicas de Adobe Analytics.
 
 + [Configuración de Analytics y Experience Cloud ID](analytics-ids.md)
 + [Orden de operaciones para los ID de Analytics](analytics-order-of-operations.md)
-+ [Puntos de decisión para la migración del servicio de Experience Cloud ID](migration-decisions.md)
-+ [Escenarios de migración del servicio de Experience Cloud ID](migration-scenarios.md)
++ [Puntos de decisión para la migración del servicio de identidad de Experience Cloud](migration-decisions.md)
++ [Escenarios de migración del servicio de identidad de Experience Cloud](migration-scenarios.md)
 + [Solicitudes de ID de Analytics e Experience Cloud ID](legacy-analytics.md)
 + [Implementación del lado del servidor combinada con JavaScript](server-side.md)
 + [Período de gracia del servicio de ID](grace-period.md)
-   <!--+ [Data Collection CNAMEs and Cross-Domain Tracking](cname.md)-->
+  <!--+ [Data Collection CNAMEs and Cross-Domain Tracking](cname.md)-->

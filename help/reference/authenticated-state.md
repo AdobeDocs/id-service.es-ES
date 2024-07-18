@@ -5,7 +5,7 @@ title: ID de cliente y estados de autenticación
 exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
 source-git-commit: 159b37e360b586bbada13e34793009e3067de668
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,6 @@ Los ID de cliente pueden incluir combinaciones de ID y estados autenticados, com
 >* Emplee únicamente valores descodificados para sus ID.
 >* Los ID de cliente y los estados de autenticación no se almacenan en la cookie de ID del visitante. Deben configurarse para cada página o contexto de aplicación.
 >* No debe incluir información de identificación personal (PII) en los ID de cliente. Si actualmente utiliza información de este tipo para identificar a algún visitante (como una dirección de correo electrónico), le recomendamos que almacene una versión con hash o cifrada de la información. La biblioteca ECID proporciona compatibilidad con identificadores de usuario hash. Consulte [Soporte hash SHA 256 para setCustomerIDs](/help/reference/hashing-support.md).
-
 
 ```js
 // Single ID with a single authentication state 

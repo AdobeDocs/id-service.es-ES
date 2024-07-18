@@ -5,12 +5,12 @@ title: Servicio de identidad de Experience Cloud
 exl-id: fe1368db-06ca-4c79-b655-b7064e316d74
 source-git-commit: f7c25f5ebd0690c56c081422949eb34f1f277ae1
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '355'
 ht-degree: 100%
 
 ---
 
-# Servicio de Adobe Experience Cloud Identity {#experience-cloud-id-service}
+# Servicio de identidad de Adobe Experience Cloud {#experience-cloud-id-service}
 
 El servicio de identidad de Experience Cloud habilita el marco de identificación común para la aplicación y los servicios de Experience Cloud. Funciona asignando un ID único y persistente conocido como ID de Experience Cloud (ECID) a un visitante del sitio.
 
@@ -30,7 +30,7 @@ Para comprender mejor cómo Adobe ayuda a identificar visitantes de forma única
    <td colname="col1"> <p> <b>Primeros pasos</b> </p> <p> 
      <ul id="ul_D5EC6A54A03F4AB595B588116A7C1296"> 
       <li id="li_845F6DE25A1241439BCDCBC00459D7EB"> <a href="introduction/overview.md" format="dita" scope="local"> Información general </a> </li> 
-      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de Experience Cloud ID </a> </li> 
+      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de identidad de Experience Cloud </a> </li> 
       <li id="li_CBEEE79B45644F28A52B58DDF23DAD4F"> <a href="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es" format="html" scope="external"> Implementación estándar con etiquetas de Platform </a> </li> 
      </ul> </p> <p><b>Bibliotecas JavaScript de Experience Cloud ID</b> </p> <p>El JavaScript para el servicio de identidad de Experience Cloud se encuentra aquí: <a href="https://github.com/Adobe-Marketing-Cloud/id-service/releases" format="https" scope="external">https://github.com/Adobe-Marketing-Cloud/id-service/releases</a> </p> <p> <b>Elementos nuevos o destacados</b> </p> <p> 
      <ul id="ul_B0A25B6827734D55BB1E20D12334AC21"> 

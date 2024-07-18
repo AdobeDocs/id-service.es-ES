@@ -1,5 +1,5 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2016.
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2016.
 keywords: Servicio de ID
 title: Notas de la versión 2016
 feature-set: Experience Cloud Services
@@ -7,14 +7,14 @@ feature: TK421
 exl-id: f96b9869-6282-4090-b392-797608e25a51
 source-git-commit: d027f7fca8cf62d6b5d80ec3c37049ddd1afdd70
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1175'
 ht-degree: 100%
 
 ---
 
 # Notas de la versión 2016 {#release-notes}
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio Experience Cloud ID para 2016.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2016.
 
 Estos cambios también se recopilan en las [notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
@@ -26,7 +26,6 @@ Noviembre de 2016
 >
 >* La versión 1.10 requiere [!UICONTROL AppMeasurement] 1.8.0.
 >* Al usar la versión 2.0.0 (o una posterior) de la biblioteca del servicio de identidad de Experience Cloud, la sincronización de ID para Adobe Media Optimizer se iniciará de forma predeterminada. Consulte [Conceptos básicos de sincronización de ID y tasas de coincidencia](/help/introduction/match-rates.md).
-
 
 **Correcciones y mejoras**
 
@@ -78,7 +77,7 @@ Agosto de 2016
 
 **Documentación nueva y revisada**
 
-Revisado: [Requisitos del servicio de Experience Cloud ID](../reference/requirements.md)
+Revisado: [Requisitos del servicio de identidad de Experience Cloud](../reference/requirements.md)
 
 **Problemas conocidos**
 
@@ -129,8 +128,8 @@ Julio de 2016
 
 **Revisado**
 
-* [ Requisitos del servicio de Experience Cloud ID](../reference/requirements.md)
-* [Comprobación y verificación del servicio de Experience Cloud ID](../implementation-guides/test-verify.md)
+* [Requisitos del servicio de identidad de Experience Cloud](../reference/requirements.md)
+* [Comprobación y verificación del servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md)
 
 ## Versión 1.5.7 {#section-735b4989a5744a42aeb2d97602dbda62}
 
@@ -167,7 +166,7 @@ Mayo de 2016
 
 * [Requisitos de SDK para Android e iOS](../reference/requirements.md#section-73b2446fba8e463888642c7d7dfd94f1)
 * [Data Workbench y el servicio de identidad de Experience Cloud](../reference/dwb.md#task-72df50a051944a47b01b0c0bc3d1e1d8)
-* [Comprobación y verificación del servicio de Experience Cloud ID](../implementation-guides/test-verify.md)
+* [Comprobación y verificación del servicio de identidad de Experience Cloud](../implementation-guides/test-verify.md)
 
 ## Versión 1.5.x {#section-0cfeef085cff4cbc8dff6cbc6fc32920}
 
@@ -175,7 +174,7 @@ Abril de 2016
 
 **Actualizaciones de documentación**
 
-[Implementación del servicio de Experience Cloud ID para Target](../implementation-guides/setup-target.md#concept-9b5a802132574e1181927ddd00e5c5af)
+[Implementación del servicio de identidad de Experience Cloud para Target](../implementation-guides/setup-target.md#concept-9b5a802132574e1181927ddd00e5c5af)
 
 ## Versión 1.5.4 {#section-1a44ba147fb3440ea7dec551faee3528}
 

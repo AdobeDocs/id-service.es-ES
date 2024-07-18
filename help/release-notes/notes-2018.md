@@ -1,18 +1,18 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2018.
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2018.
 keywords: Servicio de ID
 title: Notas de la versión de 2018
 exl-id: ad3cccf1-2753-4ac9-a68c-15b2d62bbc1a
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
 
 # Notas de la versión 2018 {#release-notes}
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2018.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2018.
 
 ## Versión 3.3 {#section-3202c8d5457a45a5b5f4b4c838d44de3}
 

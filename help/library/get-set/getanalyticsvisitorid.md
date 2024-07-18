@@ -1,18 +1,18 @@
 ---
-description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de Experience Cloud ID se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
+description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de identidad de Experience Cloud se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 keywords: Servicio de ID
 title: getAnalyticsVisitorID
 exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '276'
 ht-degree: 100%
 
 ---
 
 # getAnalyticsVisitorID{#getanalyticsvisitorid}
 
-Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de Experience Cloud ID se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
+Devuelve el ID de Analytics heredado (si lo hay) que se haya almacenado en la cookie s_vi antes de que el servicio de identidad de Experience Cloud se implementara. Devuelve una cadena vacía en el caso de que al visitante no se le hubiera asignado nunca un ID de Analytics.
 
 **Sintaxis** `var analyticsID = visitor.getAnalyticsVisitorID()`
 
@@ -52,4 +52,3 @@ Verá el `aid` parámetro en una cadena de consulta cuando su organización util
 >[!MORELIKETHIS]
 >
 >* [Cookies de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html?lang=es)
-

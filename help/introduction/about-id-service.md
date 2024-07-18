@@ -5,8 +5,8 @@ title: Información general
 exl-id: d907e299-bde0-4b5f-8c16-867a4eaa8be1
 source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ mcvid-functionality.xml
 
 ## El servicio de identidad de Experience Cloud: un elemento básico de los servicios principales {#section-2de0eb1d65664e92a4d8bbb167b84bde}
 
-El servicio de identidad de Experience Cloud admite el marco de identificación común para los servicios principales de Experience Cloud, las soluciones y los atributos y audiencias de los clientes. Funciona asignando ID únicos y persistentes a los visitantes del sitio. Cuando su organización implementa el servicio de ID, este ID le permite identificar el mismo visitante del sitio y sus datos en diferentes soluciones de Experience Cloud.
+El servicio de identidad de Experience Cloud admite el marco de identificación común para los servicios principales de Experience Cloud, las soluciones y los atributos y públicos de los clientes. Funciona asignando ID únicos y persistentes a los visitantes del sitio. Cuando su organización implementa el servicio de ID, este ID le permite identificar el mismo visitante del sitio y sus datos en diferentes soluciones de Experience Cloud.
 
 ![](assets/ecid-new.png)
 

@@ -1,5 +1,5 @@
 ---
-description: Las preguntas más frecuentes sobre el servicio de Experience Cloud ID junto con secciones sobre el servicio de ID y otras combinaciones de soluciones de Experience Cloud.
+description: Las preguntas más frecuentes sobre el servicio de identidad de Experience Cloud junto con secciones sobre el servicio de identidad y otras combinaciones de soluciones de Experience Cloud.
 keywords: Servicio de ID
 title: Preguntas frecuentes
 feature-set: Experience Cloud Services
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Preguntas frecuentes {#faqs}
 
-Las preguntas más frecuentes sobre el servicio de Experience Cloud ID junto con secciones sobre el servicio de ID y otras combinaciones de soluciones de Experience Cloud.
+Las preguntas más frecuentes sobre el servicio de identidad de Experience Cloud junto con secciones sobre el servicio de identidad y otras combinaciones de soluciones de Experience Cloud.
 
 * [Preguntas más frecuentes sobre el servicio de ID](faq.md)
 * [Preguntas más frecuentes sobre el servicio de ID y Analytics](analytics-faq.md)

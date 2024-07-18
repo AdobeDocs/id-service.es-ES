@@ -1,16 +1,16 @@
 ---
 description: Información general sobre el proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 keywords: Servicio de ID
-title: Solicitud y configuración de ID con el servicio de Experience Cloud ID
+title: Solicitud y configuración de ID con el servicio de identidad de Experience Cloud
 exl-id: 1bbee560-d72a-47cf-b3fe-d6bbcacb9eff
 source-git-commit: fa2549090e6790763a7ac6b87348789678d18ab6
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '732'
 ht-degree: 100%
 
 ---
 
-# Solicitud y configuración de ID con el servicio de Experience Cloud ID{#how-the-experience-cloud-id-service-requests-and-sets-ids}
+# Solicitud y configuración de ID con el servicio de identidad de Experience Cloud{#how-the-experience-cloud-id-service-requests-and-sets-ids}
 
 Información general sobre el proceso de solicitud y respuesta de ID. Estos ejemplos abarcan la asignación de ID en sitios concretos, entre sitios distintos, y para sitios administrados por clientes de Experience Cloud distintos con sus ID de organización propios.
 

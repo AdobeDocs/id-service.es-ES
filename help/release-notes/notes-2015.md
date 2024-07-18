@@ -5,7 +5,7 @@ title: Notas de la versión 2015
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Agosto de 2015
 * Se ha corregido un error para evitar que el servicio de ID solicitara un iframe en caso de que no hubiera datos para sincronizar o entregar. (AAM-20164)
 * Se ha corregido un problema que impedía que el servicio de ID estableciera correctamente una cookie de dominio superior de varias partes. Por ejemplo, si tiene un dominio como `my_company.co.uk`, en determinadas circunstancias, el servicio de ID establecería una cookie solo en `co.uk`. (AN-104683)
 
-   Esto solo afectaba a algunos clientes que cumplían *todos* los criterios siguientes:
+  Esto solo afectaba a algunos clientes que cumplían *todos* los criterios siguientes:
 
    * Uso del servicio de ID.
    * Se había habilitado un [periodo de gracia ](../reference/analytics-reference/grace-period.md)*o* se usaban cookies propias y los clientes habían bloqueado las cookies de terceros.
@@ -44,7 +44,7 @@ Agosto de 2015
 Las revisiones de documentación de esta versión incluyen:
 
 * [Métodos de API y Biblioteca de códigos](../library/library.md#concept-ff27497375644a898d47984aefb21c97): contenido y texto reorganizados. En la mayoría de los casos, cada método obtiene su propia página.
-* [Requisitos del servicio de Experience Cloud ID](../reference/requirements.md): contenido revisado y texto reorganizado.
+* [Requisitos del servicio de identidad de Experience Cloud](../reference/requirements.md): contenido revisado y texto reorganizado.
 
 ## Versión 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 

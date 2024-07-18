@@ -1,16 +1,16 @@
 ---
 description: Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de identidad de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 keywords: Servicio de ID
-title: Implementación del servicio de Experience Cloud ID para Target
+title: Implementación del servicio de identidad de Experience Cloud para Target
 exl-id: 7a387e98-c8fc-4904-942a-be5e527eada2
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
 ---
 
-# Implementación del servicio de Experience Cloud ID para Target{#implement-the-experience-cloud-id-service-for-target}
+# Implementación del servicio de identidad de Experience Cloud para Target{#implement-the-experience-cloud-id-service-for-target}
 
 Estas instrucciones están destinadas a los clientes de Target que desean utilizar el servicio de identidad de Experience Cloud y no utilizan [etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 
@@ -73,7 +73,7 @@ Para probar la implementación del servicio de ID:
 * Compruebe que cuenta con la cookie AMCV en el dominio en el que está alojada su página.
 * Verifique que aparezca `mboxMCGVID` en su solicitud de [!DNL Target] y que contenga el ID de [!DNL Experience Cloud] (MID).
 
-Consulte la información relativa a [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md) para obtener información sobre la cookie AMCV y el MID.
+Consulte la información relativa a [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md) para obtener información sobre la cookie AMCV y el MID.
 
 **Implementar**
 

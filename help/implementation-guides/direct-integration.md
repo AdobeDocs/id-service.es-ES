@@ -1,16 +1,16 @@
 ---
 description: Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar o trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos como consolas de juegos, televisores inteligentes u otros dispositivos habilitados para Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
 keywords: Servicio de ID
-title: Integración directa con el servicio de servicio de Experience Cloud ID
+title: Integración directa con el servicio de identidad de Experience Cloud
 exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 96%
 
 ---
 
-# Integración directa con el servicio de servicio de Experience Cloud ID {#direct-integration-with-the-experience-cloud-id-service}
+# Integración directa con el servicio de identidad de Experience Cloud {#direct-integration-with-the-experience-cloud-id-service}
 
 Esta implementación permite a los clientes utilizar el servicio de ID en dispositivos que no pueden aceptar o trabajar con nuestro código JavaScript o SDK. Esto incluye dispositivos como consolas de juegos, televisores inteligentes u otros dispositivos habilitados para Internet. Consulte esta sección para obtener información sobre sintaxis, ejemplos de código y definiciones.
 
@@ -30,7 +30,7 @@ Su solicitud podría ser similar al ejemplo que se muestra a continuación. Se h
 
 ![](assets/directExample.png)
 
-## Respuesta de ejemplo {#section-89bc103b3e9e4a8b98e74c32897b1200}
+## Respuesta de muestra {#section-89bc103b3e9e4a8b98e74c32897b1200}
 
 El servicio de ID devuelve datos en un objeto JSON como se muestra a continuación. Su respuesta puede ser diferente.
 
@@ -65,7 +65,7 @@ El servicio de ID devuelve datos en un objeto JSON como se muestra a continuaci�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Su ID de organización de Experience Cloud. Para obtener ayuda sobre cómo encontrar este ID, consulte <a href="../reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de Experience Cloud ID</a>. </p> </td> 
+   <td colname="col2"> <p>Su ID de organización de Experience Cloud. Para obtener ayuda para encontrar este ID, consulte <a href="../reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de identidad del Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 

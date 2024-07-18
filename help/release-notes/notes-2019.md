@@ -1,18 +1,18 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
 title: Notas de la versión 2019
 exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
 source-git-commit: 503683b66b6022b7c1fecbfb197fe17e05ae9c64
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
 
 # Notas de la versión de Experience Cloud - 2019 {#release-notes}
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 
 ## Versión 4.4.1
 
@@ -31,7 +31,7 @@ Agregar casilla de verificación de aprobación previa a la inclusión para el a
 
 **Correcciones, mejoras**
 
-* Hemos realizado una actualización de configuracióna `cookieDomain`. La biblioteca ECID ahora filtra la cadena vacía `cookieDomain` en `initConfig` y utiliza el dominio de cookie de primer nivel, que el método getDomain devuelve.
+* Hemos realizado una actualización de configuracióna `cookieDomain`. La biblioteca ECID ahora filtra la cadena vacía `cookieDomain` en `initConfig` y utiliza el dominio de cookie de nivel superior, que el método getDomain devuelve.
 * Hemos corregido un error relacionado con `getVisitorValues` en `localVisitor`.
 * Hemos corregido un error en el que había una incoherencia para el valor MCOPTOUT en el explorador Safari, devuelto por el método `getVisitorValue`.
 * Hemos actualizado la biblioteca de inclusión añadiendo `optIn.off` para cancelar la suscripción a eventos.

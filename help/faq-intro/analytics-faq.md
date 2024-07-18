@@ -1,18 +1,18 @@
 ---
 description: Las preguntas más frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de identidad de Experience Cloud.
-keywords: Servicio de Experience Cloud ID
-title: Preguntas frecuentes sobre el servicio de ID y Analytics
+keywords: Servicio de identidad de Experience Cloud
+title: Preguntas frecuentes sobre el servicio de identidad y Analytics
 exl-id: 98aeca0d-41a2-4b18-b307-19a6de816e38
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '963'
+ht-degree: 99%
 
 ---
 
-# Preguntas frecuentes sobre el servicio de ID y Analytics{#analytics-and-id-service-faqs}
+# Preguntas frecuentes sobre el servicio de identidad y Analytics{#analytics-and-id-service-faqs}
 
-Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de ID.
+Preguntas frecuentes sobre las características, la funcionalidad y los problemas relativos al uso del servicio de identidad.
 
 ## Servidores de seguimiento {#section-9a2ad7842e364c869e1650480d17f8ef}
 
@@ -73,7 +73,7 @@ Hay tres escenarios posibles en los que esto afecta a los datos de Analytics par
 
 1. Un usuario final abandona una página antes de que las cookies AMCV se configuren correctamente (dentro del tiempo de espera de 30 segundos).
 
-   Si un visitante abandona una página antes de que termine de cargarse, la visita de Analytics no se envía. Analytics no recibirá datos de este escenario y considerará que los datos se han perdido debido al cierre anticipado de la página. Basándonos en nuestras pruebas, que incluían ubicaciones alejadas entre sí, descubrimos que este escenario representaba menos del 1% del tráfico en promedio. Es importante indicar que este escenario se produce, a veces, incluso sin la presencia del servicio MCID; se trata de un efecto visual por la inclusión del código de recopilación de datos de Analytics que aparece en la parte inferior de la página.
+   Si un visitante abandona una página antes de que termine de cargarse, la visita de Analytics no se envía. Analytics no recibirá datos de este escenario y considerará que los datos se han perdido debido al cierre anticipado de la página. Basándonos en nuestras pruebas, que incluían ubicaciones alejadas entre sí, descubrimos que este escenario representaba menos del 1% del tráfico en promedio. Es importante indicar que este escenario se produce, a veces, incluso sin la presencia del servicio de identidad; se trata de un efecto visual por la inclusión del código de recopilación de datos de Analytics que aparece en la parte inferior de la página.
 
 1. No se ha asignado un servicio de identidad ni un ID de Analytics al usuario final durante el segundo intervalo de tiempo espera de 30 segundos debido a la lentitud de las conexiones o a que el navegador no termina de cargarse.
 
@@ -90,4 +90,3 @@ Hay tres escenarios posibles en los que esto afecta a los datos de Analytics par
 >[!MORELIKETHIS]
 >
 >* [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
-

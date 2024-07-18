@@ -1,16 +1,16 @@
 ---
 description: Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Cloud y no utilizan etiquetas de recopilación de datos. Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 keywords: Servicio de ID
-title: Implementación del servicio de Experience Cloud ID para Analytics
+title: Implementación del servicio de identidad de Experience Cloud para Analytics
 exl-id: c0271e49-32e5-49ee-bb11-548751ccafad
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 100%
 
 ---
 
-# Implementación del servicio de Experience Cloud ID para Analytics {#implement-the-experience-cloud-id-service-for-analytics}
+# Implementación del servicio de identidad de Experience Cloud para Analytics {#implement-the-experience-cloud-id-service-for-analytics}
 
 Estas instrucciones están destinadas a los clientes de Analytics que desean utilizar el servicio de identidad de Experience Cloud y no utilizan [etiquetas de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es). Sin embargo, le recomendamos encarecidamente que utilice etiquetas al implementar el servicio de ID. Las etiquetas optimizan el flujo de trabajo de implementación y garantizan automáticamente la correcta ubicación y secuenciación del código.
 
@@ -169,7 +169,7 @@ Necesita un periodo de gracia si necesita nuevos visitantes para tener una cooki
 
 Interrumpa el periodo de gracia después de que la implementación pueda capturar el MID en lugar de leer la cookie s_vi.
 
-Consulte [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md).
+Consulte [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md).
 
 Necesita un período de gracia si envía datos a un sistema interno desde una fuente de datos de flujo de navegación y si sus procesos utilizan las columnas `visid_high` y `visid_low`.
 

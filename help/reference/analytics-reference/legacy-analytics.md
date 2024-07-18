@@ -5,20 +5,20 @@ title: Solicitudes de ID de Analytics e Experience Cloud ID
 exl-id: 8c682159-e23a-4641-9ffd-e0028dc2f305
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 95%
 
 ---
 
 # Solicitudes de ID de Analytics e Experience Cloud ID{#analytics-and-experience-cloud-id-requests}
 
-Una visión general de cómo funciona el servicio de Experience Cloud ID con los ID de Analytics heredados.
+Una visión general de cómo funciona el servicio de identidad de Experience Cloud con los ID de Analytics heredados.
 
 ## Resumen {#section-64d8523ff7634cb987d0c6480f587dd3}
 
 En el pasado, el servicio de identidad de Experience Cloud se ha integrado de manera ajustada en Adobe Analytics. Sigue formando parte integral de Analytics, pero ahora realiza funciones importantes para otras soluciones y características de [!DNL Experience Cloud]. Debido a este legado histórico, la comprobación o escritura de un ID de Analytics funciona un poco diferente al proceso genérico descrito en [Solicitud y configuración de ID con el servicio de identidad de Experience Cloud](../../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a). Para obtener más información sobre el orden de las operaciones para comprobar el ID, consulte [Configuración de Analytics e Experience Cloud ID](../../reference/analytics-reference/analytics-ids.md#concept-f381dd18ee184c6c8e48286937a161d6).
 
-## La cookie AMCV no se establece en el navegador {#section-cccf10cd775e4a95a7e98d3c3c0ff9a9}
+## La cookie AMCV no se establece en el explorador {#section-cccf10cd775e4a95a7e98d3c3c0ff9a9}
 
 Si la cookie [!DNL Experience Cloud] (AMCV) no está presente, una llamada al servicio de ID a [!DNL Adobe] genera una respuesta que varía según la presencia o ausencia de un ID de Analytics heredado. El ID heredado [!DNL Analytics] se almacena en la [cookie s_vi](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es). La tabla siguiente describe cómo se escriben los ID en la cookie AMCV en función del estado de la cookie s_vi.
 

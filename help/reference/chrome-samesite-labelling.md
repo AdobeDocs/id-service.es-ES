@@ -3,9 +3,9 @@ title: Cambios en el etiquetado de SameSite de Google Chrome
 description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
 source-git-commit: ee4b7f8df5766372034da2a76e7acb81ba2a65f0
-workflow-type: ht
-source-wordcount: '1064'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Los productos de Adobe ya han publicado actualizaciones del lado del servidor pa
 
 **Asegúrese de que los puntos de conexión de terceros utilizan HTTPS**
 
-Todos los clientes de Analytics deben confirmar que su configuración de JavaScript utiliza HTTPS para sus llamadas a los servicios de Adobe. Target, Audience Manager y el servicio de ID de Experience Cloud (ECID) están redireccionando las llamadas HTTP de terceros a sus respectivos puntos de conexión HTTPS, lo que puede aumentar la latencia. Esto significa que no es necesario que cambie la configuración. Los clientes de Analytics deben actualizar sus implementaciones para que utilicen exclusivamente HTTPS, ya que las redirecciones específicas de Analytics pueden provocar la pérdida de datos.
+Todos los clientes de Analytics deben confirmar que su configuración de JavaScript utiliza HTTPS para sus llamadas a los servicios de Adobe. Target, Audience Manager y el servicio de identidad de Experience Cloud (ECID) están redireccionando las llamadas HTTP de terceros a sus respectivos puntos de conexión HTTPS, lo que puede aumentar la latencia. Esto significa que no es necesario que cambie la configuración. Los clientes de Analytics deben actualizar sus implementaciones para que utilicen exclusivamente HTTPS, ya que las redirecciones específicas de Analytics pueden provocar la pérdida de datos.
 
 **Las cookies correctamente etiquetadas deben recopilar los datos según lo previsto**
 
@@ -117,6 +117,6 @@ En la tabla siguiente solo se enumeran las cookies estándar comunes de visitant
 | ------ | ---- | ------------------ | ---------------- |
 | _mkto_trk | Origen del lado del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Configurable para páginas externas |
 
->  Las cookies de terceros de Adobe se configuran del lado del servidor.
+> Las cookies de terceros de Adobe de  se establecen en el servidor.
 
 Para obtener más información, consulte el documento sobre [directivas de Target sobre SameSite de Google Chrome](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=es).

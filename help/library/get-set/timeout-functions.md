@@ -1,18 +1,18 @@
 ---
-description: Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID del servicio de Experience Cloud ID, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+description: Llame a estas funciones del servicio de identidad para determinar el estado de tiempo de espera de una solicitud de ID del servicio de identidad de Experience Cloud, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 keywords: Servicio de ID
 title: Métodos callTimeOut
 exl-id: ff3a2c5e-a0a8-4257-b538-0e4ce454b4e8
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 98%
 
 ---
 
 # Métodos callTimeOut{#calltimeout-methods}
 
-Llame a estas funciones del servicio de ID para determinar el estado de tiempo de espera de una solicitud de ID del servicio de Experience Cloud ID, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+Llame a estas funciones del servicio de identidad para determinar el estado de tiempo de espera de una solicitud de ID del servicio de identidad de Experience Cloud, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 
 ## Funciones de tiempo de espera {#section-e08228ef5f9b45c9a84139bbb763164a}
 
@@ -25,7 +25,7 @@ Llame a estas funciones del servicio de ID para determinar el estado de tiempo d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Servicio de Experience Cloud ID </p> </td> 
+   <td colname="col1"> <p>Servicio de identidad de Experience Cloud </p> </td> 
    <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variableName</span> = visitor.MCIDCallTimedOut()</span> </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Llame a estas funciones del servicio de ID para determinar el estado de tiempo d
  </tbody> 
 </table>
 
-## Respuestas de las funciones {#section-ff73aaca58b74e10a0953c49a3387160}
+## Respuestas de función {#section-ff73aaca58b74e10a0953c49a3387160}
 
 <table id="table_5D08A5DD6FD04F94818B0E8B790D3136"> 
  <thead> 

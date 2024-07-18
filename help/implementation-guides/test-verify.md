@@ -1,16 +1,16 @@
 ---
 description: Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y Experience Cloud.
 keywords: Servicio de ID
-title: Comprobación y verificación del servicio de Experience Cloud ID
+title: Comprobación y verificación del servicio de identidad de Experience Cloud
 exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '642'
 ht-degree: 100%
 
 ---
 
-# Comprobación y verificación del servicio de Experience Cloud ID{#test-and-verify-the-experience-cloud-id-service}
+# Comprobación y verificación del servicio de identidad de Experience Cloud{#test-and-verify-the-experience-cloud-id-service}
 
 Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y Experience Cloud.
 
@@ -30,7 +30,7 @@ La [herramienta de depuración de Adobe](https://experienceleague.adobe.com/docs
 
 ## Pruebas con la herramienta de depuración de Adobe {#section-861365abc24b498e925b3837ea81d469}
 
-Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md) para obtener más información sobre el MID.
+Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de identidad de Experience Cloud ](../introduction/cookies.md)para obtener más información sobre el MID.
 
 Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=es):
 

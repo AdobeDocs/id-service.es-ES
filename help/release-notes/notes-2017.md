@@ -1,18 +1,18 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2017.
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2017.
 keywords: Servicio de ID
 title: Notas de la versión 2017
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
 source-git-commit: 384b292413bbc7e43ade97e442ab7195f3b26c7a
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '714'
+ht-degree: 99%
 
 ---
 
 # Notas de la versión 2017 {#release-notes}
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID para 2017.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud para 2017.
 
 Estos cambios también se recopilan en las [notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 

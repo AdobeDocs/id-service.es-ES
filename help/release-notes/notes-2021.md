@@ -5,14 +5,14 @@ title: Notas de la versión de 2021
 exl-id: 56bffb6f-a4fc-40df-8bb2-17e43772fe60
 source-git-commit: 52956b38c59f60507aaf236b152ce41fc1229d14
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
 
-# Notas de la versión de Experience Cloud ID Service - 2021
+# Notas de la versión del servicio de identidad de Experience Cloud - 2021
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de Experience Cloud ID.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
 
 ## Visitante 5.3.0
 

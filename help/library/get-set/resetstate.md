@@ -5,8 +5,8 @@ title: resetState
 exl-id: 8e8cb299-bb89-4bc1-8841-3091ce0cbd81
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Consulte los ejemplos de código que aparecen a continuación.
 
 **Sintaxis:** ` visitor.resetState( *`state`*);`
 
-## Ejemplos de código {#section-d75b211bb4ea473887eb284de2ad838b}
+## Muestras de código {#section-d75b211bb4ea473887eb284de2ad838b}
 
 La implementación del servicio de ID afecta a cómo utilizaría esta función. Consulte la tabla siguiente para ver ejemplos.
 

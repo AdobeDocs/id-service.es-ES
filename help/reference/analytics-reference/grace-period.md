@@ -5,8 +5,8 @@ title: Período de gracia del servicio de ID
 exl-id: 83b4898c-8358-458b-a798-1e3c9633afe9
 source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ La implementación del servicio de [!DNL Experience Cloud] ID de en sitios que u
 >
 >Para utilizar el período de gracia se necesita la versión 1.3 o posterior del servicio de ID de [!DNL Experience Cloud].
 
-## ¿Necesito un período de gracia?  {#section-fd34c7ff697348a39f49258b7d39eb42}
+## ¿Necesito un periodo de gracia? {#section-fd34c7ff697348a39f49258b7d39eb42}
 
 Si tiene un solo archivo JavaScript de Analytics y no utiliza otras bibliotecas de AppMeasurement, no necesita ningún periodo de gracia. Puede realizar la actualización en el archivo JavaScript y se podrá identificar a los nuevos visitantes de forma constante durante la visita mediante el Experience Cloud ID.
 

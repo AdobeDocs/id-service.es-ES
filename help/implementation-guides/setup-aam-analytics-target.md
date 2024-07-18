@@ -4,7 +4,7 @@ keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 exl-id: d55baa11-e8ec-4c30-b6bc-caccf4c284ba
 source-git-commit: 792fb5d5192843f345577a99b6179fb6d95fedc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 100%
 
@@ -172,7 +172,7 @@ Necesita un periodo de gracia si necesita nuevos visitantes para tener una cooki
 
 Interrumpa el periodo de gracia después de que la implementación pueda capturar el MID en lugar de leer la cookie s_vi.
 
-Consulte también la información relativa a las [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md).
+Consulte también la información relativa a las [Cookies y el servicio de identidad Experience Cloud.](../introduction/cookies.md)
 
 **Integración de flujo de navegación**
 

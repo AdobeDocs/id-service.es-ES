@@ -5,7 +5,7 @@ title: getVisitorValues
 exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
 source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
@@ -107,7 +107,7 @@ La tabla que se muestra a continuación enumera y define los parámetros de resp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCMID </span> </p> </td> 
-   <td colname="col2"> <p>El Experience Cloud ID del visitante. </p> <p>Consulte la información relativa a las <a href="../../introduction/cookies.md" format="dita" scope="local"> cookies y el servicio de Experience Cloud ID</a>. </p> </td> 
+   <td colname="col2"> <p>El Experience Cloud ID del visitante. </p> <p>Consulte la información relativa a las <a href="../../introduction/cookies.md" format="dita" scope="local"> cookies y el servicio de identidad de Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MCOPTOUT </span> </p> </td> 

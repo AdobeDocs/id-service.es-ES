@@ -1,5 +1,5 @@
 ---
-description: Un indicador booleano opcional que controla el modo en el que el navegador solicita recursos desde el servicio de Experience Cloud ID.
+description: Un indicador booleano opcional que controla el modo en el que el navegador solicita recursos desde el servicio de identidad de Experience Cloud.
 keywords: Servicio de ID
 title: useCORSOnly
 exl-id: 049a082a-8e6b-44cc-bd05-c12aaf3cbe4d
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # useCORSOnly{#usecorsonly}
 
-Un indicador booleano opcional que controla el modo en el que el navegador solicita recursos desde el servicio de Experience Cloud ID.
+Un indicador booleano opcional que controla el modo en el que el navegador solicita recursos desde el servicio de identidad de Experience Cloud.
 
 **Sintaxis:** `useCORSOnly: true|false` (el valor predeterminado es `false`)
 

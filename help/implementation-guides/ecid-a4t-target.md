@@ -5,8 +5,8 @@ title: Uso del servicio ID con A4T y una implementación de Target en el lado de
 exl-id: 6f201378-29a1-44b7-b074-6004246fc999
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ El diagrama y las secciones que siguen describen qué ocurre y qué debe configu
 
 ## Paso 1: Solicitar página {#section-c12e82633bc94e8b8a65747115d0dda8}
 
-La actividad del lado de servidor comienza cuando un visitante realiza una solicitud HTTP para cargar una página web. En este paso, el servidor recibe la solicitud y comprueba la cookie de [Cookie AMCV](../introduction/cookies.md). La cookie AMCV contiene el ID de [!DNL Experience Cloud] (MID).
+La actividad del lado de servidor comienza cuando un visitante realiza una solicitud HTTP para cargar una página web. Durante este paso, el servidor recibe esta solicitud y comprueba la [cookie AMCV](../introduction/cookies.md). La cookie AMCV contiene el ID de [!DNL Experience Cloud] (MID).
 
 ## Paso 2: Generación de la carga útil del servicio de ID {#section-c86531863db24bd9a5b761c1a2e0d964}
 
@@ -157,9 +157,9 @@ Agregue estos pares nombre-valor a la sección **[!UICONTROL General > Configura
 * **[!UICONTROL Nombre:]** serverState
 * **[!UICONTROL Valor:]** %serverState%
 
-   >[!IMPORTANT]
-   >
-   >El nombre del valor debe coincidir con el nombre de variable definido para `serverState` en el código de página.
+  >[!IMPORTANT]
+  >
+  >El nombre del valor debe coincidir con el nombre de variable definido para `serverState` en el código de página.
 
 La configuración debe ser similar a la siguiente:
 
@@ -197,4 +197,3 @@ En este punto, el servidor web envía el contenido de la página al navegador de
 >[!MORELIKETHIS]
 >
 >* [Paquete de servicio de ID del lado de servidor desde el administrador de paquetes de nodos](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)
-
