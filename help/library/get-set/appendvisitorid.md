@@ -3,14 +3,18 @@ description: Esta función le permite compartir un Experience Cloud ID de un vis
 keywords: Servicio de ID
 title: appendVisitorIDsTo (seguimiento entre dominios)
 exl-id: 3e4f4e2c-e658-4124-bd0e-59c63127bdde
-source-git-commit: c035f0af76f70322e4d79ed842502b26c3f155ac
+source-git-commit: fc630f3a161b65edab1c34ec3b3f07938bf13aaf
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 88%
 
 ---
 
 # appendVisitorIDsTo (seguimiento entre dominios){#appendvisitoridsto-cross-domain-tracking}
+
+>[!TIP]
+>
+>El seguimiento entre dominios no funcionará como se pretende si el ECID se rechaza inicialmente (o anteriormente). No comprobará los ID existentes que se hayan pasado a través de una URL o que existían anteriormente en la cookie, teniendo en cuenta que eran los ID cuando el consentimiento se estableció en &quot;NO&quot;
 
 Esta función le permite compartir un Experience Cloud ID de un visitante entre dominios cuando los navegadores bloquean las cookies de terceros. Para utilizar esta función, debe haber implementado el servicio de ID y ser el propietario de los dominios de origen y destino. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
 
