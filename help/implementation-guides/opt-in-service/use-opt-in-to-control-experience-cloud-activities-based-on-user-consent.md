@@ -29,7 +29,7 @@ Un aspecto importante de las normas de privacidad es la adquisición y transmisi
 
 [!UICONTROL La inclusión] también es más fácil de configurar con las etiquetas de Adobe Experience Platform (antes, conocido como Launch). Vea el siguiente vídeo breve para ver cómo.
 
->[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/40336/?quality=12&captions=spa)
 
 Si no utiliza las etiquetas de Experience Platform, puede definir la configuración de [!UICONTROL inclusión] en la inicialización del objeto de Visitante global, como se muestra en la [documentación](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=es).
 
@@ -43,7 +43,7 @@ Al configurar una interfaz de usuario para utilizar la opción de [!UICONTROL in
 
 En el siguiente vídeo, vea una demostración rápida de la [!UICONTROL inclusión] en la página y cómo puede afectar si las soluciones de Experience Cloud pueden configurar cookies, iniciar señalizaciones, etc.
 
->[!VIDEO](https://video.tv.adobe.com/v/26432/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/40341/?quality=12&captions=spa)
 
 **NOTA:** Es importante señalar que, en el momento de escribir este artículo, la [!UICONTROL inclusión] no se ha incorporado en las bibliotecas para todas las aplicaciones de Experience Cloud. Las bibliotecas admitidas actualmente para la [!UICONTROL inclusión] son:
 
