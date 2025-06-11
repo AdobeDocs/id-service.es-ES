@@ -3,10 +3,10 @@ description: El servicio de identidad de Experience Cloud habilita el marco de i
 keywords: Servicio de ID; Servicio de identidad; Servicio de identidad de Experience Cloud
 title: Servicio de identidad de Experience Cloud
 exl-id: fe1368db-06ca-4c79-b655-b7064e316d74
-source-git-commit: f7c25f5ebd0690c56c081422949eb34f1f277ae1
+source-git-commit: 507b5c9fed0d6d16828522c0fd9c7db4fdeefe3d
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -16,10 +16,10 @@ El servicio de identidad de Experience Cloud habilita el marco de identificació
 
 ## Explicación de las principales entidades de identidad
 
-Para comprender mejor cómo Adobe ayuda a identificar visitantes de forma única y a resolver la información de identidad, lea el desglose siguiente:
+Para comprender mejor cómo Adobe ayuda a identificar visitantes de forma exclusiva y a resolver la información de identidad, lea el desglose siguiente:
 
 * **Servicio de identidad de Experience Cloud**: el servicio de identidad del Experience Cloud **es responsable de configurar el ID de Experience Cloud (ECID)**. Para obtener más información, lea el [Resumen del servicio de identidad de Experience Cloud](./introduction/overview.md).
-* **ID de Experience Cloud (ECID)**: ECID es un área de nombres de identidad compartida que se utiliza en las aplicaciones de Adobe Experience Platform y Adobe Experience Cloud para identificar personas y dispositivos. Para obtener más información sobre el ECID, lea la [Información general de ECID](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html?lang=es).
+* **ID de Experience Cloud (ECID)**: ECID es un espacio de nombres de identidad compartido que se utiliza en las aplicaciones de Adobe Experience Platform y Adobe Experience Cloud para identificar personas y dispositivos. Para obtener más información sobre el ECID, lea la [Información general de ECID](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html?lang=es).
 * **Servicio de identidad de Experience Platform**: el servicio de identidad de Experience Platform le ofrece una vista completa de sus clientes y de su comportamiento al unir identidades entre dispositivos y sistemas. Para obtener más información, lea [Información general del servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es).
 
 <!-- The Adobe Experience Cloud Identity Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for Experience Cloud solutions and services. -->
