@@ -1,24 +1,24 @@
 ---
-description: Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
+description: Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas de permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a sus listas de permitidos CSP.
 keywords: Servicio de ID
 title: Políticas de seguridad del contenido y el servicio de identidad de Experience Cloud
 exl-id: e35c6809-764e-4c3e-9139-88bb92e82338
-source-git-commit: 2bb47b56b26ce6ea17297a9ee0200f2623e44e71
+source-git-commit: c56bbaa6a3639e421c11a8231e14afb58a4fa305
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 80%
+ht-degree: 62%
 
 ---
 
 # Políticas de seguridad del contenido y el servicio de identidad de Experience Cloud {#content-security-policies-and-the-experience-cloud-id-service}
 
-Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Revise esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas blancas para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a las listas blancas de CSP.
+Una directiva de seguridad de contenido (CSP) es una función de seguridad y encabezado HTTP que proporciona a los navegadores el control sobre el tipo de recursos que se cargan en una página web. Lea esta sección si utiliza el servicio de ID y tiene CSP estrictos que utilizan listas de permitidos para aceptar recursos de dominios de confianza. Deberá agregar los dominios de Adobe enumerados aquí a sus listas de permitidos CSP.
 
 ## Revisión de la CSP {#section-5fde5c00a678455c914b8307a8caab82}
 
 Las CSP utilizan el encabezado HTTP `Content-Security-Policy` para controlar el tipo de recursos que acepta o carga un navegador en una página. La aplicación de un CSP puede ayudarle a evitar:
 
-* Que se carguen los archivos JavaScript si el origen es desconocido o no se incluye en una lista blanca.
+* Que se carguen los archivos JavaScript si el origen es desconocido o no se incluye en una lista de permitidos.
 * Ataques de ejecución de scripts en sitios múltiples (XXS).
 * Ataques de inyección de datos.
 * Ataques de modificación de sitios web.
@@ -26,7 +26,7 @@ Las CSP utilizan el encabezado HTTP `Content-Security-Policy` para controlar el 
 
 El uso de los CSP es habitual y conocido. Esta documentación no tiene por objeto explicar en detalle los CSP (para obtener más información, consulte los vínculos de relacionados). Lo importante es que entienda qué nombres de dominio de Adobe debe agregar a un CSP si los utiliza y tiene políticas de seguridad estrictas. Añadir estos dominios permite a los navegadores de visitante que acceden a su sitio realizar las llamadas importantes a los recursos de Experience Cloud que utilice.
 
-## Dominios de Experience Cloud para la lista blanca {#section-30693e9a96834edfbf04de9e698cf2aa}
+## Dominios de Experience Cloud para Inclusiones en la lista de permitidos {#section-30693e9a96834edfbf04de9e698cf2aa}
 
 Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o servicio de Experience Cloud que utilice.
 
@@ -87,12 +87,12 @@ Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o
     <p><b>Advertising Analytics</b></p>
    </td>
    <td colname="col2">
-    <p>Si restringe los parámetros de cadena de consulta, incluya en la lista blanca los siguientes parámetros:</p>
+    <p>Si restringe los parámetros de cadena de consulta, lista de permitidos los siguientes parámetros:</p>
     <ul>
      <li><code>s_kwcid</code> (que usa <code>!</code>)</li>
      <li><code>ef_id</code> (que usa <code>:</code>)</li>
     </ul>
-    <p>Si bloquea el carácter <code>!</code> en las direcciones URL, agréguelo también a la lista blanca.</p>
+    <p>Si bloquea el carácter <code>!</code> en las direcciones URL, lista de permitidos también.</p>
     <p>Advertising Analytics solo usa <code>s_kwcid</code>, pero Advertising Search, Social y Commerce, y Advertising DSP también usan <code>ef_id</code>.</p>
    </td>
   </tr>
