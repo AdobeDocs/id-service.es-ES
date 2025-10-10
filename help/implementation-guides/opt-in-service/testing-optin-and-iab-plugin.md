@@ -2,10 +2,10 @@
 description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
 title: Validación del servicio de inclusión (Opt-in)
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 94%
+source-wordcount: '434'
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ No debería ver ninguna solicitud a los servidores de Adobe:
 >
 >Podría ver una llamada a `http://dpm.demdex.net/optOutStatus`, un extremo de SOLO LECTURA que se utiliza para recuperar el estado de exclusión del visitante. Este extremo no dará como resultado la creación de cookies de terceros y no se recopilará ninguna información de la página.
 
-No debería ver ninguna cookie que hayan creado las Adobes de etiquetas: (AMCV_{{YOUR_ORG_ID}}, mbox, demdex, s_cc, s_sq, everest_g_v2, everest_session_v2)
+No debería ver ninguna cookie creada por las etiquetas de Adobe: (`AMCV_{{YOUR_ORG_ID}}`, `mbox`, `demdex`, `s_cc`, `s_sq`, `everest_g_v2`, `everest_session_v2`)
 
 En Chrome, vaya a la pestaña *Aplicación*, expanda la sección *Cookies* en *Almacenamiento* y seleccione el nombre de dominio de su sitio web:
 

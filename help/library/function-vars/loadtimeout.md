@@ -1,20 +1,20 @@
 ---
-description: Establece un intervalo de tiempo de espera en milisegundos. Se usa para indicar a otras soluciones (por ejemplo, Analytics, Audience Manager, Target, etc.) cuánto tiempo se debe esperar una respuesta del servicio de ID.
+description: Establece un intervalo de tiempo de espera en milisegundos. Se utiliza para indicar a otras soluciones (por ejemplo, Analytics, Audience Manager, Target, etc.) cuánto tiempo se debe esperar una respuesta del servicio de ID.
 keywords: Servicio de ID
 title: loadTimeout
 exl-id: 485264f4-ee24-4042-8be3-259e70462110
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
 # loadTimeout{#loadtimeout}
 
-Establece un intervalo de tiempo de espera en milisegundos. Se usa para indicar a otras soluciones (por ejemplo, Analytics, Audience Manager, Target, etc.) cuánto tiempo se debe esperar una respuesta del servicio de ID.
+Establece un intervalo de tiempo de espera en milisegundos. Se utiliza para indicar a otras soluciones (por ejemplo, Analytics, Audience Manager, Target, etc.) cuánto tiempo se debe esperar una respuesta del servicio de ID.
 
-**Sintaxis:** ` loadTimeout: *`intervalo en milisegundos`*`
+**Sintaxis:** `loadTimeout: *`intervalo en milisegundos`*`
 
 El valor predeterminado es de 30 000 milisegundos (30 segundos). Se recomienda encarecidamente *no* cambiar el valor predeterminado.
 

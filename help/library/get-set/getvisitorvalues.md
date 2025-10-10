@@ -3,7 +3,7 @@ description: Se trata de una API asíncrona que devuelve identificadores para An
 keywords: Servicio de ID
 title: getVisitorValues
 exl-id: bd023e8d-a804-4205-989f-e1e58080b63c
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
@@ -25,12 +25,12 @@ Contenido:
 
 ## Sintaxis {#section-5aebe3907b2b46e997f45a1d1ed35c09}
 
-Esta función utiliza la siguiente sintaxis (la cursiva representa un marcador de posición para una variable): ` var *`valores`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`tipo de ID`*, visitor.FIELDS. *`tipo de ID`*]);`
+Esta función utiliza la siguiente sintaxis (la cursiva representa un marcador de posición para una variable): `var *`valores`* = visitor.getVisitorValues (callback, [visitor.FIELDS. *`tipo de ID`*, visitor.FIELDS. *`tipo de ID`*]);`
 
 En los parámetros de función:
 
-* ` *`Callback`*` representa su propio código de rellamada que recibe los ID devueltos.
-* *(Opcional)* ` visitor.FIELDS. *`tipo de ID`*` es una enumeración que le permite especificar qué [valores de ID](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5) desea que devuelva esta función.
+* `*`Callback`*` representa su propio código de rellamada que recibe los ID devueltos.
+* *(Opcional)* `visitor.FIELDS. *`tipo de ID`*` es una enumeración que le permite especificar qué [valores de ID](../../library/get-set/getvisitorvalues.md#section-4c4c300167694c6fbff1d6c612f372b5) desea que devuelva esta función.
 
 Consulte los casos de uso y definiciones siguientes para obtener más información.
 

@@ -3,7 +3,7 @@ description: Devuelve el ID de región del servicio de identidad de Experience C
 keywords: Servicio de ID
 title: getLocationHint
 exl-id: 0213f828-a985-4201-8a38-0a4b170ed057
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Devuelve el ID de región del servicio de identidad de Experience Cloud. Un ID de región (o indicio de ubicación) es un identificador numérico para la ubicación geográfica de un centro de datos de servicio de ID concreto. Necesita el ID de región para realizar llamadas de API del lado del servidor a Audience Manager.
 
-**Sintaxis:** ` var *`nombre de variable`* = visitor.getLocationHint()`
+**Sintaxis:** `var *`nombre de variable`* = visitor.getLocationHint()`
 
 Para obtener una lista de ID de región y sus ubicaciones correspondientes, consulte [ID de región de DCS, ubicaciones y nombres de host](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=es).
 

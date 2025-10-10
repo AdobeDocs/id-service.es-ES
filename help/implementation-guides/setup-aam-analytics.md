@@ -3,7 +3,7 @@ description: Estas instrucciones están destinadas a los clientes de Analytics y
 keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
-source-git-commit: 26152f559150f5bd67d4802b8464446482f2e9a1
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 100%
@@ -151,7 +151,7 @@ s.prop1 = (typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI M
 
 ## Paso 7: Añadir el código de API de visitante a la página {#section-c2bd096a3e484872a72967b6468d3673}
 
-Coloque el ` [!UICONTROL VisitorAPI.js]` archivo dentro de las etiquetas `<head>` en cada página. Cuando coloque el `VisitorAPI.js` archivo en su página:
+Coloque el `[!UICONTROL VisitorAPI.js]` archivo dentro de las etiquetas `<head>` en cada página. Cuando coloque el `VisitorAPI.js` archivo en su página:
 
 * Hágalo al principio de la `<head>` sección, de modo que aparezca antes que las etiquetas de otras soluciones.
 * Debe ejecutarse antes de AppMeasurement y el código de otras soluciones de [!DNL Experience Cloud].
@@ -178,7 +178,7 @@ Consulte también la información relativa a las [Cookies y el servicio de ident
 
 Necesita un período de gracia si envía datos a un sistema interno desde una fuente de datos de flujo de navegación y si sus procesos utilizan las columnas `visid_high` y `visid_low`.
 
-Interrumpa el periodo de gracia una vez que su proceso de consumo de datos pueda utilizar las columnas `post_visid_high` y `post_visid_low`.
+Interrumpa el periodo de gracia una vez que su proceso de ingesta de datos pueda utilizar las columnas `post_visid_high` y `post_visid_low`.
 
 Consulte [Referencia de columnas de datos del flujo de navegación](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=es).
 

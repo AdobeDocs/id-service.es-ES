@@ -3,7 +3,7 @@ description: Esta función se ha diseñado principalmente para ayudar a los clie
 keywords: Servicio de ID
 title: resetState
 exl-id: 8e8cb299-bb89-4bc1-8841-3091ce0cbd81
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 99%
@@ -25,7 +25,7 @@ Consulte los ejemplos de código que aparecen a continuación.
 
 ## Sintaxis {#section-9e63503e178f4be28ac850abf44d6d91}
 
-**Sintaxis:** ` visitor.resetState( *`state`*);`
+**Sintaxis:** `visitor.resetState( *`state`*);`
 
 ## Muestras de código {#section-d75b211bb4ea473887eb284de2ad838b}
 

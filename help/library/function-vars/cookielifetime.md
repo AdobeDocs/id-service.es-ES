@@ -3,7 +3,7 @@ description: Esta variable le permite sobrescribir el intervalo de duración pre
 keywords: Servicio de ID
 title: cookieLifetime
 exl-id: bdbabdcd-a87b-412c-8c2f-3f39820f939a
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 100%
@@ -16,7 +16,7 @@ Esta variable le permite sobrescribir el intervalo de duración predeterminado p
 
 De manera predeterminada, las cookies del servicio de [!DNL Experience Cloud] ID de caducan tras 24 meses. Establezca el intervalo de tiempo en segundos.
 
-**Sintaxis:** ` cookieLifetime: *`duración en segundos`*`
+**Sintaxis:** `cookieLifetime: *`duración en segundos`*`
 
 **Ejemplo de código**
 
