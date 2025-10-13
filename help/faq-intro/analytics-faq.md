@@ -54,7 +54,7 @@ Consulte [Período de gracia de servicio de identidad](../reference/analytics-re
 
 **¿Por qué necesito migrar a la recopilación de datos en tiempo real (RDC) para utilizar el servicio de identidad?**
 
-La RDC mejora el rendimiento general y es necesaria para asegurarse de que la implementación está lista para las próximas funciones que aprovechan la red global de notas avanzadas de Adobe. Consulte [Requisitos de Analytics: Recopilación de datos regionales (RDC). ](../reference/requirements.md#section-7d04bb013bc84a25bae3b148bc0ca25f)
+La RDC mejora el rendimiento general y es necesaria para asegurarse de que la implementación está lista para las próximas funciones que aprovechan la red global de notas avanzadas de Adobe. Consulte [Requisitos de Analytics: Recopilación de datos regionales (RDC). &#x200B;](../reference/requirements.md#section-7d04bb013bc84a25bae3b148bc0ca25f)
 
 ## Informes {#section-123cd55a32e54a45a23beb140becfa8f}
 

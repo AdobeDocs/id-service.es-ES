@@ -17,7 +17,7 @@ El objeto de [!UICONTROL inclusión] de Adobe es una extensión del [!UICONTROL 
 
 Un aspecto importante de las normas de privacidad es la adquisición y transmisión del consentimiento del usuario sobre cómo se pueden utilizar sus datos personales y quién los puede usar. La última versión de [!UICONTROL Servicio de identidad] incluye la funcionalidad que proporciona activación condicional (como consentimiento previo y posterior) de las etiquetas de la solución Experience Cloud, en función de si se da el consentimiento del usuario final. Este proceso se muestra en la siguiente imagen:
 
-![Diagrama del funcionamiento de la [!UICONTROL inclusión] ](assets/opt-in.png)
+![Diagrama del funcionamiento de la [!UICONTROL inclusión] &#x200B;](assets/opt-in.png)
 
 [!UICONTROL Inclusión] funciona de la siguiente manera:
 

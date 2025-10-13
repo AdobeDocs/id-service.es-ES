@@ -18,4 +18,4 @@ Video Heartbeat requiere el servicio de identidad de Experience Cloud. Cuando se
 
 >[!MORELIKETHIS]
 >
->* [Medición de audio y vídeo en Adobe Analytics ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es)
+>* [Medición de audio y vídeo en Adobe Analytics &#x200B;](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es)

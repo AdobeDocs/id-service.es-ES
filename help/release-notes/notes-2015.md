@@ -37,7 +37,7 @@ Agosto de 2015
   Esto solo afectaba a algunos clientes que cumplían *todos* los criterios siguientes:
 
    * Uso del servicio de ID.
-   * Se había habilitado un [periodo de gracia ](../reference/analytics-reference/grace-period.md)*o* se usaban cookies propias y los clientes habían bloqueado las cookies de terceros.
+   * Se había habilitado un [periodo de gracia &#x200B;](../reference/analytics-reference/grace-period.md)*o* se usaban cookies propias y los clientes habían bloqueado las cookies de terceros.
 
    * Tenían páginas con dominios de nivel superior en varias partes.
 
