@@ -2,7 +2,7 @@
 title: Cambios en el etiquetado de SameSite de Google Chrome
 description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
 exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: 76e894b6af7b217632bf89dcf94381f55457d45d
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 99%
@@ -117,7 +117,7 @@ En la tabla siguiente solo se enumeran las cookies estándar comunes de visitant
 | ------ | ---- | ------------------ | ---------------- |
 | _mkto_trk | Origen del lado del cliente | No se ha agregado ningún valor *Chrome establece de forma predeterminada `lax` | Configurable para páginas externas |
 
->
+>[!IMPORTANT]
 >
 >Las cookies de terceros de Adobe se configuran del lado del servidor.
 
