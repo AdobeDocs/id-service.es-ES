@@ -5,9 +5,9 @@ title: Preguntas frecuentes
 feature-set: Experience Cloud Services
 feature: TK421
 exl-id: 930c0849-1d88-408e-a385-214b4d0ffd96
-source-git-commit: d027f7fca8cf62d6b5d80ec3c37049ddd1afdd70
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '59'
 ht-degree: 100%
 
 ---
@@ -17,5 +17,4 @@ ht-degree: 100%
 Las preguntas más frecuentes sobre el servicio de identidad de Experience Cloud junto con secciones sobre el servicio de identidad y otras combinaciones de soluciones de Experience Cloud.
 
 * [Preguntas más frecuentes sobre el servicio de ID](faq.md)
-* [Preguntas más frecuentes sobre el servicio de ID y Analytics](analytics-faq.md)
 * [Preguntas frecuentes para otras soluciones de Experience Cloud](other-faq.md)

@@ -3,10 +3,10 @@ description: Estas instrucciones están destinadas a los clientes de Analytics y
 keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 100%
+source-wordcount: '1177'
+ht-degree: 98%
 
 ---
 
@@ -36,9 +36,9 @@ La migración al reenvío del lado del servidor requiere planificación y coordi
 
 El servicio de ID requiere la `VisitorAPI.js` biblioteca de códigos. Para descargar esta biblioteca de códigos:
 
-1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Administrador de códigos]**.
+1. Vaya a **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
 
-1. En Administrador de códigos, haga clic en **[!UICONTROL JavaScript (nuevo)]** o **[!UICONTROL JavaScript (heredado)]**. Se descargarán las bibliotecas de códigos comprimidas.
+1. En Administrador de códigos, haga clic en **[!UICONTROL JavaScrpt (New)]** o **[!UICONTROL JavaScript (Legacy)]**. Se descargarán las bibliotecas de códigos comprimidas.
 
 1. Descomprima el archivo de códigos y abra el `VisitorAPI.js` archivo.
 
@@ -130,7 +130,7 @@ Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [
 
 ## Paso 6: Actualización del archivo AppMeasurement.js {#section-5517e94a09bc44dfb492ebca14b43048}
 
-Este procedimiento requiere [!UICONTROL AppMeasurement]. No podrá continuar si aún utiliza s_code.
+Este paso requiere [!UICONTROL AppMeasurement]. No podrá continuar si aún utiliza s_code.
 
 Añada la `Visitor.getInstance` función que se muestra a continuación a su `AppMeasurement.js`archivo. Colóquela en la misma sección que contenga configuraciones como `linkInternalFilters`, `charSet`, `trackDownloads`, etc.:
 
@@ -158,7 +158,7 @@ Coloque el `[!UICONTROL VisitorAPI.js]` archivo dentro de las etiquetas `<head>`
 
 ## Paso 8: (Opcional) Configuración de un período de gracia {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un [periodo de gracia temporal](../reference/analytics-reference/grace-period.md). Los periodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un periodo de gracia.
+Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un [periodo de gracia temporal](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration). Los períodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un periodo de gracia.
 
 **Implementación parcial**
 

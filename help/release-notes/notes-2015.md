@@ -3,10 +3,10 @@ description: Notas de la versión y actualizaciones para 2015.
 keywords: Servicio de ID
 title: Notas de la versión 2015
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 96%
 
 ---
 
@@ -37,8 +37,7 @@ Agosto de 2015
   Esto solo afectaba a algunos clientes que cumplían *todos* los criterios siguientes:
 
    * Uso del servicio de ID.
-   * Se había habilitado un [periodo de gracia &#x200B;](../reference/analytics-reference/grace-period.md)*o* se usaban cookies propias y los clientes habían bloqueado las cookies de terceros.
-
+   * Se habilitó un [período de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *o* están usando cookies de origen y los usuarios bloquearon cookies de terceros.
    * Tenían páginas con dominios de nivel superior en varias partes.
 
 Las revisiones de documentación de esta versión incluyen:
@@ -65,8 +64,6 @@ var visitor = Visitor.getInstance("016D5C175213CCA80A490D05@AdobeOrg",{
     "idSyncContainerID":80 
 });
 ```
-
-Consulte [Experience Cloud](../implementation-guides/setup-analytics.md#concept-9ebbea85cb844a15b557be572cd142fd).
 
 ## Versión 1.3.5 {#section-eed4567f058f446d9a819e4682621aed}
 

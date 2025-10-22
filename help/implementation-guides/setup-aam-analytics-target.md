@@ -3,10 +3,10 @@ description: Estas instrucciones están destinadas a los clientes de Analytics, 
 keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 exl-id: d55baa11-e8ec-4c30-b6bc-caccf4c284ba
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 100%
+source-wordcount: '1443'
+ht-degree: 98%
 
 ---
 
@@ -37,8 +37,8 @@ La migración al reenvío del lado del servidor requiere planificación y coordi
 
 El servicio de ID requiere la `VisitorAPI.js` biblioteca de códigos. Para descargar esta biblioteca de códigos:
 
-1. Vaya a **[!UICONTROL Administración > Administrador de códigos]**.
-1. En Administrador de códigos, haga clic en **[!UICONTROL JavaScript (nuevo)]** o **[!UICONTROL JavaScript (heredado)]**. Se descargarán las bibliotecas de códigos comprimidas.
+1. Vaya a **[!UICONTROL Admin > Code Manager]**.
+1. En Administrador de códigos, haga clic en **[!UICONTROL JavaScrpt (New)]** o **[!UICONTROL JavaScript (Legacy)]**. Se descargarán las bibliotecas de códigos comprimidas.
 
 1. Descomprima el archivo de códigos y abra el `VisitorAPI.js` archivo.
 
@@ -130,7 +130,7 @@ Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [
 
 ## Paso 6: Actualización del archivo AppMeasurement.js {#section-5517e94a09bc44dfb492ebca14b43048}
 
-Este procedimiento requiere [!UICONTROL AppMeasurement]. No podrá continuar si aún utiliza s_code.
+Este paso requiere [!UICONTROL AppMeasurement]. No podrá continuar si aún utiliza s_code.
 
 Añada la `Visitor.getInstance` función que se muestra a continuación a su `AppMeasurement.js`archivo. Colóquela en la misma sección que contenga configuraciones como `linkInternalFilters`, `charSet`, `trackDownloads`, etc.:
 
@@ -158,7 +158,7 @@ Coloque el `[!UICONTROL VisitorAPI.js]` archivo dentro de las etiquetas `<head>`
 
 ## Paso 8: (Opcional) Configuración de un período de gracia {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un [periodo de gracia temporal](../reference/analytics-reference/grace-period.md). Los periodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un periodo de gracia.
+Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un período de gracia temporal. Los periodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un periodo de gracia.
 
 **Implementación parcial**
 
@@ -206,7 +206,7 @@ Compruebe el identificador SDID en la solicitud de JavaScript. El SDID de Analyt
 Si las pruebas devuelven un AID, esto indica cualquiera de los siguientes factores:
 
 * Usted es un visitante que regresa en el proceso de migrar [!DNL Analytics] ID de heredados.
-* Tiene un [período de gracia](../reference/analytics-reference/grace-period.md) habilitado.
+* Tiene un [período de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) habilitado.
 
 Si ve un AID, compare su valor con el [!DNL Target] mboxMCAVID de. Estos valores son idénticos cuando el servicio de ID se ha implementado correctamente.
 

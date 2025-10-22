@@ -3,9 +3,9 @@ description: Información acerca de otras características y funcionalidades del
 keywords: Servicio de ID
 title: Referencia
 exl-id: 9a14300c-206c-4960-b594-517809f7e979
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,6 @@ ht-degree: 100%
 
 Información acerca de otras características y funcionalidades del servicio de identidad de Experience Cloud.
 
-* [Información general de referencia de Analytics](analytics-reference/analytics-reference.md)
 * [Políticas de seguridad del contenido y el servicio de identidad de Experience Cloud](csp.md)
 * [Compatibilidad con COPPA en el servicio de identidad de Experience Cloud](coppa.md)
 * [Compatibilidad con CORS en el servicio de identidad de Experience Cloud](cors.md)
