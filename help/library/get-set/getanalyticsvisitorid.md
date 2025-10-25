@@ -47,7 +47,7 @@ Verá el parámetro `aid` en una cadena de consulta cuando:
 
 **Caso 2**
 
-Verá el `aid` parámetro en una cadena de consulta cuando su organización utilice un [periodo de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) antes de implementar completamente el servicio de ID. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ID de [!DNL Experience Cloud]).
+Verá el `aid` parámetro en una cadena de consulta cuando su organización utilice un [periodo de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) antes de implementar completamente el servicio de ID. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ID de [!DNL Experience Cloud]).
 
 >[!MORELIKETHIS]
 >

@@ -37,7 +37,7 @@ Agosto de 2015
   Esto solo afectaba a algunos clientes que cumplían *todos* los criterios siguientes:
 
    * Uso del servicio de ID.
-   * Se habilitó un [período de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *o* están usando cookies de origen y los usuarios bloquearon cookies de terceros.
+   * Se habilitó un [período de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) *o* están usando cookies de origen y los usuarios bloquearon cookies de terceros.
    * Tenían páginas con dominios de nivel superior en varias partes.
 
 Las revisiones de documentación de esta versión incluyen:
