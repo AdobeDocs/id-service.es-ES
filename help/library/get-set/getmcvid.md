@@ -3,7 +3,7 @@ description: getMarketingCloudVisitorID devuelve el ID de visitante de Experienc
 keywords: Servicio de ID
 title: getMarketingCloudVisitorID
 exl-id: bd81cc0b-0511-492d-beb8-8ba2fe5d4323
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
@@ -31,3 +31,4 @@ var mcID = visitor.getMarketingCloudVisitorID(useMarketingCloudID)
 >[!TIP]
 >
 >Si usted es [!DNL Analytics] cliente de, compruebe y envíe también el [!DNL Analytics] ID de a su función. Por ejemplo, es recomendable contar con ambos identificadores a la hora de pasar el ID de visitante en un elemento de forma oculta a una aplicación del lado del servidor que utiliza la API de inserción de datos. En este caso, deberá recopilar y devolver los ID de visitante de [!DNL Experience Cloud] y [!DNL Analytics]. Consulte [Obtención de ID de visitante de Analytics](../../library/get-set/getanalyticsvisitorid.md).
+

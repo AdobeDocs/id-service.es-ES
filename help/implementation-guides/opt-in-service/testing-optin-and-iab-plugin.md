@@ -2,7 +2,7 @@
 description: Una vez que haya habilitado el servicio de inclusión (Opt-in) en su sitio web, utilice los métodos de validación y las herramientas de desarrollo de su navegador para comprobar que el servicio funcione correctamente.
 title: Validación del servicio de inclusión (Opt-in)
 exl-id: f0bcb32a-ccad-40a4-b031-2584e4136ace
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 96%
@@ -113,3 +113,4 @@ Si una de las siguientes opciones no es válida, no verá ninguna solicitud a lo
 
 * Los propósitos 1, 2 O 5 no están aprobados.
 * El ID del proveedor de Audience Manager no está aprobado.
+

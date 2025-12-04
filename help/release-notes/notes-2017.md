@@ -3,7 +3,7 @@ description: Versiones de funcionalidades, actualizaciones o cambios en el servi
 keywords: Servicio de ID
 title: Notas de la versión 2017
 exl-id: 0b51d3b1-e405-4473-9e1a-f89a55250e5e
-source-git-commit: 384b292413bbc7e43ade97e442ab7195f3b26c7a
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 99%
@@ -210,3 +210,4 @@ Enero de 2017
 ## Años anteriores {#section-aaabe2b7b0f04641b24acffc11cd7d2e}
 
 Notas de la versión del servicio de ID anteriores.
+

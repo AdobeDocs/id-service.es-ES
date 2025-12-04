@@ -3,7 +3,7 @@ description: Estas instrucciones están destinadas a los clientes de Analytics, 
 keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target
 exl-id: d55baa11-e8ec-4c30-b6bc-caccf4c284ba
-source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 98%
@@ -206,7 +206,7 @@ Compruebe el identificador SDID en la solicitud de JavaScript. El SDID de Analyt
 Si las pruebas devuelven un AID, esto indica cualquiera de los siguientes factores:
 
 * Usted es un visitante que regresa en el proceso de migrar [!DNL Analytics] ID de heredados.
-* Tiene un [período de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) habilitado.
+* Tiene un [período de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) habilitado.
 
 Si ve un AID, compare su valor con el [!DNL Target] mboxMCAVID de. Estos valores son idénticos cuando el servicio de ID se ha implementado correctamente.
 
@@ -238,3 +238,4 @@ Si habilitó un periodo de gracia:
 
 * Asegúrese de que el ID de Analytics (AID) y el MID estén en la solicitud de imagen.
 * Recuerde deshabilitar el periodo de gracia cuando se cumplan los [criterios para ello](../implementation-guides/setup-aam-analytics-target.md#section-aceacdb7d5794f25ac6ff46f82e148e1).
+

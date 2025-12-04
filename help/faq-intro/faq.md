@@ -3,10 +3,10 @@ description: Preguntas más frecuentes sobre las características, la funcionali
 keywords: Servicio de ID
 title: Preguntas más frecuentes sobre el servicio de ID
 exl-id: 4dd2220c-8a9d-4e27-838b-be5ad357cb3e
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -87,3 +87,4 @@ Consulte [Experience Cloud](../reference/cors.md#concept-6c280446990d46d88ba9da1
 >[!MORELIKETHIS]
 >
 >* [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
+

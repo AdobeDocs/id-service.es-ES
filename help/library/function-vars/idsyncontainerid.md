@@ -3,9 +3,9 @@ description: Esta propiedad establece el ID del contenedor de origen de datos qu
 keywords: Servicio de ID
 title: idSyncContainerID
 exl-id: 6c4cd41b-902b-4872-8c3f-475a834b76f4
-source-git-commit: d8b230331d983bc95f96516243c3a65037dea7f0
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '319'
 ht-degree: 96%
 
 ---
@@ -85,3 +85,4 @@ Si ha implementado [!UICONTROL DIL] *y* VisitorAPI.js en la misma página:
 
 * El código de servicio de ID de visitante tiene prioridad sobre los DIL en las sincronizaciones de ID.
 * Establezca solo la `idSyncContainerID` configuración de en el código de servicio de ID.
+

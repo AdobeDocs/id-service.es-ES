@@ -3,7 +3,7 @@ description: Versiones de funcionalidades, actualizaciones o cambios en el servi
 keywords: Servicio de ID
 title: Notas de la versión de 2020
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
-source-git-commit: dce2c0036f697507381d0763c2f6a9538155681c
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 99%
@@ -47,3 +47,4 @@ Se corrigió un problema de rendimiento en `Internet-Explorer (IE) 11` cuando EC
 * Se ha corregido un problema que se producía cuando la opción de activación no se configuraba como `doesOptInApply=false` y `isIabContext=true`.
 
 Consulte las [notas de la versión del Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es) para ver las notas de revisión mensuales de todos los productos.
+

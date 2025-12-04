@@ -3,7 +3,7 @@ description: Versiones de funcionalidades, actualizaciones o cambios en el servi
 keywords: Servicio de ID
 title: Notas de la versión 2019
 exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
-source-git-commit: 503683b66b6022b7c1fecbfb197fe17e05ae9c64
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -67,3 +67,4 @@ Compatibilidad con el complemento de Audience Manager para IAB TCF, disponible a
 |---|---|
 | El indicador `disableIdSyncs` no funciona cuando se pasa una cadena. | Solucionado. Ahora se aceptan los valores configurados en el `disableidSyncs` parámetro para la `getInstance` función. |
 | Los iFrames de terceros no reciben ECID | Se ha corregido el ECID en Safari Mobile y los ECID en varios iFrames que no funcionaban. |
+

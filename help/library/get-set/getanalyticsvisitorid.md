@@ -3,7 +3,7 @@ description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almace
 keywords: Servicio de ID
 title: getAnalyticsVisitorID
 exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
-source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 99%
@@ -47,8 +47,9 @@ Verá el parámetro `aid` en una cadena de consulta cuando:
 
 **Caso 2**
 
-Verá el `aid` parámetro en una cadena de consulta cuando su organización utilice un [periodo de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) antes de implementar completamente el servicio de ID. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ID de [!DNL Experience Cloud]).
+Verá el `aid` parámetro en una cadena de consulta cuando su organización utilice un [periodo de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) antes de implementar completamente el servicio de ID. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ID de [!DNL Experience Cloud]).
 
 >[!MORELIKETHIS]
 >
 >* [Cookies de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html?lang=es)
+

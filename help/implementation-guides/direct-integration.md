@@ -3,7 +3,7 @@ description: Esta implementación permite a los clientes utilizar el servicio de
 keywords: Servicio de ID
 title: Integración directa con el servicio de identidad de Experience Cloud
 exl-id: 29565b74-5fe7-41f7-b278-6a90559faab9
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 96%
@@ -65,7 +65,7 @@ El servicio de ID devuelve datos en un objeto JSON como se muestra a continuaci�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_orgid</span> </p> </td> 
-   <td colname="col2"> <p>Su ID de organización de Experience Cloud. Para obtener ayuda para encontrar este ID, consulte <a href="../reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de identidad del Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Su ID de organización de Experience Cloud. Para obtener ayuda para encontrar este ID, consulte <a href="../reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de identidad de Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> d_cid</span> </p> </td> 
@@ -122,3 +122,4 @@ Algunos parámetros de respuesta forman parte de la solicitud y se han definido 
   </tr> 
  </tbody> 
 </table>
+

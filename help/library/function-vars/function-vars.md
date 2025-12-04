@@ -3,10 +3,10 @@ description: Configure el servicio de ID pasando estas propiedades al método es
 keywords: ID de organización;servicio de ID
 title: Configuraciones
 exl-id: a369f624-d263-4287-bb7e-b89d584fa245
-source-git-commit: 384b292413bbc7e43ade97e442ab7195f3b26c7a
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,3 +36,4 @@ Artículos relacionados:
 + [secureCookie](securecookie.md)
 + [useCORSOnly](use-cors-only.md)
 + [whitelistParentDomain y whitelistIframeDomains](whitelistdomain.md)
+

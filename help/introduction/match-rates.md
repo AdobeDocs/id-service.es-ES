@@ -3,10 +3,10 @@ description: Resumen de los procesos de sincronización de ID y las tasas de coi
 keywords: Servicio de ID
 title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
-source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 96%
+source-wordcount: '747'
+ht-degree: 95%
 
 ---
 
@@ -36,9 +36,9 @@ Cuando un visitante llega a su sitio y carga una página, la `Visitor.getInstanc
 
 **Paso 2: Carga del iFrame**
 
-Mientras se carga el cuerpo de la página, el servicio de ID carga un iFrame llamado *`Destination Publishing iFrame`*. El [!UICONTROL iFrame de publicación de destino] se carga en un dominio aparte de la página principal. Este diseño ayuda a garantizar el rendimiento de la página y mejora la seguridad debido al siguiente comportamiento del iFrame:
+Mientras se carga el cuerpo de la página, el servicio de ID carga un iFrame llamado *`Destination Publishing iFrame`*. El [!UICONTROL Destination Publishing iFrame] se carga en un dominio aparte de la página principal. Este diseño ayuda a garantizar el rendimiento de la página y mejora la seguridad debido al siguiente comportamiento del iFrame:
 
-* Se carga asincrónicamente en relación con la página principal. Esto significa que la página principal se puede cargar de manera independiente del [!UICONTROL iFrame de publicación de destino]. Al cargarse el iFrame y cargarse los píxeles de sincronización de ID desde dentro del iFrame, la página principal no se verá afectada, como tampoco lo hará la experiencia del usuario.
+* Se carga asincrónicamente en relación con la página principal. Esto significa que la página principal se puede cargar de manera independiente del [!UICONTROL Destination Publishing iFrame]. Al cargarse el iFrame y cargarse los píxeles de sincronización de ID desde dentro del iFrame, la página principal no se verá afectada, como tampoco lo hará la experiencia del usuario.
 * Se carga lo más rápido posible. Si esto sucede con demasiada rapidez, puede cargar el iFrame después del evento de carga de ventana (no recomendado). Consulte [idSyncAttachIframeOnWindowLoad](../library/function-vars/idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4) para obtener más información.
 * Impide que el código dentro del iFrame obtenga acceso a la página principal, o produzca algún efecto en ella.
 
@@ -69,8 +69,9 @@ El término *`Sync Services`* hace referencia a las tecnologías internas de [!D
 
 ## Sincronización de ID con Adobe Advertising Cloud {#section-642c885ea65d45ffb761f78838735016}
 
-[!DNL Adobe Advertising Cloud] (antes [!DNL Adobe Media Optimizer]) es una excepción del proceso de sincronización de ID basado en iFrame. Puesto que [!DNL Advertising Cloud] es un dominio de confianza, las sincronizaciones de ID se realizan en la página principal en lugar de en el [!UICONTROL iFrame de publicación de destino]. Durante la sincronización, el servicio de ID llama a [!DNL Advertising Cloud] en `cm.eversttech.net`, que es un nombre de dominio heredado que utilizaba [!DNL Advertising Cloud] antes de su adquisición por parte de Adobe. El envío de datos a [!DNL Advertising Cloud] ayuda a mejorar las tasas de coincidencia y se realiza automáticamente para los clientes de servicio de ID que utilizan la versión 2.0 (o posterior). Consulte [Cookies de Advertising Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-advertising-cloud.html?lang=es).
+[!DNL Adobe Advertising Cloud] (antes [!DNL Adobe Media Optimizer]) es una excepción del proceso de sincronización de ID basado en iFrame. Puesto que [!DNL Advertising Cloud] es un dominio de confianza, las sincronizaciones de ID se realizan en la página principal en lugar de en el [!UICONTROL Destination Publishing iFrame]. Durante la sincronización, el servicio de ID llama a [!DNL Advertising Cloud] en `cm.eversttech.net`, que es un nombre de dominio heredado que utilizaba [!DNL Advertising Cloud] antes de su adquisición por parte de Adobe. El envío de datos a [!DNL Advertising Cloud] ayuda a mejorar las tasas de coincidencia y se realiza automáticamente para los clientes de servicio de ID que utilizan la versión 2.0 (o posterior). Consulte [Cookies de Advertising Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-advertising-cloud.html?lang=es).
 
 >[!MORELIKETHIS]
 >
 >* [Explicación de las llamadas al dominio Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es)
+

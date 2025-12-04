@@ -3,10 +3,10 @@ description: Junto con el ID de visitante de Experience Cloud, se pueden asociar
 keywords: Servicio de ID
 title: ID de cliente y estados de autenticación
 exl-id: 0215225c-20f5-4e44-a368-b2df683aca9d
-source-git-commit: 159b37e360b586bbada13e34793009e3067de668
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visita
 
 >[!IMPORTANT]
 >
->Los atributos de clientes y la funcionalidad de los servicios principales requieren el uso de `setCustomerIDs` (sincronización de ID de clientes). La sincronización de los ID de cliente es un método de identificación opcional para [!DNL Analytics]. [!DNL Target] exige el uso de `Visitor.AuthState.AUTHENTICATED` para que funcionen los atributos de cliente. Consulte [Servicios principales - Cómo activar sus soluciones](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es) para ver ejemplos.
+>Los atributos de clientes y la funcionalidad de los servicios principales requieren el uso de `setCustomerIDs` (sincronización de ID de clientes). La sincronización de los ID de cliente es un método de identificación opcional para [!DNL Analytics]. [!DNL Target] exige el uso de `Visitor.AuthState.AUTHENTICATED` para que funcionen los atributos de cliente. Consulte [Servicios principales - Cómo habilitar sus soluciones](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es) para ver ejemplos.
 
 A partir del servicio de identidad de Experience Cloud de la versión 1.5 (o posterior), `setCustomerIDs` incluye el objeto opcional `AuthState`. `AuthState` identifica a los visitantes en función de su estado de autenticación (por ejemplo, conectado, desconectado). El estado de autenticación se establece con un valor de estado indicado en la tabla. El estado de autenticación se arroja como un número entero.
 
@@ -68,7 +68,7 @@ Puede asignar estados de autenticación a los usuarios, según las acciones que 
    <td colname="col2"> <p>Este estado se puede usar para escenarios como: </p> <p> 
      <ul id="ul_086C7446D258443DA7AF5BB96A6AAEC7"> 
       <li id="li_7845BBD62D7B4362AD3FE33DEDA8FBA1">Leer un correo electrónico (esta acción probablemente significa que el lector es el destinatario deseado, pero también se podría haber reenviado el correo electrónico). </li> 
-      <li id="li_FAB7ACFC69624631BD01FC0ED84B23C5">Navegando de un correo electrónico a una página de aterrizaje haciendo clic. </li> 
+      <li id="li_FAB7ACFC69624631BD01FC0ED84B23C5">Navegando de un correo electrónico a una página de destino haciendo clic. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -216,4 +216,5 @@ El servicio de ID de [!DNL Experience Cloud] admite ID de clientes y estados de 
 
 ## Aviso para clientes de Analytics y Audience Manager {#section-3a8e9d51e71c4c6e865184b81ed9d99b}
 
-Si va a pasar ID declarados a [!DNL Audience Manager], el objeto `userid` deberá coincidir con el código de integración asociado a la fuente de datos. Para obtener más información, consulte la sección [!UICONTROL Servicio de ID de visitante] en la documentación [Configurar código de normas de fusión](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html?lang=es#configure-merge-rule-code).
+Si va a pasar ID declarados a [!DNL Audience Manager], el objeto `userid` deberá coincidir con el código de integración asociado a la fuente de datos. Para obtener más información, consulte la sección [!UICONTROL Visitor ID Service] en la documentación de [Configurar código de reglas de combinación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-start.html?lang=es#configure-merge-rule-code).
+

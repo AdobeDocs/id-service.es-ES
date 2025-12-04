@@ -3,7 +3,7 @@ description: Esta función se ha diseñado principalmente para ayudar a los clie
 keywords: Servicio de ID
 title: resetState
 exl-id: 8e8cb299-bb89-4bc1-8841-3091ce0cbd81
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 99%
@@ -89,3 +89,4 @@ var sdid2 = visitor.getSupplementalDataID("consumer4"); // sdid2: 5678
 **Administrador dinámico de etiquetas (DTM)**
 
 Actualmente, no hay ninguna ruta de configuración de DTM para `visitor.resetState()`.
+

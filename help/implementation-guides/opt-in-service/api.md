@@ -2,7 +2,7 @@
 description: API para la biblioteca de Opt-in y referencia de ajustes de configuración.
 title: Referencia de Opt-in
 exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 99%
@@ -30,7 +30,7 @@ Esta sección trata sobre el uso de la API para configurar Opt-in. Buena parte d
 
 Se proporcionan configuraciones de Opt-in en la función `getInstance()` de Visitor JavaScript, que crea una instancia del objeto global `adobe`. A continuación se enumeran las configuraciones de Visitor JS relacionadas con el servicio Opt-in.
 
-**`doesOptInApply (boolean or function that evaluates to a boolean)`**
+**`doesOptInApply (boolean or function that evaluates to a boolean)`**:
 
 Si es falso, indica que los visitantes no tienen que incluirse. Hace que Experience Cloud cree cookies independientemente de las categorías que se hayan incluido. Esta configuración habilita o deshabilita la inclusión de forma integral.
 
@@ -66,11 +66,11 @@ Función que aprueba o incluye al visitante en todas las categorías de una list
 
 Función que rechaza o excluye al visitante de todas las categorías especificadas.
 
-**`adobe.optIn.approveAll()`**
+**`adobe.optIn.approveAll()`**:
 
 Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de su respuesta.
 
-**`adobe.optIn.denyAll()`**
+**`adobe.optIn.denyAll()`**:
 
 Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de la respuesta.
 
@@ -158,7 +158,7 @@ Comprueba si el cliente ha preaprobado una o más categorías. (Si se pasaron en
 
 **`fetchPermissions(callback, shouldAutoSubscribe)`**
 
-API asíncrona para recuperar la lista de permisos. La llamada de retorno se llama con la lista de permisos, una vez que se ha completado el proceso de concesión/denegación de permisos. **:**`shouldAutoSubscribe` una utilidad de ayuda que suscribe automáticamente esta devolución de llamada a todos los eventos futuros. Esto significa que se llamará a la devolución de llamada cada vez que se active un desencadenador de aprobación o denegación en la inclusión. De este modo siempre se mantiene actualizado sin suscribirse a los eventos.
+API asíncrona para recuperar la lista de permisos. La llamada de retorno se llama con la lista de permisos, una vez que se ha completado el proceso de concesión/denegación de permisos. **:**`shouldAutoSubscribe` una utilidad de ayuda que suscribe automáticamente esta devolución de llamada a todos los eventos futuros. Esto significa que se llamará a la devolución de llamada cada vez que se active un activador de aprobación o denegación en la inclusión. De este modo siempre se mantiene actualizado sin suscribirse a los eventos.
 
 **Ejemplo**
 
@@ -214,3 +214,4 @@ Completa activadores de evento una vez terminado el proceso de aprobación. Si r
   adobe.optIn.on("complete", callback); 
 </codeph>
 ```
+

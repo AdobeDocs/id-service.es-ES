@@ -3,10 +3,10 @@ description: Estas instrucciones están destinadas a los clientes de A4T con imp
 keywords: Servicio de ID
 title: Uso del servicio ID con A4T y una implementación de Target en el lado del servidor
 exl-id: 6f201378-29a1-44b7-b074-6004246fc999
-source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 98%
+source-wordcount: '803'
+ht-degree: 96%
 
 ---
 
@@ -101,7 +101,7 @@ Si su visitante no tiene una cookie de AMCV, la carga útil omite estos pares cl
 
 ## Paso 3: Adición de la carga útil a la llamada de Target {#section-62451aa70d2f44ceb9fd0dc2d4f780f7}
 
-Una vez que el servidor recibe los datos de carga útil del servicio de ID, deberá crear una instancia de código adicional para fusionarla con los datos transferidos a [!DNL Target]. El objeto JSON final transferido a [!DNL Target] tendría un aspecto similar a este:
+Una vez que el servidor recibe los datos de carga útil del servicio de ID, deberá crear una instancia de código adicional para combinarla con los datos transferidos a [!DNL Target]. El objeto JSON final transferido a [!DNL Target] tendría un aspecto similar a este:
 
 ```js
 { 
@@ -152,10 +152,10 @@ Response.send("
 
 **Ajustes de configuración de DTM**
 
-Agregue estos pares nombre-valor a la sección **[!UICONTROL General > Configuración]** de su instancia del servicio de ID:
+Agregue estos pares nombre-valor a la sección **[!UICONTROL General > Settings]** de su instancia del servicio de ID:
 
-* **[!UICONTROL Nombre:]** serverState
-* **[!UICONTROL Valor:]** %serverState%
+* **[!UICONTROL Name:]** serverState
+* **[!UICONTROL Value:]** %serverState%
 
   >[!IMPORTANT]
   >
@@ -197,3 +197,4 @@ En este punto, el servidor web envía el contenido de la página al navegador de
 >[!MORELIKETHIS]
 >
 >* [Paquete de servicio de ID del lado de servidor desde el administrador de paquetes de nodos](https://www.npmjs.com/package/@adobe-mcid/visitor-js-server)
+

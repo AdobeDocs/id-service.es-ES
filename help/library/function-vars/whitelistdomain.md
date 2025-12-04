@@ -3,9 +3,9 @@ description: Estas configuraciones permiten que diferentes instancias del códig
 keywords: Servicio de ID
 title: whitelistParentDomain y whitelistIframeDomains
 exl-id: 0ed1da79-7129-4f5f-b7ad-901348a13866
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '859'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Ambos elementos de configuración son obligatorios cuando se utiliza este códig
 
 ## Ejemplo de código {#section-09d0049fe88a473baa69d404c50bf8ae}
 
-Su código de [!UICONTROL servicio de ID] configurado puede tener un aspecto similar al de este ejemplo.
+Su [!UICONTROL ID service] código de configurado puede tener un aspecto similar al de este ejemplo.
 
 ```js
 //Instantiate Visitor 
@@ -184,3 +184,4 @@ El servicio de ID admite un conjunto limitado de métodos API públicos al imple
   </tr> 
  </tbody> 
 </table>
+

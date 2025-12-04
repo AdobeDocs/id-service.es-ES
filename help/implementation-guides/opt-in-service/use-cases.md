@@ -2,10 +2,10 @@
 description: Casos de uso y soluciones de ejemplo para la administración del servicio de inclusión (Opt-in).
 title: Casos de uso de Opt-in
 exl-id: 4c57685f-40b7-4af4-8527-3c2795586f0f
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 99%
+ht-degree: 90%
 
 ---
 
@@ -33,13 +33,13 @@ Estos casos de uso son ejemplos del uso del servicio de inclusión (Opt-in).
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analytics puede recopilar en estado previo al consentimiento, pero el resto de las bibliotecas no se pueden cargar hasta que se reciba el consentimiento </p> </td> 
+   <td colname="col1"> <p>Analytics puede recopilar previamente al consentimiento, pero el resto de las bibliotecas no se pueden cargar hasta que se reciba el consentimiento </p> </td> 
    <td colname="col2"> <p>Utilice la inclusión para habilitar la categoría Analytics previamente al consentimiento </p> </td> 
    <td colname="col3"> <p>Analytics utiliza el identificador de Analytics en lugar de ECID en la colección previa al consentimiento. Una vez aprobado el ECID, se utilizará un nuevo identificador y el visitante recibirá un ECID que se puede utilizar para la activación y las integraciones. </p> <p>Se espera la fragmentación de visitantes en estado previo/posterior al consentimiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>La medición de origen está bien para recopilarla previamente al consentimiento. Se ha impedido el uso de todos los demás tipos de datos hasta que se reciba el consentimiento. </p> </td> 
-   <td colname="col2"> <p>Utilice la inclusión para habilitar bibliotecas de Analytics + ECID previamente al consentimiento. </p> <p>Añada la configuración disablethirdpartycookies a la biblioteca ECID para bloquear las cookies de terceros y las sincronizaciones de ID previamente al consentimiento </p> </td> 
+   <td colname="col2"> <p>Utilice la inclusión para habilitar bibliotecas de Analytics + ECID previamente al consentimiento. </p> <p>Agregue la configuración disablethirdpartycookies a la biblioteca ECID para bloquear las cookies de terceros y las sincronizaciones de ID previamente al consentimiento </p> </td> 
    <td colname="col3"> <p>La llamada de Demdex de Adobe se activará para la recuperación de ECID, pero no habrá presente ninguna cookie de Demdex, otras cookies de terceros ni sincronizaciones de ID. </p> <p>Mantiene al visitante coherente en estado previo/posterior al consentimiento para Analytics. La colección en estado previo al consentimiento estará vinculada a la recopilación de datos posterior al consentimiento. </p> </td> 
   </tr> 
   <tr> 
@@ -54,3 +54,4 @@ Estos casos de uso son ejemplos del uso del servicio de inclusión (Opt-in).
   </tr> 
  </tbody> 
 </table>
+

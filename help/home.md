@@ -3,7 +3,7 @@ description: El servicio de identidad de Experience Cloud habilita el marco de i
 keywords: Servicio de ID; Servicio de identidad; Servicio de identidad de Experience Cloud
 title: Servicio de identidad de Experience Cloud
 exl-id: fe1368db-06ca-4c79-b655-b7064e316d74
-source-git-commit: 507b5c9fed0d6d16828522c0fd9c7db4fdeefe3d
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 95%
@@ -57,3 +57,4 @@ Para comprender mejor cómo Adobe ayuda a identificar visitantes de forma exclus
   </tr> 
  </tbody> 
 </table>
+

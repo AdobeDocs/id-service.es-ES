@@ -3,10 +3,10 @@ description: Cambiar el nombre de dominio predeterminado utilizado por las llama
 keywords: Servicio de ID
 title: audienceManagerServer y audienceManagerServerSecure
 exl-id: b740eb5c-ac4e-46f4-ba7c-1080d8d9292d
-source-git-commit: 7ef084bc1add5a4ea8c7be738055b0c21e247eea
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Normalmente, el servicio de ID de [!DNL Experience Cloud] realiza llamadas a [!D
 Estas configuraciones requieren que utilice:
 
 * El nombre de [!DNL Audience Manager] subdominio de registro de para su empresa. Verifique u obtenga este nombre de su consultor.
-* El nombre de subdominio asociado con su [!UICONTROL ID de organización].
+* El nombre de subdominio asociado con su [!UICONTROL Organization ID].
 * *Ambos* parámetros de configuración con el mismo nombre de subdominio.
 
 **Ejemplo de código**
@@ -45,3 +45,4 @@ var visitor = Visitor.getInstance("Insert Experience Cloud Organization ID here"
      } 
 );
 ```
+

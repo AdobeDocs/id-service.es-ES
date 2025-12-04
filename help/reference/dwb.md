@@ -3,9 +3,9 @@ description: Siga estas instrucciones para integrar el campo Experience Cloud ID
 keywords: Servicio de ID
 title: Data Workbench y el servicio de identidad de Experience Cloud
 exl-id: 1903918d-44e4-4790-ab1f-49f5bb701e31
-source-git-commit: cb89ac70e37f35d5e4e2b971f2df9645304522f8
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Actualizar [Data Workbench](https://experienceleague.adobe.com/docs/data-workben
 
 1. Localice el archivo de configuración actual del [grupo de descodificadores](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/dataset-include-files/types-dataset-inc-files/c-text-file-dec-groups.html?lang=es).
 
-   Normalmente, [!DNL Decoder Group] se encuentra en un [!UICONTROL Administrador de perfiles] en esta ruta: `Dataset\Log Processing\Decoding Instructions.cfg`. 1. Copie el formato del decodificador actual desde el archivo de configuración.
+   Normalmente, [!DNL Decoder Group] se encuentra en un [!UICONTROL Profile Manager] en esta ruta: `Dataset\Log Processing\Decoding Instructions.cfg`. 1. Copie el formato del decodificador actual desde el archivo de configuración.
 1. Pegue el formato del decodificador debajo del original.
 1. Abra el formato del decodificador y añada estas nuevas posiciones de campo al final de la lista:
 
@@ -827,3 +827,4 @@ Log Processing Include = LogProcessingInclude:
   Stage = string: Default
   Transformations = vector: 0 items
 ```
+

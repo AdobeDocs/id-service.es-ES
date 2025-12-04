@@ -3,7 +3,7 @@ description: Notas de la versión y actualizaciones para 2015.
 keywords: Servicio de ID
 title: Notas de la versión 2015
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
-source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 96%
@@ -37,7 +37,7 @@ Agosto de 2015
   Esto solo afectaba a algunos clientes que cumplían *todos* los criterios siguientes:
 
    * Uso del servicio de ID.
-   * Se habilitó un [período de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) *o* están usando cookies de origen y los usuarios bloquearon cookies de terceros.
+   * Se habilitó un [período de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *o* están usando cookies de origen y los usuarios bloquearon cookies de terceros.
    * Tenían páginas con dominios de nivel superior en varias partes.
 
 Las revisiones de documentación de esta versión incluyen:
@@ -76,3 +76,4 @@ Se ha corregido la administración del tiempo de espera en las solicitudes para 
 Enero de 2015
 
 Búsqueda remodelada de etiqueta `<head>/<body>` para el contenedor de etiquetas `<script>` de solicitud JSONP, así como la creación de la etiqueta `<script>` para la cuenta para distintas implementaciones DOM (HTML vs. XHTML) con posibles configuraciones diferentes de distinción de mayúsculas y minúsculas. (AN-9355)
+

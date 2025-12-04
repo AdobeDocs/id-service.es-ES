@@ -3,7 +3,7 @@ description: Versiones de funcionalidades, actualizaciones o cambios en el servi
 keywords: Servicio de ID
 title: Notas de la versión de 2022
 exl-id: 2e2de89e-75b3-484d-ae4f-99054ef9956f
-source-git-commit: 790542037f3240cf4eb8635549e240b224070f85
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
@@ -27,3 +27,4 @@ En la versión de Visitor 5.4.0 se incluyeron las siguientes actualizaciones:
 
 * Compatibilidad con la capacidad de configurar la duración acumulada de `s_ecid` cookie mediante `cookieLifetime` configuración.
 * Corrección de parches para el problema del explorador Firefox cuando una página se carga en un iFrame secundario.
+

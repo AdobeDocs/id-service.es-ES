@@ -3,7 +3,7 @@ description: La función que desempeña el servicio de identidad de Experience C
 keywords: Servicio de ID
 title: Información general
 exl-id: d907e299-bde0-4b5f-8c16-867a4eaa8be1
-source-git-commit: 2c87022baeb09a8767d0d9627bf2b607c51b2503
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 96%
@@ -38,3 +38,4 @@ En resumen, el servicio de ID hace lo siguiente:
 * Recibe alias y asignaciones de ID de [!DNL Experience Cloud] clientes y socios.
 * Gestiona la sincronización de ID en [!DNL Experience Cloud].
 * Admite la sincronización de ID con terceros distintos en el ecosistema tecnológico de publicidad.
+

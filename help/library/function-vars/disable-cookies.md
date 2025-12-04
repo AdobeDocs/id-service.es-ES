@@ -3,10 +3,10 @@ description: Un indicador booleano opcional que evita que el servicio de identid
 keywords: Servicio de ID
 title: disableThirdPartyCookies
 exl-id: 19d12822-0e17-4a1c-8e9c-25a22e20a4a8
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -18,9 +18,9 @@ Un indicador booleano opcional que evita que el servicio de identidad de Experie
 >
 >Esta configuración era `idSyncDisable3rdPartySyncing` y pasó a denominarse `disableThirdPartyCookies` en la versión 3.0 del 18 de enero de 2018.
 
-**Sintaxis:** `disableThirdPartyCookies: true|false` (el valor predeterminado es `false`) Para `VisitorAPI.js` v3.0.0 o posterior.
+**Sintaxis:** `disableThirdPartyCookies: true|false` (el valor predeterminado es `false`.) Para `VisitorAPI.js` v3.0.0 o posterior.
 
-Cuando `disableThirdPartyCookies: true`, el servicio de identidad no devuelve la cookie demdex.net de terceros (consulte [Cookies y el servicio de Experience Cloud ID](../../introduction/cookies.md)). Si el visitante de un sitio tiene ya esta cookie en su explorador, el servicio de ID no la usará para crear un nuevo Experience Cloud ID (MID) o devolver un ID existente. En lugar de eso, el servicio de ID crea un MID aleatorio nuevo en la cookie de origen. Una vez activado, pueden recopilarse datos con el servicio de ID para compartirlos en distintas soluciones de Experience Cloud.
+Cuando `disableThirdPartyCookies: true`, el servicio de identidad no devuelve la cookie demdex.net de terceros (consulte [Cookies y el servicio de Experience Cloud ID](../../introduction/cookies.md)). Si el visitante de un sitio tiene ya esta cookie en su explorador, el servicio de ID no la usará para crear un nuevo Experience Cloud ID (MID) o devolver un ID existente. En lugar de eso, el servicio de ID crea un MID aleatorio nuevo en la cookie de origen. Una vez habilitado, pueden recopilarse datos con el servicio de ID para compartirlos en distintas soluciones de Experience Cloud.
 
 **Ejemplo de código**
 
@@ -37,3 +37,4 @@ var visitor = Visitor.getInstance ("Insert Experience Cloud organization ID here
    disableThirdPartyCookies: true 
 });
 ```
+

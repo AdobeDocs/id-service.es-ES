@@ -3,7 +3,7 @@ description: Estas instrucciones están destinadas a los clientes de Analytics y
 keywords: Servicio de ID
 title: Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager
 exl-id: e31720a1-5c89-4084-88f6-443994dbb2f4
-source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 98%
@@ -158,7 +158,7 @@ Coloque el `[!UICONTROL VisitorAPI.js]` archivo dentro de las etiquetas `<head>`
 
 ## Paso 8: (Opcional) Configuración de un período de gracia {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un [periodo de gracia temporal](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration). Los períodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un periodo de gracia.
+Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un [periodo de gracia temporal](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration). Los períodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un periodo de gracia.
 
 **Implementación parcial**
 
@@ -204,3 +204,4 @@ Si habilitó un periodo de gracia:
 
 * Asegúrese de que el ID de Analytics (AID) y el MID estén en la solicitud de imagen.
 * Recuerde deshabilitar el período de gracia cuando se cumplan los criterios para ello.
+

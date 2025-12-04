@@ -1,8 +1,8 @@
 ---
-description: Simplifique la activación de la solución Experience Cloud para la inclusión con Adobe Experience Platform Launch.
+description: Simplifique la habilitación de la solución Experience Cloud para la inclusión con Adobe Experience Platform Launch.
 title: Configuración de Opt-in con Launch
 exl-id: 9e9d1e2b-196f-474c-b872-de4329dcb017
-source-git-commit: 5858933e9d51ec97b1ba7a8fbe483f1919954543
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # Configuración de inclusión con Experience Platform Launch {#configuring-opt-in-with-launch}
 
-Simplifique la activación de la solución Experience Cloud para la inclusión con Adobe Experience Platform Launch.
+Simplifique la habilitación de la solución Experience Cloud para la inclusión con Adobe Experience Platform Launch.
 
 ## Configurar un caso de inclusión con Experience Platform Launch {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
 
@@ -19,10 +19,11 @@ Con [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/e
 
 **Configurar la extensión Experience Cloud ID**
 
-Si la extensión Experience Cloud ID aún no está instalada, abra su propiedad, haga clic en *Extensiones* > *Catálogo*, sitúe el cursor sobre la extensión Experience Cloud ID y, a continuación, haga clic en *Instalar*.
+Si la extensión Experience Cloud ID aún no está instalada, abra su propiedad, haga clic en *Extensiones* > *Catálogo*, sitúe el puntero por encima de la extensión Experience Cloud ID y, a continuación, haga clic en *Instalar*.
 
-Para configurar la extensión, abra la pestaña *Extensiones* y pase el ratón sobre la extensión. A continuación, haga clic en *Configurar*.
+Para configurar la extensión, abra la pestaña *Extensiones* y pase el puntero por encima de la extensión. A continuación, haga clic en *Configurar*.
 
 Para obtener más información de referencia, lea la [Información general sobre la extensión del servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=es).
 
 ![](assets/optin-launch.jpg)
+

@@ -3,7 +3,7 @@ description: Información acerca de otras características y funcionalidades del
 keywords: Servicio de ID
 title: Referencia
 exl-id: 9a14300c-206c-4960-b594-517809f7e979
-source-git-commit: f856f0e7e4ff231bcdd0f351b0b330953b3f8e7b
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%
@@ -22,3 +22,4 @@ Información acerca de otras características y funcionalidades del servicio de 
 * [Requisitos del servicio de identidad de Experience Cloud](requirements.md)
 * [Video Heartbeat y el servicio de identidad de Experience Cloud](heartbeat.md)
 * [Data Workbench y el servicio de identidad de Experience Cloud](dwb.md)
+

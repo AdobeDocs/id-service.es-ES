@@ -3,10 +3,10 @@ description: Estos ejemplos tratan sobre dos casos de uso habituales relacionado
 keywords: Servicio de ID
 title: Casos de uso de integraciones directas
 exl-id: f2a55b90-8307-4242-b20a-6a3c367a251b
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 81%
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ Estos ejemplos tratan 2 casos de uso comunes relacionados con una integración d
 >* Para obtener más información sobre MID, consulte [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md).
 >
 
-## Caso de uso 1: Tengo un MID del servicio de identidad del Experience Cloud, pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
+## Caso de uso 1: Tengo un Experience Cloud ID (MID), pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
@@ -48,11 +48,11 @@ Estos ejemplos tratan 2 casos de uso comunes relacionados con una integración d
      <li id="li_4869572B40E54C54B88A2474DAC475A8">Su ID de proveedor de datos. Se trata de un ID único asignado a su compañía. Llamemos a esto ID 4444. </li> 
      <li id="li_05C8ED47488C4E289D84093127EC7B19">Su ID de visitante (9876). </li> 
      <li id="li_3D1556AD18C843828A362CC604A9F76B"> <i>(Opcional)</i> Un ID de estado para definir el estado de autenticación de este visitante. </li> 
-    </ul> <p>Y, si ocurre que tiene alguno de los otros parámetros enumerados en la guía de integración directa de <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"></a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph"> dcs_region</span>, etc.) también es correcto transferirlos. </p> </td> 
+    </ul> <p>Y, si ocurre que tiene alguno de los otros parámetros enumerados en la guía de integración directa de <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"></a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph"> dcs_region</span>, etc.), está bien pasarlos también. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ejemplo de solución y código</b> </p> </td> 
-   <td colname="col2"> <p>Dé este formato a la llamada al servicio de ID: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_mid=1234&d_cid=4444%019876%011&d_ver=2</span> </p> <p>Observe cómo la llamada de ejemplo contiene el: </p> 
+   <td colname="col2"> <p>Dé este formato a la llamada al servicio de ID: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_mid=1234&amp;d_cid=4444%019876%011&amp;d_ver=2</span> </p> <p>Observe cómo la llamada de ejemplo contiene el: </p> 
     <ul id="ul_0667FBFD8D3C46BDBD027F484691EC97"> 
      <li id="li_FAB1FAE703DB48D1A32EE72684028964">MID: <span class="codeph">d_mid=1234</span> </li> 
      <li id="li_C97B74FF444F4BB4B4A5CB1CBBE52249">MID unido a su ID único para el visitante: <span class="codeph">d_mid=1234&amp;d_cid=4444%019876%011</span> </li> 
@@ -83,11 +83,12 @@ Estos ejemplos tratan 2 casos de uso comunes relacionados con una integración d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Acciones</b> </p> </td> 
-   <td colname="col2"> <p>Dadas estas condiciones, realice una llamada al servicio de ID que incluya su ID de organización. </p> <p>Y, si ocurre que tiene alguno de los otros parámetros enumerados en la guía de integración directa de <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"></a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph"> dcs_region</span>, etc.) también es correcto transferirlos. </p> </td> 
+   <td colname="col2"> <p>Dadas estas condiciones, realice una llamada al servicio de ID que incluya su ID de organización. </p> <p>Y, si ocurre que tiene alguno de los otros parámetros enumerados en la guía de integración directa de <a href="../implementation-guides/direct-integration.md#concept-4cd3206a84bb4687af0b312ae09648b9" format="dita" scope="local"></a> (por ejemplo,<span class="codeph"> d_blob</span> o <span class="codeph"> dcs_region</span>, etc.), está bien pasarlos también. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ejemplo de solución y código</b> </p> </td> 
-   <td colname="col2"> <p>Dé este formato a la llamada al servicio de ID: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&d_ver=2</span> </p> <p>Observe cómo la llamada de ejemplo contiene su ID de organización, <span class="codeph">d_orgid=5555</span>. Devolvería un <span class="keyword">Experience Cloud</span> ID para este visitante. </p> </td> 
+   <td colname="col2"> <p>Dé este formato a la llamada al servicio de ID: </p> <p> <span class="codeph">https://dpm.demdex.net/id?d_orgid=5555&amp;d_ver=2</span> </p> <p>Observe cómo la llamada de ejemplo contiene su ID de organización, <span class="codeph">d_orgid=5555</span>. Devolvería un <span class="keyword">Experience Cloud</span> ID para este visitante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+

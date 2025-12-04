@@ -3,10 +3,10 @@ description: Versiones de funcionalidades, actualizaciones o cambios en el servi
 keywords: Servicio de ID
 title: Notas de la versión de 2018
 exl-id: ad3cccf1-2753-4ac9-a68c-15b2d62bbc1a
-source-git-commit: 06e935a4ba4776baa900d3dc91e294c92b873c0f
+source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -122,3 +122,4 @@ Versiones de funcionalidades, actualizaciones o cambios en el servicio de identi
   </tr> 
  </tbody> 
 </table>
+
