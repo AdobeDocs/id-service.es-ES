@@ -25,7 +25,7 @@ ht-degree: 98%
    + [Métodos de implementación](implementation-guides/implementation-methods.md)
    + [Guías de implementación](implementation-guides/implementation-guides.md)
    + [Implementación con etiquetas de Experience Platform](implementation-guides/ecid-implement-with-launch.md)
-   + [Implementar para Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview){target=_blank}
+   + [Implementar para Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/overview){target=_blank}
    + [Implementar para Target](implementation-guides/setup-target.md)
    + [Implementar para Analytics y Audience Manager](implementation-guides/setup-aam-analytics.md)
    + [Implementar para Analytics, Audience Manager y Target](implementation-guides/setup-aam-analytics-target.md)
