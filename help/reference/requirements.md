@@ -3,10 +3,10 @@ description: Lea esta sección para asegurarse de que está empleando las soluci
 keywords: Servicio de ID
 title: Requisitos del servicio de identidad de Experience Cloud
 exl-id: ebeac4c7-b36c-4a4e-9378-351fac5baf53
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+source-git-commit: 3c230d158e3094ebb13b0fa4f1eddb25eecde0b4
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 100%
+source-wordcount: '707'
+ht-degree: 88%
 
 ---
 
@@ -92,7 +92,7 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
   </tr> 
   <tr> 
    <td colname="col3"> <p> <span class="codeph"> s_code.js</span> </p> </td> 
-   <td colname="col4"> <p>H.27 </p> <p> <p>Nota:<span class="keyword"> Analytics</span> s_code versión H.27 ya no es compatible con la versión del servicio de ID 1.6.0. Actualice su código a la última versión de AppMeasurement. </p> </p> </td> 
+   <td colname="col4"> <p>H.27 </p> <p> <p>Nota: <span class="keyword"> Analytics</span> s_code versión H.27 ya no es compatible con la versión del servicio de ID 1.6.0. Actualice el código a la última versión de AppMeasurement. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col3"> <p>Video Heartbeat </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es" format="https" scope="external">Video Heartbeat 2.x para JavaScript</a>. </p> </td> 
@@ -105,11 +105,11 @@ En las siguientes secciones se enumeran las versiones de códigos mínimas que s
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <b> <span class="keyword"> Target </span> </b> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> mbox.js</span> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=es" format="https" scope="external">Código mbox</a>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> mbox.js</span> </p> <p>Consulte <a href="https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/at-js/overview" format="https" scope="external">Código mbox</a>. </p> </td> 
    <td colname="col4"> <p>61 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es" format="https" scope="external">Implementación de at.js</a>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> at.js</span> </p> <p>Consulte <a href="https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works" format="https" scope="external">Implementación de at.js</a>. </p> </td> 
    <td colname="col4"> <p>0.9.1 </p> </td> 
   </tr> 
  </tbody> 
@@ -135,4 +135,3 @@ Su código SDK debe haber sido habilitado para usar el servicio de ID. Habilite 
 >[!MORELIKETHIS]
 >
 >* [Biblioteca de códigos](../library/library.md#concept-ff27497375644a898d47984aefb21c97)
-
