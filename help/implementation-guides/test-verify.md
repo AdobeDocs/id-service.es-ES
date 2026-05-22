@@ -3,10 +3,21 @@ description: Estas instrucciones, herramientas y procedimientos le ayudan a dete
 keywords: Servicio de ID
 title: Comprobación y verificación del servicio de identidad de Experience Cloud
 exl-id: afdf9778-e73d-46ca-9d2f-a65abaae2fe6
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+TQID: https://experienceleague.adobe.com/LPXZ0ydoky48kzyRnMK0kHsfoQyK3mi5IeXM0vtQV0s
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 689
+ht-degree: 100%
 
 ---
 
@@ -30,7 +41,7 @@ La [herramienta de depuración de Adobe](https://experienceleague.adobe.com/docs
 
 ## Pruebas con la herramienta de depuración de Adobe {#section-861365abc24b498e925b3837ea81d469}
 
-Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de identidad de Experience Cloud &#x200B;](../introduction/cookies.md)para obtener más información sobre el MID.
+Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de identidad de Experience Cloud ](../introduction/cookies.md)para obtener más información sobre el MID.
 
 Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=es):
 
@@ -74,7 +85,7 @@ Para verificar el estado del servicio de ID con Charles:
 
 ## Comprender los resultados de Charles {#section-c10c3dc0bb9945cbaffcf6fec7082fab}
 
-Consulte esta sección para ver información sobre dónde y qué buscar al usar Charles para supervisar las llamadas HTTP.
+Consulte esta sección para ver información sobre dónde y qué buscar al usar Charles para monitorizar las llamadas HTTP.
 
 **Solicitudes del servicio de ID correctas en Charles**
 

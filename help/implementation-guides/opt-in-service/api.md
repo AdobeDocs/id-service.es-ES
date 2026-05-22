@@ -2,10 +2,20 @@
 description: API para la biblioteca de Opt-in y referencia de ajustes de configuración.
 title: Referencia de Opt-in
 exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+TQID: https://experienceleague.adobe.com/Fmah6TphSbKa3W6s6ew97Diz59Brj-2tpYKcxwzEj1o
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 99%
+source-wordcount: 916
+ht-degree: 98%
 
 ---
 
@@ -30,7 +40,7 @@ Esta sección trata sobre el uso de la API para configurar Opt-in. Buena parte d
 
 Se proporcionan configuraciones de Opt-in en la función `getInstance()` de Visitor JavaScript, que crea una instancia del objeto global `adobe`. A continuación se enumeran las configuraciones de Visitor JS relacionadas con el servicio Opt-in.
 
-**`doesOptInApply (boolean or function that evaluates to a boolean)`**:
+**`doesOptInApply (boolean or function that evaluates to a boolean)`**
 
 Si es falso, indica que los visitantes no tienen que incluirse. Hace que Experience Cloud cree cookies independientemente de las categorías que se hayan incluido. Esta configuración habilita o deshabilita la inclusión de forma integral.
 
@@ -66,11 +76,11 @@ Función que aprueba o incluye al visitante en todas las categorías de una list
 
 Función que rechaza o excluye al visitante de todas las categorías especificadas.
 
-**`adobe.optIn.approveAll()`**:
+**`adobe.optIn.approveAll()`**
 
 Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de su respuesta.
 
-**`adobe.optIn.denyAll()`**:
+**`adobe.optIn.denyAll()`**
 
 Si la solicitud de permiso de creación para su sitio está redactada de tal modo que un manto de visitante concede o deniega permiso a su sitio para la creación de cookies, utilice `approveAll()` o `denyAll()`, en función de la respuesta.
 
@@ -133,7 +143,7 @@ True o False, dependiendo del valor de estado. La inclusión podría devolver Fa
 **`approve(categories, shouldWaitForComplete)`**
 
 **`categories`**: una o más categorías a aprobar. Por ejemplo: `adobe.optIn.approve([adobe.OptInCategories.AAM, adobe.OptInCategories.ECID])`
-**`shouldWaitForComplete`**: (opcional) parámetro booleano, “false” de forma predeterminada. Si se pasa el valor “true”, Opt-in no completa el proceso de aprobación hasta que se realiza una llamada a `adobe.optIn.complete()`. Este proceso es similar a un flujo de trabajo.
+**`shouldWaitForComplete`**: parámetro booleano (opcional), falso de forma predeterminada. Si se pasa el valor “true”, Opt-in no completa el proceso de aprobación hasta que se realiza una llamada a `adobe.optIn.complete()`. Este proceso es similar a un flujo de trabajo.
 
 ```
 <codeblock>
