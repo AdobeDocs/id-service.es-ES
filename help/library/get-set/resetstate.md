@@ -3,10 +3,14 @@ description: Esta función se ha diseñado principalmente para ayudar a los clie
 keywords: Servicio de ID
 title: resetState
 exl-id: 8e8cb299-bb89-4bc1-8841-3091ce0cbd81
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+TQID: https://experienceleague.adobe.com/ud8yTufRC6V5T58oh20G65MYNTCZvMlK5FdHVrrZFpU
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 99%
+source-wordcount: 377
+ht-degree: 100%
 
 ---
 
@@ -27,7 +31,7 @@ Consulte los ejemplos de código que aparecen a continuación.
 
 **Sintaxis:** `visitor.resetState( *`state`*);`
 
-## Muestras de código {#section-d75b211bb4ea473887eb284de2ad838b}
+## Ejemplos de código {#section-d75b211bb4ea473887eb284de2ad838b}
 
 La implementación del servicio de ID afecta a cómo utilizaría esta función. Consulte la tabla siguiente para ver ejemplos.
 

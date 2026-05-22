@@ -3,10 +3,14 @@ description: Devuelve el ID de Analytics heredado (si lo hay) que se haya almace
 keywords: Servicio de ID
 title: getAnalyticsVisitorID
 exl-id: 82973de4-4257-4aab-9268-4ab124a01ee2
-source-git-commit: e185c7d2b7582b52adbe9b525be7868ab8bfa374
+TQID: https://experienceleague.adobe.com/xJRR3qXoJpCnyFqKuEZqvEs0MpPCCA0brWOT6WbngX4
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 99%
+source-wordcount: 306
+ht-degree: 97%
 
 ---
 
@@ -47,7 +51,7 @@ Verá el parámetro `aid` en una cadena de consulta cuando:
 
 **Caso 2**
 
-Verá el `aid` parámetro en una cadena de consulta cuando su organización utilice un [periodo de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) antes de implementar completamente el servicio de ID. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ID de [!DNL Experience Cloud]).
+Verá el `aid` parámetro en una cadena de consulta cuando su organización utilice un [periodo de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) antes de implementar completamente el servicio de ID. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ID de [!DNL Experience Cloud]).
 
 >[!MORELIKETHIS]
 >
