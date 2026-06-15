@@ -6,8 +6,8 @@ user-guide-description: El servicio de identidad de Adobe Experience Cloud ofrec
 user-guide-url: /content/help/en/id-service/using/home.html
 source-git-commit: 13bfd8b38596dd64f607c897a60bbeb2733b89bf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 96%
+source-wordcount: '378'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
    + [Métodos de implementación](implementation-guides/implementation-methods.md)
    + [Guías de implementación](implementation-guides/implementation-guides.md)
    + [Implementación con etiquetas de Experience Platform](implementation-guides/ecid-implement-with-launch.md)
-   + [Implementar para Analytics](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/overview){target=_blank}
+   + [Implementar para Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview){target=_blank}
    + [Implementar para Target](implementation-guides/setup-target.md)
    + [Implementar para Analytics y Audience Manager](implementation-guides/setup-aam-analytics.md)
    + [Implementar para Analytics, Audience Manager y Target](implementation-guides/setup-aam-analytics-target.md)
@@ -106,5 +106,5 @@ ht-degree: 96%
    + [Notas de la versión 2017](release-notes/notes-2017.md)
    + [Notas de la versión 2016](release-notes/notes-2016.md)
    + [Notas de la versión 2015](release-notes/notes-2015.md)
-+ [Prueba de hide-from-tocAnalytics oculta en el índice](analytics-test-file-hidetoc.md)
-+ [hide-from-tocArchivo de prueba oculto](hidden-file.md)
++ Prueba de {hide-from-toc}[Analytics oculta en el índice](analytics-test-file-hidetoc.md)
++ {hide-from-toc}[Archivo de prueba oculto](hidden-file.md)
