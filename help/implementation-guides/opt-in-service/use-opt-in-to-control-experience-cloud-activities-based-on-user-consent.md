@@ -48,7 +48,7 @@ Si no usa etiquetas de Experience Platform, puede establecer la configuración d
 
 Todo este proceso de configuración y back-end está preparado para proporcionar una interfaz para que los visitantes del sitio se presenten con opciones de consentimiento. Usted mismo puede crear esta interfaz de usuario o puede usar un socio de CMP (Plataforma de administración de consentimiento) para crear la interfaz de usuario.
 
-Al configurar una interfaz de usuario para usar [!UICONTROL Opt-in] con el fin de obtener el consentimiento, debe configurarse para llamar a las API que se conectarán con [!UICONTROL Opt-in] e informarlas para dar su consentimiento a algunas o todas las soluciones de Adobe Experience Cloud. Encontrará información detallada sobre estas API en la [documentación de referencia de inclusión](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/api.html?lang=es). También encontrará información adicional sobre la inclusión en las páginas de documentación que la rodean.
+Al configurar una interfaz de usuario para usar [!UICONTROL Opt-in] con el fin de obtener consentimiento, debe configurarse para llamar a las API que se conectarán con [!UICONTROL Opt-in] e informarlas para dar su consentimiento a algunas o todas las soluciones de Adobe Experience Cloud. Encontrará información detallada sobre estas API en la [documentación de referencia de inclusión](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/api.html?lang=es). También encontrará información adicional sobre la inclusión en las páginas de documentación que la rodean.
 
 ## Demostración de [!UICONTROL Opt-In]
 

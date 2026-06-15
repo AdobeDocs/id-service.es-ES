@@ -15,8 +15,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
 workflow-type: tm+mt
-source-wordcount: 229
-ht-degree: 97%
+source-wordcount: 216
+ht-degree: 91%
 
 ---
 
@@ -48,8 +48,8 @@ Para obtener más información sobre estos valores de atributo, visite [web.dev]
 ## Versión 4.6
 
 * Marcar `loadSSL` como activo de forma predeterminada. Todas las llamadas al servicio de identidad estarán en `https` de forma predeterminada.  Los clientes pueden configurarlo como False si desean llamar a los servicios de identidad en un protocolo http desde las `non-ssl` páginas.
-* Se ha actualizado la función utilizada para detectar la versión de `Internet-Explorer (IE)`, con el fin de corregir un problema del que informó `ESLint`.
-Se corrigió un problema de rendimiento en `Internet-Explorer (IE) 11` cuando ECID recibe la `pre-approval` de optIn y se actualiza más tarde.
+* Se ha actualizado la función utilizada para detectar la versión `Internet-Explorer (IE)` con el fin de corregir un problema del que informó `ESLint`.
+Se corrigió un problema de rendimiento en `Internet-Explorer (IE) 11` cuando ECID recibe la opción optIn `pre-approval` y se actualiza más tarde.
 
 ## Versión 4.5
 

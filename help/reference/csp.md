@@ -82,7 +82,7 @@ Añada estos nombres de dominio o direcciones URL a su CSP para cada solución o
      <li>frame-src 'self' <code>https://*.demdex.net;</code></li>
      <li>Si utiliza Adobe Launch para implementar etiquetas, también deberá agregar <code>https://assets.adobedtm.com</code> a la lista de dominios.</li>
     </ul>
-    <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se usan para generar las <a href="../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de identidad de Experience Cloud</a> y para sincronizar ID. Vea también <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>.</p>
+    <p>Las llamadas al dominio <span class="codeph">demdex.net</span> se utilizan para generar <a href="../introduction/cookies.md" format="dita" scope="local">cookies y el servicio de identidad de Experience Cloud</a>, así como para sincronizar ID. Vea también <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es" format="https" scope="external">Explicación de las llamadas al dominio Demdex</a>.</p>
    </td>
   </tr>
   <tr>

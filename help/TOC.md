@@ -6,8 +6,8 @@ user-guide-description: El servicio de identidad de Adobe Experience Cloud ofrec
 user-guide-url: /content/help/en/id-service/using/home.html
 source-git-commit: 13bfd8b38596dd64f607c897a60bbeb2733b89bf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 96%
+source-wordcount: '378'
+ht-degree: 93%
 
 ---
 
@@ -106,5 +106,5 @@ ht-degree: 96%
    + [Notas de la versión 2017](release-notes/notes-2017.md)
    + [Notas de la versión 2016](release-notes/notes-2016.md)
    + [Notas de la versión 2015](release-notes/notes-2015.md)
-+ [Prueba de hide-from-tocAnalytics oculta en el índice](analytics-test-file-hidetoc.md)
-+ [hide-from-tocArchivo de prueba oculto](hidden-file.md)
++ {hide-from-toc}[Prueba de Analytics oculta en el índice](analytics-test-file-hidetoc.md)
++ {hide-from-toc}[Archivo de prueba oculto](hidden-file.md)

@@ -30,7 +30,7 @@ Estos ejemplos tratan 2 casos de uso comunes relacionados con una integración d
 >* Para obtener más información sobre MID, consulte [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md).
 >
 
-## Caso de uso 1: Tengo un Experience Cloud ID (MID), pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
+## Caso de uso 1: Tengo un MID del servicio de identidad de Experience Cloud, pero quiero transferir mis propios ID de visitante y establecer un estado de autenticación {#section-a67d89a343754d1286d03cf08d34b806}
 
 <table id="table_DA8840FCB51541109FE6DF20430E8924"> 
  <thead> 
