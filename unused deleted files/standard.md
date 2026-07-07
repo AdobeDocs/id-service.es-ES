@@ -1,22 +1,22 @@
 ---
-description: Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para configurar, implementar e integrar el servicio de Experience Cloud ID con el resto de las soluciones de Experience Cloud.
+description: Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Cloud con el resto de las soluciones de Experience Cloud.
 keywords: Servicio de ID
 title: Implementación con Dynamic Tag Management
 exl-id: 37ccc919-3015-42fa-a88f-639cdf726f48
 source-git-commit: e171c94ccfa1f4fe9b8d909d0204adb94f20cbb6
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 100%
+source-wordcount: '2057'
+ht-degree: 97%
 
 ---
 
 # Implementación con Dynamic Tag Management {#implementation-with-dynamic-tag-management}
 
-Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para configurar, implementar e integrar el servicio de Experience Cloud ID con el resto de las soluciones de Experience Cloud.
+Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Cloud con el resto de las soluciones de Experience Cloud.
 
 ## Implementación con Dynamic Tag Management {#topic-6f4ed5d96977406ca991e50f3fbd5b01}
 
-Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para configurar, implementar e integrar el servicio de Experience Cloud ID con el resto de las soluciones de Experience Cloud.
+Las implementaciones más antiguas utilizan la Dynamic Tag Management (DTM) para configurar, implementar e integrar el servicio de identidad de Experience Cloud con el resto de las soluciones de Experience Cloud.
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ mcvid-dtm-deployment.xml
 
 Antes de empezar, asegúrese de que su organización y sus soluciones se han aprovisionado para [!DNL Experience Cloud] y de que esté familiarizado con la [!DNL Dyanamic Tag Management]. Esta documentación puede ayudarle a empezar:
 
-* [Habilitar sus soluciones para servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es): Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza las soluciones para servicios principales como los atributos del cliente y las audiencias de Experience Cloud.
-* [Introducción a Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/using/getting-started/get-started.html?lang=es).
+* [Habilitar sus soluciones para servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es): Implemente Experience Cloud y conviértase en administrador. Este proceso moderniza las soluciones para servicios principales como los atributos del cliente y los públicos de Experience Cloud.
+* [Introducción a Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/using/getting-started/get-started.html?lang=es)
 
 **Colocación del código del servicio de ID y orden de carga**
 
@@ -74,7 +74,7 @@ Siga estos pasos para implementar el servicio de ID con Dynamic Tag Management (
 
 **Requisitos previos**
 
-* Habilite sus soluciones para [!DNL Experience Cloud] y verifique que dispone de permisos de administrador. Consulte [Activación de las soluciones en los servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es).
+* Habilite sus soluciones para [!DNL Experience Cloud] y verifique que dispone de permisos de administrador. Consulte [Habilitación de las soluciones en los servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es).
 
 * Cree una propiedad web en DTM. Consulte la documentación de DTM [Creación de una propiedad web](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html?lang=es).
 
@@ -84,22 +84,22 @@ mcvid-dtm-implement.xml
 
 **Pasos de implementación** del servicio de ID con DTM:
 
-1. En el [!UICONTROL tablero] de DTM, haga clic en la propiedad web con la que desee trabajar.
-1. En la pestaña **[!UICONTROL Información general]** de la propiedad web que haya seleccionado, haga clic en **[!UICONTROL Agregar una herramienta]**.
-1. En la lista **[!UICONTROL Tipo de herramienta]**, haga clic en **[!UICONTROL servicio de identidad de Experience Cloud]**.
+1. En el [!UICONTROL Dashboard]de DTM, haga clic en la propiedad web con la que desee trabajar.
+1. En la ficha **[!UICONTROL Overview]** de la propiedad web seleccionada, haga clic en **[!UICONTROL Add a Tool]**.
+1. En la lista **[!UICONTROL Tool Type]**, haga clic en **[!UICONTROL Experience Cloud Identity Service]**.
 
    >[!NOTE]
    >
-   >Esta acción rellenará el cuadro de **[!UICONTROL ID de organización de Experience Cloud]** con el ID de su organización. Si su cuenta de DTM no está vinculada a [!DNL Experience Cloud], deberá proporcionar este ID. Para vincular su cuenta, consulte [Vinculación de cuentas en Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es). Consulte los [requisitos](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26) para ver información sobre cómo localizar el ID de su organización.
+   >Esta acción rellena el cuadro **[!UICONTROL Experience Cloud Organization ID]** con el identificador de organización. Si su cuenta de DTM no está vinculada a [!DNL Experience Cloud], deberá proporcionar este ID. Para vincular su cuenta, consulte [Vinculación de cuentas en Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es). Consulte los [requisitos](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26) para ver información sobre cómo localizar el ID de su organización.
 
-1. Escriba el nombre de su servidor de seguimiento en el cuadro **[!UICONTROL Servidor de seguimiento]**. Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [preguntas frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
-1. Haga clic en **[!UICONTROL Crear herramienta]** y en **[!UICONTROL Guardar cambios]**.
+1. Escriba el nombre de su servidor de seguimiento en el cuadro **[!UICONTROL Tracking Server]**. Si no está seguro de cómo encontrar su servidor de seguimiento, consulte las [preguntas frecuentes](../faq-intro/faq.md) y [Rellenar correctamente las variables trackingServer y trackingServerSecure](https://helpx.adobe.com/es/analytics/kb/determining-data-center.html#).
+1. Haga clic en **[!UICONTROL Create Tool]** y **[!UICONTROL Save Changes]**.
 
    Después de guardar, el servicio de ID se configura como una herramienta en DTM. Sin embargo, aún no está lista para usarla. La herramienta DTM aún tiene que pasar por el proceso de publicación/aprobación de DTM y es posible que necesite configurar parámetros adicionales. Para obtener más información sobre los parámetros adicionales que puede agregar a DTM, consulte [Configuración del servicio de identidad de Experience Cloud para DTM](../implementation-guides/standard.md#concept-fb6cb6a0e6cc4f10b92371f8671f6b59).
 
 ## Configuración del servicio de identidad de Experience Cloud para DTM {#concept-fb6cb6a0e6cc4f10b92371f8671f6b59}
 
-Describe los campos [!UICONTROL ID de organización], [!UICONTROL General] y [!UICONTROL Configuración de cliente], así como el modo en el que el servicio de ID de [!DNL Experience Cloud] los emplea.
+Describe los campos [!UICONTROL Organization ID], [!UICONTROL General] y [!UICONTROL Customer Settings] y cómo los utiliza el servicio de ID [!DNL Experience Cloud].
 
 <!--
 mcvid-dtm-settings.xml
@@ -107,7 +107,7 @@ mcvid-dtm-settings.xml
 
 ## ¿Cómo encuentro estos ajustes de configuración? {#section-c5b2d1c928944ae2b8565c1b182fe575}
 
-Los ajustes de configuración estarán disponibles después de agregar y guardar el servicio de ID como herramienta dentro de Dynamic Tag Management (DTM). También puede acceder a estos ajustes haciendo clic en el icono de la rueda de engranaje de la sección [!UICONTROL Herramientas instaladas] de la propiedad web de DTM.
+Los ajustes de configuración estarán disponibles después de agregar y guardar el servicio de ID como herramienta dentro de Dynamic Tag Management (DTM). También puede acceder a estos ajustes haciendo clic en el icono de la rueda de engranaje de la sección [!UICONTROL Installed Tools] de la propiedad web de DTM.
 
 ![](assets/installedTools.png)
 
@@ -117,7 +117,7 @@ Este es el ID necesario y asociado a la empresa de [!DNL Experience Cloud] aprov
 
 ![](assets/orgID.png)
 
-Consulte también la información relativa a las [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md).
+Consulte también la información relativa a las [Cookies y el servicio de identidad de Experience Cloud](../introduction/cookies.md).
 
 ## Configuración general {#section-071d358e40f84629a8901b893dd61392}
 
@@ -163,7 +163,7 @@ Establece la versión de la biblioteca de código del servicio de ID (`VisitorAP
 
 **Configuración**
 
-Estos campos le permiten agregar [variables de función](../library/function-vars/function-vars.md) como pares clave-valor. Haga clic en **[!UICONTROL Agregar]** para agregar una variable o más a su implementación del servicio de ID.
+Estos campos permiten agregar [variables de función](../library/function-vars/function-vars.md) como pares clave-valor. Haga clic en **[!UICONTROL Add]** para agregar una variable o más a su implementación del servicio de ID.
 
 ![](assets/dtmVars.png)
 
@@ -189,7 +189,7 @@ El valor debe ser un elemento de datos que contenga el ID del usuario. Los eleme
 
 Opciones que definen o identifican visitantes según su estado de autenticación (por ejemplo, si ha iniciado sesión o ha cerrado la sesión). Consulte [Estados de autenticación e ID de clientes](../reference/authenticated-state.md).
 
-## Comprobación y verificación del servicio de Experience Cloud ID {#concept-644fdbef433b46ba9c0634ac95eaa680}
+## Comprobación y verificación del servicio de identidad de Experience Cloud {#concept-644fdbef433b46ba9c0634ac95eaa680}
 
 Estas instrucciones, herramientas y procedimientos le ayudan a determinar si el servicio de ID está funcionando correctamente. Estas pruebas se aplican al servicio de ID en general, así como a diferentes combinaciones de soluciones del servicio de ID y [!DNL Experience Cloud].
 
@@ -213,7 +213,7 @@ La [herramienta de depuración de Adobe](https://experienceleague.adobe.com/docs
 
 ## Pruebas con la herramienta de depuración de Adobe {#section-861365abc24b498e925b3837ea81d469}
 
-Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de Experience Cloud ID](../introduction/cookies.md) para obtener más información sobre el MID.
+Su integración del servicio se ha configurado correctamente cuando aparece un [!DNL Experience Cloud ID] (MID) en la respuesta de la herramienta de depuración de [!DNL Adobe]. Consulte [Cookies y el servicio de identidad de Experience Cloud &#x200B;](../introduction/cookies.md)para obtener más información sobre el MID.
 
 Para verificar el estado del servicio de ID con la herramienta [!DNL Adobe] [Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/validate/debugger.html?lang=es):
 
@@ -257,23 +257,23 @@ Para verificar el estado del servicio de ID con Charles:
 
 ## Comprender los resultados de Charles {#section-c10c3dc0bb9945cbaffcf6fec7082fab}
 
-Consulte esta sección para ver información sobre dónde y qué buscar al usar Charles para supervisar las llamadas HTTP.
+Consulte esta sección para ver información sobre dónde y qué buscar al usar Charles para monitorizar las llamadas HTTP.
 
 ### Solicitudes del servicio de ID correctas en Charles
 
-El código del servicio de ID funciona correctamente cuando la función `Visitor.getInstance` realiza una llamada de JavaScript a `dpm.demdex.net`. Las respuestas correctas incluirán su [identificador de organización](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). El identificador de organización se transfiere como par clave-valor con esta sintaxis: `d_orgid= *`ID de organización`*`. Busque `dpm.demdex.net` y las llamadas de JavaScript en la ficha [!UICONTROL Estructura]. Busque su identificador de organización en la ficha [!UICONTROL Solicitud].
+El código del servicio de ID funciona correctamente cuando la función `Visitor.getInstance` realiza una llamada de JavaScript a `dpm.demdex.net`. Las respuestas correctas incluirán su [identificador de organización](../reference/requirements.md#section-a02f537129a64ffbb690d5738d360c26). El identificador de organización se transfiere como par clave-valor con esta sintaxis: `d_orgid= *`ID de organización`*`. Busque `dpm.demdex.net` y las llamadas de JavaScript en la pestaña [!UICONTROL Structure]. Busque su identificador de organización en la pestaña [!UICONTROL Request].
 
 ![](assets/charles_request.png)
 
 ### Respuestas del servicio de ID correctas en Charles
 
-Su cuenta se ha aprovisionado correctamente para el servicio de ID cuando la respuesta de los [servidores de recopilación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=es) (DCS) devuelve un MID. El MID se devuelve en un par clave-valor que sigue esta sintaxis: `d_mid: visitor Experience Cloud ID`. Busque el MID en la ficha [!UICONTROL Respuesta], tal y como se ve a continuación.
+Su cuenta se ha aprovisionado correctamente para el servicio de ID cuando la respuesta de los [servidores de recopilación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=es) (DCS) devuelve un MID. El MID se devuelve en un par clave-valor que sigue esta sintaxis: `d_mid: visitor Experience Cloud ID`. Busque el MID en la pestaña [!UICONTROL Response], tal y como se ve a continuación.
 
 ![](assets/charles_response_success.png)
 
 ### Respuestas del servicio de ID incorrectas en Charles
 
-Su cuenta no se ha aprovisionado correctamente si el MID no aparece en la respuesta de los DCS. Una respuesta incorrecta devolverá un código y un mensaje de error en la pestaña [!UICONTROL Respuesta], tal y como se ve a continuación. Póngase en contacto con el Servicio de atención al cliente si aparece este mensaje de error en la respuesta del DCS.
+Su cuenta no se ha aprovisionado correctamente si el MID no aparece en la respuesta de los DCS. Una respuesta incorrecta devolverá un código y un mensaje de error en la pestaña [!UICONTROL Response], tal y como se ve a continuación. Póngase en contacto con el Servicio de atención al cliente si aparece este mensaje de error en la respuesta del DCS.
 
 ![](assets/charles_response_unsuccessful.png)
 
@@ -282,4 +282,3 @@ Para obtener más información sobre los códigos de error, consulte [Códigos d
 >[!MORELIKETHIS]
 >
 >* [Propiedades web](https://experienceleague.adobe.com/docs/dtm/using/admin/web-property.html?lang=es)
-
