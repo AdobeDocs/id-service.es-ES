@@ -3,19 +3,13 @@ description: API para la biblioteca de Opt-in y referencia de ajustes de configu
 title: Referencia de Opt-in
 exl-id: aa61aed7-695b-47e4-a922-9841e00aa09d
 TQID: https://experienceleague.adobe.com/Fmah6TphSbKa3W6s6ew97Diz59Brj-2tpYKcxwzEj1o
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 916
-ht-degree: 98%
+source-wordcount: 920
+ht-degree: 91%
 
 ---
 
@@ -36,13 +30,13 @@ adobe.OptInCategories = {
 
 ## Parámetros de configuración de Opt-in {#section-d66018342baf401389f248bb381becbf}
 
-Esta sección trata sobre el uso de la API para configurar Opt-in. Buena parte de la configuración y la implementación se pueden realizar utilizando la extensión de Experience Platform Launch.
+Esta sección trata sobre el uso de la API para configurar Opt-in. Buena parte de la configuración y la implementación se pueden realizar utilizando la extensión de etiquetas.
 
 Se proporcionan configuraciones de Opt-in en la función `getInstance()` de Visitor JavaScript, que crea una instancia del objeto global `adobe`. A continuación se enumeran las configuraciones de Visitor JS relacionadas con el servicio Opt-in.
 
 **`doesOptInApply (boolean or function that evaluates to a boolean)`**
 
-Si es falso, indica que los visitantes no tienen que incluirse. Hace que Experience Cloud cree cookies independientemente de las categorías que se hayan incluido. Esta configuración habilita o deshabilita la inclusión de forma integral.
+Si es falso, indica que los visitantes no tienen que incluirse. Hace que CX Enterprise cree cookies independientemente de las categorías que se hayan incluido. Esta configuración habilita o deshabilita la inclusión de forma integral.
 
 **`preOptInApprovals (Object <adobe.OptInCategories enum: boolean>)`**
 
@@ -106,7 +100,7 @@ Recabe permisos de Opt-in para un visitante en cualquier momento mediante una de
 
 `adobe.optIn.permissions`
 
-Un objeto que enumera todas las soluciones de Experience Cloud que, como categorías, el visitante ha concedido o rechazado.
+Un objeto que enumera todas las soluciones de CX Enterprise que, como categorías, el visitante ha concedido o rechazado.
 
 `adobe.optIn.isApproved(categories)`
 
@@ -118,7 +112,7 @@ Recupere la lista de permisos de forma asíncrona. La llamada de retorno se llam
 
 **`permissions`**
 
-Un objeto que enumera todas las soluciones de Experience Cloud que, como categorías, el visitante ha concedido o rechazado. Ejemplo: `{ aa: true, ecid: false, aam: true... }`
+Un objeto que enumera todas las soluciones de CX Enterprise, como categorías, que el visitante ha concedido o rechazado. Ejemplo: `{ aa: true, ecid: false, aam: true... }`
 
 **`status`**
 

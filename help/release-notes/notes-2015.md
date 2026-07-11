@@ -1,24 +1,16 @@
 ---
 description: Notas de la versión y actualizaciones para 2015.
-keywords: Servicio de ID
+keywords: Servicio de ID de visitante
 title: Notas de la versión 2015
 exl-id: 57c45726-f856-4af5-a30a-9a1bdcaa6411
 TQID: https://experienceleague.adobe.com/WmeSY7aRbvnZJN0a-lNR-yYzWzF4dfJLPZqA--6lpYQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 94%
+source-wordcount: 457
+ht-degree: 60%
 
 ---
 
@@ -30,38 +22,38 @@ Notas de la versión y actualizaciones para 2015.
 
 Noviembre de 2015
 
-La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de [!DNL Experience Cloud] ID de que impida la instalación de cookies en el dominio de terceros de un navegador. Consulte [Compatibilidad con COPPA en el servicio de identidad de Experience Cloud](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). Para la versión 1.5.3 o superior.
+La Ley de Protección de la Privacidad Infantil en Línea (Children’s Online Privacy Protection Act, o COPPA) prohíbe la obtención de información personal de niños menores de 13 años en línea y sin el previo consentimiento paterno verificable. Los clientes afectados por esta ley pueden agregar una variable opcional al código de su servicio de ID de visitante que impida la instalación de cookies en el dominio de terceros de un navegador. Consulte [Compatibilidad con COPPA en el servicio de ID de visitante](../reference/coppa.md#concept-d7ddf81bebd74f129661fcec1ca19413). Para la versión 1.5.3 o superior.
 
 ## Versión 1.5.2 {#section-e3c73e47539942a89b02d33061128148}
 
 Septiembre de 2015
 
 * Se ha corregido un error del explorador Safari que impedía que los servicios de sincronización funcionaran si los usuarios bloqueaban las cookies de terceros. (AAM-20764)
-* Las llamadas al servicio de ID ahora incluyen el ID de versión en el parámetro `d_visid_ver=`. El ID devuelto ayuda a los equipos de soporte internos en la solución de problemas y los problemas de soporte. (AAM-20824)
+* Las llamadas al servicio de ID de visitante ahora incluyen el ID de versión en el parámetro `d_visid_ver=`. El ID devuelto ayuda a los equipos de soporte internos en la solución de problemas y los problemas de soporte. (AAM-20824)
 
 ## Versión 1.5.1 {#section-f4309d7917964a748fee4bdb45bffa44}
 
 Agosto de 2015
 
-* Se ha corregido un error para evitar que el servicio de ID solicitara un iframe en caso de que no hubiera datos para sincronizar o entregar. (AAM-20164)
-* Se ha corregido un problema que impedía que el servicio de ID estableciera correctamente una cookie de dominio superior de varias partes. Por ejemplo, si tiene un dominio como `my_company.co.uk`, en determinadas circunstancias, el servicio de ID establecería una cookie solo en `co.uk`. (AN-104683)
+* Se ha corregido un error para evitar que el servicio de ID de visitante solicitara un iframe en caso de que no hubiera datos para sincronizar o entregar. (AAM-20164)
+* Se ha corregido un error que impedía que el servicio de ID de visitante estableciera correctamente una cookie de dominio superior de varias partes. Por ejemplo, si tiene un dominio como `my_company.co.uk`, en determinadas circunstancias, el servicio de identificación del visitante establecería una cookie solo en `co.uk`. (AN-104683)
 
   Esto solo afectaba a algunos clientes que cumplían *todos* los criterios siguientes:
 
-   * Uso del servicio de ID.
-   * Se habilitó un [período de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) *o* están usando cookies de origen y los usuarios bloquearon cookies de terceros.
+   * Uso del servicio de ID de visitante.
+   * Se habilitó un [período de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) *o* están usando cookies de origen y los usuarios bloquearon cookies de terceros.
    * Tenían páginas con dominios de nivel superior en varias partes.
 
 Las revisiones de documentación de esta versión incluyen:
 
 * [Métodos de API y Biblioteca de códigos](../library/library.md#concept-ff27497375644a898d47984aefb21c97): contenido y texto reorganizados. En la mayoría de los casos, cada método obtiene su propia página.
-* [Requisitos del servicio de identidad de Experience Cloud](../reference/requirements.md): contenido revisado y texto reorganizado.
+* [Requisitos para el servicio de ID de visitante](../reference/requirements.md): contenido revisado y texto reorganizado.
 
 ## Versión 1.5 {#section-db5edfa11ae143ada07a96e0ab06dc57}
 
 Julio de 2015
 
-El servicio de [!DNL Experience Cloud] ID de admite varios ID y estados de autenticación. Este cambio elimina también la compatibilidad obsoleta con las asignaciones de [!DNL Audience Manager] DPID de a los ID de usuario utilizados por la `setCustomerIDs`función. Consulte [Estados de autenticación e ID de clientes](../reference/authenticated-state.md)
+El servicio de ID de visitante admite varios ID y estados de autenticación. Este cambio también elimina la compatibilidad obsoleta con las asignaciones de Audience Manager DPID a los ID de usuario utilizados por la función `setCustomerIDs`. Consulte [Estados de autenticación e ID de clientes](../reference/authenticated-state.md)
 
 ## Versión 1.4 {#section-f5c596f355b14da28f45c798df513572}
 

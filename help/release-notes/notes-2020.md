@@ -1,28 +1,22 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
-keywords: Servicio de ID
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de ID de visitante.
+keywords: Servicio de ID de visitante
 title: Notas de la versión de 2020
 exl-id: c9d7876e-debc-4c8e-8ebc-91646610c876
 TQID: https://experienceleague.adobe.com/hqAMIyXTeLBPU-4B6AVRXhcWux3bkyViMCrbjoGiRwk
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 91%
+source-wordcount: 235
+ht-degree: 71%
 
 ---
 
-# Notas de la versión de Experience Cloud - 2020 {#release-notes}
+# Notas de la versión de 2020 {#release-notes}
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de ID de visitante.
 
 ## Versión 5.1.1
 
@@ -47,14 +41,13 @@ Para obtener más información sobre estos valores de atributo, visite [web.dev]
 
 ## Versión 4.6
 
-* Marcar `loadSSL` como activo de forma predeterminada. Todas las llamadas al servicio de identidad estarán en `https` de forma predeterminada.  Los clientes pueden configurarlo como False si desean llamar a los servicios de identidad en un protocolo http desde las `non-ssl` páginas.
-* Se ha actualizado la función utilizada para detectar la versión `Internet-Explorer (IE)` con el fin de corregir un problema del que informó `ESLint`.
-Se corrigió un problema de rendimiento en `Internet-Explorer (IE) 11` cuando ECID recibe la opción optIn `pre-approval` y se actualiza más tarde.
+* Marcar `loadSSL` como activo de forma predeterminada. Todas las llamadas al servicio de ID de visitante se realizarán en `https` de forma predeterminada.  Los clientes pueden configurarlo como False si desean llamar al servicio de ID de visitante en un protocolo http desde las páginas de `non-ssl`.
+* Se ha actualizado la función utilizada para detectar la versión de `Internet-Explorer (IE)`, con el fin de corregir un problema del que informó `ESLint`.Se corrigió un problema de rendimiento en `Internet-Explorer (IE) 11` cuando ECID recibe la `pre-approval` de optIn y se actualiza más tarde.
 
 ## Versión 4.5
 
 * A partir de la versión 4.5, ECID rechazará cualquier ID vacío enviado al método de `setCustomerIDs`.
 * Se ha corregido un problema que se producía cuando la opción de activación no se configuraba como `doesOptInApply=false` y `isIabContext=true`.
 
-Consulte las [notas de la versión del Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es) para ver las notas de revisión mensuales de todos los productos.
+Consulte [Notas de la versión de CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es) para ver las notas de la versión mensuales de todos los productos.
 

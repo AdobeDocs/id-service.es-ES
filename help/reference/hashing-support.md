@@ -1,30 +1,24 @@
 ---
-description: El servicio de Experience Cloud ID (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a Experience Cloud. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.
-keywords: Servicio de ID
+description: El servicio de ID de visitante (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a CX Enterprise. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.
+keywords: Servicio de ID de visitante
 title: Soporte hash SHA256 para setCustomerIDs
 exl-id: fd30634e-6435-4d14-8804-649c1ad3aaaa
 TQID: https://experienceleague.adobe.com/-JBVon-Qf2jtfd5f4UdWcHVyO7c887p1w-k3GnntUCA
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 92%
+source-wordcount: 603
+ht-degree: 55%
 
 ---
 
 # Soporte hash SHA 256 para `setCustomerIDs` {#hashing-support}
 
-El servicio de Experience Cloud ID (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a Experience Cloud. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.
-Existen dos maneras de implementar la compatibilidad hash con setCustomerIDs, tal como se describe en las secciones siguientes:
+El servicio de ID de visitante (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash. Es un método opcional Javascript para enviar identificadores hash a CX Enterprise. Puede seguir utilizando sus propios métodos de hash antes de enviar ID de clientes.Existen dos maneras de implementar la compatibilidad hash con setCustomerIDs, tal como se describe en las secciones siguientes:
 
 * [Utilizar el método setCustomerIDs en ECID](/help/reference/hashing-support.md#use-setcustomerids-method)
-* [Añadir una acción en Adobe Experience Platform Launch](/help/reference/hashing-support.md#add-action-launch)
+* [Añadir una acción en las etiquetas](/help/reference/hashing-support.md#add-action-launch)
 
 ## Uso del método `setCustomerIDs` en ECID {#use-setcustomerids-method}
 
@@ -39,11 +33,9 @@ Consulte a continuación un ejemplo de cómo configurar un único ID de cliente 
 visitor.setCustomerIDs({email: {id: "ecid@adobe.com", authState: 1}}, "SHA-256");
 ```
 
-<br> 
+Junto con el ECID, puede asociar ID de cliente adicionales, estado de autenticación y tipo de hash (SHA-256) con cada visitante. Si no proporciona ningún tipo de hash, se considerará como sin hash.
 
-Junto con el ID de visitante de Experience Cloud, se pueden asociar ID de cliente adicionales y un estado de autenticación a cada visitante. Si no proporciona ningún tipo de hash, se considerará como sin hash.
-
-El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. Por ejemplo, puede cargar estos ID como [atributos de cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en Experience Cloud y acceder a estos datos en las distintas soluciones.
+El `setCustomerIDs` método acepta múltiples ID de cliente para el mismo visitante. Ayuda a identificar o dirigirse a un usuario individual entre distintos dispositivos. Por ejemplo, puede cargar estos ID como [atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en CX Enterprise y acceder a estos datos en las distintas soluciones.
 
 Los ID de cliente, los estados autenticados y el tipo de hash *no se* almacenan en una cookie que se utilizará después. En su lugar, los ID de cliente, los estados autenticados y el tipo de hash deben almacenarse en una variable de instancia para recuperarse usando [`getCustomerIDs`](/help/library/get-set/getcustomerids.md)como se muestra a continuación:
 
@@ -56,7 +48,7 @@ Los ID de cliente, los estados autenticados y el tipo de hash *no se* almacenan 
 
 <br> 
 
-Los resultados del método `setCustomerIDs` dan como resultado una llamada al servicio Experience Cloud ID, un `dpm.demdex.net`, con la adición del parámetro de consulta `d_cid_ic`, que contiene el ID de cliente con hash. Una llamada de ejemplo podría parecerse a la de abajo. Se agregaron los saltos de línea para una mayor claridad.
+El uso del método `setCustomerIDs` resulta en una llamada al servicio de ID de visitante, a `dpm.demdex.net`, con la adición del parámetro de consulta `d_cid_ic`, que contiene el ID de cliente con hash. Una llamada de ejemplo podría parecerse a la de abajo. Se agregaron los saltos de línea para una mayor claridad.
 
 ```
 http://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&
@@ -72,19 +64,19 @@ Consulte la tabla siguiente para ver una descripción del parámetro`d_cid_ic` y
 
 | Parámetro | Descripción |
 |------------|----------|
-| `d_cid_ic` | Pasa el código de integración, el ID único de usuario (DPUUID) y un ID de estado autenticado al servicio de identidad. Separe el código de integración y el DPUUID con el carácter de control sin impresión, <code>%01</code>: <br> Ejemplo: <code>d_cid_ic=Integration_code%01DPUUID%01Authentication_state</code> <br> <b>Estado de autenticación</b> <br> Se trata de un ID opcional en el parámetro d_cid_ic. Se expresa como un entero e identifica a los usuarios en función de su estado de autenticación, como se muestra a continuación: <br> <ul><li>0 (Desconocido o nunca autenticado)</li><li>1 (Actualmente autenticado para esta instancia/página/contexto de aplicación)</li><li>2 (Desconectado)</li></ul> <br> Ejemplos: <br> <ul><li>Desconocido: ...d_cid=123%01456%01<b>0</b></li><li>Autenticado: ...d_cid=123%01456%01<b>1</b></li><li>Desconectado: ...d_cid=123%01456%01<b>2</b></li></ul> |
+| `d_cid_ic` | Pasa el código de integración, el ID único de usuario (DPUUID) y un ID de estado autenticado al servicio de ID de visitante. Separe el código de integración y el DPUUID con el carácter de control sin impresión, <code>%01</code>: <br> Ejemplo: <code>d_cid_ic=Integration_code%01DPUUID%01Authentication_state</code> <br> <b>Estado de autenticación</b> <br> Se trata de un ID opcional en el parámetro d_cid_ic. Se expresa como un entero e identifica a los usuarios en función de su estado de autenticación, como se muestra a continuación: <br> <ul><li>0 (Desconocido o nunca autenticado)</li><li>1 (Actualmente autenticado para esta instancia/página/contexto de aplicación)</li><li>2 (Desconectado)</li></ul> <br> Ejemplos: <br> <ul><li>Desconocido: ...d_cid=123%01456%01<b>0</b></li><li>Autenticado: ...d_cid=123%01456%01<b>1</b></li><li>Desconectado: ...d_cid=123%01456%01<b>2</b></li></ul> |
 
-## Añadir una acción en Adobe Experience Platform Launch {#add-action-launch}
+## Añadir una acción en las etiquetas {#add-action-launch}
 
-Experience Platform Launch es la función de administración de etiquetas de próxima generación de Adobe. Obtenga más información sobre Platform Launch en la [documentación del producto de Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
+Las etiquetas en la recopilación de datos de Adobe Experience Platform son la función de administración de etiquetas de próxima generación de Adobe. Obtenga más información en la [documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
 
-Para añadir una acción en Launch, lea la [documentación de reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=es) en Adobe Launch y vea la captura de pantalla a continuación:
+Para agregar una acción en las etiquetas, lea la [documentación de reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=es) y vea la siguiente captura de pantalla:
 
 ![](/help/reference/assets/hashing-support.png)
 
 <br> 
 
-Tras confirmar la configuración, Launch ajusta los datos en un objeto, como se muestra a continuación:
+Después de confirmar la configuración, las etiquetas envuelven los datos en un objeto, como se muestra a continuación:
 
 ```
 {
@@ -107,5 +99,5 @@ setCustomerIDs(Ingeration code: {
 });
 ```
 
-De manera similar al método `setCustomerIDs` descrito en la primera sección, esto resulta en una llamada al servicio Experience Cloud ID, con la adición del parámetro de consulta `d_cid_ic`.
+De manera similar al método `setCustomerIDs` descrito en la primera sección, esto da como resultado una llamada al servicio de ID de visitante, con la adición del parámetro de consulta `d_cid_ic`.
 

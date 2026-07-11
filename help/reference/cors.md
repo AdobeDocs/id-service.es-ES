@@ -1,31 +1,24 @@
 ---
-description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
-keywords: Servicio de ID
-title: Compatibilidad con CORS en el servicio de identidad de Experience Cloud
+description: Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de ID de visitante admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID de visitante cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+keywords: Servicio de ID de visitante
+title: Compatibilidad con CORS en el servicio de ID de visitante de Adobe
 exl-id: 0e8ffe85-8d1f-42a0-aae3-a2b3b28c7bce
 TQID: https://experienceleague.adobe.com/eix2FaBue-Nf--wGzg5jBqB93QGIWtbM78Efjd8QZWM
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 89fabda03cf7b1e604cc043d6ec7c75dc967c5e4
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 630
-ht-degree: 93%
+source-wordcount: 639
+ht-degree: 64%
 
 ---
 
-# Compatibilidad con CORS en el servicio de identidad de Experience Cloud {#cors-support-in-the-experience-cloud-id-service}
+# Compatibilidad con CORS en el servicio de ID de visitante de Adobe {#cors-support-in-the-experience-cloud-id-service}
 
-Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de identidad de Experience Cloud admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
+Los navegadores utilizan Cross Origin Resource Sharing (CORS) para solicitar recursos de un dominio que no es el dominio en uso. El servicio de ID de visitante admite los estándares CORS que habilitan solicitudes de recursos de origen diverso del lado del cliente. El servicio de ID de visitante cambia a solicitudes JSONP en los navegadores más antiguos o que no admiten el mecanismo CORS.
 
-## Problemas con políticas del mismo origen y solicitudes del servicio de ID {#section-6608cf46d27143eeaeabacaa6aa14e8e}
+## Problemas con políticas del mismo origen y solicitudes del servicio de ID de visitante {#section-6608cf46d27143eeaeabacaa6aa14e8e}
 
 Las políticas del mismo origen son controles de seguridad o restricciones que aplica un explorador web. Cuando se aplica en este nivel, el propio explorador web determina si se permitirá o bloqueará una solicitud de recursos realizada de una página a otra. Para determinar si una solicitud es del mismo origen, el explorador compara:
 
@@ -42,7 +35,7 @@ CORS es una forma segura y eficaz de solicitar recursos en distintos dominios. L
 * `Origin`: un encabezado de solicitud que identifica el origen de una solicitud.
 * `Access-Control-Allow-Origin`: un encabezado de respuesta que indica si se puede compartir un recurso con el solicitante.
 
-Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que tenemos una compañía de servicios financieros que ha implementado el servicio de ID [!DNL Experience Cloud] en su sitio, `www.finance-website.com`. La siguiente tabla define cómo los encabezados de solicitud y respuesta CORS comprueban el acceso a un recurso.
+Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que tenemos una compañía de servicios financieros que ha implementado el Servicio de ID de visitante en su sitio, `www.finance-website.com`. La siguiente tabla define cómo los encabezados de solicitud y respuesta CORS comprueban el acceso a un recurso.
 
 <table id="table_B004ACF52B5A4D33B1DCF7EA77BE4E6D"> 
  <thead> 
@@ -54,7 +47,7 @@ Veamos el funcionamiento de estos encabezados. En este ejemplo, supongamos que t
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Solicitud</b> </p> </td> 
-   <td colname="col2"> <p>Cuando se carga la página de la empresa de finanzas, el navegador realiza una solicitud a <span class="codeph">dpm.demdex.net</span>. Se trata de una llamada al dominio de los servidores de recopilación de datos (DCS) que utiliza el servicio de ID. Esta solicitud entre dominios incluye el encabezado: </p> <p> 
+   <td colname="col2"> <p>Cuando se carga la página de la empresa de finanzas, el navegador realiza una solicitud a <span class="codeph">dpm.demdex.net</span>. Se trata de una llamada al dominio de los servidores de recopilación de datos (DCS) que utiliza el servicio de ID de visitante. Esta solicitud entre dominios incluye el encabezado: </p> <p> 
      <ul class="simplelist"> 
       <li> <code> Origin:https://www.finance-website.com</code> </li> 
      </ul> </p> </td> 
@@ -74,7 +67,7 @@ Consulte también [useCORSOnly](../library/function-vars/use-cors-only.md#refere
 
 ## Otras ventajas del uso de CORS {#section-6f44f30694c44f95bf9854b8a2af8449}
 
-La tabla siguiente describe algunas de las ventajas que CORS ofrece a los clientes que utilizan el servicio de ID.
+En la tabla siguiente se describen algunas de las ventajas que CORS proporciona a los clientes que utilizan el servicio de ID de visitante.
 
 <table id="table_AEB51A263D454F90B66E8C8D0513CF79"> 
  <thead> 
@@ -86,15 +79,15 @@ La tabla siguiente describe algunas de las ventajas que CORS ofrece a los client
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Mayor seguridad</b> </p> </td> 
-   <td colname="col2"> <p>CORS utiliza <a href="https://developer.mozilla.org/es-ES/docs/Web/API/XMLHttpRequest" format="https" scope="external"> XMLHttpRequest</a> para solicitar y transferir datos. Este método es más seguro que una solicitud JSONP. Garantiza que no hay forma de ejecutar JavaScript arbitrario, que podría estar contenido en la respuesta del DCS. La carga útil de respuesta CORS XMLHttpRequest la analiza el JavaScript del servicio de ID y no se ejecuta simplemente en una función de llamada de retorno. </p> <p> <p>Nota: Para aceptar cookies, el objeto <span class="codeph">XMLHttpRequest</span> tiene que tener su propiedad <span class="codeph">withCredentials</span> establecida en <span class="codeph">true</span>. Esta propiedad es compatible con Chrome, Firefox, Internet Explorer (v10+), Opera y Safari. </p> </p> </td> 
+   <td colname="col2"> <p>CORS utiliza <a href="https://developer.mozilla.org/es-ES/docs/Web/API/XMLHttpRequest" format="https" scope="external"> XMLHttpRequest</a> para solicitar y transferir datos. Este método es más seguro que una solicitud JSONP. Garantiza que no hay forma de ejecutar JavaScript arbitrario, que podría estar contenido en la respuesta del DCS. La carga útil de respuesta CORS XMLHttpRequest la analiza el JavaScript del servicio de ID de visitante y no se ejecuta simplemente en una función de llamada de retorno. </p> <p> <p>Nota: Para aceptar cookies, el objeto <span class="codeph">XMLHttpRequest</span> tiene que tener su propiedad <span class="codeph">withCredentials</span> establecida en <span class="codeph">true</span>. Esta propiedad es compatible con Chrome, Firefox, Internet Explorer (v10+), Opera y Safari. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Mejoras en el rendimiento</b> </p> </td> 
    <td colname="col2"> <p>CORS ayuda a mejorar el rendimiento por estos motivos: </p> 
     <ul id="ul_EC3A178003A94D70883B914050D7C464"> 
-     <li id="li_F8B44352BFBB46CDBD07AE40B9F2D0EC">El explorador gestiona las solicitudes de recursos. El proceso de solicitud es transparente para el servicio de ID. </li> 
+     <li id="li_F8B44352BFBB46CDBD07AE40B9F2D0EC">El explorador gestiona las solicitudes de recursos. El proceso de solicitud es transparente para el servicio de ID de visitante. </li> 
      <li id="li_C63E43A4CAB84210AB6A39100E5864BE">A diferencia de las solicitudes JSONP asincrónicas, el explorador no anula la prioridad de las solicitudes CORS ni las pone en cola. </li> 
-     <li id="li_1A2A15F591B84D1BAED3CFAB391EEBEC">El servicio de ID responde permisivamente. Esto significa que, cuando se ha pasado una URL como <span class="codeph">Origin</span>, el servicio de ID concederá a la página acceso a los recursos solicitados. </li> 
+     <li id="li_1A2A15F591B84D1BAED3CFAB391EEBEC">El servicio de ID de visitante responde permisivamente. Esto significa que cuando se ha pasado una URL como <span class="codeph"> Origin</span>, el servicio de ID de visitante concede a la página acceso a los recursos necesarios. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

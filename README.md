@@ -1,8 +1,8 @@
 ---
-source-git-commit: cadd9fab972936106a48a117022ed473b3614e09
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 98%
+source-wordcount: '440'
+ht-degree: 91%
 
 ---
 # Artículo sobre colaboración
@@ -37,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Cambios importantes de los empleados de Adobe
 
-Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de [!UICONTROL &#x200B; Adobe Experience Cloud], y es su trabajo contribuir a artículos técnicos o crearlos, debe utilizar el repositorio privado que hay en `https://git.corp.adobe.com/AdobeDocs`.
+Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de CX Enterprise, y debe contribuir a artículos técnicos o crearlos, debe utilizar el repositorio privado de `https://github.com/Adobe-Enterprise-Docs/id-service.en`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -52,7 +52,7 @@ Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/help/es
 Todos los artículos de este repositorio utilizan GitHub Flavored Markdown. Si no está familiarizado con Markdown, consulte:
 
 * [Conceptos básicos de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Lista de referencias de Markdown imprimible](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Hoja de referencia imprimible de Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etiquetas
 

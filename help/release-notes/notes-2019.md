@@ -1,43 +1,37 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
-keywords: Servicio de ID
-title: Notas de la versión 2019
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de ID de visitante.
+keywords: Servicio de ID de visitante
+title: Notas de la versión de 2019
 exl-id: 11439e27-9740-4afc-a2b8-5e35d179f34f
 TQID: https://experienceleague.adobe.com/KnO04dnP6z7gKrr8vkFiiToDSBfClpiOJkGq8949ahA
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 438
-ht-degree: 100%
+source-wordcount: 426
+ht-degree: 67%
 
 ---
 
-# Notas de la versión de Experience Cloud - 2019 {#release-notes}
+# Notas de la versión de 2019 {#release-notes}
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de ID de visitante.
 
 ## Versión 4.4.1
 
-Agregar casilla de verificación de aprobación previa a la inclusión para el análisis de medios en la extensión de Launch de ECID.
+Agregar casilla de verificación de aprobación previa a la inclusión para el análisis de medios en la extensión de etiqueta [!UICONTROL Experience Cloud ID Service].
 
 **Correcciones**
 
-* Problema con el análisis de la cadena de entrada preOptInApprovals de la extensión de lanzamiento de ECID.
+* Problema con el análisis de la cadena de entrada preOptInApprovals de la extensión de etiqueta [!UICONTROL Experience Cloud ID Service].
 * Disminución de rendimiento cuando se utiliza trackingServer.
 
 ## Versión 4.4 {#version-4point4}
 
 **Nueva función**
 
-[SHA256 Soporte hash para setCustomerIDs](/help/reference/hashing-support.md). El servicio de Experience Cloud ID (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash.
+[SHA256 Soporte hash para setCustomerIDs](/help/reference/hashing-support.md). El servicio de ID de visitante (ECID) es compatible con el algoritmo de hash SHA-256 que le permite pasar los ID de clientes o direcciones de correo electrónico, así como los ID de hash.
 
 **Correcciones, mejoras**
 
@@ -64,12 +58,12 @@ Compatibilidad con el complemento de Audience Manager para IAB TCF, disponible a
 **Correcciones**
 
 * Error de IAB + OptIn al obtener el MID para los clientes que vuelven a visitar.
-* Se ha corregido un error en la configuración de inclusión doesOptInApply en la DTM.
+* Se ha corregido un error en la configuración de inclusión doesOptInApply.
 * La opción de exclusión de ECID desactiva la sincronización de ID.
 
 ## Versión 4.0 {#section-51a4be943bbe41558f196ef2654513e2}
 
-**Servicio de inclusión (Opt-in)**. Opt-in es una extensión de Experience Cloud ID (ECID) que le permite controlar si las bibliotecas de Experience Cloud pueden crear cookies en las páginas web de los visitantes, y cuáles pueden hacerlo. Con [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es), puede simplificar la recopilación de consentimientos de inclusión de los visitantes para la solución de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras soluciones de Experience Cloud (o todas) para permitir su inclusión en un sistema de administración de consentimientos.
+**Servicio de inclusión (Opt-in)**. Opt-in es una extensión del ECID que le permite controlar si las bibliotecas de CX Enterprise pueden crear cookies en las páginas web de los visitantes, y cuáles pueden hacerlo. Con [tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es), puede simplificar la recopilación de consentimientos de inclusión de los visitantes para la solución CX Enterprise. Habilite Analytics, Target, Audience Manager y otras soluciones CX Enterprise (o todas ellas) para permitir su inclusión en un sistema de administración de consentimientos.
 
 ## Versión 3.4 {#section-046ce29b43af47cc849d4091098f5927}
 

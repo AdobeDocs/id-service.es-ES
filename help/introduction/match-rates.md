@@ -1,35 +1,26 @@
 ---
-description: Resumen de los procesos de sincronización de ID y las tasas de coincidencia en el servicio de identidad de Experience Cloud, incluidos Adobe Media Optimizer y el servicio de identidad.
-keywords: Servicio de ID
+description: Resumen de los procesos de sincronización de ID y las tasas de coincidencia en el servicio de ID de visitante, incluidos Adobe Media Optimizer y el servicio de ID de visitante.
+keywords: Servicio de ID de visitante
 title: Conceptos básicos de sincronización de ID y tasas de coincidencia
 exl-id: 9386824c-7d04-459b-9417-45b67f8a7b37
 TQID: https://experienceleague.adobe.com/BNwk0vuY8bpEtqlaQjqkw22hZ-piNnnrHYjuy7Vam-Q
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 819
-ht-degree: 96%
+source-wordcount: 860
+ht-degree: 46%
 
 ---
 
 # Conceptos básicos de sincronización de ID y tasas de coincidencia{#understanding-id-synchronization-and-match-rates}
 
-Resumen de los procesos de sincronización de ID y las tasas de coincidencia en el servicio de identidad de Experience Cloud, incluidos Adobe Media Optimizer y el servicio de identidad.
+Resumen de los procesos de sincronización de ID y las tasas de coincidencia en el servicio de ID de visitante, incluidos Adobe Media Optimizer y el servicio de ID de visitante.
 
 ## Sincronización de ID y tasas de coincidencia {#section-f652aae7234945e89d26dd833c5215fb}
 
-La sincronización de ID coincide con los ID asignados por el servicio de ID a los ID asignados por nuestros clientes a los visitantes del sitio. Por ejemplo, supongamos que el servicio de ID ha asignado un ID de visitante 1234. Otra plataforma conoce este visitante por el ID 4321. El servicio de ID asigna estos ID juntos durante el proceso de sincronización. Los resultados agregan nuevos puntos de datos a lo que nuestros clientes conocen sobre los visitantes del sitio. Y, si el servicio de ID no puede coincidir con un ID, crea uno nuevo y utiliza ese ID para una sincronización futura.
+La sincronización de ID coincide con los ID asignados por el servicio de ID de visitante a los ID asignados por nuestros clientes a los visitantes del sitio. Por ejemplo, supongamos que el servicio de ID de visitante ha asignado un ID de visitante 1234. Otra plataforma conoce este visitante por el ID 4321. El servicio de ID de visitante asigna estos ID juntos durante el proceso de sincronización. Los resultados agregan nuevos puntos de datos a lo que nuestros clientes conocen sobre los visitantes del sitio. Y, si el servicio de ID de visitante no puede coincidir con un ID, crea uno nuevo y utiliza ese ID para una sincronización futura.
 
 Las tasas de coincidencia miden y validan la eficacia del proceso de sincronización de ID. Las altas tasas de coincidencia sugieren que un servicio en particular será más efectivo y proporcionará acceso a un público en línea más grande que un servicio con bajas tasas de coincidencia. La comparación de tasas de coincidencia es una manera cuantificable de evaluar diferentes plataformas tecnológicas de publicidad integradas.
 
@@ -37,29 +28,29 @@ Las tasas de coincidencia miden y validan la eficacia del proceso de sincronizac
 
 **Garantizar tasas de coincidencia elevadas**
 
-Una implementación adecuada ayuda a garantizar tasas de coincidencia elevadas, ya que permite al servicio de ID establecer las cookies que necesita para funcionar y sincronizar los ID con socios de datos habilitados. Sin embargo, factores como la lentitud de las conexiones a Internet, la recopilación de datos de dispositivos móviles o las redes inalámbricas pueden afectar a la forma en que el servicio de ID recopila, sincroniza y hace coincidir los ID. Estas variables del lado de cliente escapan al control del servicio de ID o de [!DNL Adobe].
+Una implementación adecuada ayuda a garantizar tasas de coincidencia elevadas, ya que permite al servicio de ID de visitante establecer las cookies que necesita para funcionar y sincronizar los ID con socios de datos habilitados. Sin embargo, factores como la lentitud de las conexiones a Internet, la recopilación de datos de dispositivos móviles o las redes inalámbricas pueden afectar a la forma en que el servicio de ID de visitante recopila, sincroniza y hace coincidir los ID. Estas variables del lado del cliente escapan al control del servicio de ID de visitante o de Adobe.
 
 ## Descripción del proceso de sincronización de ID {#section-a541a85cbbc74f5682824b1a2ee2a657}
 
-El servicio de ID sincroniza los ID en tiempo real. Este proceso funciona en el explorador en lugar de mediante una transferencia de datos de servidor a servidor. En la tabla siguiente se describen los pasos del proceso de sincronización de ID.
+El servicio de ID de visitante sincroniza los ID en tiempo real. Este proceso funciona en el explorador en lugar de mediante una transferencia de datos de servidor a servidor. En la tabla siguiente se describen los pasos del proceso de sincronización de ID.
 
 **Paso 1: Carga de la página**
 
-Cuando un visitante llega a su sitio y carga una página, la `Visitor.getInstance` función realiza una llamada [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) o JSON-P al servicio de ID. El servicio de ID responde con una cookie que incluye el [!DNL Experience Cloud] ID de (MID) del visitante. El MID es un ID único que se asigna a cada visitante del sitio. Consulte también la información relativa a las [Cookies y el servicio de identidad Experience Cloud.](../introduction/cookies.md)
+Cuando un visitante llega a su sitio y carga una página, la función `Visitor.getInstance` realiza una llamada [CORS](../reference/cors.md#concept-6c280446990d46d88ba9da15d2dcc758) o JSON-P al servicio de ID de visitante. El servicio de ID de visitante responde con una cookie que incluye el ECID del visitante. El MID es un ID único que se asigna a cada visitante del sitio. Consulte también [Cookies y el servicio de identificación del visitante](../introduction/cookies.md).
 
 **Paso 2: Carga del iFrame**
 
-Mientras se carga el cuerpo de la página, el servicio de ID carga un iFrame llamado *`Destination Publishing iFrame`*. El [!UICONTROL Destination Publishing iFrame] se carga en un dominio aparte de la página principal. Este diseño ayuda a garantizar el rendimiento de la página y mejora la seguridad debido al siguiente comportamiento del iFrame:
+Mientras se carga el cuerpo de la página, el servicio de identificación del visitante carga un iFrame llamado *`Destination Publishing iFrame`*. El [!UICONTROL Destination Publishing iFrame] se carga en un dominio aparte de la página principal. Este diseño ayuda a garantizar el rendimiento de la página y mejora la seguridad debido al siguiente comportamiento del iFrame:
 
 * Se carga asincrónicamente en relación con la página principal. Esto significa que la página principal se puede cargar de manera independiente del [!UICONTROL Destination Publishing iFrame]. Al cargarse el iFrame y cargarse los píxeles de sincronización de ID desde dentro del iFrame, la página principal no se verá afectada, como tampoco lo hará la experiencia del usuario.
 * Se carga lo más rápido posible. Si esto sucede con demasiada rapidez, puede cargar el iFrame después del evento de carga de ventana (no recomendado). Consulte [idSyncAttachIframeOnWindowLoad](../library/function-vars/idsyncattachiframeonwindowload.md#reference-b86b7112e0814a4c82c4e24c158508f4) para obtener más información.
 * Impide que el código dentro del iFrame obtenga acceso a la página principal, o produzca algún efecto en ella.
 
-Consulte también [Solicitud y configuración de ID con el servicio de identidad de Experience Cloud...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a)
+Ver también [Solicitud y configuración de ID con el servicio de ID de visitante...](../introduction/id-request.md#concept-2caacebb1d244402816760e9b8bcef6a).
 
 **Paso 3: Activar la sincronización de ID**
 
-La sincronización de ID se produce mediante una URL que activa el iFrame de publicación de destino. Tal y como se puede ver en este ejemplo genérico, la URL de sincronización de ID contiene un extremo de sincronización de ID de socio y una URL de redireccionamiento, que redirige de nuevo a [!DNL Adobe] y que incluye su ID.
+La sincronización de ID se produce mediante una URL que activa el iFrame de publicación de destino. Como se muestra en este ejemplo genérico, una URL de sincronización de ID contiene un extremo de sincronización de ID de socio y una URL de redireccionamiento, que redirige de nuevo a Adobe y que incluye su ID.
 
 `http://abc.com?partner_id=abc&sync_id=123&redir=http://dpm.demdex.net/ibs:dpid=<ADOBE_PARTNER_ID>&dpuuid=<PARTNER_UUID>`
 
@@ -71,18 +62,18 @@ Los ID sincronizados se almacenan en [los servidores edge y de datos principales
 
 ## Administración de la sincronización de ID mediante los servicios de sincronización {#section-cd5784d7ad404a24aa28ad4816a0119a}
 
-El término *`Sync Services`* hace referencia a las tecnologías internas de [!DNL Experience Cloud] responsables de la sincronización de ID. Este servicio está habilitado de manera predeterminada. Para deshabilitarlo, agregue una [variable opcional](../library/function-vars/disableidsync.md#reference-589d6b489ac64eddb5a7ff758945e414) a la función del servicio de ID `Visitor.getInstance`. Los servicios de sincronización hacen coincidir ID de [!DNL Experience Cloud] distintos, como:
+El término *`Sync Services`* hace referencia a las tecnologías internas de CX Enterprise responsables de la sincronización de ID. Este servicio está habilitado de manera predeterminada. Para deshabilitarlo, agregue una [variable opcional](../library/function-vars/disableidsync.md#reference-589d6b489ac64eddb5a7ff758945e414) a la función `Visitor.getInstance` del servicio de identificación del visitante. Los servicios de sincronización hacen coincidir distintos ECID, como:
 
-* ID de [!DNL Experience Cloud] cookies de terceros de con [!DNL Experience Cloud] ID de origen.
+* ID de cookies empresariales de CX de terceros para ECID de origen.
 
-* ID de [!DNL Experience Cloud] cookies de origen de con ID de [!DNL Adobe Media Optimizer] (AMO).
+* ID de cookies empresariales de CX de origen de con ID de Adobe Media Optimizer (AMO).
 
-* ID de cookies de terceros de [!DNL Experience Cloud] con ID de plataformas de segmentación y otros proveedores de datos. Esto incluye servicios y plataformas como proveedores de datos, plataformas del lado de la demanda o el suministro, redes de anuncios, intercambios, etc.
-* ID de cookies de origen de [!DNL Experience Cloud] con ID de socios entre dispositivos.
+* ID de cookies empresariales de CX de terceros de con ID de plataformas de segmentación y proveedores de datos de terceros. Esto incluye servicios y plataformas como proveedores de datos, plataformas del lado de la demanda o el suministro, redes de anuncios, intercambios, etc.
+* ID de cookies empresariales de CX de origen de con ID de socios entre dispositivos.
 
 ## Sincronización de ID con Adobe Advertising Cloud {#section-642c885ea65d45ffb761f78838735016}
 
-[!DNL Adobe Advertising Cloud] (antes [!DNL Adobe Media Optimizer]) es una excepción del proceso de sincronización de ID basado en iFrame. Puesto que [!DNL Advertising Cloud] es un dominio de confianza, las sincronizaciones de ID se realizan en la página principal en lugar de en el [!UICONTROL Destination Publishing iFrame]. Durante la sincronización, el servicio de ID llama a [!DNL Advertising Cloud] en `cm.eversttech.net`, que es un nombre de dominio heredado que utilizaba [!DNL Advertising Cloud] antes de su adquisición por parte de Adobe. El envío de datos a [!DNL Advertising Cloud] ayuda a mejorar las tasas de coincidencia y se realiza automáticamente para los clientes de servicio de ID que utilizan la versión 2.0 (o posterior). Consulte [Cookies de Advertising Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-advertising-cloud.html?lang=es).
+Adobe Advertising Cloud (anteriormente denominado Adobe Media Optimizer) es una excepción del proceso de sincronización de ID basado en iFrames. Como Advertising Cloud es un dominio de confianza, las sincronizaciones de ID se realizan en la página principal en lugar de en [!UICONTROL Destination Publishing iFrame]. Durante la sincronización, el servicio de ID de visitante llama a Advertising Cloud en `cm.eversttech.net`, que es un nombre de dominio heredado que Advertising Cloud utilizaba antes de que Adobe lo adquiriera. El envío de datos a Advertising Cloud ayuda a mejorar las tasas de coincidencia y se realiza automáticamente para los clientes del servicio de ID de visitante que utilizan la versión 2.0 (o posterior). Consulte [Cookies de Advertising Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-advertising-cloud.html?lang=es).
 
 >[!MORELIKETHIS]
 >
