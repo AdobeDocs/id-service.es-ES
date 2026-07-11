@@ -1,6 +1,6 @@
 ---
-description: Llame a estas funciones del servicio de identidad para determinar el estado de tiempo de espera de una solicitud de ID del servicio de identidad de Experience Cloud, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
-keywords: Servicio de ID
+description: Llame a estas funciones del servicio de ID de visitante para determinar el estado de tiempo de espera de una solicitud de ID del servicio de ID de visitante, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+keywords: Servicio de ID de visitante
 title: Métodos callTimeOut
 exl-id: ff3a2c5e-a0a8-4257-b538-0e4ce454b4e8
 TQID: https://experienceleague.adobe.com/DIis78iaPQ7qpawlKwWCwReXbh5Mt0K8J3w-5KYdhmg
@@ -11,16 +11,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 127
-ht-degree: 98%
+source-wordcount: 129
+ht-degree: 31%
 
 ---
 
 # Métodos callTimeOut{#calltimeout-methods}
 
-Llame a estas funciones del servicio de identidad para determinar el estado de tiempo de espera de una solicitud de ID del servicio de identidad de Experience Cloud, Analytics o de Audience Manager. Disponible en VisitorAPI.js versión 1.7.0 o posteriores.
+Llame a estas funciones del servicio de ID de visitante para determinar el estado de tiempo de espera de una solicitud de ID del servicio de ID de visitante, Analytics o de Audience Manager. Disponible en `VisitorAPI.js` versión 1.7.0 o superior.
 
 ## Funciones de tiempo de espera {#section-e08228ef5f9b45c9a84139bbb763164a}
 
@@ -33,7 +33,7 @@ Llame a estas funciones del servicio de identidad para determinar el estado de t
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Servicio de identidad de Experience Cloud </p> </td> 
+   <td colname="col1"> <p>Servicio de ID de visitante </p> </td> 
    <td colname="col2"> <p> <span class="codeph">var <span class="varname"> variableName</span> = visitor.MCIDCallTimedOut()</span> </p> </td> 
   </tr> 
   <tr> 
@@ -59,15 +59,15 @@ Llame a estas funciones del servicio de identidad para determinar el estado de t
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TRUE</span> </p> </td> 
-   <td colname="col2"> <p>El servicio de ID envió una solicitud y esta alcanzó su tiempo de espera máximo. </p> </td> 
+   <td colname="col2"> <p>El servicio de ID de visitante envió una solicitud y esta alcanzó su tiempo de espera máximo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FALSE</span> </p> </td> 
-   <td colname="col2"> <p>El servicio de ID envió una solicitud y recibió una respuesta correcta del servidor. </p> </td> 
+   <td colname="col2"> <p>El servicio de ID de visitante envió una solicitud y recibió una respuesta correcta del servidor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> NULL</span> </p> </td> 
-   <td colname="col2"> <p>El servicio de ID no envió una solicitud. </p> </td> 
+   <td colname="col2"> <p>El servicio de ID de visitante no envió una solicitud. </p> </td> 
   </tr> 
  </tbody> 
 </table>

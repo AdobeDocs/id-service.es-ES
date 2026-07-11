@@ -1,6 +1,6 @@
 ---
-description: Esta propiedad sobrescribe los Experience Cloud ID y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, debe ser el propietario y haber implementado el servicio de ID en cada dominio. Este código no permite sobrescribir los ID en dominios que no controla.
-keywords: Servicio de ID
+description: Esta propiedad sobrescribe los ECID y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, debe ser el propietario y haber implementado el servicio de ID de visitante en cada dominio. Este código no permite sobrescribir los ID en dominios que no controla.
+keywords: Servicio de ID de visitante
 title: overwriteCrossDomainMCIDAndAID
 exl-id: 726261b1-c8d0-4b12-b0cb-52d7e21e7fac
 TQID: https://experienceleague.adobe.com/dJUuTbc9zspC93WZrRaxBsp2BgpbE-z-iUuePQXGTeY
@@ -11,16 +11,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 100%
+source-wordcount: 404
+ht-degree: 71%
 
 ---
 
 # overwriteCrossDomainMCIDAndAID{#overwritecrossdomainmcidandaid}
 
-Esta propiedad sobrescribe los Experience Cloud ID y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, debe ser el propietario y haber implementado el servicio de ID en cada dominio. Este código no permite sobrescribir los ID en dominios que no controla.
+Esta propiedad sobrescribe los ECID y los ID de Analytics del visitante a medida que este navega de un dominio a otro. Para sobrescribir un ID, debe ser el propietario y haber implementado el servicio de ID de visitante en cada dominio. Este código no permite sobrescribir los ID en dominios que no controla.
 
 **Sintaxis:** `Visitor.overwriteCrossDomainMCIDAndAID: true|false` (el valor predeterminado es `false`)
 
@@ -29,7 +29,7 @@ Esta propiedad sobrescribe los Experience Cloud ID y los ID de Analytics del vis
 Su código JavaScript podría ser similar al que se muestra en el ejemplo siguiente.
 
 ```js
-//Call the ID service 
+//Call the Visitor ID Service 
 var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ID-HERE", { 
      ... 
  
@@ -40,7 +40,7 @@ var visitor = Visitor.getInstance("INSERT-MARKETING-CLOUD-ID-HERE", {
 
 **Casos de uso**
 
-Para hacer un seguimiento de los visitantes del sitio, el servicio de ID escribe un [!DNL Experience Cloud] ID de (o MID) en una cookie de navegador. En la tabla siguiente se enumeran y describen los casos de uso comunes en los que puede interesarle sobrescribir un MID existente configurado por el servicio de ID en otro dominio.
+Para realizar un seguimiento de los visitantes del sitio, el servicio de ID de visitante escribe un ECID (o MID) en una cookie de explorador. En la tabla siguiente se enumeran y describen los casos de uso comunes en los que puede interesarle sobrescribir un MID existente configurado por el servicio de ID de visitante en otro dominio.
 
 <table id="table_FC1AF6551D6646E0BF1C4FB7C1316EBB"> 
  <thead> 

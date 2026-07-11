@@ -1,6 +1,6 @@
 ---
-description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
-keywords: Servicio de ID
+description: Versiones de funcionalidades, actualizaciones o cambios en el servicio de ID de visitante.
+keywords: Servicio de ID de visitante
 title: Notas de la versión de 2021
 exl-id: 56bffb6f-a4fc-40df-8bb2-17e43772fe60
 TQID: https://experienceleague.adobe.com/AB8VuYn9X41P9REJ8C215GzBRtH66lb35i-q1PNbZfU
@@ -13,16 +13,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
 source-wordcount: 110
-ht-degree: 100%
+ht-degree: 59%
 
 ---
 
-# Notas de la versión del servicio de identidad de Experience Cloud - 2021
+# Notas de la versión del servicio de ID de visitante de Adobe: 2021
 
-Versiones de funcionalidades, actualizaciones o cambios en el servicio de identidad de Experience Cloud.
+Versiones de funcionalidades, actualizaciones o cambios en el servicio de ID de visitante.
 
 ## Visitante 5.3.0
 
@@ -36,7 +36,7 @@ En la versión de Visitor 5.3.0 se incluyeron las siguientes actualizaciones:
 
 En la versión de Visitor 5.2.0 se incluyeron las siguientes actualizaciones:
 
-* Esta versión introduce un evento `onReceiveEcid`, que se llama cuando se recibe un ECID desde el servicio de identidad. Por ejemplo:
+* Esta versión presenta un evento `onReceiveEcid`, al que se llama cuando se recibe un ECID del servicio de ID de visitante. Por ejemplo:
 
 ```js
 visitorInstance.onReceiveEcid(callback(ecid){

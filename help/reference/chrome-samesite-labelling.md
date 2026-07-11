@@ -1,6 +1,6 @@
 ---
 title: Cambios en el etiquetado de SameSite de Google Chrome
-description: Documentación para la biblioteca de Adobe ECID (servicio de ID).
+description: Documentación para la biblioteca de Adobe ECID (servicio de ID de visitante).
 exl-id: f20b25a4-c9bc-41b9-8e49-79b8424e62a0
 TQID: https://experienceleague.adobe.com/VlmpxMM0Jm4ExEL1WdjeA3h9brGBslGoJCqgQ-xFaRs
 product_v2:
@@ -15,10 +15,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
 source-wordcount: 1125
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Visite el [documento de estándares de cookies](https://tools.ietf.org/html/draf
 | `lax` | Las cookies con esta configuración solo se envían cuando el dominio mostrado en la dirección URL del explorador coincide con el dominio de la cookie. Esta es la nueva opción predeterminada para las cookies en Chrome. |
 | `none` | Las cookies con esta configuración están disponibles para el acceso externo o de terceros, como “entre sitios”. Antes de este cambio, `none` era la configuración predeterminada de SameSite para las cookies, por lo que el uso de esta configuración hace que una cookie se comporte de la manera más similar a como ha funcionado tradicionalmente. Sin embargo, Google requiere que cualquier cookie con esta configuración ahora especifique el indicador seguro, lo que significa que la cookie solo se creará y enviará con solicitudes a través de HTTPS. Todas las cookies entre sitios sin el indicador seguro serán rechazadas por Google. |
 
-## Lo que necesita saber como cliente de Adobe Experience Cloud
+## Lo que necesita saber como cliente de Adobe CX Enterprise
 
 **No se requieren actualizaciones de JavaScript**
 
@@ -48,7 +48,7 @@ Los productos de Adobe ya han publicado actualizaciones del lado del servidor pa
 
 **Asegúrese de que los puntos de conexión de terceros utilizan HTTPS**
 
-Todos los clientes de Analytics deben confirmar que su configuración de JavaScript utiliza HTTPS para sus llamadas a los servicios de Adobe. Target, Audience Manager y el servicio de identidad de Experience Cloud (ECID) están redireccionando las llamadas HTTP de terceros a sus respectivos puntos de conexión HTTPS, lo que puede aumentar la latencia. Esto significa que no es necesario que cambie la configuración. Los clientes de Analytics deben actualizar sus implementaciones para que utilicen exclusivamente HTTPS, ya que las redirecciones específicas de Analytics pueden provocar la pérdida de datos.
+Todos los clientes de Analytics deben confirmar que su configuración de JavaScript utiliza HTTPS para sus llamadas a los servicios de Adobe. Target, Audience Manager y el servicio de ID de visitante (ECID) están redireccionando las llamadas HTTP de terceros a sus respectivos puntos de conexión HTTPS, lo que puede aumentar la latencia. Esto significa que no es necesario que cambie la configuración. Los clientes de Analytics deben actualizar sus implementaciones para que utilicen exclusivamente HTTPS, ya que las redirecciones específicas de Analytics pueden provocar la pérdida de datos.
 
 **Las cookies correctamente etiquetadas deben recopilar los datos según lo previsto**
 

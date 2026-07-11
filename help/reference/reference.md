@@ -1,6 +1,6 @@
 ---
-description: Información acerca de otras características y funcionalidades del servicio de identidad de Experience Cloud.
-keywords: Servicio de ID
+description: Información acerca de otras características y funciones del servicio de ID de visitante.
+keywords: Servicio de ID de visitante
 title: Referencia
 exl-id: 9a14300c-206c-4960-b594-517809f7e979
 TQID: https://experienceleague.adobe.com/9Dl-jPqZLzHgsyh6-rS8fvp5JKgvYKpfm9arD55B8jc
@@ -13,23 +13,22 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 100%
+source-wordcount: 77
+ht-degree: 12%
 
 ---
 
 # Referencia {#reference}
 
-Información acerca de otras características y funcionalidades del servicio de identidad de Experience Cloud.
+Información acerca de otras características y funciones del servicio de ID de visitante.
 
-* [Políticas de seguridad del contenido y el servicio de identidad de Experience Cloud](csp.md)
-* [Compatibilidad con COPPA en el servicio de identidad de Experience Cloud](coppa.md)
-* [Compatibilidad con CORS en el servicio de identidad de Experience Cloud](cors.md)
+* [Políticas de seguridad del contenido y el servicio de ID de visitante](csp.md)
+* [Compatibilidad con COPPA en el servicio de ID de visitante](coppa.md)
+* [Compatibilidad con CORS en el servicio de ID de visitante](cors.md)
 * [ID de cliente y estados de autenticación](authenticated-state.md)
-* [Obtención de ID de región y de usuario desde la cookie de AMCV o el servicio de ID](regions.md)
-* [Requisitos del servicio de identidad de Experience Cloud](requirements.md)
-* [Video Heartbeat y el servicio de identidad de Experience Cloud](heartbeat.md)
-* [Data Workbench y el servicio de identidad de Experience Cloud](dwb.md)
+* [Obtención de ID de región y de usuario desde la cookie de AMCV o el servicio de ID de visitante](regions.md)
+* [Requisitos del servicio de ID de visitante](requirements.md)
+* [Video Heartbeat y el servicio de ID de visitante](heartbeat.md)
 

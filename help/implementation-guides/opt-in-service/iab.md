@@ -14,10 +14,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 96%
+source-wordcount: 515
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Para obtener más información, consulte los [documentos del Interactive Adver
 >
 >El servicio de inclusión (Opt-in) solo está disponible en la versión de ECID 4.0 y posteriores.
 
-Utilice Adobe Experience Platform Launch para implementar el complemento IAB TCF de inclusión para su sitio. Al habilitar IAB para la opción de inclusión de forma manual, asegúrese de que la siguiente configuración se establezca en true en el objeto Visitante:
+Utilice etiquetas para implementar el complemento IAB TCF de inclusión para su sitio. Al habilitar IAB para la opción de inclusión de forma manual, asegúrese de que la siguiente configuración se establezca en true en el objeto Visitante:
 
 ```javascript
 Visitor.getInstance("YOUR_ORG_ID", {  

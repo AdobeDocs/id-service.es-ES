@@ -1,5 +1,5 @@
 ---
-description: Implemente el servicio de inclusión (Opt-in) como el único punto de referencia que utilizan las soluciones de Experience Cloud (denominadas “categorías” en Opt-in) para determinar si se crean o no cookies en el dispositivo de un visitante.
+description: Implemente el servicio de inclusión (Opt-in) como el único punto de referencia que utilizan las soluciones de CX Enterprise (denominadas categorías en Opt-in) para determinar si se crean o no cookies en el dispositivo de un visitante.
 title: Configuración del servicio de inclusión (Opt-in)
 exl-id: 6e8a6531-9924-4523-a842-cb4614a7a7a0
 TQID: https://experienceleague.adobe.com/Nq3mYoy0U-0RK8MHzsu-yCIVwbCbaAJnIUR8QZDCKcs
@@ -14,18 +14,18 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 849
-ht-degree: 97%
+source-wordcount: 964
+ht-degree: 84%
 
 ---
 
 # Configuración del servicio de inclusión (Opt-in){#setting-up-opt-in-service}
 
-Implemente el servicio de inclusión (Opt-in) como el único punto de referencia que utilizan las soluciones de Experience Cloud (denominadas “categorías” en Opt-in) para determinar si se crean o no cookies en el dispositivo de un visitante.
+Implemente el servicio de inclusión (Opt-in) como el único punto de referencia que utilizan las soluciones de CX Enterprise (denominadas categorías en Opt-in) para determinar si se crean o no cookies en el dispositivo de un visitante.
 
-El servicio de inclusión (Opt-in) es una biblioteca JavaScript incluida con Experience Cloud ID (ECID) y se encuentra en el Visitor JS del objeto global de `adobe` como el objeto `adobe.optIn`. El servicio de inclusión (Opt-in) instalado le permite especificar si un visitante puede incluirse en las soluciones de Adobe de una sola vez, o si se le van presentando las soluciones una tras otra para que vaya aprobando los permisos. La función de gestión del consentimiento del servicio de inclusión (Opt-in) le permite implementar distintas configuraciones, según sus requisitos específicos de privacidad.
+El servicio de inclusión (Opt-in) es una biblioteca JavaScript incluida con ECID y existe en el JS de visitante del objeto global `adobe` como objeto `adobe.optIn`. El servicio de inclusión (Opt-in) instalado le permite especificar si un visitante puede incluirse en las soluciones de Adobe de una sola vez, o si se le van presentando las soluciones una tras otra para que vaya aprobando los permisos. La función de gestión del consentimiento del servicio de inclusión (Opt-in) le permite implementar distintas configuraciones, según sus requisitos específicos de privacidad.
 
 El servicio Opt-in le permite especificar si un visitante puede incluirse en las soluciones de Adobe de una sola vez, o si se le van presentando las soluciones una tras otra para que vaya aprobando los permisos. Una vez que el cliente completa y registra el proceso de aprobación, todas las soluciones de Adobe pueden recuperar las aprobaciones de visitante de CMP para responder con llamadas de consentimiento relacionadas.
 
@@ -41,7 +41,7 @@ El servicio Opt-in le permite especificar si un visitante puede incluirse en las
    * AppMeasurement 2.11 o posterior
    * DIL 9.0
    * Versión 1.7.0 de AT.js
-   * Extensión de AT.js de Platform Launch versión 9.0
+   * Extensión de etiquetas AT.js versión 9.0
    * Para Analytics, medición de la aplicación 2.11 con la extensión 1.6
    * Para Target, extensión 0.9.1
 
@@ -53,13 +53,13 @@ El servicio Opt-in le permite especificar si un visitante puede incluirse en las
 
 1. Los requisitos de privacidad de su empresa dependerán de cómo decida cumplir con el RGPD. Tenga en cuenta qué bibliotecas pueden utilizar los equipos de privacidad de su compañía previamente al consentimiento.
 
-Si utiliza [etiquetas en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es), aproveche la [extensión de inclusión](../../implementation-guides/opt-in-service/launch.md) para configurar el servicio de inclusión.
+Si usa [etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es), aproveche la [extensión de inclusión](../../implementation-guides/opt-in-service/launch.md) para configurar el servicio de inclusión (Opt-in).
 
 ## Categorías de Opt-in {#section-9ab0492ab4414f0ca16dc08d3a905f47}
 
-Las preferencias de Opt-in de un visitante dependen de la solución de Adobe Experience Cloud, representándose cada solución mediante una categoría. Las categorías las proporciona el `adobe.OptInCategories` objeto, donde, por ejemplo, el componente ECID es referido como `adobe.OptInCategories`. `ECID`. La siguiente es la definición de `adobe.OptInCategories`:
+Las preferencias de Opt-in de un visitante dependen de la solución Adobe CX Enterprise, representándose cada solución en una categoría. Las categorías las proporciona el `adobe.OptInCategories` objeto, donde, por ejemplo, el componente ECID es referido como `adobe.OptInCategories`. `ECID`. La siguiente es la definición de `adobe.OptInCategories`:
 
-La configuración de Opt-in se mantiene por categoría, estando cada solución de Experience Cloud representada por una categoría:
+La configuración de Opt-in se mantiene por categoría, estando cada solución de CX Enterprise representada por una categoría:
 
 ```
 adobe.OptInCategories = { 
@@ -71,8 +71,7 @@ adobe.OptInCategories = {
 };
 ```
 
-El servicio Opt-in le permite establecer las preferencias de permiso de los visitantes para cada solución de Adobe que se utilice en el sitio. Incluye una biblioteca para guardar la configuración de un visitante por categoría aprobada y admite un flujo secuencial, por el que el proceso de aprobación recibe una a una las preferencias de &quot;confirmación&quot; o &quot;rechazo&quot; para cada categoría. Puede establecer soluciones/categorías para realizar la inclusión en bloque o para cada una de las soluciones.
-Las bibliotecas del lado del cliente de todas las soluciones de Adobe dependen del servicio Opt-in y no generarán cookies a menos que la solución haya obtenido permiso. Opt-in ofrece diversos enfoques para proporcionar y actualizar la configuración de consentimiento del visitante actual. Esta sección proporciona ejemplos de cómo se establecen las preferencias del servicio Opt-in. Consulte la [Referencia de la API Opt-in](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) para obtener una lista completa de funciones y parámetros.
+El servicio Opt-in le permite establecer las preferencias de permiso de los visitantes para cada solución de Adobe que se emplee en el sitio. Incluye una biblioteca para guardar la configuración de un visitante para cada categoría aprobada y admite un flujo secuencial, por el que el proceso de aprobación recibe una a una las preferencias de “confirmación” o “rechazo” para cada categoría. Puede establecer soluciones/categorías para realizar la inclusión en bloque o para cada una de las soluciones.Las bibliotecas del lado del cliente de todas las soluciones de Adobe dependen del servicio Opt-in y no generarán cookies salvo que la solución haya obtenido permiso. Opt-in ofrece diversos enfoques para proporcionar y actualizar la configuración de consentimiento del visitante actual. Esta sección incluye ejemplos de cómo se establecen las preferencias del servicio Opt-in. Consulte la [Referencia de la API Opt-in](../../implementation-guides/opt-in-service/api.md#reference-4f30152333dd4990ab10c1b8b82fc867) para obtener una lista completa de funciones y parámetros.
 
 Se proporcionan configuraciones del servicio Opt-in en la `getInstance()` función de Visitor JS, que crea una instancia del `adobe` objeto global. A continuación se enumeran los [ajustes de configuración](../../implementation-guides/opt-in-service/api.md#section-d66018342baf401389f248bb381becbf) de Visitor JS para el servicio Opt-in.
 

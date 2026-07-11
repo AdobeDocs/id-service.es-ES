@@ -1,7 +1,7 @@
 ---
-description: El servicio de identidad de Experience Cloud habilita el marco de identificación común para la aplicación y los servicios de Experience Cloud. Funciona asignando un ID único y persistente conocido como ID de Experience Cloud (ECID) a un visitante del sitio.
-keywords: Servicio de ID; Servicio de identidad; Servicio de identidad de Experience Cloud
-title: Servicio de identidad de Experience Cloud
+description: El servicio de ID de visitante de Adobe habilita el marco de identificación común para la aplicación y los servicios empresariales de CX. Funciona asignando un ID único y persistente conocido como ECID a un visitante del sitio.
+keywords: Servicio de ID de visitante; ECID
+title: Servicio de ID de visitante de Adobe
 exl-id: fe1368db-06ca-4c79-b655-b7064e316d74
 TQID: https://experienceleague.adobe.com/xzEgzuN2NnyOnhCPocQikOXHFRU6zmLWLGdrJL4C3GM
 product_v2:
@@ -14,59 +14,61 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 89fabda03cf7b1e604cc043d6ec7c75dc967c5e4
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 96%
+source-wordcount: 410
+ht-degree: 28%
 
 ---
 
-# Servicio de identidad de Adobe Experience Cloud {#experience-cloud-id-service}
+# Servicio de ID de visitante de Adobe {#experience-cloud-id-service}
 
-El servicio de identidad de Experience Cloud habilita el marco de identificación común para la aplicación y los servicios de Experience Cloud. Funciona asignando un ID único y persistente conocido como ID de Experience Cloud (ECID) a un visitante del sitio.
+>[!BEGINSHADEBOX]
+
+El servicio de identificación de visitante es **no** el [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es). El servicio de ID de visitante es la biblioteca de JavaScript `VisitorAPI.js` que se describe en esta guía y que establece el ECID para Adobe Analytics, Audience Manager y Target. Si está buscando el servicio de Adobe Experience Platform que resuelve identidades entre dispositivos y sistemas en un perfil unificado de cliente, consulte la [descripción general del servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es).
+
+>[!ENDSHADEBOX]
+
+El servicio de ID de visitante de Adobe habilita el marco de identificación común para la aplicación y los servicios empresariales de CX. Funciona asignando un ID único y persistente conocido como ECID a un visitante del sitio.
 
 ## Explicación de las principales entidades de identidad
 
 Para comprender mejor cómo Adobe ayuda a identificar visitantes de forma exclusiva y a resolver la información de identidad, lea el desglose siguiente:
 
-* **Servicio de identidad de Experience Cloud**: el servicio de identidad del Experience Cloud **es responsable de configurar el ID de Experience Cloud (ECID)**. Para obtener más información, lea el [Resumen del servicio de identidad de Experience Cloud](./introduction/overview.md).
-* **ID de Experience Cloud (ECID)**: ECID es un espacio de nombres de identidad compartido que se utiliza en las aplicaciones de Adobe Experience Platform y Adobe Experience Cloud para identificar personas y dispositivos. Para obtener más información sobre el ECID, lea la [Información general de ECID](https://experienceleague.adobe.com/docs/experience-platform/identity/ecid.html?lang=es).
+* **Servicio de ID de visitante**: El servicio de ID de visitante **es responsable de configurar el ECID**. Para obtener más información, lea la [descripción general del servicio de ID de visitante](./introduction/overview.md).
+* **ECID**: ECID es un área de nombres de identidad compartida que se usa en las aplicaciones empresariales de Adobe Experience Platform y Adobe CX para identificar personas y dispositivos. Para obtener más información sobre el ECID, lea la [Información general de ECID](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/ecid).
 * **Servicio de identidad de Experience Platform**: el servicio de identidad de Experience Platform le ofrece una vista completa de sus clientes y de su comportamiento al unir identidades entre dispositivos y sistemas. Para obtener más información, lea [Información general del servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es).
 
-<!-- The Adobe Experience Cloud Identity Service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. It can replace ID generation code for Experience Cloud solutions and services. -->
+## Introducción
 
-<table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Primeros pasos</b> </p> <p> 
-     <ul id="ul_D5EC6A54A03F4AB595B588116A7C1296"> 
-      <li id="li_845F6DE25A1241439BCDCBC00459D7EB"> <a href="introduction/overview.md" format="dita" scope="local"> Información general </a> </li> 
-      <li id="li_47F399E1D4AF4F08BD647DF01A423BA7"> <a href="reference/requirements.md" format="dita" scope="local"> Requisitos del servicio de identidad de Experience Cloud </a> </li> 
-      <li id="li_CBEEE79B45644F28A52B58DDF23DAD4F"> <a href="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es" format="html" scope="external"> Implementación estándar con etiquetas de Platform </a> </li> 
-     </ul> </p> <p><b>Bibliotecas JavaScript de Experience Cloud ID</b> </p> <p>El JavaScript para el servicio de identidad de Experience Cloud se encuentra aquí: <a href="https://github.com/Adobe-Marketing-Cloud/id-service/releases" format="https" scope="external">https://github.com/Adobe-Marketing-Cloud/id-service/releases</a> </p> <p> <b>Elementos nuevos o destacados</b> </p> <p> 
-     <ul id="ul_B0A25B6827734D55BB1E20D12334AC21"> 
-      <li id="li_A66924F4948F4A5ABA545A89A28A6F6A"><a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local"> Servicio Opt-in</a> </li> 
-      <li id="li_92D49CB788AD478EA74BCF5328CB9A14"> <a href="library/get-set/getvisitorvalues.md#reference-b8c9e17c170c4291829a792df46ce279" format="dita" scope="local"> getVisitorValues </a> </li> 
-      <li id="li_9E512C6DD15C46C3ABD06ACD60D97E4A"> <a href="faq-intro/faq-intro.md" format="dita" scope="local"> Preguntas frecuentes </a> </li> 
-      <li id="li_7744A4898EA542B9BF009D2066810050"> <a href="library/function-vars/idsyncontainerid.md#reference-5cfbed2240fa4def90f535f017a36015" format="dita" scope="local"> idSyncContainerID </a> </li> 
-     </ul> </p> 
-     <!--
-     <p> <b>Announcements:</b> </p> 
-     <p> <p>Important:  ID service support for Internet Explorer 6, 7, and 8 is deprecated and will be discontinued in a future release. </p> </p> 
-     -->
-   </td> 
-   <td colname="col2"> <p> <b>Notas de la versión</b> </p> <p><b>La versión 4.4</b> del 17 de julio de 2019 incluye compatibilidad con el <a href="reference/hashing-support.md" format="dita" scope="local"> algoritmo hash SHA -256</a> que permite pasar ID de clientes o direcciones de correo electrónico y transferir ID hash.</p><p><b>La versión 4.0</b> del 12 de febrero de 2019 incluye el servicio <a href="implementation-guides/opt-in-service/optin-overview.md#concept-f9b5db0d27a245fbadd3e19162319360" format="dita" scope="local">Opt-in</a> utilizado para identificar si puede colocar una cookie en el dispositivo o el navegador de un usuario al visitar el sitio. </p> <p> 
-     <ul id="ul_4F06F170F214492780C7D25A069F799F"> 
-      <li id="li_45A7CD556FE44F4DAB035C736A058F36"> Consulte las últimas <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es" format="https" scope="external">Notas de la versión de Experience Cloud</a> para ver las nuevas funciones y modificaciones. </li> 
-      <li id="li_10CC4FBFEFC947CA9AD15F52D9715257">Consulte las <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es" format="html" scope="external">notas de la versión anteriores</a> para ver versiones más antiguas. </li> 
-     </ul> </p> <p> <b>Recursos de Experience Cloud</b> </p> <p> 
-     <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
-      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"> <a href="http://www.adobe.com/es/privacy.html" format="http" scope="external"> Centro de privacidad de Adobe</a> </li> 
-      <li id="li_A54C1EB170EA4B8FA6A81B90AB0C39DD"> <a href="https://experienceleague.adobe.com/docs/home.html?lang=es" scope="external" format="http"> Adobe Experience Cloud</a> </li> 
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="http://helpx.adobe.com/es/learning.html?promoid=KAUDK" scope="external" format="http"> Formación y tutoriales de Adobe</a> </li> 
-      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/es/support/experience-cloud.html" scope="external" format="https"> Página de inicio de documentación del producto</a> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [Descripción general del servicio de ID de visitante](introduction/overview.md): Descubra lo que hace el servicio de ID de visitante y cómo encaja en CX Enterprise.
+* [Requisitos del servicio de ID de visitante](reference/requirements.md): confirme que sus soluciones y bibliotecas de código cumplen los requisitos previos para implementar el servicio de ID de visitante.
+* [Métodos de implementación](implementation-guides/implementation-methods.md): Compare la implementación estándar usando [etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) con métodos de integración directa no estándar.
+
+## Explora la documentación
+
+**Implementación**
+
+* [Guías de implementación](implementation-guides/implementation-guides.md)
+* [Integración directa con el servicio de ID de visitante](implementation-guides/direct-integration.md)
+* [Información general sobre el servicio Opt-in](implementation-guides/opt-in-service/optin-overview.md)
+* [Comprobación y verificación del servicio de ID de visitante](implementation-guides/test-verify.md)
+
+**Referencia de API**
+
+* [Resumen de API del servicio de ID de visitante](library/library.md)
+* [getVisitorValues](library/get-set/getvisitorvalues.md)
+* [idSyncContainerID](library/function-vars/idsyncontainerid.md)
+
+**Preguntas frecuentes**
+
+* [Preguntas frecuentes sobre el servicio de ID de visitante](faq-intro/faq.md)
+* [Preguntas frecuentes para otras soluciones de CX Enterprise](faq-intro/other-faq.md)
+
+## Recursos adicionales
+
+* [Versiones de la biblioteca JavaScript de ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) en GitHub
+* [Notas de la versión del servicio de ID de visitante](release-notes/notes-2022.md)
+* [Centro de privacidad de Adobe](http://www.adobe.com/es/privacy.html)
+* [Documentación de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/home.html?lang=es)
 

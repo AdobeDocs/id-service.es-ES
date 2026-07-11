@@ -1,6 +1,6 @@
 ---
-description: Simplifique la habilitación de la solución Experience Cloud para la inclusión con Adobe Experience Platform Launch.
-title: Configuración de Opt-in con Launch
+description: Simplifique la activación de la solución CX Enterprise para la inclusión mediante etiquetas.
+title: Configuración de Opt-in con etiquetas
 exl-id: 9e9d1e2b-196f-474c-b872-de4329dcb017
 TQID: https://experienceleague.adobe.com/o2vzYw-VbX-F5dg-vnaRPdX2va99K1bRsAOA4IoUklc
 product_v2:
@@ -12,28 +12,28 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 180
-ht-degree: 100%
+source-wordcount: 171
+ht-degree: 19%
 
 ---
 
-# Configuración de inclusión con Experience Platform Launch {#configuring-opt-in-with-launch}
+# Configuración de Opt-in con etiquetas {#configuring-opt-in-with-launch}
 
-Simplifique la habilitación de la solución Experience Cloud para la inclusión con Adobe Experience Platform Launch.
+Simplifique la activación de la solución CX Enterprise para la inclusión mediante etiquetas.
 
-## Configurar un caso de inclusión con Experience Platform Launch {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
+## Configuración de un escenario de Opt-in con etiquetas {#section-8aa1b58bf8374c938aa8cfdeddbad6ff}
 
-Con [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) es muy sencillo configurar un escenario de inclusión con soluciones de Adobe. Puede simplificar la recopilación de consentimientos de inclusión de los visitantes para la solución de Experience Cloud. Habilite Analytics, Target, Audience Manager y otras o todas las soluciones de Experience Cloud seleccionadas para permitir su inclusión en un sistema de administración de consentimientos.
+[Etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en la recopilación de datos de Adobe Experience Platform facilita la configuración de un escenario de inclusión con soluciones de Adobe. Puede simplificar la recopilación de consentimientos de inclusión de los visitantes para las soluciones de CX Enterprise. Habilite Analytics, Target, Audience Manager y otras soluciones de CX Enterprise (o todas ellas) para permitir su inclusión en un sistema de administración de consentimientos.
 
-**Configurar la extensión Experience Cloud ID**
+**Configurar la extensión de etiqueta [!UICONTROL Experience Cloud ID Service]**
 
-Si la extensión Experience Cloud ID aún no está instalada, abra su propiedad, haga clic en *Extensiones* > *Catálogo*, sitúe el puntero por encima de la extensión Experience Cloud ID y, a continuación, haga clic en *Instalar*.
+Si la extensión de etiqueta [!UICONTROL Experience Cloud ID Service] aún no está instalada, abra su propiedad, haga clic en *Extensiones* > *Catálogo*, pase el cursor sobre la extensión de etiqueta [!UICONTROL Experience Cloud ID Service] y haga clic en *Instalar*.
 
 Para configurar la extensión, abra la pestaña *Extensiones* y pase el puntero por encima de la extensión. A continuación, haga clic en *Configurar*.
 
-Para obtener más información de referencia, lea la [Información general sobre la extensión del servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=es).
+Para obtener más información, lea la extensión de etiqueta [!UICONTROL Experience Cloud ID Service] [descripción general](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=es) (la extensión que implementa el servicio de ID de visitante).
 
 ![](assets/optin-launch.jpg)
 

@@ -1,6 +1,6 @@
 ---
-description: Instrucciones y ejemplos de código para implementaciones estándar y no estándar del servicio de identidad de Experience Cloud.
-keywords: Servicio de ID
+description: Instrucciones y ejemplos de código para implementaciones estándar y no estándar del servicio de ID de visitante.
+keywords: Servicio de ID de visitante
 solution: Experience Cloud
 title: Guías de implementación
 uuid: null
@@ -17,35 +17,35 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 181
-ht-degree: 100%
+source-wordcount: 170
+ht-degree: 16%
 
 ---
 
 # Guías de implementación
 
-Instrucciones y ejemplos de código para implementaciones estándar y no estándar del servicio de identidad de Experience Cloud.
+Instrucciones y ejemplos de código para implementaciones estándar y no estándar del servicio de ID de visitante.
 
 >[!IMPORTANT]
 >
->Asegúrese de leer y comprender los [requisitos del servicio de ID](../reference/requirements.md) antes de comenzar con estos procedimientos.
+>Asegúrese de leer y comprender los [requisitos del servicio de identificación del visitante](../reference/requirements.md) antes de comenzar con estos procedimientos.
 
 ## Implementación estándar
 
-La implementación estándar utiliza [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) para ayudarle a empezar con el servicio de ID e integrarlo con otras soluciones de Experience Cloud. Le recomendamos encarecidamente que utilice Experience Platform Launch al implementar el servicio de ID.
+La implementación estándar usa [etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) para ayudarle a empezar con el servicio de ID de visitante e integrarlo con otras soluciones de CX Enterprise. Le recomendamos encarecidamente que utilice etiquetas al implementar el Servicio de ID de visitante.
 
 ## Recursos de implementación
 
 * [Métodos de implementación](implementation-methods.md)
-* [Implementación con Experience Platform Launch](ecid-implement-with-launch.md)
-* [Implementación del servicio de identidad de Experience Cloud para Target](setup-target.md)
-* [Implementación del servicio de identidad de Experience Cloud para Analytics y Audience Manager](setup-aam-analytics.md)
-* [Implementación del servicio de identidad de Experience Cloud para Analytics, Audience Manager y Target](setup-aam-analytics-target.md)
-* [Uso del servicio de identidad de Experience Cloud con A4T y una implementación de Target en el lado del servidor](ecid-a4t-target.md)
-* [Integración directa con el servicio de identidad de Experience Cloud](direct-integration.md)
+* [Implementación con etiquetas](ecid-implement-with-launch.md)
+* [Implementación del servicio de ID de visitante para Target](setup-target.md)
+* [Implementación del servicio de ID de visitante para Analytics y Audience Manager](setup-aam-analytics.md)
+* [Implementación del servicio de ID de visitante para Analytics, Audience Manager y Target](setup-aam-analytics-target.md)
+* [Uso del servicio de ID de visitante con A4T y una implementación de Target en el lado del servidor](ecid-a4t-target.md)
+* [Integración directa con el servicio de ID de visitante](direct-integration.md)
 * [Casos de uso de integraciones directas](direct-integration-examples.md)
-* [Comprobación y verificación del servicio de identidad de Experience Cloud](test-verify.md)
+* [Comprobación y verificación del servicio de ID de visitante](test-verify.md)
 * [Información general sobre el servicio Opt-in](opt-in-service/optin-overview.md)
 

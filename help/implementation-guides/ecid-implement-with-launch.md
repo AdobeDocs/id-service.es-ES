@@ -1,6 +1,6 @@
 ---
-description: Adobe Experience Platform Launch es la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Cloud con el resto de las soluciones de Experience Cloud.
-title: Implementación con Launch
+description: Las etiquetas son la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de ID de visitante con el resto de las soluciones de CX Enterprise.
+title: Implementación con etiquetas de recopilación de datos
 feature-set: Experience Cloud Services
 feature: TK421
 exl-id: cf197fde-3b93-4578-b24e-2db5633f043c
@@ -14,22 +14,22 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 5c41e39a833b527a329f62e5f0929445f47139de
+source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
-source-wordcount: 179
-ht-degree: 100%
+source-wordcount: 170
+ht-degree: 23%
 
 ---
 
-# Implementación con etiquetas de Experience Platform{#implement-with-launch}
+# Implementación con etiquetas de recopilación de datos{#implement-with-launch}
 
-Las etiquetas en Adobe Experience Platform son la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de identidad de Experience Cloud con el resto de las soluciones de Experience Cloud.
+Las etiquetas son la principal herramienta que se utiliza para configurar, implementar e integrar el servicio de ID de visitante con el resto de las soluciones empresariales de CX.
 
-## Acerca de las etiquetas de Experience Platform {#section-611711602854464ea351a4af80a8dafe}
+## Etiquetas de recopilación de datos {#section-611711602854464ea351a4af80a8dafe}
 
-[Las etiquetas en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) son la próxima generación de la capacidad de administración de etiquetas de Adobe integrada en Adobe Experience Cloud. Las etiquetas de Platform permiten a los clientes:
+[Etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en la recopilación de datos de Adobe Experience Platform es la última generación de la capacidad de administración de etiquetas de Adobe integrada en Adobe CX Enterprise. Las etiquetas permiten a los clientes:
 
 * Implementar productos web del lado del cliente mediante integraciones llamadas _extensiones_.
 * Capturar, definir, administrar y compartir datos de forma consistente entre productos de marketing y publicidad de otros proveedores y de Adobe.
-* Las etiquetas de Platform son un sistema de entrega avanzado de JavaScript que evalúa las condiciones y acciones ejecutadas para implementar de forma eficiente y eficaz bibliotecas y productos en el lado del cliente. Las etiquetas ofrecen un enfoque muy escalable de la gestión y la creación de extensiones, además de un robusto conjunto de API para la interacción mediante la programación con Adobe Experience Cloud.
+* Las etiquetas son un avanzado sistema de entrega de JavaScript que evalúa las condiciones de las acciones ejecutadas para implementar de forma eficiente y eficaz bibliotecas y productos en el lado del cliente. Las etiquetas ofrecen un enfoque muy escalable de la gestión y la creación de extensiones, además de un robusto conjunto de API para la interacción mediante programación con Adobe CX Enterprise.
 
