@@ -172,7 +172,7 @@ Coloque el `VisitorAPI.js` archivo dentro de las etiquetas `<head>` en cada pág
 
 ## Paso 8: (Opcional) Configuración de un período de gracia {#section-aceacdb7d5794f25ac6ff46f82e148e1}
 
-Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un [periodo de gracia temporal](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration). Los períodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un periodo de gracia.
+Si alguno de estos casos de uso se aplica a su situación, pida al [Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html) que configure un [periodo de gracia temporal](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration). Los períodos de gracia pueden durar hasta 180 días. Si es necesario, puede renovar un periodo de gracia.
 
 **Implementación parcial**
 

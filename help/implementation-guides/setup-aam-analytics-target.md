@@ -220,7 +220,7 @@ Compruebe el identificador SDID en la solicitud de JavaScript. El SDID de Analyt
 Si las pruebas devuelven un AID, esto indica cualquiera de los siguientes factores:
 
 * Usted es un visitante que regresa en el proceso de migrar ID de Analytics heredados.
-* Tiene un [período de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) habilitado.
+* Tiene un [período de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) habilitado.
 
 Si ve un AID, compare su valor con el mboxMCAVID de Target. Estos valores son idénticos cuando el servicio de ID de visitante se ha implementado correctamente.
 

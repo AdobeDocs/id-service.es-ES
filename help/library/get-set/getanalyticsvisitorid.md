@@ -58,7 +58,7 @@ Verá el parámetro `aid` en una cadena de consulta cuando:
 
 **Caso 2**
 
-Verá el parámetro `aid` en una cadena de consulta cuando su organización esté usando un [período de gracia](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) antes de implementar completamente el servicio de ID de visitante. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ECID).
+Verá el parámetro `aid` en una cadena de consulta cuando su organización esté usando un [período de gracia](https://experienceleague.adobe.com/es/docs/analytics/implementation/id/migration) antes de implementar completamente el servicio de ID de visitante. Si el usuario que visita su sitio es nuevo y no está usando un período de gracia, el visitante obtendrá el parámetro `mid` (ECID).
 
 >[!MORELIKETHIS]
 >

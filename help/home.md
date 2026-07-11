@@ -36,7 +36,7 @@ El servicio de ID de visitante de Adobe habilita el marco de identificación com
 Para comprender mejor cómo Adobe ayuda a identificar visitantes de forma exclusiva y a resolver la información de identidad, lea el desglose siguiente:
 
 * **Servicio de ID de visitante**: El servicio de ID de visitante **es responsable de configurar el ECID**. Para obtener más información, lea la [descripción general del servicio de ID de visitante](./introduction/overview.md).
-* **ECID**: ECID es un área de nombres de identidad compartida que se usa en las aplicaciones empresariales de Adobe Experience Platform y Adobe CX para identificar personas y dispositivos. Para obtener más información sobre el ECID, lea la [Información general de ECID](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/ecid).
+* **ECID**: ECID es un área de nombres de identidad compartida que se usa en las aplicaciones empresariales de Adobe Experience Platform y Adobe CX para identificar personas y dispositivos. Para obtener más información sobre el ECID, lea la [Información general de ECID](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/ecid).
 * **Servicio de identidad de Experience Platform**: el servicio de identidad de Experience Platform le ofrece una vista completa de sus clientes y de su comportamiento al unir identidades entre dispositivos y sistemas. Para obtener más información, lea [Información general del servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es).
 
 ## Introducción
