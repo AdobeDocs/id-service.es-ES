@@ -40,7 +40,7 @@ Un aspecto importante de las normas de privacidad es la adquisición y transmisi
 
 [!UICONTROL Opt-in] se puede configurar más fácilmente con etiquetas. Vea el siguiente vídeo breve para ver cómo.
 
->[!VIDEO](https://video.tv.adobe.com/v/26431/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/40336/?captions=spa&quality=12)
 
 Si no usa etiquetas, puede establecer la configuración de [!UICONTROL Opt-in] en la inicialización del objeto de Visitante global, como se muestra en la [documentación](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html?lang=es).
 
@@ -54,7 +54,7 @@ Al configurar una interfaz de usuario para usar [!UICONTROL Opt-in] con el fin d
 
 En el siguiente vídeo, vea una demostración rápida de [!UICONTROL Opt-in] trabajando en la página y cómo puede afectar si las soluciones de CX Enterprise pueden configurar cookies, iniciar señalizaciones, etc.
 
->[!VIDEO](https://video.tv.adobe.com/v/26432/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/40341/?captions=spa&quality=12)
 
 **NOTA:** Es importante tener en cuenta que en el momento de escribir este artículo, [!UICONTROL Opt-in] no se ha integrado en las bibliotecas para todas las aplicaciones de CX Enterprise. Las bibliotecas admitidas actualmente para [!UICONTROL Opt-in] son:
 
