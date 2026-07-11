@@ -4,9 +4,15 @@ keywords: seguimiento entre dominios;Servicio de ID de visitante
 title: disableThirdPartyCalls
 exl-id: 1d5b4e80-1b2d-4401-9057-449a6abf5db5
 TQID: https://experienceleague.adobe.com/mv00QfToxSqeITADmY1LbihbtJNHf1zzQef9uKDu-dc
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
 source-wordcount: 205
@@ -18,7 +24,7 @@ ht-degree: 24%
 
 Un indicador booleano opcional que evita que el servicio de ID de visitante realice llamadas a otros dominios.
 
-**Sintaxis:** ` ` disableThirdPartyCalls: true false`` (el valor predeterminado es `false`).
+**Sintaxis:** ` ` disableThirdPartyCalls: true false&grave;&grave; (el valor predeterminado es `false`).
 
 Cuando `disableThirdPartyCalls: true`, el servicio de ID de visitante no realizará llamadas a otros dominios.
 

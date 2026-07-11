@@ -4,8 +4,13 @@ keywords: Servicio de ID de visitante
 title: idSyncAttachIframeOnWindowLoad
 exl-id: 44c45378-f007-4d87-913a-d6bb9961948c
 TQID: https://experienceleague.adobe.com/fEqtHlUaNadgatKX-V-7FuZn-WTZOFg-YtBOD7yKg0k
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 09ee359440c122702a6ce83708c98af3862c9cc9
 workflow-type: tm+mt
 source-wordcount: 78
@@ -17,7 +22,7 @@ ht-degree: 16%
 
 Un indicador booleano opcional que controla cómo carga el servicio de ID de visitante el iFrame de sincronización de ID.
 
-**Sintaxis:** ` `idSyncAttachIframeOnWindowLoad= true false`` (el valor predeterminado es `false`).
+**Sintaxis:** ` `idSyncAttachIframeOnWindowLoad= true false&grave;&grave; (el valor predeterminado es `false`).
 
 Cuando `idSyncAttachIframeOnWindowLoad: true`, el servicio de ID de visitante carga el iFrame de sincronización de ID en la ventana de carga. De forma predeterminada, el servicio de ID de visitante carga el iFrame de sincronización con el ID lo más rápido posible en lugar de al cargar la ventana.
 
